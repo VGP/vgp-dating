@@ -1,4 +1,4 @@
-# VGP Phase I dating repo – assembling fossil calibrations
+# VGP Phase I dating – assembling fossil calibrations
 
 ## Team
 **Coordinator:** Alex Pyron (rpyron@gwu.edu) – The George Washington University
