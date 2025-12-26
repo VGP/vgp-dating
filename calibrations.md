@@ -21,7 +21,7 @@ This is the final set of $XXX calibrations.
 [**Crocodilians:**](/crocodylia/crocodylia.md) 
 
 Node number $XXX: 72.9-101.0Ma (Median: 87Ma)\
-From timetree.org, MRCA of _Alligator__ and _Gavialis_
+From timetree.org, MRCA of _Alligator_ and _Gavialis_
 
 **Birds:**
 
