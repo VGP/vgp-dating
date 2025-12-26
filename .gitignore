@@ -1,0 +1,23 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+logs/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+tmp/
+temp/
+.cache/
