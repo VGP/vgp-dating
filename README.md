@@ -42,17 +42,17 @@ Either Siavash or I will add a reference tree based on roadies_v1.1.16b.nwk with
 
 There are three major ways that we might explore robustness and congruence in addition to solely implementing min-max age constraints for fossil calibration. 
 
-The first is that we can select one or several tip-sampled phylogenies to fix the node ages using an approach such as [congruify]([url](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12051)) based on a dataset such as [Tetrapod1.0]([url](https://pubmed.ncbi.nlm.nih.gov/41041580/)). 
+The first is that we can select one or several tip-sampled phylogenies to fix the node ages using an approach such as [congruify](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12051) based on a dataset such as [Tetrapod1.0](https://pubmed.ncbi.nlm.nih.gov/41041580/). 
 
 A second, related approach would be to do this using more recent trees for each subclade and patching them together using a fixed, dated backbone for Deuterostomia or Vertebrata.
 
-A third strategy is to derive all calibration ranges from the empirical distribution of dates and ages for a set of clades (perhaps all Superorders and subtending nodes) from [timetree.org]([url](http://timetree.org)), giving a broadly sampled prior distribution from combined previous studies.
+A third strategy is to derive all calibration ranges from the empirical distribution of dates and ages for a set of clades (perhaps all Superorders and subtending nodes) from [timetree.org](http://timetree.org), giving a broadly sampled prior distribution from combined previous studies.
 
-This empirical prior can then be used to (i) produce a dated tree using these constraints alone, and (ii) employing them as post-hoc calibration checks sensu [Pyron (2010)]([url](https://pubmed.ncbi.nlm.nih.gov/20525629/)).
+This empirical prior can then be used to (i) produce a dated tree using these constraints alone, and (ii) employing them as post-hoc calibration checks sensu [Pyron (2010)](https://pubmed.ncbi.nlm.nih.gov/20525629/).
 
 We can also use these empirical priors in a cross-validation framework to identify which nodes exibit the most variance under different calibration strategies, as an additional indicator of robustness.
 
 
 ## Analytical Methods
 
-This is a secondary consideration that we can discuss as a group, hopefully to be conducted by a subset of team members. Basic approaches such as [treePL]([url](https://github.com/blackrim/treePL)) will likely form the core of our initial testing pipelines, but we should explore a range of options. Approaches such as [RevBayes]([url](https://revbayes.github.io/tutorials/dating/)) and [mcmctree]([url](https://github.com/dosreislab/mcmctree)) would allow us to exploit more accuracy and precision from our whole-genome data – fulfilling a core aim of the VGP, to demonstrate how these data allow superior inference over previous approaches – but will likely face significant computational burdens and runtime constraints. This is an open area of inquiry for our group.
+This is a secondary consideration that we can discuss as a group, hopefully to be conducted by a subset of team members. Basic approaches such as [treePL](https://github.com/blackrim/treePL) will likely form the core of our initial testing pipelines, but we should explore a range of options. Approaches such as [RevBayes](https://revbayes.github.io/tutorials/dating/) and [mcmctree](https://github.com/dosreislab/mcmctree) would allow us to exploit more accuracy and precision from our whole-genome data – fulfilling a core aim of the VGP, to demonstrate how these data allow superior inference over previous approaches – but will likely face significant computational burdens and runtime constraints. This is an open area of inquiry for our group.
