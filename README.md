@@ -5,6 +5,8 @@
 
 **Contributors:**
 
+Tom Near (thomas.near@yale.edu) – Yale University (Fishes)
+
 
 ## Aims & Scope
 
