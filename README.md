@@ -3,7 +3,7 @@
 ## Team
 **Coordinator:** Alex Pyron (rpyron@gwu.edu) – The George Washington University
 
-**Contributors:**
+**Contributors:**\
 Tom Near (thomas.near@yale.edu) – Yale University (Fishes)
 
 
