@@ -1,19 +1,8 @@
-﻿Point,Min,Max,Title,Reference,Year
-81.2,,,A phylogenomic framework and timescale for comparative studies of tunicates.,Delsuc et al.,2018
-33,,,"Combining phylogenomic and supermatrix approaches, and a time-calibrated phylogeny for squamate reptiles (lizards and snakes) based on 52 genes and 4162 species.",Zheng et al.,2016
-95.3,,,Role of Chromosome Changes in Crocodylus Evolution and Diversity.,Srikulnath et al.,2015
-70.9,,,Rigorous approaches to species delimitation have significant implications for African crocodilian systematics and conservation.,Shirley et al.,2014
-89.9,,,One tree to link them all: a phylogenetic dataset for the European tetrapoda.,Roquet et al.,2014
-77.3,,,The draft genomes of soft-shell turtle and green sea turtle yield insights into the development and evolution of the turtle-specific body plan.,Wang et al.,2013
-24.9,,,Estimating divergence dates and evaluating dating methods using phylogenomic and mitochondrial data in squamate reptiles.,Mulcahy et al.,2012
-94.2,,,Vertebrate time-tree elucidates the biogeographic pattern of a major biotic change around the K-T boundary in Madagascar.,Crottini et al.,2012
-103.6,,,The development of three long universal nuclear protein-coding locus markers and their application to osteichthyan phylogenetics with nested PCR.,Shen et al.,2012
-87.1,,,A time-calibrated species tree of Crocodylia reveals a recent radiation of the true crocodiles.,Oaks et al.,2011
-110.2,,,Multiple genome alignments facilitate development of NPCL markers: a case study of tetrapod phylogeny focusing on the position of turtles.,Shen et al.,2011
-75.5,,,A likelihood method for assessing molecular divergence time estimates and the placement of fossil calibrations.,Pyron et al.,2010
-87.4,,,Nine exceptional radiations plus high turnover explain species diversity in jawed vertebrates.,Alfaro et al.,2009
-102.6,,,The TimeTree of Life,Hedges et al.,2009
-42,,,"Calibration choice, rate smoothing, and the pattern of tetrapod diversification according to the long nuclear gene RAG-1.",Hugall et al.,2007
-101,,,Extended mitogenomic phylogenetic analyses yield new insight into crocodylian evolution and their survival of the Cretaceous-Tertiary boundary.,Roos et al.,2007
-150.5,,,Mitogenomic analyses place the gharial (Gavialis gangeticus) on the crocodile tree and provide pre-K/T divergence times for most crocodilians.,Janke et al.,2005
-72.9,,,Calibration age and quartet divergence date estimation.,Brochu et al.,2004
+﻿Point,Min,Max,Title,Reference,Year,
+95.6,79.04,119.12,Empirical and Bayesian approaches to fossil-only divergence times: a study across three reptile clades,Turner et al.,2017,From paper. Darlim reported 81.02–114.25 and Groh reported 77.1–101.7
+100,90,110,Tip dating and homoplasy: reconciling the shallow molecular divergences of modern gharials with their long fossil record,Lee and Yates,2018,
+120,115,125,The multi-peak adaptive landscape of crocodylomorph body size evolution,Godoy et al.,2019,From Groh
+94.1,86.77,103.09,The impact of molecular data on the phylogenetic position of the putative oldest crown crocodilian and the age of the clade,Darlim et al.,2022,
+98.41,86.82,110.14,Exceptional fossils from Peru and an integrative phylogeny reconcile the evolutionary timing and mode of Gavialis and its kin,Zamora-Vega et al.,2025,
+98.69,92.09,105.29,Environmental drivers of body size evolution in crocodile-line archosaurs,Stockdale and Benton,2021,From Groh – FBD with CI 6.6 from Crocodylia node
+160.9,148.7,173.1,How to date a crocodile: estimation of neosuchian clade ages and a comparison of four time-scaling methods,Groh et al.,2022,FBD
