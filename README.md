@@ -1,14 +1,12 @@
-# vgp-dating
+# VGP Phase I dating repo – assembling fossil calibrations
 
-## VGP Phase I dating repo – assembling fossil calibrations
-
-### Team
+## Team
 **Coordinator:** Alex Pyron (rpyron@gwu.edu) – The George Washington University
 
 **Contributors:**
 
 
-### Aims & Scope
+## Aims & Scope
 
 Here is the [final tree](https://github.com/VGP/vgp-trees/tree/main/phase-1) in [newick](https://github.com/VGP/vgp-trees/blob/main/phase-1/roadies_v1.1.16b.nwk). Other PDFs with different taxon labels are available at the repo. We will base our nodal constraints on this topology. Given the limited taxon sampling and absence of fossil tips, this exercise will in many ways be simplified and reminiscent of earlier eras in the field of divergence-time estimation. Our primary aim here is to generate well-constrained ranges for a variety of nodes across the tree, to produce a robustly calibrated timescale for vertebrate evolution. This should be congruent with the fossil record and with existing consensus estimates for the origin of various groups.
 
@@ -19,7 +17,7 @@ This feeds into the need for equivalent standards, practices, and criteria for t
 To begin with, we can outline four types of possible calibrations that can be drawn from team expertise, the literature, and existing analyses. This outline can provide some initial structure for us to begin compiling bounds and ranges. We can modify this set of considerations as we go. The strength of evidence will generally range from explicit phylogenetic hypotheses for fossil placement based on combined-evidence, tip-dated analysis, to expert-assessed consensus over the likely stratigraphic range during which a stem- or crown-group arose.
 
 
-### Calibration types
+## Calibration types
 
 **Type I – stage-based internal & root nodes:** For many nodes such as the root, age calibrations will primarily refer to stratigraphic ranges based on initial taxon appearances and expert-assessed consensus for the upper bounds. A key example is the root, which [likely dates](https://www.nature.com/articles/nature16150) to the mid-Ediacaran ~570Ma and will presumably therefore receive a range of ~541–635Ma. The impact of fossil material is generally indirect in these instances. Only a few nodes should receive calibrations of this type, mostly towards the root of the tree.
 
@@ -30,7 +28,7 @@ To begin with, we can outline four types of possible calibrations that can be dr
 **Type IV – phylogenetic fossils:** The ideal type of calibration will derive from a recent total-evidence phylogenetic analysis that includes the fossil of interest and therefore provides an objective reference for its placement in our tree, along with a median age estimate and confidence interval on the stem and crown ages. Ideally, most of our calibrations will derive from such sources. Luckily, many such estimates have been published recently for most major clades, so each team has an extensive set of resources from which to work.
 
 
-### Syntax
+## Syntax
 
 Either Siavash or I will add a reference tree based on roadies_v1.1.16b.nwk with APE-style node numbers from R to facilitate objective reference to nodes. Minimal documentation will be:\
 	-Node number and lineage\
@@ -40,7 +38,7 @@ Either Siavash or I will add a reference tree based on roadies_v1.1.16b.nwk with
 	-Citations and references
 
 
-### Alternatives & Complements
+## Alternatives & Complements
 
 There are three major ways that we might explore robustness and congruence in addition to solely implementing min-max age constraints for fossil calibration. 
 
@@ -55,6 +53,6 @@ This empirical prior can then be used to (i) produce a dated tree using these co
 We can also use these empirical priors in a cross-validation framework to identify which nodes exibit the most variance under different calibration strategies, as an additional indicator of robustness.
 
 
-### Analytical Methods
+## Analytical Methods
 
 This is a secondary consideration that we can discuss as a group, hopefully to be conducted by a subset of team members. Basic approaches such as [treePL]([url](https://github.com/blackrim/treePL)) will likely form the core of our initial testing pipelines, but we should explore a range of options. Approaches such as [RevBayes]([url](https://revbayes.github.io/tutorials/dating/)) and [mcmctree]([url](https://github.com/dosreislab/mcmctree)) would allow us to exploit more accuracy and precision from our whole-genome data – fulfilling a core aim of the VGP, to demonstrate how these data allow superior inference over previous approaches – but will likely face significant computational burdens and runtime constraints. This is an open area of inquiry for our group.
