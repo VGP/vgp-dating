@@ -66,9 +66,9 @@ This is a secondary consideration that we can discuss as a group, hopefully to b
 
 **Early vertebrates:**
 
-**Gnathostomes, chondrichthyans, and bony fish:**
+**Fishes:**
 
-**Lungfish & tetrapods:**
+**Tetrapods:**
 
 **Amphibians:**
 
