@@ -12,7 +12,7 @@ This is the final set of $XXX calibrations.
 
 ## [Amphibians](/amphibia/amphibia.md):
 
-**Type II Calibrations: **(compiled from [Kligman et al. 2023](https://www.nature.com/articles/s41586-022-05646-5))
+**Type II Calibrations:** (compiled from [Kligman et al. 2023](https://www.nature.com/articles/s41586-022-05646-5))
 Node number **$XXX**: Lissamphibia\
 -with Gerobatrachus: 278–361Ma (Median 320Ma)\
 -Lissamphibia without Gerobatrachus: 316–363Ma (Median 326Ma)\
