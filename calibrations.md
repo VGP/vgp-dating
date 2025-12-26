@@ -30,8 +30,7 @@ Node number **$XXX**: Gymnophiona: 91.6–259Ma (Median 216Ma)
 ## [Crocodilians:](/crocodylia/crocodylia.md) 
 
 **Type II Calibration:**\
-Node number **$XXX**: 91.6-112.1Ma (Median: 101.1Ma) based on 6 total-evidence analyses\
-From timetree.org, MRCA of _Alligator_ and _Gavialis_ is 72.9-101.0Ma (Median: 87Ma)
+Node number **$XXX**: Crocodylia: 91.6-112.1Ma (Median: 101.1Ma) based on 6 total-evidence analyses\
 
 ## Birds:
 
