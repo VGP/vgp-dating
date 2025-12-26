@@ -30,11 +30,11 @@ Type IV – phylogenetic fossils: The ideal type of calibration will derive from
 ### Syntax
 
 Either Siavash or I will add a reference tree based on roadies_v1.1.16b.nwk with APE-style node numbers from R to facilitate objective reference to nodes. Minimal documentation will be:
-	-Node number and lineage
-	-Type of calibration: I–IV
-	-Minimum and maximum ages in Ma: e.g., 234.5,456.2
-	-Associated fossil material and rationale
-	-Citations and references
+	-Node number and lineage\
+	-Type of calibration: I–IV\
+	-Minimum and maximum ages in Ma: e.g., 234.5,456.2\
+	-Associated fossil material and rationale\
+	-Citations and references\
 
 
 
