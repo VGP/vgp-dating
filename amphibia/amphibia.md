@@ -49,4 +49,4 @@ age_summary <- amphibia %>%
 
 age_summary
 ```
-<img width="1636" height="1174" alt="image" src="https://github.com/user-attachments/assets/9003bb36-8199-4e3e-954a-f8bcf5c95423" />
+<img width="1636" height="1174" alt="image" src="https://github.com/user-attachments/assets/f5a1804b-ff29-461b-8027-8e722b3af241" />
