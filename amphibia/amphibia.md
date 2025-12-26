@@ -4,7 +4,7 @@ There are relatively few amphibians sampled, leaving Type III & IV calibrations 
 
 **$XXX ADD TYPE3/4 CALIBRATIONS FOR FROGS**
 
-In contrast, we might be better served with Type I & II calibrations at the root. Previous estimates for Lissamphibia (Gymnophiona + Batrachia) with and without _Gerobatrachus_ (depending on its placement as a stem batrachian) were previously compiled by [Kligman et al. (2023)](https://www.nature.com/articles/s41586-022-05646-5). We summarize those here to obtain a 95% CI from the quantiles. Those authors also summarized the published evidence for Batrachia (Salientia + Urodela), which we analyzed in the same manner.
+In contrast, we might be better served with Type I & II calibrations at the root. Previous estimates for Lissamphibia (Gymnophiona + Batrachia) with and without _Gerobatrachus_ (depending on its placement as a stem batrachian) were previously compiled by [Kligman et al. (2023)](https://www.nature.com/articles/s41586-022-05646-5). We summarize those here to obtain a 95% CI from the quantiles. Those authors also summarized the published evidence for Batrachia (Salientia + Urodela), which we analyzed in the same manner:
 
 Lissamphibia with _Gerobatrachus_: 278–361Ma (Median 320Ma)\
 Lissamphibia without _Gerobatrachus_: 316–363Ma (Median 326Ma)\
