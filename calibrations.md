@@ -31,7 +31,7 @@ Node number **$XXX**: Gymnophiona: 91.6–259Ma (Median 216Ma)
 
 ## Mammals:
 
-## [Squamates](/squamata/squamata_calibrations.md):
+## [Squamates](/squamata/squamata.md):
 
 **Type IV Calibrations:**\
 Node number $XXX: Squamata: 167.2–252.0Ma. 
