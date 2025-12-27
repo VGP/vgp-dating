@@ -1,10 +1,12 @@
 # Crocodylia calibration
 
-One terminal node (Crocodylia), separating _Alligator_ and _Gavialis_. Generally dates to the Late/Upper Cretaceous, ~90Ma. While there is an extensive crocodilian fossil record – both stem and crown – dating back to the Triassic, there are few well-constrained fossils in the vicinity of Crocodylia based on recent phylogenetic analyses. 
+One terminal node (Crocodylia), separating _Alligator_ and _Gavialis_. Generally dates to the Late/Upper Cretaceous, ~90Ma. While there is an extensive crocodilian fossil record – both stem and crown – dating back to the Triassic, there are only a few well-constrained fossils in the vicinity of Crocodylia based on recent phylogenetic analyses.
 
 TimeTree.org estimates a median age of 87Ma (72.9-101.0Ma) from 18 studies between 2004 and 2018. To this we added 5 additional studies from 2006–2021. Excluding outliers (1.5 * IQR), this yields a median of 87.4Ma with a range from 70.9–110.2Ma. The data are given in crocodylia_timetree.csv.
 
-To this, we can compare 7 estimates from 6 total-evidence studies with fossil tips from 2017–2025 to generate a Type II calibration density of 91.6–112.1Ma (Median 101.1Ma) based on the average dates and CIs. This excludes the outlier from the Groh et al. 2022 FBD analysis, which reports dramatically different topologies and timescales for Gavialoidea. The data are recorded in crocodylia_calibrations.csv.
+To this, we can compare 8 estimates from 7 total-evidence studies with fossil tips from 2017–2025 to generate a Type II calibration density of 91.6–112.1Ma (Median 101.1Ma) based on the average dates and CIs. This excludes the outlier from the Groh et al. 2022 FBD analysis, which reports dramatically different topologies and timescales for Gavialoidea. The data are recorded in crocodylia_calibrations.csv.
+
+The closest Type IV calibration is _Leidyosuchus canadensis_ (Cretaceous: Campanian, 77.9–72.1Ma) as an early crown-group member of Crocodylia. This placement is supported by all 8 total-evidence analyses, generally on the stem of Alligatoroidea. We therefore place a minimum bound of 77.9Ma on this node, and a maximum of 
 
 ```r
 library(ggplot2)
