@@ -8,10 +8,11 @@ Node number $XXX: Unidentata: 148.0–252.0Ma. This calibration is based on the 
 
 Node number $XXX: Laterata: 130.2–252.0Ma. This calibration is based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma).
 
-We can add two more Type IV calibrations from less-widely replicated analyses, that of [Benson et al. 2025](https://www.nature.com/articles/s41586-025-09566-y) and [Zaher and Smith 2020](https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2020.0735).
+We can add two more Type IV calibrations from less-widely replicated analyses, that of [Benson et al. 2025](https://www.nature.com/articles/s41586-025-09566-y) and [Zaher and Smith 2020](https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2020.0735). In the former, time-calibrated morphological phylogenetic analyses based on their Datasets 2 and 3 placed Parviraptoridae in the crown group Toxicofera, providing a late Jurassic minimum age for this node. In the latter, total-evidence analyses including the early Eocene _Messelopython_ on the stem of Pythonidae place a minimum age on the divergence between _Liasis_ (Pythonidae) and _Candoia_ (Boidae) in our topology.
 
-In the former, time-calibrated morphological phylogenetic analyses based on their Datasets 2 and 3 placed Parviraptoridae in the crown group Toxicofera, providing a late Jurassic minimum age for this node. In the latter, total-evidence analyses including the early Eocene _Messelopython_ (Pythonidae) place a minimum age on the divergence between _Liasis_ (Pythonidae) and _Candoia_ (Boidae) in our topology.
+Node number $XXX: Toxicofera: 148.0–252.0Ma. This calibration is based on the earliest stem Scincoidea taxon _Eoscincus parvus_ (Paramacellodidae), from the Tithonian of the late Jurassic (143.1–149.2Ma).
 
+Node number $XXX: _Candoia_ + _Liasis_ (unnamed): 48.0–252.0Ma. This calibration is based on the earliest stem Pythonidae taxon _Messelophis freyi_, from the Ypresian/Lutetian of the early/middle Eocene (47.0-48.3Ma).
 
 ## References
 
