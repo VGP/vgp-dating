@@ -103,6 +103,15 @@ ggplot() +
     axis.ticks = element_line(color = "black"),
     axis.ticks.length = unit(0.2, "cm")
   ) + 
+  annotate(
+    "text",
+    x = 22.5, y = 0.028,   # <-- adjust as needed
+    label = "Leidysuchus canadensis",
+    hjust = 0, vjust = 1,
+    size = 3.5,
+    color = "black",
+    fontface = "italic"
+  ) + 
   add_phylopic(
     uuid = "a796420f-5158-4e96-acbe-e30ef36b26d6",
     x=170,
@@ -112,7 +121,7 @@ ggplot() +
   add_phylopic(
     uuid = "9ae2be6e-95fa-4514-955e-130236fc07b7",
     x=50,
-    y=0.0265,
+    y=0.025,
     height=0.0035,
     fill = "lightgrey"
   )
