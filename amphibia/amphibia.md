@@ -2,9 +2,9 @@
 
 There are relatively few amphibians sampled, leaving Type III & IV calibrations primarily to a few frog groups, mostly in Neobatrachia. 
 
-**$XXX ADD TYPE3/4 CALIBRATIONS FOR FROGS**
+The total-
 
-In contrast, we might be better served with Type I & II calibrations at the root. Previous estimates for Lissamphibia (Gymnophiona + Batrachia) with and without _Gerobatrachus_ (depending on its placement as a stem batrachian) were previously compiled by [Kligman et al. (2023)](https://www.nature.com/articles/s41586-022-05646-5). We summarize those here to obtain a 95% CI from the quantiles. Those authors also summarized the published evidence for Batrachia (Salientia + Urodela) and Gymnophiona (Rhinatrematidae + Stegokrotaphia), which we analyzed in the same manner:
+There are well-documented times for likelihood checkpoints at the root. Previous estimates for Lissamphibia (Gymnophiona + Batrachia) with and without _Gerobatrachus_ (depending on its placement as a stem batrachian) were previously compiled by [Kligman et al. (2023)](https://www.nature.com/articles/s41586-022-05646-5). We summarize those here to obtain a 95% CI from the quantiles. Those authors also summarized the published evidence for Batrachia (Salientia + Urodela) and Gymnophiona (Rhinatrematidae + Stegokrotaphia), which we analyzed in the same manner:
 
 Lissamphibia with _Gerobatrachus_: 278–361Ma (Median 320Ma)\
 Lissamphibia without _Gerobatrachus_: 316–363Ma (Median 326Ma)\
@@ -50,3 +50,6 @@ age_summary <- amphibia %>%
 age_summary
 ```
 <img width="1636" height="1174" alt="image" src="https://github.com/user-attachments/assets/f5a1804b-ff29-461b-8027-8e722b3af241" />
+
+## References
+
