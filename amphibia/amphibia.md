@@ -15,45 +15,7 @@ Gymnophiona: 91.6–259Ma (Median 216Ma)
 
 *This is Plesiophiona + Pseudophiona in the nomenclature of Dubois et al. 2021
 
-```r
-library(ggplot2)
-library(dplyr)
-library(tidyr)
-
-amphibia <- read.csv("amphibia_calibrations.csv",header=T,stringsAsFactors = T)
-
-# --- 1) Overlapping densities on the same plot ---
-p <- ggplot(amphibia, aes(x = Age, fill = Clade, color = Clade)) +
-  geom_density(alpha = 0.25, linewidth = 1.0, adjust = 1) +
-  labs(
-    title = "Age density by clade",
-    x = "Age (Ma)",
-    y = "Density",
-    fill = "Clade",
-    color = "Clade"
-  ) +
-  theme_minimal(base_size = 12) +
-  theme(
-    panel.grid.minor = element_blank(),
-    plot.title = element_text(face = "bold")
-  )
-
-p
-
-# --- 2) 95% interval (2.5% & 97.5%) + median for each clade ---
-age_summary <- amphibia %>%
-  group_by(Clade) %>%
-  summarise(
-    n = sum(!is.na(Age)),
-    q2.5   = quantile(Age, 0.025, na.rm = TRUE),
-    median = median(Age, na.rm = TRUE),
-    q97.5  = quantile(Age, 0.975, na.rm = TRUE),
-    .groups = "drop"
-  )
-
-age_summary
-```
-<img width="1636" height="1174" alt="image" src="https://github.com/user-attachments/assets/f5a1804b-ff29-461b-8027-8e722b3af241" />
+<img width="2189" height="1529" alt="image" src="https://github.com/user-attachments/assets/cad59f92-345a-4dfe-a558-63c10ce5b2de" />
 
 ## References
 
