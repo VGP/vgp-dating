@@ -6,7 +6,7 @@ TimeTree.org estimates a median age of 87Ma (72.9-101.0Ma) from 18 studies betwe
 
 To this, we can compare 8 estimates from 7 total-evidence studies with fossil tips from 2017–2025 to estimate a range of 88.3–107.9Ma (Median 97.4Ma) based on the average ages and CIs. This excludes two outlier ages, one from from Godoy et al. 2019 and the Groh et al. 2022 FBD analysis, which reports dramatically different topologies and timescales for Gavialoidea. The data are recorded in crocodylia_calibrations.csv.
 
-The closest Type IV calibration is _Leidyosuchus canadensis_ (Cretaceous: Campanian, 77.9–72.1Ma) as an early crown-group member of Crocodylia. This placement is supported by all 8 total-evidence analyses, generally on the stem of Alligatoroidea. We therefore place a minimum bound of 77.9Ma on this node. 
+The closest Type IV calibration is _Leidyosuchus canadensis_ (Cretaceous: Campanian, 77.9–72.1Ma) as an early crown-group member of Crocodylia. This placement is supported by all 8 total-evidence analyses, generally on the stem of Alligatoroidea. We therefore place a minimum bound of 77.9Ma on this node. A possible maximum bound is the lower Albian (113.2-100.5Ma), as the lower 95% CI of both times and ages is 107.2Ma and 107.9Ma, respectively.
 
 ```r
 library(rphylopic)
