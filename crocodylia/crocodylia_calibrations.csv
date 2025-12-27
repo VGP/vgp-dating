@@ -1,8 +1,9 @@
 ﻿Point,Min,Max,Title,Reference,Year,Notes
-95.6,79.04,119.12,Empirical and Bayesian approaches to fossil-only divergence times: a study across three reptile clades,Turner et al.,2017,From paper. Darlim reported 81.02–114.25 and Groh reported 77.1–101.7
-100,90,110,Tip dating and homoplasy: reconciling the shallow molecular divergences of modern gharials with their long fossil record,Lee and Yates,2018,
-120,115,125,The multi-peak adaptive landscape of crocodylomorph body size evolution,Godoy et al.,2019,From Groh
 94.1,86.77,103.09,The impact of molecular data on the phylogenetic position of the putative oldest crown crocodilian and the age of the clade,Darlim et al.,2022,
+95.6,79.04,119.12,Empirical and Bayesian approaches to fossil-only divergence times: a study across three reptile clades,Turner et al.,2017,From paper. Darlim reported 81.02–114.25 and Groh reported 77.1–101.7
+97.5,95,100,Phylogenetic analysis of a new morphological dataset elucidates the evolutionary history of Crocodylia and resolves the long-standing gharial problem,Rio and Mannion,2021,
 98.41,86.82,110.14,Exceptional fossils from Peru and an integrative phylogeny reconcile the evolutionary timing and mode of Gavialis and its kin,Zamora-Vega et al.,2025,
 98.69,92.09,105.29,Environmental drivers of body size evolution in crocodile-line archosaurs,Stockdale and Benton,2021,From Groh – FBD with CI 6.6 from Crocodylia node
+100,90,110,Tip dating and homoplasy: reconciling the shallow molecular divergences of modern gharials with their long fossil record,Lee and Yates,2018,
+120,115,125,The multi-peak adaptive landscape of crocodylomorph body size evolution,Godoy et al.,2019,From Groh
 160.9,148.7,173.1,How to date a crocodile: estimation of neosuchian clade ages and a comparison of four time-scaling methods,Groh et al.,2022,FBD
