@@ -129,3 +129,7 @@ ggplot() +
   )
 ```
 <img width="1636" height="1174" alt="image" src="https://github.com/user-attachments/assets/07786c20-ea5d-433b-aa64-87467072e3d9" />
+
+## References
+
+Salas-Gismondi, R., Moreno-Bernal, J.W., Scheyer, T.M., Sánchez-Villagra, M.R. and Jaramillo, C., 2019. New Miocene Caribbean gavialoids and patterns of longirostry in crocodylians. Journal of Systematic Palaeontology, 17(12), pp.1049-1075.
