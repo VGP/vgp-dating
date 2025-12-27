@@ -12,6 +12,13 @@ This is the final set of $XXX calibrations.
 
 ## [Amphibians](/amphibia/amphibia.md):
 
+**Type IV Calibration:**\
+Node number **$XXX**: Amphibia: 121.4-252.0Ma\
+-Based on _Eodiscoglossus santonjae_ (Cretaceous: Barremian, 121.4-125.8Ma), supported by 2 total-evidence analyses. **This is younger than some internal calibrations, and not particularly close to estimated ages.**
+
+Node number **$XXX**: Dorsipares: 150.8-252.0Ma\
+-Based on _Rhadinosteus parvus_ (Jurassic: Kimmeridgian, 150.8-155.7Ma), supported by 2 parsimony and supertree analyses. **This could potentially be placed one node up on the stem – Geobatrachia.**
+
 **Likelihood checkpoints:**\
 Node number **$XXX**: Lissamphibia\
 -with _Gerobatrachus_: 278–361Ma (Median 320Ma)\
