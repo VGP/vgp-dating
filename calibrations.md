@@ -35,7 +35,7 @@ Node number **$XXX**: Gymnophiona: 91.6–259Ma (Median 216Ma)
 
 **Type IV Calibrations:**\
 Node number $XXX: Squamata: 167.2–252.0Ma. 
--based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma). **This taxon is not confidently placed on the Gekkota stem, but this is a very safe minimum age for the crown group Squamata.**
+-based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma). **This taxon is not confidently placed, but this is a very safe minimum age for the crown group.**
 
 Node number $XXX: Unidentata: 148.0–252.0Ma. 
 -based on the earliest stem Scincoidea taxon _Eoscincus parvus_ (Paramacellodidae), from the Tithonian of the late Jurassic (143.1–149.2Ma).
