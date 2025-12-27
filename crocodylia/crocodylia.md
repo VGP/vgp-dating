@@ -126,4 +126,4 @@ ggplot() +
     fill = "lightgrey"
   )
 ```
-<img width="1636" height="1174" alt="image" src="https://github.com/user-attachments/assets/1827c70b-adb0-42b0-9d27-451d72ebea49" />
+<img width="1636" height="1174" alt="image" src="https://github.com/user-attachments/assets/07786c20-ea5d-433b-aa64-87467072e3d9" />
