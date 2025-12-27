@@ -8,7 +8,7 @@ To this, we can compare 8 estimates from 7 total-evidence studies with fossil ti
 
 The closest Type IV calibration is _Leidyosuchus canadensis_ (Cretaceous: Campanian, 77.9–72.1Ma) as an early crown-group member of Crocodylia. This placement is supported by all 8 total-evidence analyses, generally on the stem of Alligatoroidea. We therefore place a minimum bound of 77.9Ma on this node. A possible maximum bound is the lower Albian (113.2-100.5Ma), as the lower 95% CI of both times and ages is 107.2Ma and 107.9Ma, respectively.
 
-Other time-scaled parsimony analyses such as [Salas-Gismondi et al. 2019](https://www.tandfonline.com/doi/full/10.1080/14772019.2018.1495275) also support a Late Cretaceous origin for Crocodylia and a crown placement of _Leidyosuchus_, but do not report their exact age estimates.
+Other time-scaled parsimony analyses such as [Salas-Gismondi et al. 2019](https://www.tandfonline.com/doi/full/10.1080/14772019.2018.1495275) also support a Late Cretaceous origin for Crocodylia and a crown placement of _Leidyosuchus_, but do not report their exact age estimates and were therefore not included.
 
 ```r
 library(rphylopic)
