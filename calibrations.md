@@ -30,7 +30,7 @@ Node number **$XXX**: Gymnophiona: 91.6–259Ma (Median 216Ma)
 ## [Crocodilians:](/crocodylia/crocodylia.md) 
 
 **Type II Calibration:**\
-Node number **$XXX**: Crocodylia: 91.6-112.1Ma (Median: 101.1Ma) based on 6 total-evidence analyses\
+Node number **$XXX**: The closest Type IV calibration is Leidyosuchus canadensis (Cretaceous: Campanian, 77.9–72.1Ma) as an early crown-group member of Crocodylia. This placement is supported by all 8 total-evidence analyses, generally on the stem of Alligatoroidea. We therefore place a minimum bound of 77.9Ma on this node. A possible maximum bound is the lower Albian (113.2-100.5Ma), as the lower 95% CI of both times and ages is 107.2Ma and 107.9Ma, respectively.
 
 ## Birds:
 
