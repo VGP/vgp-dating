@@ -5,6 +5,7 @@
 
 **Contributors:**\
 Tom Near (thomas.near@yale.edu) – Yale University (Fishes)
+Tiago Simões (simoes@princeton.edu) – Princeton University (Squamates)
 
 
 ## Aims & Scope
