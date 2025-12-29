@@ -6,7 +6,7 @@
 **Contributors:**\
 Tom Near (thomas.near@yale.edu) – Yale University (Fishes)\
 Tiago Simões (simoes@princeton.edu) – Princeton University (Squamates)\
-Santiago Claramunt (sclaramu@uno.edu) – University of New Orleans (Birds)
+Santiago Claramunt (sclaramu@uno.edu) – University of New Orleans (Birds)\
 Ricardo Betancur (rbetancur@ucsd.edu) – UC San Diego (Fishes)
 
 
