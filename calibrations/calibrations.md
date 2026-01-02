@@ -7,13 +7,13 @@ This is the final set of $XXX calibrations.
 At the moment, the root (Deuterostomia) is set to the Ediacaran: 538.8–635Ma.
 
 
-## Early vertebrates:
+## [Early vertebrates](./vertebrates/vertebrata.md):
 
 ## Fishes:
 
 ## Tetrapods:
 
-## [Amphibians](/amphibia/amphibia.md):
+## [Amphibians](./amphibia/amphibia.md):
 
 **Type IV Calibration:**\
 Node number **$XXX**: Amphibia: 121.4-252.0Ma\
@@ -34,7 +34,7 @@ Node number **$XXX**: Gymnophiona: 91.6–259Ma (Median 216Ma)
 
 ## Mammals:
 
-## [Squamates](/squamata/squamata.md):
+## [Squamates](./squamata/squamata.md):
 
 **Type IV Calibrations:**\
 Node number $XXX: Squamata: 167.2–252.0Ma.\
@@ -54,7 +54,7 @@ Node number $XXX: _Candoia_ + _Liasis_ (unnamed): 48.0–252.0Ma.\
 
 ## Turtles:
 
-## [Crocodilians:](/crocodylia/crocodylia.md) 
+## [Crocodilians:](./crocodylia/crocodylia.md) 
 
 **Type IV Calibration:**\
 Node number **$XXX**: Crocodylia: 77.9-113.2Ma\
