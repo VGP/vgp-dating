@@ -11,11 +11,9 @@ Squamates have a high density of well-preserved fossils that have been included 
 
 **751:** Laterata: 130.2–252.0Ma. This calibration is based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma). **Supersedes calibration of 112.0Ma from _Ptilotodon wilsoni_ listed by Title et al. 2024.**
 
-We can add two more Type IV calibrations from less-widely replicated analyses, those of [Benson et al. 2025](https://www.nature.com/articles/s41586-025-09566-y) and [Zaher and Smith 2020](https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2020.0735). In the former, time-calibrated morphological phylogenetic analyses based on their Datasets 2 and 3 placed Parviraptoridae in the crown group Toxicofera, providing a late Jurassic minimum age for this node. In the latter, total-evidence analyses including the early Eocene _Messelopython_ on the stem of Pythonidae place a minimum age on the divergence between _Liasis_ (Pythonidae) and _Candoia_ (Boidae) in our topology.
+We can add another Type IV calibration from the recent analyses of [Benson et al. 2025](https://www.nature.com/articles/s41586-025-09566-y). The time-calibrated morphological phylogenetic analyses based on their Datasets 2 and 3 placed Parviraptoridae in the crown group Toxicofera, providing a late Jurassic minimum age for this node.
 
-**767:** Toxicofera: 167.0–252.0Ma. This calibration is based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated by other total-evidence analyses, but the timescale is highly congruent with most recent estimates, including Simões et al. 2026.**
-
-**774:** Stem Pythonidae (_Candoia_ + _Liasis_): 48.0–252.0Ma. This calibration is based on the earliest stem Pythonidae taxon _Messelophis freyi_, from the Ypresian/Lutetian of the early/middle Eocene (47.0-48.3Ma). **Also listed by Title et al. 2024 – superseded by calibration of 58.0Ma from _Titanoboa cerrejonensis_**
+**767:** Toxicofera: 167.0–252.0Ma. This calibration is based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated by other total-evidence analyses, but the timescale is highly congruent with most recent estimates, including Title et al. 2024 and Simões et al. 2026.**
 
 
 ### Type III Calibrations:
@@ -26,7 +24,7 @@ _Anniella + Elgaria_ (C21 – Anguinae)\
 Gekkota (C8)\
 Laterata (C9 – Teiidae) **Superseded by _Dalinghosaurus longidigitus_ analyzed by Simões et al. 2026**\
 _Anolis + Iguaga_ pleurodont burst (C11)\
-Stem Boidae (C16)\
+Stem Boidae (C16) **Supersedes _Messelophis freyi_ analyzed by Zaher and Smith 2020**\
 Crown Natricidae (_Natrix + Thamnophis_) (C25)\
 Endoglyptodonta (Viperidae + Colubroides) (C23)\
 
