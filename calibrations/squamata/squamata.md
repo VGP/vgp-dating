@@ -16,9 +16,11 @@ We can add another Type IV calibration from the recent analyses of [Benson et al
 
 ### Type III Calibrations:
 
-**749:** Unidentata: 170.0–252.0Ma. This calibration is based on the earliest Paramacellodidae, from the Bajocian of the Jurassic (168.2–170.9Ma).
+**749:** Unidentata: 170.0–252.0Ma. This calibration is based on the earliest Paramacellodidae (stem Scincoidea), from the Bajocian of the Jurassic (168.2–170.9Ma).
 
-Anguimorpha (C5)\
+**779:** Anguimorpha: 144.0–252.0Ma. This calibration is based on the oldest crown anguimorph _Dorsetisaurus purbeckensis_, from the Tithonian of the Jurassic (143.1–149.2Ma).
+
+
 _Anniella + Elgaria_ (C21 – Anguinae)\
 Gekkota (C8)\
 _Anolis + Iguana_ pleurodont burst (C11)\
