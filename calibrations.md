@@ -4,6 +4,9 @@ This is the final set of $XXX calibrations.
 
 ## Outgroups & root:
 
+At the moment, the root (Deuterostomia) is set to the Ediacaran: 538.8–635Ma.
+
+
 ## Early vertebrates:
 
 ## Fishes:
