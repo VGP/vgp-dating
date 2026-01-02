@@ -6,11 +6,11 @@
 **Contributors:**\
 Tom Near (thomas.near@yale.edu) – Yale (Fishes)\
 Tiago Simões (simoes@princeton.edu) – Princeton (Squamates)\
-Santiago Claramunt (sclaramu@uno.edu) – New Orleans (Birds)\
-Ricardo Betancur (rbetancur@ucsd.edu) – UC San Diego (Fishes)\
-Nate Upham (nathan.upham@asu.edu) – Arizona State (Mammals)\
+Santiago Claramunt (sclaramu@uno.edu) – UNO (Birds)\
+Ricardo Betancur (rbetancur@ucsd.edu) – UCSD (Fishes)\
+Nate Upham (nathan.upham@asu.edu) – ASU (Mammals)\
 Chase Brownstein (chase.brownstein@yale.edu) – Yale (Fishes)\
-Mario dos Reis (m.dosreisbarros@qmul.ac.uk) – Queen Mary (Mammals & methods)
+Mario dos Reis (m.dosreisbarros@qmul.ac.uk) – QMUL (Mammals & methods)
 
 
 ## Final calibrations
