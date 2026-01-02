@@ -47,7 +47,7 @@ Node number $XXX: Laterata: 130.2–252.0Ma.\
 -based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma).
 
 Node number $XXX: Toxicofera: 167.0–252.0Ma.\
--based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated beyond Benson et al. 2025, but the timescale is highly congruent with most recent estimates.**
+-based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated beyond [Benson et al. 2025](https://www.nature.com/articles/s41586-025-09566-y), but the timescale is highly congruent with most recent estimates.**
 
 Node number $XXX: _Candoia_ + _Liasis_ (unnamed): 48.0–252.0Ma.\
 -based on the earliest stem Pythonidae taxon _Messelophis freyi_, from the Ypresian/Lutetian of the early/middle Eocene (47.0-48.3Ma).
@@ -67,3 +67,5 @@ Total-evidence estimates from 6 studies between 2017 and 2025 estimate a median 
 ## [Birds](./birds/aves.md):
 
 ## References
+
+Benson, R.B.J., Walsh, S.A., Griffiths, E.F. et al. Mosaic anatomy in an early fossil squamate. Nature 647, 673–679 (2025). https://doi.org/10.1038/s41586-025-09566-y
