@@ -30,7 +30,7 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 
 **949:** Batrachia: 219–348Ma (Median 292Ma)\
 **977:** Gymnophiona: 91.6–259Ma (Median 216Ma)\
-**973:** Pseudosauria: $XXX (CHECK)
+**973:** Salamandroidea: $XXX (CHECK)
 
 ## [Mammals](./mammals/mammalia.md):
 
