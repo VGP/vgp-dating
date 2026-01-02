@@ -65,12 +65,14 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 **779:** Anguimorpha: 144.0–252.0Ma.\
 -based on the oldest crown anguimorph _Dorsetisaurus purbeckensis_, from the Tithonian of the Jurassic (143.1–149.2Ma).
 
-**780:** Anniellidae + Anguidae: 33.0–252.0Ma.\
+**780:** Anguidae: 33.0–252.0Ma.\
 -based on _Ophisaurus_ sp., the oldest crown anguid from the early Oligocene (23.0–33.9Ma).
 
-**782:** Gekkota: 97.0Ma. This calibration is based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
+**782:** Gekkota: 97.0Ma–252.0Ma.\
+-based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
 
-**777:** Tropical Pleurodonta (_Anolis + Iguana_): 49.1Ma. This calibration is based on _Afairiguana avius_, the oldest stem polychrotid from the early Eocene (48.5–53.5Ma), parameterizing the Dactyloidae + Iguanidae divergence which encompasses Polychrotidae.  
+**777:** Pleurodonta: 49.1Ma–252.0Ma.\
+-based on _Afairiguana avius_, the oldest stem polychrotid from the early Eocene (48.5–53.5Ma), parameterizing the Dactyloidae + Iguanidae divergence which encompasses Polychrotidae.  
 
 **774:** Stem Boidae: 58.0Ma. This calibration is based on _Titanoboa cerrejonensis_, the oldest stem Boinae from the middle-late Paleocene (58.0–60.0Ma), parameterizing the Boidae + Pythonidae divergence (i.e., as a stem boid).
 
