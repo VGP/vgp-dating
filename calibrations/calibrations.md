@@ -60,7 +60,7 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 
 ### Type III Calibrations:
 **749:** Unidentata: 170.0–252.0Ma.\
--based on the earliest Paramacellodidae (stem Scincoidea), from the Bajocian of the Jurassic (168.2–170.9Ma).
+-based on the earliest stem Scincoidea (Paramacellodidae), from the Bajocian of the Jurassic (168.2–170.9Ma).
 
 **779:** Anguimorpha: 144.0–252.0Ma.\
 -based on the oldest crown anguimorph _Dorsetisaurus purbeckensis_, from the Tithonian of the Jurassic (143.1–149.2Ma).
@@ -68,13 +68,14 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 **780:** Anguidae: 33.0–252.0Ma.\
 -based on _Ophisaurus_ sp., the oldest crown anguid from the early Oligocene (23.0–33.9Ma).
 
-**782:** Gekkota: 97.0Ma–252.0Ma.\
+**782:** Gekkota: 97.0–252.0Ma.\
 -based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
 
-**777:** Pleurodonta: 49.1Ma–252.0Ma.\
+**777:** Pleurodonta: 49.1–252.0Ma.\
 -based on _Afairiguana avius_, the oldest stem polychrotid from the early Eocene (48.5–53.5Ma), parameterizing the Dactyloidae + Iguanidae divergence which encompasses Polychrotidae.  
 
-**774:** Stem Boidae: 58.0Ma. This calibration is based on _Titanoboa cerrejonensis_, the oldest stem Boinae from the middle-late Paleocene (58.0–60.0Ma), parameterizing the Boidae + Pythonidae divergence (i.e., as a stem boid).
+**774:** Boidae: 58.0–252.0Ma.\
+-based on _Titanoboa cerrejonensis_, the oldest stem boid from the middle-late Paleocene (58.0–60.0Ma).
 
 **769:** Endoglyptodonta: 20.0Ma. This calibration is based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene (16.0–20.5Ma), parameterizing the Viperidae + Colubroides divergence (i.e., as a stem viperid).
 
