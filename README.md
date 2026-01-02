@@ -1,7 +1,7 @@
 # VGP Phase I dating – assembling fossil calibrations
 
 ## Team
-**Coordinator:** Alex Pyron (rpyron@gwu.edu) – The George Washington University
+**Coordinator:** Alex Pyron (rpyron@gwu.edu) – GWU
 
 **Contributors:**\
 Tom Near (thomas.near@yale.edu) – Yale (Fishes)\
