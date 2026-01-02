@@ -7,7 +7,7 @@ Squamates have a high density of well-preserved fossils that have been included 
 
 **748:** Squamata: 167.2–252.0Ma. This calibration is based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma). **This taxon is not confidently placed on the Gekkota stem, but this is a very safe minimum age for the crown group Squamata. Similarly-aged stem gekkotans were analyzed by [Meyer et al. 2023](https://royalsocietypublishing.org/rspb/article/290/2011/20232284/104268/A-Morrison-stem-gekkotan-reveals-gecko-evolution).**
 
-**751:** Laterata: 130.2–252.0Ma. This calibration is based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma). **Supersedes calibration of 112.0Ma from _Ptilotodon wilsoni_ listed by Title et al. 2024.**
+**751:** Laterata: 130.2–252.0Ma. This calibration is based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma).
 
 We can add another Type IV calibration from the recent analyses of [Benson et al. 2025](https://www.nature.com/articles/s41586-025-09566-y). The time-calibrated morphological phylogenetic analyses based on their Datasets 2 and 3 placed Parviraptoridae in the crown group Toxicofera, providing a late Jurassic minimum age for this node.
 
@@ -21,8 +21,7 @@ We can add another Type IV calibration from the recent analyses of [Benson et al
 Anguimorpha (C5)\
 _Anniella + Elgaria_ (C21 – Anguinae)\
 Gekkota (C8)\
-Laterata (C9 – Teiidae) **Superseded by _Dalinghosaurus longidigitus_ analyzed by Simões et al. 2026**\
-_Anolis + Iguaga_ pleurodont burst (C11)\
+_Anolis + Iguana_ pleurodont burst (C11)\
 Stem Boidae (C16)\
 Crown Natricidae (_Natrix + Thamnophis_) (C25)\
 Endoglyptodonta (Viperidae + Colubroides) (C23)\
