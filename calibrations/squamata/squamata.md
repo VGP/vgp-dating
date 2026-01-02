@@ -1,6 +1,9 @@
 # Squamata calibrations
 
-Squamates have a high density of well-preserved fossils that have been included in total-evidence phylogenetic analyses, reviewed in [Simões and Pyron 2021](https://bioone.org/journals/bulletin-of-the-museum-of-comparative-zoology/volume-163/issue-2/0027-4100-163.2.47/THE-SQUAMATE-TREE-OF-LIFE/10.3099/0027-4100-163.2.47.short). These results have been relatively consistent across most recent studies, providing a plethora of potential Type IV calibrations. In contrast, our limited sampling of squamates limits this applicability somewhat. Here, we rely on the most recent total-evidence analysis of [Simões et al. 2026](https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syaf067/8266822) and references therein, using the nomenclature of [Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126) for node names. A secondary source of Type III calibrations is [Title et al. 2024](https://www.science.org/doi/10.1126/science.adh2449). We place the maximum age of the Triassic (252.0Ma) as the maximum age of most constraints, consistent the earliest age for stem-group Squamata subtending _Megachirella_.
+Squamates have a high density of well-preserved fossils that have been included in total-evidence phylogenetic analyses, reviewed in [Simões and Pyron 2021](https://bioone.org/journals/bulletin-of-the-museum-of-comparative-zoology/volume-163/issue-2/0027-4100-163.2.47/THE-SQUAMATE-TREE-OF-LIFE/10.3099/0027-4100-163.2.47.short). These results have been relatively consistent across most recent studies, providing a plethora of potential Type IV calibrations. In contrast, our limited sampling of squamates limits this applicability somewhat. Here, we rely on the most recent total-evidence analysis of [Simões et al. 2026](https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syaf067/8266822) and references therein, using the nomenclature of [Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126) for node names. A secondary source of Type III calibrations is [Title et al. 2024](https://www.science.org/doi/10.1126/science.adh2449). We place the maximum age of the Triassic (252.0Ma) as the maximum age of most constraints, consistent the earliest age for stem-group Squamata subtending _Megachirella_ from Simōes et al. 2026.
+
+
+### Type IV Calibrations:
 
 Node number $XXX: Squamata: 167.2–252.0Ma. This calibration is based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma). **This taxon is not confidently placed on the Gekkota stem, but this is a very safe minimum age for the crown group Squamata. Similarly-aged stem Gekkota were analyzed by [Meyer et al. 2023](https://royalsocietypublishing.org/rspb/article/290/2011/20232284/104268/A-Morrison-stem-gekkotan-reveals-gecko-evolution)).**
 
@@ -13,6 +16,11 @@ We can add two more Type IV calibrations from less-widely replicated analyses, t
 Node number $XXX: Toxicofera: 167.0–252.0Ma. This calibration is based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated by total-evidence analyses, but the timescale is highly congruent with most recent estimates, including Simões et al. 2026.**
 
 Node number $XXX: _Candoia_ + _Liasis_ (unnamed): 48.0–252.0Ma. This calibration is based on the earliest stem Pythonidae taxon _Messelophis freyi_, from the Ypresian/Lutetian of the early/middle Eocene (47.0-48.3Ma).
+
+
+### Type III Calibrations:
+
+
 
 ## References
 
