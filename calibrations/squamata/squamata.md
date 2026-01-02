@@ -9,7 +9,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 **751:** Laterata: 130.2–252.0Ma. This calibration is based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma) analyzed by Simões et al. 2026.
 
-**767:** Toxicofera: 167.0–252.0Ma. This calibration is based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma), based on Datasets 2 and 3 from Benson et al. 2025. **This placement has not been corroborated by other total-evidence analyses, but the timescale is highly congruent with most recent estimates, including Title et al. 2024 and Simões et al. 2026.**
+**767:** Toxicofera: 167.0–252.0Ma. This calibration is based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma) analyzed by Benson et al. 2025 (their Datasets 2 and 3). **This placement has not been corroborated by other total-evidence analyses, but the timescale is highly congruent with most recent estimates, including Title et al. 2024 and Simões et al. 2026.**
 
 
 ### Type III Calibrations:
