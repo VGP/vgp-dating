@@ -59,6 +59,9 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 -based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated, but the timescale is highly congruent with most recent estimates.**
 
 ### Type III Calibrations:
+**782:** Gekkota: 97.0–252.0Ma.\
+-based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
+
 **749:** Unidentata: 170.0–252.0Ma.\
 -based on the earliest stem Scincoidea (Paramacellodidae), from the Bajocian of the Jurassic (168.2–170.9Ma).
 
@@ -67,9 +70,6 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 
 **780:** Anguidae: 33.0–252.0Ma.\
 -based on _Ophisaurus_ sp., the oldest crown anguid from the early Oligocene (23.0–33.9Ma).
-
-**782:** Gekkota: 97.0–252.0Ma.\
--based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
 
 **777:** Pleurodonta: 49.1–252.0Ma.\
 -based on _Afairiguana avius_, the oldest stem polychrotid from the early Eocene (48.5–53.5Ma).  
