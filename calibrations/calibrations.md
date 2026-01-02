@@ -34,7 +34,7 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 **970:** Dorsipares: 150.8-252.0Ma\
 -Based on _Rhadinosteus parvus_ (Jurassic: Kimmeridgian, 150.8-155.7Ma), supported by 2 parsimony and supertree analyses. **This could potentially be placed one node up on the stem – Geobatrachia.**
 
-**Likelihood checkpoints:**\
+### Likelihood checkpoints:
 **948:** Lissamphibia\
 -with _Gerobatrachus_: 278–361Ma (Median 320Ma)\
 -Lissamphibia without _Gerobatrachus_: 316–363Ma (Median 326Ma)
@@ -48,7 +48,7 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 
 ## [Squamates](./squamata/squamata.md):
 
-**Type IV Calibrations:**\
+### Type IV Calibrations:
 **748:** Squamata: 167.2–252.0Ma.\
 -based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma). **This taxon is not confidently placed, but this is a very safe minimum age for the crown group.**
 
@@ -58,14 +58,14 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 **767:** Toxicofera: 167.0–252.0Ma.\
 -based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated, but the timescale is highly congruent with most recent estimates.**
 
-**Type III Calibrations:**\
+### Type III Calibrations:
 **749:** Unidentata: 170.0–252.0Ma.\
 -based on the earliest Paramacellodidae (stem Scincoidea), from the Bajocian of the Jurassic (168.2–170.9Ma).
 
 **779:** Anguimorpha: 144.0–252.0Ma.\
 -based on the oldest crown anguimorph _Dorsetisaurus purbeckensis_, from the Tithonian of the Jurassic (143.1–149.2Ma).
 
-**780:** Stem Anguidae (_Anniella + Elgaria_): 33.0–252.0Ma.\
+**780:** Anniellidae + Anguidae: 33.0–252.0Ma.\
 -based on _Ophisaurus_ sp., the oldest crown anguid from the early Oligocene (23.0–33.9Ma).
 
 **782:** Gekkota: 97.0Ma. This calibration is based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
