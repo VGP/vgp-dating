@@ -72,14 +72,16 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 -based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
 
 **777:** Pleurodonta: 49.1–252.0Ma.\
--based on _Afairiguana avius_, the oldest stem polychrotid from the early Eocene (48.5–53.5Ma), parameterizing the Dactyloidae + Iguanidae divergence which encompasses Polychrotidae.  
+-based on _Afairiguana avius_, the oldest stem polychrotid from the early Eocene (48.5–53.5Ma).  
 
 **774:** Boidae: 58.0–252.0Ma.\
 -based on _Titanoboa cerrejonensis_, the oldest stem boid from the middle-late Paleocene (58.0–60.0Ma).
 
-**769:** Endoglyptodonta: 20.0Ma. This calibration is based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene (16.0–20.5Ma), parameterizing the Viperidae + Colubroides divergence (i.e., as a stem viperid).
+**769:** Endoglyptodonta: 20.0–252.0Ma.\
+-based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene (16.0–20.5Ma).
 
-**771:** Natricidae: 13.8Ma. This calibration is based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae from the middle Miocene (11.6–16.0Ma), parameterizing the _Natrix + Thamnophis_ divergence based on its closer affinity to the European genus _Natrix_ than New World _Thamnophis_.
+**771:** Natricidae: 13.8–252.0Ma.\
+-based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae from the middle Miocene (11.6–16.0Ma).
 
 
 ## [Turtles](./turtles/testudines.md):
