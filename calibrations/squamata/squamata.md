@@ -20,12 +20,13 @@ We can add two more Type IV calibrations from less-widely replicated analyses, t
 
 ### Type III Calibrations:
 
-Unidentata (C4 – Scincoidea)
-Toxicofera ???
-Anguimorpha (C5)
-_Anniella + Elgaria_ (C21 – Anguinae)
-Gekkota (C8)
-Laterata (C9 – Teiidae)
+Unidentata (C4 – Scincoidea)\
+Toxicofera ???\
+Anguimorpha (C5)\
+_Anniella + Elgaria_ (C21 – Anguinae)\
+Gekkota (C8)\
+Laterata (C9 – Teiidae) **Superseded by Simões et al. 2026**\
+_Anolis + Iguaga_ pleurodont burst (C11)
 
 ## References
 
