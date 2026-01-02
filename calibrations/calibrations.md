@@ -9,9 +9,9 @@ At the moment, the root (Deuterostomia) is set to the Ediacaran: 538.8–635Ma.
 
 ## [Early vertebrates](./vertebrates/vertebrata.md):
 
-## Fishes:
+## [Fishes](./fishes/fishes.md):
 
-## Tetrapods:
+## [Tetrapods](./tetrapods/tetrapoda.md):
 
 ## [Amphibians](./amphibia/amphibia.md):
 
@@ -32,7 +32,7 @@ Node number **$XXX**: Batrachia: 219–348Ma (Median 292Ma)\
 Node number **$XXX**: Gymnophiona: 91.6–259Ma (Median 216Ma)
 
 
-## Mammals:
+## [Mammals](./mammals/mammalia.md):
 
 ## [Squamates](./squamata/squamata.md):
 
@@ -52,7 +52,7 @@ Node number $XXX: Toxicofera: 167.0–252.0Ma.\
 Node number $XXX: _Candoia_ + _Liasis_ (unnamed): 48.0–252.0Ma.\
 -based on the earliest stem Pythonidae taxon _Messelophis freyi_, from the Ypresian/Lutetian of the early/middle Eocene (47.0-48.3Ma).
 
-## Turtles:
+## [Turtles](./turtles/testudines.md):
 
 ## [Crocodilians:](./crocodylia/crocodylia.md) 
 
@@ -64,6 +64,6 @@ Node number **$XXX**: Crocodylia: 77.9-113.2Ma\
 Molecular estimates from 23 studies between 2004 and 2021 yield a median of 87.4Ma with a range from 70.9–110.2Ma.\
 Total-evidence estimates from 6 studies between 2017 and 2025 estimate a median of 97.4Ma with a range from 88.3–107.9Ma.
 
-## Birds:
+## [Birds](./birds/aves.md):
 
 ## References
