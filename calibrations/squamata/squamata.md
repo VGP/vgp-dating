@@ -18,8 +18,8 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 **779:** Anguimorpha: 144.0–252.0Ma. This calibration is based on the oldest crown anguimorph _Dorsetisaurus purbeckensis_, from the Tithonian of the Jurassic (143.1–149.2Ma).
 
+**780:** Stem Anguinae (_Anniella + Elgaria_): 33.0–252.0Ma. This calibration is based on _Ophisaurus_ sp., the oldest crown anguine from the early Oligocene (23.0–33.9Ma), parameterizing the Anniellidae + Anguidae divergence (i.e., as a stem anguid).
 
-_Anniella + Elgaria_ (C21 – Anguinae)\
 Gekkota (C8)\
 _Anolis + Iguana_ pleurodont burst (C11)\
 Stem Boidae (C16)\
