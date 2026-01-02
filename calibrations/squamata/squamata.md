@@ -5,9 +5,7 @@ Squamates have a high density of well-preserved fossils that have been included 
 
 ### Type IV Calibrations:
 
-**748:** Squamata: 167.2–252.0Ma. This calibration is based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma). **This taxon is not confidently placed on the Gekkota stem, but this is a very safe minimum age for the crown group Squamata. Similarly-aged stem Gekkota were analyzed by [Meyer et al. 2023](https://royalsocietypublishing.org/rspb/article/290/2011/20232284/104268/A-Morrison-stem-gekkotan-reveals-gecko-evolution).**
-
-**749:** Unidentata: 148.0–252.0Ma. This calibration is based on the earliest stem Scincoidea taxon _Eoscincus parvus_ (Paramacellodidae), from the Tithonian of the late Jurassic (143.1–149.2Ma). **Superseded by calibration of 170.0Ma from older paramacellodids listed by Title et al. 2024.**
+**748:** Squamata: 167.2–252.0Ma. This calibration is based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma). **This taxon is not confidently placed on the Gekkota stem, but this is a very safe minimum age for the crown group Squamata. Similarly-aged stem gekkotans were analyzed by [Meyer et al. 2023](https://royalsocietypublishing.org/rspb/article/290/2011/20232284/104268/A-Morrison-stem-gekkotan-reveals-gecko-evolution).**
 
 **751:** Laterata: 130.2–252.0Ma. This calibration is based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma). **Supersedes calibration of 112.0Ma from _Ptilotodon wilsoni_ listed by Title et al. 2024.**
 
@@ -18,13 +16,14 @@ We can add another Type IV calibration from the recent analyses of [Benson et al
 
 ### Type III Calibrations:
 
-Unidentata (C4 – Scincoidea)**Supersedes calibration of 148.0Ma from _Eoscincus parvus_ analyzed by Simões et al. 2026**\
+**749:** Unidentata: 170.0–252.0Ma. This calibration is based on the earliest Paramacellodidae, from the Bajocian of the Jurassic (168.2–170.9Ma).
+
 Anguimorpha (C5)\
 _Anniella + Elgaria_ (C21 – Anguinae)\
 Gekkota (C8)\
 Laterata (C9 – Teiidae) **Superseded by _Dalinghosaurus longidigitus_ analyzed by Simões et al. 2026**\
 _Anolis + Iguaga_ pleurodont burst (C11)\
-Stem Boidae (C16) **Supersedes _Messelophis freyi_ analyzed by Zaher and Smith 2020**\
+Stem Boidae (C16)\
 Crown Natricidae (_Natrix + Thamnophis_) (C25)\
 Endoglyptodonta (Viperidae + Colubroides) (C23)\
 
@@ -42,5 +41,3 @@ Simões, T.R. and Pyron, R.A., 2021. The squamate tree of life. Bulletin of the 
 Simões, T.R., Brum, A.S. and Pierce, S.E., 2026. Evolutionary rate incongruences in squamates reveal contrasting patterns of evolutionary novelties and innovation. Systematic Biology, p.syaf067.
 
 Title, P.O., Singhal, S., Grundler, M.C., Costa, G.C., Pyron, R.A., Colston, T.J., Grundler, M.R., Prates, I., Stepanova, N., Jones, M.E. and Cavalcanti, L.B., 2024. The macroevolutionary singularity of snakes. Science, 383(6685), pp.918-923.
-
-Zaher, H. and Smith, K.T., 2020. Pythons in the Eocene of Europe reveal a much older divergence of the group in sympatry with boas. Biology Letters, 16(12), p.20200735.
