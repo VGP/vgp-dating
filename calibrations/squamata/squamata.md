@@ -5,27 +5,30 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 ### Type IV Calibrations:
 
-**748:** Squamata: 167.2–252.0Ma. This calibration is based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma) analyzed by Simões et al. 2026. **This taxon is not confidently placed on the Gekkota stem, but this is a very safe minimum age for the crown group Squamata. Similarly-aged stem gekkotans were analyzed by [Meyer et al. 2023](https://royalsocietypublishing.org/rspb/article/290/2011/20232284/104268/A-Morrison-stem-gekkotan-reveals-gecko-evolution). However, it is younger than the Type III Unidentata calibration from Title et al. 2024.**
+**748:** Squamata: 167.2Ma. This calibration is based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma) analyzed by Simões et al. 2026. **This taxon is not confidently placed on the Gekkota stem, but this is a very safe minimum age for the crown group Squamata. Similarly-aged stem gekkotans were analyzed by [Meyer et al. 2023](https://royalsocietypublishing.org/rspb/article/290/2011/20232284/104268/A-Morrison-stem-gekkotan-reveals-gecko-evolution). However, it is younger than the Type III Unidentata calibration from Title et al. 2024.**
 
-**751:** Laterata: 130.2–252.0Ma. This calibration is based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma) analyzed by Simões et al. 2026.
+**751:** Laterata: 130.2Ma. This calibration is based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma) analyzed by Simões et al. 2026.
 
-**767:** Toxicofera: 167.0–252.0Ma. This calibration is based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma) analyzed by Benson et al. 2025 (their Datasets 2 and 3). **This placement has not been corroborated by other total-evidence analyses, but the timescale is highly congruent with most recent estimates, including Title et al. 2024 and Simões et al. 2026.**
+**767:** Toxicofera: 167.0Ma. This calibration is based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma) analyzed by Benson et al. 2025 (their Datasets 2 and 3). **This placement has not been corroborated by other total-evidence analyses, but the timescale is highly congruent with most recent estimates, including Title et al. 2024 and Simões et al. 2026.**
 
 
 ### Type III Calibrations:
 
-**749:** Unidentata: 170.0–252.0Ma. This calibration is based on the earliest Paramacellodidae (stem Scincoidea), from the Bajocian of the Jurassic (168.2–170.9Ma).
+**749:** Unidentata: 170.0Ma. This calibration is based on the earliest Paramacellodidae (stem Scincoidea), from the Bajocian of the Jurassic (168.2–170.9Ma).
 
-**779:** Anguimorpha: 144.0–252.0Ma. This calibration is based on the oldest crown anguimorph _Dorsetisaurus purbeckensis_, from the Tithonian of the Jurassic (143.1–149.2Ma).
+**779:** Anguimorpha: 144.0Ma. This calibration is based on the oldest crown anguimorph _Dorsetisaurus purbeckensis_, from the Tithonian of the Jurassic (143.1–149.2Ma).
 
-**780:** Stem Anguidae (_Anniella + Elgaria_): 33.0–252.0Ma. This calibration is based on _Ophisaurus_ sp., the oldest crown anguine from the early Oligocene (23.0–33.9Ma), parameterizing the Anniellidae + Anguidae divergence (i.e., as a stem anguid).
+**780:** Stem Anguidae (_Anniella + Elgaria_): 33.0Ma. This calibration is based on _Ophisaurus_ sp., the oldest crown anguine from the early Oligocene (23.0–33.9Ma), parameterizing the Anniellidae + Anguidae divergence (i.e., as a stem anguid).
 
-**782:** Gekkota: 97.0–252.0Ma. This calibration is based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
+**782:** Gekkota: 97.0Ma. This calibration is based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
 
-_Anolis + Iguana_ pleurodont burst (C11)\
-Stem Boidae (C16)\
-Crown Natricidae (_Natrix + Thamnophis_) (C25)\
-Endoglyptodonta (Viperidae + Colubroides) (C23)\
+**777:** Tropical Pleurodonta (_Anolis + Iguana_): 49.1Ma. This calibration is based on _Afairiguana avius_, the oldest stem polychrotid from the early Eocene (48.5–53.5Ma), parameterizing the Dactyloidae + Iguanidae divergence which encompasses Polychrotidae.  
+
+Stem Boidae (C16)
+
+Endoglyptodonta (Viperidae + Colubroides) (C23)
+
+Crown Natricidae (_Natrix + Thamnophis_) (C25)
 
 
 ## References
