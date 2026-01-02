@@ -2,7 +2,7 @@
 
 This is the final set of $XXX calibrations.
 
-## Early animals & root:
+## Outgroups & root:
 
 ## Early vertebrates:
 
