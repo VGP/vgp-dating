@@ -4,9 +4,11 @@ A secondary source of Type III calibrations is Title et al. 2024 (their Table S1
 
 ### Type III Calibrations:
 
-**591:** Amniota. Based on the stem amniote _Hylonomus lyelli_ from the Bashkirian of the Carboniferous, 314-340Ma.
+**591:** Amniota. Based on the stem amniote _Hylonomus lyelli_ from the Bashkirian of the Carboniferous, 314.0-340.1Ma.
 
 **592:** Sauria. Based on the stem archosauromorph _Protorosaurus speneri_ from the Lopingian of the Permian, 255.9-295.9Ma.
+
+**594:** Archosauria. Based on the stem pseudosuchian _Xilousuchus sapingensis_ from the Olenekian of the Triassic, 247.2-256.0Ma.
 
 ## References
 
