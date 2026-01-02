@@ -14,7 +14,7 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8â
 ## [Tetrapods](./tetrapods/tetrapoda.md):
 
 **Type III Calibrations:**\
-591: Amniota. Based on the stem amniote Hylonomus lyelli from the Bashkirian of the Carboniferous, 314-340Ma.
+**591:** Amniota. Based on the stem amniote _Hylonomus lyelli_ from the Bashkirian of the Carboniferous, 314-340Ma.
 
 
 ## [Amphibians](./amphibia/amphibia.md):
