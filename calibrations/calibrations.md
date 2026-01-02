@@ -13,7 +13,7 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8â
 
 ## [Tetrapods](./tetrapods/tetrapoda.md):
 
-**Type III Calibrations:**\
+### Type III Calibrations:
 **591:** Amniota: 314-340Ma\
 -Based on the stem amniote _Hylonomus lyelli_ from the Bashkirian of the Carboniferous.
 
@@ -26,11 +26,11 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8â
 
 ## [Amphibians](./amphibia/amphibia.md):
 
-**Type IV Calibration:**\
+### Type IV Calibrations:
 **950:** Anura: 121.4-252.0Ma\
 -Based on _Eodiscoglossus santonjae_ (Cretaceous: Barremian, 121.4-125.8Ma), supported by 2 total-evidence analyses. **This is younger than some internal calibrations, and not particularly close to estimated ages.**
 
-**Type III Calibration:**\
+### Type III Calibrations:
 **970:** Dorsipares: 150.8-252.0Ma\
 -Based on _Rhadinosteus parvus_ (Jurassic: Kimmeridgian, 150.8-155.7Ma), supported by 2 parsimony and supertree analyses. **This could potentially be placed one node up on the stem â€“ Geobatrachia.**
 
