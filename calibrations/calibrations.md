@@ -61,7 +61,7 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 **767:** Toxicofera: 167.0–252.0Ma.\
 -based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated, but the timescale is highly congruent with most recent estimates.**
 
-**774:** _Candoia_ + _Liasis_ (unnamed): 48.0–252.0Ma.\
+**774:** Stem Pythonidae (_Candoia_ + _Liasis_): 48.0–252.0Ma.\
 -based on the earliest stem Pythonidae taxon _Messelophis freyi_, from the Ypresian/Lutetian of the early/middle Eocene (47.0-48.3Ma).
 
 
