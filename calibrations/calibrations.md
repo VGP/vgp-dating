@@ -52,17 +52,31 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 **748:** Squamata: 167.2–252.0Ma.\
 -based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma). **This taxon is not confidently placed, but this is a very safe minimum age for the crown group.**
 
-**749:** Unidentata: 148.0–252.0Ma.\
--based on the earliest stem Scincoidea taxon _Eoscincus parvus_ (Paramacellodidae), from the Tithonian of the late Jurassic (143.1–149.2Ma).
-
 **751:** Laterata: 130.2–252.0Ma.\
 -based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma).
 
 **767:** Toxicofera: 167.0–252.0Ma.\
 -based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated, but the timescale is highly congruent with most recent estimates.**
 
-**774:** Stem Pythonidae (_Candoia_ + _Liasis_): 48.0–252.0Ma.\
--based on the earliest stem Pythonidae taxon _Messelophis freyi_, from the Ypresian/Lutetian of the early/middle Eocene (47.0-48.3Ma).
+**Type III Calibrations:**\
+**749:** Unidentata: 170.0–252.0Ma.\
+-based on the earliest Paramacellodidae (stem Scincoidea), from the Bajocian of the Jurassic (168.2–170.9Ma).
+
+**779:** Anguimorpha: 144.0–252.0Ma.\
+-based on the oldest crown anguimorph _Dorsetisaurus purbeckensis_, from the Tithonian of the Jurassic (143.1–149.2Ma).
+
+**780:** Stem Anguidae (_Anniella + Elgaria_): 33.0–252.0Ma.\
+-based on _Ophisaurus_ sp., the oldest crown anguid from the early Oligocene (23.0–33.9Ma).
+
+**782:** Gekkota: 97.0Ma. This calibration is based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
+
+**777:** Tropical Pleurodonta (_Anolis + Iguana_): 49.1Ma. This calibration is based on _Afairiguana avius_, the oldest stem polychrotid from the early Eocene (48.5–53.5Ma), parameterizing the Dactyloidae + Iguanidae divergence which encompasses Polychrotidae.  
+
+**774:** Stem Boidae: 58.0Ma. This calibration is based on _Titanoboa cerrejonensis_, the oldest stem Boinae from the middle-late Paleocene (58.0–60.0Ma), parameterizing the Boidae + Pythonidae divergence (i.e., as a stem boid).
+
+**769:** Endoglyptodonta: 20.0Ma. This calibration is based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene (16.0–20.5Ma), parameterizing the Viperidae + Colubroides divergence (i.e., as a stem viperid).
+
+**771:** Natricidae: 13.8Ma. This calibration is based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae from the middle Miocene (11.6–16.0Ma), parameterizing the _Natrix + Thamnophis_ divergence based on its closer affinity to the European genus _Natrix_ than New World _Thamnophis_.
 
 
 ## [Turtles](./turtles/testudines.md):
