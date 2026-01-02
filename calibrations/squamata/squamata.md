@@ -20,12 +20,12 @@ We can add two more Type IV calibrations from less-widely replicated analyses, t
 
 ### Type III Calibrations:
 
-Unidentata
-Toxicofera
-Anguimorpha
-_Anniella + Elgaria_ (C21)
-
-
+Unidentata (C4 – Scincoidea)
+Toxicofera ???
+Anguimorpha (C5)
+_Anniella + Elgaria_ (C21 – Anguinae)
+Gekkota (C8)
+Laterata (C9 – Teiidae)
 
 ## References
 
