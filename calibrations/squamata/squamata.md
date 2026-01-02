@@ -5,7 +5,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 ### Type IV Calibrations:
 
-**748:** Squamata: 167.2–252.0Ma. This calibration is based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma) analyzed by Simões et al. 2026. **This taxon is not confidently placed on the Gekkota stem, but this is a very safe minimum age for the crown group Squamata. Similarly-aged stem gekkotans were analyzed by [Meyer et al. 2023](https://royalsocietypublishing.org/rspb/article/290/2011/20232284/104268/A-Morrison-stem-gekkotan-reveals-gecko-evolution).**
+**748:** Squamata: 167.2–252.0Ma. This calibration is based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma) analyzed by Simões et al. 2026. **This taxon is not confidently placed on the Gekkota stem, but this is a very safe minimum age for the crown group Squamata. Similarly-aged stem gekkotans were analyzed by [Meyer et al. 2023](https://royalsocietypublishing.org/rspb/article/290/2011/20232284/104268/A-Morrison-stem-gekkotan-reveals-gecko-evolution). However, it is younger than the Type III Unidentata calibration from Title et al. 2024.**
 
 **751:** Laterata: 130.2–252.0Ma. This calibration is based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma) analyzed by Simões et al. 2026.
 
