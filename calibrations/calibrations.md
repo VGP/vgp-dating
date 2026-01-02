@@ -4,7 +4,7 @@ This is the final set of $XXX calibrations.
 
 ## [Outgroups & root](./outgroups/deuterostomia.md):
 
-At the moment, the root (Deuterostomia) is set to the Ediacaran: 538.8–635Ma.
+At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8–635Ma.
 
 
 ## [Early vertebrates](./vertebrates/vertebrata.md):
