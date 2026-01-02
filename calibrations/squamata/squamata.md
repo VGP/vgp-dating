@@ -7,7 +7,7 @@ Squamates have a high density of well-preserved fossils that have been included 
 
 **748:** Squamata: 167.2–252.0Ma. This calibration is based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma). **This taxon is not confidently placed on the Gekkota stem, but this is a very safe minimum age for the crown group Squamata. Similarly-aged stem Gekkota were analyzed by [Meyer et al. 2023](https://royalsocietypublishing.org/rspb/article/290/2011/20232284/104268/A-Morrison-stem-gekkotan-reveals-gecko-evolution).**
 
-**749:** Unidentata: 148.0–252.0Ma. This calibration is based on the earliest stem Scincoidea taxon _Eoscincus parvus_ (Paramacellodidae), from the Tithonian of the late Jurassic (143.1–149.2Ma).
+**749:** Unidentata: 148.0–252.0Ma. This calibration is based on the earliest stem Scincoidea taxon _Eoscincus parvus_ (Paramacellodidae), from the Tithonian of the late Jurassic (143.1–149.2Ma). **Superseded by calibration of 170.0Ma from older paramacellodids listed by Title et al. 2024**
 
 **751:** Laterata: 130.2–252.0Ma. This calibration is based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma). **Supersedes calibration of 112.0Ma from _Ptilotodon wilsoni_ listed by Title et al. 2024.**
 
@@ -15,17 +15,20 @@ We can add two more Type IV calibrations from less-widely replicated analyses, t
 
 **767:** Toxicofera: 167.0–252.0Ma. This calibration is based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated by other total-evidence analyses, but the timescale is highly congruent with most recent estimates, including Simões et al. 2026.**
 
-**774:** Stem Pythonidae (_Candoia_ + _Liasis_): 48.0–252.0Ma. This calibration is based on the earliest stem Pythonidae taxon _Messelophis freyi_, from the Ypresian/Lutetian of the early/middle Eocene (47.0-48.3Ma). **Also listed by Title et al. 2024**
+**774:** Stem Pythonidae (_Candoia_ + _Liasis_): 48.0–252.0Ma. This calibration is based on the earliest stem Pythonidae taxon _Messelophis freyi_, from the Ypresian/Lutetian of the early/middle Eocene (47.0-48.3Ma). **Also listed by Title et al. 2024 – superseded by calibration of 58.0Ma from _Titanoboa cerrejonensis_**
 
 
 ### Type III Calibrations:
 
-Unidentata (C4 – Scincoidea)\
+Unidentata (C4 – Scincoidea)**Supersedes calibration of 148.0Ma from _Eoscincus parvus_ analyzed by Simões et al. 2026**\
 Anguimorpha (C5)\
 _Anniella + Elgaria_ (C21 – Anguinae)\
 Gekkota (C8)\
 Laterata (C9 – Teiidae) **Superseded by Simões et al. 2026**\
-_Anolis + Iguaga_ pleurodont burst (C11)
+_Anolis + Iguaga_ pleurodont burst (C11)\
+Stem Boidae (C16)\
+Crown Natricidae (_Natrix + Thamnophis_) (C25)\
+Endoglyptodonta (Viperidae + Colubroides) (C23)\
 
 
 ## References
