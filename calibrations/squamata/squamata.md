@@ -15,18 +15,18 @@ We can add two more Type IV calibrations from less-widely replicated analyses, t
 
 **767:** Toxicofera: 167.0–252.0Ma. This calibration is based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated by other total-evidence analyses, but the timescale is highly congruent with most recent estimates, including Simões et al. 2026.**
 
-**774:** _Candoia_ + _Liasis_ (unnamed): 48.0–252.0Ma. This calibration is based on the earliest stem Pythonidae taxon _Messelophis freyi_, from the Ypresian/Lutetian of the early/middle Eocene (47.0-48.3Ma). **Also listed by Title et al. 2024**
+**774:** Stem Pythonidae (_Candoia_ + _Liasis_): 48.0–252.0Ma. This calibration is based on the earliest stem Pythonidae taxon _Messelophis freyi_, from the Ypresian/Lutetian of the early/middle Eocene (47.0-48.3Ma). **Also listed by Title et al. 2024**
 
 
 ### Type III Calibrations:
 
 Unidentata (C4 – Scincoidea)\
-Toxicofera ???\
 Anguimorpha (C5)\
 _Anniella + Elgaria_ (C21 – Anguinae)\
 Gekkota (C8)\
 Laterata (C9 – Teiidae) **Superseded by Simões et al. 2026**\
 _Anolis + Iguaga_ pleurodont burst (C11)
+
 
 ## References
 
