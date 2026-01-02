@@ -10,7 +10,7 @@ Santiago Claramunt (sclaramu@uno.edu) – University of New Orleans (Birds)\
 Ricardo Betancur (rbetancur@ucsd.edu) – UC San Diego (Fishes)\
 Nate Upham (nathan.upham@asu.edu) – Arizona State University (Mammals)\
 Chase Brownstein (chase.brownstein@yale.edu) – Yale University (Fishes)\
-Mario dos Reis () – Queen Mary U London (Mammals & methods)
+Mario dos Reis (m.dosreisbarros@qmul.ac.uk) – Queen Mary U London (Mammals & methods)
 
 
 ## Aims & Scope
