@@ -46,7 +46,10 @@ annotations$TAXON[which(annotations$Superorder=="Testudines (Pleurodira)")] <- "
 annotations$TAXON[which(annotations$Superorder=="Crocodylia")] <- "crocs"
 annotations$TAXON[which(annotations$Superorder=="Squamata")] <- "squamates"
 
-#
+# write scientific dates
+roadies_v1.1.16b.scientific.treePL.tre <- roadies_v1.1.16b.treePL.tre
+roadies_v1.1.16b.scientific.treePL.tre$tip.label <- gsub(" ","_",annotations$ScientificName[match(roadies_v1.1.16b.scientific.treePL.tre$tip.label,annotations$accession)])
+write.tree(roadies_v1.1.16b.scientific.treePL.tre, "roadies_v1.1.16b.scientific.treePL.tre")
 
 # paint subtrees
 painted <- paintSubTree(roadies_v1.1.16b.treePL.tre,582,"Root","0")
