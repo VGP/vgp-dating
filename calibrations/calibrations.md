@@ -13,6 +13,10 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 
 ## [Tetrapods](./tetrapods/tetrapoda.md):
 
+**Type III Calibrations:**\
+591: Amniota. Based on the stem amniote Hylonomus lyelli from the Bashkirian of the Carboniferous, 314-340Ma.
+
+
 ## [Amphibians](./amphibia/amphibia.md):
 
 **Type IV Calibration:**\
@@ -32,6 +36,7 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 **977:** Gymnophiona: 91.6–259Ma (Median 216Ma)\
 **973:** Salamandroidea: $XXX (CHECK)
 
+
 ## [Mammals](./mammals/mammalia.md):
 
 ## [Squamates](./squamata/squamata.md):
@@ -47,10 +52,11 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 -based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma).
 
 **767:** Toxicofera: 167.0–252.0Ma.\
--based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated beyond [Benson et al. 2025](https://www.nature.com/articles/s41586-025-09566-y), but the timescale is highly congruent with most recent estimates.**
+-based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated, but the timescale is highly congruent with most recent estimates.**
 
 **774:** _Candoia_ + _Liasis_ (unnamed): 48.0–252.0Ma.\
 -based on the earliest stem Pythonidae taxon _Messelophis freyi_, from the Ypresian/Lutetian of the early/middle Eocene (47.0-48.3Ma).
+
 
 ## [Turtles](./turtles/testudines.md):
 
@@ -64,8 +70,7 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 Molecular estimates from 23 studies between 2004 and 2021 yield a median of 87.4Ma with a range from 70.9–110.2Ma.\
 Total-evidence estimates from 6 studies between 2017 and 2025 estimate a median of 97.4Ma with a range from 88.3–107.9Ma.
 
+
 ## [Birds](./birds/aves.md):
 
 ## References
-
-Benson, R.B.J., Walsh, S.A., Griffiths, E.F. et al. Mosaic anatomy in an early fossil squamate. Nature 647, 673–679 (2025). https://doi.org/10.1038/s41586-025-09566-y
