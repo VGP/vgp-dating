@@ -17,10 +17,10 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8â
 **591:** Amniota: 314-340Ma\
 -Based on the stem amniote _Hylonomus lyelli_ from the Bashkirian of the Carboniferous.
 
-**592:** Sauria: 255.9-295.9Ma.
+**592:** Sauria: 255.9-295.9Ma.\
 -Based on the stem archosauromorph _Protorosaurus speneri_ from the Lopingian of the Permian.
 
-**594:** Archosauria: 247.2-256.0Ma.
+**594:** Archosauria: 247.2-256.0Ma.\
 -Based on the stem pseudosuchian _Xilousuchus sapingensis_ from the Olenekian of the Triassic.
 
 
