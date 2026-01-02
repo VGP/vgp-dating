@@ -47,7 +47,7 @@ Node number $XXX: Laterata: 130.2–252.0Ma.\
 -based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma).
 
 Node number $XXX: Toxicofera: 167.0–252.0Ma.\
--based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated by total-evidence analyses, but the timescale is highly congruent with most recent estimates.**
+-based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated beyond Benson et al. 2025, but the timescale is highly congruent with most recent estimates.**
 
 Node number $XXX: _Candoia_ + _Liasis_ (unnamed): 48.0–252.0Ma.\
 -based on the earliest stem Pythonidae taxon _Messelophis freyi_, from the Ypresian/Lutetian of the early/middle Eocene (47.0-48.3Ma).
