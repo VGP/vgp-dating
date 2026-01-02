@@ -20,7 +20,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 **780:** Stem Anguidae (_Anniella + Elgaria_): 33.0–252.0Ma. This calibration is based on _Ophisaurus_ sp., the oldest crown anguine from the early Oligocene (23.0–33.9Ma), parameterizing the Anniellidae + Anguidae divergence (i.e., as a stem anguid).
 
-**782:** Gekkota: 97.0–252.0Ma. This calibration is based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).\
+**782:** Gekkota: 97.0–252.0Ma. This calibration is based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
 
 _Anolis + Iguana_ pleurodont burst (C11)\
 Stem Boidae (C16)\
