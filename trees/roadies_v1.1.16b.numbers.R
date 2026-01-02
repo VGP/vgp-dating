@@ -17,6 +17,6 @@ roadies_v1.1.16b.numbers.nwk$node.label <- as.character((Ntip(roadies_v1.1.16b.n
 write.tree(roadies_v1.1.16b.numbers.nwk, "roadies_v1.1.16b.numbers.nwk")
 
 # write node numbers - scientific
-roadies_v1.1.16b.numbersScientific.nwk <- roadies_v1.1.16b.numbers.nwk
-roadies_v1.1.16b.numbersScientific.nwk$tip.label <- gsub(" ","_",annotations$ScientificName[match(roadies_v1.1.16b.numbers.nwk$tip.label,annotations$accession)])
-write.tree(roadies_v1.1.16b.numbersScientific.nwk, "roadies_v1.1.16b.numbersScientific.nwk")
+roadies_v1.1.16b.numbers.scientific.nwk <- roadies_v1.1.16b.numbers.nwk
+roadies_v1.1.16b.numbers.scientific.nwk$tip.label <- gsub(" ","_",annotations$ScientificName[match(roadies_v1.1.16b.numbers.nwk$tip.label,annotations$accession)])
+write.tree(roadies_v1.1.16b.numbers.scientific.nwk, "roadies_v1.1.16b.numbers.scientific.nwk")
