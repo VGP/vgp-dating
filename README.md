@@ -13,9 +13,9 @@ Chase Brownstein (chase.brownstein@yale.edu) – Yale (Fishes)\
 Mario dos Reis (m.dosreisbarros@qmul.ac.uk) – QMUL (Mammals & methods)
 
 
-## Final calibrations
+## Final calibrations & treePL
 
-Here is the [final set](./calibrations/calibrations.md) of **$XXX** calibrations decided on by our working group.
+Here is the [final set](./calibrations/calibrations.md) of **$XXX** calibrations decided on by our working group. Here is the initial [treePL](./treePL/treePL.md) analysis.
 
 
 ## Aims & Scope
@@ -67,4 +67,4 @@ We can also use these empirical priors in a cross-validation framework to identi
 
 ## Analytical Methods
 
-This is a secondary consideration that we can discuss as a group, hopefully to be conducted by a subset of team members. Basic approaches such as [treePL](/treePL/treePL.md) will likely form the core of our initial testing pipelines, but we should explore a range of options. Approaches such as [RevBayes](https://revbayes.github.io/tutorials/dating/) and [mcmctree](https://github.com/dosreislab/mcmctree) would allow us to exploit more accuracy and precision from our whole-genome data – fulfilling a core aim of the VGP, to demonstrate how these data allow superior inference over previous approaches – but will likely face significant computational burdens and runtime constraints. This is an open area of inquiry for our group.
+This is a secondary consideration that we can discuss as a group, hopefully to be conducted by a subset of team members. Basic approaches such as [treePL](./treePL/treePL.md) will likely form the core of our initial testing pipelines, but we should explore a range of options. Approaches such as [RevBayes](https://revbayes.github.io/tutorials/dating/) and [mcmctree](https://github.com/dosreislab/mcmctree) would allow us to exploit more accuracy and precision from our whole-genome data – fulfilling a core aim of the VGP, to demonstrate how these data allow superior inference over previous approaches – but will likely face significant computational burdens and runtime constraints. This is an open area of inquiry for our group.
