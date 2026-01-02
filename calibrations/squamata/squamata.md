@@ -14,13 +14,13 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 ### Type III Calibrations:
 
+**782:** Gekkota: 97.0Ma. This calibration is based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
+
 **749:** Unidentata: 170.0Ma. This calibration is based on the earliest Paramacellodidae (stem Scincoidea), from the Bajocian of the Jurassic (168.2–170.9Ma).
 
 **779:** Anguimorpha: 144.0Ma. This calibration is based on the oldest crown anguimorph _Dorsetisaurus purbeckensis_, from the Tithonian of the Jurassic (143.1–149.2Ma).
 
 **780:** Stem Anguidae (_Anniella + Elgaria_): 33.0Ma. This calibration is based on _Ophisaurus_ sp., the oldest crown anguine from the early Oligocene (23.0–33.9Ma), parameterizing the Anniellidae + Anguidae divergence (i.e., as a stem anguid).
-
-**782:** Gekkota: 97.0Ma. This calibration is based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
 
 **777:** Tropical Pleurodonta (_Anolis + Iguana_): 49.1Ma. This calibration is based on _Afairiguana avius_, the oldest stem polychrotid from the early Eocene (48.5–53.5Ma), parameterizing the Dactyloidae + Iguanidae divergence which encompasses Polychrotidae.  
 
