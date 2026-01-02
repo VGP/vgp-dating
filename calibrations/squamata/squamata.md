@@ -24,7 +24,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 **777:** Tropical Pleurodonta (_Anolis + Iguana_): 49.1Ma. This calibration is based on _Afairiguana avius_, the oldest stem polychrotid from the early Eocene (48.5–53.5Ma), parameterizing the Dactyloidae + Iguanidae divergence which encompasses Polychrotidae.  
 
-Stem Boidae (C16)
+**774:** Stem Boidae: 58.0Ma. This calibration is based on _Titanoboa cerrejonensis_, the oldest stem Boinae from the middle-late Paleocene (58.0–60.0Ma), parameterizing the Boidae + Pythonidae divergence (i.e., as a stem boid).
 
 Endoglyptodonta (Viperidae + Colubroides) (C23)
 
