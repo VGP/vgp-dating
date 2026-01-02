@@ -1,4 +1,5 @@
 #Visualize treePL results
+library(rphylopic)
 library(phytools)
 library(plotrix)
 library(png)
