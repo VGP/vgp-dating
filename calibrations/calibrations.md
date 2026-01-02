@@ -2,7 +2,7 @@
 
 This is the final set of $XXX calibrations.
 
-## Outgroups & root:
+## [Outgroups & root](./outgroups/deuterostomia.md):
 
 At the moment, the root (Deuterostomia) is set to the Ediacaran: 538.8–635Ma.
 
