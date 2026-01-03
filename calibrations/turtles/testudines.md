@@ -3,7 +3,7 @@
 Turtles have a dense and detailed record that has made them particularly amenable to time-scaled phylogenetic analysis using fossil calibrations, reviewed in detail by [Joyce et al. 2013](https://doi.org/10.1666/12-149) and references therein. That study provided 22 well-constrained node ages to date the turtle tree, which were corroborated and partially updated by [Selvatti et al. 2023](https://doi.org/10.1016/j.ympev.2023.107773), who also provided a summary of ages for Testudines suitable for use as likelihood checkpoints. Given our modest sampling of turtles, only some of the 22 constraints are applicable here, which we list below as Type III calibrations along with the assembled age-estimates for a likelihood checkpoint on Testudines.
 
 ### Type III Calibrations:
-
+**732:** Testudines: 157.3–252.0Ma. Based on the oldest crown testudines _Notoemys oxfordiensis_ and _Yehguia tatsuensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma), with a maximum based on the maximum age of the Triassic.
 
 ## References
 
