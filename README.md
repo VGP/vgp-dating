@@ -44,7 +44,7 @@ To begin with, we can outline four types of possible calibrations that can be dr
 
 ## Syntax
 
-We will use a [reference tree](./trees/roadies_v1.1.16b.numbersScientific.nwk.pdf) based on roadies_v1.1.16b.nwk with APE-style node numbers from R to facilitate objective reference to [nodes](./trees). Minimal documentation will be:\
+We will use a [reference tree](./trees/roadies_v1.1.16b.numbersScientific.nwk.pdf) based on roadies_v1.1.16b.nwk with APE-style node numbers from R to facilitate objective reference to [nodes](./trees). Minimal documentation will be:
 
 	-Node number and lineage\
 	-Type of calibration: I–IV\
