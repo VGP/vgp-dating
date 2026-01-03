@@ -5,7 +5,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 ### Type III Calibrations:
 **732:** Testudines: 157.3–252.0Ma. Based on the oldest crown testudine _Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma), with a maximum based on the maximum age of the Triassic.
 
-**747:** Pleurodira: 111.0–165.2Ma. Based the oldest crown pleurodiran _Teneremys lapparenti_ from the Aptian/Albian of the Cretaceous (113.2–121.4Ma), with a maximum based on the Callovian boundary between the middle/late Jurassic boundary (161.5–165.3Ma).
+**747:** Pleurodira: 125.0–155.6Ma. Based the oldest crown pleurodiran _Atolchelys lepida_ from the Barremian of the Cretaceous (121.4–125.77Ma), with a maximum based on the oldest pan-pleurodiran _Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).
 
 **733:** Cryptodira: 157.3–200.2Ma. Based on the oldest crown cryptodiran _Yehguia tatsuensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma), with a maximum based on the minimum age of the Triassic.
 
