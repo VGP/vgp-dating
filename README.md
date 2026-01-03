@@ -17,7 +17,7 @@ Mario dos Reis (m.dosreisbarros@qmul.ac.uk) – QMUL (Mammals & methods)
 
 Here is the [final set](./calibrations/calibrations.md) of **$XXX** calibrations decided on by our working group. Here is the initial [treePL](./treePL/treePL.md) analysis.
 
-<img width="2189" height="1526" alt="image" src="https://github.com/user-attachments/assets/2050e9a9-31a9-4c83-b78c-b302316dab08" />
+<img width="2189" height="1524" alt="image" src="https://github.com/user-attachments/assets/83df3fcd-d675-4c13-b539-00c2fd1baf62" />
 
 
 ## Aims & Scope
