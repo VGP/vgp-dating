@@ -1,13 +1,17 @@
 # Turtle calibrations
 
-Turtles have a dense and detailed record that has made them particularly amenable to time-scaled phylogenetic analysis using fossil calibrations, reviewed in detail by [Joyce et al. 2013](https://doi.org/10.1666/12-149) and references therein. That study provided 22 well-constrained node ages to date the turtle tree, which were corroborated and partially updated by [Selvatti et al. 2023](https://doi.org/10.1016/j.ympev.2023.107773), who also provided a summary of ages for Testudines suitable for use as likelihood checkpoints. Given our modest sampling of turtles, only some of the 22 constraints are applicable here, which we list below as Type III calibrations along with the assembled age-estimates for a likelihood checkpoint on Testudines.
+Turtles have a dense and detailed fossil record that has made them particularly amenable to time-scaled phylogenetic analysis using fossil calibrations, reviewed in detail by [Joyce et al. 2013](https://doi.org/10.1666/12-149) and references therein. That study provided 22 well-constrained node ages to date the turtle tree, which were corroborated and partially updated by [Selvatti et al. 2023](https://doi.org/10.1016/j.ympev.2023.107773), who also provided a summary of ages for Testudines suitable for use as likelihood checkpoints. Given our modest sampling of turtles, only some of the 22 constraints are applicable here, which we list below as Type III calibrations along with the assembled age-estimates for a likelihood checkpoint on Testudines.
 
 ### Type III Calibrations:
 **732:** Testudines: 157.3–252.0Ma. Based on the oldest crown testudine _Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma), with a maximum based on the maximum age of the Triassic.
 
 **747:** Pleurodira: 111.0–165.2Ma. Based the oldest crown pleurodiran _Teneremys lapparenti_ from the Aptian/Albian of the Cretaceous (113.2–121.4Ma), with a maximum based on the Callovian boundary between the middle/late Jurassic boundary (161.5–165.3Ma).
 
-**733:** Cryptodira: 157.3–200.0Ma. Based on the oldest crown cryptodiran _Yehguia tatsuensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma), with a maximum based on the minimum age of the Triassic.
+**733:** Cryptodira: 157.3–200.2Ma. Based on the oldest crown cryptodiran _Yehguia tatsuensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma), with a maximum based on the minimum age of the Triassic.
+
+**734:** Durocryptodira: 88.6–157.3Ma. Based on the oldest stem Testudinoidea _Lindholmemys elegans_ from the Turonian of the Cretaceous (89.8–93.9Ma), with a maximum based on the minimum ages of Cryptodira and Testudines.
+
+
 
 ## References
 
