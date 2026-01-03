@@ -114,7 +114,7 @@ legend(x="topleft",legend=names(colors)[-1],
        pch=21,pt.cex=2.0,pt.bg=colors[-1],bty="n")
 legend(x = "topright",legend = "Fossil calibrations",pch = 21,
        pt.bg = "black",col = "black",pt.cex = 1.2,bty = "n")
-text(x = 0,y = -0.15 * h,labels = "Timescale of\nvertebrate evolution",cex = 1.2,font = 2)
+text(x = 0,y = -0.15 * h,labels = "Genomic timescale of\nvertebrate evolution",cex = 1.2,font = 2)
 
 # graphics
 vgp <- png::readPNG("vgp.png")
