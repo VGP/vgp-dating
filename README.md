@@ -63,7 +63,7 @@ A second, related approach would be to do this using more recent trees for each 
 
 A third strategy is to derive all calibration ranges from the empirical distribution of dates and ages for a set of clades (perhaps all Superorders and subtending nodes) from [timetree.org](http://timetree.org), giving a broadly sampled prior distribution from combined previous studies.
 
-This empirical prior can then be used to (i) produce a dated tree using these constraints alone, and (ii) employing them as post-hoc probabilistic calibration checks in a likelihood framework sensu [Pyron (2010)](https://pubmed.ncbi.nlm.nih.gov/20525629/).
+This empirical prior can then be used to (i) produce a dated tree using these constraints alone, and (ii) employ them as post-hoc probabilistic calibration checks in a likelihood framework sensu [Pyron (2010)](https://pubmed.ncbi.nlm.nih.gov/20525629/).
 
 We can also use these empirical priors in a cross-validation framework to identify which nodes exibit the most variance under different calibration strategies, as an additional indicator of robustness.
 
