@@ -1,6 +1,6 @@
 # Calibration Set
 
-This is the final set of $XXX calibrations.
+This is the final set of **$XXX** calibrations.
 
 ## [Outgroups & root](./outgroups/deuterostomia.md):
 
