@@ -8,15 +8,17 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 **751:** Laterata: 130.2Ma. This calibration is based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma) analyzed by Simões et al. 2026.
 
-**767:** Toxicofera: 167.0Ma. This calibration is based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma) analyzed by Benson et al. 2025 (their Datasets 2 and 3). **This placement has not been corroborated by other total-evidence analyses, but the timescale is highly congruent with most recent estimates, including Title et al. 2024 and Simões et al. 2026.**
+**767:** Toxicofera: 167.0Ma. This calibration is based on the earliest potential crown toxicoferan _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma) analyzed by Benson et al. 2025 (their Datasets 2 and 3). **This placement has not been corroborated by other total-evidence analyses, but the timescale is highly congruent with most recent estimates, including Title et al. 2024 and Simões et al. 2026.**
 
 
 ### Type III Calibrations:
 **782:** Gekkota: 97.0Ma. This calibration is based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
 
-**749:** Unidentata: 170.0Ma. This calibration is based on the earliest Paramacellodidae (stem Scincoidea), from the Bajocian of the Jurassic (168.2–170.9Ma).
+**749:** Unidentata: 170.0Ma. This calibration is based on the earliest Paramacellodidae (stem Scincoidea) material, from the Bajocian of the Jurassic (168.2–170.9Ma).
 
 **779:** Anguimorpha: 144.0Ma. This calibration is based on the oldest crown anguimorph _Dorsetisaurus purbeckensis_, from the Tithonian of the Jurassic (143.1–149.2Ma).
+
+**778:** Chameleonidae: 20.0Ma. This calibration is based on the oldest crown chameleonid _Calumma benovskyi_, from the early Miocene at the base of the Hiwegi formation, dated to ~17–20Ma ([Maxbauer et al. 2013](https://doi.org/10.26879/342)). Assignment of this material to _Calumma_ places it within the _Bradypodion + Furcifer_ divergence, which has previously been estimated at ~45–50Ma using molecular timetrees ([Tolley et al. 2013](https://doi.org/10.1098/rspb.2013.0184)).
 
 **780:** Stem Anguidae (_Anniella + Elgaria_): 33.0Ma. This calibration is based on _Ophisaurus_ sp., the oldest crown anguine from the early Oligocene (23.0–33.9Ma), parameterizing the Anniellidae + Anguidae divergence (i.e., as a stem anguid).
 
