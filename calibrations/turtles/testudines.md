@@ -19,6 +19,12 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 **742:** Chelydroidea: 70.0–157.3Ma. Based on the oldest crown chelydroid SEPCP 9/493, likely stem Chelydridae, from the Campanian of the Cretaceous (72.2–83.6Ma).
 
+**736:** Chelonioidea: 48.4–157.3Ma. Based on the oldest known chelonioid _Eosphargis breineri_, likely stem Dermochelyidae, from the Ypresian of the Eocene (48.07–56.0Ma).
+
+
+### Likelihood Checkpoints:
+
+**732:** Testudines: **$XXX** studies for a median of **$XXX** and a range of **$XXX** **$UPDATE**
 
 
 ## References
