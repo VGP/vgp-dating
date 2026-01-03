@@ -91,7 +91,7 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 
 ## [Crocodilians:](./crocodylia/crocodylia.md) 
 
-**Type IV Calibration:**\
+### Type IV Calibration:
 **731:** Crocodylia: 77.9-113.2Ma\
 -Based on _Leidyosuchus canadensis_ (Cretaceous: Campanian, 77.9–72.1Ma), supported by all 8 total-evidence analyses.
 
@@ -102,7 +102,7 @@ Total-evidence estimates from 6 studies between 2017 and 2025 estimate a median 
 
 ## [Birds](./birds/aves.md):
 
-**Type I Calibration:**
+### Type I Calibration:
 **597:** Neoaves: 66.0–72.2Ma\
 -for the time being, I set this to the Maastrichtian of the Cretaceous for visualization purposes.
 
