@@ -57,7 +57,7 @@ We will use a [reference tree](./trees/roadies_v1.1.16b.numbersScientific.nwk.pd
 
 There are three major ways that we might explore robustness and congruence in addition to solely implementing min-max age constraints for fossil calibration. 
 
-The first is that we can select one or several tip-sampled phylogenies to fix the node ages using an approach such as [congruify](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12051) based on a dataset such as [Tetrapod1.0](https://pubmed.ncbi.nlm.nih.gov/41041580/). 
+The first is that we can select one or several tip-sampled phylogenies to fix the node ages using an approach such as [congruify](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12051) based on a dataset like [Tetrapod1.0](https://pubmed.ncbi.nlm.nih.gov/41041580/). 
 
 A second, related approach would be to do this using more recent trees for each subclade and patching them together using a fixed, dated backbone for Deuterostomia or Vertebrata.
 
