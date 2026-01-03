@@ -15,6 +15,10 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 **746:** Emydidae: 32.0–157.3Ma. Based on the oldest crown emydid _Chrysemys antiqua_ from the Orellan of the Oligocene (32.0–33.7Ma).
 
+**742:** Chelydroidea: 70.0–157.3Ma. Based on the oldest crown chelydroid SEPCP 9/493, a likely stem Chelydridae, from the Campanian of the Cretaceous (72.2–83.6Ma).
+
+
+
 ## References
 
 Joyce, W.G., Parham, J.F., Lyson, T.R., Warnock, R.C. and Donoghue, P.C., 2013. A divergence dating analysis of turtles using fossil calibrations: an example of best practices. Journal of Paleontology, 87(4), pp.612-634.
