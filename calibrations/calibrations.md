@@ -52,11 +52,11 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 **748:** Squamata: 167.2–252.0Ma.\
 -based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma). **This taxon is not confidently placed, but this is a very safe minimum age for the crown group.**
 
-**751:** Laterata: 130.2–252.0Ma.\
--based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma).
-
 **767:** Toxicofera: 167.0–252.0Ma.\
 -based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated, but the timescale is highly congruent with most recent estimates.**
+
+**751:** Laterata: 130.2–252.0Ma.\
+-based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma).
 
 ### Type III Calibrations:
 **782:** Gekkota: 97.0–252.0Ma.\
