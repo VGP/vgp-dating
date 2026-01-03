@@ -68,7 +68,7 @@ At the moment, the root (**582:** Deuterostomia) is set to the Ediacaran: 538.8�
 **779:** Anguimorpha: 144.0–252.0Ma.\
 -based on the oldest crown anguimorph _Dorsetisaurus purbeckensis_, from the Tithonian of the Jurassic (143.1–149.2Ma).
 
-**778:** Chameleonidae: 20.0–252.0Ma.\
+**778:** Chamaeleonidae: 20.0–252.0Ma.\
 -based on the oldest crown chameleonid _Calumma benovskyi_, from the early Miocene at the base of the Hiwegi formation (~17–20Ma).
 
 **780:** Anguidae: 33.0–252.0Ma.\
