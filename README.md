@@ -13,7 +13,7 @@ Chase Brownstein (chase.brownstein@yale.edu) – Yale (Fishes)\
 Mario dos Reis (m.dosreisbarros@qmul.ac.uk) – QMUL (Mammals & methods)
 
 
-## Final calibrations & treePL
+## Final calibrations & initial treePL
 
 Here is the [final set](./calibrations/calibrations.md) of **$XXX** calibrations decided on by our working group. Here is the initial [treePL](./treePL/treePL.md) analysis.
 
