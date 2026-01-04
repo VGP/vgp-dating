@@ -4,7 +4,7 @@
 **Coordinator:** Alex Pyron (rpyron@gwu.edu) – GWU
 
 **Contributors:**\
-Tom Near (thomas.near@yale.edu) – Yale (Fishes)\
+Tom Near (thomas.near@yale.edu) – Yale (Fishes/Turtles)\
 Chase Brownstein (chase.brownstein@yale.edu) – Yale (Fishes/Squamates)\
 Tiago Simões (simoes@princeton.edu) – Princeton (Squamates)\
 Santiago Claramunt (sclaramu@uno.edu) – UNO (Birds)\
