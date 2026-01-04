@@ -12,7 +12,7 @@ Ricardo Betancur (rbetancur@ucsd.edu) – UCSD (Fishes)\
 Dahiana Arcila (dkarcila@ucsd.edu) – UCSD (Fishes)\
 Delson Hays (dhhays@ucsd.edu) – UCSD (Fishes)\
 Nate Upham (nathan.upham@asu.edu) – ASU (Mammals)\
-Mario dos Reis (m.dosreisbarros@qmul.ac.uk) – QMUL (Mammals & methods)
+Mario dos Reis (m.dosreisbarros@qmul.ac.uk) – QMUL (Mammals/Methods)
 
 
 ## Final calibrations & initial treePL
