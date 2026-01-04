@@ -15,7 +15,7 @@ Nate Upham (nathan.upham@asu.edu) – ASU (Mammals)\
 Mario dos Reis (m.dosreisbarros@qmul.ac.uk) – QMUL (Mammals/Methods)
 
 
-## Final calibrations & initial treePL
+## [Calibrations](./calibrations/calibrations.md) & [dating](./treePL/treePL.md)
 
 Here is the [final set](./calibrations/calibrations.md) of **$XXX** calibrations decided on by our working group. Here is the initial [treePL](./treePL/treePL.md) analysis.
 
