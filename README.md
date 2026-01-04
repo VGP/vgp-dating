@@ -5,7 +5,7 @@
 
 **Contributors:**\
 Tom Near (thomas.near@yale.edu) – Yale (Fishes)\
-Chase Brownstein (chase.brownstein@yale.edu) – Yale (Fishes)\
+Chase Brownstein (chase.brownstein@yale.edu) – Yale (Fishes/Squamates)\
 Tiago Simões (simoes@princeton.edu) – Princeton (Squamates)\
 Santiago Claramunt (sclaramu@uno.edu) – UNO (Birds)\
 Ricardo Betancur (rbetancur@ucsd.edu) – UCSD (Fishes)\
