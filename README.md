@@ -4,15 +4,15 @@
 **Coordinator:** Alex Pyron (rpyron@gwu.edu) – GWU
 
 **Contributors:**\
-Tom Near (thomas.near@yale.edu) – Yale (Fishes/Turtles)\
-Chase Brownstein (chase.brownstein@yale.edu) – Yale (Fishes/Reptiles)\
-Tiago Simões (simoes@princeton.edu) – Princeton (Reptiles)\
-Santiago Claramunt (sclaramu@uno.edu) – UNO (Birds)\
-Ricardo Betancur (rbetancur@ucsd.edu) – UCSD (Fishes)\
-Dahiana Arcila (dkarcila@ucsd.edu) – UCSD (Fishes)\
-Delson Hays (dhhays@ucsd.edu) – UCSD (Fishes)\
-Nate Upham (nathan.upham@asu.edu) – ASU (Mammals)\
-Mario dos Reis (m.dosreisbarros@qmul.ac.uk) – QMUL (Mammals/Methods)
+Dahiana Arcila (dkarcila@ucsd.edu) – UCSD\
+Ricardo Betancur (rbetancur@ucsd.edu) – UCSD\
+Chase Brownstein (chase.brownstein@yale.edu) – Yale\
+Santiago Claramunt (sclaramu@uno.edu) – UNO\
+Delson Hays (dhhays@ucsd.edu) – UCSD\
+Tom Near (thomas.near@yale.edu) – Yale\
+Mario dos Reis (m.dosreisbarros@qmul.ac.uk) – QMUL\
+Tiago Simões (simoes@princeton.edu) – Princeton\
+Nate Upham (nathan.upham@asu.edu) – ASU
 
 
 ## [Calibrations](./calibrations/calibrations.md) & [dating](./treePL/treePL.md)
