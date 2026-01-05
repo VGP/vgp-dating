@@ -12,7 +12,7 @@ Delson Hays (dhhays@ucsd.edu) – UCSD\
 Tom Near (thomas.near@yale.edu) – Yale\
 Mario dos Reis (m.dosreisbarros@qmul.ac.uk) – QMUL\
 Tiago Simões (simoes@princeton.edu) – Princeton\
-Josefin Stiller (josefin.stiller@bio.ku.dk) – Copenhagen\
+Josefin Stiller (josefin.stiller@bio.ku.dk) – UCPH\
 Nate Upham (nathan.upham@asu.edu) – ASU
 
 
