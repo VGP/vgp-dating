@@ -51,7 +51,7 @@ For our preliminary exploratory analyses to generate immediate results as we go,
 
 **Type IV – phylogenetic fossils:** The ideal type of calibration will derive from a recent total-evidence phylogenetic analysis that includes the fossil of interest and therefore provides an objective reference for its placement close to the relevant node in our tree, along with a median age estimate and confidence interval on the stem and crown ages. Ideally, most of our calibrations will derive from such sources. Luckily, many such estimates have been published recently for most major clades, so each team has an extensive set of resources from which to work.
 
-***Type V – biogeographic calibrations:** Other possibilities include tectonic activity, biogeographic events, or climatic shifts, etc. Given that the sampling in the tree tends to skew deeper, with numerous calibrations available of the first four types for the deeper nodes, we may not end up relying on many Type V constraints, but the possibility exists if needed.
+**Type V – biogeographic calibrations:** Other possibilities include tectonic activity, biogeographic events, or climatic shifts, etc. Given that the sampling in the tree tends to skew deeper, with numerous calibrations available of the first four types for the deeper nodes, we may not end up relying on many Type V constraints, but the possibility exists if needed.
 
 
 ## Syntax
