@@ -20,6 +20,8 @@ Nate Upham (nathan.upham@asu.edu) – ASU
 
 Here is the [final set](./calibrations/calibrations.md) of **$XXX** calibrations decided on by our working group. Here is the initial [treePL](./treePL/treePL.md) analysis.
 
+Here are the Google Docs for keeping track of our discussions for [Amphibians & Reptiles](https://docs.google.com/document/d/1VMTsPOSn6-E8yx2SoGJ6JiWdQ-omS7DwejFJVYD-AxQ/edit?usp=sharing), [Birds](https://docs.google.com/document/d/1G3ztyJx8t66nX5fdmEJtjLbXIoATYab_lRFytgtN4-A/edit?usp=sharing), [Fishes](https://docs.google.com/document/d/1peTTM31qZX1y7SY2SgsUnMst2tot416lubJ-ppSi1_s/edit?usp=sharing), [Mammals](https://docs.google.com/document/d/1fdghXoPY2i9wUCyBZXstzkNecUCnA5Q7V5yTdWLWg14/edit?usp=sharing), and [early nodes](https://docs.google.com/document/d/1XepP4Q753V84ACbQf73-WcU__SS8bk1m9IkEs7GVPsA/edit?usp=sharing).
+
 <img width="2189" height="1524" alt="image" src="https://github.com/user-attachments/assets/83df3fcd-d675-4c13-b539-00c2fd1baf62" />
 
 
@@ -33,12 +35,17 @@ This feeds into the need for equivalent standards, practices, and criteria for t
 
 To begin with, we can outline four types of possible calibrations that can be drawn from team expertise, the literature, and existing analyses. This outline can provide some initial structure for us to begin compiling bounds and ranges. We can modify this set of considerations as we go. The strength of evidence will generally range from explicit phylogenetic hypotheses for fossil placement based on combined-evidence, tip-dated analysis, to expert-assessed consensus over the likely stratigraphic range during which a stem- or crown-group arose.
 
+## Analytical Methods
+
+Our aim is to incorporate Bayesian methodologies using [mcmctree](https://github.com/dosreislab/mcmctree) to extract the greatest accuracy, precision, and uncertainty from our whole-genome data – fulfilling a core aim of demonstrating how these VGP data allow superior inference over previous approaches. This will hopefully take a two-pronged approach of (i) node-dating using fossil-calibration densities and (ii) tip-dating using FBD-based priors after placing key fossils in the tree.
+
+For our preliminary exploratory analyses to generate immediate results as we go, I have set up [treePL](./treePL/treePL.md) as the core of our initial testing pipelines, but we should explore a range of options.
 
 ## Calibration types
 
 **Type I – stratigraphic ranges:** For many nodes such as the root, age calibrations will primarily refer to stratigraphic ranges based on initial taxon appearances and expert-assessed consensus for the upper bounds. A key example is the root, which [likely dates](https://www.nature.com/articles/nature16150) to the mid-Ediacaran ~570Ma and will presumably therefore receive a range of ~541–635Ma. The impact of fossil material is generally indirect in these instances. Only a few nodes should receive calibrations of this type, mostly towards the root of the tree and in the outgroups.
 
-**Type II – secondary calibrations:** For some nodes that do not have many proximal fossils and are not well constrained by other constraints, we may end up choosing to use secondary calibrations (possibly mixed with stratigraphic ranges) based on consensus estimates from the recent literature. Given how many dozens or hundreds of studies have estimated node- and tip-dated phylogenies and divergence-time estimates for clades such as Tetrapoda, we can at least consider this as a possibility depending on how the initial dating runs perform.
+**Type II – secondary calibrations:** For some nodes that do not have many proximal fossils and are not well constrained by other constraints, we may end up choosing to use secondary calibrations (possibly mixed with stratigraphic ranges) based on consensus estimates from the recent literature. Given how many dozens or hundreds of studies have estimated node- and tip-dated phylogenies and divergence-time estimates for clades such as Tetrapoda, we can at least consider this as a possibility depending on how the initial dating runs perform, but will generally avoid these if at all possible.
 
 **Type III – non-phylogenetic fossils:** This represents the classic instance of well-characterized fossils that are widely considered to represent the earliest stem- or crown-group members of a clade based on diagnostic taxonomic characteristics, but which have not been included in a total-evidence analysis for fossil-tip dating. Such fossils provide strong minimum ages, with maximum bounds set according to usual principles such as the stratigraphic range or the next-oldest constrained divergence – an extensive literature exists for this question. Ideally, this type of calibration will be minimal, as most fossils will ideally have been included in trees.
 
@@ -71,8 +78,3 @@ A third strategy is to derive all calibration ranges from the empirical distribu
 This empirical prior can then be used to (i) produce a dated tree using these constraints alone, and (ii) employ them as post-hoc probabilistic calibration checks in a likelihood framework sensu [Pyron (2010)](https://pubmed.ncbi.nlm.nih.gov/20525629/).
 
 We can also use these empirical priors in a cross-validation framework to identify which nodes exibit the most variance under different calibration strategies, as an additional indicator of robustness.
-
-
-## Analytical Methods
-
-This is a secondary consideration that we can discuss as a group, hopefully to be conducted by a subset of team members. Basic approaches such as [treePL](./treePL/treePL.md) will likely form the core of our initial testing pipelines, but we should explore a range of options. Approaches such as [RevBayes](https://revbayes.github.io/tutorials/dating/) and [mcmctree](https://github.com/dosreislab/mcmctree) would allow us to exploit more accuracy and precision from our whole-genome data – fulfilling a core aim of demonstrating how these VGP data allow superior inference over previous approaches – but will likely face significant computational burdens and runtime constraints. This is an open area of inquiry for our group.
