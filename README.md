@@ -11,6 +11,7 @@ Santiago Claramunt (sclaramu@uno.edu) – UNO\
 Delson Hays (dhhays@ucsd.edu) – UCSD\
 Tom Near (thomas.near@yale.edu) – Yale\
 Mario dos Reis (m.dosreisbarros@qmul.ac.uk) – QMUL\
+Mark Scherz (mark.scherz@gmail.com) – SNM/UCPH\
 Tiago Simões (simoes@princeton.edu) – Princeton\
 Josefin Stiller (josefin.stiller@bio.ku.dk) – UCPH\
 Nate Upham (nathan.upham@asu.edu) – ASU
