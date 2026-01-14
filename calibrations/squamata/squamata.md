@@ -32,9 +32,9 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 ### Likelihood checkpoints
 
-A preliminary literature review yields 34 age estimates for crown-group Squamata from 21 studies, yielding a median of 199.9Ma and a kernel-density mode of 203.4Ma. **These need to be expanded and filtered for inclusion of Dibamia**
+A preliminary literature review yields 44 age estimates for crown-group Squamata from 31 studies, yielding a median of 198.8Ma and a kernel-density mode of 203.0Ma. **These need to be expanded and filtered for inclusion of Dibamia**
 
-<img width="2061" height="1489" alt="image" src="https://github.com/user-attachments/assets/a5d1aa58-3e01-451a-bbe3-0ed7cdb3e7b8" />
+<img width="2061" height="1489" alt="image" src="https://github.com/user-attachments/assets/427d81ef-e915-4ed5-b862-3e4786594969" />
 
 
 ## References
