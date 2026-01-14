@@ -30,6 +30,12 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 **771:** Natricidae: 13.8Ma. This calibration is based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae from the middle Miocene (11.6–16.0Ma), parameterizing the _Natrix + Thamnophis_ divergence based on its closer affinity to the European genus _Natrix_ than New World _Thamnophis_.
 
+### Likelihood checkpoints
+
+A preliminary literature review yields 34 age estimates for crown-group Squamata from 21 studies, yielding a median of 199.9Ma and a kernel-density mode of 203.4Ma. **These need to be expanded and filtered for inclusion of Dibamia**
+
+<img width="2061" height="1489" alt="image" src="https://github.com/user-attachments/assets/a5d1aa58-3e01-451a-bbe3-0ed7cdb3e7b8" />
+
 
 ## References
 
