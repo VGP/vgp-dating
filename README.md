@@ -69,6 +69,16 @@ We will use a [reference tree](./trees/roadies_v1.1.16b.numbersScientific.nwk.pd
 	-Associated fossil material and rationale
 	-Citations and references
 
+-(1) Museum numbers of specimen(s) that demonstrate all the relevant characters and provenance data should be listed. Referrals of additional specimens to the focal taxon should be justified.
+
+-(2) An apomorphy-based diagnosis of the specimen(s) or an explicit, up-to-date, phylogenetic analysis that includes the specimen(s) should be referenced.
+
+-(3) Explicit statements on the reconciliation of morphological and molecular data sets should be given.
+
+-(4) The locality and stratigraphic level (to the best of current knowledge) from which the calibrating fossil(s) was/were collected should be specified.
+
+-(5) Reference to a published radioisotopic age and/or numeric timescale and details of numeric age selection should be given.
+
 
 ## Alternatives & Complements
 
