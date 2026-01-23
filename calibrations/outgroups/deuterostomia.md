@@ -34,29 +34,16 @@
 
 ## References
 
-Becker R.T., J.E.A. Marshall, A.-C. Da Silva, F.P. Agterberg, F.M. Gradstein, J.G. Ogg, 2020. Chapter 22 - The Devonian Period, in Editor(s): Felix M. Gradstein, James G. Ogg, Mark D. Schmitz, Gabi M. Ogg, Geologic Time Scale 2020, Elsevier, 2020, Pages 733-810, ISBN 9780128243602, https://doi.org/10.1016/B978-0-12-824360-2.00022-X.
-
 Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18.1.1FC; 1-106.
-
-Burrow, C.J. and Rudkin, D., 2014. Oldest near-complete acanthodian: the first vertebrate from the Silurian Bertie Formation Konservat-Lagerstätte, Ontario. PLoS One, 9(8), p.e104171.
 
 Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa.Sci. Adv.10,eadp7161(2024).DOI:10.1126/sciadv.adp7161
 
 Clausen, S. and Smith, A.B., 2008. Stem structure and evolution in the earliest pelmatozoan echinoderms. Journal of Paleontology, 82(4), pp.737-748.
 
-Dong X, Zhang H. Middle Cambrian through lowermost Ordovician conodonts from Hunan, South China. Journal of Paleontology. 2017;91(S73):1-89. doi:10.1017/jpa.2015.43
-
-Donoghue, P.C. and Keating, J.N., 2014. Early vertebrate evolution. Palaeontology, 57(5), pp.879-893.
 
 Gabbott, S.E., Donoghue, P.C., Sansom, R.S., Vinther, J., Dolocan, A. and Purnell, M.A., 2016. Pigmented anatomy in Carboniferous cyclostomes and the evolution of the vertebrate eye. Proceedings of the Royal Society B: Biological Sciences, 283(1836), p.20161151.
 
-Gess, R.W., Coates, M.I. and Rubidge, B.S., 2006. A lamprey from the Devonian period of South Africa. Nature, 443(7114), pp.981-984.
-
 Huldtgren, T., Cunningham, J.A., Yin, C., Stampanoni, M., Marone, F., Donoghue, P.C. and Bengtson, S., 2011. Fossilized nuclei and germination structures identify Ediacaran “animal embryos” as encysting protists. Science, 334(6063), pp.1696-1699.
-
-Melchin, M. J., Sadler, P. M. and Cramer, B. D. (2020). The Silurian Period. In Gradstein, F.M., Ogg, J.G., Schmitz, M.D. & Ogg, G. M. (eds) Geologic Time Scale 2020, Elsevier, 695–732. https://doi.org/10.1016/B978-0-12-824360-2.00021-8
-
-Murdock, D.J., Dong, X.P., Repetski, J.E., Marone, F., Stampanoni, M. and Donoghue, P.C., 2013. The origin of conodonts and of vertebrate mineralized skeletons. Nature, 502(7472), pp.546-549.
 
 Shu, D.G., Conway Morris, S., Zhang, Z.F. and Han, J., 2010. The earliest history of the deuterostomes: the importance of the Chengjiang Fossil-Lagerstätte. Proceedings of the Royal Society B: Biological Sciences, 277(1679), pp.165-174.
 
@@ -67,5 +54,3 @@ Yin Z, Weichen Sun, Pengju Liu, Junyuan Chen, David J. Bottjer, Jinhua Li, Maoya
 Yang, C., Li, X.H., Zhu, M., Condon, D.J. and Chen, J., 2018. Geochronological constraint on the Cambrian Chengjiang biota, South China. Journal of the Geological Society, 175(4), pp.659-666.
 
 Yang C. et al. 2021, The tempo of Ediacaran evolution. Sci. Adv. 7, eabi9643 (2021). DOI:10.1126/sciadv.abi9643
-
-Zhu, Y.A., Li, Q., Lu, J., Chen, Y., Wang, J., Gai, Z., Zhao, W., Wei, G., Yu, Y., Ahlberg, P.E. and Zhu, M., 2022. The oldest complete jawed vertebrates from the early Silurian of China. Nature, 609(7929), pp.954-958.
