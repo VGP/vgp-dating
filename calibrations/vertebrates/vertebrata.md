@@ -55,6 +55,6 @@ Murdock, D.J., Dong, X.P., Repetski, J.E., Marone, F., Stampanoni, M. and Donogh
 
 Yin Z, Weichen Sun, Pengju Liu, Junyuan Chen, David J. Bottjer, Jinhua Li, Maoyan Zhu. 2022. Diverse and complex developmental mechanisms of early Ediacaran embryo-like fossils from the Weng'an Biota, southwest China. Philos Trans R Soc Lond B Biol Sci 28 March 2022; 377 (1847): 20210032. https://doi.org/10.1098/rstb.2021.0032
 
-Yang C. et al. 2021, The tempo of Ediacaran evolution.Sci. Adv. 7,eabi9643(2021).DOI:10.1126/sciadv.abi9643
+Yang C. et al. 2021, The tempo of Ediacaran evolution. Sci. Adv. 7, eabi9643(2021). DOI:10.1126/sciadv.abi9643
 
 Zhu, Y.A., Li, Q., Lu, J., Chen, Y., Wang, J., Gai, Z., Zhao, W., Wei, G., Yu, Y., Ahlberg, P.E. and Zhu, M., 2022. The oldest complete jawed vertebrates from the early Silurian of China. Nature, 609(7929), pp.954-958.
