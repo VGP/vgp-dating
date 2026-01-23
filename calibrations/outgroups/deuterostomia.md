@@ -95,6 +95,4 @@ Yang, C., Li, X.H., Zhu, M., Condon, D.J. and Chen, J., 2018. Geochronological c
 
 Yang C. et al. 2021,The tempo of Ediacaran evolution.Sci. Adv.7,eabi9643(2021).DOI:10.1126/sciadv.abi9643
 
-Zhu, M., Zhao, W., Jia, L. et al. The oldest articulated osteichthyan reveals mosaic gnathostome characters. Nature 458, 469–474 (2009). https://doi.org/10.1038/nature07855
-
 Zhu, Y.A., Li, Q., Lu, J., Chen, Y., Wang, J., Gai, Z., Zhao, W., Wei, G., Yu, Y., Ahlberg, P.E. and Zhu, M., 2022. The oldest complete jawed vertebrates from the early Silurian of China. Nature, 609(7929), pp.954-958.
