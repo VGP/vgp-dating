@@ -64,3 +64,5 @@ Swalla, B.J. and Smith, A.B., 2008. Deciphering deuterostome phylogeny: molecula
 Yin Z, Weichen Sun, Pengju Liu, Junyuan Chen, David J. Bottjer, Jinhua Li, Maoyan Zhu; Diverse and complex developmental mechanisms of early Ediacaran embryo-like fossils from the Weng'an Biota, southwest China. Philos Trans R Soc Lond B Biol Sci 28 March 2022; 377 (1847): 20210032. https://doi.org/10.1098/rstb.2021.0032
 
 Yang, C., Li, X.H., Zhu, M., Condon, D.J. and Chen, J., 2018. Geochronological constraint on the Cambrian Chengjiang biota, South China. Journal of the Geological Society, 175(4), pp.659-666.
+
+Yang C. et al. 2021, The tempo of Ediacaran evolution.Sci. Adv. 7,eabi9643(2021).DOI:10.1126/sciadv.abi9643
