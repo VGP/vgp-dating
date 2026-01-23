@@ -154,9 +154,5 @@ Total-evidence estimates from 6 studies between 2017 and 2025 estimate a median 
 
 ## [Birds](./birds/aves.md):
 
-### Type I Calibration:
-**597:** Neoaves: 66.0–72.2Ma\
--for the time being, I set this to the Maastrichtian of the Cretaceous for visualization purposes.
-
 
 ## References
