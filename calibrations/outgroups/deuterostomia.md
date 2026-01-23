@@ -46,13 +46,22 @@
 **Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
 **Discussion:** The Lantian Biota also has extensive macrofossils without any definitive metazoans, but it is older than the Weng’an Biota ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)), making the Weng’an a more reasonable choice.
 
-
+**Node 586:** Crown Gnathostomata | 468.4 - 431.7 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161)\
+**Node calibrated:** Last common ancestor of the clade encompassing Osteichthyes and Chondrichthyes.\
+**Fossil taxon:** _Shenacanthus vermiformis_ (V300000; Institute of Vertebrate Palaeontology and Palaeoanthropology; [Zhu et al. 2022](https://www.nature.com/articles/s41586-022-05136-8)).\
+**Minimum age:** _Shenacanthus_ is found in the early Silurian (Telychian) Huixingshao Formation of Chongqing, South China ([Zhu et al. 2022](https://www.nature.com/articles/s41586-022-05136-8)). This has been established as Llandovery in age, and so a minimum age constraint can be established based on the Llandovery-Wenlock boundary. This has been dated to 432.9 Ma ± 1.2 Myr ([Melchin et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00021-8)), yielding a minimum age of 431.7 Ma.\
+**Minimum justification:** _Shenacanthus_ is resolved as a derived stem-chondrichthyan in a phylogenetic analysis by [Zhu et al. (2022)](https://www.nature.com/articles/s41586-022-05136-8).\
+**Maximum age:** Ostracoderm assemblages from the Stairway Sandstone Formation of Mt Watt, Amadeus Basin, Northern Territory, Australia, dated to 467.3 Ma ± 1.1 Myr, yielding a maximum age of 468.4 Ma ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)).\
+**Maximum justification:** Ostracoderms are stem group gnathostomes, and their presence in the Ordovician demonstrates the potential for preservation of gnathostomes. However, no crown representatives have been found.\
+**Discussion:** _Guiyu oneiros_ has lobe-finned fish synapmorphies which identify it as a stem-sarcopterygian and therefore crown Osteichthyes and crown Gnathostomata, however, it is dated younger than Shenacanthus at 420.7 Ma ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)). Scales from possible chondrichthyans have also been found from the Stairway Sandstone, but dated slightly older than _Shenacanthus_ at 457.7 Ma. However, these are difficult to place phylogenetically and this uncertainty makes them unsuitable for use as calibrations ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)). _Nerepisacanthus_ is an acanthodian, making it crown gnathostome and possibly stem chondrichthyan ([Burrow and Rudkin 2014](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0104171)). However, it is found in the Bertie Formation which is dated to 423 Ma ± 2.3 Myr to 4.19.2 Ma ± 3.2 Myr, making it either the same age or younger than Guiyu, and much younger than _Shenacanthus_.
 
 ## References
 
 Becker R.T., J.E.A. Marshall, A.-C. Da Silva, F.P. Agterberg, F.M. Gradstein, J.G. Ogg, 2020. Chapter 22 - The Devonian Period, in Editor(s): Felix M. Gradstein, James G. Ogg, Mark D. Schmitz, Gabi M. Ogg, Geologic Time Scale 2020, Elsevier, 2020, Pages 733-810, ISBN 9780128243602, https://doi.org/10.1016/B978-0-12-824360-2.00022-X.
 
 Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history.
+
+Burrow, C.J. and Rudkin, D., 2014. Oldest near-complete acanthodian: the first vertebrate from the Silurian Bertie Formation Konservat-Lagerstätte, Ontario. PLoS One, 9(8), p.e104171.
 
 Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa.Sci. Adv.10,eadp7161(2024).DOI:10.1126/sciadv.adp7161
 
@@ -68,6 +77,8 @@ Gess, R.W., Coates, M.I. and Rubidge, B.S., 2006. A lamprey from the Devonian pe
 
 Huldtgren, T., Cunningham, J.A., Yin, C., Stampanoni, M., Marone, F., Donoghue, P.C. and Bengtson, S., 2011. Fossilized nuclei and germination structures identify Ediacaran “animal embryos” as encysting protists. Science, 334(6063), pp.1696-1699.
 
+Melchin, M. J., Sadler, P. M. and Cramer, B. D. (2020). The Silurian Period. In Gradstein, F.M., Ogg, J.G., Schmitz, M.D. & Ogg, G. M. (eds) Geologic Time Scale 2020, Elsevier, 695–732. https://doi.org/10.1016/B978-0-12-824360-2.00021-8
+
 Murdock, D.J., Dong, X.P., Repetski, J.E., Marone, F., Stampanoni, M. and Donoghue, P.C., 2013. The origin of conodonts and of vertebrate mineralized skeletons. Nature, 502(7472), pp.546-549.
 
 Shu, D.G., Conway Morris, S., Zhang, Z.F. and Han, J., 2010. The earliest history of the deuterostomes: the importance of the Chengjiang Fossil-Lagerstätte. Proceedings of the Royal Society B: Biological Sciences, 277(1679), pp.165-174.
@@ -79,3 +90,5 @@ Yin Z, Weichen Sun, Pengju Liu, Junyuan Chen, David J. Bottjer, Jinhua Li, Maoya
 Yang, C., Li, X.H., Zhu, M., Condon, D.J. and Chen, J., 2018. Geochronological constraint on the Cambrian Chengjiang biota, South China. Journal of the Geological Society, 175(4), pp.659-666.
 
 Yang C. et al. 2021,The tempo of Ediacaran evolution.Sci. Adv.7,eabi9643(2021).DOI:10.1126/sciadv.abi9643
+
+Zhu, Y.A., Li, Q., Lu, J., Chen, Y., Wang, J., Gai, Z., Zhao, W., Wei, G., Yu, Y., Ahlberg, P.E. and Zhu, M., 2022. The oldest complete jawed vertebrates from the early Silurian of China. Nature, 609(7929), pp.954-958.
