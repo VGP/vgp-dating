@@ -37,8 +37,20 @@
 **Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
 **Discussion:** _Arandaspis priontolepis_ is a total-group gnathostome, making it crown-group Vertebrata, however it is dated to 457.5 Ma and is therefore younger than Furnishina ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)). The Lantian Biota also has extensive macrofossils without any definitive metazoans, but it is older than the Weng’an Biota ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)), making the Weng’an a more reasonable choice.
 
+**Node 1150:** Crown Cyclostomata | 590.8 - 358.5 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161), with our minimum constraint following [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1).\
+**Node calibrated:** Last common ancestor of the clade encompassing hagfishes and lampreys\
+**Fossil taxon:** _Priscomyzon riniensis_ (AM5750, Albany Museum, Grahamstown, Eastern Cape, South Africa).\
+**Minimum age:** The Witpoort Formation (Witteberg Group) at Waterloo Farm, Grahamstown, South Africa has been dated to the Famennian, and so we can use the Devonian-Carboniferous boundary of 358.9 Ma ± 0.4 Myr, or 385.5 Ma ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1); [Becker et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00022-X)).\
+**Maximum age:** Weng’an Biota, 590.8 Ma ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)). Yang et al. date the biota based on Re-Os data to 587.2 Ma ±3.6 Myr, yielding a maximum age constraint of 590.8 Ma.\
+**Minimum justification:** The unequivocally total-group petromyzontid (and therefore crown-group Cyclosotmata) _Priscomyzon riniensis_ is used as the minimum calibration ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1); [Gess et al. 2006](https://www.nature.com/articles/nature05150)).\
+**Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
+**Discussion:** The Lantian Biota also has extensive macrofossils without any definitive metazoans, but it is older than the Weng’an Biota ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)), making the Weng’an a more reasonable choice.
+
+
 
 ## References
+
+Becker R.T., J.E.A. Marshall, A.-C. Da Silva, F.P. Agterberg, F.M. Gradstein, J.G. Ogg, 2020. Chapter 22 - The Devonian Period, in Editor(s): Felix M. Gradstein, James G. Ogg, Mark D. Schmitz, Gabi M. Ogg, Geologic Time Scale 2020, Elsevier, 2020, Pages 733-810, ISBN 9780128243602, https://doi.org/10.1016/B978-0-12-824360-2.00022-X.
 
 Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history.
 
@@ -51,6 +63,8 @@ Dong X, Zhang H. Middle Cambrian through lowermost Ordovician conodonts from Hun
 Donoghue, P.C. and Keating, J.N., 2014. Early vertebrate evolution. Palaeontology, 57(5), pp.879-893.
 
 Gabbott, S.E., Donoghue, P.C., Sansom, R.S., Vinther, J., Dolocan, A. and Purnell, M.A., 2016. Pigmented anatomy in Carboniferous cyclostomes and the evolution of the vertebrate eye. Proceedings of the Royal Society B: Biological Sciences, 283(1836), p.20161151.
+
+Gess, R.W., Coates, M.I. and Rubidge, B.S., 2006. A lamprey from the Devonian period of South Africa. Nature, 443(7114), pp.981-984.
 
 Huldtgren, T., Cunningham, J.A., Yin, C., Stampanoni, M., Marone, F., Donoghue, P.C. and Bengtson, S., 2011. Fossilized nuclei and germination structures identify Ediacaran “animal embryos” as encysting protists. Science, 334(6063), pp.1696-1699.
 
