@@ -28,27 +28,40 @@
 **Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
 **Discussion:** The Lantian Biota also has extensive macrofossils without any definitive metazoans, but it is older than the Weng’an Biota ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)), making the Weng’an a more reasonable choice.
 
-
+**Node 585:** Crown Vertebrata | 590.8 - 497 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161)\
+**Node calibrated:** Last common ancestor of the clade encompassing Cyclostomata and Gnathostomata.\
+**Fossil taxon:** _Furnishina begminata_ (GMPKU2589; Geological Museum, Peking University, Beijing, China).\
+**Minimum age:** _Furnishina_ is found in the middle Cambrian Huaqiao Formation at Wangcun Section, northern Hunan Province, China, dated to 497 Ma ([Dong and Zhang 2017](https://www.cambridge.org/core/journals/journal-of-paleontology/article/middle-cambrian-through-lowermost-ordovician-conodonts-from-hunan-south-china/3DEF85E92A72769822D58F28473FDB5F)).\
+**Minimum justification:** Conodonts are tooth-like ‘elements’ that have been interpreted as coming from vertebrates, possibly stem gnathostomes ([Donoghue and Keating 2014](https://onlinelibrary.wiley.com/doi/abs/10.1111/pala.12125)). Soft tissue fossils show notochords, segmental trunk musculature, a caudal fin, paired sensory organs, and gill pouches, all of which support a vertebrate affinity. The oldest conodont is _Furnishina_, a paraconodont in the euconodont lineage ([Murdock et al. 2013](https://www.nature.com/articles/nature12645)).\
+**Maximum age:** Weng’an Biota, 590.8 Ma ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)). Yang et al. date the biota based on Re-Os data to 587.2 Ma ±3.6 Myr, yielding a maximum age constraint of 590.8 Ma.\
+**Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
+**Discussion:** _Arandaspis priontolepis_ is a total-group gnathostome, making it crown-group Vertebrata, however it is dated to 457.5 Ma and is therefore younger than Furnishina ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)). The Lantian Biota also has extensive macrofossils without any definitive metazoans, but it is older than the Weng’an Biota ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)), making the Weng’an a more reasonable choice.
 
 
 ## References
 
 Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history.
 
-Emily Carlisle et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa.Sci. Adv.10,eadp7161(2024).DOI:10.1126/sciadv.adp7161
+Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa.Sci. Adv.10,eadp7161(2024).DOI:10.1126/sciadv.adp7161
 
 Clausen, S. and Smith, A.B., 2008. Stem structure and evolution in the earliest pelmatozoan echinoderms. Journal of Paleontology, 82(4), pp.737-748.
+
+Dong X, Zhang H. Middle Cambrian through lowermost Ordovician conodonts from Hunan, South China. Journal of Paleontology. 2017;91(S73):1-89. doi:10.1017/jpa.2015.43
+
+Donoghue, P.C. and Keating, J.N., 2014. Early vertebrate evolution. Palaeontology, 57(5), pp.879-893.
 
 Gabbott, S.E., Donoghue, P.C., Sansom, R.S., Vinther, J., Dolocan, A. and Purnell, M.A., 2016. Pigmented anatomy in Carboniferous cyclostomes and the evolution of the vertebrate eye. Proceedings of the Royal Society B: Biological Sciences, 283(1836), p.20161151.
 
 Huldtgren, T., Cunningham, J.A., Yin, C., Stampanoni, M., Marone, F., Donoghue, P.C. and Bengtson, S., 2011. Fossilized nuclei and germination structures identify Ediacaran “animal embryos” as encysting protists. Science, 334(6063), pp.1696-1699.
 
+Murdock, D.J., Dong, X.P., Repetski, J.E., Marone, F., Stampanoni, M. and Donoghue, P.C., 2013. The origin of conodonts and of vertebrate mineralized skeletons. Nature, 502(7472), pp.546-549.
+
 Shu, D.G., Conway Morris, S., Zhang, Z.F. and Han, J., 2010. The earliest history of the deuterostomes: the importance of the Chengjiang Fossil-Lagerstätte. Proceedings of the Royal Society B: Biological Sciences, 277(1679), pp.165-174.
 
 Swalla, B.J. and Smith, A.B., 2008. Deciphering deuterostome phylogeny: molecular, morphological and palaeontological perspectives. Philosophical Transactions of the Royal Society B: Biological Sciences, 363(1496), pp.1557-1568.
 
-Zongjun Yin, Weichen Sun, Pengju Liu, Junyuan Chen, David J. Bottjer, Jinhua Li, Maoyan Zhu; Diverse and complex developmental mechanisms of early Ediacaran embryo-like fossils from the Weng'an Biota, southwest China. Philos Trans R Soc Lond B Biol Sci 28 March 2022; 377 (1847): 20210032. https://doi.org/10.1098/rstb.2021.0032
+Yin Z, Weichen Sun, Pengju Liu, Junyuan Chen, David J. Bottjer, Jinhua Li, Maoyan Zhu; Diverse and complex developmental mechanisms of early Ediacaran embryo-like fossils from the Weng'an Biota, southwest China. Philos Trans R Soc Lond B Biol Sci 28 March 2022; 377 (1847): 20210032. https://doi.org/10.1098/rstb.2021.0032
 
 Yang, C., Li, X.H., Zhu, M., Condon, D.J. and Chen, J., 2018. Geochronological constraint on the Cambrian Chengjiang biota, South China. Journal of the Geological Society, 175(4), pp.659-666.
 
-Chuan Yang et al. ,The tempo of Ediacaran evolution.Sci. Adv.7,eabi9643(2021).DOI:10.1126/sciadv.abi9643
+Yang C. et al. 2021,The tempo of Ediacaran evolution.Sci. Adv.7,eabi9643(2021).DOI:10.1126/sciadv.abi9643
