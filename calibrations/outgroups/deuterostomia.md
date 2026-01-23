@@ -55,14 +55,6 @@
 **Maximum justification:** Ostracoderms are stem group gnathostomes, and their presence in the Ordovician demonstrates the potential for preservation of gnathostomes. However, no crown representatives have been found.\
 **Discussion:** _Guiyu oneiros_ has lobe-finned fish synapmorphies which identify it as a stem-sarcopterygian and therefore crown Osteichthyes and crown Gnathostomata, however, it is dated younger than Shenacanthus at 420.7 Ma ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)). Scales from possible chondrichthyans have also been found from the Stairway Sandstone, but dated slightly older than _Shenacanthus_ at 457.7 Ma. However, these are difficult to place phylogenetically and this uncertainty makes them unsuitable for use as calibrations ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)). _Nerepisacanthus_ is an acanthodian, making it crown gnathostome and possibly stem chondrichthyan ([Burrow and Rudkin 2014](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0104171)). However, it is found in the Bertie Formation which is dated to 423 Ma ± 2.3 Myr to 4.19.2 Ma ± 3.2 Myr, making it either the same age or younger than Guiyu, and much younger than _Shenacanthus_.
 
-**Node 587:** Crown Osteichthyes | 444.9 - 420.7 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161), with our minimum constraint following [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1).\
-**Node calibrated:** Last common ancestor of the clade encompassing Actinopterygii and Sarcopterygii.\
-**Fossil taxon:** _Guiyu oneiros_ (IVPP V15541, Institute of Vertebrate Paleontology and Paleoanthropology, Beijing)\
-**Minimum age:** _Guiyu_ is found in the Kuanti Formation, Xiaoxiang Reservoir, Quijing, Yunnan, China. Based on conodont index fossils, the formation has been correlated with the Ludlow-Pridoli boundary, which has been dated to 423 Ma ± 2.3 Myr, yielding a minimum age of 420.7 Ma ([Melchin et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00021-8)).\
-**Minimum justification:** _Guiyu_ has lobe-finned fish synapomorphies which identify it as a stem sarcopterygian and therefore crown Osteichthyes ([Zhu et al. 2009](https://www.nature.com/articles/nature07855); [Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)).\
-**Maximum age:** The base of the Llandovery, dated at 443.4 Ma ± 1.5 Myr, or 444.9 Ma, can be used as the soft maximum calibration ([Melchin et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00021-8)).\
-**Maximum justification:** There are records of diverse jawless fishes in the Silurian rocks, but nothing that can be identified as crown Osteichthyes ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1) )
-
 ### Type IV Calibrations:
 
 **$XXX some of the above Type III may actually be Type IV**
@@ -71,7 +63,7 @@
 
 Becker R.T., J.E.A. Marshall, A.-C. Da Silva, F.P. Agterberg, F.M. Gradstein, J.G. Ogg, 2020. Chapter 22 - The Devonian Period, in Editor(s): Felix M. Gradstein, James G. Ogg, Mark D. Schmitz, Gabi M. Ogg, Geologic Time Scale 2020, Elsevier, 2020, Pages 733-810, ISBN 9780128243602, https://doi.org/10.1016/B978-0-12-824360-2.00022-X.
 
-Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history.
+Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18.1.1FC; 1-106; 
 
 Burrow, C.J. and Rudkin, D., 2014. Oldest near-complete acanthodian: the first vertebrate from the Silurian Bertie Formation Konservat-Lagerstätte, Ontario. PLoS One, 9(8), p.e104171.
 
