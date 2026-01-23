@@ -1,6 +1,6 @@
 # Outgroup & root calibrations
 
-### Type I Calibrations:
+### Type III Calibrations:
 
 **Node 582:** Crown Deuterostomia | 590.8 - 517.32 Ma - from [Carlisle et al. (2024) Sci Adv](https://doi.org/10.1126/sciadv.adp7161)\
 **Node calibrated:** Last common ancestor of the clade encompassing chordates, echinoderms and hemichordates (when monophyletic)\
@@ -11,8 +11,20 @@
 **Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
 **Discussion:** Isolated pelmatozoan columnals with characteristic morphology and stereom structure of the echinoderm total group have been found, however they are dated to 515.5 Ma and are therefore younger than _Haikouichthys_ ([Swalla and Smith 2008](https://royalsocietypublishing.org/doi/abs/10.1098/rstb.2007.2246); [Clausen and Smith 2008](https://www.cambridge.org/core/journals/journal-of-paleontology/article/abs/stem-structure-and-evolution-in-the-earliest-pelmatozoan-echinoderms/2F53133C923A5FC745C94E99C98503F4)). The Lantian Biota also has extensive macrofossils without any definitive metazoans, but it is older than the Weng’an Biota ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)), making the Weng’an a more reasonable choice.
 
+**Node 1161:** Crown Ambulacraria| 590.8 - 515.5 Ma - from [Carlisle et al. (2024) Sci Adv](https://doi.org/10.1126/sciadv.adp7161), with our minimum constraint following [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1).
+Node calibrated: Last common ancestor of the clade encompassing Hemichordata and Echinodermata.
+Fossil taxon: Isolated pelmatozoan columnals (BMNH EE6828-EE6846, Natural History Museum, London, UK).
+Minimum age: 515.5 Ma, from the Micmacca Breccia, which encompasses the upper part of the Cephalopyge notabilis Biozone, the Ornamentaspis frequens Biozone and the lower part of the Kymataspis arenosa Biozone, which has been dated to the latest Atdabanian of 517.0 Ma ± 1.5 Myr, or 515.5 ma (Benton, et al. 2015).
+Maximum age: Weng’an Biota, 590.8 Ma (Yang, et al. 2021). Yang et al. date the biota based on Re-Os data to 587.2 Ma ±3.6 Myr, yielding a maximum age constraint of 590.8 Ma.
+Minimum justification: The isolated pelmatzoan columnals have characteristic morphology and stereom structure of the Echinodermata total group (Benton, et al. 2015; Swalla and Smith 2008; Clausen and Smith 2008).
+Maximum justification: The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans (Yin, et al. 2022), but this is still uncertain, and others have suggested they are non-metazoan holozoans (Huldtgren, et al. 2011).
+
+
+
 
 ## References
+
+Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history.
 
 Emily Carlisle et al. ,Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa.Sci. Adv.10,eadp7161(2024).DOI:10.1126/sciadv.adp7161
 
