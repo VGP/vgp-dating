@@ -12,9 +12,9 @@
 
 ## References
 
-Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa.Sci. Adv.10,eadp7161(2024).DOI:10.1126/sciadv.adp7161
+Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18.1.1FC; 1-106.
 
-Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18.1.1FC; 1-106; 
+Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa.Sci. Adv.10,eadp7161(2024).DOI:10.1126/sciadv.adp7161
 
 Melchin, M. J., Sadler, P. M. and Cramer, B. D. (2020). The Silurian Period. In Gradstein, F.M., Ogg, J.G., Schmitz, M.D. & Ogg, G. M. (eds) Geologic Time Scale 2020, Elsevier, 695–732. https://doi.org/10.1016/B978-0-12-824360-2.00021-8
 
