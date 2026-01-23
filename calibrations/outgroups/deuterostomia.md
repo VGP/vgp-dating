@@ -66,6 +66,6 @@ Yin Z, Weichen Sun, Pengju Liu, Junyuan Chen, David J. Bottjer, Jinhua Li, Maoya
 
 Yang, C., Li, X.H., Zhu, M., Condon, D.J. and Chen, J., 2018. Geochronological constraint on the Cambrian Chengjiang biota, South China. Journal of the Geological Society, 175(4), pp.659-666.
 
-Yang C. et al. 2021,The tempo of Ediacaran evolution.Sci. Adv.7,eabi9643(2021).DOI:10.1126/sciadv.abi9643
+Yang C. et al. 2021, The tempo of Ediacaran evolution.Sci. Adv. 7,eabi9643(2021).DOI:10.1126/sciadv.abi9643
 
 Zhu, Y.A., Li, Q., Lu, J., Chen, Y., Wang, J., Gai, Z., Zhao, W., Wei, G., Yu, Y., Ahlberg, P.E. and Zhu, M., 2022. The oldest complete jawed vertebrates from the early Silurian of China. Nature, 609(7929), pp.954-958.
