@@ -5,10 +5,13 @@ This is the final set of **$XXX** calibrations.
 ## [Outgroups & root](./outgroups/deuterostomia.md):
 
 **582:** Deuterostomia: 590.8 - 517.32Ma\
--Chengjiang fossils such as _Haikouichthys ercaicunensis_ from the Weng’an Biota of the .\
+-Chengjiang fossils such as _Haikouichthys ercaicunensis_ from the Chengjiang biota of the Cambrian.\
 
 **1161:** Ambulacraria: 590.8 - 515.5Ma\
 -Isolated pelmatozoan columnals from the Micmacca Breccia, latest Atdabanian of the Cambrian.\
+
+**583:** Chordata: 590.8 - 517.32Ma\
+-Chengjiang fossils such as _Haikouichthys ercaicunensis_ from the Chengjiang biota of the Cambrian.\
 
 **584:** Olfactores: 590.8 - 517.32Ma\
 -Chengjiang fossils such as _Haikouichthys_ from the Chengjiang biota of the Cambrian.\
