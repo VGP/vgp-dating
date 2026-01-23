@@ -92,9 +92,26 @@ colors <- c(
 )
 names(colors) <- c("Root","Amphibians","Birds","Crocs","Fishes","Mammals","Sharks","Squamates","Turtles")
 
+# save as PNG
+png(
+  filename = "roadies_v1.1.16b.treePL.png",
+  width = 2189,
+  height = 1524,
+  units = "px",
+  res = 300
+)
+
 # plot tree as arc
 arc_height<-0.4
 h<-max(nodeHeights(painted))
+
+# internal node ages (Ma), indexed by node number
+bt <- branching.times(roadies_v1.1.16b.treePL.tre)
+
+# match MRCA nodes to ages
+mrca_df$estimated_age_Ma <- bt[as.character(mrca_df$node)]
+
+# plot tree
 plotTree(roadies_v1.1.16b.treePL.tre,color="white",type="arc",lwd=1,ftype="off",
          arc_height=arc_height,ylim=c(-0.1*h,1.1*(1+arc_height)*h))
 labs<-seq(0,h,by=50)
@@ -186,3 +203,18 @@ add_phylopic_base(
   col    = "lightgrey",
   fill   = "lightgrey"
   )
+
+dev.off()
+
+# Estimated ages for calibration nodes:
+calibration_ages <- mrca_df[, c("clade", "tip1", "tip2", "estimated_age_Ma")]
+
+print(calibration_ages)
+
+write.table(
+  calibration_ages,
+  file = "roadies_v1.1.16b.calibrated_node_ages.tsv",
+  sep = "\t",
+  row.names = FALSE,
+  quote = FALSE
+)
