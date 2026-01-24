@@ -78,7 +78,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Minimum age:** 20.0Ma\
 **Minimum justification:** This calibration is based on the oldest crown Viperinae ([Szyndlar and Rage, 1999](https://www.zobodat.at/publikation_volumes.php?id=58079)) from the St-Gérand-le-Puy complex of the early Miocene (16.0–20.5Ma) of France. Synapomorphies listed and assigned by [Head et al. (2016)](https://doi.org/10.26879/625) at 20.0 Ma, the youngest age for the MN2 stage ([Agustí et al. 2001](https://doi.org/10.1016/S0012-8252(00)00025-8)).\
 **Maximum age:** K–Pg boundary, 66.043Ma.\
-**Maximum justification:** The crown group Endoglyptodonta has been dated to 59.5Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 47.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 52.0Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 43.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), leaving the K–Pg boundary as a conservative upper bound.
+**Maximum justification:** The crown group Endoglyptodonta has been dated to 59.5Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 47.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 52.0Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), 43.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 42.5Ma ([Zaher et al. 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216148)), leaving the K–Pg boundary as a conservative upper bound.
 
 **Node 771:** Natricidae: 13.8Ma. This calibration is based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae from the middle Miocene (11.6–16.0Ma), parameterizing the _Natrix + Thamnophis_ divergence based on its closer affinity to the European genus _Natrix_ than New World _Thamnophis_.\
 **Node calibrated:** \
@@ -86,7 +86,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Minimum age:** \
 **Minimum justification:** \
 **Maximum age:** \
-**Maximum justification:** Natricidae 27.3 (Burbrink)
+**Maximum justification:** The age of the crown group Natricidae has been estimated at 27.3Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 20.0Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 19.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 26.0Ma ([Zaher et al. 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216148)) – the crown group was not captured by [Simões et al. (2026)](https://doi.org/10.1093/sysbio/syaf067) – leaving the Eocene–Oligocene boundary as a conservative upper bound.
 
 ### Likelihood checkpoints
 
@@ -214,5 +214,7 @@ Welt, R. S., and C. J. Raxworthy. 2022. Dispersal, not vicariance, explains the 
 Whiteside, D. I., S. A. Chambi-Trowell, and M. J. Benton. 2022. A Triassic crown squamate. Science Advances 8(48):eabq8274.
 
 Whiteside, D. I., S. A. Chambi-Trowell, and M. J. Benton. 2024. Late Triassic Cryptovaranoides microlanius is a squamate, not an archosauromorph. Royal Society Open Science 11(11):231874.
+
+Zaher, H., Murphy, R.W., Arredondo, J.C., Graboski, R., Machado-Filho, P.R., Mahlow, K., Montingelli, G.G., Quadros, A.B., Orlov, N.L., Wilkinson, M. and Zhang, Y.P., 2019. Large-scale molecular phylogeny, morphology, divergence-time estimation, and the fossil record of advanced caenophidian snakes (Squamata: Serpentes). PloS one, 14(5), p.e0216148.
 
 Zheng, Y., and J. J. Wiens. 2016. Combining phylogenomic and supermatrix approaches, and a time-calibrated phylogeny for squamate reptiles (lizards and snakes) based on 52 genes and 4162 species. Molecular Phylogenetics and Evolution 94(B):537-547.
