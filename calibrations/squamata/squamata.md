@@ -21,22 +21,12 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum age:** Triassic-Jurassic boundary, at 200 Ma.\
 **Maximum justification:** Divergence time for crown Unidentata has a broad range among recent genomic and total evidence based studies: 189.5 Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 183.4 Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 178 Ma ([Simões et al. 2020](https://www.nature.com/articles/s41467-020-17190-9)), 200 Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 203.7 Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)). Therefore, we place a wide prior on this node, with a soft maximum age reasonably older than the oldest estimate, at 205 Ma.
 
-**767:** Toxicofera: 167.0Ma. This calibration is based on the earliest potential crown toxicoferan _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma) analyzed by Benson et al. 2025 (their Datasets 2 and 3). **This placement has not been corroborated by other total-evidence analyses, but the timescale is highly congruent with most recent estimates, including Title et al. 2024 and Simões et al. 2026.**
-
-**751:** Laterata: 130.2Ma. This calibration is based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma) analyzed by Simões et al. 2026.
-
 
 ### Type III Calibrations:
 
-**779:** Anguimorpha: 144.0Ma. This calibration is based on the oldest crown anguimorph _Dorsetisaurus purbeckensis_, from the Tithonian of the Jurassic (143.1–149.2Ma).
-
 **780:** Stem Anguidae (_Anniella + Elgaria_): 33.0Ma. This calibration is based on _Ophisaurus_ sp., the oldest crown anguine from the early Oligocene (23.0–33.9Ma), parameterizing the Anniellidae + Anguidae divergence (i.e., as a stem anguid).
 
-**777:** Tropical Pleurodonta (_Anolis + Iguana_): 49.1Ma. This calibration is based on _Afairiguana avius_, the oldest stem polychrotid from the early Eocene (48.5–53.5Ma), parameterizing the Dactyloidae + Iguanidae divergence which encompasses Polychrotidae.  
-
 **778:** Chamaeleonidae: 20.0Ma. This calibration is based on the oldest crown chameleonid _Calumma benovskyi_, from the early Miocene at the base of the Hiwegi formation, dated to ~17–20Ma ([Maxbauer et al. 2013](https://doi.org/10.26879/342)). Assignment of this material to _Calumma_ places it within the _Bradypodion + Furcifer_ divergence, which has previously been estimated at ~45–50Ma using molecular timetrees ([Tolley et al. 2013](https://doi.org/10.1098/rspb.2013.0184)).
-
-**774:** Stem Boidae: **$XXX MESSELOPYTHON**
 
 **769:** Endoglyptodonta: 20.0Ma. This calibration is based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene (16.0–20.5Ma), parameterizing the Viperidae + Colubroides divergence (i.e., as a stem viperid).
 
