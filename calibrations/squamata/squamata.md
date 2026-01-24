@@ -62,7 +62,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Minimum age:** Eocene-Oligocene boundary, 33.9Ma\
 **Minimum justification:** This material represents the oldest crown anguine from the Newtown Bone Bed, Osborne Member, Headon Hill Formation, dated to the Priabonian of the late Eocene ([Klembara et al. 2010](https://doi.org/10.1080/14772011003603531)), for which we take the Eocene–Oligocene boundary (33.9Ma) as the minimum age.\
 **Maximum age:** Albian–Cenomanian boundary, late Cretaceous, 100.5Ma.\
-**Maximum justification:** We base this maximum age on a broad upper bound for this stem-group age – which has been dated to 85.6Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 54.3Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 70.9Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 70.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)) – relative to the crown group Anguioidea within which it is nested. For comparison, the MRCA of the crown group Anguioidea dates to 90.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)) and 100.0Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)) in recent total-evidence analyses.
+**Maximum justification:** We base this maximum age on a broad upper bound for this stem-group age – which has been dated to 85.6Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 54.3Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 70.9Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 70.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)) – relative to the crown group Anguioidea within which it is nested. For comparison, the MRCA of the crown group Anguioidea dates to 90.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)) and 100.0Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)) in recent total-evidence analyses, leaving the early-late Cretaceous boundary as a conservative upper bound.
 
 **Node 778:** Chamaeleoninae | 66.0–20.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Bradypodion_ and _Furcifer_, which is within the crown group Chamaeleoninae.\
@@ -70,7 +70,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Minimum age:** 20.0Ma\
 **Minimum justification:** This calibration is based on the oldest crown chameleonine ([Čerňanský et al. 2020](https://doi.org/10.1038%2Fs41598-019-57014-5)), from the early Miocene at the base of the Hiwegi formation, dated to ~17–20Ma ([Maxbauer et al. 2013](https://doi.org/10.26879/342)).\
 **Maximum age:** K–Pg boundary, 66.043Ma.\
-**Maximum justification:** Assignment of this material to _Calumma_ places it within the _Bradypodion + Furcifer_ divergence, which has previously been estimated at ~45–50Ma using molecular timetrees ([Tolley et al. 2013](https://doi.org/10.1098/rspb.2013.0184)).
+**Maximum justification:** Assignment of this material to _Calumma_ places it within the _Bradypodion + Furcifer_ divergence, which has previously been estimated at ~45–50Ma using molecular timetrees ([Tolley et al. 2013](https://doi.org/10.1098/rspb.2013.0184)), leaving the K–Pg boundary as a conservative upper bound.
 
 **Node 769:** Endoglyptodonta | 66.0–20.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Viperidae + Colubroides (e.g., _Erythrolamprus reginae_ and _Vipera berus_).\
@@ -80,13 +80,15 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum age:** K–Pg boundary, 66.043Ma.\
 **Maximum justification:** The crown group Endoglyptodonta has been dated to 59.5Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 47.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 52.0Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), 43.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 42.5Ma ([Zaher et al. 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216148)), leaving the K–Pg boundary as a conservative upper bound.
 
-**Node 771:** Natricidae: 13.8Ma. This calibration is based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae from the middle Miocene (11.6–16.0Ma), parameterizing the _Natrix + Thamnophis_ divergence based on its closer affinity to the European genus _Natrix_ than New World _Thamnophis_.\
-**Node calibrated:** \
-**Fossil taxon:** \
-**Minimum age:** \
-**Minimum justification:** \
+**Node 771:** Natricidae | 33.9–13.8Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Natrix_ and _Thamnophis_.\
+**Fossil taxon:** _Natrix_ aff. _longivertebrata_ (UCBL 285075–6, 285452, 285077, 285078–285451, 285453)\
+**Minimum age:** 13.8Ma\
+**Minimum justification:** This calibration is based on the oldest crown Natricinae from the La-Grive-Saint-Alban complex (MN 7–6) of the middle Miocene (11.6–16.0Ma) of France ([Rage and Szyndlar 1986](https://doi.org/10.1127/njgpm/1986/1986/56
+)). The oldest of the material is from La Grive L3, MN8 – following [Zaher et al. (2019)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216148), we use the lower bound of MN6 at 13.8Ma as a minimum age ([Agustí et al. 2001](https://doi.org/10.1016/S0012-8252(00)00025-8)).\
 **Maximum age:** \
 **Maximum justification:** The age of the crown group Natricidae has been estimated at 27.3Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 20.0Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 19.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 26.0Ma ([Zaher et al. 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216148)) – the total clade was not captured by [Simões et al. (2026)](https://doi.org/10.1093/sysbio/syaf067) – leaving the Eocene–Oligocene boundary as a conservative upper bound.
+
 
 ### Likelihood checkpoints
 
@@ -166,6 +168,8 @@ Onary, S., A. S. Hsiou, M. S. Lee, and A. Palci. 2021. Redescription, taxonomy a
 Panciroli, E., R. B. J. Benson, S. Walsh, R. J. Butler, T. A. Castro, M. E. H. Jones, and S. E. Evans. 2020. Diverse vertebrate assemblage of the Kilmaluag Formation (Bathonian, Middle Jurassic) of Skye, Scotland. Earth and Environmental Science Transactions of the Royal Society of Edinburgh:1-22.
 
 Pyron, R. A. 2017. Novel approaches for phylogenetic inference from morphological data and total-evidence dating in squamate reptiles (lizards, snakes, and amphisbaenians). Systematic Biology 66(1):38-56.
+
+Rage, J. C., and Z. Szyndlar. 1986. Natrix longivertebrata from the European Neogene, a snake with one of the longest known stratigraphic ranges. Neues Jahrb. Geol. Paläontol., Monatsh. 1986, 56–64.
 
 Reeder, T. W., T. M. Townsend, D. G. Mulcahy, B. P. Noonan, P. L. Wood, Jr., J. W. Sites, Jr., and J. J. Wiens. 2015. Integrated analyses resolve conflicts over squamate reptile phylogeny and reveal unexpected placements for fossil taxa. PLoS ONE 10(3):e0118199.
 
