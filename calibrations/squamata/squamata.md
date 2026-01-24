@@ -39,13 +39,13 @@ A preliminary literature review yields 44 age estimates for crown-group Squamata
 
 ## References
 
-Benson, R.B.J., Walsh, S.A., Griffiths, E.F. et al. 2025. Mosaic anatomy in an early fossil squamate. Nature 647, 673–679. https://doi.org/10.1038/s41586-025-09566-y
+Benson, R.B.J., Walsh, S.A., Griffiths, E.F. et al. 2025. Mosaic anatomy in an early fossil squamate. Nature 647, 673–679.
 
 Burbrink, F.T., Grazziotin, F.G., Pyron, R.A., Cundall, D., Donnellan, S., Irish, F., Keogh, J.S., Kraus, F., Murphy, R.W., Noonan, B. and Raxworthy, C.J., 2020. Interrogating genomic-scale data for Squamata (lizards, snakes, and amphisbaenians) shows no support for key traditional morphological relationships. Systematic biology, 69(3), pp.502-520.
 
 Čerňanský, A., Herrel, A., Kibii, J.M., Anderson, C.V., Boistel, R. and Lehmann, T., 2020. The only complete articulated early Miocene chameleon skull (Rusinga Island, Kenya) suggests an African origin for Madagascar’s endemic chameleons. Scientific Reports, 10(1), p.109.
 
-Maxbauer, D.P., Peppe, D.J., Bamford, M., McNulty, K.P., Harcourt-Smith, W.E. and Davis, L.E., 2013. A morphotype catalog and paleoenvironmental interpretations of early Miocene fossil leaves from the Hiwegi Formation, Rusinga Island, Lake Victoria, Kenya. 16(3), 28A:1-19. https://doi.org/10.26879/342
+Maxbauer, D.P., Peppe, D.J., Bamford, M., McNulty, K.P., Harcourt-Smith, W.E. and Davis, L.E., 2013. A morphotype catalog and paleoenvironmental interpretations of early Miocene fossil leaves from the Hiwegi Formation, Rusinga Island, Lake Victoria, Kenya. 16(3), 28A:1-19.
 
 Meyer, D., Brownstein, C.D., Jenkins, K.M. and Gauthier, J.A., 2023. A Morrison stem gekkotan reveals gecko evolution and Jurassic biogeography. Proceedings of the Royal Society B, 290(2011), p.20232284.
 
