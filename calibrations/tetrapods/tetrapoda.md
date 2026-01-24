@@ -38,66 +38,12 @@ Carroll, R. L., and D. Baird. 1972. Carboniferous stem-reptiles of the family Ro
 
 Ford, D. P., and R. B. Benson. 2020. The phylogeny of early amniotes and the affinities of Parareptilia and Varanopidae. Nature Ecology & Evolution 4(1):57-65.
 
-Gradstein, F., Ogg, J.G., Schmitz, M.D. and Ogg, G.M. eds., 2012. The Geologic Time Scale 2012. Elsevier, 1144p.
+Gradstein, F., Ogg, J.G., Schmitz, M.D. and Ogg, G.M. eds., 2012. The Geologic Time Scale 2012. Elsevier.
 
-Jenkins, K. M., D. L. Meyer, and B.-A. S. Bhullar. 2026. Phylogenetic Paradigm Shifts in Early Amniote Evolution. Systematic Biology:syaf087.
-
-Jenkins, X. A., R. B. Benson, D. P. Ford, C. Browning, V. Fernandez, K. Dollman, T. Gomes, E. Griffiths, J. N. Choiniere, and B. R. Peecook. 2025. Evolutionary assembly of crown reptile anatomy clarified by late Paleozoic relatives of Neodiapsida. Peer Community Journal 5.
-
-LeBlanc, A. R. H., A. Palci, N. Anthwal, A. S. Tucker, R. Araújo, M. F. C. Pereira, and M. W. Caldwell. 2023. A conserved tooth resorption mechanism in modern and fossil snakes. Nature Communications 14(1):742.
-
-Lenz, O. K., V. Wilde, D. F. Mertz, and W. Riegel. 2015. New palynology-based astronomical and revised 40Ar/39Ar ages for the Eocene maar lake of Messel (Germany). International Journal of Earth Sciences 104(3):873-889.
-
-Meyer, D., C. D. Brownstein, K. M. Jenkins, and J. A. Gauthier. 2023. A Morrison stem gekkotan reveals gecko evolution and Jurassic biogeography. Proceedings of the Royal Society B: Biological Sciences 290(2011):20232284.
-
-Ogg, J. G., G. Ogg, and F. Gradstein. 2008. The Concise Geologic Time Scale. Cambridge University Press, Cambridge.
-
-Onary, S., A. S. Hsiou, M. S. Lee, and A. Palci. 2021. Redescription, taxonomy and phylogenetic relationships of Boavus Marsh, 1871 (Serpentes: Booidea) from the early–middle Eocene of the USA. Journal of Systematic Palaeontology 19(23):1601-1622.
-
-Panciroli, E., R. B. J. Benson, S. Walsh, R. J. Butler, T. A. Castro, M. E. H. Jones, and S. E. Evans. 2020. Diverse vertebrate assemblage of the Kilmaluag Formation (Bathonian, Middle Jurassic) of Skye, Scotland. Earth and Environmental Science Transactions of the Royal Society of Edinburgh:1-22.
-
-Pyron, R. A. 2017. Novel approaches for phylogenetic inference from morphological data and total-evidence dating in squamate reptiles (lizards, snakes, and amphisbaenians). Systematic Biology 66(1):38-56.
-
-Reeder, T. W., T. M. Townsend, D. G. Mulcahy, B. P. Noonan, P. L. Wood, Jr., J. W. Sites, Jr., and J. J. Wiens. 2015. Integrated analyses resolve conflicts over squamate reptile phylogeny and reveal unexpected placements for fossil taxa. PLoS ONE 10(3):e0118199.
+Ogg, J. G., G. Ogg, and F. Gradstein. 2008. The Concise Geologic Time Scale. Cambridge University Press.
 
 Ruta, M., Coates, M.I. and Quicke, D.L., 2003. Early tetrapod relationships revisited. Biological Reviews, 78(2), pp.251-345.
 
-Scanferla, A., K. T. Smith, and S. F. Schaal. 2016. Revision of the cranial anatomy and phylogenetic relationships of the Eocene minute boas Messelophis variatus and Messelophis ermannorum (Serpentes, Booidea). Zoological Journal of the Linnean Society 176(1):182-206.
-
-Scarpetta, S. G. 2020. Combined-evidence analyses of ultraconserved elements and morphological data: an empirical example in iguanian lizards. Biology Letters 16(8):20200356.
-
-Scarpetta, S. G. 2024. A Palaeogene stem crotaphytid Aciprion formosum and the phylogenetic affinities of early fossil pleurodontan iguanians. Royal Society Open Science 11(1):221139.
-
-Schweigert, G. 2007. Ammonite biostratigraphy as a tool for dating Upper Jurassic lithographic limestones from South Germany–first results and open questions. Neues Jahrbuch für Geologie und Paläontologie-Abhandlungen 245(1):117-125.
-
-Seiffert, J. 1973. Contribuição para o conhecimento da Fauna do Kimeridgiano da Mina de Lignito Guimarota (Leiria, Portugal): III Parte. Serviços Geológicos de Portugal: Memória 22:7-85.
-
-Simões, T. R., A. S. Brum, and S. E. Pierce. 2026. Evolutionary rate incongruences in squamates reveal contrasting patterns of evolutionary novelties and innovation. Systematic Biology syaf067((advance article)):https://doi.org/10.1093/sysbio/syaf067.
-
-Simões, T. R., M. W. Caldwell, R. L. Nydam, and P. Jiménez-Huidobro. 2017. Osteology, phylogeny, and functional morphology of two Jurassic lizard species and the early evolution of scansoriality in geckoes. Zoological Journal of the Linnean Society 180(1):216-241.
-
-Simões, T. R., M. W. Caldwell, M. Tałanda, M. Bernardi, A. Palci, O. Vernygora, F. Bernardini, L. Mancini, and R. L. Nydam. 2018. The origin of squamates revealed by a Middle Triassic lizard from the Italian Alps. Nature 557(7707):706-709.
-
 Simões, T. R., C. F. Kammerer, M. W. Caldwell, and S. E. Pierce. 2022. Successive climate crises in the deep past drove the early evolution and radiation of reptiles. Science Advances 8(33):eabq1898.
 
-Simões, T. R., O. V. Vernygora, M. W. Caldwell, and S. E. Pierce. 2020. Megaevolutionary dynamics and the timing of evolutionary innovation in reptiles. Nature Communications 11:3322.
-
-Smith, K. T. 2009. Eocene Lizards of the Clade Geiseltaliellus from Messel and Geiseltal, Germany, and the Early Radiation of Iguanidae (Reptilia: Squamata). Bulletin of the Peabody Museum of Natural History 50(2):219-306.
-
-Smith, K. T., and A. Scanferla. 2021. A nearly complete skeleton of the oldest definitive erycine boid (Messel, Germany). Geodiversitas 43(1):1-24.
-
-Tałanda, M., V. Fernandez, E. Panciroli, S. E. Evans, and R. J. Benson. 2022. Synchrotron tomography of a stem lizard elucidates early squamate anatomy. Nature 611(7934):99-104.
-
-Title, P. O., S. Singhal, M. C. Grundler, G. C. Costa, R. A. Pyron, T. J. Colston, M. R. Grundler, I. Prates, N. Stepanova, M. E. H. Jones, L. B. Q. Cavalcanti, G. R. Colli, N. Di-Poï, S. C. Donnellan, C. Moritz, D. O. Mesquita, E. R. Pianka, S. A. Smith, L. J. Vitt, and D. L. Rabosky. 2024. The macroevolutionary singularity of snakes. Science 383(6685):918-923.
-
 van Tuinen, M., and E. A. Hadly. 2004. Error in estimation of rate and time inferred from the early amniote fossil record and avian molecular clocks. Journal of Molecular Evolution 59(2):267-276.
-
-Waldman, M., and S. E. Evans. 1994. Lepidosauromorph reptiles from the Middle Jurassic of Skye. Zoological Journal of the Linnean Society 112:135-150.
-
-Welt, R. S., and C. J. Raxworthy. 2022. Dispersal, not vicariance, explains the biogeographic origin of iguanas on Madagascar. Molecular Phylogenetics and Evolution 167:107345.
-
-Whiteside, D. I., S. A. Chambi-Trowell, and M. J. Benton. 2022. A Triassic crown squamate. Science Advances 8(48):eabq8274.
-
-Whiteside, D. I., S. A. Chambi-Trowell, and M. J. Benton. 2024. Late Triassic Cryptovaranoides microlanius is a squamate, not an archosauromorph. Royal Society Open Science 11(11):231874.
-
-Zheng, Y., and J. J. Wiens. 2016. Combining phylogenomic and supermatrix approaches, and a time-calibrated phylogeny for squamate reptiles (lizards and snakes) based on 52 genes and 4162 species. Molecular Phylogenetics and Evolution 94(B):537-547.
