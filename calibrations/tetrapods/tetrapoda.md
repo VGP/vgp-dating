@@ -28,49 +28,17 @@ A secondary source of Type III calibrations is Title et al. 2024 (their Table S1
 
 ## References
 
-Benson, R. B. J., S. A. Walsh, E. F. Griffiths, Z. T. Kulik, J. Botha, V. Fernandez, J. J. Head, and S. E. Evans. 2025. Mosaic anatomy in an early fossil squamate. Nature.
-
 Benton, M. J., P. C. Donoghue, R. J. Asher, M. Friedman, T. J. Near, and J. Vinther. 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18(1):1-106.
 
-Bittencourt, J. S., T. R. Simões, M. W. Caldwell, and M. C. Langer. 2020. Discovery of the oldest South American fossil lizard illustrates the cosmopolitanism of early South American squamates. Communications Biology 3(1):201.
-
-Brownstein, C. D., D. L. Meyer, M. Fabbri, B.-A. S. Bhullar, and J. A. Gauthier. 2022. Evolutionary origins of the prolonged extant squamate radiation. Nature Communications 13(1):7087.
-
-Brownstein, C. D., T. R. Simões, M. W. Caldwell, M. S. Lee, D. L. Meyer, and S. G. Scarpetta. 2023. The affinities of the Late Triassic Cryptovaranoides and the age of crown squamates. Royal Society Open Science 10(10):230968.
-
-Burbrink, F. T., F. G. Grazziotin, R. A. Pyron, D. Cundall, S. Donnellan, F. Irish, J. S. Keogh, F. Kraus, R. W. Murphy, B. Noonan, C. J. Raxworthy, S. Ruane, A. R. Lemmon, E. M. Lemmon, and H. Zaher. 2020. Interrogating Genomic-Scale Data for Squamata (Lizards, Snakes, and Amphisbaenians) Shows no Support for Key Traditional Morphological Relationships. Systematic Biology 69(3):502-520.
-
 Calder, J. H. 1998. The Carboniferous evolution of Nova Scotia. Geological Society, London, Special Publications 143(1):261-302.
-
-Caldwell, M. W., C. D. Brownstein, D. L. Meyer, S. G. Scarpetta, M. S. Y. Lee, and T. R. Simões. 2025. Cryptovaranoides is not a squamate. Elife 14:RP107021.
-
-Caldwell, M. W., R. L. Nydam, A. Palci, and S. Apesteguía. 2015. The oldest known snakes from the Middle Jurassic-Lower Cretaceous provide insights on snake evolution. Nature Communications 6:5996.
 
 Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa. Sci. Adv. 10, eadp7161(2024). DOI:10.1126/sciadv.adp7161
 
 Carroll, R. L., and D. Baird. 1972. Carboniferous stem-reptiles of the family Romeriidae. Bulletin of the Museum of Comparative Zoology 143(5):321-363.
 
-Conrad, J. L. 2015. A New Eocene Casquehead Lizard (Reptilia, Corytophanidae) from North America. PLoS ONE 10(7):e0127900.
-
-Conrad, J. L., O. Rieppel, and L. Grande. 2007. A Green River (Eocene) polychrotid (Squamata: Reptilia) and a re-examination of iguanian systematics. Journal of Paleontology 81(6):1365-1373.
-
-Dashzeveg, D., L. Dingus, D. B. Loope, C. C. Swisher, T. Dulam, and M. R. Sweeney. 2005. New Stratigraphic Subdivision, Depositional Environment, and Age Estimate for the Upper Cretaceous Djadokhta Formation, Southern Ulan Nur Basin, Mongolia. American Museum Novitates:1-31.
-
-Dingus, L., D. B. Loope, D. Dashzeveg, C. C. Swisher, C. Minjin, M. J. Novacek, and M. A. Norell. 2008. The Geology of Ukhaa Tolgod (Djadokhta Formation, Upper Cretaceous, Nemegt Basin, Mongolia). American Museum Novitates:1-40.
-
-Evans, S. E. 1998. Crown group lizards from the Middle Jurassic of Britain. Palaeontographica Abteilung A Palaeozoologie-Stratigraphie 250:123-154.
-
-Evans, S. E. 2003. At the feet of the dinosaurs: the early history and radiation of lizards. Biological Reviews 78:513-551.
-
-Evans, S. E., and M. Waldman. 1996. Small reptiles and amphibians from the Middle Jurassic of Skye, Scotland. Museum of Northern Arizona Bulletin 60:219-226.
-
 Ford, D. P., and R. B. Benson. 2020. The phylogeny of early amniotes and the affinities of Parareptilia and Varanopidae. Nature Ecology & Evolution 4(1):57-65.
 
-Gao, K.-Q., and M. A. Norell. 2000. Taxonomic composition and systematics of Late Cretaceous lizard assemblages from Ukhaa Tolgod and adjacent localities, Mongolian Gobi Desert. Bulletin of the American Museum of Natural History 249:1-118.
-
-Gauthier, J. A., M. Kearney, J. A. Maisano, O. Rieppel, and A. D. B. Behlke. 2012. Assembling the squamate tree of life: perspectives from the phenotype and the fossil record. Bulletin of the Peabody Museum of Natural History 53(1):3-308.
-
-Gradstein, F., Ogg, J.G., Schmitz, M.D. and Ogg, G.M. eds., 2012. The geologic time scale 2012. elsevier.
+Gradstein, F., Ogg, J.G., Schmitz, M.D. and Ogg, G.M. eds., 2012. The Geologic Time Scale 2012. Elsevier, 1144p.
 
 Jenkins, K. M., D. L. Meyer, and B.-A. S. Bhullar. 2026. Phylogenetic Paradigm Shifts in Early Amniote Evolution. Systematic Biology:syaf087.
 
