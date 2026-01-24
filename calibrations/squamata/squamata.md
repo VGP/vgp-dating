@@ -2,8 +2,6 @@
 
 Squamates have a high density of well-preserved fossils, reviewed by [Simões and Pyron 2021](https://bioone.org/journals/bulletin-of-the-museum-of-comparative-zoology/volume-163/issue-2/0027-4100-163.2.47/THE-SQUAMATE-TREE-OF-LIFE/10.3099/0027-4100-163.2.47.short). Results from total-evidence analyses have been relatively consistent across most recent studies, providing a plethora of potential Type IV calibrations. In contrast, our limited sampling of squamates limits this applicability somewhat. Here, we primarily rely on the most recent total-evidence analysis of [Simões et al. 2026](https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syaf067/8266822) and references therein, using the nomenclature of [Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126) for node names. We can add another Type IV calibration from the recent time-calibrated morphological phylogenetic analyses analyses of [Benson et al. 2025](https://www.nature.com/articles/s41586-025-09566-y). A secondary source of Type III calibrations is [Title et al. 2024](https://www.science.org/doi/10.1126/science.adh2449) (their Table S1) and references therein. A single Type III calibration for Chameleonidae is taken from [Čerňanský et al. 2020](https://www.nature.com/articles/s41598-019-57014-5). We place the maximum age of the Triassic (252.0Ma) as the maximum age of most constraints, consistent the earliest age for stem-group Squamata subtending _Megachirella_ from Simōes et al. 2026.
 
-
-### Type IV Calibrations:
 **Node 748:** Crown Squamata | 215-166Ma.\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant squamates.\
 **Fossil taxa:** _Eichstaettisaurus schroederi_ (BSPG 1937), _Helioscopus dickersonae_ (DINO 15914), _Eoscincus ornatus_ (DINO 14864), and _Paramacellodus sp._ (DINO 13861)\
@@ -46,8 +44,17 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum justification:** Divergence time for crown Anguimorpha has a relatively narrow range among recent genomic and total evidence based studies: 136.8 Ma (Burbrink et al. 2020), 144.6 Ma (Title et al. 2024), and 133.6 Ma (Simões et al. 2026). This suggests a maximum age of ~150 Ma.\
 **Discussion:** While there is a putative anguimorph Dorsetisaurus purbeckensis, from the Tithonian of the Jurassic (143.1–149.2Ma), it is unresolved as a crown or stem member and frequently referred to the stem ($XXX). The oldest unambiguous crown anguimorphs come from the late Cretaceous of Mongolia, which are much younger in age. There might exist a really long ghost lineage towards the crown here, or simply an incorrect placement of Dorsetisaurus, which is made up of several different individuals and somewhat difficult to interpret and score for a decisive phylogenetic analysis ($XXX).
 
+**Node 777:** Pleurodonta | 120-48Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant pleurodontan iguanians, here represented by Iguanidae (_Iguana_) and Dactyloidae (_Anolis_).\
+**Fossil taxa:** _Geiseltaliellus_ (see [Smith 2009](https://doi.org/10.3374/014.050.0201)) and _Babibasiliscus alxi_ (UWBM 89090)\
+**Minimum age:** early Eocene, Paleogene, at 48 Ma.\
+**Minimum justification:** The oldest undisputed crown Pleurodontans include the phylogenetically inferred corytophanids _Babibasiliscus alxi_ from the Blacks Fork Member of Bridger Formation (Bridger B), Green River Basin in Wyoming (USA), late Early Eocene ([Conrad 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127900), [Scarpetta 2024](https://royalsocietypublishing.org/rsos/article/11/1/221139/92805/A-Palaeogene-stem-crotaphytid-Aciprion-formosum)), and _Geiseltaliellus_ from the middle Eocene fossil Lagerstätte of Messel, Germany ([Scarpetta 2024](https://royalsocietypublishing.org/rsos/article/11/1/221139/92805/A-Palaeogene-stem-crotaphytid-Aciprion-formosum), [Smith 2009](https://doi.org/10.3374/014.050.0201)) at ~48 Ma.\
+**Maximum age:** Early Cretaceous, ~120Ma.\
+**Maximum justification:** Divergence time for crown Pleurodonta has a relatively wide range among recent genomic and total evidence based studies: 99.8 Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 118.9 Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 72.3 Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)). This suggests a maximum age of ~120 Ma.\
+**Discussion:** The putative corytophanid _Suzanniwana patriciana_ ([Smith 2009](https://doi.org/10.3374/014.050.0201)) from the earliest Eocene was used by [Townsend et al. (2011)](https://www.sciencedirect.com/science/article/pii/S1055790311003319) to calibrate the maximally-supported (in all concatenated Bayesian analyses) node representing the MRCA of _Polychrus, Leiocephalus, Anolis, Basiliscus, Corytophanes, Stenocercus, Tropidurus,_ and _Uranoscodon_ at approximately 55 Mya. However, its phylogenetic placement is ambiguous relative to other pleurodontan iguanians among distinct analyses, even when using the same morphological dataset ([Conrad 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127900), [Scarpetta 2020](https://doi.org/10.1098/rsbl.2020.0356), [Welt and Raxworthy 2022](https://www.sciencedirect.com/science/article/pii/S1055790321002785)). Therefore, we take a conservative approach and do not include this as the minimum age for the clade.\
 
-### Type III Calibrations:
+
+### Additional Calibrations:
 
 **780:** Stem Anguidae (_Anniella + Elgaria_): 33.0Ma. This calibration is based on _Ophisaurus_ sp., the oldest crown anguine from the early Oligocene (23.0–33.9Ma), parameterizing the Anniellidae + Anguidae divergence (i.e., as a stem anguid).
 
@@ -163,6 +170,8 @@ Tałanda, M., V. Fernandez, E. Panciroli, S. E. Evans, and R. J. Benson. 2022. S
 Title, P. O., S. Singhal, M. C. Grundler, G. C. Costa, R. A. Pyron, T. J. Colston, M. R. Grundler, I. Prates, N. Stepanova, M. E. H. Jones, L. B. Q. Cavalcanti, G. R. Colli, N. Di-Poï, S. C. Donnellan, C. Moritz, D. O. Mesquita, E. R. Pianka, S. A. Smith, L. J. Vitt, and D. L. Rabosky. 2024. The macroevolutionary singularity of snakes. Science 383(6685):918-923.
 
 Tolley, K.A., Townsend, T.M. and Vences, M., 2013. Large-scale phylogeny of chameleons suggests African origins and Eocene diversification. Proceedings of the Royal Society B: Biological Sciences, 280(1759), p.20130184.
+
+Townsend, T.M., Mulcahy, D.G., Noonan, B.P., Sites Jr, J.W., Kuczynski, C.A., Wiens, J.J. and Reeder, T.W., 2011. Phylogeny of iguanian lizards inferred from 29 nuclear loci, and a comparison of concatenated and species-tree approaches for an ancient, rapid radiation. Molecular Phylogenetics and Evolution, 61(2), pp.363-380.
 
 van Tuinen, M., and E. A. Hadly. 2004. Error in estimation of rate and time inferred from the early amniote fossil record and avian molecular clocks. Journal of Molecular Evolution 59(2):267-276.
 
