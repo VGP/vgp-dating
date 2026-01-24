@@ -49,7 +49,7 @@ Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther,
 
 Burrow, C.J. and Rudkin, D., 2014. Oldest near-complete acanthodian: the first vertebrate from the Silurian Bertie Formation Konservat-Lagerstätte, Ontario. PLoS One, 9(8), p.e104171.
 
-Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa.Sci. Adv.10,eadp7161(2024).DOI:10.1126/sciadv.adp7161
+Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa. Sci. Adv. 10, eadp7161(2024). DOI:10.1126/sciadv.adp7161
 
 Dong X, Zhang H. Middle Cambrian through lowermost Ordovician conodonts from Hunan, South China. Journal of Paleontology. 2017;91(S73):1-89. doi:10.1017/jpa.2015.43
 
