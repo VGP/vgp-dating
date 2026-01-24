@@ -103,8 +103,6 @@ Agustí, J., Cabrera, L., Garcés, M., Krijgsman, W., Oms, O. and Parés, J.M. 2
 
 Benson, R.B.J., Walsh, S.A., Griffiths, E.F. et al. Mosaic anatomy in an early fossil squamate. Nature 647, 673–679 (2025).
 
-Benton, M. J., P. C. Donoghue, R. J. Asher, M. Friedman, T. J. Near, and J. Vinther. 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18(1):1-106.
-
 Bittencourt, J. S., T. R. Simões, M. W. Caldwell, and M. C. Langer. 2020. Discovery of the oldest South American fossil lizard illustrates the cosmopolitanism of early South American squamates. Communications Biology 3(1):201.
 
 Broili, F. 1938. Ein neuer Fund von ?Ardeosaurus H. v. Meyer. Sitzber. Bayer. Akad. Wiss., math.-nat. Abt. München, 1938: 97–114.
@@ -115,19 +113,13 @@ Brownstein, C. D., T. R. Simões, M. W. Caldwell, M. S. Lee, D. L. Meyer, and S.
 
 Burbrink, F. T., F. G. Grazziotin, R. A. Pyron, D. Cundall, S. Donnellan, F. Irish, J. S. Keogh, F. Kraus, R. W. Murphy, B. Noonan, C. J. Raxworthy, S. Ruane, A. R. Lemmon, E. M. Lemmon, and H. Zaher. 2020. Interrogating Genomic-Scale Data for Squamata (Lizards, Snakes, and Amphisbaenians) Shows no Support for Key Traditional Morphological Relationships. Systematic Biology 69(3):502-520.
 
-Calder, J. H. 1998. The Carboniferous evolution of Nova Scotia. Geological Society, London, Special Publications 143(1):261-302.
-
 Caldwell, M. W., C. D. Brownstein, D. L. Meyer, S. G. Scarpetta, M. S. Y. Lee, and T. R. Simões. 2025. Cryptovaranoides is not a squamate. Elife 14:RP107021.
 
 Caldwell, M. W., R. L. Nydam, A. Palci, and S. Apesteguía. 2015. The oldest known snakes from the Middle Jurassic-Lower Cretaceous provide insights on snake evolution. Nature Communications 6:5996.
 
-Carroll, R. L., and D. Baird. 1972. Carboniferous stem-reptiles of the family Romeriidae. Bulletin of the Museum of Comparative Zoology 143(5):321-363.
-
 Čerňanský, A., Herrel, A., Kibii, J.M., Anderson, C.V., Boistel, R. and Lehmann, T., 2020. The only complete articulated early Miocene chameleon skull (Rusinga Island, Kenya) suggests an African origin for Madagascar’s endemic chameleons. Scientific Reports, 10(1), p.109.
 
 Conrad, J. L. 2015. A New Eocene Casquehead Lizard (Reptilia, Corytophanidae) from North America. PLoS ONE 10(7):e0127900.
-
-Conrad, J. L., O. Rieppel, and L. Grande. 2007. A Green River (Eocene) polychrotid (Squamata: Reptilia) and a re-examination of iguanian systematics. Journal of Paleontology 81(6):1365-1373.
 
 Dashzeveg, D., L. Dingus, D. B. Loope, C. C. Swisher, T. Dulam, and M. R. Sweeney. 2005. New Stratigraphic Subdivision, Depositional Environment, and Age Estimate for the Upper Cretaceous Djadokhta Formation, Southern Ulan Nur Basin, Mongolia. American Museum Novitates:1-31.
 
@@ -139,17 +131,11 @@ Evans, S. E. 2003. At the feet of the dinosaurs: the early history and radiation
 
 Evans, S. E., and M. Waldman. 1996. Small reptiles and amphibians from the Middle Jurassic of Skye, Scotland. Museum of Northern Arizona Bulletin 60:219-226.
 
-Ford, D. P., and R. B. Benson. 2020. The phylogeny of early amniotes and the affinities of Parareptilia and Varanopidae. Nature Ecology & Evolution 4(1):57-65.
-
 Gao, K.-Q., and M. A. Norell. 2000. Taxonomic composition and systematics of Late Cretaceous lizard assemblages from Ukhaa Tolgod and adjacent localities, Mongolian Gobi Desert. Bulletin of the American Museum of Natural History 249:1-118.
 
 Gauthier, J. A., M. Kearney, J. A. Maisano, O. Rieppel, and A. D. B. Behlke. 2012. Assembling the squamate tree of life: perspectives from the phenotype and the fossil record. Bulletin of the Peabody Museum of Natural History 53(1):3-308.
 
 Head, J.J., Mahlow, K. and Müller, J., 2016. Fossil calibration dates for molecular phylogenetic analysis of snakes 2: Caenophidia, Colubroidea, Elapoidea, Colubridae. Palaeontologia Electronica 19.2.2FC: 1-21.
-
-Jenkins, K. M., D. L. Meyer, and B.-A. S. Bhullar. 2026. Phylogenetic Paradigm Shifts in Early Amniote Evolution. Systematic Biology:syaf087.
-
-Jenkins, X. A., R. B. Benson, D. P. Ford, C. Browning, V. Fernandez, K. Dollman, T. Gomes, E. Griffiths, J. N. Choiniere, and B. R. Peecook. 2025. Evolutionary assembly of crown reptile anatomy clarified by late Paleozoic relatives of Neodiapsida. Peer Community Journal 5.
 
 Klembara, J. and Green, B., 2010. Anguimorph lizards (Squamata, Anguimorpha) from the middle and late Eocene of the Hampshire Basin of southern England. Journal of Systematic Palaeontology, 8(1), pp.97-129.
 
@@ -160,8 +146,6 @@ Lenz, O. K., V. Wilde, D. F. Mertz, and W. Riegel. 2015. New palynology-based as
 Maxbauer, D.P., Peppe, D.J., Bamford, M., McNulty, K.P., Harcourt-Smith, W.E. and Davis, L.E., 2013. A morphotype catalog and paleoenvironmental interpretations of early Miocene fossil leaves from the Hiwegi Formation, Rusinga Island, Lake Victoria, Kenya. 16(3), 28A:1-19.
 
 Meyer, D., C. D. Brownstein, K. M. Jenkins, and J. A. Gauthier. 2023. A Morrison stem gekkotan reveals gecko evolution and Jurassic biogeography. Proceedings of the Royal Society B: Biological Sciences 290(2011):20232284.
-
-Ogg, J. G., G. Ogg, and F. Gradstein. 2008. The Concise Geologic Time Scale. Cambridge University Press, Cambridge.
 
 Onary, S., A. S. Hsiou, M. S. Lee, and A. Palci. 2021. Redescription, taxonomy and phylogenetic relationships of Boavus Marsh, 1871 (Serpentes: Booidea) from the early–middle Eocene of the USA. Journal of Systematic Palaeontology 19(23):1601-1622.
 
@@ -191,8 +175,6 @@ Simões, T. R., M. W. Caldwell, R. L. Nydam, and P. Jiménez-Huidobro. 2017. Ost
 
 Simões, T. R., M. W. Caldwell, M. Tałanda, M. Bernardi, A. Palci, O. Vernygora, F. Bernardini, L. Mancini, and R. L. Nydam. 2018. The origin of squamates revealed by a Middle Triassic lizard from the Italian Alps. Nature 557(7707):706-709.
 
-Simões, T. R., C. F. Kammerer, M. W. Caldwell, and S. E. Pierce. 2022. Successive climate crises in the deep past drove the early evolution and radiation of reptiles. Science Advances 8(33):eabq1898.
-
 Simões, T. R., O. V. Vernygora, M. W. Caldwell, and S. E. Pierce. 2020. Megaevolutionary dynamics and the timing of evolutionary innovation in reptiles. Nature Communications 11:3322.
 
 Smith, K. T. 2009. Eocene Lizards of the Clade Geiseltaliellus from Messel and Geiseltal, Germany, and the Early Radiation of Iguanidae (Reptilia: Squamata). Bulletin of the Peabody Museum of Natural History 50(2):219-306.
@@ -208,8 +190,6 @@ Title, P. O., S. Singhal, M. C. Grundler, G. C. Costa, R. A. Pyron, T. J. Colsto
 Tolley, K.A., Townsend, T.M. and Vences, M., 2013. Large-scale phylogeny of chameleons suggests African origins and Eocene diversification. Proceedings of the Royal Society B: Biological Sciences, 280(1759), p.20130184.
 
 Townsend, T.M., Mulcahy, D.G., Noonan, B.P., Sites Jr, J.W., Kuczynski, C.A., Wiens, J.J. and Reeder, T.W., 2011. Phylogeny of iguanian lizards inferred from 29 nuclear loci, and a comparison of concatenated and species-tree approaches for an ancient, rapid radiation. Molecular Phylogenetics and Evolution, 61(2), pp.363-380.
-
-van Tuinen, M., and E. A. Hadly. 2004. Error in estimation of rate and time inferred from the early amniote fossil record and avian molecular clocks. Journal of Molecular Evolution 59(2):267-276.
 
 Waldman, M., and S. E. Evans. 1994. Lepidosauromorph reptiles from the Middle Jurassic of Skye. Zoological Journal of the Linnean Society 112:135-150.
 
