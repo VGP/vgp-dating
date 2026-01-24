@@ -56,15 +56,15 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 ### Additional Calibrations:
 
-**780:** Stem Anguidae | 100.5-33.9Ma\
+**Node 780:** Stem Anguidae | 100.5-33.9Ma\
 **Node calibrated:** _Anniella + Elgaria_\
 **Fossil taxon:** _Ophisaurus_ sp. (IWCMS.2006.35)\
-**Minimum age:** Early Oligocene 33.9Ma\
+**Minimum age:** Eocene-Oligocene boundary, 33.9Ma\
 **Minimum justification:** This material represents the oldest crown anguine from the Newtown Bone Bed, Osborne Member, Headon Hill Formation, dated to the Priabonian of the late Eocene ([Klembara et al. 2010](https://doi.org/10.1080/14772011003603531)), for which we take the Eocene–Oligocene boundary (33.9Ma) as the minimum age.\
 **Maximum age:** Albian–Cenomanian boundary, late Cretaceous, 100.5Ma.\
-**Maximum justification:** We base this maximum age on a broad upper bound for this stem taxon, which has been dated to 85.6Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 54.3Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 70.9Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 70.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)). For comparison, the MRCA of the crown group Anguioidea dates to 90.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)) and 100.0Ma (([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)) in total-evidence analyses.
+**Maximum justification:** We base this maximum age on a broad upper bound for this stem-group age – which has been dated to 85.6Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 54.3Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 70.9Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 70.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)) – relative to the crown group Anguioidea within which it is nested. For comparison, the MRCA of the crown group Anguioidea dates to 90.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)) and 100.0Ma (([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)) in total-evidence analyses.
 
-**778:** Chamaeleonidae: 20.0Ma. This calibration is based on the oldest crown chameleonid _Calumma benovskyi_, from the early Miocene at the base of the Hiwegi formation, dated to ~17–20Ma ([Maxbauer et al. 2013](https://doi.org/10.26879/342)). Assignment of this material to _Calumma_ places it within the _Bradypodion + Furcifer_ divergence, which has previously been estimated at ~45–50Ma using molecular timetrees ([Tolley et al. 2013](https://doi.org/10.1098/rspb.2013.0184)).
+**Node 778:** Chamaeleonidae: 20.0Ma. This calibration is based on the oldest crown chameleonid _Calumma benovskyi_, from the early Miocene at the base of the Hiwegi formation, dated to ~17–20Ma ([Maxbauer et al. 2013](https://doi.org/10.26879/342)). Assignment of this material to _Calumma_ places it within the _Bradypodion + Furcifer_ divergence, which has previously been estimated at ~45–50Ma using molecular timetrees ([Tolley et al. 2013](https://doi.org/10.1098/rspb.2013.0184)).
 **Node calibrated:** \
 **Fossil taxon:** \
 **Minimum age:** \
@@ -72,7 +72,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum age:** \
 **Maximum justification:**
 
-**769:** Endoglyptodonta: 20.0Ma. This calibration is based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene (16.0–20.5Ma), parameterizing the Viperidae + Colubroides divergence (i.e., as a stem viperid).
+**Node 769:** Endoglyptodonta: 20.0Ma. This calibration is based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene (16.0–20.5Ma), parameterizing the Viperidae + Colubroides divergence (i.e., as a stem viperid).
 **Node calibrated:** \
 **Fossil taxon:** \
 **Minimum age:** \
@@ -80,7 +80,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum age:** \
 **Maximum justification:**
 
-**771:** Natricidae: 13.8Ma. This calibration is based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae from the middle Miocene (11.6–16.0Ma), parameterizing the _Natrix + Thamnophis_ divergence based on its closer affinity to the European genus _Natrix_ than New World _Thamnophis_.
+**Node 771:** Natricidae: 13.8Ma. This calibration is based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae from the middle Miocene (11.6–16.0Ma), parameterizing the _Natrix + Thamnophis_ divergence based on its closer affinity to the European genus _Natrix_ than New World _Thamnophis_.
 **Node calibrated:** \
 **Fossil taxon:** \
 **Minimum age:** \
