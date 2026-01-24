@@ -72,15 +72,15 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum age:** K–Pg boundary, 66.043Ma.\
 **Maximum justification:** Assignment of this material to _Calumma_ places it within the _Bradypodion + Furcifer_ divergence, which has previously been estimated at ~45–50Ma using molecular timetrees ([Tolley et al. 2013](https://doi.org/10.1098/rspb.2013.0184)).
 
-**Node 769:** Endoglyptodonta: 20.0Ma. This calibration is based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene (16.0–20.5Ma), parameterizing the Viperidae + Colubroides divergence (i.e., as a stem viperid).
-**Node calibrated:** \
-**Fossil taxon:** \
-**Minimum age:** \
-**Minimum justification:** \
+**Node 769:** Endoglyptodonta | 66.0–20.0Ma. , parameterizing the  divergence (i.e., as a stem viperid).\
+**Node calibrated:** Last common ancestor of the clade encompassing Viperidae + Colubroides (e.g., _Erythrolamprus reginae_ and _Vipera berus_).\
+**Fossil taxon:** _Vipera_ cf. _aspis_ (MNHN SG 13732–3)\
+**Minimum age:** 20.0Ma\
+**Minimum justification:** This calibration is based on the oldest crown Viperinae ([Szyndlar and Rage, 1999](https://www.zobodat.at/publikation_volumes.php?id=58079)) from the early Miocene (16.0–20.5Ma), assigned by [Head et al. (2016)](https://doi.org/10.26879/625).\
 **Maximum age:** \
 **Maximum justification:**
 
-**Node 771:** Natricidae: 13.8Ma. This calibration is based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae from the middle Miocene (11.6–16.0Ma), parameterizing the _Natrix + Thamnophis_ divergence based on its closer affinity to the European genus _Natrix_ than New World _Thamnophis_.
+**Node 771:** Natricidae: 13.8Ma. This calibration is based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae from the middle Miocene (11.6–16.0Ma), parameterizing the _Natrix + Thamnophis_ divergence based on its closer affinity to the European genus _Natrix_ than New World _Thamnophis_.\
 **Node calibrated:** \
 **Fossil taxon:** \
 **Minimum age:** \
@@ -140,6 +140,8 @@ Gao, K.-Q., and M. A. Norell. 2000. Taxonomic composition and systematics of Lat
 
 Gauthier, J. A., M. Kearney, J. A. Maisano, O. Rieppel, and A. D. B. Behlke. 2012. Assembling the squamate tree of life: perspectives from the phenotype and the fossil record. Bulletin of the Peabody Museum of Natural History 53(1):3-308.
 
+Head, J.J., Mahlow, K. and Müller, J., 2016. Fossil calibration dates for molecular phylogenetic analysis of snakes 2: Caenophidia, Colubroidea, Elapoidea, Colubridae. Palaeontologia Electronica 19.2.2FC: 1-21.
+
 Jenkins, K. M., D. L. Meyer, and B.-A. S. Bhullar. 2026. Phylogenetic Paradigm Shifts in Early Amniote Evolution. Systematic Biology:syaf087.
 
 Jenkins, X. A., R. B. Benson, D. P. Ford, C. Browning, V. Fernandez, K. Dollman, T. Gomes, E. Griffiths, J. N. Choiniere, and B. R. Peecook. 2025. Evolutionary assembly of crown reptile anatomy clarified by late Paleozoic relatives of Neodiapsida. Peer Community Journal 5.
@@ -189,6 +191,8 @@ Simões, T. R., O. V. Vernygora, M. W. Caldwell, and S. E. Pierce. 2020. Megaevo
 Smith, K. T. 2009. Eocene Lizards of the Clade Geiseltaliellus from Messel and Geiseltal, Germany, and the Early Radiation of Iguanidae (Reptilia: Squamata). Bulletin of the Peabody Museum of Natural History 50(2):219-306.
 
 Smith, K. T., and A. Scanferla. 2021. A nearly complete skeleton of the oldest definitive erycine boid (Messel, Germany). Geodiversitas 43(1):1-24.
+
+Szyndlar, Z. and Rage, J.-C. 1999. Oldest fossil vipers (Serpentes: Viperidae) from the Old World. Kaupia. Darmstädter Beiträge zur Naturgeschichte, 8:9-20.
 
 Tałanda, M., V. Fernandez, E. Panciroli, S. E. Evans, and R. J. Benson. 2022. Synchrotron tomography of a stem lizard elucidates early squamate anatomy. Nature 611(7934):99-104.
 
