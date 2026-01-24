@@ -85,8 +85,8 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Fossil taxon:** _Natrix_ aff. _longivertebrata_ (UCBL 285075–6, 285452, 285077, 285078–285451, 285453)\
 **Minimum age:** 13.8Ma\
 **Minimum justification:** This calibration is based on the oldest crown Natricinae from the La-Grive-Saint-Alban complex (MN 7–6) of the middle Miocene (11.6–16.0Ma) of France ([Rage and Szyndlar 1986](https://doi.org/10.1127/njgpm/1986/1986/56
-)). The oldest of the material is from La Grive L3, MN8 – following [Zaher et al. (2019)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216148), we use the lower bound of MN6 at 13.8Ma as a minimum age ([Agustí et al. 2001](https://doi.org/10.1016/S0012-8252(00)00025-8)).\
-**Maximum age:** \
+)). The oldest of the material is from La Grive L7 (MN7) – following [Zaher et al. (2019)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216148), we use the lower bound of MN6 at 13.8Ma as a minimum age ([Agustí et al. 2001](https://doi.org/10.1016/S0012-8252(00)00025-8)).\
+**Maximum age:** Eocene-Oligocene boundary, 33.9Ma.\
 **Maximum justification:** The age of the crown group Natricidae has been estimated at 27.3Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 20.0Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 19.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 26.0Ma ([Zaher et al. 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216148)) – the total clade was not captured by [Simões et al. (2026)](https://doi.org/10.1093/sysbio/syaf067) – leaving the Eocene–Oligocene boundary as a conservative upper bound.
 
 
