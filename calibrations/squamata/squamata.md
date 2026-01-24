@@ -86,7 +86,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Minimum age:** \
 **Minimum justification:** \
 **Maximum age:** \
-**Maximum justification:** The age of the crown group Natricidae has been estimated at 27.3Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 20.0Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 19.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 26.0Ma ([Zaher et al. 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216148)) – the crown group was not captured by [Simões et al. (2026)](https://doi.org/10.1093/sysbio/syaf067) – leaving the Eocene–Oligocene boundary as a conservative upper bound.
+**Maximum justification:** The age of the crown group Natricidae has been estimated at 27.3Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 20.0Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 19.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 26.0Ma ([Zaher et al. 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216148)) – the total clade was not captured by [Simões et al. (2026)](https://doi.org/10.1093/sysbio/syaf067) – leaving the Eocene–Oligocene boundary as a conservative upper bound.
 
 ### Likelihood checkpoints
 
