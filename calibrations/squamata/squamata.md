@@ -171,7 +171,7 @@ Seiffert, J. 1973. Contribuição para o conhecimento da Fauna do Kimeridgiano d
 
 Simões, T. R. and Pyron, R.A., 2021. The squamate tree of life. Bulletin of the Museum of Comparative Zoology, 163(2), pp.47-95.
 
-Simões, T. R., A. S. Brum, and S. E. Pierce. 2026. Evolutionary rate incongruences in squamates reveal contrasting patterns of evolutionary novelties and innovation. Systematic Biology syaf067((advance article)):https://doi.org/10.1093/sysbio/syaf067.
+Simões, T. R., A. S. Brum, and S. E. Pierce. 2026. Evolutionary rate incongruences in squamates reveal contrasting patterns of evolutionary novelties and innovation. Systematic Biology, in press: syaf067.
 
 Simões, T. R., M. W. Caldwell, R. L. Nydam, and P. Jiménez-Huidobro. 2017. Osteology, phylogeny, and functional morphology of two Jurassic lizard species and the early evolution of scansoriality in geckoes. Zoological Journal of the Linnean Society 180(1):216-241.
 
