@@ -62,7 +62,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Minimum age:** Eocene-Oligocene boundary, 33.9Ma\
 **Minimum justification:** This material represents the oldest crown anguine from the Newtown Bone Bed, Osborne Member, Headon Hill Formation, dated to the Priabonian of the late Eocene ([Klembara et al. 2010](https://doi.org/10.1080/14772011003603531)), for which we take the Eocene–Oligocene boundary (33.9Ma) as the minimum age.\
 **Maximum age:** Albian–Cenomanian boundary, late Cretaceous, 100.5Ma.\
-**Maximum justification:** We base this maximum age on a broad upper bound for this stem-group age – which has been dated to 85.6Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 54.3Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 70.9Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 70.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)) – relative to the crown group Anguioidea within which it is nested. For comparison, the MRCA of the crown group Anguioidea dates to 90.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)) and 100.0Ma (([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)) in recent total-evidence analyses.
+**Maximum justification:** We base this maximum age on a broad upper bound for this stem-group age – which has been dated to 85.6Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 54.3Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 70.9Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 70.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)) – relative to the crown group Anguioidea within which it is nested. For comparison, the MRCA of the crown group Anguioidea dates to 90.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)) and 100.0Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)) in recent total-evidence analyses.
 
 **Node 778:** Chamaeleoninae | 66.0–20.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Bradypodion_ and _Furcifer_, which is within the crown group Chamaeleoninae.\
@@ -72,13 +72,13 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum age:** K–Pg boundary, 66.043Ma.\
 **Maximum justification:** Assignment of this material to _Calumma_ places it within the _Bradypodion + Furcifer_ divergence, which has previously been estimated at ~45–50Ma using molecular timetrees ([Tolley et al. 2013](https://doi.org/10.1098/rspb.2013.0184)).
 
-**Node 769:** Endoglyptodonta | 66.0–20.0Ma. , parameterizing the  divergence (i.e., as a stem viperid).\
+**Node 769:** Endoglyptodonta | 66.0–20.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Viperidae + Colubroides (e.g., _Erythrolamprus reginae_ and _Vipera berus_).\
 **Fossil taxon:** _Vipera_ cf. _aspis_ (MNHN SG 13732–3)\
 **Minimum age:** 20.0Ma\
-**Minimum justification:** This calibration is based on the oldest crown Viperinae ([Szyndlar and Rage, 1999](https://www.zobodat.at/publikation_volumes.php?id=58079)) from the early Miocene (16.0–20.5Ma), assigned by [Head et al. (2016)](https://doi.org/10.26879/625).\
-**Maximum age:** \
-**Maximum justification:**
+**Minimum justification:** This calibration is based on the oldest crown Viperinae ([Szyndlar and Rage, 1999](https://www.zobodat.at/publikation_volumes.php?id=58079)) from the early Miocene (16.0–20.5Ma), assigned by [Head et al. (2016)](https://doi.org/10.26879/625) at 20.0 Ma, the youngest age for MN2 ([Agustí et al. 2001](https://doi.org/10.1016/S0012-8252(00)00025-8)).\
+**Maximum age:** K–Pg boundary, 66.043Ma.\
+**Maximum justification:** The crown group Endoglyptodonta has been dated to 59.5Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 47.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 52.0Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 43.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), leaving the K–Pg boundary as a conservative upper bound.
 
 **Node 771:** Natricidae: 13.8Ma. This calibration is based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae from the middle Miocene (11.6–16.0Ma), parameterizing the _Natrix + Thamnophis_ divergence based on its closer affinity to the European genus _Natrix_ than New World _Thamnophis_.\
 **Node calibrated:** \
@@ -86,7 +86,8 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Minimum age:** \
 **Minimum justification:** \
 **Maximum age:** \
-**Maximum justification:**
+**Maximum justification:** Natricidae 27.3 (Burbrink)
+
 ### Likelihood checkpoints
 
 A preliminary literature review yields 44 age estimates for crown-group Squamata from 31 studies, yielding a median of 198.8Ma and a kernel-density mode of 203.0Ma. **These need to be expanded and filtered for inclusion of Dibamia**
@@ -95,6 +96,8 @@ A preliminary literature review yields 44 age estimates for crown-group Squamata
 
 
 ## References
+
+Agustí, J., Cabrera, L., Garcés, M., Krijgsman, W., Oms, O. and Parés, J.M. 2001. A calibrated mammal scale for the Neogene of Western Europe. State of the art. Earth-Science Reviews, 52:247-260.
 
 Benson, R.B.J., Walsh, S.A., Griffiths, E.F. et al. Mosaic anatomy in an early fossil squamate. Nature 647, 673–679 (2025).
 
