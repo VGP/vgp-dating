@@ -29,6 +29,14 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum age:** Pliensbachian, Early Jurassic, at 190Ma.\
 **Maximum justification:** Toxicofera has been estimated at 161-185.6Ma based on very different morphological and molecular datasets, including phylogenomic and total evidence dating studies ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126), [Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090), [Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067), [Simões et al. 2018](https://www.nature.com/articles/s41586-018-0093-3), [Simões et al. 2020](https://www.nature.com/articles/s41467-020-17190-9), [Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449), [Zheng and Wiens 2016](https://www.sciencedirect.com/science/article/pii/S1055790315003127)). Therefore, we provide a wide sampling range for ages up to 190Ma.
 
+**Node 774:** Crown Booidea | 75-48Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing Pythonidae (_Liasis_) and Boidae (_Candoia_)\
+**Fossil taxon:** _Eoconstrictor fischeri_ (SMF-ME 929) and _Rageryx schmidi_ (HLMD-Me 9723)\
+**Minimum age:** middle Eocene, Palaeogene, at 48 Ma.\
+**Minimum justification:** _Eoconstrictor fischeri_ ([Scanferla et al. 2020](https://doi.org/10.3390%2Fd12030100)) and _Rageryx schmidi_ ([Smith and Scanferla 2021](https://doi.org/10.5252/geodiversitas2021v43a1)), from the Middle Messel Formation, Germany, dated as latest early to earliest middle Eocene (48.4-47.9Ma; [Lenz et al. 2015](https://link.springer.com/article/10.1007/s00531-014-1126-2)), currently stand as the oldest known crown Booidea ([Onary et al. 2021](https://www.tandfonline.com/doi/full/10.1080/14772019.2022.2068386), [Smith and Scanferla 2021](https://doi.org/10.5252/geodiversitas2021v43a1)).\
+**Maximum age:** Maastrichtian, late Cretaceous, at 75Ma.\
+**Maximum justification:** Divergence time for crown booids has a broad range among recent genomic and total evidence based studies: 72.1Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126); 44.9 ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090), 55 Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)).
+
 
 ### Type III Calibrations:
 
@@ -115,7 +123,7 @@ Pyron, R. A. 2017. Novel approaches for phylogenetic inference from morphologica
 
 Reeder, T. W., T. M. Townsend, D. G. Mulcahy, B. P. Noonan, P. L. Wood, Jr., J. W. Sites, Jr., and J. J. Wiens. 2015. Integrated analyses resolve conflicts over squamate reptile phylogeny and reveal unexpected placements for fossil taxa. PLoS ONE 10(3):e0118199.
 
-Scanferla, A., K. T. Smith, and S. F. Schaal. 2016. Revision of the cranial anatomy and phylogenetic relationships of the Eocene minute boas Messelophis variatus and Messelophis ermannorum (Serpentes, Booidea). Zoological Journal of the Linnean Society 176(1):182-206.
+Scanferla, A., & Smith, K. T. (2020). Exquisitely Preserved Fossil Snakes of Messel: Insight into the Evolution, Biogeography, Habitat Preferences and Sensory Ecology of Early Boas. Diversity, 12(3), 100
 
 Scarpetta, S. G. 2020. Combined-evidence analyses of ultraconserved elements and morphological data: an empirical example in iguanian lizards. Biology Letters 16(8):20200356.
 
