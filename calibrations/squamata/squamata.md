@@ -119,6 +119,8 @@ Caldwell, M. W., R. L. Nydam, A. Palci, and S. Apesteguía. 2015. The oldest kno
 
 Čerňanský, A., Herrel, A., Kibii, J.M., Anderson, C.V., Boistel, R. and Lehmann, T., 2020. The only complete articulated early Miocene chameleon skull (Rusinga Island, Kenya) suggests an African origin for Madagascar’s endemic chameleons. Scientific Reports, 10(1), p.109.
 
+Conrad, J.L., Ast, J.C., Montanari, S. and Norell, M.A. (2011), A combined evidence phylogenetic analysis of Anguimorpha (Reptilia: Squamata). Cladistics, 27: 230-277.
+
 Conrad, J. L. 2015. A New Eocene Casquehead Lizard (Reptilia, Corytophanidae) from North America. PLoS ONE 10(7):e0127900.
 
 Dashzeveg, D., L. Dingus, D. B. Loope, C. C. Swisher, T. Dulam, and M. R. Sweeney. 2005. New Stratigraphic Subdivision, Depositional Environment, and Age Estimate for the Upper Cretaceous Djadokhta Formation, Southern Ulan Nur Basin, Mongolia. American Museum Novitates:1-31.
