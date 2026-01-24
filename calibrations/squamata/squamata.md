@@ -27,7 +27,6 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 
 ### Type III Calibrations:
-**782:** Gekkota: 97.0Ma. This calibration is based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
 
 **779:** Anguimorpha: 144.0Ma. This calibration is based on the oldest crown anguimorph _Dorsetisaurus purbeckensis_, from the Tithonian of the Jurassic (143.1–149.2Ma).
 
@@ -37,7 +36,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 **778:** Chamaeleonidae: 20.0Ma. This calibration is based on the oldest crown chameleonid _Calumma benovskyi_, from the early Miocene at the base of the Hiwegi formation, dated to ~17–20Ma ([Maxbauer et al. 2013](https://doi.org/10.26879/342)). Assignment of this material to _Calumma_ places it within the _Bradypodion + Furcifer_ divergence, which has previously been estimated at ~45–50Ma using molecular timetrees ([Tolley et al. 2013](https://doi.org/10.1098/rspb.2013.0184)).
 
-**774:** Stem Boidae: 58.0Ma. This calibration is based on _Titanoboa cerrejonensis_, the oldest stem Boinae from the middle-late Paleocene (58.0–60.0Ma), parameterizing the Boidae + Pythonidae divergence (i.e., as a stem boid).
+**774:** Stem Boidae: **$XXX MESSELOPYTHON**
 
 **769:** Endoglyptodonta: 20.0Ma. This calibration is based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene (16.0–20.5Ma), parameterizing the Viperidae + Colubroides divergence (i.e., as a stem viperid).
 
