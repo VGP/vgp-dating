@@ -76,7 +76,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Node calibrated:** Last common ancestor of the clade encompassing Viperidae + Colubroides (e.g., _Erythrolamprus reginae_ and _Vipera berus_).\
 **Fossil taxon:** _Vipera_ cf. _aspis_ (MNHN SG 13732–3)\
 **Minimum age:** 20.0Ma\
-**Minimum justification:** This calibration is based on the oldest crown Viperinae ([Szyndlar and Rage, 1999](https://www.zobodat.at/publikation_volumes.php?id=58079)) from the early Miocene (16.0–20.5Ma), assigned by [Head et al. (2016)](https://doi.org/10.26879/625) at 20.0 Ma, the youngest age for MN2 ([Agustí et al. 2001](https://doi.org/10.1016/S0012-8252(00)00025-8)).\
+**Minimum justification:** This calibration is based on the oldest crown Viperinae ([Szyndlar and Rage, 1999](https://www.zobodat.at/publikation_volumes.php?id=58079)) from the St-Gérand-le-Puy complex of the early Miocene (16.0–20.5Ma) of France. Synapomorphies listed and assigned by [Head et al. (2016)](https://doi.org/10.26879/625) at 20.0 Ma, the youngest age for the MN2 stage ([Agustí et al. 2001](https://doi.org/10.1016/S0012-8252(00)00025-8)).\
 **Maximum age:** K–Pg boundary, 66.043Ma.\
 **Maximum justification:** The crown group Endoglyptodonta has been dated to 59.5Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 47.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 52.0Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 43.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), leaving the K–Pg boundary as a conservative upper bound.
 
