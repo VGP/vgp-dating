@@ -65,7 +65,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum justification:** We base this maximum age on a broad upper bound for this stem-group age – which has been dated to 85.6Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 54.3Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 70.9Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 70.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)) – relative to the crown group Anguioidea within which it is nested. For comparison, the MRCA of the crown group Anguioidea dates to 90.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)) and 100.0Ma (([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)) in recent total-evidence analyses.
 
 **Node 778:** Chamaeleoninae | 66.0–20.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Bradypodion_ and _Furcifer_, which is within the crown-group Chamaeleoninae.\
+**Node calibrated:** Last common ancestor of the clade encompassing _Bradypodion_ and _Furcifer_, which is within the crown group Chamaeleoninae.\
 **Fossil taxon:** _Calumma benovskyi_ (KNM-RU 18340)\
 **Minimum age:** 20.0Ma\
 **Minimum justification:** This calibration is based on the oldest crown chameleonine ([Čerňanský et al. 2020](https://doi.org/10.1038%2Fs41598-019-57014-5)), from the early Miocene at the base of the Hiwegi formation, dated to ~17–20Ma ([Maxbauer et al. 2013](https://doi.org/10.26879/342)).\
