@@ -33,7 +33,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Minimum age:** Middle Eocene, Palaeogene, at 48Ma.\
 **Minimum justification:** _Eoconstrictor fischeri_ ([Scanferla et al. 2020](https://doi.org/10.3390%2Fd12030100)) and _Rageryx schmidi_ ([Smith and Scanferla 2021](https://doi.org/10.5252/geodiversitas2021v43a1)), from the Middle Messel Formation, Germany, dated as latest early to earliest middle Eocene (48.4-47.9Ma; [Lenz et al. 2015](https://link.springer.com/article/10.1007/s00531-014-1126-2)), currently stand as the oldest known crown Booidea ([Onary et al. 2021](https://www.tandfonline.com/doi/full/10.1080/14772019.2022.2068386), [Smith and Scanferla 2021](https://doi.org/10.5252/geodiversitas2021v43a1)).\
 **Maximum age:** Albian–Cenomanian boundary, late Cretaceous, 100.5Ma.\
-**Maximum justification:** The divergence of boas and pythons has a broad temporal range among recent genomic and total evidence based studies: 97.1Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126); 60.6 ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090), 70.5Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 81.5Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)). We therefore place a tentative maximum of 100.5Ma, slightly predating the earlier-branching snakes _Haasiophis, Najash,_ and _Pachyrhachis_ ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090), [Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)).
+**Maximum justification:** The divergence of boas and pythons has a broad temporal range among recent genomic and total evidence based studies: 97.1Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126); 60.6 ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090), 70.5Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 81.5Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)). We therefore place a tentative maximum of 100.5Ma, slightly predating the earlier-branching snakes _Haasiophis, Najash,_ and _Pachyrhachis_ ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), [Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)).
 
 **Node 779:** Crown Anguimorpha | 150-70Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Anguidae and Xenosauridae.\
@@ -56,13 +56,13 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 ### Additional Calibrations:
 
-**780:** Stem Anguidae | 143.1-33.9Ma\
+**780:** Stem Anguidae | 100.5-33.9Ma\
 **Node calibrated:** _Anniella + Elgaria_\
 **Fossil taxon:** _Ophisaurus_ sp. (IWCMS.2006.35)\
 **Minimum age:** Early Oligocene 33.9Ma\
 **Minimum justification:** This material represents the oldest crown anguine from the Newtown Bone Bed, Osborne Member, Headon Hill Formation, dated to the Priabonian of the late Eocene ([Klembara et al. 2010](https://doi.org/10.1080/14772011003603531)), for which we take the Eocene–Oligocene boundary (33.9Ma) as the minimum age.\
-**Maximum age:** The maximum age is the Jurassic-Cretaceous boundary, ~143.1Ma.\
-**Maximum justification:** We base this maximum age on a broad upper bound for this stem taxon, which has been dated to ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 54.3Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 70.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449))
+**Maximum age:** Albian–Cenomanian boundary, late Cretaceous, 100.5Ma.\
+**Maximum justification:** We base this maximum age on a broad upper bound for this stem taxon, which has been dated to 85.6Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 54.3Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 70.9Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 70.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)). For comparison, the MRCA of the crown group Anguioidea dates to 90.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)) and 100.0Ma (([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)) in total-evidence analyses.
 
 **778:** Chamaeleonidae: 20.0Ma. This calibration is based on the oldest crown chameleonid _Calumma benovskyi_, from the early Miocene at the base of the Hiwegi formation, dated to ~17–20Ma ([Maxbauer et al. 2013](https://doi.org/10.26879/342)). Assignment of this material to _Calumma_ places it within the _Bradypodion + Furcifer_ divergence, which has previously been estimated at ~45–50Ma using molecular timetrees ([Tolley et al. 2013](https://doi.org/10.1098/rspb.2013.0184)).
 **Node calibrated:** \
