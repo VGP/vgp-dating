@@ -1,6 +1,6 @@
 # Squamata calibrations
 
-Squamates have a high density of well-preserved fossils, reviewed by [Simões and Pyron 2021](https://bioone.org/journals/bulletin-of-the-museum-of-comparative-zoology/volume-163/issue-2/0027-4100-163.2.47/THE-SQUAMATE-TREE-OF-LIFE/10.3099/0027-4100-163.2.47.short). Results from total-evidence analyses have been relatively consistent across most recent studies, providing a plethora of potential Type IV calibrations. In contrast, our limited sampling of squamates limits this applicability somewhat. Here, we primarily rely on the most recent total-evidence analysis of [Simões et al. 2026](https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syaf067/8266822) and references therein, using the nomenclature of [Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126) for node names. We can add another Type IV calibration from the recent time-calibrated morphological phylogenetic analyses analyses of [Benson et al. 2025](https://www.nature.com/articles/s41586-025-09566-y). A secondary source of Type III calibrations is [Title et al. 2024](https://www.science.org/doi/10.1126/science.adh2449) (their Table S1) and references therein. A single Type III calibration for Chameleonidae is taken from [Čerňanský et al. 2020](https://www.nature.com/articles/s41598-019-57014-5). We place the maximum age of the Triassic (252.0Ma) as the maximum age of most constraints, consistent the earliest age for stem-group Squamata subtending _Megachirella_ from Simōes et al. 2026.
+Squamates have a high density of well-preserved fossils, reviewed by [Simões and Pyron 2021](https://bioone.org/journals/bulletin-of-the-museum-of-comparative-zoology/volume-163/issue-2/0027-4100-163.2.47/THE-SQUAMATE-TREE-OF-LIFE/10.3099/0027-4100-163.2.47.short). Results from total-evidence analyses have been relatively consistent across most recent studies, providing a plethora of potential Type IV calibrations. In contrast, our limited sampling of squamates limits this applicability somewhat. Here, we primarily rely on the most recent total-evidence analysis of [Simões et al. 2026](https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syaf067/8266822) and references therein, using the nomenclature of [Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126) for node names. We can add another Type IV calibration from the recent time-calibrated morphological phylogenetic analyses analyses of [Benson et al. 2025](https://www.nature.com/articles/s41586-025-09566-y). A secondary source of Type III calibrations is [Title et al. 2024](https://www.science.org/doi/10.1126/science.adh2449) (their Table S1) and references therein. A single Type III calibration for Chameleonidae is taken from [Čerňanský et al. 2020](https://www.nature.com/articles/s41598-019-57014-5). We place the maximum age of the Triassic (252.0Ma) as the maximum age of most constraints, consistent the earliest age for stem-group Squamata subtending _Megachirella_ from Simōes et al. 2026. References to [Pyron (2017)](https://academic.oup.com/sysbio/article/66/1/38/2670090) generally refer to Fig. 3d, the GEA combined calibrated model.
 
 **Node 748:** Crown Squamata | 215-166Ma.\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant squamates.\
@@ -33,7 +33,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Minimum age:** Middle Eocene, Palaeogene, at 48Ma.\
 **Minimum justification:** _Eoconstrictor fischeri_ ([Scanferla et al. 2020](https://doi.org/10.3390%2Fd12030100)) and _Rageryx schmidi_ ([Smith and Scanferla 2021](https://doi.org/10.5252/geodiversitas2021v43a1)), from the Middle Messel Formation, Germany, dated as latest early to earliest middle Eocene (48.4-47.9Ma; [Lenz et al. 2015](https://link.springer.com/article/10.1007/s00531-014-1126-2)), currently stand as the oldest known crown Booidea ([Onary et al. 2021](https://www.tandfonline.com/doi/full/10.1080/14772019.2022.2068386), [Smith and Scanferla 2021](https://doi.org/10.5252/geodiversitas2021v43a1)).\
 **Maximum age:** Maastrichtian, late Cretaceous, at 75Ma.\
-**Maximum justification:** Divergence time for crown booids has a broad range among recent genomic and total evidence based studies: 72.1Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126); 44.9 ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090), 55Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)).
+**Maximum justification:** Divergence time for crown booids has a broad range among recent genomic and total evidence based studies: 72.1Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126); 45.0 ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090), 55.0Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)).
 
 **Node 779:** Crown Anguimorpha | 150-70Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Anguidae and Xenosauridae.\
@@ -47,7 +47,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Node 777:** Pleurodonta | 120-48Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant pleurodontan iguanians, here represented by Iguanidae (_Iguana_) and Dactyloidae (_Anolis_).\
 **Fossil taxa:** _Geiseltaliellus_ (various material; see [Smith 2009](https://doi.org/10.3374/014.050.0201)) and _Babibasiliscus alxi_ (UWBM 89090)\
-**Minimum age:** early Eocene, Paleogene, at 48Ma.\
+**Minimum age:** Early Eocene, Paleogene, at 48Ma.\
 **Minimum justification:** The oldest undisputed crown Pleurodontans include the phylogenetically inferred corytophanids _Babibasiliscus alxi_ from the Blacks Fork Member of Bridger Formation (Bridger B), Green River Basin in Wyoming (USA), late Early Eocene ([Conrad 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127900), [Scarpetta 2024](https://royalsocietypublishing.org/rsos/article/11/1/221139/92805/A-Palaeogene-stem-crotaphytid-Aciprion-formosum)), and _Geiseltaliellus_ from the middle Eocene fossil Lagerstätte of Messel, Germany ([Scarpetta 2024](https://royalsocietypublishing.org/rsos/article/11/1/221139/92805/A-Palaeogene-stem-crotaphytid-Aciprion-formosum), [Smith 2009](https://doi.org/10.3374/014.050.0201)) at ~48Ma.\
 **Maximum age:** Early Cretaceous, ~120Ma.\
 **Maximum justification:** Divergence time for crown Pleurodonta has a relatively wide range among recent genomic and total evidence based studies: 99.8Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 118.9Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 72.3Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)). This suggests a maximum age of ~120Ma.\
@@ -56,14 +56,37 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 ### Additional Calibrations:
 
-**780:** Stem Anguidae (_Anniella + Elgaria_): 33.0Ma. This calibration is based on _Ophisaurus_ sp., the oldest crown anguine from the early Oligocene (23.0–33.9Ma), parameterizing the Anniellidae + Anguidae divergence (i.e., as a stem anguid).
+**780:** Stem Anguidae | 143.1-33.9Ma\
+**Node calibrated:** _Anniella + Elgaria_\
+**Fossil taxon:** _Ophisaurus_ sp. (IWCMS.2006.35)\
+**Minimum age:** Early Oligocene 33.9Ma\
+**Minimum justification:** This material represents the oldest crown anguine from the Newtown Bone Bed, Osborne Member, Headon Hill Formation, dated to the Priabonian of the late Eocene ([Klembara et al. 2010](https://doi.org/10.1080/14772011003603531)), for which we take the Eocene–Oligocene boundary (33.9Ma) as the minimum age.\
+**Maximum age:** The maximum age is the Jurassic-Cretaceous boundary, ~143.1Ma.\
+**Maximum justification:** We base this maximum age on a broad upper bound for this stem taxon, which has been dated to ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 52.2Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 70.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449))
 
 **778:** Chamaeleonidae: 20.0Ma. This calibration is based on the oldest crown chameleonid _Calumma benovskyi_, from the early Miocene at the base of the Hiwegi formation, dated to ~17–20Ma ([Maxbauer et al. 2013](https://doi.org/10.26879/342)). Assignment of this material to _Calumma_ places it within the _Bradypodion + Furcifer_ divergence, which has previously been estimated at ~45–50Ma using molecular timetrees ([Tolley et al. 2013](https://doi.org/10.1098/rspb.2013.0184)).
+**Node calibrated:** \
+**Fossil taxon:** \
+**Minimum age:** \
+**Minimum justification:** \
+**Maximum age:** \
+**Maximum justification:**
 
 **769:** Endoglyptodonta: 20.0Ma. This calibration is based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene (16.0–20.5Ma), parameterizing the Viperidae + Colubroides divergence (i.e., as a stem viperid).
+**Node calibrated:** \
+**Fossil taxon:** \
+**Minimum age:** \
+**Minimum justification:** \
+**Maximum age:** \
+**Maximum justification:**
 
 **771:** Natricidae: 13.8Ma. This calibration is based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae from the middle Miocene (11.6–16.0Ma), parameterizing the _Natrix + Thamnophis_ divergence based on its closer affinity to the European genus _Natrix_ than New World _Thamnophis_.
-
+**Node calibrated:** \
+**Fossil taxon:** \
+**Minimum age:** \
+**Minimum justification:** \
+**Maximum age:** \
+**Maximum justification:**
 ### Likelihood checkpoints
 
 A preliminary literature review yields 44 age estimates for crown-group Squamata from 31 studies, yielding a median of 198.8Ma and a kernel-density mode of 203.0Ma. **These need to be expanded and filtered for inclusion of Dibamia**
@@ -120,6 +143,8 @@ Gauthier, J. A., M. Kearney, J. A. Maisano, O. Rieppel, and A. D. B. Behlke. 201
 Jenkins, K. M., D. L. Meyer, and B.-A. S. Bhullar. 2026. Phylogenetic Paradigm Shifts in Early Amniote Evolution. Systematic Biology:syaf087.
 
 Jenkins, X. A., R. B. Benson, D. P. Ford, C. Browning, V. Fernandez, K. Dollman, T. Gomes, E. Griffiths, J. N. Choiniere, and B. R. Peecook. 2025. Evolutionary assembly of crown reptile anatomy clarified by late Paleozoic relatives of Neodiapsida. Peer Community Journal 5.
+
+Klembara, J. and Green, B., 2010. Anguimorph lizards (Squamata, Anguimorpha) from the middle and late Eocene of the Hampshire Basin of southern England. Journal of Systematic Palaeontology, 8(1), pp.97-129.
 
 LeBlanc, A. R. H., A. Palci, N. Anthwal, A. S. Tucker, R. Araújo, M. F. C. Pereira, and M. W. Caldwell. 2023. A conserved tooth resorption mechanism in modern and fossil snakes. Nature Communications 14(1):742.
 
