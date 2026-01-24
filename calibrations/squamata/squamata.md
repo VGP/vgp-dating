@@ -32,10 +32,19 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Node 774:** Crown Booidea | 75-48Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Pythonidae (_Liasis_) and Boidae (_Candoia_)\
 **Fossil taxon:** _Eoconstrictor fischeri_ (SMF-ME 929) and _Rageryx schmidi_ (HLMD-Me 9723)\
-**Minimum age:** middle Eocene, Palaeogene, at 48 Ma.\
+**Minimum age:** Middle Eocene, Palaeogene, at 48 Ma.\
 **Minimum justification:** _Eoconstrictor fischeri_ ([Scanferla et al. 2020](https://doi.org/10.3390%2Fd12030100)) and _Rageryx schmidi_ ([Smith and Scanferla 2021](https://doi.org/10.5252/geodiversitas2021v43a1)), from the Middle Messel Formation, Germany, dated as latest early to earliest middle Eocene (48.4-47.9Ma; [Lenz et al. 2015](https://link.springer.com/article/10.1007/s00531-014-1126-2)), currently stand as the oldest known crown Booidea ([Onary et al. 2021](https://www.tandfonline.com/doi/full/10.1080/14772019.2022.2068386), [Smith and Scanferla 2021](https://doi.org/10.5252/geodiversitas2021v43a1)).\
 **Maximum age:** Maastrichtian, late Cretaceous, at 75Ma.\
 **Maximum justification:** Divergence time for crown booids has a broad range among recent genomic and total evidence based studies: 72.1Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126); 44.9 ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090), 55 Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)).
+
+**Node 779:** Crown Anguimorpha | 150-70Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing Anguidae and Xenosauridae.\
+**Fossil taxon:** Aiolosaurus oriens\
+**Minimum age:** Maastrichtian, Late Cretaceous, at 70 Ma.\
+**Minimum justification:** The oldest undisputed early diverging member of Paleoanguimorpha (and crown anguimorphs in general) is represented by Aiolosaurus oriens Gao & Norell 2000, based on total evidence analyses of squamate phylogeny using different morphological datasets (Pyron 2017, Reeder et al. 2015). Aiolosaurus comes from the Djadokhta Formation, Nemegt Basin, in Mongolia, aged as Campanian-earliest Maastrichtian, Late Cretaceous (84.2-70Ma) (Dashzeveg et al. 2005, Dingus et al. 2008), where it is found along with other neoanguimorpha, such as Gobiderma, Estesia and Cherminotus (Gao and Norell 2000)— although the phylogenetic placement of the latter within anguimorphs has been less stable compared to Aiolosaurus.\
+**Maximum age:** Late Jurassic, at 150 Ma.\
+**Maximum justification:** Divergence time for crown Anguimorpha has a relatively narrow range among recent genomic and total evidence based studies: 136.8 Ma (Burbrink et al. 2020), 144.6 Ma (Title et al. 2024), and 133.6 Ma (Simões et al. 2026). This suggests a maximum age of ~150 Ma.\
+**Discussion:** While there is a putative anguimorph Dorsetisaurus purbeckensis, from the Tithonian of the Jurassic (143.1–149.2Ma), it is unresolved as a crown or stem member and frequently referred to the stem ($XXX). The oldest unambiguous crown anguimorphs come from the late Cretaceous of Mongolia, which are much younger in age. There might exist a really long ghost lineage towards the crown here, or simply an incorrect placement of Dorsetisaurus, which is made up of several different individuals and somewhat difficult to interpret and score for a decisive phylogenetic analysis ($XXX).
 
 
 ### Type III Calibrations:
