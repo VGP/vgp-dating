@@ -22,11 +22,11 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum justification:** Divergence time for crown Unidentata has a broad range among recent genomic and total evidence based studies: 189.5Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 183.4Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 178Ma ([Simões et al. 2020](https://www.nature.com/articles/s41467-020-17190-9)), 200Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 203.7Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)). Therefore, we place a wide prior on this node, with a soft maximum age reasonably older than the oldest estimate, at 205Ma.
 
 **Node 767:** Crown Toxicofera | 190-166Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing Serpentes, Iguania, and Anguimorpha.
-**Fossil taxa:** _Eophis underwoodi_, _Breugnathair elgolensis_
-**Minimum age:** Bathonian, Middle Jurassic, at 166Ma.
-**Minimum justification:** This calibration is based on the earliest known snake Eophis underwoodi from the Kirtlington Cement Works Quarry, Oxfordshire, UK—Bathonian, Middle Jurassic (Caldwell et al. 2015): 168.3-166.1Ma. Further, the potential crown toxicoferan Breugnathair elgolensis from the Bathonian of the middle Jurassic (165.3–168.2Ma) (Benson et al. 2025) (their Datasets 2 and 3). The placement of Breugnathair is ambiguous across analyses in Benson et al. (2025), but the timescale is highly congruent with most recent estimates, including Title et al. 2024 and Simões et al. 2026.
-**Maximum age:** Pliensbachian, Early Jurassic, at 190Ma.
+**Node calibrated:** Last common ancestor of the clade encompassing Serpentes, Iguania, and Anguimorpha.\
+**Fossil taxa:** _Eophis underwoodi_ (NHMUK PV R 12355), _Breugnathair elgolensis_ (NMS G.2023.7.1)\
+**Minimum age:** Bathonian, Middle Jurassic, at 166Ma.\
+**Minimum justification:** This calibration is based on the earliest known snake _Eophis underwoodi_ from the Kirtlington Cement Works Quarry, Oxfordshire, UK—Bathonian, Middle Jurassic ([Caldwell et al. 2015](https://www.nature.com/articles/ncomms6996)): 168.3-166.1Ma. Further, the potential crown toxicoferan _Breugnathair elgolensis_ from the Bathonian of the middle Jurassic (165.3–168.2Ma; [Benson et al. 2025](https://www.nature.com/articles/s41586-025-09566-y) – their Datasets 2 and 3). The placement of _Breugnathair_ is ambiguous across analyses in Benson et al. (2025), but the timescale is highly congruent with most recent estimates, including Title et al. 2024 and Simões et al. 2026.\
+**Maximum age:** Pliensbachian, Early Jurassic, at 190Ma.\
 **Maximum justification:** Toxicofera has been estimated at 161-185.6Ma based on very different morphological and molecular datasets, including phylogenomic and total evidence dating studies (Burbrink et al. 2020, Pyron 2017, Simões et al. 2026, Simões et al. 2018, Simões et al. 2020, Title et al. 2024, Zheng and Wiens 2016). Therefore, we provide a large sampling probability for ages up to 190Ma.
 
 
@@ -49,7 +49,7 @@ A preliminary literature review yields 44 age estimates for crown-group Squamata
 
 ## References
 
-Benson, R. B. J., S. A. Walsh, E. F. Griffiths, Z. T. Kulik, J. Botha, V. Fernandez, J. J. Head, and S. E. Evans. 2025. Mosaic anatomy in an early fossil squamate. Nature.
+Benson, R.B.J., Walsh, S.A., Griffiths, E.F. et al. Mosaic anatomy in an early fossil squamate. Nature 647, 673–679 (2025).
 
 Benton, M. J., P. C. Donoghue, R. J. Asher, M. Friedman, T. J. Near, and J. Vinther. 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18(1):1-106.
 
