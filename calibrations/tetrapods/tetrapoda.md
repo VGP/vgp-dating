@@ -4,7 +4,7 @@ A secondary source of Type III calibrations is Title et al. 2024 (their Table S1
 
 ### Type III Calibrations:
 
-**Node:** Tetrapoda | 351-337Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161)\
+**Node 590:** Tetrapoda | 351-337Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161)\
 **Node calibrated:** Last common ancestor of the clade encompassing amphibians, reptiles, birds and mammals.\
 **Fossil taxon:** _Lethiscus stocki_ (MCZ 2185, Museum of Comparative Zoology, Harvard).\
 **Minimum age:** _Lethiscus_ has been found in the Wardie Shales of the Wardie shore, near Edinburgh, Scotland. The Wardie Shales have been assigned to the Holkerian regional stage based on fossil fishes and palynomorphs, resulting in an age of 343.5-337 Ma ([Gradstein et al. 2012](https://shop.elsevier.com/books/the-geologic-time-scale-2012/gradstein/978-0-444-59425-9)). This gives a minimum age estimate of 337 Ma.\
