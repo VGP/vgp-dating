@@ -11,7 +11,7 @@ A secondary source of Type III calibrations is Title et al. 2024 (their Table S1
 **Minimum justification:** _Lethiscus_ is either a Lepospondyli (within Batrachomorpha) or a Reptilimorpha, but since both are crown Tetrapoda it can be safely interpreted as a crown tetrapod ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1); [Ruta et al. 2003](https://www.cambridge.org/core/journals/biological-reviews/article/early-tetrapod-relationships-revisited/EF6EE684156F334264F0A58CBB40D415)).\
 **Maximum age:** Whatcheeriids from the Ivorian regional Western European stage are dated to 351-346.5 Ma.\
 **Maximum justification:** Whatcheeriids such as Whatcheeria and Pederpes are stem tetrapods, phylogenetically distant from the crown. They therefore demonstrate adequate fossilisation potential, with no evidence of crown tetrapods found at the same time.\
-**Discussion:** Both baphetids and colosteids are nearer to the crown (but still stem) of Tetrapoda, and could therefore be better maximum calibrations. However, they are both younger than _Lethiscus_ ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)).\
+**Discussion:** Both baphetids and colosteids are nearer to the crown (but still stem) of Tetrapoda, and could therefore be better maximum calibrations. However, they are both younger than _Lethiscus_ ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)).
 
 **591:** Amniota. Based on the stem amniote _Hylonomus lyelli_ from the Bashkirian of the Carboniferous, 314.0-340.1Ma.
 
