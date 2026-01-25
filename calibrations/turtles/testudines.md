@@ -4,16 +4,15 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ### Calibrations:
 
-Based on the oldest crown testudine  from the Oxfordian of the Jurassic (154.8–161.5Ma), with a maximum based on the maximum age of the Triassic. The minimum age of 157.3Ma is generally used as a maximum age for other calibrations in the absence of more precise constraints.
-
 **Node 732:** Testudines: 157.3–252.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
 **Fossil taxa:** _Notoemys oxfordiensis_ (MNHNCu P 3209)\
 **Minimum age:** 157.3Ma\
-**Minimum justification:** As per [Cadena and Joyce (2015)](https://doi.org/10.3374/014.056.0101), from the Viñales locality, Pinar del Río Province, Cuba; Jagua Vieja Member, Jagua Formation, Oxfordian, Late Jurassic ([de la Fuente and Iturralde-Vinent 2001](https://www.cambridge.org/core/journals/journal-of-paleontology/article/new-pleurodiran-turtle-from-the-jagua-formation-oxfordian-of-western-cuba/33E57BAE07B114094E5C322E1D4F190F))\
-**Maximum age:**\
-**Maximum justification:**\
-**Discussion:**
+**Minimum justification:** As per [Cadena and Joyce (2015)](https://doi.org/10.3374/014.056.0101), the oldest crown testudine from the Viñales locality, Pinar del Río Province, Cuba; Jagua Vieja Member, Jagua Formation, Oxfordian, Late Jurassic ([de la Fuente and Iturralde-Vinent 2001](https://www.cambridge.org/core/journals/journal-of-paleontology/article/new-pleurodiran-turtle-from-the-jagua-formation-oxfordian-of-western-cuba/33E57BAE07B114094E5C322E1D4F190F))\
+**Maximum age:** 252.0Ma\
+**Maximum justification:** Maximum age based on the maximum age of the Triassic. \
+**Discussion:** The minimum age of 157.3Ma for crown Testudines is generally used as a maximum age for other calibrations in the absence of more precise constraints.
+
 
 **Node 747:** Pleurodira: 125.0–155.6Ma. Based the oldest crown pleurodiran _Atolchelys lepida_ from the Barremian of the Cretaceous (121.4–125.77Ma), with a maximum based on the oldest pan-pleurodiran _Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).
 
