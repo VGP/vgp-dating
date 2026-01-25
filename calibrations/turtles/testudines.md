@@ -22,7 +22,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Maximum justification:** Maximum age based on the oldest pan-pleurodiran _Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).\
 **Discussion:** [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773) assign this fossil to the less-inclusive clade Pelumedusoides, but our taxon sampling is not detailed enough to capture this crown group. As result, we calibrate its stem age instead, which is equivalent to the crown group Pleurodira.
 
-**Node 733:** Cryptodira | 157.3–200.2Ma\
+**Node 733:** Cryptodira | 157.3–201.4Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant cryptodiran turtles.\
 **Fossil taxa:** _Yehguia tatsuensis_ (IVPP-V996)\
 **Minimum age:** 157.3Ma\
@@ -88,7 +88,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ### Likelihood Checkpoints:
 
-In addition, we located **$XXX** age estimates from **$XXX** studies for a likelihood checkpoint on Testudines. They range from X–Y with a median of Z, excluding outliers.
+In addition, we located 46 age estimates from 28 studies for a likelihood checkpoint on Testudines. They exhibit a very broad range from 77.8-249.8 with a median of Z, excluding outliers (1.5 * IQR).
 
 **732:** Testudines: **$XXX** studies for a median of **$XXX** and a range of **$XXX** **$UPDATE**
 
