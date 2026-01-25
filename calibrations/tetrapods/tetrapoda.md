@@ -1,6 +1,6 @@
 # Tetrapod calibrations
 
-We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161). A secondary source of calibrations is Title et al. 2024 (their Table S1) and references therein. We adapt those here along with a few other relevant taxa to date early tetrapods.
+We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161). A secondary source of calibrations is [Title et al. (2024)](https://www.science.org/doi/abs/10.1126/science.adh2449) (their Table S1) and references therein. We adapt those here along with a few other relevant taxa to date early tetrapods.
 
 ### Calibrations:
 
@@ -47,5 +47,7 @@ Ogg, J. G., G. Ogg, and F. Gradstein. 2008. The Concise Geologic Time Scale. Cam
 Ruta, M., Coates, M.I. and Quicke, D.L., 2003. Early tetrapod relationships revisited. Biological Reviews, 78(2), pp.251-345.
 
 Simões, T. R., C. F. Kammerer, M. W. Caldwell, and S. E. Pierce. 2022. Successive climate crises in the deep past drove the early evolution and radiation of reptiles. Science Advances 8(33):eabq1898.
+
+Title, P.O., Singhal, S., Grundler, M.C., Costa, G.C., Pyron, R.A., Colston, T.J., Grundler, M.R., Prates, I., Stepanova, N., Jones, M.E. and Cavalcanti, L.B., 2024. The macroevolutionary singularity of snakes. Science, 383(6685), pp.918-923.
 
 van Tuinen, M., and E. A. Hadly. 2004. Error in estimation of rate and time inferred from the early amniote fossil record and avian molecular clocks. Journal of Molecular Evolution 59(2):267-276.
