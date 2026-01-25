@@ -31,20 +31,24 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Maximum justification:** Maximum age based on the minimum age of the Triassic.\
 **Discussion:** Also serves as a minimum age for Testudines.
 
-
-
-
-
-
-
-**Node 734:** Durocryptodira: 88.6–157.3Ma. Based on the oldest crown durocryptodiran _Lindholmemys elegans_, likely stem Testudinoidea, from the Turonian of the Cretaceous (89.8–93.9Ma).
+**Node 734:** Durocryptodira | 88.6–157.3Ma\ 
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
-**Fossil taxa:** _Notoemys oxfordiensis_ (MNHNCu P 3209)\
-**Minimum age:** 157.3Ma\
-**Minimum justification:** As per [Cadena and Joyce (2015)](https://doi.org/10.3374/014.056.0101), the oldest crown testudine from the Viñales locality, Pinar del Río Province, Cuba; Jagua Vieja Member, Jagua Formation, Oxfordian, Late Jurassic ([de la Fuente and Iturralde-Vinent 2001](https://www.cambridge.org/core/journals/journal-of-paleontology/article/new-pleurodiran-turtle-from-the-jagua-formation-oxfordian-of-western-cuba/33E57BAE07B114094E5C322E1D4F190F))\
-**Maximum age:** 252.0Ma\
-**Maximum justification:** Maximum age based on the lower boundary of the Triassic. \
-**Discussion:** The minimum age of 157.3Ma for crown Testudines is generally used as a maximum age for other calibrations in the absence of more precise constraints.
+**Fossil taxa:** _Lindholmemys elegans_ (CCMGE 34/12175)\
+**Minimum age:** 88.6\
+**Minimum justification:** Based on the oldest crown durocryptodiran, likely stem Testudinoidea, from the Turonian Bissekty Formation of Uzbekistan of the Cretaceous (89.8–93.9Ma), with characters and placement reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
+**Maximum age:** 157.3Ma\
+**Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
+**Discussion:** Previous phylogenetic analyses used chimaeric specimens ([Shaffer et al. 1997](https://academic.oup.com/sysbio/article-abstract/46/2/235/1712833)), but the referenced material was placed on the testudinoid stem ([Danilov and Parham 2005](https://www.tandfonline.com/doi/abs/10.1671/0272-4634(2005)025%5B0784%3AAROTRO%5D2.0.CO%3B2)). 
+
+
+
+
+
+
+
+
+
+
 
 **Node 744:** Testuguria: 50.3–157.3Ma. Based on the oldest crown testgurian _Hadrianus majusculus_, likely stem Testudinidae, from the Wasatchian of the Eocene (50.3–55.4Ma).
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
@@ -103,6 +107,8 @@ In addition, we located **$XXX** age estimates from **$XXX** studies for a likel
 
 Cadena, E., Joyce, W.G., 2015. A review of the fossil record of turtles of the clades Platychelyidae and Dortokidae. Bulletin of the Peabody Museum of Natural History 56, 3–20.
 
+Danilov, I.G. and Parham, J.F., 2005. A reassessment of the referral of an isolated skull from the Late Cretaceous of Uzbekistan to the stem-testudinoid turtle genus Lindholmemys. Journal of vertebrate Paleontology, 25(4), pp.784-791.
+
 Danilov, I.G., Parham, J.F., 2006. A redescription of ‘Plesiochelys’ tatsuensis from the Late Jurassic of China, with comments on the antiquity of the crown clade Cryptodira. J Vertebr Paleontol 26, 573–580.
 
 de la Fuente, M, & Iturralde-Vinent, M. 2001. A new pleurodiran turtle from the Jagua Formation (Oxfordian) of western Cuba. Journal of Paleontology, 75(4), 860-869.
@@ -112,5 +118,7 @@ Joyce, W.G., Parham, J.F., Lyson, T.R., Warnock, R.C. and Donoghue, P.C., 2013. 
 Romano, P.S., Gallo, V., Ramos, R.R. and Antonioli, L., 2014. Atolchelys lepida, a new side-necked turtle from the Early Cretaceous of Brazil and the age of crown Pleurodira. Biology Letters, 10(7), p.20140290.
 
 Selvatti, A.P., Moreira, F.R.R., Carvalho, D.C., Prosdocimi, F., de Moraes Russo, C.A. and Junqueira, A.C.M., 2023. Phylogenomics reconciles molecular data with the rich fossil record on the origin of living turtles. Molecular Phylogenetics and Evolution, 183, p.107773.
+
+Shaffer, H.B., Meylan, P. and McKnight, M.L., 1997. Tests of turtle phylogeny: molecular, morphological, and paleontological approaches. Systematic Biology, 46(2), pp.235-268.
 
 Tong, H., Li, L. and Ouyang, H., 2014. A revision of Sinaspideretes wimani Young & Chow, 1953 (Testudines: Cryptodira: Trionychoidae) from the Jurassic of the Sichuan Basin, China. Geological Magazine, 151(4), pp.600-610.
