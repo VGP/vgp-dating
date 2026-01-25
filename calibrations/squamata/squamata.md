@@ -2,6 +2,8 @@
 
 Squamates have a high density of well-preserved fossils, reviewed by [Simões and Pyron (2021)](https://bioone.org/journals/bulletin-of-the-museum-of-comparative-zoology/volume-163/issue-2/0027-4100-163.2.47/THE-SQUAMATE-TREE-OF-LIFE/10.3099/0027-4100-163.2.47.short). Results from phylogenomic and total-evidence analyses have been relatively consistent across most recent studies, providing a plethora of potential calibrations. In contrast, our limited sampling of squamates limits this applicability somewhat. Here, we primarily rely on the most recent phylogenomic analyses of [Burbrink et al. (2020)](https://academic.oup.com/sysbio/article/69/3/502/5573126) and [Title et al. (2024)](https://www.science.org/doi/10.1126/science.adh2449) and the total-evidence analyses of [Pyron (2017)](https://academic.oup.com/sysbio/article/66/1/38/2670090) and [Simões et al. (2026)](https://doi.org/10.1093/sysbio/syaf067) and references therein, using the nomenclature of [Burbrink et al. (2020)](https://academic.oup.com/sysbio/article/69/3/502/5573126) for node names. References to [Pyron (2017)](https://academic.oup.com/sysbio/article/66/1/38/2670090) generally refer to Fig. 3d, the GEA combined, calibrated model. All nodes are referred to as crown groups unless otherwise specified.
 
+### Calibrations:
+
 **Node 748:** Squamata | 215-166Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant squamates.\
 **Fossil taxa:** _Eichstaettisaurus schroederi_ (BSPG 1937), _Helioscopus dickersonae_ (DINO 15914), _Eoscincus ornatus_ (DINO 14864), and _Paramacellodus sp._ (DINO 13861)\
