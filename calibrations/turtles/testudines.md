@@ -65,7 +65,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Minimum justification:** Based on the oldest crown americhelyid, likely stem Chelonioidea, from the Niobrara Chalk Formation of the Campanian, upper Cretaceous (72.2–83.6Ma) of Kansas, with synapomorphies, stratigraphy, and phylogeny reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
-**Discussion:** The stratigraphic placement of the referenced specimen is uncertain and may actually be slightly older ([Joyce et al. (2013)](https://doi.org/10.1666/12-149)).
+**Discussion:** The stratigraphic placement of the referenced specimen is uncertain and may actually be slightly older ([Joyce et al. 2013](https://doi.org/10.1666/12-149)).
 
 **Node 742:** Chelydroidea | 70.0–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant species of _Chelydra_ and _Macrochelys_.\
