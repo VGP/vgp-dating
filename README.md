@@ -27,7 +27,7 @@ Here is the [final set](./calibrations/calibrations.md) of **$XXX** calibrations
 
 Here are the Google Docs for keeping track of our discussions for [Amphibians & Reptiles](https://docs.google.com/document/d/1VMTsPOSn6-E8yx2SoGJ6JiWdQ-omS7DwejFJVYD-AxQ/edit?usp=sharing), [Birds](https://docs.google.com/document/d/1G3ztyJx8t66nX5fdmEJtjLbXIoATYab_lRFytgtN4-A/edit?usp=sharing), [Fishes](https://docs.google.com/document/d/1peTTM31qZX1y7SY2SgsUnMst2tot416lubJ-ppSi1_s/edit?usp=sharing), [Mammals](https://docs.google.com/document/d/1fdghXoPY2i9wUCyBZXstzkNecUCnA5Q7V5yTdWLWg14/edit?usp=sharing), and [early nodes](https://docs.google.com/document/d/1XepP4Q753V84ACbQf73-WcU__SS8bk1m9IkEs7GVPsA/edit?usp=sharing).
 
-<img width="2189" height="1524" alt="image" src="https://github.com/user-attachments/assets/83df3fcd-d675-4c13-b539-00c2fd1baf62" />
+![treePL constraints test](roadies_v1.1.16b.treePL.png)
 
 
 ## Aims & Scope
