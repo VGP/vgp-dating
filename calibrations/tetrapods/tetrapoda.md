@@ -22,10 +22,24 @@ We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](htt
 **Maximum justification:** The maximum age for crown amniotes (under a node-based definition: the split between synapsids and sauropsids) has been suggested to be ~332Ma, based on the age of the oldest known putative stem amniote fossils, _Westlothiana_ ([Benton et al. 2015](https://palaeo-electronica.org/content/fc-1), [van Tuinen and Hadly 2004](https://link.springer.com/article/10.1007/s00239-004-2624-9)). Tip dating studies based on different data sets also find median ages between 320-330Ma for crown amniotes ([Ford and Benson 2020](https://www.nature.com/articles/s41559-019-1047-3), [Simões et al. 2022](https://www.science.org/doi/abs/10.1126/sciadv.abq1898)), and 335Ma for Total Group Amniota ([Simões et al. 2022](https://www.science.org/doi/abs/10.1126/sciadv.abq1898)).
 
 **592:** Sauria. Based on the stem archosauromorph _Protorosaurus speneri_ from the Lopingian of the Permian, 255.9-295.9Ma.
+**Node calibrated:** Last common ancestor of the clade encompassing \
+**Fossil taxon:** \
+**Minimum age:** \
+**Minimum justification:** \
+**Maximum age:** \
+**Maximum justification:** 
 
 **594:** Archosauria. Based on the stem pseudosuchian _Xilousuchus sapingensis_ from the Olenekian of the Triassic, 247.2-256.0Ma.
+**Node calibrated:** Last common ancestor of the clade encompassing \
+**Fossil taxon:** \
+**Minimum age:** \
+**Minimum justification:** \
+**Maximum age:** \
+**Maximum justification:** 
 
 ### Likelihood checkpoints:
+
+TBD
 
 
 ## References
