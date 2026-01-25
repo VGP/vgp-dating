@@ -22,20 +22,20 @@ We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](htt
 **Maximum justification:** The maximum age for crown amniotes (under a node-based definition: the split between synapsids and sauropsids) has been suggested to be ~332Ma, based on the age of the oldest known putative stem amniote fossils, _Westlothiana_ ([Benton et al. 2015](https://palaeo-electronica.org/content/fc-1), [van Tuinen and Hadly 2004](https://link.springer.com/article/10.1007/s00239-004-2624-9)). Tip dating studies based on different data sets also find median ages between 320-330Ma for crown amniotes ([Ford and Benson 2020](https://www.nature.com/articles/s41559-019-1047-3), [Simões et al. 2022](https://www.science.org/doi/abs/10.1126/sciadv.abq1898)), and 335Ma for Total Group Amniota ([Simões et al. 2022](https://www.science.org/doi/abs/10.1126/sciadv.abq1898)).
 
 **592:** Sauria | 255.9-295.9Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant lizards (Squamata) and crocodiles (Crocodylia).\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant lizards (Squamata) and crocodilians (Crocodylia).\
 **Fossil taxon:** _Protorosaurus speneri_ (NMK S 180)\
 **Minimum age:** 255.9Ma\
 **Minimum justification:** Based on the oldest stem archosauromorph from the Lopingian (251.9–259.5Ma) of the Permian of Germany and England ([Ezcurra et al. 2014](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089165)).\
 **Maximum age:** 295.9Ma\
-**Maximum justification:** The maximum age calibration is based on a proposed hard upper for the crocodile-lizard split constrained by _Apsisaurus_ from the Archer City Formation of Texas ([Benton and Donoghue 2007](https://doi.org/10.1093/molbev/msl150)), dated as Asselian (298.9–295.5Ma) of the early Permian.
+**Maximum justification:** The maximum age calibration is based on a proposed hard upper bound for the crocodile-lizard split constrained by _Apsisaurus wittei_ from the Archer City Formation of Texas ([Benton and Donoghue 2007](https://doi.org/10.1093/molbev/msl150)), dated to the Asselian (298.9–295.5Ma) of the early Permian.
 
-**594:** Archosauria. Based on the stem pseudosuchian _Xilousuchus sapingensis_ from the Olenekian of the Triassic, 247.2-256.0Ma.
-**Node calibrated:** Last common ancestor of the clade encompassing \
-**Fossil taxon:** \
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** 
+**594:** Archosauria | 247.2-256.0Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant birds (Aves) and crocodilians (Crocodylia).\
+**Fossil taxon:** _Xilousuchus sapingensis_ (IVPP V 6026)\
+**Minimum age:** 247.2Ma\
+**Minimum justification:** Based on the stem pseudosuchian from the Triassic Olenekian (246.7–249.9Ma) Heshanggou Formation, Hazhen Commune, Fugu County, northeast Shaanxi Province of China ([Nesbitt 2011](https://www.cambridge.org/core/journals/earth-and-environmental-science-transactions-of-royal-society-of-edinburgh/article/sailbacked-suchian-from-the-heshanggou-formation-early-triassic-olenekian-of-china/E3644E8FF8F923D86FA08813311B49E5), [Parham et al. 2012](https://academic.oup.com/sysbio/article/61/2/346/1647963)).\
+**Maximum age:** 256.0Ma\
+**Maximum justification:** The maximum age calibration is based on a proposed soft upper bound for the bird-crocodile split constrained by the oldest putative stem archosauriform _Archosaurus rossicus_ ([Gower and Sennikov 2000](https://www.cambridge.org/us/universitypress/subjects/earth-and-environmental-science/palaeontology-and-life-history/age-dinosaurs-russia-and-mongolia)) from the late Permian Changhsingian (252.3–256.0Ma) of Russia ([Parham et al. 2012](https://academic.oup.com/sysbio/article/61/2/346/1647963)).
 
 ### Likelihood checkpoints:
 
@@ -58,9 +58,15 @@ Ezcurra, M.D., Scheyer, T.M. and Butler, R.J., 2014. The origin and early evolut
 
 Ford, D. P., and R. B. Benson. 2020. The phylogeny of early amniotes and the affinities of Parareptilia and Varanopidae. Nature Ecology & Evolution 4(1):57-65.
 
+Gower DJ, Sennikov AG.Benton MJ, Kurochkin EN, Shishkin MA, Unwin DM., Early archosaurs from Russia, The age of dinosaurs in Russia and Mongolia, 2000Cambridge, UKCambridge University Press(pg. 140-159)
+
 Gradstein, F., Ogg, J.G., Schmitz, M.D. and Ogg, G.M. eds., 2012. The Geologic Time Scale 2012. Elsevier.
 
+Nesbitt SJ, Liu J, Li C., A sail-backed suchian from the Heshanggou Formation (Early Triassic: Olenekian) of China, Earth Environ. Sci. Trans. R. Soc. Edinburgh, 2011, vol. 101 (pg. 271-284)
+
 Ogg, J. G., G. Ogg, and F. Gradstein. 2008. The Concise Geologic Time Scale. Cambridge University Press.
+
+Parham, J.F., Donoghue, P.C., Bell, C.J., Calway, T.D., Head, J.J., Holroyd, P.A., Inoue, J.G., Irmis, R.B., Joyce, W.G., Ksepka, D.T. and Patané, J.S., 2012. Best practices for justifying fossil calibrations. Systematic biology, 61(2), pp.346-359.
 
 Ruta, M., Coates, M.I. and Quicke, D.L., 2003. Early tetrapod relationships revisited. Biological Reviews, 78(2), pp.251-345.
 
