@@ -47,7 +47,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Minimum justification:** Based on the oldest crown testugurian, likely stem Testudinidae, from the Eocene Wasatchian badlands of New Mexico (50.3–55.4Ma), with synapomorphies, stratigraphy, and phylogeny reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
-**Discussion:** Some uncertainty exists as to the precise geographic and stratigraphic localities of material associated with this taxon [(Joyce et al. 2013)](https://doi.org/10.1666/12-149).\
+**Discussion:** Some uncertainty exists as to the precise geographic and stratigraphic localities of material associated with this taxon [(Joyce et al. 2013)](https://doi.org/10.1666/12-149).
 
 **Node 746:** Emydidae | 32.0–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant species of _Emys_ and _Trachemys_.\
