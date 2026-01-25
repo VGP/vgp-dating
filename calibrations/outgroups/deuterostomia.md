@@ -1,8 +1,10 @@
 # Outgroup & root calibrations
 
+We primarily focus here on the well-constrained ages discussed by [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1) and [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161).
+
 ### Calibrations:
 
-**Node 582:** Crown Deuterostomia | 590.8 - 517.32 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161)\
+**Node 582:** Crown Deuterostomia | 590.8 - 517.32 Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing chordates, echinoderms and hemichordates (when monophyletic)\
 **Fossil taxon:** Chengjiang fossils such as _Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China) ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646)).\
 **Minimum age:** The age of the Chengjiang biota has been determined through CA-ID-TIMS U-Pb dating, yielding an age of 518.03 Ma ± 0.69/0.71 Myr and a minimum calibration age of 517.32 Ma ([Yang et al. 2018](https://www.lyellcollection.org/doi/abs/10.1144/jgs2017-103)).\
@@ -11,7 +13,7 @@
 **Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
 **Discussion:** Isolated pelmatozoan columnals with characteristic morphology and stereom structure of the echinoderm total group have been found, however they are dated to 515.5 Ma and are therefore younger than _Haikouichthys_ ([Swalla and Smith 2008](https://royalsocietypublishing.org/doi/abs/10.1098/rstb.2007.2246); [Clausen and Smith 2008](https://www.cambridge.org/core/journals/journal-of-paleontology/article/abs/stem-structure-and-evolution-in-the-earliest-pelmatozoan-echinoderms/2F53133C923A5FC745C94E99C98503F4)). The Lantian Biota also has extensive macrofossils without any definitive metazoans, but it is older than the Weng’an Biota ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)), making the Weng’an a more reasonable choice.
 
-**Node 1161:** Crown Ambulacraria | 590.8 - 515.5 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161), with our minimum constraint following [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1).\
+**Node 1161:** Crown Ambulacraria | 590.8 - 515.5 Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Hemichordata and Echinodermata.\
 **Fossil taxon:** Isolated pelmatozoan columnals (BMNH EE6828-EE6846, Natural History Museum, London, UK).\
 **Minimum age:** 515.5 Ma, from the Micmacca Breccia, which encompasses the upper part of the _Cephalopyge notabilis_ Biozone, the _Ornamentaspis frequens_ Biozone and the lower part of the _Kymataspis arenosa_ Biozone, which has been dated to the latest Atdabanian of 517.0 Ma ± 1.5 Myr, or 515.5 ma ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)).\
@@ -19,7 +21,7 @@
 **Minimum justification:** The isolated pelmatzoan columnals have characteristic morphology and stereom structure of the Echinodermata total group ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1); [Swalla and Smith 2008](https://royalsocietypublishing.org/doi/abs/10.1098/rstb.2007.2246); [Clausen and Smith 2008](https://www.cambridge.org/core/journals/journal-of-paleontology/article/abs/stem-structure-and-evolution-in-the-earliest-pelmatozoan-echinoderms/2F53133C923A5FC745C94E99C98503F4)).\
 **Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).
 
-**Node 583:** Crown Chordata | 590.8 - 517.32 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161)\
+**Node 583:** Crown Chordata | 590.8 - 517.32 Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing vertebrates, tunicates, and cephalochordates.\
 **Fossil taxon:** Chengjiang fossils such as _Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China) ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646)).\
 **Minimum age:** The age of the Chengjiang biota has been determined through CA-ID-TIMS U-Pb dating, yielding an age of 518.03 Ma ± 0.69/0.71 Myr and a minimum calibration age of 517.32 Ma ([Yang et al. 2018](https://www.lyellcollection.org/doi/abs/10.1144/jgs2017-103)).\
@@ -28,7 +30,7 @@
 **Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
 **Discussion:** The Lantian Biota also has extensive macrofossils without any definitive metazoans, but it is older than the Weng’an Biota ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)), making the Weng’an a more reasonable choice.
 
-**Node 584:** Crown Olfactores | 590.8 - 517.32 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161)\
+**Node 584:** Crown Olfactores | 590.8 - 517.32 Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing tunicates and Vertebrata-Craniata.\
 **Fossil taxon:** Chengjiang fossils such as _Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China; [Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646).\
 **Minimum age:** The age of the Chengjiang biota has been determined through CA-ID-TIMS U-Pb dating, yielding an age of 518.03 Ma ± 0.69/0.71 Myr and a minimum calibration age of 517.32 Ma ([Yang et al. 2018](https://www.lyellcollection.org/doi/abs/10.1144/jgs2017-103)).\
