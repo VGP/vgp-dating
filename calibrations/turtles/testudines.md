@@ -26,7 +26,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Node calibrated:** Last common ancestor of the clade encompassing all extant cryptodiran turtles.\
 **Fossil taxa:** _Yehguia tatsuensis_ (IVPP-V996)\
 **Minimum age:** 157.3Ma\
-**Minimum justification:** Based on the oldest crown cryptodiran from the Oxfordian of the Jurassic (154.8–161.5Ma), probably from the Shaximiao Formation ([Danilov and Parham 2006](https://doi.org/10.1671/0272-4634(2006)26[573:aroptf]2.0.co;2)). List of synapomorphies given by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773).\
+**Minimum justification:** Based on the oldest crown cryptodiran from the Oxfordian of the Jurassic (154.8–161.5Ma), from Chongqing, Sichuan Province, China, probably in the Upper Jurassic Shaximiao Formation ([Danilov and Parham 2006](https://doi.org/10.1671/0272-4634(2006)26[573:aroptf]2.0.co;2), [Tong et al. 2014](https://www.cambridge.org/core/journals/geological-magazine/article/revision-of-sinaspideretes-wimani-young-chow-1953-testudines-cryptodira-trionychoidae-from-the-jurassic-of-the-sichuan-basin-china/69FA3F1252476D48D9B9F171B5993E21)). List of synapomorphies given by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773).\
 **Maximum age:** 200.2Ma\
 **Maximum justification:** Maximum age based on the minimum age of the Triassic.\
 **Discussion:** Also serves as a minimum age for Testudines.
@@ -112,3 +112,5 @@ Joyce, W.G., Parham, J.F., Lyson, T.R., Warnock, R.C. and Donoghue, P.C., 2013. 
 Romano, P.S., Gallo, V., Ramos, R.R. and Antonioli, L., 2014. Atolchelys lepida, a new side-necked turtle from the Early Cretaceous of Brazil and the age of crown Pleurodira. Biology Letters, 10(7), p.20140290.
 
 Selvatti, A.P., Moreira, F.R.R., Carvalho, D.C., Prosdocimi, F., de Moraes Russo, C.A. and Junqueira, A.C.M., 2023. Phylogenomics reconciles molecular data with the rich fossil record on the origin of living turtles. Molecular Phylogenetics and Evolution, 183, p.107773.
+
+Tong, H., Li, L. and Ouyang, H., 2014. A revision of Sinaspideretes wimani Young & Chow, 1953 (Testudines: Cryptodira: Trionychoidae) from the Jurassic of the Sichuan Basin, China. Geological Magazine, 151(4), pp.600-610.
