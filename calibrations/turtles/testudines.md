@@ -1,6 +1,6 @@
 # Turtle calibrations
 
-Turtles have a dense and detailed fossil record that has made them particularly amenable to time-scaled phylogenetic analysis using fossil calibrations, reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149) and references therein. That study provided 22 well-constrained node ages to date the turtle tree, which were corroborated and partially updated by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), who also provided a summary of ages for Testudines suitable for use as likelihood checkpoints. Given our modest sampling of turtles, only 9 of the 22 constraints are applicable here, which we list below as our primary calibrations.
+Turtles have a dense and detailed fossil record that has made them particularly amenable to time-scaled phylogenetic analysis using fossil calibrations, reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149) and references therein. That study provided 22 well-constrained node ages to date the turtle tree, which were corroborated and partially updated by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), who also provided a summary of ages for Testudines suitable for use as likelihood checkpoints. Given our modest sampling of turtles, only 9 of the 22 constraints are applicable here, which we list below as our primary calibrations. [Joyce et al. (2013)](https://doi.org/10.1666/12-149) note the presence of a great deal of additional material that may be better characterized phylogenetically and stratigraphically in the future, yielding older and more precise estimates for many nodes.
 
 ### Calibrations:
 
@@ -74,22 +74,16 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Minimum justification:** Based on the oldest crown chelydroid material, likely stem Chelydridae, from the Cerro del Pueblo Formation of the Campanian (72.2–83.6Ma), upper Cretaceous of Mexico. Synapomorphies, stratigraphy, and phylogeny reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
-**Discussion:** A range of apparent chelydrid material exists from the Mesozoic (reviewed in detail by [Joyce et al. 2013](https://doi.org/10.1666/12-149)), but only the referenced specimen shows clear synapomorphies.
+**Discussion:** A range of apparent chelydrid material exists from the Mesozoic of North America (summarized by [Joyce et al. 2013](https://doi.org/10.1666/12-149)), but only the referenced specimen shows clear synapomorphies.
 
-
-
-
-
-
-
-**Node 736:** Chelonioidea: 48.4–157.3Ma. Based on the oldest known chelonioid _Eosphargis breineri_, likely stem Dermochelyidae, from the Ypresian of the Eocene (48.07–56.0Ma).
+**Node 736:** Chelonioidea | 48.4–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
-**Fossil taxa:** _Notoemys oxfordiensis_ (MNHNCu P 3209)\
-**Minimum age:** 157.3Ma\
-**Minimum justification:** As per [Cadena and Joyce (2015)](https://doi.org/10.3374/014.056.0101), the oldest crown testudine from the Viñales locality, Pinar del Río Province, Cuba; Jagua Vieja Member, Jagua Formation, Oxfordian, Late Jurassic ([de la Fuente and Iturralde-Vinent 2001](https://www.cambridge.org/core/journals/journal-of-paleontology/article/new-pleurodiran-turtle-from-the-jagua-formation-oxfordian-of-western-cuba/33E57BAE07B114094E5C322E1D4F190F))\
-**Maximum age:** 252.0Ma\
-**Maximum justification:** Maximum age based on the lower boundary of the Triassic. \
-**Discussion:** The minimum age of 157.3Ma for crown Testudines is generally used as a maximum age for other calibrations in the absence of more precise constraints.
+**Fossil taxa:** _Eosphargis breineri_ (FM uncat.)\
+**Minimum age:** 48.4Ma\
+**Minimum justification:** Based on the oldest known chelonioid, likely stem Dermochelyidae, from the Ypresian Fur Formation of the Eocene (48.07–56.0Ma) of Denmark, with synapomorphies, stratigraphy, and phylogeny reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
+**Maximum age:** 157.3Ma\
+**Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
+**Discussion:** A range of material likely assignable to the stem of Dermochelyidae exists from the Paleocene and Eocene along with a number of other _Eosphargis_ specimens (summarized by [Joyce et al. 2013](https://doi.org/10.1666/12-149)), but they remain to be properly characterized phylogenetically and stratigraphically.
 
 
 ### Likelihood Checkpoints:
