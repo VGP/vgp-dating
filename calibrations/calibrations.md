@@ -36,7 +36,10 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 
 ## [Tetrapods](./tetrapods/tetrapoda.md):
 
-**591:** Amniota: 314-340Ma\
+**590:** Tetrapoda: 337-351Ma\
+-Based on the crown tetrapod _Lethiscus stocki_ from the Holkerian of the Carboniferous.
+
+**591:** Amniota: 315-335Ma\
 -Based on the stem amniote _Hylonomus lyelli_ from the Bashkirian of the Carboniferous.
 
 **592:** Sauria: 255.9-295.9Ma\
