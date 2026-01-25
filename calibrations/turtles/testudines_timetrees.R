@@ -139,7 +139,15 @@ ggplot() +
     axis.ticks = element_line(color = "black", linewidth = 0.8),
     axis.ticks.length = unit(6, "pt"),
     plot.title = element_text(face = "bold", hjust = 0.5),
-    legend.position = c(0.25, 0.75)
+    legend.position = c(0.25, 0.85)
+  ) +
+  
+  add_phylopic(
+    uuid = "95a56d8c-896f-44ed-bf00-5f07d64ca6f8",
+    x=75,
+    y=0.0075,
+    height=0.005,
+    fill = "lightgrey"
   )
 
 # ----------------------------
