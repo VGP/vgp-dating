@@ -1,6 +1,6 @@
 # Calibration Set
 
-This is the final set of **$XXX** calibrations.
+This is the final set of **$XXX** calibrations. Detailed justifications following the best practices of [Parham et al. (2012)](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963) are given on the linked page for each set.
 
 ## [Outgroups & root](./outgroups/deuterostomia.md):
 
@@ -68,42 +68,35 @@ This is the final set of **$XXX** calibrations.
 
 ## [Squamates](./squamata/squamata.md):
 
-**748:** Squamata: 167.2–252.0Ma\
--based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma). **This taxon is not confidently placed, but this is a very safe minimum age for the crown group.**
+**748:** Squamata: 166.0–215.0Ma\
+-based on the earliest crown squamates _Eichstaettisaurus, Helioscopus,_ and _Paramacellodus_ sp., from the middle Jurassic.
 
-**767:** Toxicofera: 167.0–252.0Ma\
--based on the earliest potential crown Toxicofera taxon _Breugnathair elgolensis_ (Parviraptoridae), from the Bathonian of the middle Jurassic (165.3–168.2Ma). **This placement has not been corroborated, but the timescale is highly congruent with most recent estimates.**
+**749:** Unidentata: 166.0–205.0Ma\
+-based on the earliest stem Scincoidea (Paramacellodidae: _Paramacellodus_ sp.), from the middle Jurassic..
 
-**751:** Laterata: 130.2–252.0Ma\
--based on the earliest stem Teiiodea taxon _Dalinghosaurus longidigitus_ , from the Barremian of the early Cretaceous (128.0–132.0Ma).
+**767:** Toxicofera: 166.0–190.0Ma\
+-based on the earliest known snake _Eophis_ and earliest putative crown toxicoferan _Breugnathair_, from the middle Jurassic.
 
-### Type III Calibrations:
-**782:** Gekkota: 97.0–252.0Ma\
--based on _Cretaceogekko burmae_, the oldest crown gekkotan from the Cenomanian of the Cretaceous (93.9–100.5Ma).
+**774:** Stem Booidea: 48.0–100.5Ma\
+-based on _Eoconstrictor_ and _Rageryx_, the earliest stem booids from the middle Eocene.
 
-**749:** Unidentata: 170.0–252.0Ma\
--based on the earliest stem Scincoidea (Paramacellodidae), from the Bajocian of the Jurassic (168.2–170.9Ma).
+**779:** Anguimorpha: 70.0–150.0Ma\
+-based on the oldest crown anguimorph _Aiolosaurus_, from the late Cretaceous.
 
-**779:** Anguimorpha: 144.0–252.0Ma\
--based on the oldest crown anguimorph _Dorsetisaurus purbeckensis_, from the Tithonian of the Jurassic (143.1–149.2Ma).
+**777:** Pleurodonta: 48.0–120.0Ma\
+-based on _Geiseltaliellus_ and _Babibasiliscus_, the oldest crown pleurodontans from the early Eocene.  
 
-**780:** Anguidae: 33.0–252.0Ma\
--based on _Ophisaurus_ sp., the oldest crown anguid from the early Oligocene (23.0–33.9Ma).
+**780:** Anguidae: 33.9–100.5Ma\
+-based on _Ophisaurus_ sp., the oldest crown anguid from the early Oligocene.
 
-**777:** Pleurodonta: 49.1–252.0Ma\
--based on _Afairiguana avius_, the oldest stem polychrotid from the early Eocene (48.5–53.5Ma).  
+**778:** Chamaeleonidae: 20.0–66.0Ma\
+-based on the oldest crown chameleonid _Calumma benovskyi_, from the early Miocene.
 
-**778:** Chamaeleonidae: 20.0–252.0Ma\
--based on the oldest crown chameleonid _Calumma benovskyi_, from the early Miocene at the base of the Hiwegi formation (~17–20Ma).
+**769:** Endoglyptodonta: 20.0–66.0Ma\
+-based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene.
 
-**774:** Boidae: 58.0–252.0Ma\
--based on _Titanoboa cerrejonensis_, the oldest stem boid from the middle-late Paleocene (58.0–60.0Ma).
-
-**769:** Endoglyptodonta: 20.0–252.0Ma\
--based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene (16.0–20.5Ma).
-
-**771:** Natricidae: 13.8–252.0Ma\
--based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae from the middle Miocene (11.6–16.0Ma).
+**771:** Natricidae: 13.8–33.9Ma\
+-based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae.
 
 
 ## [Turtles](./turtles/testudines.md):
@@ -150,3 +143,5 @@ Total-evidence estimates from 6 studies between 2017 and 2025 estimate a median 
 
 
 ## References
+
+Parham, J.F., Donoghue, P.C., Bell, C.J., Calway, T.D., Head, J.J., Holroyd, P.A., Inoue, J.G., Irmis, R.B., Joyce, W.G., Ksepka, D.T. and Patané, J.S., 2012. Best practices for justifying fossil calibrations. Systematic biology, 61(2), pp.346-359.
