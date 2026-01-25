@@ -77,26 +77,26 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 **767:** Toxicofera: 166.0–190.0Ma\
 -based on the earliest known snake _Eophis_ and earliest putative crown toxicoferan _Breugnathair_, from the middle Jurassic.
 
-**774:** Stem Booidea: 48.0–100.5Ma\
--based on _Eoconstrictor_ and _Rageryx_, the earliest stem booids from the middle Eocene.
-
-**779:** Anguimorpha: 70.0–150.0Ma\
--based on the oldest crown anguimorph _Aiolosaurus_, from the late Cretaceous.
-
-**777:** Pleurodonta: 48.0–120.0Ma\
--based on _Geiseltaliellus_ and _Babibasiliscus_, the oldest crown pleurodontans from the early Eocene.  
-
-**780:** Anguidae: 33.9–100.5Ma\
--based on _Ophisaurus_ sp., the oldest crown anguid from the early Oligocene.
-
-**778:** Chamaeleonidae: 20.0–66.0Ma\
--based on the oldest crown chameleonid _Calumma benovskyi_, from the early Miocene.
-
 **769:** Endoglyptodonta: 20.0–66.0Ma\
 -based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene.
 
 **771:** Natricidae: 13.8–33.9Ma\
 -based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae.
+
+**774:** Stem Booidea: 48.0–100.5Ma\
+-based on _Eoconstrictor_ and _Rageryx_, the earliest stem booids from the middle Eocene.
+
+**777:** Pleurodonta: 48.0–120.0Ma\
+-based on _Geiseltaliellus_ and _Babibasiliscus_, the oldest crown pleurodontans from the early Eocene.  
+
+**778:** Chamaeleonidae: 20.0–66.0Ma\
+-based on the oldest crown chameleonid _Calumma benovskyi_, from the early Miocene.
+
+**779:** Anguimorpha: 70.0–150.0Ma\
+-based on the oldest crown anguimorph _Aiolosaurus_, from the late Cretaceous.
+
+**780:** Anguidae: 33.9–100.5Ma\
+-based on _Ophisaurus_ sp., the oldest crown anguid from the early Oligocene.
 
 
 ## [Turtles](./turtles/testudines.md):
