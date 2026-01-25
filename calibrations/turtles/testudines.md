@@ -27,7 +27,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Fossil taxa:** _Yehguia tatsuensis_ (IVPP-V996)\
 **Minimum age:** 157.3Ma\
 **Minimum justification:** Based on the oldest crown cryptodiran from the Oxfordian of the Jurassic (154.8–161.5Ma), from Chongqing, Sichuan Province, China, probably in the Upper Jurassic Shaximiao Formation ([Danilov and Parham 2006](https://doi.org/10.1671/0272-4634(2006)26[573:aroptf]2.0.co;2), [Tong et al. 2014](https://www.cambridge.org/core/journals/geological-magazine/article/revision-of-sinaspideretes-wimani-young-chow-1953-testudines-cryptodira-trionychoidae-from-the-jurassic-of-the-sichuan-basin-china/69FA3F1252476D48D9B9F171B5993E21)). List of synapomorphies given by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773).\
-**Maximum age:** 200.2Ma\
+**Maximum age:** 201.4Ma\
 **Maximum justification:** Maximum age based on the minimum age of the Triassic.\
 **Discussion:** Also serves as a minimum age for Testudines.
 
