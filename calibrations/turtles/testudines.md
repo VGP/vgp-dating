@@ -62,24 +62,25 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Node calibrated:** Last common ancestor of the clade encompassing all extant species of Chelydroidea and Chelonioidea.\
 **Fossil taxa:** _Toxochelys latiremys_ (ROM 28563)\
 **Minimum age:** 70.0Ma\
-**Minimum justification:** Based on the oldest crown americhelyid, likely stem Chelonioidea, from the Niobrara Chalk Formations of the Campanian, upper Cretaceous (72.2–83.6Ma) of Kansas, with synapomorphies, stratigraphy, and phylogeny reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
+**Minimum justification:** Based on the oldest crown americhelyid, likely stem Chelonioidea, from the Niobrara Chalk Formation of the Campanian, upper Cretaceous (72.2–83.6Ma) of Kansas, with synapomorphies, stratigraphy, and phylogeny reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
-**Discussion:** The stratigraphic placement of the referenced specimen is uncertain and may actually be older ([Joyce et al. (2013)](https://doi.org/10.1666/12-149)).
+**Discussion:** The stratigraphic placement of the referenced specimen is uncertain and may actually be slightly older ([Joyce et al. (2013)](https://doi.org/10.1666/12-149)).
+
+**Node 742:** Chelydroidea | 70.0–157.3Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant species of _Chelydra_ and _Macrochelys_.\
+**Fossil taxa:** Chelydridae indet. (SEPCP 9/493)\
+**Minimum age:** 70.0Ma\
+**Minimum justification:** Based on the oldest crown chelydroid material, likely stem Chelydridae, from the Cerro del Pueblo Formation of the Campanian (72.2–83.6Ma), upper Cretaceous of Mexico. Synapomorphies, stratigraphy, and phylogeny reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
+**Maximum age:** 157.3Ma\
+**Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
+**Discussion:** A range of apparent chelydrid material exists from the Mesozoic (reviewed in detail by [Joyce et al. 2013](https://doi.org/10.1666/12-149)), but only the referenced specimen shows clear synapomorphies.
 
 
 
 
 
 
-**Node 742:** Chelydroidea: 70.0–157.3Ma. Based on the oldest crown chelydroid SEPCP 9/493, likely stem Chelydridae, from the Campanian of the Cretaceous (72.2–83.6Ma).
-**Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
-**Fossil taxa:** _Notoemys oxfordiensis_ (MNHNCu P 3209)\
-**Minimum age:** 157.3Ma\
-**Minimum justification:** As per [Cadena and Joyce (2015)](https://doi.org/10.3374/014.056.0101), the oldest crown testudine from the Viñales locality, Pinar del Río Province, Cuba; Jagua Vieja Member, Jagua Formation, Oxfordian, Late Jurassic ([de la Fuente and Iturralde-Vinent 2001](https://www.cambridge.org/core/journals/journal-of-paleontology/article/new-pleurodiran-turtle-from-the-jagua-formation-oxfordian-of-western-cuba/33E57BAE07B114094E5C322E1D4F190F))\
-**Maximum age:** 252.0Ma\
-**Maximum justification:** Maximum age based on the lower boundary of the Triassic. \
-**Discussion:** The minimum age of 157.3Ma for crown Testudines is generally used as a maximum age for other calibrations in the absence of more precise constraints.
 
 **Node 736:** Chelonioidea: 48.4–157.3Ma. Based on the oldest known chelonioid _Eosphargis breineri_, likely stem Dermochelyidae, from the Ypresian of the Eocene (48.07–56.0Ma).
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
