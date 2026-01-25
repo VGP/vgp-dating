@@ -82,7 +82,7 @@ ggplot() +
     xintercept = c(166, 215),
     linetype = "dashed",
     linewidth = 0.8,
-    color = "lightgray"
+    color = "darkgray"
   ) + 
   theme_minimal(base_size = 14) + 
   theme(
