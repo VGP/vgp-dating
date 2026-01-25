@@ -1,6 +1,6 @@
 # Turtle calibrations
 
-Turtles have a dense and detailed fossil record that has made them particularly amenable to time-scaled phylogenetic analysis using fossil calibrations, reviewed in detail by [Joyce et al. 2013](https://doi.org/10.1666/12-149) and references therein. That study provided 22 well-constrained node ages to date the turtle tree, which were corroborated and partially updated by [Selvatti et al. 2023](https://doi.org/10.1016/j.ympev.2023.107773), who also provided a summary of ages for Testudines suitable for use as likelihood checkpoints. Given our modest sampling of turtles, only 9 of the 22 constraints are applicable here, which we list below as Type III calibrations along with the assembled age-estimates for a likelihood checkpoint on Testudines.
+Turtles have a dense and detailed fossil record that has made them particularly amenable to time-scaled phylogenetic analysis using fossil calibrations, reviewed in detail by [Joyce et al. 2013](https://doi.org/10.1666/12-149) and references therein. That study provided 22 well-constrained node ages to date the turtle tree, which were corroborated and partially updated by [Selvatti et al. 2023](https://doi.org/10.1016/j.ympev.2023.107773), who also provided a summary of ages for Testudines suitable for use as likelihood checkpoints. Given our modest sampling of turtles, only 9 of the 22 constraints are applicable here, which we list below as our primary calibrations.
 
 ### Calibrations:
 **732:** Testudines: 157.3–252.0Ma. Based on the oldest crown testudine _Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma), with a maximum based on the maximum age of the Triassic. The minimum age of 157.3Ma is generally used as a maximum age for other calibrations in the absence of more precise constraints.
@@ -23,6 +23,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 
 ### Likelihood Checkpoints:
+
+In addition, we located **$XXX** age estimates from **$XXX** studies for a likelihood checkpoint on Testudines. They range from X–Y with a median of Z, excluding outliers.
 
 **732:** Testudines: **$XXX** studies for a median of **$XXX** and a range of **$XXX** **$UPDATE**
 
