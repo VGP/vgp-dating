@@ -40,36 +40,37 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
 **Discussion:** Previous phylogenetic analyses used chimaeric specimens ([Shaffer et al. 1997](https://academic.oup.com/sysbio/article-abstract/46/2/235/1712833)), but the referenced material was placed on the testudinoid stem ([Danilov and Parham 2005](https://www.tandfonline.com/doi/abs/10.1671/0272-4634(2005)025%5B0784%3AAROTRO%5D2.0.CO%3B2)). 
 
-**Node 744:** Testuguria: 50.3–157.3Ma. 
+**Node 744:** Testuguria | 50.3–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant species of Testudinidae and Geoemydidae.\
 **Fossil taxa:** _Hadrianus majusculus_ (YPM 2793)\
 **Minimum age:** 50.3Ma\
-**Minimum justification:** Based on the oldest crown testugurian, likely stem Testudinidae, from the Eocene Wasatchian badlands of New Mexico (50.3–55.4Ma), with synapomorphies, stratiggraphy, and phylogeny reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
+**Minimum justification:** Based on the oldest crown testugurian, likely stem Testudinidae, from the Eocene Wasatchian badlands of New Mexico (50.3–55.4Ma), with synapomorphies, stratigraphy, and phylogeny reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
 **Discussion:** Some uncertainty exists as to the precise geographic and stratigraphic localities of material associated with this taxon [(Joyce et al. 2013)](https://doi.org/10.1666/12-149).\
 
+**Node 746:** Emydidae | 32.0–157.3Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant species of _Emys_ and _Trachemys_.\
+**Fossil taxa:** _Chrysemys antiqua_ (SDSM 2754)\
+**Minimum age:** 32.0\
+**Minimum justification:** Based on the oldest crown emydid from SDSM locality V271 within the Orellan Protoceras channels of the Oligocene White River Group (32.0–33.7Ma) of South Dakota, with synapomorphies, stratigraphy, and phylogeny reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
+**Maximum age:** 157.3Ma\
+**Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
+**Discussion:** A range of material exists for this taxon ([Hutchison 1996](https://doi.org/10.1017/CBO9780511665431.017)).
+
+**Node 735:** Americhelydia | 70.0–157.3Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant species of Chelydroidea and Chelonioidea.\
+**Fossil taxa:** _Toxochelys latiremys_ (ROM 28563)\
+**Minimum age:** 70.0Ma\
+**Minimum justification:** Based on the oldest crown americhelyid, likely stem Chelonioidea, from the Niobrara Chalk Formations of the Campanian, upper Cretaceous (72.2–83.6Ma) of Kansas, with synapomorphies, stratigraphy, and phylogeny reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
+**Maximum age:** 157.3Ma\
+**Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
+**Discussion:** The stratigraphic placement of the referenced specimen is uncertain and may actually be older ([Joyce et al. (2013)](https://doi.org/10.1666/12-149)).
 
 
 
 
-**Node 746:** Emydidae: 32.0–157.3Ma. Based on the oldest crown emydid _Chrysemys antiqua_ from the Orellan of the Oligocene (32.0–33.7Ma).
-**Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
-**Fossil taxa:** _Notoemys oxfordiensis_ (MNHNCu P 3209)\
-**Minimum age:** 157.3Ma\
-**Minimum justification:** As per [Cadena and Joyce (2015)](https://doi.org/10.3374/014.056.0101), the oldest crown testudine from the Viñales locality, Pinar del Río Province, Cuba; Jagua Vieja Member, Jagua Formation, Oxfordian, Late Jurassic ([de la Fuente and Iturralde-Vinent 2001](https://www.cambridge.org/core/journals/journal-of-paleontology/article/new-pleurodiran-turtle-from-the-jagua-formation-oxfordian-of-western-cuba/33E57BAE07B114094E5C322E1D4F190F))\
-**Maximum age:** 252.0Ma\
-**Maximum justification:** Maximum age based on the lower boundary of the Triassic. \
-**Discussion:** The minimum age of 157.3Ma for crown Testudines is generally used as a maximum age for other calibrations in the absence of more precise constraints.
 
-**Node 735:** Americhelydia: 70.0–157.3Ma. Based on the oldest crown americhelyid _Toxochelys latiremys_, likely stem Chelonioidea, from the Campanian of the Cretaceous (72.2–83.6Ma).
-**Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
-**Fossil taxa:** _Notoemys oxfordiensis_ (MNHNCu P 3209)\
-**Minimum age:** 157.3Ma\
-**Minimum justification:** As per [Cadena and Joyce (2015)](https://doi.org/10.3374/014.056.0101), the oldest crown testudine from the Viñales locality, Pinar del Río Province, Cuba; Jagua Vieja Member, Jagua Formation, Oxfordian, Late Jurassic ([de la Fuente and Iturralde-Vinent 2001](https://www.cambridge.org/core/journals/journal-of-paleontology/article/new-pleurodiran-turtle-from-the-jagua-formation-oxfordian-of-western-cuba/33E57BAE07B114094E5C322E1D4F190F))\
-**Maximum age:** 252.0Ma\
-**Maximum justification:** Maximum age based on the lower boundary of the Triassic. \
-**Discussion:** The minimum age of 157.3Ma for crown Testudines is generally used as a maximum age for other calibrations in the absence of more precise constraints.
 
 **Node 742:** Chelydroidea: 70.0–157.3Ma. Based on the oldest crown chelydroid SEPCP 9/493, likely stem Chelydridae, from the Campanian of the Cretaceous (72.2–83.6Ma).
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
@@ -106,6 +107,8 @@ Danilov, I.G. and Parham, J.F., 2005. A reassessment of the referral of an isola
 Danilov, I.G., Parham, J.F., 2006. A redescription of ‘Plesiochelys’ tatsuensis from the Late Jurassic of China, with comments on the antiquity of the crown clade Cryptodira. J Vertebr Paleontol 26, 573–580.
 
 de la Fuente, M, & Iturralde-Vinent, M. 2001. A new pleurodiran turtle from the Jagua Formation (Oxfordian) of western Cuba. Journal of Paleontology, 75(4), 860-869.
+
+Hutchison JH. Testudines. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-Oligocene Transition in North America. Cambridge University Press; 1996:337-353.
 
 Joyce, W.G., Parham, J.F., Lyson, T.R., Warnock, R.C. and Donoghue, P.C., 2013. A divergence dating analysis of turtles using fossil calibrations: an example of best practices. Journal of Paleontology, 87(4), pp.612-634.
 
