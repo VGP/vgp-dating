@@ -48,7 +48,7 @@ ggplot() +
     aes(x = Time, y = after_stat(density)),
     fill = "lightblue", alpha = 0.5
   ) +
-  geom_vline(xintercept = 77.9, linetype = "dashed", color = "darkgrey") + 
+  geom_vline(xintercept = c(77.9,113.2), linetype = "dashed", color = "darkgrey") + 
   ## rug: non-outliers (black)
   geom_rug(
     data = filter(times, !is_outlier),
