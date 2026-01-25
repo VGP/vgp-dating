@@ -31,7 +31,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Maximum justification:** Maximum age based on the minimum age of the Triassic.\
 **Discussion:** Also serves as a minimum age for Testudines.
 
-**Node 734:** Durocryptodira | 88.6–157.3Ma\ 
+**Node 734:** Durocryptodira | 88.6–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
 **Fossil taxa:** _Lindholmemys elegans_ (CCMGE 34/12175)\
 **Minimum age:** 88.6\
