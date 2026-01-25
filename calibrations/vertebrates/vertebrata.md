@@ -44,15 +44,15 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 
 ## References
 
-Becker R.T., J.E.A. Marshall, A.-C. Da Silva, F.P. Agterberg, F.M. Gradstein, J.G. Ogg, 2020. Chapter 22 - The Devonian Period, in Editor(s): Felix M. Gradstein, James G. Ogg, Mark D. Schmitz, Gabi M. Ogg, Geologic Time Scale 2020, Elsevier, 2020, Pages 733-810, ISBN 9780128243602, https://doi.org/10.1016/B978-0-12-824360-2.00022-X.
+Becker R.T., J.E.A. Marshall, A.-C. Da Silva, F.P. Agterberg, F.M. Gradstein, J.G. Ogg, 2020. Chapter 22 - The Devonian Period, in Editor(s): Felix M. Gradstein, James G. Ogg, Mark D. Schmitz, Gabi M. Ogg, Geologic Time Scale 2020, Elsevier, 2020, Pages 733-810, ISBN 9780128243602.
 
 Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18.1.1FC; 1-106.
 
 Burrow, C.J. and Rudkin, D., 2014. Oldest near-complete acanthodian: the first vertebrate from the Silurian Bertie Formation Konservat-Lagerstätte, Ontario. PLoS One, 9(8), p.e104171.
 
-Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa. Sci. Adv. 10, eadp7161(2024). DOI:10.1126/sciadv.adp7161
+Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa. Sci. Adv. 10, eadp7161(2024).
 
-Dong X, Zhang H. Middle Cambrian through lowermost Ordovician conodonts from Hunan, South China. Journal of Paleontology. 2017;91(S73):1-89. doi:10.1017/jpa.2015.43
+Dong X, Zhang H. Middle Cambrian through lowermost Ordovician conodonts from Hunan, South China. Journal of Paleontology. 2017;91(S73):1-89.
 
 Donoghue, P.C. and Keating, J.N., 2014. Early vertebrate evolution. Palaeontology, 57(5), pp.879-893.
 
@@ -60,14 +60,14 @@ Gess, R.W., Coates, M.I. and Rubidge, B.S., 2006. A lamprey from the Devonian pe
 
 Huldtgren, T., Cunningham, J.A., Yin, C., Stampanoni, M., Marone, F., Donoghue, P.C. and Bengtson, S., 2011. Fossilized nuclei and germination structures identify Ediacaran “animal embryos” as encysting protists. Science, 334(6063), pp.1696-1699.
 
-Melchin, M. J., Sadler, P. M. and Cramer, B. D. (2020). The Silurian Period. In Gradstein, F.M., Ogg, J.G., Schmitz, M.D. & Ogg, G. M. (eds) Geologic Time Scale 2020, Elsevier, 695–732. https://doi.org/10.1016/B978-0-12-824360-2.00021-8
+Melchin, M. J., Sadler, P. M. and Cramer, B. D. (2020). The Silurian Period. In Gradstein, F.M., Ogg, J.G., Schmitz, M.D. & Ogg, G. M. (eds) Geologic Time Scale 2020, Elsevier, 695–732.
 
 Murdock, D.J., Dong, X.P., Repetski, J.E., Marone, F., Stampanoni, M. and Donoghue, P.C., 2013. The origin of conodonts and of vertebrate mineralized skeletons. Nature, 502(7472), pp.546-549.
 
-Yin Z, Weichen Sun, Pengju Liu, Junyuan Chen, David J. Bottjer, Jinhua Li, Maoyan Zhu. 2022. Diverse and complex developmental mechanisms of early Ediacaran embryo-like fossils from the Weng'an Biota, southwest China. Philos Trans R Soc Lond B Biol Sci 28 March 2022; 377 (1847): 20210032. https://doi.org/10.1098/rstb.2021.0032
+Yin Z, Weichen Sun, Pengju Liu, Junyuan Chen, David J. Bottjer, Jinhua Li, Maoyan Zhu. 2022. Diverse and complex developmental mechanisms of early Ediacaran embryo-like fossils from the Weng'an Biota, southwest China. Philos Trans R Soc Lond B Biol Sci 28 March 2022; 377 (1847): 20210032.
 
-Yang C. et al. 2021, The tempo of Ediacaran evolution. Sci. Adv. 7, eabi9643(2021). DOI:10.1126/sciadv.abi9643
+Yang C. et al. 2021, The tempo of Ediacaran evolution. Sci. Adv. 7, eabi9643(2021).
 
-Zhu, M., Zhao, W., Jia, L. et al. The oldest articulated osteichthyan reveals mosaic gnathostome characters. Nature 458, 469–474 (2009). https://doi.org/10.1038/nature07855
+Zhu, M., Zhao, W., Jia, L. et al. The oldest articulated osteichthyan reveals mosaic gnathostome characters. Nature 458, 469–474 (2009).
 
 Zhu, Y.A., Li, Q., Lu, J., Chen, Y., Wang, J., Gai, Z., Zhao, W., Wei, G., Yu, Y., Ahlberg, P.E. and Zhu, M., 2022. The oldest complete jawed vertebrates from the early Silurian of China. Nature, 609(7929), pp.954-958.
