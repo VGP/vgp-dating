@@ -21,13 +21,13 @@ We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](htt
 **Maximum age:** Visean, Middle Mississippian, Carboniferous, at 355Ma.\
 **Maximum justification:** The maximum age for crown amniotes (under a node-based definition: the split between synapsids and sauropsids) has been suggested to be ~332Ma, based on the age of the oldest known putative stem amniote fossils, _Westlothiana_ ([Benton et al. 2015](https://palaeo-electronica.org/content/fc-1), [van Tuinen and Hadly 2004](https://link.springer.com/article/10.1007/s00239-004-2624-9)). Tip dating studies based on different data sets also find median ages between 320-330Ma for crown amniotes ([Ford and Benson 2020](https://www.nature.com/articles/s41559-019-1047-3), [Simões et al. 2022](https://www.science.org/doi/abs/10.1126/sciadv.abq1898)), and 335Ma for Total Group Amniota ([Simões et al. 2022](https://www.science.org/doi/abs/10.1126/sciadv.abq1898)).
 
-**592:** Sauria. Based on the stem archosauromorph _Protorosaurus speneri_ from the Lopingian of the Permian, 255.9-295.9Ma.
-**Node calibrated:** Last common ancestor of the clade encompassing \
-**Fossil taxon:** \
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** 
+**592:** Sauria | 255.9-295.9Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant lizards (Squamata) and crocodiles (Crocodylia).\
+**Fossil taxon:** _Protorosaurus speneri_ (NMK S 180)\
+**Minimum age:** 255.9Ma\
+**Minimum justification:** Based on the oldest stem archosauromorph from the Lopingian (251.9–259.5Ma) of the Permian of Germany and England ([Ezcurra et al. 2014](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089165)).\
+**Maximum age:** 295.9Ma\
+**Maximum justification:** The maximum age calibration is based on a proposed hard upper for the crocodile-lizard split constrained by _Apsisaurus_ from the Archer City Formation of Texas ([Benton and Donoghue 2007](https://doi.org/10.1093/molbev/msl150)), dated as Asselian (298.9–295.5Ma) of the early Permian.
 
 **594:** Archosauria. Based on the stem pseudosuchian _Xilousuchus sapingensis_ from the Olenekian of the Triassic, 247.2-256.0Ma.
 **Node calibrated:** Last common ancestor of the clade encompassing \
@@ -44,6 +44,8 @@ TBD
 
 ## References
 
+Benton MJ, Donoghue PCJ (2007) Paleontological evidence to date the tree of life. Mol Biol Evol 24: 26–53.
+
 Benton, M. J., P. C. Donoghue, R. J. Asher, M. Friedman, T. J. Near, and J. Vinther. 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18(1):1-106.
 
 Calder, J. H. 1998. The Carboniferous evolution of Nova Scotia. Geological Society, London, Special Publications 143(1):261-302.
@@ -51,6 +53,8 @@ Calder, J. H. 1998. The Carboniferous evolution of Nova Scotia. Geological Socie
 Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa. Sci. Adv. 10, eadp7161(2024). DOI:10.1126/sciadv.adp7161
 
 Carroll, R. L., and D. Baird. 1972. Carboniferous stem-reptiles of the family Romeriidae. Bulletin of the Museum of Comparative Zoology 143(5):321-363.
+
+Ezcurra, M.D., Scheyer, T.M. and Butler, R.J., 2014. The origin and early evolution of Sauria: reassessing the Permian saurian fossil record and the timing of the crocodile-lizard divergence. PloS one, 9(2), p.e89165.
 
 Ford, D. P., and R. B. Benson. 2020. The phylogeny of early amniotes and the affinities of Parareptilia and Varanopidae. Nature Ecology & Evolution 4(1):57-65.
 
