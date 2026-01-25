@@ -36,7 +36,6 @@ This is the final set of **$XXX** calibrations.
 
 ## [Tetrapods](./tetrapods/tetrapoda.md):
 
-### Type III Calibrations:
 **591:** Amniota: 314-340Ma\
 -Based on the stem amniote _Hylonomus lyelli_ from the Bashkirian of the Carboniferous.
 
@@ -49,11 +48,9 @@ This is the final set of **$XXX** calibrations.
 
 ## [Amphibians](./amphibia/amphibia.md):
 
-### Type IV Calibrations:
 **950:** Anura: 121.4-252.0Ma\
 -Based on _Eodiscoglossus santonjae_ (Cretaceous: Barremian, 121.4-125.8Ma), supported by 2 total-evidence analyses. **This is younger than some internal calibrations, and not particularly close to estimated ages.**
 
-### Type III Calibrations:
 **970:** Dorsipares: 150.8-252.0Ma\
 -Based on _Rhadinosteus parvus_ (Jurassic: Kimmeridgian, 150.8-155.7Ma), supported by 2 parsimony and supertree analyses. **This could potentially be placed one node up on the stem – Geobatrachia.**
 
@@ -71,7 +68,6 @@ This is the final set of **$XXX** calibrations.
 
 ## [Squamates](./squamata/squamata.md):
 
-### Type IV Calibrations:
 **748:** Squamata: 167.2–252.0Ma\
 -based on the earliest stem Gekkota taxon _Bellairsia gracilis_ (Paramacellodidae), from the Bathonian of the late Jurassic (165.3–168.2Ma). **This taxon is not confidently placed, but this is a very safe minimum age for the crown group.**
 
@@ -112,7 +108,6 @@ This is the final set of **$XXX** calibrations.
 
 ## [Turtles](./turtles/testudines.md):
 
-### Type III Calibrations:
 **732:** Testudines: 157.3–252.0Ma\
 -based on the oldest crown testudine _Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).
 
@@ -143,9 +138,8 @@ This is the final set of **$XXX** calibrations.
 
 ## [Crocodilians:](./crocodylia/crocodylia.md) 
 
-### Type IV Calibration:
 **731:** Crocodylia: 77.9-113.2Ma\
--Based on _Leidyosuchus canadensis_ (Cretaceous: Campanian, 77.9–72.1Ma), supported by all 8 total-evidence analyses.
+-Based on _Leidyosuchus canadensis_ (Cretaceous: Campanian, 77.9–72.1Ma), supported by 8 total-evidence analyses.
 
 **Likelihood checkpoints:**\
 Molecular estimates from 23 studies between 2004 and 2021 yield a median of 87.4Ma with a range from 70.9–110.2Ma.\
