@@ -76,7 +76,7 @@ ggplot() +
     size = 2.4
   ) +
   scale_shape_manual(values = c(`FALSE` = 16, `TRUE` = 17)) +
-  coord_cartesian(xlim = c(0, 225)) +
+  coord_cartesian(xlim = c(0, 201.4)) +
   labs(
     title = "Empirical Density of Times and Ages for Crocodylia",
     x = "Millions of Years",
