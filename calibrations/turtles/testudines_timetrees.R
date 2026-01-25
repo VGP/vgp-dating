@@ -1,0 +1,165 @@
+# Turtle likelihood checkpoints
+library(rphylopic)
+library(ggplot2)
+library(dplyr)
+
+# Read in ages
+testudines <- read.csv("testudines_timetrees.csv", header = TRUE)
+head(testudines)
+
+# ----------------------------
+# IQR-based outlier detection
+# ----------------------------
+q <- quantile(testudines$Time, probs = c(0.25, 0.75), na.rm = TRUE)
+iqr <- q[2] - q[1]
+
+lower <- q[1] - 1.5 * iqr
+upper <- q[2] + 1.5 * iqr
+
+testudines <- testudines %>%
+  mutate(outlier = Time < lower | Time > upper)
+
+# Oxfordian-filtered data (>= 157.3 Ma)
+testudines_ox <- testudines %>%
+  filter(!outlier, Time >= 157.3)
+
+# ----------------------------
+# IQR-based outlier detection (Oxfordian only)
+# ----------------------------
+qO <- quantile(testudines_ox$Time, probs = c(0.25, 0.75), na.rm = TRUE)
+iqrO <- qO[2] - qO[1]
+
+lowerO <- qO[1] - 1.5 * iqrO
+upperO <- qO[2] + 1.5 * iqrO
+
+testudines_ox <- testudines_ox %>%
+  mutate(outlier_O = Time < lowerO | Time > upperO)
+
+# ----------------------------
+# Median & density mode
+# (NON-outliers only)
+# ----------------------------
+ages_clean  <- testudines$Time[!testudines$outlier]
+ages_cleanO <- testudines_ox$Time[!testudines_ox$outlier_O]
+
+d  <- density(ages_clean,  from = 0, to = 300)
+dO <- density(ages_cleanO, from = 0, to = 300)
+
+# >>> ADDITIONS <<<
+mode_time_all   <- d$x[which.max(d$y)]
+median_time_all <- median(ages_clean)
+
+mode_time_ox   <- dO$x[which.max(dO$y)]
+median_time_ox <- median(ages_cleanO)
+
+# ----------------------------
+# Plot (outliers highlighted)
+# ----------------------------
+ggplot() +
+  
+  # Vertical dashed constraint lines
+  geom_vline(
+    xintercept = c(157.3, 252.0),
+    linetype = "dashed",
+    linewidth = 0.9,
+    color = "darkgray"
+  ) +
+  
+  # Density: ALL non-outliers (blue)
+  geom_density(
+    data = filter(testudines, !outlier),
+    aes(x = Time, fill = "All"),
+    alpha = 0.4,
+    linewidth = 1,
+    trim = FALSE
+  ) +
+  
+  # Density: Oxfordian+ only (red)
+  geom_density(
+    data = filter(testudines_ox, !outlier_O),
+    aes(x = Time, fill = "Oxfordian Only"),
+    alpha = 0.4,
+    linewidth = 1,
+    trim = FALSE
+  ) +
+  
+  # Rug: non-outliers
+  geom_rug(
+    data = filter(testudines, !outlier, Time > 157.3),
+    aes(x = Time),
+    sides = "b",
+    alpha = 0.6,
+    linewidth = 0.8
+  ) +
+  
+  # Rug: outliers (highlighted)
+  geom_rug(
+    data = filter(testudines, outlier),
+    aes(x = Time),
+    sides = "b",
+    color = "red",
+    alpha = 0.6,
+    linewidth = 0.8
+  ) +
+
+  # Rug: post-Oxfordian (<157.3 Ma) — BRIGHT RED
+  geom_rug(
+    data = filter(testudines, !outlier, Time < 157.3),
+    aes(x = Time),
+    sides = "b",
+    color = "red",
+    alpha = 0.6,
+    linewidth = 0.8
+  ) +
+  
+  scale_fill_manual(
+    name   = NULL,
+    values = c(
+      "All"            = "#4C72B0",
+      "Oxfordian Only" = "#DD8452"
+    )
+  ) +
+  
+  scale_x_continuous(
+    limits = c(0, 300),
+    breaks = seq(0, 300, by = 25)
+  ) +
+  
+  labs(
+    title = "Published Timetree Estimates for Testudines",
+    x = "Age (Ma)",
+    y = "Density"
+  ) +
+  
+  theme_minimal(base_size = 14) +
+  theme(
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(color = "black", linewidth = 0.8),
+    axis.ticks = element_line(color = "black", linewidth = 0.8),
+    axis.ticks.length = unit(6, "pt"),
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    legend.position = c(0.25, 0.75)
+  )
+
+# ----------------------------
+# Print results
+# ----------------------------
+cat("Testudines timetree age summary\n")
+cat("--------------------------------\n")
+
+cat("ALL AGES (IQR-based)\n")
+cat("Total estimates:     ", nrow(testudines), "\n")
+cat("Non-outliers:        ", sum(!testudines$outlier), "\n")
+cat("Outliers:            ", sum(testudines$outlier), "\n")
+cat(sprintf("IQR bounds:          %.1f – %.1f Ma\n", lower, upper))
+cat(sprintf("Median age:          %.1f Ma\n", median_time_all))
+cat(sprintf("Density mode:        %.1f Ma\n\n", mode_time_all))
+
+cat("OXFORDIAN ONLY (≥157.3 Ma; IQR-based)\n")
+cat("Total estimates:     ", nrow(testudines_ox), "\n")
+cat("Non-outliers:        ", sum(!testudines_ox$outlier_O), "\n")
+cat("Outliers:            ", sum(testudines_ox$outlier_O), "\n")
+cat(sprintf("IQR bounds:          %.1f – %.1f Ma\n", lowerO, upperO))
+cat(sprintf("Median age:          %.1f Ma\n", median_time_ox))
+cat(sprintf("Density mode:        %.1f Ma\n", mode_time_ox))
