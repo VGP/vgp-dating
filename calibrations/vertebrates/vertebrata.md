@@ -1,8 +1,10 @@
 # Early vertebrate calibrations
 
+We primarily focus here on the well-constrained ages discussed by [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1) and [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161).
+
 ### Calibrations:
 
-**Node 585:** Crown Vertebrata | 590.8 - 497 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161)\
+**Node 585:** Crown Vertebrata | 590.8-497 Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Cyclostomata and Gnathostomata.\
 **Fossil taxon:** _Furnishina begminata_ (GMPKU2589; Geological Museum, Peking University, Beijing, China).\
 **Minimum age:** _Furnishina_ is found in the middle Cambrian Huaqiao Formation at Wangcun Section, northern Hunan Province, China, dated to 497 Ma ([Dong and Zhang 2017](https://www.cambridge.org/core/journals/journal-of-paleontology/article/middle-cambrian-through-lowermost-ordovician-conodonts-from-hunan-south-china/3DEF85E92A72769822D58F28473FDB5F)).\
@@ -11,7 +13,7 @@
 **Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
 **Discussion:** _Arandaspis priontolepis_ is a total-group gnathostome, making it crown-group Vertebrata, however it is dated to 457.5 Ma and is therefore younger than Furnishina ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)). The Lantian Biota also has extensive macrofossils without any definitive metazoans, but it is older than the Weng’an Biota ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)), making the Weng’an a more reasonable choice.
 
-**Node 1150:** Crown Cyclostomata | 590.8 - 358.5 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161), with our minimum constraint following [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1).\
+**Node 1150:** Crown Cyclostomata | 590.8-358.5Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing hagfishes and lampreys\
 **Fossil taxon:** _Priscomyzon riniensis_ (AM5750, Albany Museum, Grahamstown, Eastern Cape, South Africa).\
 **Minimum age:** The Witpoort Formation (Witteberg Group) at Waterloo Farm, Grahamstown, South Africa has been dated to the Famennian, and so we can use the Devonian-Carboniferous boundary of 358.9 Ma ± 0.4 Myr, or 385.5 Ma ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1); [Becker et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00022-X)).\
@@ -20,7 +22,7 @@
 **Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
 **Discussion:** The Lantian Biota also has extensive macrofossils without any definitive metazoans, but it is older than the Weng’an Biota ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)), making the Weng’an a more reasonable choice.
 
-**Node 586:** Crown Gnathostomata | 468.4 - 431.7 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161)\
+**Node 586:** Crown Gnathostomata | 468.4-431.7Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Osteichthyes and Chondrichthyes.\
 **Fossil taxon:** _Shenacanthus vermiformis_ (V300000; Institute of Vertebrate Palaeontology and Palaeoanthropology; [Zhu et al. 2022](https://www.nature.com/articles/s41586-022-05136-8)).\
 **Minimum age:** _Shenacanthus_ is found in the early Silurian (Telychian) Huixingshao Formation of Chongqing, South China ([Zhu et al. 2022](https://www.nature.com/articles/s41586-022-05136-8)). This has been established as Llandovery in age, and so a minimum age constraint can be established based on the Llandovery-Wenlock boundary. This has been dated to 432.9 Ma ± 1.2 Myr ([Melchin et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00021-8)), yielding a minimum age of 431.7 Ma.\
@@ -29,7 +31,7 @@
 **Maximum justification:** Ostracoderms are stem group gnathostomes, and their presence in the Ordovician demonstrates the potential for preservation of gnathostomes. However, no crown representatives have been found.\
 **Discussion:** _Guiyu oneiros_ has lobe-finned fish synapmorphies which identify it as a stem-sarcopterygian and therefore crown Osteichthyes and crown Gnathostomata, however, it is dated younger than Shenacanthus at 420.7 Ma ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)). Scales from possible chondrichthyans have also been found from the Stairway Sandstone, but dated slightly older than _Shenacanthus_ at 457.7 Ma. However, these are difficult to place phylogenetically and this uncertainty makes them unsuitable for use as calibrations ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)). _Nerepisacanthus_ is an acanthodian, making it crown gnathostome and possibly stem chondrichthyan ([Burrow and Rudkin 2014](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0104171)). However, it is found in the Bertie Formation which is dated to 423 Ma ± 2.3 Myr to 4.19.2 Ma ± 3.2 Myr, making it either the same age or younger than Guiyu, and much younger than _Shenacanthus_.
 
-**Node 587:** Crown Osteichthyes | 444.9 - 420.7 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161), with our minimum constraint following [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1).\
+**Node 587:** Crown Osteichthyes | 444.9-420.7Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Actinopterygii and Sarcopterygii.\
 **Fossil taxon:** _Guiyu oneiros_ (IVPP V15541, Institute of Vertebrate Paleontology and Paleoanthropology, Beijing)\
 **Minimum age:** _Guiyu_ is found in the Kuanti Formation, Xiaoxiang Reservoir, Quijing, Yunnan, China. Based on conodont index fossils, the formation has been correlated with the Ludlow-Pridoli boundary, which has been dated to 423 Ma ± 2.3 Myr, yielding a minimum age of 420.7 Ma ([Melchin et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00021-8)).\
