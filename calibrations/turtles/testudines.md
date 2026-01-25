@@ -88,9 +88,9 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ### Likelihood Checkpoints:
 
-In addition, we located 46 age estimates from 28 studies for a likelihood checkpoint on Testudines. They exhibit a very broad range from 77.8-249.8 with a median of Z, excluding outliers (1.5 * IQR).
+In addition, we located 46 age estimates from 28 studies for a likelihood checkpoint on Testudines. They exhibit a very broad range from 77.8-249.8 with a median of 207.0Ma and a kernel-density mode of 215.5Ma, excluding outliers (1.5 * IQR). The bulk of published estimates are within our calibration range of 157.3–252.0Ma, and none predate the lower boundary of the Triassic. Most of the post-Oxfordian estimates had highly incomplete taxon sampling, or used inaccurate fossil calibrations prior to the reviews of [Joyce et al. (2013)](https://doi.org/10.1666/12-149) and [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), which we highlight for exclusion. The median and mode for the pre-Oxfordian estimates are both 213.7Ma.
 
-**732:** Testudines: **$XXX** studies for a median of **$XXX** and a range of **$XXX** **$UPDATE**
+<img width="2197" height="1434" alt="image" src="https://github.com/user-attachments/assets/dba5b3f9-a2ff-45cd-8dcd-a50cb38454cb" />
 
 
 ## References
