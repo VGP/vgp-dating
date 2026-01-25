@@ -80,7 +80,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
 **Fossil taxa:** _Eosphargis breineri_ (FM uncat.)\
 **Minimum age:** 48.4Ma\
-**Minimum justification:** Based on the oldest known chelonioid, likely stem Dermochelyidae, from the Ypresian Fur Formation of the Eocene (48.07–56.0Ma) of Denmark.\
+**Minimum justification:** Based on the oldest known chelonioid, likely stem Dermochelyidae ([Hirayama 1994](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1440-1738.1994.tb00116.x), [Wood et al. 1996](https://chelonian.org/wp-content/uploads/file/CCB%20Vol%202%20No%202%20(1996)/Wood_etal_1996.pdf)), from the Ypresian Fur Formation of the Eocene (48.07–56.0Ma) of Denmark.\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
 **Discussion:** A range of material likely assignable to the stem of Dermochelyidae exists from the Paleocene and Eocene along with a number of other _Eosphargis_ specimens (summarized by [Joyce et al. 2013](https://doi.org/10.1666/12-149)), but they remain to be properly characterized phylogenetically and stratigraphically.
@@ -105,6 +105,8 @@ Danilov, I.G., Parham, J.F., 2006. A redescription of ‘Plesiochelys’ tatsuen
 
 de la Fuente, M, & Iturralde-Vinent, M. 2001. A new pleurodiran turtle from the Jagua Formation (Oxfordian) of western Cuba. Journal of Paleontology, 75(4), 860-869.
 
+Hirayama, R., 1994. Phylogenetic systematics of chelonioid sea turtles. Island Arc, 3(4), pp.270-284.
+
 Hutchison JH. Testudines. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-Oligocene Transition in North America. Cambridge University Press; 1996:337-353.
 
 Joyce, W.G., Parham, J.F., Lyson, T.R., Warnock, R.C. and Donoghue, P.C., 2013. A divergence dating analysis of turtles using fossil calibrations: an example of best practices. Journal of Paleontology, 87(4), pp.612-634.
@@ -120,3 +122,5 @@ Selvatti, A.P., Moreira, F.R.R., Carvalho, D.C., Prosdocimi, F., de Moraes Russo
 Shaffer, H.B., Meylan, P. and McKnight, M.L., 1997. Tests of turtle phylogeny: molecular, morphological, and paleontological approaches. Systematic Biology, 46(2), pp.235-268.
 
 Tong, H., Li, L. and Ouyang, H., 2014. A revision of Sinaspideretes wimani Young & Chow, 1953 (Testudines: Cryptodira: Trionychoidae) from the Jurassic of the Sichuan Basin, China. Geological Magazine, 151(4), pp.600-610.
+
+Wood, R.C., Johnson-Gove, J., Gaffney, E.S. and Maley, K.F., 1996. Evolution and phylogeny of the leatherback turtles (Dermochelyidae), with descriptions of new fossil taxa. Chelonian Conservation and Biology, 2, pp.266-286.
