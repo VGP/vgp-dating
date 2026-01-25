@@ -1,6 +1,6 @@
 # Outgroup & root calibrations
 
-### Type III Calibrations:
+### Calibrations:
 
 **Node 582:** Crown Deuterostomia | 590.8 - 517.32 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161)\
 **Node calibrated:** Last common ancestor of the clade encompassing chordates, echinoderms and hemichordates (when monophyletic)\
@@ -37,9 +37,8 @@
 **Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
 **Discussion:** The Lantian Biota also has extensive macrofossils without any definitive metazoans, but it is older than the Weng’an Biota ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)), making the Weng’an a more reasonable choice.
 
-### Type IV Calibrations:
+### Likelihood checkpoints
 
-**$XXX some of the above Type III may actually be Type IV**
 
 ## References
 
