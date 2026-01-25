@@ -35,7 +35,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
 **Fossil taxa:** _Lindholmemys elegans_ (CCMGE 34/12175)\
 **Minimum age:** 88.6\
-**Minimum justification:** Based on the oldest crown durocryptodiran, likely stem Testudinoidea, from the Turonian Bissekty Formation of Uzbekistan of the Cretaceous (89.8–93.9Ma).\
+**Minimum justification:** Based on the oldest crown durocryptodiran, likely stem Testudinoidea ([Danilov and Parham 2005](https://www.tandfonline.com/doi/abs/10.1671/0272-4634(2005)025%5B0784%3AAROTRO%5D2.0.CO%3B2)), from the Turonian Bissekty Formation of Uzbekistan of the Cretaceous (89.8–93.9Ma).\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
 **Discussion:** Previous phylogenetic analyses used chimaeric specimens ([Shaffer et al. 1997](https://academic.oup.com/sysbio/article-abstract/46/2/235/1712833)), but the referenced material was placed on the testudinoid stem ([Danilov and Parham 2005](https://www.tandfonline.com/doi/abs/10.1671/0272-4634(2005)025%5B0784%3AAROTRO%5D2.0.CO%3B2)). 
@@ -44,7 +44,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Node calibrated:** Last common ancestor of the clade encompassing all extant species of Testudinidae and Geoemydidae.\
 **Fossil taxa:** _Hadrianus majusculus_ (YPM 2793)\
 **Minimum age:** 50.3Ma\
-**Minimum justification:** Based on the oldest crown testugurian, likely stem Testudinidae, from the Eocene Wasatchian badlands of New Mexico (50.3–55.4Ma).\
+**Minimum justification:** Based on the oldest crown testugurian, likely stem Testudinidae ([Lichtig et al. 2021](https://books.google.com/books?hl=en&lr=&id=DLoxEAAAQBAJ&oi=fnd&pg=PA161&dq=hadrianus+majusculus&ots=a0qnHakZEK&sig=0ee2WuL1HwUwKPRxiE6z7lKv8ns)), from the Eocene Wasatchian badlands of New Mexico (50.3–55.4Ma).\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
 **Discussion:** Some uncertainty exists as to the precise geographic and stratigraphic localities of material associated with this taxon [(Joyce et al. 2013)](https://doi.org/10.1666/12-149).
@@ -53,7 +53,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Node calibrated:** Last common ancestor of the clade encompassing all extant species of _Emys_ and _Trachemys_.\
 **Fossil taxa:** _Chrysemys antiqua_ (SDSM 2754)\
 **Minimum age:** 32.0\
-**Minimum justification:** Based on the oldest crown emydid from SDSM locality V271 within the Orellan Protoceras channels of the Oligocene White River Group (32.0–33.7Ma) of South Dakota.\
+**Minimum justification:** Based on the oldest crown emydid [(Joyce et al. 2013)](https://doi.org/10.1666/12-149) from SDSM locality V271 within the Orellan Protoceras channels of the Oligocene White River Group (32.0–33.7Ma) of South Dakota.\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
 **Discussion:** A range of material exists for this taxon ([Hutchison 1996](https://doi.org/10.1017/CBO9780511665431.017)).
@@ -62,7 +62,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Node calibrated:** Last common ancestor of the clade encompassing all extant species of Chelydroidea and Chelonioidea.\
 **Fossil taxa:** _Toxochelys latiremys_ (ROM 28563)\
 **Minimum age:** 70.0Ma\
-**Minimum justification:** Based on the oldest crown americhelyid, likely stem Chelonioidea, from the Niobrara Chalk Formation of the Campanian, upper Cretaceous (72.2–83.6Ma) of Kansas.\
+**Minimum justification:** Based on the oldest crown americhelyid, likely stem Chelonioidea ([Nicholls 1988](https://www.tandfonline.com/doi/abs/10.1080/02724634.1988.10011696)), from the Niobrara Chalk Formation of the Campanian, upper Cretaceous (72.2–83.6Ma) of Kansas.\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
 **Discussion:** The stratigraphic placement of the referenced specimen is uncertain and may actually be slightly older ([Joyce et al. 2013](https://doi.org/10.1666/12-149)).
@@ -106,6 +106,10 @@ de la Fuente, M, & Iturralde-Vinent, M. 2001. A new pleurodiran turtle from the 
 Hutchison JH. Testudines. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-Oligocene Transition in North America. Cambridge University Press; 1996:337-353.
 
 Joyce, W.G., Parham, J.F., Lyson, T.R., Warnock, R.C. and Donoghue, P.C., 2013. A divergence dating analysis of turtles using fossil calibrations: an example of best practices. Journal of Paleontology, 87(4), pp.612-634.
+
+Lichtig, A.J., Lucas, S.G. and Jasinski, S.E., 2021. Complete specimens of the Eocene testudinoid turtles Echmatemys and Hadrianus and the North American origin of tortoises. New Mexico Museum of Natural History and Science Bulletin, 82, pp.161-176.
+
+Nicholls, E.L., 1988. New material of Toxochelys latiremis Cope, and a revision of the genus Toxochelys (Testvoines, Chelonioidea). Journal of Vertebrate Paleontology, 8(2), pp.181-187.
 
 Romano, P.S., Gallo, V., Ramos, R.R. and Antonioli, L., 2014. Atolchelys lepida, a new side-necked turtle from the Early Cretaceous of Brazil and the age of crown Pleurodira. Biology Letters, 10(7), p.20140290.
 
