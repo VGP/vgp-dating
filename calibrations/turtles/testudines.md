@@ -71,7 +71,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Node calibrated:** Last common ancestor of the clade encompassing all extant species of _Chelydra_ and _Macrochelys_.\
 **Fossil taxa:** Chelydridae indet. (SEPCP 9/493)\
 **Minimum age:** 70.0Ma\
-**Minimum justification:** Based on the oldest crown chelydroid material, likely stem Chelydridae, from the Cerro del Pueblo Formation of the Campanian (72.2–83.6Ma), upper Cretaceous of Mexico.\
+**Minimum justification:** Based on the oldest crown chelydroid material, likely stem Chelydridae ([Brinkman and de la Rosa 2006](https://www.researchgate.net/publication/237805222_Nonmarine_turtles_from_the_Cerro_del_Pueblo_Formation_Campanian_Coahuila_State_Mexico)), from the Cerro del Pueblo Formation of the Campanian (72.2–83.6Ma), upper Cretaceous of Mexico.\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
 **Discussion:** A range of apparent chelydrid material exists from the Mesozoic of North America (summarized by [Joyce et al. 2013](https://doi.org/10.1666/12-149)), but only the referenced specimen shows clear synapomorphies.
@@ -94,6 +94,8 @@ In addition, we located 46 age estimates from 28 studies for a likelihood checkp
 
 
 ## References
+
+Brinkman, D. and de la Rosa, R.R., 2006. Nonmarine turtles from the Cerro del Pueblo Formation (Campanian), Coahuila State, Mexico. New Mexico Museum of Natural History and Science Bulletin, 35, pp.229-233.
 
 Cadena, E., Joyce, W.G., 2015. A review of the fossil record of turtles of the clades Platychelyidae and Dortokidae. Bulletin of the Peabody Museum of Natural History 56, 3–20.
 
