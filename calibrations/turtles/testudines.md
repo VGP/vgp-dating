@@ -8,7 +8,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
 **Fossil taxa:** _Notoemys oxfordiensis_ (MNHNCu P 3209)\
 **Minimum age:** 157.3Ma\
-**Minimum justification:** As per [Cadena and Joyce (2015)](https://doi.org/10.3374/014.056.0101), the oldest crown testudine from the Viñales locality, Pinar del Río Province, Cuba; Jagua Vieja Member, Jagua Formation, Oxfordian, Late Jurassic ([de la Fuente and Iturralde-Vinent 2001](https://www.cambridge.org/core/journals/journal-of-paleontology/article/new-pleurodiran-turtle-from-the-jagua-formation-oxfordian-of-western-cuba/33E57BAE07B114094E5C322E1D4F190F)). List of synapomorphies given by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773).\
+**Minimum justification:** As per [Cadena and Joyce (2015)](https://doi.org/10.3374/014.056.0101), the oldest crown testudine from the Viñales locality, Pinar del Río Province, Cuba; Jagua Vieja Member, Jagua Formation, Oxfordian (154.8–161.5Ma), Late Jurassic ([de la Fuente and Iturralde-Vinent 2001](https://www.cambridge.org/core/journals/journal-of-paleontology/article/new-pleurodiran-turtle-from-the-jagua-formation-oxfordian-of-western-cuba/33E57BAE07B114094E5C322E1D4F190F)). List of synapomorphies given by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773).\
 **Maximum age:** 252.0Ma\
 **Maximum justification:** Maximum age based on the lower boundary of the Triassic.\
 **Discussion:** The minimum age of 157.3Ma for crown Testudines is generally used as a maximum age for other calibrations in the absence of more precise constraints. As noted by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773): "_Yehguia tatsuensis_ stems from the same age (Oxfordian) and also serves as a prior for this node."
@@ -35,29 +35,23 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
 **Fossil taxa:** _Lindholmemys elegans_ (CCMGE 34/12175)\
 **Minimum age:** 88.6\
-**Minimum justification:** Based on the oldest crown durocryptodiran, likely stem Testudinoidea, from the Turonian Bissekty Formation of Uzbekistan of the Cretaceous (89.8–93.9Ma), with characters and placement reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
+**Minimum justification:** Based on the oldest crown durocryptodiran, likely stem Testudinoidea, from the Turonian Bissekty Formation of Uzbekistan of the Cretaceous (89.8–93.9Ma), with synapomorphies and phylogeny reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
 **Discussion:** Previous phylogenetic analyses used chimaeric specimens ([Shaffer et al. 1997](https://academic.oup.com/sysbio/article-abstract/46/2/235/1712833)), but the referenced material was placed on the testudinoid stem ([Danilov and Parham 2005](https://www.tandfonline.com/doi/abs/10.1671/0272-4634(2005)025%5B0784%3AAROTRO%5D2.0.CO%3B2)). 
 
+**Node 744:** Testuguria: 50.3–157.3Ma. 
+**Node calibrated:** Last common ancestor of the clade encompassing all extant species of Testudinidae and Geoemydidae.\
+**Fossil taxa:** _Hadrianus majusculus_\
+**Minimum age:** \
+**Minimum justification:** Based on the oldest crown testgurian, likely stem Testudinidae, from the Wasatchian of the Eocene (50.3–55.4Ma).\
+**Maximum age:** 157.3Ma\
+**Maximum justification:** \
+**Discussion:**
 
 
 
 
-
-
-
-
-
-
-**Node 744:** Testuguria: 50.3–157.3Ma. Based on the oldest crown testgurian _Hadrianus majusculus_, likely stem Testudinidae, from the Wasatchian of the Eocene (50.3–55.4Ma).
-**Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
-**Fossil taxa:** _Notoemys oxfordiensis_ (MNHNCu P 3209)\
-**Minimum age:** 157.3Ma\
-**Minimum justification:** As per [Cadena and Joyce (2015)](https://doi.org/10.3374/014.056.0101), the oldest crown testudine from the Viñales locality, Pinar del Río Province, Cuba; Jagua Vieja Member, Jagua Formation, Oxfordian, Late Jurassic ([de la Fuente and Iturralde-Vinent 2001](https://www.cambridge.org/core/journals/journal-of-paleontology/article/new-pleurodiran-turtle-from-the-jagua-formation-oxfordian-of-western-cuba/33E57BAE07B114094E5C322E1D4F190F))\
-**Maximum age:** 252.0Ma\
-**Maximum justification:** Maximum age based on the lower boundary of the Triassic. \
-**Discussion:** The minimum age of 157.3Ma for crown Testudines is generally used as a maximum age for other calibrations in the absence of more precise constraints.
 
 **Node 746:** Emydidae: 32.0–157.3Ma. Based on the oldest crown emydid _Chrysemys antiqua_ from the Orellan of the Oligocene (32.0–33.7Ma).
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
