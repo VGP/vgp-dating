@@ -46,10 +46,9 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 
 Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18.1.1FC; 1-106.
 
-Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa.Sci. Adv.10,eadp7161(2024).DOI:10.1126/sciadv.adp7161
+Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa.Sci. Adv. 10, eadp7161(2024).
 
 Clausen, S. and Smith, A.B., 2008. Stem structure and evolution in the earliest pelmatozoan echinoderms. Journal of Paleontology, 82(4), pp.737-748.
-
 
 Gabbott, S.E., Donoghue, P.C., Sansom, R.S., Vinther, J., Dolocan, A. and Purnell, M.A., 2016. Pigmented anatomy in Carboniferous cyclostomes and the evolution of the vertebrate eye. Proceedings of the Royal Society B: Biological Sciences, 283(1836), p.20161151.
 
@@ -59,8 +58,8 @@ Shu, D.G., Conway Morris, S., Zhang, Z.F. and Han, J., 2010. The earliest histor
 
 Swalla, B.J. and Smith, A.B., 2008. Deciphering deuterostome phylogeny: molecular, morphological and palaeontological perspectives. Philosophical Transactions of the Royal Society B: Biological Sciences, 363(1496), pp.1557-1568.
 
-Yin Z, Weichen Sun, Pengju Liu, Junyuan Chen, David J. Bottjer, Jinhua Li, Maoyan Zhu. 2022. Diverse and complex developmental mechanisms of early Ediacaran embryo-like fossils from the Weng'an Biota, southwest China. Philos Trans R Soc Lond B Biol Sci 28 March 2022; 377 (1847): 20210032. https://doi.org/10.1098/rstb.2021.0032
+Yin Z, Weichen Sun, Pengju Liu, Junyuan Chen, David J. Bottjer, Jinhua Li, Maoyan Zhu. 2022. Diverse and complex developmental mechanisms of early Ediacaran embryo-like fossils from the Weng'an Biota, southwest China. Philos Trans R Soc Lond B Biol Sci 28 March 2022; 377 (1847): 20210032.
 
 Yang, C., Li, X.H., Zhu, M., Condon, D.J. and Chen, J., 2018. Geochronological constraint on the Cambrian Chengjiang biota, South China. Journal of the Geological Society, 175(4), pp.659-666.
 
-Yang C. et al. 2021, The tempo of Ediacaran evolution. Sci. Adv. 7, eabi9643 (2021). DOI:10.1126/sciadv.abi9643
+Yang C. et al. 2021, The tempo of Ediacaran evolution. Sci. Adv. 7, eabi9643 (2021).
