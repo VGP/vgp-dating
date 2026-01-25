@@ -42,12 +42,12 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 **Node 744:** Testuguria: 50.3–157.3Ma. 
 **Node calibrated:** Last common ancestor of the clade encompassing all extant species of Testudinidae and Geoemydidae.\
-**Fossil taxa:** _Hadrianus majusculus_\
-**Minimum age:** \
-**Minimum justification:** Based on the oldest crown testgurian, likely stem Testudinidae, from the Wasatchian of the Eocene (50.3–55.4Ma).\
+**Fossil taxa:** _Hadrianus majusculus_ (YPM 2793)\
+**Minimum age:** 50.3Ma\
+**Minimum justification:** Based on the oldest crown testugurian, likely stem Testudinidae, from the Eocene Wasatchian badlands of New Mexico (50.3–55.4Ma), with synapomorphies, stratiggraphy, and phylogeny reviewed in detail by [Joyce et al. (2013)](https://doi.org/10.1666/12-149).\
 **Maximum age:** 157.3Ma\
-**Maximum justification:** \
-**Discussion:**
+**Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
+**Discussion:** Some uncertainty exists as to the precise geographic and stratigraphic localities of material associated with this taxon [(Joyce et al. 2013)](https://doi.org/10.1666/12-149).\
 
 
 
