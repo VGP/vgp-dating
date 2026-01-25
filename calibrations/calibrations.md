@@ -57,15 +57,6 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 **970:** Dorsipares: 150.8-252.0Ma\
 -Based on _Rhadinosteus parvus_ (Jurassic: Kimmeridgian, 150.8-155.7Ma), supported by 2 parsimony and supertree analyses. **This could potentially be placed one node up on the stem – Geobatrachia.**
 
-### Likelihood checkpoints:
-**948:** Lissamphibia\
--with _Gerobatrachus_: 278–361Ma (Median 320Ma)\
--Lissamphibia without _Gerobatrachus_: 316–363Ma (Median 326Ma)
-
-**949:** Batrachia: 219–348Ma (Median 292Ma)\
-**977:** Gymnophiona: 91.6–259Ma (Median 216Ma)\
-**973:** Salamandroidea: **$XXX (CHECK)**
-
 
 ## [Mammals](./mammals/mammalia.md):
 
@@ -107,7 +98,7 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 **732:** Testudines: 157.3–252.0Ma\
 -based on the oldest crown testudine _Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).
 
-**747:** Pleurodira: 125.0–155.6Ma\
+**747:** Pleurodira: 125.0–157.3Ma\
 -based the oldest crown pleurodiran _Atolchelys lepida_ from the Barremian of the Cretaceous (121.4–125.77Ma).
 
 **733:** Cryptodira: 157.3–201.4Ma\
@@ -136,10 +127,6 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 
 **731:** Crocodylia: 77.9-113.2Ma\
 -Based on _Leidyosuchus canadensis_ (Cretaceous: Campanian, 77.9–72.1Ma), supported by 8 total-evidence analyses.
-
-**Likelihood checkpoints:**\
-Molecular estimates from 23 studies between 2004 and 2021 yield a median of 87.4Ma with a range from 70.9–110.2Ma.\
-Total-evidence estimates from 6 studies between 2017 and 2025 estimate a median of 97.4Ma with a range from 88.3–107.9Ma.
 
 
 ## [Birds](./birds/aves.md):
