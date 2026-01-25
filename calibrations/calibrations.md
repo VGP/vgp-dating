@@ -110,7 +110,7 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 **747:** Pleurodira: 125.0–155.6Ma\
 -based the oldest crown pleurodiran _Atolchelys lepida_ from the Barremian of the Cretaceous (121.4–125.77Ma).
 
-**733:** Cryptodira: 157.3–200.2Ma\
+**733:** Cryptodira: 157.3–201.4Ma\
 -based on the oldest crown cryptodiran _Yehguia tatsuensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).
 
 **734:** Durocryptodira: 88.6–157.3Ma\
