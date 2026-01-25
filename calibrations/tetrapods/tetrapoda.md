@@ -1,10 +1,10 @@
 # Tetrapod calibrations
 
-A secondary source of Type III calibrations is Title et al. 2024 (their Table S1) and references therein. We adapt those here along with a few other relevant taxa to date early tetrapods.
+We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161). A secondary source of calibrations is Title et al. 2024 (their Table S1) and references therein. We adapt those here along with a few other relevant taxa to date early tetrapods.
 
-### Type III Calibrations:
+### Calibrations:
 
-**Node 590:** Tetrapoda | 351-337Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161)\
+**Node 590:** Tetrapoda | 351-337Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing amphibians, reptiles, birds and mammals.\
 **Fossil taxon:** _Lethiscus stocki_ (MCZ 2185, Museum of Comparative Zoology, Harvard).\
 **Minimum age:** _Lethiscus_ has been found in the Wardie Shales of the Wardie shore, near Edinburgh, Scotland. The Wardie Shales have been assigned to the Holkerian regional stage based on fossil fishes and palynomorphs, resulting in an age of 343.5-337Ma ([Gradstein et al. 2012](https://shop.elsevier.com/books/the-geologic-time-scale-2012/gradstein/978-0-444-59425-9)). This gives a minimum age estimate of 337Ma.\
@@ -21,10 +21,12 @@ A secondary source of Type III calibrations is Title et al. 2024 (their Table S1
 **Maximum age:** Visean, Middle Mississippian, Carboniferous, at 355Ma.\
 **Maximum justification:** The maximum age for crown amniotes (under a node-based definition: the split between synapsids and sauropsids) has been suggested to be ~332Ma, based on the age of the oldest known putative stem amniote fossils, _Westlothiana_ ([Benton et al. 2015](https://palaeo-electronica.org/content/fc-1), [van Tuinen and Hadly 2004](https://link.springer.com/article/10.1007/s00239-004-2624-9)). Tip dating studies based on different data sets also find median ages between 320-330Ma for crown amniotes ([Ford and Benson 2020](https://www.nature.com/articles/s41559-019-1047-3), [Simões et al. 2022](https://www.science.org/doi/abs/10.1126/sciadv.abq1898)), and 335Ma for Total Group Amniota ([Simões et al. 2022](https://www.science.org/doi/abs/10.1126/sciadv.abq1898)).
 
-
 **592:** Sauria. Based on the stem archosauromorph _Protorosaurus speneri_ from the Lopingian of the Permian, 255.9-295.9Ma.
 
 **594:** Archosauria. Based on the stem pseudosuchian _Xilousuchus sapingensis_ from the Olenekian of the Triassic, 247.2-256.0Ma.
+
+### Likelihood checkpoints:
+
 
 ## References
 
