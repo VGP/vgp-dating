@@ -1,8 +1,6 @@
 # Early vertebrate calibrations
 
-### Type III Calibrations:
-
-**$XXX Some of these might by Type IV – check**
+### Calibrations:
 
 **Node 585:** Crown Vertebrata | 590.8 - 497 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161)\
 **Node calibrated:** Last common ancestor of the clade encompassing Cyclostomata and Gnathostomata.\
@@ -31,8 +29,6 @@
 **Maximum justification:** Ostracoderms are stem group gnathostomes, and their presence in the Ordovician demonstrates the potential for preservation of gnathostomes. However, no crown representatives have been found.\
 **Discussion:** _Guiyu oneiros_ has lobe-finned fish synapmorphies which identify it as a stem-sarcopterygian and therefore crown Osteichthyes and crown Gnathostomata, however, it is dated younger than Shenacanthus at 420.7 Ma ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)). Scales from possible chondrichthyans have also been found from the Stairway Sandstone, but dated slightly older than _Shenacanthus_ at 457.7 Ma. However, these are difficult to place phylogenetically and this uncertainty makes them unsuitable for use as calibrations ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)). _Nerepisacanthus_ is an acanthodian, making it crown gnathostome and possibly stem chondrichthyan ([Burrow and Rudkin 2014](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0104171)). However, it is found in the Bertie Formation which is dated to 423 Ma ± 2.3 Myr to 4.19.2 Ma ± 3.2 Myr, making it either the same age or younger than Guiyu, and much younger than _Shenacanthus_.
 
-### Type IV Calibrations:
-
 **Node 587:** Crown Osteichthyes | 444.9 - 420.7 Ma - from [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161), with our minimum constraint following [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1).\
 **Node calibrated:** Last common ancestor of the clade encompassing Actinopterygii and Sarcopterygii.\
 **Fossil taxon:** _Guiyu oneiros_ (IVPP V15541, Institute of Vertebrate Paleontology and Paleoanthropology, Beijing)\
@@ -40,6 +36,9 @@
 **Minimum justification:** _Guiyu_ has lobe-finned fish synapomorphies which identify it as a stem sarcopterygian and therefore crown Osteichthyes ([Zhu et al. 2009](https://www.nature.com/articles/nature07855); [Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)).\
 **Maximum age:** The base of the Llandovery, dated at 443.4 Ma ± 1.5 Myr, or 444.9 Ma, can be used as the soft maximum calibration ([Melchin et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00021-8)).\
 **Maximum justification:** There are records of diverse jawless fishes in the Silurian rocks, but nothing that can be identified as crown Osteichthyes ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1))
+
+### Likelihood checkpoints:
+
 
 ## References
 
