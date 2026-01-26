@@ -77,7 +77,7 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 **771:** Natricidae: 13.8–33.9Ma\
 -based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae.
 
-**774:** Stem Booidea: 48.0–100.5Ma\
+**774:** Constrictores: 48.0–100.5Ma\
 -based on _Eoconstrictor_ and _Rageryx_, the earliest stem booids from the middle Eocene.
 
 **777:** Pleurodonta: 48.0–120.0Ma\
