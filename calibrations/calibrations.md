@@ -1,6 +1,6 @@
 # Calibration Set
 
-This is the final set of **$XXX** calibrations. Detailed justifications following the best practices of [Parham et al. (2012)](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963) are given on the linked page for each set.
+This is the final set of **$XXX** calibrations. Detailed justifications following the best practices of [Parham et al. (2012)](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963) are given on the linked page for each set. As our sampling consists entirely of extant species, we are almost universally addressing and calibrating the ages of crown groups (i.e., the MRCA of extant species) in all instances unless otherwise noted.
 
 ## [Outgroups & root](./outgroups/deuterostomia.md):
 
