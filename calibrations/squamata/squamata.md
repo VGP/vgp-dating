@@ -45,7 +45,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum age:** Eocene-Oligocene boundary, 33.9Ma.\
 **Maximum justification:** The age of the crown group Natricidae has been estimated at 27.3Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 20.0Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 19.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 26.0Ma ([Zaher et al. 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216148)) – the total clade was not captured by [Simões et al. (2026)](https://doi.org/10.1093/sysbio/syaf067) – leaving the Eocene–Oligocene boundary as a conservative upper bound.
 
-**Node 774:** Booidea + Pythonoidea (unnamed) | 100.5-48Ma\
+**Node 774:** Constrictores | 100.5-48Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Pythonidae (_Liasis_) and Boidae (_Candoia_).\
 **Fossil taxon:** _Eoconstrictor fischeri_ (SMF-ME 929) and _Rageryx schmidi_ (HLMD-Me 9723)\
 **Minimum age:** Middle Eocene, Palaeogene, at 48Ma.\
