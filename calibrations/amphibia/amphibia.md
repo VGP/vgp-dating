@@ -54,6 +54,8 @@ Anderson, J.S., Reisz, R.R., Scott, D., Fröbisch, N.B. and Sumida, S.S., 2008. 
 
 Baez, A.M. and Gomez, R.O., 2016. Revision of the skeletal morphology of Eodiscoglossus santonjae, an Early Cretaceous frog from northeastern Spain, with comments on its phylogenetic placement. Acta Musei Nationalis Pragae Series B Historia Naturalis 72(1-2):66-77.
 
+Benton, M. J., P. C. Donoghue, R. J. Asher, M. Friedman, T. J. Near, and J. Vinther. 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18(1):1-106.
+
 Chen, J., Bever, G.S., Yi, H.Y. and Norell, M.A., 2016. A burrowing frog from the late Paleocene of Mongolia uncovers a deep history of spadefoot toads (Pelobatoidea) in East Asia. Scientific Reports, 6(1), p.19209.
 
 Dubois, A., Ohler, A. and Pyron, R.A., 2021. New concepts and methods for phylogenetic taxonomy and nomenclature in zoology, exemplified by a new ranked cladonomy of recent amphibians (Lissamphibia). Megataxa, 5(1), pp.1-738.
