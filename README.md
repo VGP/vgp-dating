@@ -12,6 +12,7 @@ Ed Braun (ebraun68@ufl.edu) – UFL\
 Chase Brownstein (chase.brownstein@yale.edu) – Yale\
 Santiago Claramunt (sclaramu@uno.edu) – UNO\
 Phillip Donoghue (Phil.Donoghue@bristol.ac.uk) – Bristol\
+Daniel Field (djf70@cam.ac.uk) – Cambridge\
 Delson Hays (dhhays@ucsd.edu) – UCSD\
 Jon Hughes (hughesjonjames@gmail.com) – ASU\
 Laura Mulvey (laura.mulvey@qmul.ac.uk) – QMUL\
