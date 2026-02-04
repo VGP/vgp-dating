@@ -1,6 +1,6 @@
 # Amphibia calibrations
 
-There are relatively few amphibians sampled, leaving Type III & IV calibrations primarily to a few frog groups, mostly in Neobatrachia. 
+There are relatively few amphibians sampled in our tree, and relatively few amphibian fossils that have been robustly estimated in total-evidence analyses. Consequently, we rely primarily on a few well-constrained fossil taxa that appear to share robustly diagnostic synapomorphies with major crown groups. Reassuringly, molecular divergence-time estimates for lissamphibians have been relatively consistent across most recent studies, such that variability in estimated ages is not a major area of uncertainty for this group. In particular, we refer to the results of [Feng et al. (2017)](https://www.pnas.org/doi/abs/10.1073/pnas.1704632114) for frogs, [Hime et al. (2021)](https://academic.oup.com/sysbio/article/70/1/49/5828236) for all amphibians, and [Stewart and Wiens (2025)](https://www.sciencedirect.com/science/article/pii/S1055790324002641) for salamanders as the most recent comprehensive studies with detailed discussion of fossil calibrations and age estimates. 
 
 ### Calibrations:
 
@@ -34,10 +34,16 @@ Chen, J., Bever, G.S., Yi, H.Y. and Norell, M.A., 2016. A burrowing frog from th
 
 Dubois, A., Ohler, A. and Pyron, R.A., 2021. New concepts and methods for phylogenetic taxonomy and nomenclature in zoology, exemplified by a new ranked cladonomy of recent amphibians (Lissamphibia). Megataxa, 5(1), pp.1-738.
 
+Feng, Y.J., Blackburn, D.C., Liang, D., Hillis, D.M., Wake, D.B., Cannatella, D.C. and Zhang, P., 2017. Phylogenomics reveals rapid, simultaneous diversification of three major clades of Gondwanan frogs at the Cretaceous–Paleogene boundary. Proceedings of the national Academy of Sciences, 114(29), pp.E5864-E5870.
+
 Gao, K.Q. and Chen, J., 2017. A new crown-group frog (Amphibia: Anura) from the Early Cretaceous of northeastern Inner Mongolia, China. American Museum Novitates, 2017(3876), pp.1-39.
 
 Gómez, R.O. and Lires, A.I., 2019. High ecomorphological diversity among Early Cretaceous frogs from a large subtropical wetland of Iberia. Comptes Rendus Palevol, 18(7), pp.711-723.
 
+Hime, P.M., Lemmon, A.R., Lemmon, E.C.M., Prendini, E., Brown, J.M., Thomson, R.C., Kratovil, J.D., Noonan, B.P., Pyron, R.A., Peloso, P.L. and Kortyna, M.L., 2021. Phylogenomics reveals ancient gene tree discordance in the amphibian tree of life. Systematic biology, 70(1), pp.49-66.
+
 Kligman, B.T., Gee, B.M., Marsh, A.D., Nesbitt, S.J., Smith, M.E., Parker, W.G. and Stocker, M.R., 2023. Triassic stem caecilian supports dissorophoid origin of living amphibians. Nature, 614(7946), pp.102-107.
 
 Pérez-Ben, C.M., Lires, A.I. and Gómez, R.O., 2024. Frog limbs in deep time: is jumping locomotion at the roots of the anuran Bauplan?. Paleobiology, 50(1), pp.96-107.
+
+Stewart, A.A. and Wiens, J.J., 2025. A time-calibrated salamander phylogeny including 765 species and 503 genes. Molecular Phylogenetics and Evolution, 204, p.108272.
