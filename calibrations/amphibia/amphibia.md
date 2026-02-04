@@ -23,6 +23,14 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 **Maximum justification:** [Benton et al. (2015)](https://palaeo-electronica.org/content/fc-1) suggested a soft maximum age in the middle Permian, which agrees with the recommendation of [Anderson et al. (2008)](https://www.nature.com/articles/nature06865) based on _Gerobatrachus_ as a stem batrachian.\
 **Discussion:** This taxon was strongly supported as a stem anuran by the total-evidence dating analysis of [Pyron (2011)](https://academic.oup.com/sysbio/article/60/4/466/1611723), reinforcing its use as a minimum bound on the age of Batrachia.
 
+**Node 950:** Anura | 165.3–201.5Ma
+**Node calibrated:** Last common ancestor of the clade encompassing all extant frogs.
+**Fossil taxon:** Eodiscoglossus oxoniensis (NHMUK R11700)
+**Minimum age:** 165.3Ma
+**Minimum justification:** The earliest unambiguous crown anuran based on a number of synapomorphies ([Evans et al. 1990](https://palass.org/sites/default/files/media/publications/palaeontology/volume_33/vol33_part2_pp299-311.pdf), [Ruta and Coates 2007](https://www.tandfonline.com/doi/abs/10.1017/S1477201906002008)), from the middle Jurassic Forest Marble Formation, upper Bathonian of Oxfordshire, England ([Benton et al. 2015](https://palaeo-electronica.org/content/fc-1)). 
+**Maximum age:** 201.5Ma
+**Maximum justification:** [Benton et al. (2015)](https://palaeo-electronica.org/content/fc-1) suggested a soft maximum age at the Jurassic–Cretaceous boundary, given other stem anurans and small tetrapods from numerous deposits at that time without any apparent crown anurans.
+**Discussion:** Other crown anurans from the Jurassic are assignable to more derived crown clades and are therefore used to calibrate other nodes (see below).
 
 
 
@@ -59,6 +67,8 @@ Benton, M. J., P. C. Donoghue, R. J. Asher, M. Friedman, T. J. Near, and J. Vint
 Chen, J., Bever, G.S., Yi, H.Y. and Norell, M.A., 2016. A burrowing frog from the late Paleocene of Mongolia uncovers a deep history of spadefoot toads (Pelobatoidea) in East Asia. Scientific Reports, 6(1), p.19209.
 
 Dubois, A., Ohler, A. and Pyron, R.A., 2021. New concepts and methods for phylogenetic taxonomy and nomenclature in zoology, exemplified by a new ranked cladonomy of recent amphibians (Lissamphibia). Megataxa, 5(1), pp.1-738.
+
+Evans, S.E., Milner, A.R. and Mussett, F., 1990. A discoglossid frog from the Middle Jurassic of England. Palaeontology, 33(2), pp.299-311.
 
 Feng, Y.J., Blackburn, D.C., Liang, D., Hillis, D.M., Wake, D.B., Cannatella, D.C. and Zhang, P., 2017. Phylogenomics reveals rapid, simultaneous diversification of three major clades of Gondwanan frogs at the Cretaceous–Paleogene boundary. Proceedings of the national Academy of Sciences, 114(29), pp.E5864-E5870.
 
