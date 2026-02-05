@@ -117,6 +117,8 @@ Kligman, B.T., Gee, B.M., Marsh, A.D., Nesbitt, S.J., Smith, M.E., Parker, W.G. 
 
 Lucas, S.G., Henderson, C., Barrick, J.E. and Krainer, K., 2022. Middle Kungurian (Early Permian) seaways in the southwestern USA. Permophiles, 72, pp.48-51.
 
+Macaluso, L., Mannion, P.D., Evans, S.E., Carnevale, G., Monti, S., Marchitelli, D. and Delfino, M., 2022. Biogeographic history of Palearctic caudates revealed by a critical appraisal of their fossil record quality and spatio-temporal distribution. Royal Society Open Science, 9(11), p.220935.
+
 Pérez-Ben, C.M., Lires, A.I. and Gómez, R.O., 2024. Frog limbs in deep time: is jumping locomotion at the roots of the anuran Bauplan?. Paleobiology, 50(1), pp.96-107.
 
 Pyron, R.A., 2011. Divergence time estimation using fossils as terminal taxa and the origins of Lissamphibia. Systematic biology, 60(4), pp.466-481.
