@@ -73,12 +73,12 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 There are well-documented times for likelihood checkpoints at the base of Amphibia from 53 studies. Previous estimates for Lissamphibia (Gymnophiona + Batrachia) with and without _Gerobatrachus_ (depending on its placement as a stem batrachian) were previously compiled by [Kligman et al. (2023)](https://www.nature.com/articles/s41586-022-05646-5). We summarize those here to obtain a 95% CI from the quantiles. Those authors also summarized the published evidence for Batrachia (Salientia + Urodela) and Gymnophiona (Rhinatrematidae + Stegokrotaphia, or Plesiophiona + Pseudophiona in the nomenclature of [Dubois et al. 2021](https://www.mapress.com/mt/article/view/38637)), to which we added Anura and analyzed in the same manner:
 
-**948:** Lissamphibia (31): 279–359Ma (Median 320Ma)\
+**948:** Lissamphibia (29): 279–360Ma (Median 318Ma)\
 **949:** Batrachia (32): 244–347Ma (Median 292Ma)\
 **950:** Anura (26): 175–265Ma (Median 217Ma)\
 **977:** Gymnophiona (19): 92–258Ma (Median 213Ma)
 
-<img width="2180" height="1414" alt="image" src="https://github.com/user-attachments/assets/351d2b69-c7b2-44d9-93ba-5f168d3f9c02" />
+<img width="2180" height="1414" alt="image" src="https://github.com/user-attachments/assets/7f2bc2c7-94e8-42d1-829d-31bd74e54779" />
 
 ## References
 
