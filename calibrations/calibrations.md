@@ -51,6 +51,10 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 
 ## [Amphibians](./amphibia/amphibia.md):
 
+**948:** Lissamphibia: 274.4–358.9Ma\
+-Based on the stem batrachian _Gerobatrachus hottoni_ from the Leonardian of the early Permian.
+
+
 ## [Mammals](./mammals/mammalia.md):
 
 ## [Squamates](./squamata/squamata.md):
