@@ -23,13 +23,13 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 **Maximum justification:** [Benton et al. (2015)](https://palaeo-electronica.org/content/fc-1) suggested a soft maximum age in the middle Permian, which agrees with the recommendation of [Anderson et al. (2008)](https://www.nature.com/articles/nature06865) based on _Gerobatrachus_ as a stem batrachian.\
 **Discussion:** This taxon was strongly supported as a stem anuran by the total-evidence dating analysis of [Pyron (2011)](https://academic.oup.com/sysbio/article/60/4/466/1611723), reinforcing its use as a minimum bound on the age of Batrachia.
 
-**Node 950:** Anura | 165.3–201.5Ma\
+**Node 950:** Anura | 165.3–250.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant frogs.\
 **Fossil taxon:** _Eodiscoglossus oxoniensis_ (NHMUK R11700)\
 **Minimum age:** 165.3Ma\
 **Minimum justification:** The earliest unambiguous crown anuran based on a number of synapomorphies ([Evans et al. 1990](https://palass.org/sites/default/files/media/publications/palaeontology/volume_33/vol33_part2_pp299-311.pdf), [Ruta and Coates 2007](https://www.tandfonline.com/doi/abs/10.1017/S1477201906002008)), from the middle Jurassic Forest Marble Formation, upper Bathonian of Oxfordshire, England ([Benton et al. 2015](https://palaeo-electronica.org/content/fc-1)). \
-**Maximum age:** 201.5Ma\
-**Maximum justification:** [Benton et al. (2015)](https://palaeo-electronica.org/content/fc-1) suggested a soft maximum age at the Triassic–Jurassic boundary, given other stem anurans and small tetrapods from numerous deposits at that time without any apparent crown anurans.\
+**Maximum age:** 250.0Ma\
+**Maximum justification:** [Benton et al. (2015)](https://palaeo-electronica.org/content/fc-1) suggested a soft maximum age at the Triassic–Jurassic boundary, given other stem anurans and small tetrapods from numerous deposits at that time without any apparent crown anurans. Given that many estimates have exceeded this range (see below), we place a more conservative soft maximum on this age based on the Permian–Triassic boundary, the minimum age for Batrachia.\
 **Discussion:** The total-evidence analysis of [Chen et al. 2016](https://www.nature.com/articles/srep19209) estimated the congeneric _Eodiscoglossus santonjae_ in the crown of Anura, corroborated by the morphological re-description by [Baez and Gomez 2016](https://ri.conicet.gov.ar/handle/11336/60180) and re-analysis by [Gao and Chen 2017](https://bioone.org/journals/American-Museum-Novitates/volume-2017/issue-3876/3876.1/A-New-Crown-Group-Frog-Amphibia--Anura-from-the/10.1206/3876.1.short). This taxon dates to the Barremian (121.4–125.8Ma) of the early Cretaceous La Pedrera de Rúbies Formation and El Castellar Formation of Spain. Other putative crown-group anurans are known from similar ages as summarized in [Gomez and Andres 2019](https://www.sciencedirect.com/science/article/pii/S1631068319301320), but these are not as well-documented.
 
 **Node 970:** Dorsipares | 148.1–201.5Ma\
