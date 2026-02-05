@@ -57,7 +57,7 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 **949:** Batrachia: 250.0–272.8Ma\
 -Based on the stem anuran _Triadobatrachus massinoti_ from the earliest Triassic.
 
-**950:** Anura: 165.3–201.5Ma\
+**950:** Anura: 165.3–250.0Ma\
 -Based on the crown anuran _Eodiscoglossus oxoniensis_ from the Bathonian of the middle Jurassic.
 
 **970:** Dorsipares: 148.1–201.5Ma\
