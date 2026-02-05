@@ -1,6 +1,6 @@
 # Amphibia calibrations
 
-There are relatively few amphibians sampled in our tree, and relatively few amphibian fossils that have been robustly estimated in total-evidence analyses. Consequently, we rely primarily on a few well-constrained fossil taxa that appear to share robustly diagnostic synapomorphies with major crown groups. Reassuringly, molecular divergence-time estimates for lissamphibians have been relatively consistent across most recent studies, such that variability in estimated ages is not a major area of uncertainty for this group. In particular, we refer to the results of [Feng et al. (2017)](https://www.pnas.org/doi/abs/10.1073/pnas.1704632114) for frogs, [Hime et al. (2021)](https://academic.oup.com/sysbio/article/70/1/49/5828236) for all amphibians, and [Stewart and Wiens (2025)](https://www.sciencedirect.com/science/article/pii/S1055790324002641) for salamanders as the most recent comprehensive studies with detailed discussion of fossil calibrations and age estimates. 
+There are relatively few amphibians sampled in our tree, and relatively few amphibian fossils that have been robustly estimated in total-evidence analyses. Consequently, we rely primarily on a few well-constrained fossil taxa that appear to share robustly diagnostic synapomorphies with major crown groups. Reassuringly, molecular divergence-time estimates for lissamphibians have been relatively consistent across most recent studies, such that variability in estimated ages is not a major area of uncertainty for this group. In particular, we refer to the results of [Feng et al. (2017)](https://www.pnas.org/doi/abs/10.1073/pnas.1704632114) for frogs, [Hime et al. (2021)](https://academic.oup.com/sysbio/article/70/1/49/5828236) for all amphibians, and [Stewart and Wiens (2025)](https://www.sciencedirect.com/science/article/pii/S1055790324002641) for salamanders as the most recent comprehensive studies with detailed discussion of fossil calibrations and age estimates. Note that we follow the revised nomenclature of [Dubois et al. (2021)](https://www.mapress.com/mt/article/view/38637), which may differ from some of the more familiar names known to many readers from recent publications.
 
 ### Calibrations:
 
@@ -71,16 +71,12 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 ### Likelihood checkpoints:
 
-There are well-documented times for likelihood checkpoints at the base of Amphibia. Previous estimates for Lissamphibia (Gymnophiona + Batrachia) with and without _Gerobatrachus_ (depending on its placement as a stem batrachian) were previously compiled by [Kligman et al. (2023)](https://www.nature.com/articles/s41586-022-05646-5). We summarize those here to obtain a 95% CI from the quantiles. Those authors also summarized the published evidence for Batrachia (Salientia + Urodela) and Gymnophiona (Rhinatrematidae + Stegokrotaphia*), which we analyzed in the same manner:
+There are well-documented times for likelihood checkpoints at the base of Amphibia. Previous estimates for Lissamphibia (Gymnophiona + Batrachia) with and without _Gerobatrachus_ (depending on its placement as a stem batrachian) were previously compiled by [Kligman et al. (2023)](https://www.nature.com/articles/s41586-022-05646-5). We summarize those here to obtain a 95% CI from the quantiles. Those authors also summarized the published evidence for Batrachia (Salientia + Urodela) and Gymnophiona (Rhinatrematidae + Stegokrotaphia, or Plesiophiona + Pseudophiona in the nomenclature of [Dubois et al. 2021](https://www.mapress.com/mt/article/view/38637)), which we analyzed in the same manner:
 
 **948:** Lissamphibia with _Gerobatrachus_: 278–361Ma (Median 320Ma)\
 **948:** Lissamphibia without _Gerobatrachus_: 316–363Ma (Median 326Ma)\
 **949:** Batrachia: 219–348Ma (Median 292Ma)\
 **977:** Gymnophiona: 91.6–259Ma (Median 216Ma)
-
-**$XXX ADD: 973:** Salamandroidea (Ambystomatidae + Salamandridae)
-
-*This is Plesiophiona + Pseudophiona in the nomenclature of Dubois et al. 2021
 
 <img width="2189" height="1529" alt="image" src="https://github.com/user-attachments/assets/cad59f92-345a-4dfe-a558-63c10ce5b2de" />
 
