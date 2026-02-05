@@ -63,6 +63,16 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 **970:** Dorsipares: 148.1–201.5Ma\
 -Based on the crown rhinophrynid _Rhadinosteus parvus_ from the Kimmeridgian of the late Jurassic.
 
+**969:** Pelobatoidea: 85.7-143.1Ma\
+-Based on the crown pelobatoid _Gobiates spinari_ from the Coniacian of the late Cretaceous.
+
+**954:** Aquipares: 113.0-143.1Ma\
+-Based on the crown neobatrachian _Kururubatrachus gondwanicus_ from the Aptian of the early Cretaceous.
+
+**974:** Pleurodelinae: 23.0–66.0Ma\
+-Based on numerous crown pleurodelines allied with the extant genera _Lissotriton_ and _Triturus_ from the late Oligocene and early Miocene.
+
+
 ## [Mammals](./mammals/mammalia.md):
 
 ## [Squamates](./squamata/squamata.md):
