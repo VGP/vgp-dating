@@ -54,6 +54,14 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 **948:** Lissamphibia: 274.4–358.9Ma\
 -Based on the stem batrachian _Gerobatrachus hottoni_ from the Leonardian of the early Permian.
 
+**949:** Batrachia: 250.0–272.8Ma\
+-Based on the stem anuran _Triadobatrachus massinoti_ from the earliest Triassic.
+
+**950:** Anura: 165.3–201.5Ma\
+-Based on the crown anuran _Eodiscoglossus oxoniensis_ from the Bathonian of the middle Jurassic.
+
+**970:** Dorsipares: 148.1–201.5Ma\
+-Based on the crown rhinophrynid _Rhadinosteus parvus_ from the Kimmeridgian of the late Jurassic.
 
 ## [Mammals](./mammals/mammalia.md):
 
