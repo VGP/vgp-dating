@@ -88,6 +88,8 @@ Dubois, A., Ohler, A. and Pyron, R.A., 2021. New concepts and methods for phylog
 
 Evans, S.E., Milner, A.R. and Mussett, F., 1990. A discoglossid frog from the Middle Jurassic of England. Palaeontology, 33(2), pp.299-311.
 
+Evans, S.E., Groenke, J.R., Jones, M.E., Turner, A.H. and Krause, D.W., 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One, 9(1), p.e87236.
+
 Feng, Y.J., Blackburn, D.C., Liang, D., Hillis, D.M., Wake, D.B., Cannatella, D.C. and Zhang, P., 2017. Phylogenomics reveals rapid, simultaneous diversification of three major clades of Gondwanan frogs at the Cretaceous–Paleogene boundary. Proceedings of the national Academy of Sciences, 114(29), pp.E5864-E5870.
 
 Gao, K.Q. and Chen, J., 2017. A new crown-group frog (Amphibia: Anura) from the Early Cretaceous of northeastern Inner Mongolia, China. American Museum Novitates, 2017(3876), pp.1-39.
