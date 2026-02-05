@@ -41,7 +41,14 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 **Maximum justification:** Given the similarity in ages, we follow [Benton et al. (2015)](https://palaeo-electronica.org/content/fc-1) for crown Anura in placing a soft maximum age at the Jurassic–Cretaceous boundary, given other stem anurans and small tetrapods from numerous deposits at that time without any apparent crown anurans.\
 **Discussion:** The proper name for this clade is Dorsipares ([Dubois et al. 2021](https://www.mapress.com/mt/article/view/38637)), rather than Pipoidea as referred to by most authors ([Cannatella 2015](https://karger.com/cgr/article-abstract/145/3-4/283/62763)).\
 
-
+**Node 969:** Pelobatoidea | 85.7-143.1Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Pelobates_ (Pelobatidae) and _Pelodytes_ (Pelodytidae).\
+**Fossil taxon:** _Gobiates spinari_ (ZIN, LU-N 5/137)\
+**Minimum age:** 85.7Ma\
+**Minimum justification:** From the middle part of the Bissekty Formation, Coniacian of the late Cretaceous, at the Dzhyrakuduk (CBI-4b) locality in the central Kizylkum Desert, Uzbekistan (see [Roček 2008](https://www.sciencedirect.com/science/article/pii/S0195667108000098)).\
+**Maximum age:** 143.1Ma\
+**Maximum justification:** Given the relative scarcity of crown anurans from the late Jurassic while stem forms are prevalent, we place a conservative soft maximum age on this clade corresponding to the Jurassic–Cretaceous boundary.\
+**Discussion:** Gobiates was originally described as a crown pelobatoid based on numerous synapomorphies ([Borsuk-Bialynicka 1978](https://www.palaeontologia.pan.pl/Archive/1978_38_57-63_15.pdf)), though later authors suggested an indeterminate earlier-branching position ([Spinar and Tatarinov 1986](https://www.tandfonline.com/doi/abs/10.1080/02724634.1986.10011605), [Roček 2008](https://www.sciencedirect.com/science/article/pii/S0195667108000098)). A total-evidence dating analysis placed it as a crown pelobatoid ([Chen et al. 2016](https://www.nature.com/articles/srep19209)), though an updated re-analysis of that matrix placed it as a stem laevogyrinian ([Gao and Chen 2017](https://bioone.org/journals/american-museum-novitates/volume-2017/issue-3876/3876.1/A-New-Crown-Group-Frog-Amphibia--Anura-from-the/10.1206/3876.1.short)). However, that latter analysis produced a seemingly-impossible Cenozoic origin of Laevogyrinia, which typically dates to the middle Jurassic ([Feng et al. 2017](https://www.pnas.org/doi/abs/10.1073/pnas.1704632114), [Hime et al. 2021](https://academic.oup.com/sysbio/article/70/1/49/5828236)). On balance, the evidence appears to point towards a pelobatoid affinity for Gobiates and a Cretaceous origin of Pelobatoidea.
 
 
 ### Likelihood checkpoints:
