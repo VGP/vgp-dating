@@ -75,7 +75,7 @@ There are well-documented times for likelihood checkpoints at the base of Amphib
 
 **948:** Lissamphibia (31): 279–359Ma (Median 320Ma)\
 **949:** Batrachia (32): 244–347Ma (Median 292Ma)\
-**950:** Anura (26): 175–265Ma (Median 217Ma)
+**950:** Anura (26): 175–265Ma (Median 217Ma)\
 **977:** Gymnophiona (19): 92–258Ma (Median 213Ma)
 
 <img width="2180" height="1414" alt="image" src="https://github.com/user-attachments/assets/351d2b69-c7b2-44d9-93ba-5f168d3f9c02" />
