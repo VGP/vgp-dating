@@ -71,6 +71,8 @@ Báez, A.M. and Gomez, R.O., 2016. Revision of the skeletal morphology of Eodisc
 
 Benton, M. J., P. C. Donoghue, R. J. Asher, M. Friedman, T. J. Near, and J. Vinther. 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18(1):1-106.
 
+Borsuk-Bialynicka, M. 1978. Eopelobates leptocolaptus sp. n. - the first Upper Cretaceous pelobatid frog from Asia. Acta Palaeontol. Pol. 38, 57–63.
+
 Cannatella, D., 2015. Xenopus in space and time: fossils, node calibrations, tip-dating, and paleobiogeography. Cytogenetic and genome research, 145(3-4), pp.283-301.
 
 Chen, J., Bever, G.S., Yi, H.Y. and Norell, M.A., 2016. A burrowing frog from the late Paleocene of Mongolia uncovers a deep history of spadefoot toads (Pelobatoidea) in East Asia. Scientific Reports, 6(1), p.19209.
