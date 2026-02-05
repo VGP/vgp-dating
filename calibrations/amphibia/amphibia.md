@@ -25,7 +25,7 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 **Node 950:** Anura | 165.3–201.5Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant frogs.\
-**Fossil taxon:** Eodiscoglossus oxoniensis (NHMUK R11700)\
+**Fossil taxon:** _Eodiscoglossus oxoniensis_ (NHMUK R11700)\
 **Minimum age:** 165.3Ma\
 **Minimum justification:** The earliest unambiguous crown anuran based on a number of synapomorphies ([Evans et al. 1990](https://palass.org/sites/default/files/media/publications/palaeontology/volume_33/vol33_part2_pp299-311.pdf), [Ruta and Coates 2007](https://www.tandfonline.com/doi/abs/10.1017/S1477201906002008)), from the middle Jurassic Forest Marble Formation, upper Bathonian of Oxfordshire, England ([Benton et al. 2015](https://palaeo-electronica.org/content/fc-1)). \
 **Maximum age:** 201.5Ma\
@@ -39,7 +39,7 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 **Minimum justification:** From the Brushy Basin Member of the Morrison Formation, from the Kimmeridgian of the late Jurassic, in Dinosaur National Monument, Utah, USA. The sister group to _Rhinophrynus_ (Rhinophrynidae) based on a number of synapomorphies ([Henrici 1998](https://www.tandfonline.com/doi/abs/10.1080/02724634.1998.10011060)) and parsimony-based morphological phylogenetic analyses by [Báez (2013)](https://www.sciencedirect.com/science/article/abs/pii/S0195667112001607), [Agnolin et al. (2020)](https://www.sciencedirect.com/science/article/pii/S0895981120301462), and the supertree analysis of [Perez-Ben et al. (2024)](https://www.cambridge.org/core/journals/paleobiology/article/frog-limbs-in-deep-time-is-jumping-locomotion-at-the-roots-of-the-anuran-bauplan/AC8EC495E05D51667CAAE5B18FAD1E67).\
 **Maximum age:** 201.5Ma\
 **Maximum justification:** Given the similarity in ages, we follow [Benton et al. (2015)](https://palaeo-electronica.org/content/fc-1) for crown Anura in placing a soft maximum age at the Jurassic–Cretaceous boundary, given other stem anurans and small tetrapods from numerous deposits at that time without any apparent crown anurans.\
-**Discussion:** The proper name for this clade is Dorsipares ([Dubois et al. 2021](https://www.mapress.com/mt/article/view/38637)), rather than Pipoidea as referred to by most authors (Cannatella 2015).\
+**Discussion:** The proper name for this clade is Dorsipares ([Dubois et al. 2021](https://www.mapress.com/mt/article/view/38637)), rather than Pipoidea as referred to by most authors ([Cannatella 2015](https://karger.com/cgr/article-abstract/145/3-4/283/62763)).\
 
 
 
@@ -70,6 +70,8 @@ Báez, A.M., 2013. Anurans from the Early Cretaceous Lagerstätte of Las Hoyas, 
 Báez, A.M. and Gomez, R.O., 2016. Revision of the skeletal morphology of Eodiscoglossus santonjae, an Early Cretaceous frog from northeastern Spain, with comments on its phylogenetic placement. Acta Musei Nationalis Pragae Series B Historia Naturalis 72(1-2):66-77.
 
 Benton, M. J., P. C. Donoghue, R. J. Asher, M. Friedman, T. J. Near, and J. Vinther. 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18(1):1-106.
+
+Cannatella, D., 2015. Xenopus in space and time: fossils, node calibrations, tip-dating, and paleobiogeography. Cytogenetic and genome research, 145(3-4), pp.283-301.
 
 Chen, J., Bever, G.S., Yi, H.Y. and Norell, M.A., 2016. A burrowing frog from the late Paleocene of Mongolia uncovers a deep history of spadefoot toads (Pelobatoidea) in East Asia. Scientific Reports, 6(1), p.19209.
 
