@@ -103,4 +103,6 @@ Roček, Z., 2008. The Late Cretaceous frog Gobiates from Central Asia: its evolu
 
 Ruta, M. and Coates, M.I., 2007. Dates, nodes and character conflict: addressing the lissamphibian origin problem. Journal of systematic Palaeontology, 5(1), pp.69-122.
 
+Spinar, Z. V. & Tatarinov, L. P. 1986. A new genus and species of discoglossid frog from the Upper Cretaceous of the Gobi Desert. J. Vert. Paleontol. 6, 113–122.
+
 Stewart, A.A. and Wiens, J.J., 2025. A time-calibrated salamander phylogeny including 765 species and 503 genes. Molecular Phylogenetics and Evolution, 204, p.108272.
