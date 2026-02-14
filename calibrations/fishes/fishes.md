@@ -24,13 +24,13 @@
 **Discussion:** This species is considered an unequivocal total-group aulopiform (phylogenetically uncategorized within Aulopiformes by [Silva & Gallo 2011](https://doi.org/10.1590/S0001-37652011000200010), but potential crown aulopiform based on alepisauroid affinities according to [Davis & Fielitz 2010](https://www.sciencedirect.com/science/article/pii/S1055790310003702)), and therefore an unambiguous eurypterygian (see [Newbrey & Konishi 2015](https://www.tandfonline.com/doi/abs/10.1080/02724634.2014.918042); [Near & Thacker 2024](https://bioone.org/journals/bulletin-of-the-peabody-museum-of-natural-history/volume-65/issue-1/014.065.0101/Phylogenetic-Classification-of-Living-and-Fossil-Ray-Finned-Fishes-Actinopterygii/10.3374/014.065.0101.short)).
 
 **Node 1015:** Labriformes | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
+**Node calibrated:** Last common ancestor of the clade encompassing _Choerodon schoenleinii_ and _Labrus mixtus_ .\
+**Fossil taxon:** _Phyllopharyngodon longipinnis_ ()\
 **Minimum age:** Ma\
-**Minimum justification:** \
+**Minimum justification:** The oldest-known hypsigenyin and therefore crown labriform from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Bellwood et al. 2018](https://www.jstor.org/stable/26595690)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** At least one distantly-related wrasse genus (_Eocoris_) is known from the same formation.
 
 **Node 1025:** Scorpaenidae + Triglidae + Cottoidei + Gasterosteoidei + Zoarcoidei | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -224,6 +224,8 @@ Arcila, D. and Tyler, J.C., 2017. Mass extinction in tetraodontiform fishes link
 Arratia, G., 1987. Orthogonikleithrus leichi n. gen., n. sp. (Pisces: Teleostei) from the Late Jurassic of Germany. Paläontologische Zeitschrift, 61(3), pp.309-320.
 
 Arratia, G. (1998). Basal Teleosts and Teleostean Phylogeny: Response to C. Patterson. Copeia, 1998(4), 1109–1113.
+
+Bellwood, D. R., Schultz, O., Siqueira, A. C., & Cowman, P. F. (2019). A review of the fossil record of the Labridae. Annalen Des Naturhistorischen Museums in Wien. Serie A Für Mineralogie Und Petrographie, Geologie Und Paläontologie, Anthropologie Und Prähistorie, 121, 125–194.
 
 Betancur-R, R., Wiley, E.O., Arratia, G., Acero, A., Bailly, N., Miya, M., Lecointre, G. and Orti, G., 2017. Phylogenetic classification of bony fishes. BMC evolutionary biology, 17(1), p.162.
 
