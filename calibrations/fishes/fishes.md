@@ -52,7 +52,7 @@
 **Discussion:** Eocoelopomins are considered total-group scombrids and therefore unequivocal crown pelagiarians ([Monsch & Bannikov 2012](https://www.cambridge.org/core/journals/earth-and-environmental-science-transactions-of-royal-society-of-edinburgh/article/new-taxonomic-synopses-and-revision-of-the-scombroid-fishes-scombroidei-perciformes-including-billfishes-from-the-cenozoic-of-territories-of-the-former-ussr/37C191646AD6ECED0B473DE94B6971EC); [Beckett & Friedman 2016](https://pubs.geoscienceworld.org/books/edited-volume/2011/chapter/16307715)).
 
 **Node 1076:** Syngnatharia | 72.2–**$XXX**Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Aulostomus maculatus_ () and _Syngnathus acus_ ().\
+**Node calibrated:** Last common ancestor of the clade encompassing _Aulostomus maculatus_ (Aulostomidae) and _Syngnathus acus_ (Syngnathidae).\
 **Fossil taxon:** _Gasterorhamphosus zuppichini_ (MCSNV 877)\
 **Minimum age:** 72.2Ma\
 **Minimum justification:** The oldest-known crown syngnatharian from the Calcari de Melissano formation (Cretaceous: Campanian), Lecce, Italy ([Sorbini 1981](https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=44150)).\
