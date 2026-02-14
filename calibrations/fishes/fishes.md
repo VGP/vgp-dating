@@ -33,11 +33,11 @@
 **Discussion:** At least one distantly-related fossil wrasse genus (_Eocoris_) is also known from the same formation.\
 **$XXX SHOULD THIS NODE BE RENAMED? ISN'T IT CROWN LABRIDAE?**
 
-**Node 1025:** Scorpaenidae + Triglidae + Cottoidei + Gasterosteoidei + Zoarcoidei | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 1025:** Scorpaenidae + Triglidae + Cottoidei + Gasterosteoidei + Zoarcoidei | 48.7–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Sebastes fasciatus_ () and _Pholis gunnellus_ ().\
+**Fossil taxon:** "Monte Bolca scorpaenoid" (MCSNV IG.VR.66957)\
+**Minimum age:** 48.7Ma\
+**Minimum justification:** The oldest-known taxon from this group based on a number of synapomorphies, from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Marramà et al. 2020](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
 **Discussion:** .
@@ -239,6 +239,8 @@ Giles, S., Xu, G.H., Near, T.J. and Friedman, M., 2017. Early members of ‘livi
 Hurley IA, Mueller RL, Dunn KA, Schmidt EJ, Friedman M, Ho RK, Prince VE, Yang Z, Thomas MG, Coates MI. 2007. A new time-scale for ray-finned fish evolution. Proc Biol Sci. 274(1609):489-98.
 
 Lund, R., 2000. The new actinopterygian order Guildayichthyiformes from the Lower Carboniferous of Montana (USA). Geodiversitas, 22(2) 171-206.
+
+Marramà, G., Bannikov, A.F. and Carnevale, G., 2020. An Eocene scorpionfish from Monte Postale (Bolca Lagerstätte, northeastern Italy). Bollettino della Società Paleontologica Italiana, 59(2), p.106.
 
 Near, T.J. and Thacker, C.E., 2024. Phylogenetic classification of living and fossil ray-finned fishes (Actinopterygii). Bulletin of the Peabody Museum of Natural History, 65(1), pp.3-302.
 
