@@ -11,7 +11,8 @@
 **Minimum justification:** The oldest-known crown euteleost based on a number of synapomorphies ([Arratia 1987](https://link.springer.com/article/10.1007/BF02985911)), from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** A teleost _incertae sedis_ following [Arratia (1987)](https://link.springer.com/article/10.1007/BF02985911), but considered a euteleost by more recent studies, including [Arratia (1998)](https://doi.org/10.2307/1447369).
+**Discussion:** A teleost _incertae sedis_ following [Arratia (1987)](https://link.springer.com/article/10.1007/BF02985911), but considered a euteleost by more recent studies, including [Arratia (1998)](https://doi.org/10.2307/1447369).\
+**$XXX IS THIS A USEFUL CALIBRATION AT ALL?**
 
 **Node 987:** Eurypterygia | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
