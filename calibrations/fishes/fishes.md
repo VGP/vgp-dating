@@ -31,10 +31,15 @@
 **Minimum justification:** The oldest-known putative stem tetraodontiform from the Sannine Formation (Cretaceous: Cenomanian), Keserwan-Jbeil Governorate, Lebanon, based on a number of proposed unequivocal synapomorphies [(Tyler & Sorbini 1996)](http://dx.doi.org/10.5479/si.00810266.82.1).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** Though its placement has historically been contentious, this and related genera are considered stem tetraodontiforms following Arcila et al 2015 and Santos et al under review. Even though earlier papers find a significant effect of this fossil on percomorph ages, more taxonomically-comprehensive chronograms show that this calibration point is actually consistent with older ages than expected throughout Eupercaria and Percomorpha.
-Additional source:   Arcila & Tyler 2017. Troyer et al 2022)
+**Discussion:** Though its placement has historically been contentious (**$XXX**), this and related genera are considered stem tetraodontiforms following [Arcila et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1055790314003625), a total-evidence analysis based on the morphological matrix of [Santini & Tyler (2003)](https://academic.oup.com/zoolinnean/article-abstract/139/4/565/2624208). This placement was corroborated by the inclusion of lophiiform terminals by [Arcila & Tyler (2017)](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2017.1771) and [Troyer et al. 2022](https://www.pnas.org/doi/abs/10.1073/pnas.2122486119).
+Even though earlier papers find a significant effect of this fossil on percomorph ages (**$XXX GIVE A CITATION**), more taxonomically-comprehensive chronograms show that this calibration point is actually consistent with older ages than expected throughout Eupercaria and Percomorpha (**$XXX GIVE A CITATION**).
+
 
 ## References
+
+Arcila, D., Pyron, R.A., Tyler, J.C., Ortí, G. and Betancur-R, R., 2015. An evaluation of fossil tip-dating versus node-age calibrations in tetraodontiform fishes (Teleostei: Percomorphaceae). Molecular Phylogenetics and Evolution, 82, pp.131-145.
+
+Arcila, D. and Tyler, J.C., 2017. Mass extinction in tetraodontiform fishes linked to the Palaeocene–Eocene thermal maximum. Proceedings of the Royal Society B: Biological Sciences, 284(1866), p.20171771.
 
 Giles, S., Xu, G.H., Near, T.J. and Friedman, M., 2017. Early members of ‘living fossil’ lineage imply later origin of modern ray-finned fishes. Nature, 549(7671), pp.265-268.
 
@@ -42,7 +47,11 @@ Hurley IA, Mueller RL, Dunn KA, Schmidt EJ, Friedman M, Ho RK, Prince VE, Yang Z
 
 Lund, R., 2000. The new actinopterygian order Guildayichthyiformes from the Lower Carboniferous of Montana (USA). Geodiversitas, 22(2) 171-206.
 
+Santini, F. and Tyler, J.C., 2003. A phylogeny of the families of fossil and extant tetraodontiform fishes (Acanthomorpha, Tetraodontiformes), Upper Cretaceous to Recent. Zoological Journal of the Linnean Society, 139(4), pp.565-617.
+
 Stack, J., 2026. An ontological morphological phylogenetic framework for living and extinct ray‐finned fishes (Actinopterygii). The Anatomical Record. _in press_ ar.70090.
+
+Troyer, E.M., Betancur-R, R., Hughes, L.C., Westneat, M., Carnevale, G., White, W.T., Pogonoski, J.J., Tyler, J.C., Baldwin, C.C., Ortí, G. and Brinkworth, A., 2022. The impact of paleoclimatic changes on body size evolution in marine fishes. Proceedings of the National Academy of Sciences, 119(29), p.e2122486119.
 
 Tyler, J.C. and Sorbini, L., 1996. New superfamily and three new families of tetraodontiform fishes from the Upper Cretaceous: the earliest and most morphologically primitive plectognaths. Washington, D.C.: Smithsonian Institution. In Smithsonian Contributions to Paleobiology, 82:1–59.
 
