@@ -30,7 +30,7 @@
 **Minimum justification:** The oldest-known hypsigenyin and therefore crown labriform from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Bellwood et al. 2018](https://www.jstor.org/stable/26595690)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** At least one distantly-related fossil wrasse genus (_Eocoris_) is also known from the same formation.
+**Discussion:** At least one distantly-related fossil wrasse genus (_Eocoris_) is also known from the same formation.\
 **$XXX SHOULD THIS NODE BE RENAMED? ISN'T IT CROWN LABRIDAE?**
 
 **Node 1025:** Scorpaenidae + Triglidae + Cottoidei + Gasterosteoidei + Zoarcoidei | Ma\
