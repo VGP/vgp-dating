@@ -58,7 +58,8 @@
 **Minimum justification:** The oldest-known crown syngnatharian from the Calcari de Melissano formation (Cretaceous: Campanian), Lecce, Italy ([Sorbini 1981](https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=44150)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** **$XXX WHAT DOES THIS MEAN:** "Depending on the placement of other suborders, we would risk overestimating the node age, if the node were not organically estimated to be much older than this fossil."
+**Discussion:** Considered a centriscoid by [Cantalice & Alvarado-Ortega (2016)](https://doi.org/10.26879/682), or else a stem syngnathiform or stem-syngnathoid ([Brownstein 2023](https://doi.org/10.1093/iob/obad011); other suborders not sampled).\
+**$XXX WHAT DOES THIS MEAN:** "Depending on the placement of other suborders, we would risk overestimating the node age, if the node were not organically estimated to be much older than this fossil."
 
 **Node 1084:** Lampridiformes + Polymixiiformes | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -233,6 +234,10 @@ Bannikov, A.F. and Sorbini, L., 1990. Eocoris blotti, a new genus and species of
 Beckett, H.T. and Friedman, M., 2016. The one that got away from Smith Woodward: cranial anatomy of Micrornatus (Acanthomorpha: Scombridae) revealed using computed microtomography. From: Johanson, Z., Barrett, P. M., Richter, M. & Smith, M. (eds) 2016. Arthur Smith Woodward: His Life and Influence on Modern Vertebrate Palaeontology. Geological Society, London, Special Publications, 430, 337– 353. 
 
 Betancur-R, R., Wiley, E.O., Arratia, G., Acero, A., Bailly, N., Miya, M., Lecointre, G. and Orti, G., 2017. Phylogenetic classification of bony fishes. BMC evolutionary biology, 17(1), p.162.
+
+Brownstein, C.D., 2023. Syngnathoid evolutionary history and the conundrum of fossil misplacement. Integrative Organismal Biology, 5(1), p.obad011.
+
+Cantalice, K.M. and Alvarado-Ortega, J., 2016. Eekaulostomus cuevasae gen. and sp. nov., an ancient armored trumpetfish (Aulostomoidea) from Danian (Paleocene) marine deposits of Belisario Domínguez, Chiapas, southeastern Mexico. Palaeontologia Electronica 19.3.53A: 1-24
 
 Davis, M.P. and Fielitz, C., 2010. Estimating divergence times of lizardfishes and their allies (Euteleostei: Aulopiformes) and the timing of deep-sea adaptations. Molecular Phylogenetics and Evolution, 57(3), pp.1194-1208.
 
