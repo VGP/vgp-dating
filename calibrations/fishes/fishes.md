@@ -46,10 +46,10 @@
 **Node calibrated:** Last common ancestor of the clade encompassing _Arripis georgiana_ () and _Scomber scombrus_ ().\
 **Fossil taxon:** _Eocoelopoma portentosum_ (PIN 1762/85)\
 **Minimum age:** 54.2Ma\
-**Minimum justification:** The oldest-known crown pelagiarian from the Danata formation (Eocene: Ypresian), Balkan region, Turkmenistan, associated with the layers around the Paleocene-Eocene Thermal Maximum providing t ([Bannikov & Erebakan 2023](https://link.springer.com/article/10.1134/S0031030123050015)).\
+**Minimum justification:** The oldest-known crown pelagiarian from the Danata formation (Eocene: Ypresian), Balkan region, Turkmenistan, associated with the layers just after the Paleocene-Eocene Thermal Maximum providing the more specific earlier minimum age ([Bannikov & Erebakan 2023](https://link.springer.com/article/10.1134/S0031030123050015)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** Eocoelopomins are considered total-group scombrids and therefore unequivocal crown pelagiarians ([Monsch & Bannikov 2012](https://www.cambridge.org/core/journals/earth-and-environmental-science-transactions-of-royal-society-of-edinburgh/article/new-taxonomic-synopses-and-revision-of-the-scombroid-fishes-scombroidei-perciformes-including-billfishes-from-the-cenozoic-of-territories-of-the-former-ussr/37C191646AD6ECED0B473DE94B6971EC); Beckett & Friedman 2016).
 
 **Node 1076:** Syngnatharia | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -230,6 +230,8 @@ Bellwood, D. R., Schultz, O., Siqueira, A. C., & Cowman, P. F. (2019). A review 
 
 Bannikov, A.F. and Sorbini, L., 1990. Eocoris blotti, a new genus and species of labrid fish (Perciformes, Labroidei) from the Eocene of Monte Bolca, Italy. Studi e Ricerche sui giacimenti Terziari di Bolca, 6, pp.133-148.
 
+Beckett, H.T. and Friedman, M., 2016. The one that got away from Smith Woodward: cranial anatomy of Micrornatus (Acanthomorpha: Scombridae) revealed using computed microtomography. From: Johanson, Z., Barrett, P. M., Richter, M. & Smith, M. (eds) 2016. Arthur Smith Woodward: His Life and Influence on Modern Vertebrate Palaeontology. Geological Society, London, Special Publications, 430, 337– 353. 
+
 Betancur-R, R., Wiley, E.O., Arratia, G., Acero, A., Bailly, N., Miya, M., Lecointre, G. and Orti, G., 2017. Phylogenetic classification of bony fishes. BMC evolutionary biology, 17(1), p.162.
 
 Davis, M.P. and Fielitz, C., 2010. Estimating divergence times of lizardfishes and their allies (Euteleostei: Aulopiformes) and the timing of deep-sea adaptations. Molecular Phylogenetics and Evolution, 57(3), pp.1194-1208.
@@ -243,6 +245,8 @@ Hurley IA, Mueller RL, Dunn KA, Schmidt EJ, Friedman M, Ho RK, Prince VE, Yang Z
 Lund, R., 2000. The new actinopterygian order Guildayichthyiformes from the Lower Carboniferous of Montana (USA). Geodiversitas, 22(2) 171-206.
 
 Marramà, G., Bannikov, A.F. and Carnevale, G., 2020. An Eocene scorpionfish from Monte Postale (Bolca Lagerstätte, northeastern Italy). Bollettino della Società Paleontologica Italiana, 59(2), p.106.
+
+Monsch, K.A. and Bannikov, A.F., 2011. New taxonomic synopses and revision of the scombroid fishes (Scombroidei, Perciformes), including billfishes, from the Cenozoic of territories of the former USSR. Earth and Environmental Science Transactions of the Royal Society of Edinburgh, 102(4), pp.253-300.
 
 Near, T.J. and Thacker, C.E., 2024. Phylogenetic classification of living and fossil ray-finned fishes (Actinopterygii). Bulletin of the Peabody Museum of Natural History, 65(1), pp.3-302.
 
