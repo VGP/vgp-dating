@@ -16,7 +16,7 @@
 
 **Node 987:** Eurypterygia | 121.4–**$XXX**Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Notolepis coatsi_ (Aulopiformes: Paralepididae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
-**Fossil taxon:** _Atolvorator longipectoralis_ (Pz. UERJ 486; Pz. UERJ 487; Pz. UERJ 496 a e b; Pz. UERJ 508 a e b; Pz. UERJ 509; Pz. UERJ 510)\
+**Fossil taxon:** _Atolvorator longipectoralis_ (Pz. UERJ 486–487; 496a,e,b; 508a,e,b; 509–510)\
 **Minimum age:** 121.4Ma\
 **Minimum justification:** The oldest-known stem-group alopiform from the Coqueiro Seco Formation (Cretaceous: Barremian), Alagoas, Brazil ([Gallo & Coelho 2008](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf)).\
 **Maximum age:** Ma.\
@@ -24,13 +24,14 @@
 **Discussion:** This species is considered an unequivocal total-group aulopiform (phylogenetically uncategorized within Aulopiformes by [Silva & Gallo 2011](https://doi.org/10.1590/S0001-37652011000200010), but potential crown aulopiform based on alepisauroid affinities according to [Davis & Fielitz 2010](https://www.sciencedirect.com/science/article/pii/S1055790310003702)), and therefore an unambiguous eurypterygian (see [Newbrey & Konishi 2015](https://www.tandfonline.com/doi/abs/10.1080/02724634.2014.918042); [Near & Thacker 2024](https://bioone.org/journals/bulletin-of-the-peabody-museum-of-natural-history/volume-65/issue-1/014.065.0101/Phylogenetic-Classification-of-Living-and-Fossil-Ray-Finned-Fishes-Actinopterygii/10.3374/014.065.0101.short)).
 
 **Node 1015:** Labriformes | 48.7–**$XXX**Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Choerodon schoenleinii_ (Hypsigenyinae) and _Labrus mixtus_ (Labrinae).\
+**Node calibrated:** Last common ancestor of the clade encompassing _Choerodon schoenleinii_ (Labridae: Hypsigenyinae) and _Labrus mixtus_ (Labridae: Labrinae).\
 **Fossil taxon:** _Phyllopharyngodon longipinnis_ (T.149, T.150; Museo Civico de Storia Naturale di Verona)\
 **Minimum age:** 48.7Ma\
 **Minimum justification:** The oldest-known hypsigenyin and therefore crown labriform from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Bellwood et al. 2018](https://www.jstor.org/stable/26595690)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** At least one distantly-related wrasse genus (_Eocoris_) is also known from the same formation.
+**Discussion:** At least one distantly-related fossil wrasse genus (_Eocoris_) is also known from the same formation.
+**$XXX SHOULD THIS NODE BE RENAMED? ISN'T IT CROWN LABRIDAE?**
 
 **Node 1025:** Scorpaenidae + Triglidae + Cottoidei + Gasterosteoidei + Zoarcoidei | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
