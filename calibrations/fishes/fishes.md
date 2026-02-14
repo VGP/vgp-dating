@@ -40,7 +40,7 @@
 **Minimum justification:** The oldest-known taxon from this group based on a number of synapomorphies, from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Marramà et al. 2020](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** [Marramà et al. (2020)](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf) assigned this taxon to “Scorpaenoidei” _sensu_ [Smith et al. (2018)](https://asih.kglmeridian.com/view/journals/cope/106/1/article-p94.xml), which is not monophyletic, as it incldes scorpaenids and triglids but not cottoids, gasterosteoids, or zoarcoids. Node 1025 represents the MRCA of this grouping as well as the aforementioned groups.
+**Discussion:** [Marramà et al. (2020)](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf) assigned this taxon to “Scorpaenoidei” _sensu_ [Smith et al. (2018)](https://asih.kglmeridian.com/view/journals/cope/106/1/article-p94.xml), which is not monophyletic, as it includes scorpaenids and triglids but not cottoids, gasterosteoids, or zoarcoids. Node 1025 represents the MRCA of this grouping as well as the aforementioned groups.
 
 **Node 1071:** Pelagiaria | 54.2–**$XXX**Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Arripis georgiana_ () and _Scomber scombrus_ ().\
@@ -70,14 +70,14 @@
 **Maximum justification:** \
 **Discussion:** Considered a stem lampridomorph by [Davesne et al. (2014)](https://academic.oup.com/zoolinnean/article-abstract/172/2/475/3797055) based numerous synapomorphies, and by the morphological phylogenetic analysis of [Delbarre et al. (2016)](https://doi.org/10.1080/14772019.2015.1078538).
 
-**Node 1087:** Zeogadaria | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 1087:** Zeogadaria | 72.2–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Zeus faber_ (Zeiformes: Zeidae) and _Gadus morhua_ (Gadiformes: Gadidae).\
+**Fossil taxon:** _Cretazeus rinaldii_ (CCN 6659C)\
+**Minimum age:** 72.2Ma\
+**Minimum justification:** Based on the oldest-known crown zeiform from the Nardò formation (Cretaceous: Campanian), Lecce, Italy ([Tyler et al. 2000](https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=44152)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** This species is considered an unambiguous crown zeiform, including both morphological and combined-evidence analyses ([Davesne et al. 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/pala.12280)) and “at least five different zeiform lineages were present in the Campanian” ([Tyler & Santini 2005](https://doi.org/10.1111%2Fj.1463-6409.2005.00180.x)). .
 
 **Node 1099:** Esociformes + Salmoniformes | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -239,6 +239,8 @@ Brownstein, C.D., 2023. Syngnathoid evolutionary history and the conundrum of fo
 
 Cantalice, K.M. and Alvarado-Ortega, J., 2016. Eekaulostomus cuevasae gen. and sp. nov., an ancient armored trumpetfish (Aulostomoidea) from Danian (Paleocene) marine deposits of Belisario Domínguez, Chiapas, southeastern Mexico. Palaeontologia Electronica 19.3.53A: 1-24
 
+Davesne, D., Carnevale, G. and Friedman, M., 2017. Bajaichthys elegans from the Eocene of Bolca (Italy) and the overlooked morphological diversity of Zeiformes (Teleostei, Acanthomorpha). Palaeontology, 60(2), pp.255-268.
+
 Davis, M.P. and Fielitz, C., 2010. Estimating divergence times of lizardfishes and their allies (Euteleostei: Aulopiformes) and the timing of deep-sea adaptations. Molecular Phylogenetics and Evolution, 57(3), pp.1194-1208.
 
 Delbarre, D.J., Davesne, D. and Friedman, M., 2016. Anatomy and relationships of† Aipichthys pretiosus and†‘Aipichthys’ nuchalis (Acanthomorpha: Lampridomorpha), with a review of Late Cretaceous relatives of oarfishes and their allies. Journal of Systematic Palaeontology, 14(7), pp.545-567.
@@ -274,5 +276,9 @@ Stack, J., 2026. An ontological morphological phylogenetic framework for living 
 Troyer, E.M., Betancur-R, R., Hughes, L.C., Westneat, M., Carnevale, G., White, W.T., Pogonoski, J.J., Tyler, J.C., Baldwin, C.C., Ortí, G. and Brinkworth, A., 2022. The impact of paleoclimatic changes on body size evolution in marine fishes. Proceedings of the National Academy of Sciences, 119(29), p.e2122486119.
 
 Tyler, J.C. and Sorbini, L., 1996. New superfamily and three new families of tetraodontiform fishes from the Upper Cretaceous: the earliest and most morphologically primitive plectognaths. Washington, D.C.: Smithsonian Institution. In Smithsonian Contributions to Paleobiology, 82:1–59.
+
+Tyler, J.C., Bronzi, P. and Ghiandoni, A., 2000. The Cretaceous fishes of Nardò 11. A new genus and species of Zeiformes, Cretazeus rinaldii, the earliest record for the order. Bollettino del Museo Civico di Storia Naturale di Verona, Geologia Paleontologia Preistoria, 24, pp.11-28.
+
+Tyler, J.C. and Santini, F., 2005. A phylogeny of the fossil and extant zeiform‐like fishes, Upper Cretaceous to Recent, with comments on the putative zeomorph clade (Acanthomorpha). Zoologica Scripta, 34(2), pp.157-175.
 
 Wilson, C.D., Mansky, C.F. & Anderson, J.S. 2021. A platysomid occurrence from the Tournaisian of Nova Scotia. Sci Rep 11, 8375.
