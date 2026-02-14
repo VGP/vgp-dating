@@ -62,7 +62,7 @@
 **$XXX WHAT DOES THIS MEAN:** "Depending on the placement of other suborders, we would risk overestimating the node age, if the node were not organically estimated to be much older than this fossil."
 
 **Node 1084:** Lampridiformes + Polymixiiformes | 93.9–**$XXX**Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Polymixia lowei_ () and _Lampris incognitus_ ().\
+**Node calibrated:** Last common ancestor of the clade encompassing _Polymixia lowei_ (Polymixiidae) and _Lampris incognitus_ (Lampridae).\
 **Fossil taxon:** _Aipichthys pretiosus_ (NHMW 1857.XXXVIII.7)\
 **Minimum age:** 93.9Ma\
 **Minimum justification:** Based on the oldest-known from the Komen Limestone, Komen Municipality, Slovenia ([Palci et al. 2008](https://www.sciencedirect.com/science/article/pii/S0195667107001097)).\
