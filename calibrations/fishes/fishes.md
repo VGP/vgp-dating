@@ -80,7 +80,7 @@
 **Discussion:** This species is considered an unambiguous crown zeiform, including both morphological and combined-evidence analyses ([Davesne et al. 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/pala.12280); [Grande et al. 2018](https://doi.org/10.1643/CG-17-594)) and “at least five different zeiform lineages were present in the Campanian” ([Tyler & Santini 2005](https://doi.org/10.1111%2Fj.1463-6409.2005.00180.x)).
 
 **Node 1099:** Esociformes + Salmoniformes | 76.2–**$XXX**Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Esox lucius_ () and _Salmo trutta_ ().\
+**Node calibrated:** Last common ancestor of the clade encompassing _Esox lucius_ (Esociformes: Esocidae) and _Salmo trutta_ (Salmoniformes: Salmonidae).\
 **Fossil taxon:** _Oldmanesox canadensis_ (TMP 86.23.51)\
 **Minimum age:** 76.2Ma\
 **Minimum justification:** Based on the oldest-known esocid from the Oldman formation (Cretaceous: Campanian), Alberta, Canada, providing a more specific minimum age ([Wilson et al. 1992](https://doi.org/10.1017/S0022336000020849)).\
