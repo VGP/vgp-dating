@@ -6,12 +6,12 @@
 
 **Node 982:** Teleostei | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Conger conger_ (Anguilliformes: Congridae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Fossil taxon:** _Orthogonikleithrus leichi_ (Eichstӓtt 2301)\
+**Minimum age:** 145.5Ma\
+**Minimum justification:** The oldest-known crown euteleost based on a number of synapomorphies ([Arratia 1987](https://link.springer.com/article/10.1007/BF02985911)), from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** A teleost _incertae sedis_ following [Arratia (1987)](https://link.springer.com/article/10.1007/BF02985911), but considered a euteleost by more recent studies, including [Arratia (1998)](https://doi.org/10.2307/1447369).
 
 **Node 987:** Eurypterygia | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -219,6 +219,10 @@
 Arcila, D., Pyron, R.A., Tyler, J.C., Ortí, G. and Betancur-R, R., 2015. An evaluation of fossil tip-dating versus node-age calibrations in tetraodontiform fishes (Teleostei: Percomorphaceae). Molecular Phylogenetics and Evolution, 82, pp.131-145.
 
 Arcila, D. and Tyler, J.C., 2017. Mass extinction in tetraodontiform fishes linked to the Palaeocene–Eocene thermal maximum. Proceedings of the Royal Society B: Biological Sciences, 284(1866), p.20171771.
+
+Arratia, G., 1987. Orthogonikleithrus leichi n. gen., n. sp. (Pisces: Teleostei) from the Late Jurassic of Germany. Paläontologische Zeitschrift, 61(3), pp.309-320.
+
+Arratia, G. (1998). Basal Teleosts and Teleostean Phylogeny: Response to C. Patterson. Copeia, 1998(4), 1109–1113.
 
 Betancur-R, R., Wiley, E.O., Arratia, G., Acero, A., Bailly, N., Miya, M., Lecointre, G. and Orti, G., 2017. Phylogenetic classification of bony fishes. BMC evolutionary biology, 17(1), p.162.
 
