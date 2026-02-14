@@ -4,7 +4,97 @@
 
 ### Calibrations:
 
-**Node :**  | Ma\
+**Node 982:** Teleostei | Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing .\
+**Fossil taxon:** __ ()\
+**Minimum age:** Ma\
+**Minimum justification:** \
+**Maximum age:** Ma.\
+**Maximum justification:** \
+**Discussion:** .
+
+**Node 987:** Eurypterygia | Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing .\
+**Fossil taxon:** __ ()\
+**Minimum age:** Ma\
+**Minimum justification:** \
+**Maximum age:** Ma.\
+**Maximum justification:** \
+**Discussion:** .
+
+**Node 1015:** Labriformes | Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing .\
+**Fossil taxon:** __ ()\
+**Minimum age:** Ma\
+**Minimum justification:** \
+**Maximum age:** Ma.\
+**Maximum justification:** \
+**Discussion:** .
+
+**Node 1025:** Scorpaenidae + Triglidae + Cottoidei + Gasterosteoidei + Zoarcoidei | Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing .\
+**Fossil taxon:** __ ()\
+**Minimum age:** Ma\
+**Minimum justification:** \
+**Maximum age:** Ma.\
+**Maximum justification:** \
+**Discussion:** .
+
+**Node 1071:** Pelagiaria | Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing .\
+**Fossil taxon:** __ ()\
+**Minimum age:** Ma\
+**Minimum justification:** \
+**Maximum age:** Ma.\
+**Maximum justification:** \
+**Discussion:** .
+
+**Node 1076:** Syngnatharia | Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing .\
+**Fossil taxon:** __ ()\
+**Minimum age:** Ma\
+**Minimum justification:** \
+**Maximum age:** Ma.\
+**Maximum justification:** \
+**Discussion:** .
+
+**Node 1084:** Lampridiformes + Polymixiiformes | Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing .\
+**Fossil taxon:** __ ()\
+**Minimum age:** Ma\
+**Minimum justification:** \
+**Maximum age:** Ma.\
+**Maximum justification:** \
+**Discussion:** .
+
+**Node 1087:** Zeogadaria | Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing .\
+**Fossil taxon:** __ ()\
+**Minimum age:** Ma\
+**Minimum justification:** \
+**Maximum age:** Ma.\
+**Maximum justification:** \
+**Discussion:** .
+
+**Node 1099:** Esociformes + Salmoniformes | Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing .\
+**Fossil taxon:** __ ()\
+**Minimum age:** Ma\
+**Minimum justification:** \
+**Maximum age:** Ma.\
+**Maximum justification:** \
+**Discussion:** .
+
+**Node 1109:** Gobionidae + Leuciscidae | Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing .\
+**Fossil taxon:** __ ()\
+**Minimum age:** Ma\
+**Minimum justification:** \
+**Maximum age:** Ma.\
+**Maximum justification:** \
+**Discussion:** .
+
+**Node 1110:** Leuciscidae | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
 **Fossil taxon:** __ ()\
 **Minimum age:** Ma\
@@ -22,7 +112,7 @@
 **Maximum justification:** \
 **Discussion:** .
 
-**Node :**  | Ma\
+**Node 1117:** Barbinae + Cyprininae | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
 **Fossil taxon:** __ ()\
 **Minimum age:** Ma\
@@ -31,7 +121,7 @@
 **Maximum justification:** \
 **Discussion:** .
 
-**Node :**  | Ma\
+**Node 1123:** Ariidae + Pangasiidae | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
 **Fossil taxon:** __ ()\
 **Minimum age:** Ma\
@@ -40,7 +130,7 @@
 **Maximum justification:** \
 **Discussion:** .
 
-**Node :**  | Ma\
+**Node 1124:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
 **Fossil taxon:** __ ()\
 **Minimum age:** Ma\
@@ -49,7 +139,7 @@
 **Maximum justification:** \
 **Discussion:** .
 
-**Node :**  | Ma\
+**Node 1132:** Elopomorpha | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
 **Fossil taxon:** __ ()\
 **Minimum age:** Ma\
@@ -58,7 +148,7 @@
 **Maximum justification:** \
 **Discussion:** .
 
-**Node :**  | Ma\
+**Node 1134:** Holostei | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
 **Fossil taxon:** __ ()\
 **Minimum age:** Ma\
@@ -67,7 +157,7 @@
 **Maximum justification:** \
 **Discussion:** .
 
-**Node :**  | Ma\
+**Node 1135:** Chondrichthyes | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
 **Fossil taxon:** __ ()\
 **Minimum age:** Ma\
@@ -76,7 +166,7 @@
 **Maximum justification:** \
 **Discussion:** .
 
-**Node :**  | Ma\
+**Node 1140:** Carcharhiniformes + Lamniformes | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
 **Fossil taxon:** __ ()\
 **Minimum age:** Ma\
@@ -85,7 +175,7 @@
 **Maximum justification:** \
 **Discussion:** .
 
-**Node :**  | Ma\
+**Node 1145:** Batomorpha | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
 **Fossil taxon:** __ ()\
 **Minimum age:** Ma\
@@ -94,88 +184,7 @@
 **Maximum justification:** \
 **Discussion:** .
 
-**Node :**  | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
-**Maximum age:** Ma.\
-**Maximum justification:** \
-**Discussion:** .
-
-**Node :**  | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
-**Maximum age:** Ma.\
-**Maximum justification:** \
-**Discussion:** .
-
-**Node :**  | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
-**Maximum age:** Ma.\
-**Maximum justification:** \
-**Discussion:** .
-
-**Node :**  | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
-**Maximum age:** Ma.\
-**Maximum justification:** \
-**Discussion:** .
-
-**Node :**  | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
-**Maximum age:** Ma.\
-**Maximum justification:** \
-**Discussion:** .
-
-**Node :**  | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
-**Maximum age:** Ma.\
-**Maximum justification:** \
-**Discussion:** .
-
-**Node :**  | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
-**Maximum age:** Ma.\
-**Maximum justification:** \
-**Discussion:** .
-
-**Node :**  | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
-**Maximum age:** Ma.\
-**Maximum justification:** \
-**Discussion:** .
-
-**Node :**  | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
-**Maximum age:** Ma.\
-**Maximum justification:** \
-**Discussion:** .
-
-**Node :**  | Ma\
+**Node 1150:** Cyclostomata | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
 **Fossil taxon:** __ ()\
 **Minimum age:** Ma\
