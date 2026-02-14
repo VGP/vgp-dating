@@ -68,7 +68,7 @@
 **Minimum justification:** Based on the oldest-known from the Komen Limestone, Komen Municipality, Slovenia ([Palci et al. 2008](https://www.sciencedirect.com/science/article/pii/S0195667107001097)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** Considered a stem lampridomorph by Davesne et al. (2014) based numerous synapomorphies, and by the morphological phylogenetic analysis of Delbarre et al. (2016).
+**Discussion:** Considered a stem lampridomorph by [Davesne et al. (2014)](https://academic.oup.com/zoolinnean/article-abstract/172/2/475/3797055) based numerous synapomorphies, and by the morphological phylogenetic analysis of [Delbarre et al. (2016)](https://doi.org/10.1080/14772019.2015.1078538).
 
 **Node 1087:** Zeogadaria | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -240,6 +240,8 @@ Brownstein, C.D., 2023. Syngnathoid evolutionary history and the conundrum of fo
 Cantalice, K.M. and Alvarado-Ortega, J., 2016. Eekaulostomus cuevasae gen. and sp. nov., an ancient armored trumpetfish (Aulostomoidea) from Danian (Paleocene) marine deposits of Belisario Domínguez, Chiapas, southeastern Mexico. Palaeontologia Electronica 19.3.53A: 1-24
 
 Davis, M.P. and Fielitz, C., 2010. Estimating divergence times of lizardfishes and their allies (Euteleostei: Aulopiformes) and the timing of deep-sea adaptations. Molecular Phylogenetics and Evolution, 57(3), pp.1194-1208.
+
+Delbarre, D.J., Davesne, D. and Friedman, M., 2016. Anatomy and relationships of† Aipichthys pretiosus and†‘Aipichthys’ nuchalis (Acanthomorpha: Lampridomorpha), with a review of Late Cretaceous relatives of oarfishes and their allies. Journal of Systematic Palaeontology, 14(7), pp.545-567.
 
 Gallo, V. and Coelho, P.M., 2008. First occurrence of an aulopiform fish in the Barremian of the Sergipe-Alagoas Basin, northeastern Brazil. Mesozoic fishes, 4, pp.351-371.
 
