@@ -1,6 +1,6 @@
 # Fish calibrations (chondrichthyes & osteichthyes)
 
-**$XXX** Expand as needed to explain the background of fish fossil phylogeny and existing resources.
+**$XXX** Expand as needed to explain the background of fish fossil phylogeny and existing resources. Give references to major recent phylogenetic classifications that provide a guide to the names used below.
 
 ### Calibrations:
 
