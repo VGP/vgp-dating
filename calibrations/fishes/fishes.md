@@ -5,7 +5,7 @@
 ### Calibrations:
 
 **Node 982:** Teleostei | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
+**Node calibrated:** Last common ancestor of the clade encompassing _Conger conger_ (Anguilliformes: Congridae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
 **Fossil taxon:** __ ()\
 **Minimum age:** Ma\
 **Minimum justification:** \
