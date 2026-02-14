@@ -24,15 +24,14 @@
 **Maximum justification:** \
 **Discussion:** The phylogenetic analysis of [Stack (2026)](https://doi.org/10.1002/ar.70090) was based on a revised approach to character ontology that has not been corroborated by other authors, and resulted in some unusual relationships among living clades including **$XXX**. As a result, we make a note of caution regarding this calibration, to be assessed by future total-evidence analyses. Other material and characters supporting the monophyly of Platysomidae were discussed by [Wilson et al. (2021)](https://doi.org/10.1038/s41598-021-87027-y). **$XXX WHAT ARE YOU CITING [Hurley et al. (2007)](https://doi.org/10.1098/rspb.2006.3749) FOR?**
 
-**Node :** Lophiiformes + Tetraodontiformes | 93.9–**$XXX**Ma\
+**Node 1012:** Lophiiformes + Tetraodontiformes | 93.9–**$XXX**Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Antennarius maculatus_ (Lophiiformes: Antennariidae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
 **Fossil taxon:** _Plectocretacicus clarae_ (MCSNV S.L.1–2)\
 **Minimum age:** 93.9Ma\
 **Minimum justification:** The oldest-known putative stem tetraodontiform from the Sannine Formation (Cretaceous: Cenomanian), Keserwan-Jbeil Governorate, Lebanon, based on a number of proposed unequivocal synapomorphies [(Tyler & Sorbini 1996)](http://dx.doi.org/10.5479/si.00810266.82.1).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** Though its placement has historically been contentious (**$XXX**), this and related genera are considered stem tetraodontiforms following [Arcila et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1055790314003625), a total-evidence analysis based on the morphological matrix of [Santini & Tyler (2003)](https://academic.oup.com/zoolinnean/article-abstract/139/4/565/2624208). This placement was corroborated by the inclusion of lophiiform terminals by [Arcila & Tyler (2017)](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2017.1771) and [Troyer et al. 2022](https://www.pnas.org/doi/abs/10.1073/pnas.2122486119).
-Even though earlier papers find a significant effect of this fossil on percomorph ages (**$XXX GIVE A CITATION**), more taxonomically-comprehensive chronograms show that this calibration point is actually consistent with older ages than expected throughout Eupercaria and Percomorpha (**$XXX GIVE A CITATION**).
+**Discussion:** Though its placement has historically been contentious (**$XXX**), this and related genera are considered stem tetraodontiforms following [Arcila et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1055790314003625), a total-evidence analysis based on the morphological matrix of [Santini & Tyler (2003)](https://academic.oup.com/zoolinnean/article-abstract/139/4/565/2624208). This placement was corroborated by the inclusion of lophiiform terminals by [Arcila & Tyler (2017)](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2017.1771) and [Troyer et al. 2022](https://www.pnas.org/doi/abs/10.1073/pnas.2122486119). Even though earlier papers find a significant effect of this fossil on percomorph ages (**$XXX**), more taxonomically-comprehensive chronograms show that this calibration point is actually consistent with older ages than expected throughout Eupercaria and Percomorpha (**$XXX**). The remaining controversy concerns two related points: **(i)** the morphological matrices arising from [Santini & Tyler (2003)](https://academic.oup.com/zoolinnean/article-abstract/139/4/565/2624208) sample at most one outgroup from Caproiformes (Caproidae: _Antigonia capros_) and the more distant Zeiformes (Cyttidae: _Cyttus novaezealandiae_), limiting possibility of other topological resolutions with respect to the closely-related Priacanthiformes, Scatophagidae, Siganidae (the latter two being order-level _incertae sedis_ after [Betancur-R. et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3)), and **(ii)** as a result of the limited taxon sampling, character sampling is also limited and does not appear to provide any unambiguous synapomorphies or character states that are diagnostic in combination which can discriminate between the placement of _Plectocretacicus_ on the stem of Tetraodontiformes (**Node 1012**), the stem of Lophiiformes + Tetraodontiformes (**Node 1011**), or the stem 
 
 
 ## References
@@ -40,6 +39,8 @@ Even though earlier papers find a significant effect of this fossil on percomorp
 Arcila, D., Pyron, R.A., Tyler, J.C., Ortí, G. and Betancur-R, R., 2015. An evaluation of fossil tip-dating versus node-age calibrations in tetraodontiform fishes (Teleostei: Percomorphaceae). Molecular Phylogenetics and Evolution, 82, pp.131-145.
 
 Arcila, D. and Tyler, J.C., 2017. Mass extinction in tetraodontiform fishes linked to the Palaeocene–Eocene thermal maximum. Proceedings of the Royal Society B: Biological Sciences, 284(1866), p.20171771.
+
+Betancur-R, R., Wiley, E.O., Arratia, G., Acero, A., Bailly, N., Miya, M., Lecointre, G. and Orti, G., 2017. Phylogenetic classification of bony fishes. BMC evolutionary biology, 17(1), p.162.
 
 Giles, S., Xu, G.H., Near, T.J. and Friedman, M., 2017. Early members of ‘living fossil’ lineage imply later origin of modern ray-finned fishes. Nature, 549(7671), pp.265-268.
 
