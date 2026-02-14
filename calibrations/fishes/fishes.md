@@ -27,10 +27,10 @@
 **Node calibrated:** Last common ancestor of the clade encompassing _Choerodon schoenleinii_ (Labridae: Hypsigenyinae) and _Labrus mixtus_ (Labridae: Labrinae).\
 **Fossil taxon:** _Phyllopharyngodon longipinnis_ (T.149, T.150; Museo Civico de Storia Naturale di Verona)\
 **Minimum age:** 48.7Ma\
-**Minimum justification:** The oldest-known hypsigenyin and therefore crown labriform from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Bellwood et al. 2018](https://www.jstor.org/stable/26595690)).\
+**Minimum justification:** The oldest-known crown labriform from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Bellwood et al. 2018](https://www.jstor.org/stable/26595690)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** At least one distantly-related fossil wrasse genus (_Eocoris_) is also known from the same formation.\
+**Discussion:** Based on the oldest known hypsigenyin labrid. At least one other distantly-related fossil wrasse genus (_Eocoris_) is also known from the same formation ([Bennikov & Sorbini 1990](https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=5536996)).\
 **$XXX SHOULD THIS NODE BE RENAMED? ISN'T IT CROWN LABRIDAE?**
 
 **Node 1025:** Scorpaenidae + Triglidae + Cottoidei + Gasterosteoidei + Zoarcoidei | 48.7–**$XXX**Ma\
@@ -42,11 +42,11 @@
 **Maximum justification:** \
 **Discussion:** [Marramà et al. (2020)](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf) assigned this taxon to “Scorpaenoidei” _sensu_ [Smith et al. (2018)](https://asih.kglmeridian.com/view/journals/cope/106/1/article-p94.xml), which is not monophyletic, as it incldes scorpaenids and triglids but not cottoids, gasterosteoids, or zoarcoids. Node 1025 represents the MRCA of this grouping as well as the aforementioned groups.
 
-**Node 1071:** Pelagiaria | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 1071:** Pelagiaria | 54.2–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Arripis georgiana_ () and _Scomber scombrus_ ().\
+**Fossil taxon:** _Eocoelopoma portentosum_ (PIN 1762/85)\
+**Minimum age:** 54.2Ma\
+**Minimum justification:** The oldest-known stem scombrid and therefore from the \
 **Maximum age:** Ma.\
 **Maximum justification:** \
 **Discussion:** .
@@ -227,6 +227,8 @@ Arratia, G., 1987. Orthogonikleithrus leichi n. gen., n. sp. (Pisces: Teleostei)
 Arratia, G. (1998). Basal Teleosts and Teleostean Phylogeny: Response to C. Patterson. Copeia, 1998(4), 1109–1113.
 
 Bellwood, D. R., Schultz, O., Siqueira, A. C., & Cowman, P. F. (2019). A review of the fossil record of the Labridae. Annalen Des Naturhistorischen Museums in Wien. Serie A Für Mineralogie Und Petrographie, Geologie Und Paläontologie, Anthropologie Und Prähistorie, 121, 125–194.
+
+Bannikov, A.F. and Sorbini, L., 1990. Eocoris blotti, a new genus and species of labrid fish (Perciformes, Labroidei) from the Eocene of Monte Bolca, Italy. Studi e Ricerche sui giacimenti Terziari di Bolca, 6, pp.133-148.
 
 Betancur-R, R., Wiley, E.O., Arratia, G., Acero, A., Bailly, N., Miya, M., Lecointre, G. and Orti, G., 2017. Phylogenetic classification of bony fishes. BMC evolutionary biology, 17(1), p.162.
 
