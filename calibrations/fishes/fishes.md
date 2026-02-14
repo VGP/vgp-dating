@@ -12,16 +12,16 @@
 **Maximum age:** Ma.\
 **Maximum justification:** \
 **Discussion:** A teleost _incertae sedis_ following [Arratia (1987)](https://link.springer.com/article/10.1007/BF02985911), but considered a euteleost by more recent studies, including [Arratia (1998)](https://doi.org/10.2307/1447369).\
-**$XXX IS THIS A USEFUL CALIBRATION AT ALL?**
+**$XXX IS THIS REALLY A USEFUL CALIBRATION??**
 
-**Node 987:** Eurypterygia | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 987:** Eurypterygia | 121.4–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Notolepis coatsi_ (Aulopiformes: Paralepididae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
+**Fossil taxon:** _Atolvorator longipectoralis_ (Pz. UERJ 486; Pz. UERJ 487; Pz. UERJ 496 a e b; Pz. UERJ 508 a e b; Pz. UERJ 509; Pz. UERJ 510)\
+**Minimum age:** 121.4Ma\
+**Minimum justification:** The oldest-known stem-group alopiform from the Coqueiro Seco Formation (Cretaceous: Barremian), Alagoas, Brazil ([Gallo & Coelho 2008](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** This species is considered an unequivocal total-group aulopiform (phylogenetically uncategorized within Aulopiformes, but potential crown aulopiform based on alepisauroid affinities according to [Davis & Fielitz 2010](https://www.sciencedirect.com/science/article/pii/S1055790310003702)), and therefore an unambiguous eurypterygian.
 
 **Node 1015:** Labriformes | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -227,6 +227,10 @@ Arratia, G. (1998). Basal Teleosts and Teleostean Phylogeny: Response to C. Patt
 
 Betancur-R, R., Wiley, E.O., Arratia, G., Acero, A., Bailly, N., Miya, M., Lecointre, G. and Orti, G., 2017. Phylogenetic classification of bony fishes. BMC evolutionary biology, 17(1), p.162.
 
+Davis, M.P. and Fielitz, C., 2010. Estimating divergence times of lizardfishes and their allies (Euteleostei: Aulopiformes) and the timing of deep-sea adaptations. Molecular Phylogenetics and Evolution, 57(3), pp.1194-1208.
+
+Gallo, V. and Coelho, P.M., 2008. First occurrence of an aulopiform fish in the Barremian of the Sergipe-Alagoas Basin, northeastern Brazil. Mesozoic fishes, 4, pp.351-371.
+
 Giles, S., Xu, G.H., Near, T.J. and Friedman, M., 2017. Early members of ‘living fossil’ lineage imply later origin of modern ray-finned fishes. Nature, 549(7671), pp.265-268.
 
 Hurley IA, Mueller RL, Dunn KA, Schmidt EJ, Friedman M, Ho RK, Prince VE, Yang Z, Thomas MG, Coates MI. 2007. A new time-scale for ray-finned fish evolution. Proc Biol Sci. 274(1609):489-98.
@@ -234,6 +238,8 @@ Hurley IA, Mueller RL, Dunn KA, Schmidt EJ, Friedman M, Ho RK, Prince VE, Yang Z
 Lund, R., 2000. The new actinopterygian order Guildayichthyiformes from the Lower Carboniferous of Montana (USA). Geodiversitas, 22(2) 171-206.
 
 Santini, F. and Tyler, J.C., 2003. A phylogeny of the families of fossil and extant tetraodontiform fishes (Acanthomorpha, Tetraodontiformes), Upper Cretaceous to Recent. Zoological Journal of the Linnean Society, 139(4), pp.565-617.
+
+Silva, H. M. A., and V. Gallo. 2011. Taxonomic review and phylogenetic analysis of Enchodontoidei (Teleostei: Aulopiformes). Anais da Academia Brasileira de Ciências [Annals of the Brazilian Academy of Sciences] 83:483–511.
 
 Stack, J., 2026. An ontological morphological phylogenetic framework for living and extinct ray‐finned fishes (Actinopterygii). The Anatomical Record. _in press_ ar.70090.
 
