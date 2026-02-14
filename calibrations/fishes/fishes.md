@@ -77,16 +77,16 @@
 **Minimum justification:** Based on the oldest-known crown zeiform from the Nardò formation (Cretaceous: Campanian), Lecce, Italy ([Tyler et al. 2000](https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=44152)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** This species is considered an unambiguous crown zeiform, including both morphological and combined-evidence analyses ([Davesne et al. 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/pala.12280); [Grande et al. 2018](https://doi.org/10.1643/CG-17-594)) and “at least five different zeiform lineages were present in the Campanian” ([Tyler & Santini 2005](https://doi.org/10.1111%2Fj.1463-6409.2005.00180.x)). .
+**Discussion:** This species is considered an unambiguous crown zeiform, including both morphological and combined-evidence analyses ([Davesne et al. 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/pala.12280); [Grande et al. 2018](https://doi.org/10.1643/CG-17-594)) and “at least five different zeiform lineages were present in the Campanian” ([Tyler & Santini 2005](https://doi.org/10.1111%2Fj.1463-6409.2005.00180.x)).
 
-**Node 1099:** Esociformes + Salmoniformes | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 1099:** Esociformes + Salmoniformes | 76.2–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Esox lucius_ () and _Salmo trutta_ ().\
+**Fossil taxon:** _Oldmanesox canadensis_ (TMP 86.23.51)\
+**Minimum age:** 76.2Ma\
+**Minimum justification:** Based on the oldest-known esocid from the Oldman formation (Cretaceous: Campanian), Alberta, Canada, providing a more specific minimum age ([Wilson et al. 1992](https://doi.org/10.1017/S0022336000020849)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** [Wilson et al. (1992)](https://doi.org/10.1017/S0022336000020849) considered this species to be an esocid. The same deposits also contain _Estesesox_, but this taxon is apparently less closely related to extant esocids.
 
 **Node 1109:** Gobionidae + Leuciscidae | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -282,5 +282,7 @@ Tyler, J.C. and Sorbini, L., 1996. New superfamily and three new families of tet
 Tyler, J.C., Bronzi, P. and Ghiandoni, A., 2000. The Cretaceous fishes of Nardò 11. A new genus and species of Zeiformes, Cretazeus rinaldii, the earliest record for the order. Bollettino del Museo Civico di Storia Naturale di Verona, Geologia Paleontologia Preistoria, 24, pp.11-28.
 
 Tyler, J.C. and Santini, F., 2005. A phylogeny of the fossil and extant zeiform‐like fishes, Upper Cretaceous to Recent, with comments on the putative zeomorph clade (Acanthomorpha). Zoologica Scripta, 34(2), pp.157-175.
+
+Wilson, M.V., Brinkman, D.B. and Neuman, A.G., 1992. Cretaceous Esocoidei (Teleostei): early radiation of the pikes in North American fresh waters. Journal of Paleontology, 66(5), pp.839-846.
 
 Wilson, C.D., Mansky, C.F. & Anderson, J.S. 2021. A platysomid occurrence from the Tournaisian of Nova Scotia. Sci Rep 11, 8375.
