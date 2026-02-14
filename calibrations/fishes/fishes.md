@@ -21,7 +21,7 @@
 **Minimum justification:** The oldest-known stem-group alopiform from the Coqueiro Seco Formation (Cretaceous: Barremian), Alagoas, Brazil ([Gallo & Coelho 2008](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** This species is considered an unequivocal total-group aulopiform (phylogenetically uncategorized within Aulopiformes, but potential crown aulopiform based on alepisauroid affinities according to [Davis & Fielitz 2010](https://www.sciencedirect.com/science/article/pii/S1055790310003702)), and therefore an unambiguous eurypterygian.
+**Discussion:** This species is considered an unequivocal total-group aulopiform (phylogenetically uncategorized within Aulopiformes by [Silva & Gallo 2011](https://doi.org/10.1590/S0001-37652011000200010), but potential crown aulopiform based on alepisauroid affinities according to [Davis & Fielitz 2010](https://www.sciencedirect.com/science/article/pii/S1055790310003702)), and therefore an unambiguous eurypterygian (see [Newbrey & Konishi 2015](https://www.tandfonline.com/doi/abs/10.1080/02724634.2014.918042); [Near & Thacker 2024](https://bioone.org/journals/bulletin-of-the-peabody-museum-of-natural-history/volume-65/issue-1/014.065.0101/Phylogenetic-Classification-of-Living-and-Fossil-Ray-Finned-Fishes-Actinopterygii/10.3374/014.065.0101.short)).
 
 **Node 1015:** Labriformes | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -236,6 +236,10 @@ Giles, S., Xu, G.H., Near, T.J. and Friedman, M., 2017. Early members of ‘livi
 Hurley IA, Mueller RL, Dunn KA, Schmidt EJ, Friedman M, Ho RK, Prince VE, Yang Z, Thomas MG, Coates MI. 2007. A new time-scale for ray-finned fish evolution. Proc Biol Sci. 274(1609):489-98.
 
 Lund, R., 2000. The new actinopterygian order Guildayichthyiformes from the Lower Carboniferous of Montana (USA). Geodiversitas, 22(2) 171-206.
+
+Near, T.J. and Thacker, C.E., 2024. Phylogenetic classification of living and fossil ray-finned fishes (Actinopterygii). Bulletin of the Peabody Museum of Natural History, 65(1), pp.3-302.
+
+Newbrey, M.G. and Konishi, T., 2015. A new lizardfish (Teleostei, Aulopiformes) from the Late Cretaceous Bearpaw Formation of Alberta, Canada, with a revised diagnosis of Apateodus (Aulopiformes, Ichthyotringoidei). Journal of Vertebrate Paleontology, 35(3), p.e918042.
 
 Santini, F. and Tyler, J.C., 2003. A phylogeny of the families of fossil and extant tetraodontiform fishes (Acanthomorpha, Tetraodontiformes), Upper Cretaceous to Recent. Zoological Journal of the Linnean Society, 139(4), pp.565-617.
 
