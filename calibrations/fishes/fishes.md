@@ -77,7 +77,7 @@
 **Minimum justification:** Based on the oldest-known crown zeiform from the Nardò formation (Cretaceous: Campanian), Lecce, Italy ([Tyler et al. 2000](https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=44152)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** This species is considered an unambiguous crown zeiform, including both morphological and combined-evidence analyses ([Davesne et al. 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/pala.12280)) and “at least five different zeiform lineages were present in the Campanian” ([Tyler & Santini 2005](https://doi.org/10.1111%2Fj.1463-6409.2005.00180.x)). .
+**Discussion:** This species is considered an unambiguous crown zeiform, including both morphological and combined-evidence analyses ([Davesne et al. 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/pala.12280); [Grande et al. 2018](https://doi.org/10.1643/CG-17-594)) and “at least five different zeiform lineages were present in the Campanian” ([Tyler & Santini 2005](https://doi.org/10.1111%2Fj.1463-6409.2005.00180.x)). .
 
 **Node 1099:** Esociformes + Salmoniformes | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -248,6 +248,8 @@ Delbarre, D.J., Davesne, D. and Friedman, M., 2016. Anatomy and relationships of
 Gallo, V. and Coelho, P.M., 2008. First occurrence of an aulopiform fish in the Barremian of the Sergipe-Alagoas Basin, northeastern Brazil. Mesozoic fishes, 4, pp.351-371.
 
 Giles, S., Xu, G.H., Near, T.J. and Friedman, M., 2017. Early members of ‘living fossil’ lineage imply later origin of modern ray-finned fishes. Nature, 549(7671), pp.265-268.
+
+Grande, T.C., Borden, W.C., Wilson, M.V. and Scarpitta, L., 2018. Phylogenetic relationships among fishes in the order Zeiformes based on molecular and morphological data. Ichthyology & Herpetology, 106(1), pp.20-48.
 
 Hurley IA, Mueller RL, Dunn KA, Schmidt EJ, Friedman M, Ho RK, Prince VE, Yang Z, Thomas MG, Coates MI. 2007. A new time-scale for ray-finned fish evolution. Proc Biol Sci. 274(1609):489-98.
 
