@@ -61,14 +61,14 @@
 **Discussion:** Considered a centriscoid by [Cantalice & Alvarado-Ortega (2016)](https://doi.org/10.26879/682), or else a stem syngnathiform or stem-syngnathoid ([Brownstein 2023](https://doi.org/10.1093/iob/obad011); other suborders not sampled).\
 **$XXX WHAT DOES THIS MEAN:** "Depending on the placement of other suborders, we would risk overestimating the node age, if the node were not organically estimated to be much older than this fossil."
 
-**Node 1084:** Lampridiformes + Polymixiiformes | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 1084:** Lampridiformes + Polymixiiformes | 93.9–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Polymixia lowei_ () and _Lampris incognitus_ ().\
+**Fossil taxon:** _Aipichthys pretiosus_ (NHMW 1857.XXXVIII.7)\
+**Minimum age:** 93.9Ma\
+**Minimum justification:** Based on the oldest-known from the Komen Limestone, Komen Municipality, Slovenia ([Palci et al. 2008](https://www.sciencedirect.com/science/article/pii/S0195667107001097)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** Considered a stem lampridomorph by Davesne et al. (2014) based numerous synapomorphies, and by the morphological phylogenetic analysis of Delbarre et al. (2016).
 
 **Node 1087:** Zeogadaria | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -256,6 +256,8 @@ Monsch, K.A. and Bannikov, A.F., 2011. New taxonomic synopses and revision of th
 Near, T.J. and Thacker, C.E., 2024. Phylogenetic classification of living and fossil ray-finned fishes (Actinopterygii). Bulletin of the Peabody Museum of Natural History, 65(1), pp.3-302.
 
 Newbrey, M.G. and Konishi, T., 2015. A new lizardfish (Teleostei, Aulopiformes) from the Late Cretaceous Bearpaw Formation of Alberta, Canada, with a revised diagnosis of Apateodus (Aulopiformes, Ichthyotringoidei). Journal of Vertebrate Paleontology, 35(3), p.e918042.
+
+Palci, A., Jurkovšek, B., Kolar-Jurkovšek, T. and Caldwell, M.W., 2008. New palaeoenvironmental model for the Komen (Slovenia) Cenomanian (Upper Cretaceous) fossil lagerstätte. Cretaceous Research, 29(2), pp.316-328.
 
 Santini, F. and Tyler, J.C., 2003. A phylogeny of the families of fossil and extant tetraodontiform fishes (Acanthomorpha, Tetraodontiformes), Upper Cretaceous to Recent. Zoological Journal of the Linnean Society, 139(4), pp.565-617.
 
