@@ -16,7 +16,7 @@
 ### Controversies
 
 **Node 980:** Actinopteri | 330.3–**$XXX**Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Acipenser ruthenus_ and _Takifugu rubripes_.\
+**Node calibrated:** Last common ancestor of the clade encompassing _Acipenser ruthenus_ (Acipenseriformes: Acipenseridae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
 **Fossil taxon:** _Platysomus superbus_ (NHMUK PV P 4060)\
 **Minimum age:** 330.3Ma\
 **Minimum justification:** Specimens of Platysomidae from the Glencartholm Volcanic Beds (Carboniferous: Viséan), Scotland, United Kingdom were included in crown Actinopteri by the phylogenetic analysis of [Stack (2026)](https://doi.org/10.1002/ar.70090) as guildayichthyiforms (see [Lund 2000](https://sciencepress.mnhn.fr/sites/default/files/articles/pdf/g2000n2a2.pdf)), based on a number of synapomorphies. Placement in crown Actinopteri was also estimated by [Giles et al. (2017)](https://www.nature.com/articles/nature23654) using a total-evidence approach.\
