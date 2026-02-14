@@ -51,14 +51,14 @@
 **Maximum justification:** \
 **Discussion:** Eocoelopomins are considered total-group scombrids and therefore unequivocal crown pelagiarians ([Monsch & Bannikov 2012](https://www.cambridge.org/core/journals/earth-and-environmental-science-transactions-of-royal-society-of-edinburgh/article/new-taxonomic-synopses-and-revision-of-the-scombroid-fishes-scombroidei-perciformes-including-billfishes-from-the-cenozoic-of-territories-of-the-former-ussr/37C191646AD6ECED0B473DE94B6971EC); [Beckett & Friedman 2016](https://pubs.geoscienceworld.org/books/edited-volume/2011/chapter/16307715)).
 
-**Node 1076:** Syngnatharia | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 1076:** Syngnatharia | 72.2–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Aulostomus maculatus_ () and _Syngnathus acus_ ().\
+**Fossil taxon:** _Gasterorhamphosus zuppichini_ (MCSNV 877)\
+**Minimum age:** 72.2Ma\
+**Minimum justification:** The oldest-known crown syngnatharian from the Calcari de Melissano formation (Cretaceous: Campanian), Lecce, Italy ([Sorbini 1981](https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=44150)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** **$XXX WHAT DOES THIS MEAN:** "Depending on the placement of other suborders, we would risk overestimating the node age, if the node were not organically estimated to be much older than this fossil."
 
 **Node 1084:** Lampridiformes + Polymixiiformes | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -257,6 +257,8 @@ Santini, F. and Tyler, J.C., 2003. A phylogeny of the families of fossil and ext
 Silva, H. M. A., and V. Gallo. 2011. Taxonomic review and phylogenetic analysis of Enchodontoidei (Teleostei: Aulopiformes). Anais da Academia Brasileira de Ciências [Annals of the Brazilian Academy of Sciences] 83:483–511.
 
 Smith, W.L., Everman, E. and Richardson, C., 2018. Phylogeny and taxonomy of flatheads, scorpionfishes, sea robins, and stonefishes (Percomorpha: Scorpaeniformes) and the evolution of the lachrymal saber. Ichthyology & Herpetology, 106(1), pp.94-119.
+
+Sorbini, L. 1981. The cretaceous fishes of Nardo I. Order Gasterosteiformes (Pisces). Bollettino del Museo Civico di Storia Naturale di Verona, 8:1-27.
 
 Stack, J., 2026. An ontological morphological phylogenetic framework for living and extinct ray‐finned fishes (Actinopterygii). The Anatomical Record. _in press_ ar.70090.
 
