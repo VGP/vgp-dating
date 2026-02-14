@@ -46,7 +46,7 @@
 **Node calibrated:** Last common ancestor of the clade encompassing _Arripis georgiana_ () and _Scomber scombrus_ ().\
 **Fossil taxon:** _Eocoelopoma portentosum_ (PIN 1762/85)\
 **Minimum age:** 54.2Ma\
-**Minimum justification:** The oldest-known stem scombrid and therefore from the \
+**Minimum justification:** The oldest-known crown pelagiarian from the Danata formation (Eocene: Ypresian), Balkan region, Turkmenistan, associated with the layers around the Paleocene-Eocene Thermal Maximum providing t ([Bannikov & Erebakan 2023](https://link.springer.com/article/10.1134/S0031030123050015)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
 **Discussion:** .
