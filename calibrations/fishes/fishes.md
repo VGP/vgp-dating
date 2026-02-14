@@ -40,7 +40,7 @@
 **Minimum justification:** The oldest-known taxon from this group based on a number of synapomorphies, from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Marramà et al. 2020](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** [Marramà et al. (2020)](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf) assigned this taxon to “Scorpaenoidei” _sensu_ [Smith et al. (2018)](https://asih.kglmeridian.com/view/journals/cope/106/1/article-p94.xml), which is not monophyletic, as it incldes scorpaenids and triglids but not cottoids, gasterosteoids, or zoarcoids. Node 1025 represents the MRCA of this grouping as well as the aforementioned groups.
 
 **Node 1071:** Pelagiaria | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -249,6 +249,8 @@ Newbrey, M.G. and Konishi, T., 2015. A new lizardfish (Teleostei, Aulopiformes) 
 Santini, F. and Tyler, J.C., 2003. A phylogeny of the families of fossil and extant tetraodontiform fishes (Acanthomorpha, Tetraodontiformes), Upper Cretaceous to Recent. Zoological Journal of the Linnean Society, 139(4), pp.565-617.
 
 Silva, H. M. A., and V. Gallo. 2011. Taxonomic review and phylogenetic analysis of Enchodontoidei (Teleostei: Aulopiformes). Anais da Academia Brasileira de Ciências [Annals of the Brazilian Academy of Sciences] 83:483–511.
+
+Smith, W.L., Everman, E. and Richardson, C., 2018. Phylogeny and taxonomy of flatheads, scorpionfishes, sea robins, and stonefishes (Percomorpha: Scorpaeniformes) and the evolution of the lachrymal saber. Ichthyology & Herpetology, 106(1), pp.94-119.
 
 Stack, J., 2026. An ontological morphological phylogenetic framework for living and extinct ray‐finned fishes (Actinopterygii). The Anatomical Record. _in press_ ar.70090.
 
