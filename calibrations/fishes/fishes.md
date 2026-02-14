@@ -34,7 +34,7 @@
 **$XXX SHOULD THIS NODE BE RENAMED? ISN'T IT CROWN LABRIDAE?**
 
 **Node 1025:** Scorpaenidae + Triglidae + Cottoidei + Gasterosteoidei + Zoarcoidei | 48.7–**$XXX**Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Sebastes fasciatus_ () and _Pholis gunnellus_ ().\
+**Node calibrated:** Last common ancestor of the clade encompassing _Sebastes fasciatus_ (Scorpaenidae) and _Pholis gunnellus_ (Pholidae).\
 **Fossil taxon:** "Monte Bolca scorpaenoid" (MCSNV IG.VR.66957)\
 **Minimum age:** 48.7Ma\
 **Minimum justification:** The oldest-known taxon from this group based on a number of synapomorphies, from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Marramà et al. 2020](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf)).\
