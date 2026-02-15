@@ -161,14 +161,14 @@
 **Maximum justification:** \
 **Discussion:** Considered an unambiguous elasmobranch ([Frey et al. 2019](https://doi.org/10.1098/rspb.2019.1336)), and slightly older than more recently described congeners. This taxon has a wide distribution ([Ivanov 2021](https://link.springer.com/article/10.1134/S0031030121030096)) and is putatively known from other Givetian deposits including the referenced specimen from the Rockport Quarry Limestone formation, Michigan, United States ([Swinehart et al. 2020](https://doi.org/10.1674/0003-0031-184.1.109)).
 
-**Node 1140:** Carcharhiniformes + Lamniformes | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 1140:** Carcharhiniformes + Lamniformes | 165.3–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Carcharodon carcharias_ () and _Mustelus asterias_ ().\
+**Fossil taxon:** _Palaeoscyllium tenuidens_ (BMNH P. 66045)\
+**Minimum age:** 165.3Ma\
+**Minimum justification:** Based on the oldes-known crown-group carchariform from the Forest Marble formation (Jurassic: Bathonian), England, United Kingdom ([Underwood & Ward 2004](https://doi.org/10.1111/j.0031-0239.2004.00386.x)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** Described from teeth only and xonsidered a total-group scyliorhinid ([Underwood & Ward 2004](https://doi.org/10.1111/j.0031-0239.2004.00386.x)) and therefore an unequivocal crown carcharhiniform.
 
 **Node 1145:** Batomorpha | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -298,6 +298,8 @@ Tyler, J.C. and Sorbini, L., 1996. New superfamily and three new families of tet
 Tyler, J.C., Bronzi, P. and Ghiandoni, A., 2000. The Cretaceous fishes of Nardò 11. A new genus and species of Zeiformes, Cretazeus rinaldii, the earliest record for the order. Bollettino del Museo Civico di Storia Naturale di Verona, Geologia Paleontologia Preistoria, 24, pp.11-28.
 
 Tyler, J.C. and Santini, F., 2005. A phylogeny of the fossil and extant zeiform‐like fishes, Upper Cretaceous to Recent, with comments on the putative zeomorph clade (Acanthomorpha). Zoologica Scripta, 34(2), pp.157-175.
+
+Underwood, C.J. and Ward, D.J., 2004. Neoselachian sharks and rays from the British Bathonian (Middle Jurassic). Palaeontology, 47(3), pp.447-501.
 
 Wick, S.L., 2021. New early Campanian characiform fishes (Otophysi: Characiformes) from West Texas support a south American origin for known late cretaceous characiforms from North America. Cretaceous Research, 128, p.104993.
 
