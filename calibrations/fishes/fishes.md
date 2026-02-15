@@ -159,7 +159,7 @@
 **Minimum justification:** Based on the oldest-known crown-group chondrichthyan from the Cedar Valley Limestone formation (Devonian: Givetian), Iowa, United States ([Ginter et al. 2010](https://pfeil-verlag.de/publikationen/handbook-of-paleoichthyology-chondrichthyes-%C2%B7-paleozoic-elasmobranchii-teeth/)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** Considered an unambiguous elasmobranch ([Frey et al. 2019](https://doi.org/10.1098/rspb.2019.1336)), and slightly older than more recently described congeners. This taxon has a wide distribution and is putatively known from other Givetian deposits including the referenced specimen from the Rockport Quarry Limestone formation, Michigan, United States ([Swinehart et al. 2020](https://doi.org/10.1674/0003-0031-184.1.109)).
+**Discussion:** Considered an unambiguous elasmobranch ([Frey et al. 2019](https://doi.org/10.1098/rspb.2019.1336)), and slightly older than more recently described congeners. This taxon has a wide distribution ([Ivanov 2021](https://link.springer.com/article/10.1134/S0031030121030096)) and is putatively known from other Givetian deposits including the referenced specimen from the Rockport Quarry Limestone formation, Michigan, United States ([Swinehart et al. 2020](https://doi.org/10.1674/0003-0031-184.1.109)).
 
 **Node 1140:** Carcharhiniformes + Lamniformes | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -260,6 +260,8 @@ Ginter M, Hampe O, Duffin CJ. 2010 Chondrichthyes: Paleozoic Elasmobranchii: tee
 Grande, T.C., Borden, W.C., Wilson, M.V. and Scarpitta, L., 2018. Phylogenetic relationships among fishes in the order Zeiformes based on molecular and morphological data. Ichthyology & Herpetology, 106(1), pp.20-48.
 
 Hurley IA, Mueller RL, Dunn KA, Schmidt EJ, Friedman M, Ho RK, Prince VE, Yang Z, Thomas MG, Coates MI. 2007. A new time-scale for ray-finned fish evolution. Proc Biol Sci. 274(1609):489-98.
+
+Ivanov, A.O., 2021. A new phoebodontid shark from the Devonian of the Urals and the distribution of Phoebodus species. Paleontological Journal, 55(3), pp.301-310.
 
 Lund, R., 2000. The new actinopterygian order Guildayichthyiformes from the Lower Carboniferous of Montana (USA). Geodiversitas, 22(2) 171-206.
 
