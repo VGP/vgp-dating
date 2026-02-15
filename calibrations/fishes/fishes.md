@@ -95,16 +95,16 @@
 **Minimum justification:** The oldest-known crown-group fossil for this taxon, from the Wolfsheim formation (Oligocene: Rupelian), Hesse, Germany, assigned to MP24 by the authors ([Schulz-Mirbach & Reichenberger 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).\
 **Maximum age:** Ma\
 **Maximum justification:** \
-**Discussion:** A stem-group "tincid," known from otoliths and a pharyngeal tooth ([Schulz-Mirbach & Reichenberger 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).
+**Discussion:** A stem-group tincid, known from otoliths and a pharyngeal tooth ([Schulz-Mirbach & Reichenberger 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).
 
-**Node 1110:** Leuciscidae | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 1110:** Leuciscidae | 23.0–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Cyprinella venusta_ () and _Phoxinus phoxinus_ ().\
+**Fossil taxon:** _Palaeorutilus papyraceus_ (University of Leipzig Ro-6)\
+**Minimum age:** 23.0Ma\
+**Minimum justification:** The oldest-known crown-group leuciscid from the Enspel formation (Oligocene: Chattian), Rhineland-Palatinate, Germany, assigned to MP30 ([Böhme 2000](https://link.springer.com/content/pdf/10.1007/BF02987956.pdf)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** This species is a “phoxinine” cyprininid according to Böhme ([2000](https://link.springer.com/content/pdf/10.1007/BF02987956.pdf), [2007](https://publikace.nm.cz/en/file/4edb6e44511173742abdfbb4095e6440/15857/04_sbornik_B_2-4_07_bohme.pdf)), though this fossil is not especially well-documented.
 
 **Node :**  | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -234,6 +234,10 @@ Bannikov, A.F. and Sorbini, L., 1990. Eocoris blotti, a new genus and species of
 Beckett, H.T. and Friedman, M., 2016. The one that got away from Smith Woodward: cranial anatomy of Micrornatus (Acanthomorpha: Scombridae) revealed using computed microtomography. From: Johanson, Z., Barrett, P. M., Richter, M. & Smith, M. (eds) 2016. Arthur Smith Woodward: His Life and Influence on Modern Vertebrate Palaeontology. Geological Society, London, Special Publications, 430, 337– 353. 
 
 Betancur-R, R., Wiley, E.O., Arratia, G., Acero, A., Bailly, N., Miya, M., Lecointre, G. and Orti, G., 2017. Phylogenetic classification of bony fishes. BMC evolutionary biology, 17(1), p.162.
+
+Böhme, M., 2000. Die Cypriniden (Teleostei: Cypriniformes) des oberoligozänen Maares von Enspel nebst Bemerkungen zur Phylogenie und Biogeographie der Phoxininae. Paläontologische Zeitschrift, 74(1), pp.99-112.
+
+Böhme, M., 2007. Revision of the cyprinids from the Early Oligocene of the České Středohoří Mountains, and the phylogenetic relationships of Protothymallus Laube 1901 (Teleostei, Cyprinidae, Gobioninae). Acta Musei nationalis Pragae, 63(2-4), pp.175-194.
 
 Brownstein, C.D., 2023. Syngnathoid evolutionary history and the conundrum of fossil misplacement. Integrative Organismal Biology, 5(1), p.obad011.
 
