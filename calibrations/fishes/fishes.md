@@ -152,14 +152,14 @@
 **Maximum justification:** \
 **Discussion:** Considered a stem-amiiform (or a non-amiiform stem-halecomorph) by most recent studies ([Hurley et al. 2007](https://royalsocietypublishing.org/rspb/article/274/1609/489/48161), [Arygyriou et al. 2022](https://doi.org/10.7554/eLife.58433)), though [Giles et al. (2017)](https://www.nature.com/articles/nature23654) consider it to be a stem-holostean.
 
-**Node 1135:** Chondrichthyes | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 1135:** Chondrichthyes | 382.3–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Hydrolagus colliei_ () and _Mustelus asterias_ ().\
+**Fossil taxon:** _Phoebodus sophiae_ (DMF 5296)\
+**Minimum age:** 382.3Ma\
+**Minimum justification:** Based on the oldest-known crown-group chondrichthyan from the Cedar Valley Limestone formation (Devonian: Givetian), Iowa, United States ([Ginter et al. 2010](https://pfeil-verlag.de/publikationen/handbook-of-paleoichthyology-chondrichthyes-%C2%B7-paleozoic-elasmobranchii-teeth/)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** Considered an unambiguous elasmobranch ([Frey et al. 2019](https://doi.org/10.1098/rspb.2019.1336)), and slightly older than more recently described congeners. This taxon has a wide distribution and is putatively known from other Givetian deposits including the referenced specimen from the Rockport Quarry Limestone formation, Michigan, United States ([Swinehart et al. 2020](https://doi.org/10.1674/0003-0031-184.1.109)).
 
 **Node 1140:** Carcharhiniformes + Lamniformes | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -255,6 +255,8 @@ Gallo, V. and Coelho, P.M., 2008. First occurrence of an aulopiform fish in the 
 
 Giles, S., Xu, G.H., Near, T.J. and Friedman, M., 2017. Early members of ‘living fossil’ lineage imply later origin of modern ray-finned fishes. Nature, 549(7671), pp.265-268.
 
+Ginter M, Hampe O, Duffin CJ. 2010 Chondrichthyes: Paleozoic Elasmobranchii: teeth. In Handbook of paleoichthyology, vol. 3D (ed. Schultze H-P), p. 168, Munchen, Germany: Pfeil.
+
 Grande, T.C., Borden, W.C., Wilson, M.V. and Scarpitta, L., 2018. Phylogenetic relationships among fishes in the order Zeiformes based on molecular and morphological data. Ichthyology & Herpetology, 106(1), pp.20-48.
 
 Hurley IA, Mueller RL, Dunn KA, Schmidt EJ, Friedman M, Ho RK, Prince VE, Yang Z, Thomas MG, Coates MI. 2007. A new time-scale for ray-finned fish evolution. Proc Biol Sci. 274(1609):489-98.
@@ -284,6 +286,8 @@ Smith, W.L., Everman, E. and Richardson, C., 2018. Phylogeny and taxonomy of fla
 Sorbini, L. 1981. The cretaceous fishes of Nardo I. Order Gasterosteiformes (Pisces). Bollettino del Museo Civico di Storia Naturale di Verona, 8:1-27.
 
 Stack, J., 2026. An ontological morphological phylogenetic framework for living and extinct ray‐finned fishes (Actinopterygii). The Anatomical Record. _in press_ ar.70090.
+
+Swinehart, A.L., Hoenig, M.M. and Ginter, M., 2020. A new addition to the Devonian elasmobranch fauna of Michigan, USA. The American midland naturalist, pp.109-115.
 
 Troyer, E.M., Betancur-R, R., Hughes, L.C., Westneat, M., Carnevale, G., White, W.T., Pogonoski, J.J., Tyler, J.C., Baldwin, C.C., Ortí, G. and Brinkworth, A., 2022. The impact of paleoclimatic changes on body size evolution in marine fishes. Proceedings of the National Academy of Sciences, 119(29), p.e2122486119.
 
