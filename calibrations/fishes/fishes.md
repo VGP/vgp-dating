@@ -201,16 +201,9 @@
 
 Underlining the taxa considered to be crown Actinopteri (**Node 980**), the cited sources produce the VGP topology of (Polypteriformes, (<ins>Acipenseriformes</ins>, <ins>Neopterygii</ins>)). The oldest study ([Gardiner & Schaefer 1989](https://academic.oup.com/zoolinnean/article-abstract/97/2/135/2658349)), estimated (Polypteriformes,(_Platysomus_,(<ins>Acipenseriformes</ins>,<ins>Neopterygii</ins>))), while the more recent sources recovered (Polypteriformes,(<ins>Neopterygii</ins>,(<ins>Acipenseriformes,_</ins>Platysomus</ins>_))) or (Polypteriformes,(<ins>Acipenseriformes</ins>,(<ins>Neopterygii</ins>,_<ins>Platysomus</ins>_))). 
 
-A seventh study ([Stack 2026](https://doi.org/10.1002/ar.70090)), used a new morphological matrix without complementary molecular data to estimate extremely unorthodox relationships among extant fishes - (Acipenseriformes,(_Platysomus_,(<ins>Polypteriformes</ins>,(<ins>Lepisosteiformes</ins>,(<ins>Amiiformes</ins>,<ins>Teleostei</ins>))))). The author ultimately put forward a higher-level topology of (Polypteriformes,(<ins>Acipenseriformes</ins>,(<ins>Platysomus</ins>,<ins>Neopterygii</ins>))) following [Near & Thacker (2024)](https://doi.org/10.3374/014.065.0101), which is evidently their primary hypothesis and consistent with the above six sources. A similar issue is seen in [Giles et al. (2022)](https://www.nature.com/articles/s41559-022-01919-4), which includes _Platysomus_ but does not find the same topology as the VGP tree, and does not include molecular data.
+A seventh study ([Stack 2026](https://doi.org/10.1002/ar.70090)), used a new morphological matrix without complementary molecular data to estimate extremely unorthodox relationships among extant fishes - (Acipenseriformes,(_Platysomus_,(<ins>Polypteriformes</ins>,(<ins>Lepisosteiformes</ins>,(<ins>Amiiformes</ins>,<ins>Teleostei</ins>))))). The author ultimately put forward a higher-level topology of (Polypteriformes,(<ins>Acipenseriformes</ins>,(<ins>Platysomus</ins>,<ins>Neopterygii</ins>))) following [Near & Thacker (2024)](https://doi.org/10.3374/014.065.0101), which is evidently their primary hypothesis and consistent with the above six sources. A similar issue is seen in [Giles et al. (2023)](https://www.nature.com/articles/s41559-022-01919-4), which included _Platysomus_ but did not recover the same topology as the VGP tree, and did not include molecular data. 
 
- The phylogenetic analysis of [Stack (2026)](https://doi.org/10.1002/ar.70090) was based on a revised approach to character ontology that has not been corroborated by other authors, and resulted in some unusual relationships among living clades including **$XXX**. As a result, we make a note of caution regarding this calibration, to be assessed by future total-evidence analyses. Other material and characters supporting the monophyly of Platysomidae were discussed by [Wilson et al. (2021)](https://doi.org/10.1038/s41598-021-87027-y).
-
-
-An alternative fossil for this node is Birgeria **$XXX**. This is an unequivocal member of crown Actinopteri, though it is also (relatively) very young, only about 250 Ma, while Actinopteri is generally resolved between 350 and 400 Ma in the literature (and test calibrations).
-
-
-
-
+The phylogenetic analysis of [Stack (2026)](https://doi.org/10.1002/ar.70090) was based on a revised approach to character ontology that has not been corroborated by other authors. As a result, we make a note of caution regarding this calibration, to be assessed by future total-evidence analyses. Other material and characters supporting the monophyly of Platysomidae were discussed by [Wilson et al. (2021)](https://doi.org/10.1038/s41598-021-87027-y). An alternative fossil for this node is _Birgeria_ from the Triassic ([Romano et al. 2017](https://www.cambridge.org/core/journals/journal-of-paleontology/article/marine-early-triassic-actinopterygii-from-elko-county-nevada-usa-implications-for-the-smithian-equatorial-vertebrate-eclipse/6E362373D3CFD016D645AEAC2ED54776), [Ni et al. 2019](https://link.springer.com/article/10.1007/s00015-018-0329-0)). This is an unequivocal member of crown Actinopteri, though it is also (relatively) very young, only about 250 Ma, while Actinopteri is generally resolved between ~350–400Ma in the literature (**$XXX CITATIONS**) and test calibrations.\
 **$XXX WHAT ARE YOU CITING [Hurley et al. (2007)](https://doi.org/10.1098/rspb.2006.3749) FOR?**
 
 
@@ -305,9 +298,13 @@ Near, T.J. and Thacker, C.E., 2024. Phylogenetic classification of living and fo
 
 Newbrey, M.G. and Konishi, T., 2015. A new lizardfish (Teleostei, Aulopiformes) from the Late Cretaceous Bearpaw Formation of Alberta, Canada, with a revised diagnosis of Apateodus (Aulopiformes, Ichthyotringoidei). Journal of Vertebrate Paleontology, 35(3), p.e918042.
 
+Ni, P., Tintori, A., Sun, Z., Lombardo, C. and Jiang, D., 2019. Postcranial skeleton of Birgeria liui (Osteichthyes, Actinopterygii) from the Longobardian (Ladinian, Middle Triassic) of Xingyi, Guizhou, South China. Swiss Journal of Geosciences, 112(2), pp.307-324.
+
 Olsen, P.E., 1984. The skull and pectoral girdle of the parasemionotid fish Watsonulus eugnathoides from the Early Triassic Sakamena Group of Madagascar, with comments on the relationships of the holostean fishes. Journal of Vertebrate Paleontology, 4(3), pp.481-499.
 
 Palci, A., Jurkovšek, B., Kolar-Jurkovšek, T. and Caldwell, M.W., 2008. New palaeoenvironmental model for the Komen (Slovenia) Cenomanian (Upper Cretaceous) fossil lagerstätte. Cretaceous Research, 29(2), pp.316-328.
+
+Romano, C., Jenks, J.F., Jattiot, R., Scheyer, T.M., Bylund, K.G. and Bucher, H., 2017. Marine early Triassic Actinopterygii from Elko County (Nevada, USA): implications for the Smithian equatorial vertebrate eclipse. Journal of Paleontology, 91(5), pp.1025-1046.
 
 Santini, F. and Tyler, J.C., 2003. A phylogeny of the families of fossil and extant tetraodontiform fishes (Acanthomorpha, Tetraodontiformes), Upper Cretaceous to Recent. Zoological Journal of the Linnean Society, 139(4), pp.565-617.
 
