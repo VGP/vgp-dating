@@ -89,13 +89,13 @@
 **Discussion:** [Wilson et al. (1992)](https://doi.org/10.1017/S0022336000020849) considered this species to be an esocid. The same deposits also contain _Estesesox_, but this taxon is apparently less closely related to extant esocids.
 
 **Node 1109:** Gobionidae + Leuciscidae | 27.3–**$XXX**Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Gobio gobio_ () and _Phoxinus phoxinus_ ().\
+**Node calibrated:** Last common ancestor of the clade encompassing _Gobio gobio_ (Gobionidae) and _Phoxinus phoxinus_ (Leuciscidae).\
 **Fossil taxon:** _Palaeotinca moeddeni_ (BSPG 2003 XVIII 51)\
 **Minimum age:** 27.3Ma\
 **Minimum justification:** The oldest-known crown-group fossil for this taxon, from the Wolfsheim formation (Oligocene: Rupelian), Hesse, Germany, assigned to MP24 by the authors ([Schulz-Mirbach & Reichenberger 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).\
 **Maximum age:** Ma\
 **Maximum justification:** \
-**Discussion:** A stem-group tincid known from otoliths and a pharyngeal tooth ([Schulz-Mirbach & Reichenberger 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).
+**Discussion:** A stem-group "tincid," known from otoliths and a pharyngeal tooth ([Schulz-Mirbach & Reichenberger 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).
 
 **Node 1110:** Leuciscidae | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
