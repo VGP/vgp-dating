@@ -106,15 +106,6 @@
 **Maximum justification:** \
 **Discussion:** This species is a “phoxinine” cyprininid according to Böhme ([2000](https://link.springer.com/content/pdf/10.1007/BF02987956.pdf), [2007](https://publikace.nm.cz/en/file/4edb6e44511173742abdfbb4095e6440/15857/04_sbornik_B_2-4_07_bohme.pdf)), though this fossil is not especially well-documented.
 
-**Node :**  | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
-**Maximum age:** Ma.\
-**Maximum justification:** \
-**Discussion:** .
-
 **Node 1117:** Barbinae + Cyprininae | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
 **Fossil taxon:** __ ()\
