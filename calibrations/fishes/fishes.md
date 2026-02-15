@@ -25,7 +25,7 @@
 
 **Node 1015:** Labriformes | 48.7–**$XXX**Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Choerodon schoenleinii_ (Labridae: Hypsigenyinae) and _Labrus mixtus_ (Labridae: Labrinae).\
-**Fossil taxon:** _Phyllopharyngodon longipinnis_ (T.149, T.150; Museo Civico de Storia Naturale di Verona)\
+**Fossil taxon:** _Phyllopharyngodon longipinnis_ (T.149–150; Museo Civico de Storia Naturale di Verona)\
 **Minimum age:** 48.7Ma\
 **Minimum justification:** The oldest-known crown labriform from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Bellwood et al. 2018](https://www.jstor.org/stable/26595690)).\
 **Maximum age:** Ma.\
