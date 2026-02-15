@@ -162,13 +162,13 @@
 **Discussion:** Considered an unambiguous elasmobranch ([Frey et al. 2019](https://doi.org/10.1098/rspb.2019.1336)), and slightly older than more recently described congeners. This taxon has a wide distribution ([Ivanov 2021](https://link.springer.com/article/10.1134/S0031030121030096)) and is putatively known from other Givetian deposits including the referenced specimen from the Rockport Quarry Limestone formation, Michigan, United States ([Swinehart et al. 2020](https://doi.org/10.1674/0003-0031-184.1.109)).
 
 **Node 1140:** Carcharhiniformes + Lamniformes | 165.3–**$XXX**Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Carcharodon carcharias_ () and _Mustelus asterias_ ().\
+**Node calibrated:** Last common ancestor of the clade encompassing _Carcharodon carcharias_ (Lamniformes: Lamnidae) and _Mustelus asterias_ (Carchariniformes: Triakidae).\
 **Fossil taxon:** _Palaeoscyllium tenuidens_ (BMNH P. 66045)\
 **Minimum age:** 165.3Ma\
-**Minimum justification:** Based on the oldes-known crown-group carchariform from the Forest Marble formation (Jurassic: Bathonian), England, United Kingdom ([Underwood & Ward 2004](https://doi.org/10.1111/j.0031-0239.2004.00386.x)).\
+**Minimum justification:** Based on the oldes-known stem-group carchariform from the Forest Marble formation (Jurassic: Bathonian), England, United Kingdom ([Underwood & Ward 2004](https://doi.org/10.1111/j.0031-0239.2004.00386.x)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** Described from teeth only and xonsidered a total-group scyliorhinid ([Underwood & Ward 2004](https://doi.org/10.1111/j.0031-0239.2004.00386.x)) and therefore an unequivocal crown carcharhiniform.
+**Discussion:** Described from teeth only and considered a total-group scyliorhinid ([Underwood & Ward 2004](https://doi.org/10.1111/j.0031-0239.2004.00386.x)) and therefore an unequivocal crown carcharhiniform.
 
 **Node 1145:** Batomorpha | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
