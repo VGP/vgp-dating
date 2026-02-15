@@ -153,7 +153,7 @@
 **Discussion:** Considered a stem-amiiform (or a non-amiiform stem-halecomorph) by most recent studies ([Hurley et al. 2007](https://royalsocietypublishing.org/rspb/article/274/1609/489/48161), [Arygyriou et al. 2022](https://doi.org/10.7554/eLife.58433)), though [Giles et al. (2017)](https://www.nature.com/articles/nature23654) consider it to be a stem-holostean.
 
 **Node 1135:** Chondrichthyes | 382.3–**$XXX**Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Hydrolagus colliei_ () and _Mustelus asterias_ ().\
+**Node calibrated:** Last common ancestor of the clade encompassing _Hydrolagus colliei_ (Chimaeriformes: Chimaeridae) and _Mustelus asterias_ (Carchariniformes: Triakidae).\
 **Fossil taxon:** _Phoebodus sophiae_ (DMF 5296)\
 **Minimum age:** 382.3Ma\
 **Minimum justification:** Based on the oldest-known crown-group chondrichthyan from the Cedar Valley Limestone formation (Devonian: Givetian), Iowa, United States ([Ginter et al. 2010](https://pfeil-verlag.de/publikationen/handbook-of-paleoichthyology-chondrichthyes-%C2%B7-paleozoic-elasmobranchii-teeth/)).\
