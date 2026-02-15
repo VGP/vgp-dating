@@ -88,14 +88,14 @@
 **Maximum justification:** \
 **Discussion:** [Wilson et al. (1992)](https://doi.org/10.1017/S0022336000020849) considered this species to be an esocid. The same deposits also contain _Estesesox_, but this taxon is apparently less closely related to extant esocids.
 
-**Node 1109:** Gobionidae + Leuciscidae | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
-**Maximum age:** Ma.\
+**Node 1109:** Gobionidae + Leuciscidae | 27.3–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Gobio gobio_ () and _Phoxinus phoxinus_ ().\
+**Fossil taxon:** _Palaeotinca moeddeni_ (BSPG 2003 XVIII 51)\
+**Minimum age:** 27.3Ma\
+**Minimum justification:** The oldest-known crown-group fossil for this taxon, from the Wolfsheim formation (Oligocene: Rupelian), Hesse, Germany, assigned to MP24 by the authors ([Schulz-Mirbach & Reichenberger 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).\
+**Maximum age:** Ma\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** A stem-group tincid known from otoliths and a pharyngeal tooth ([Schulz-Mirbach & Reichenberger 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).
 
 **Node 1110:** Leuciscidae | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -266,6 +266,8 @@ Newbrey, M.G. and Konishi, T., 2015. A new lizardfish (Teleostei, Aulopiformes) 
 Palci, A., Jurkovšek, B., Kolar-Jurkovšek, T. and Caldwell, M.W., 2008. New palaeoenvironmental model for the Komen (Slovenia) Cenomanian (Upper Cretaceous) fossil lagerstätte. Cretaceous Research, 29(2), pp.316-328.
 
 Santini, F. and Tyler, J.C., 2003. A phylogeny of the families of fossil and extant tetraodontiform fishes (Acanthomorpha, Tetraodontiformes), Upper Cretaceous to Recent. Zoological Journal of the Linnean Society, 139(4), pp.565-617.
+
+Schulz-Mirbach, T. and Reichenbacher, B., 2006. Reconstruction of Oligocene and Neogene freshwater fish faunas-an actualistic study on cypriniform otoliths. Acta Palaeontologica Polonica, 51(2) 283-304.
 
 Silva, H. M. A., and V. Gallo. 2011. Taxonomic review and phylogenetic analysis of Enchodontoidei (Teleostei: Aulopiformes). Anais da Academia Brasileira de Ciências [Annals of the Brazilian Academy of Sciences] 83:483–511.
 
