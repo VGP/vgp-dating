@@ -137,11 +137,11 @@
 **Node calibrated:** Last common ancestor of the clade encompassing _Megalops cyprinoides_ () and _Anguilla anguilla_ ().\
 **Fossil taxon:** _Anaethalion knorri_ (Eichstӓtt 2267)\
 **Minimum age:** 149.2Ma\
-**Minimum justification:** Based on the oldest-known crown-group elopomorph from the Torleite formation (Jurassic Kimmeridgian), Bavaria, Germany ([Chellouche et al. 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)).\
+**Minimum justification:** Based on the oldest-known crown-group elopomorph (see [Arratia & Tischler 2010](https://doi.org/10.1002%2Fmmng.201000005)) from the Torleite formation (Jurassic Kimmeridgian), Bavaria, Germany ([Chellouche et al. 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** Though originally described from younger (Tithonian) fossils in Germany, this genus is apparently abundant in nearby Kimmeridgian deposits (Chellouche et al 2012). Another crown-group elopomorph _Elopsomolos_ is approximately contemporary.\
-"Additional sources:   Arratia 1987, Arratia & Tischlinger 2010" **ADDITIONAL SOURCES FOR WHAT??**
+**Discussion:** Though originally described from younger (Tithonian) fossils in Germany, this genus is apparently abundant in nearby Kimmeridgian deposits ([Chellouche et al 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)). Another crown-group elopomorph _Elopsomolos_ is approximately contemporary.\
+"Additional sources:   Arratia 1987" **ADDITIONAL SOURCES FOR WHAT??**
 
 **Node 1134:** Holostei | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -218,6 +218,8 @@ Arcila, D. and Tyler, J.C., 2017. Mass extinction in tetraodontiform fishes link
 Arratia, G., 1987. Orthogonikleithrus leichi n. gen., n. sp. (Pisces: Teleostei) from the Late Jurassic of Germany. Paläontologische Zeitschrift, 61(3), pp.309-320.
 
 Arratia, G. (1998). Basal Teleosts and Teleostean Phylogeny: Response to C. Patterson. Copeia, 1998(4), 1109–1113.
+
+Arratia, G. and Tischlinger, H., 2010. The first record of Late Jurassic crossognathiform fishes from Europe and their phylogenetic importance for teleostean phylogeny. Fossil record, 13(2), pp.317-341.
 
 Bellwood, D. R., Schultz, O., Siqueira, A. C., & Cowman, P. F. (2019). A review of the fossil record of the Labridae. Annalen Des Naturhistorischen Museums in Wien. Serie A Für Mineralogie Und Petrographie, Geologie Und Paläontologie, Anthropologie Und Prähistorie, 121, 125–194.
 
