@@ -133,14 +133,15 @@
 **Maximum justification:** \
 **Discussion:** [Wick (2021)](https://doi.org/10.1016/j.cretres.2021.104993) identified _Eotexachara_ as a characiform of South American origin, with affinities to the prochilodontids and curimatids (not sampled) based on tooth and jaw morphology. However, he did not provide a phylogeny to support this supposition. Another crown-group characiform _Primuluchara_ is approximately contemporary.
 
-**Node 1132:** Elopomorpha | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 1132:** Elopomorpha | 149.2–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Megalops cyprinoides_ () and _Anguilla anguilla_ ().\
+**Fossil taxon:** _Anaethalion knorri_ (Eichstӓtt 2267)\
+**Minimum age:** 149.2Ma\
+**Minimum justification:** Based on the oldest-known crown-group elopomorph from the Torleite formation (Jurassic Kimmeridgian), Bavaria, Germany ([Chellouche et al. 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** Though originally described from younger (Tithonian) fossils in Germany, this genus is apparently abundant in nearby Kimmeridgian deposits (Chellouche et al 2012). Another crown-group elopomorph _Elopsomolos_ is approximately contemporary.\
+"Additional sources:   Arratia 1987, Arratia & Tischlinger 2010" **ADDITIONAL SOURCES FOR WHAT??**
 
 **Node 1134:** Holostei | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -233,6 +234,8 @@ Böhme, M., 2007. Revision of the cyprinids from the Early Oligocene of the Čes
 Brownstein, C.D., 2023. Syngnathoid evolutionary history and the conundrum of fossil misplacement. Integrative Organismal Biology, 5(1), p.obad011.
 
 Cantalice, K.M. and Alvarado-Ortega, J., 2016. Eekaulostomus cuevasae gen. and sp. nov., an ancient armored trumpetfish (Aulostomoidea) from Danian (Paleocene) marine deposits of Belisario Domínguez, Chiapas, southeastern Mexico. Palaeontologia Electronica 19.3.53A: 1-24
+
+Chellouche, P., Fürsich, F.T. & Mäuser, M. 2012. Taphonomy of neopterygian fishes from the Upper Kimmeridgian Wattendorf Plattenkalk of Southern Germany. Palaeobio Palaeoenv 92, 99–117.
 
 Chen, G., Chang, MM. & Liu, H. 2015. Revision of Cyprinus maomingensis Liu 1957 and the first discovery of Procypris-like cyprinid (Teleostei, Pisces) from the late Eocene of South China. Sci. China Earth Sci. 58, 1123–1132.
 
