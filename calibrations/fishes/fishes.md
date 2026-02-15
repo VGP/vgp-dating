@@ -141,16 +141,16 @@
 **Maximum age:** Ma.\
 **Maximum justification:** \
 **Discussion:** Though originally described from younger (Tithonian) fossils in Germany, this genus is apparently abundant in nearby Kimmeridgian deposits ([Chellouche et al 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)). Another crown-group elopomorph _Elopsomolos_ is approximately contemporary.\
-"Additional sources:   Arratia 1987" **ADDITIONAL SOURCES FOR WHAT??**
+"Additional sources:   Arratia 1987" **$XXX ADDITIONAL SOURCES FOR WHAT??**
 
-**Node 1134:** Holostei | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 1134:** Holostei | 251.2–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Amia calva_ (Amiiformes: Amiidae) and _Lepisosteus oculatus_ (Lepisosteiformes: Lepisosteidae).\
+**Fossil taxon:** _Watsonulus eugnathoides_ (MCZ 13871–13878)\
+**Minimum age:** 251.2Ma\
+**Minimum justification:** Based on the oldest-known crown-group holostean from the Sakamena formation (Triassic: Induan), Anosy, Madagascar ([Olsen 1994](https://www.tandfonline.com/doi/abs/10.1080/02724634.1984.10012024)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** Considered a stem-amiiform (or a non-amiiform stem-halecomorph) by most recent studies ([Hurley et al. 2007](https://royalsocietypublishing.org/rspb/article/274/1609/489/48161), [Arygyriou et al. 2022](https://doi.org/10.7554/eLife.58433)), though [Giles et al. (2017)](https://www.nature.com/articles/nature23654) consider it to be a stem-holostean.
 
 **Node 1135:** Chondrichthyes | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -215,6 +215,8 @@ Arcila, D., Pyron, R.A., Tyler, J.C., Ortí, G. and Betancur-R, R., 2015. An eva
 
 Arcila, D. and Tyler, J.C., 2017. Mass extinction in tetraodontiform fishes linked to the Palaeocene–Eocene thermal maximum. Proceedings of the Royal Society B: Biological Sciences, 284(1866), p.20171771.
 
+Argyriou, T., Giles, S. and Friedman, M., 2022. A Permian fish reveals widespread distribution of neopterygian-like jaw suspension. Elife, 11, p.e58433.
+
 Arratia, G., 1987. Orthogonikleithrus leichi n. gen., n. sp. (Pisces: Teleostei) from the Late Jurassic of Germany. Paläontologische Zeitschrift, 61(3), pp.309-320.
 
 Arratia, G. (1998). Basal Teleosts and Teleostean Phylogeny: Response to C. Patterson. Copeia, 1998(4), 1109–1113.
@@ -266,6 +268,8 @@ Monsch, K.A. and Bannikov, A.F., 2011. New taxonomic synopses and revision of th
 Near, T.J. and Thacker, C.E., 2024. Phylogenetic classification of living and fossil ray-finned fishes (Actinopterygii). Bulletin of the Peabody Museum of Natural History, 65(1), pp.3-302.
 
 Newbrey, M.G. and Konishi, T., 2015. A new lizardfish (Teleostei, Aulopiformes) from the Late Cretaceous Bearpaw Formation of Alberta, Canada, with a revised diagnosis of Apateodus (Aulopiformes, Ichthyotringoidei). Journal of Vertebrate Paleontology, 35(3), p.e918042.
+
+Olsen, P.E., 1984. The skull and pectoral girdle of the parasemionotid fish Watsonulus eugnathoides from the Early Triassic Sakamena Group of Madagascar, with comments on the relationships of the holostean fishes. Journal of Vertebrate Paleontology, 4(3), pp.481-499.
 
 Palci, A., Jurkovšek, B., Kolar-Jurkovšek, T. and Caldwell, M.W., 2008. New palaeoenvironmental model for the Komen (Slovenia) Cenomanian (Upper Cretaceous) fossil lagerstätte. Cretaceous Research, 29(2), pp.316-328.
 
