@@ -116,7 +116,7 @@
 **Discussion:** Considered a “cyprinin” by the authors, interpreted as an unambiguous crown cyprinine. There is a related cyprinin from the same formation, _Huashancyprinus_, but it is apparently slightly younger.
 
 **Node 1123:** Ariidae + Pangasiidae | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing Pangasianodon hypophthalmus () and Neoarius graeffei ().\
+**Node calibrated:** Last common ancestor of the clade encompassing _Pangasianodon hypophthalmus_ (Pangasiidae) and Neoarius graeffei (Ariidae).\
 **Fossil taxon:** _Qarmoutus hitanensis_ (MUVP 58)\
 **Minimum age:** Ma\
 **Minimum justification:** Based on the oldest-known stem-group ariid from the Birket Qarun Formation (Eocene: Priabonian), Faiyum Governorate, Egypt ([El-Sayed et al. 2017](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172409)).\
