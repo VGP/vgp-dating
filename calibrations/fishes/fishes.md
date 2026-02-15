@@ -125,13 +125,13 @@
 **Discussion:** [El-Sayed et al. (2017)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172409) find this species to be a crown ariine (Bayesian inference) or stem ariid (parsimony); its position within total group ariidae is apparently not contentious.
 
 **Node 1124:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | 72.2–**$XXX**Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Pygocentrus nattereri_ () and _Astyanax mexicanus_ ().\
+**Node calibrated:** Last common ancestor of the clade encompassing _Pygocentrus nattereri_ (Characidae) and _Astyanax mexicanus_ (Acestrorhamphidae).\
 **Fossil taxon:** _Eotexachara malateres_ (TMM 45947-640)\
 **Minimum age:** 72.2Ma\
-**Minimum justification:** Based on the oldest-known stem-group characiform from the Aguja Formation (Cretaceous: Campanian), Texas, United States ([Wick 2021](https://doi.org/10.1016/j.cretres.2021.104993)).\
+**Minimum justification:** Based on the oldest-known crown-group fossil from this clade, from the Aguja formation (Cretaceous: Campanian), Texas, United States ([Wick 2021](https://doi.org/10.1016/j.cretres.2021.104993)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** [Wick (2021)](https://doi.org/10.1016/j.cretres.2021.104993) identified _Eotexachara_ as a characiform of South American origin, with affinities to the prochilodontids and curimatids (not sampled) based on tooth and jaw morphology. However, he did not provide a phylogeny to support this supposition. Another crown-group characiform _Primuluchara_ is approximately contemporary.
 
 **Node 1132:** Elopomorpha | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
