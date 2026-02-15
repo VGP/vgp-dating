@@ -115,20 +115,20 @@
 **Maximum justification:** \
 **Discussion:** Considered a “cyprinin” by the authors, interpreted as an unambiguous crown cyprinine. There is a related cyprinin from the same formation, _Huashancyprinus_, but it is apparently slightly younger.
 
-**Node 1123:** Ariidae + Pangasiidae | Ma\
+**Node 1123:** Ariidae + Pangasiidae | 33.9–**$XXX**Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Pangasianodon hypophthalmus_ (Pangasiidae) and Neoarius graeffei (Ariidae).\
 **Fossil taxon:** _Qarmoutus hitanensis_ (MUVP 58)\
-**Minimum age:** Ma\
+**Minimum age:** 33.9Ma\
 **Minimum justification:** Based on the oldest-known stem-group ariid from the Birket Qarun Formation (Eocene: Priabonian), Faiyum Governorate, Egypt ([El-Sayed et al. 2017](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172409)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
 **Discussion:** [El-Sayed et al. (2017)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172409) find this species to be a crown ariine (Bayesian inference) or stem ariid (parsimony); its position within total group ariidae is apparently not contentious.
 
-**Node 1124:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 1124:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | 72.2–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Pygocentrus nattereri_ () and _Astyanax mexicanus_ ().\
+**Fossil taxon:** _Eotexachara malateres_ (TMM 45947-640)\
+**Minimum age:** 72.2Ma\
+**Minimum justification:** Based on the oldest-known stem-group characiform from the Aguja Formation (Cretaceous: Campanian), Texas, United States ([Wick 2021](https://doi.org/10.1016/j.cretres.2021.104993)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
 **Discussion:** .
@@ -283,6 +283,8 @@ Tyler, J.C. and Sorbini, L., 1996. New superfamily and three new families of tet
 Tyler, J.C., Bronzi, P. and Ghiandoni, A., 2000. The Cretaceous fishes of Nardò 11. A new genus and species of Zeiformes, Cretazeus rinaldii, the earliest record for the order. Bollettino del Museo Civico di Storia Naturale di Verona, Geologia Paleontologia Preistoria, 24, pp.11-28.
 
 Tyler, J.C. and Santini, F., 2005. A phylogeny of the fossil and extant zeiform‐like fishes, Upper Cretaceous to Recent, with comments on the putative zeomorph clade (Acanthomorpha). Zoologica Scripta, 34(2), pp.157-175.
+
+Wick, S.L., 2021. New early Campanian characiform fishes (Otophysi: Characiformes) from West Texas support a south American origin for known late cretaceous characiforms from North America. Cretaceous Research, 128, p.104993.
 
 Wilson, M.V., Brinkman, D.B. and Neuman, A.G., 1992. Cretaceous Esocoidei (Teleostei): early radiation of the pikes in North American fresh waters. Journal of Paleontology, 66(5), pp.839-846.
 
