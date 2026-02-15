@@ -179,14 +179,14 @@
 **Maximum justification:** \
 **Discussion:** Described from a tooth only and considered a stem rajiform ([Stumpf & Kriwet 2019](https://link.springer.com/article/10.1007/s12542-019-00451-4)) and therefore the oldest decisive batomorph fossil.
 
-**Node 1150:** Cyclostomata | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 1150:** Cyclostomata | 358.9–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Myxine glutinosa_ (Myxiniformes: Myxinidae) and _Lampetra fluviatilis_ (Petromyzontiformes: Petromyzontidae).\
+**Fossil taxon:** _Priscomyzon riniensis_ (AM 5750)\
+**Minimum age:** 358.9Ma\
+**Minimum justification:** The oldest-known crown cyclostome from the Witpoort formation (Devonian: Fammenian), Eastern Cape Province, South Africa ([Gess et al. 2006](https://www.nature.com/articles/nature05150)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** Considered a stem petromyzontiform and therefore an unequivocal crown cyclostome ([Gess et al 2006](https://www.nature.com/articles/nature05150), [Miyashita et al. 2021](https://www.nature.com/articles/s41586-021-03305-9)).
 
 ### Controversies
 
@@ -206,7 +206,8 @@
 **Minimum justification:** The oldest-known putative stem tetraodontiform from the Sannine Formation (Cretaceous: Cenomanian), Keserwan-Jbeil Governorate, Lebanon, based on a number of proposed unequivocal synapomorphies [(Tyler & Sorbini 1996)](http://dx.doi.org/10.5479/si.00810266.82.1).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** Though its placement has historically been contentious (**$XXX**), this and related genera are now widely considered stem tetraodontiforms following [Arcila et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1055790314003625), a total-evidence analysis based on the morphological matrix of [Santini & Tyler (2003)](https://academic.oup.com/zoolinnean/article-abstract/139/4/565/2624208). This placement was corroborated by the inclusion of lophiiform terminals by [Arcila & Tyler (2017)](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2017.1771) and [Troyer et al. 2022](https://www.pnas.org/doi/abs/10.1073/pnas.2122486119). In that matrix, _Plectocretacicus_ is united with tetraodontiforms relative to caproiforms by twelve character transformations recovered consistently under both parsimony and likelihood (characters 13, 25, 26, 32, 34, 66, 81, 82, 95, 97, 100, and 101). Additional support comes from three further characters recovered under parsimony alone (12, 20, 46) and two recovered under likelihood alone (24, 35). An independent and larger set of axial-skeletal and dorsal-fin support characters (146, 147, 158, 162, 163, 164, 166, 167, 182, 187, 190, 195, 196, 204, 206–209) consistently unites tetraodontiforms and lophiiforms to the exclusion of caproiforms.\
+**Discussion:** Though its placement has historically been contentious (**$XXX**), this and related genera are now widely considered stem tetraodontiforms following [Arcila et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1055790314003625), a total-evidence analysis based on the morphological matrix of [Santini & Tyler (2003)](https://academic.oup.com/zoolinnean/article-abstract/139/4/565/2624208). This placement was corroborated by the inclusion of lophiiform terminals by [Arcila & Tyler (2017)](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2017.1771) and [Troyer et al. 2022](https://www.pnas.org/doi/abs/10.1073/pnas.2122486119). In that matrix, _Plectocretacicus_ is united with tetraodontiforms relative to caproiforms by twelve character transformations recovered consistently under both parsimony and likelihood (characters 13, 25, 26, 32, 34, 66, 81, 82, 95, 97, 100, and 101). Additional support comes from three further characters recovered under parsimony alone (12, 20, 46) and two recovered under likelihood alone (24, 35). An independent and larger set of axial-skeletal and dorsal-fin support characters (146, 147, 158, 162, 163, 164, 166, 167, 182, 187, 190, 195, 196, 204, 206–209) consistently unites tetraodontiforms and lophiiforms to the exclusion of caproiforms.
+
 Even though earlier papers found a significant effect of _Plectocretacicus_ on percomorph ages (**$XXX**), more taxonomically-comprehensive chronograms show that this calibration point is actually consistent with older ages than expected (**$XXX expected by?**) throughout Eupercaria and Percomorpha (**$XXX**). The remaining controversy concerns two related points: **(i)** the morphological matrices arising from [Santini & Tyler (2003)](https://academic.oup.com/zoolinnean/article-abstract/139/4/565/2624208) have sampled at most one outgroup from Caproiformes (Caproidae: _Antigonia capros_) and the more distant Zeiformes (Cyttidae: _Cyttus novaezealandiae_), limiting possibility of other topological resolutions with respect to the closely-related Priacanthiformes, Scatophagidae, or Siganidae (the latter two being order-level _incertae sedis_ after [Betancur-R. et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3)), and **(ii)** as a result of the limited taxon sampling, character sampling is also limited and does not appear to provide any unambiguous synapomorphies or character states that are diagnostic in combination which can discriminate between the placement of _Plectocretacicus_ on the stem of Tetraodontiformes (**Node 1012**), the stem of Lophiiformes + Tetraodontiformes (**Node 1011**), or the stem of Scatophagidae + (Lophiiformes + Tetraodontiformes) represented by **Node 1001**.
 
 
@@ -254,6 +255,8 @@ El-Sayed, S.E., Kora, M.A., Sallam, H.M., Claeson, K.M., Seiffert, E.R. and Anta
 
 Gallo, V. and Coelho, P.M., 2008. First occurrence of an aulopiform fish in the Barremian of the Sergipe-Alagoas Basin, northeastern Brazil. Mesozoic fishes, 4, pp.351-371.
 
+Gess, R., Coates, M. & Rubidge, B. 2006. A lamprey from the Devonian period of South Africa. Nature 443, 981–984.
+
 Giles, S., Xu, G.H., Near, T.J. and Friedman, M., 2017. Early members of ‘living fossil’ lineage imply later origin of modern ray-finned fishes. Nature, 549(7671), pp.265-268.
 
 Ginter M, Hampe O, Duffin CJ. 2010 Chondrichthyes: Paleozoic Elasmobranchii: teeth. In Handbook of paleoichthyology, vol. 3D (ed. Schultze H-P), p. 168, Munchen, Germany: Pfeil.
@@ -267,6 +270,8 @@ Ivanov, A.O., 2021. A new phoebodontid shark from the Devonian of the Urals and 
 Lund, R., 2000. The new actinopterygian order Guildayichthyiformes from the Lower Carboniferous of Montana (USA). Geodiversitas, 22(2) 171-206.
 
 Marramà, G., Bannikov, A.F. and Carnevale, G., 2020. An Eocene scorpionfish from Monte Postale (Bolca Lagerstätte, northeastern Italy). Bollettino della Società Paleontologica Italiana, 59(2), p.106.
+
+Miyashita, T., Gess, R.W., Tietjen, K. and Coates, M.I., 2021. Non-ammocoete larvae of Palaeozoic stem lampreys. Nature, 591(7850), pp.408-412.
 
 Monsch, K.A. and Bannikov, A.F., 2011. New taxonomic synopses and revision of the scombroid fishes (Scombroidei, Perciformes), including billfishes, from the Cenozoic of territories of the former USSR. Earth and Environmental Science Transactions of the Royal Society of Edinburgh, 102(4), pp.253-300.
 
