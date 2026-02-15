@@ -43,7 +43,7 @@
 **Discussion:** [Marramà et al. (2020)](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf) assigned this taxon to “Scorpaenoidei” _sensu_ [Smith et al. (2018)](https://asih.kglmeridian.com/view/journals/cope/106/1/article-p94.xml), which is not monophyletic, as it includes scorpaenids and triglids but not cottoids, gasterosteoids, or zoarcoids. Node 1025 represents the MRCA of this grouping as well as the aforementioned groups.
 
 **Node 1071:** Pelagiaria | 54.2–**$XXX**Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Arripis georgiana_ () and _Scomber scombrus_ ().\
+**Node calibrated:** Last common ancestor of the clade encompassing _Arripis georgiana_ (Arripidae) and _Scomber scombrus_ (Scombridae).\
 **Fossil taxon:** _Eocoelopoma portentosum_ (PIN 1762/85)\
 **Minimum age:** 54.2Ma\
 **Minimum justification:** The oldest-known crown pelagiarian from the Danata formation (Eocene: Ypresian), Balkan region, Turkmenistan, associated with the layers just after the Paleocene-Eocene Thermal Maximum providing the more specific earlier minimum age ([Bannikov & Erebakan 2023](https://link.springer.com/article/10.1134/S0031030123050015)).\
@@ -106,14 +106,14 @@
 **Maximum justification:** \
 **Discussion:** This species is a “phoxinine” cyprininid according to Böhme ([2000](https://link.springer.com/content/pdf/10.1007/BF02987956.pdf), [2007](https://publikace.nm.cz/en/file/4edb6e44511173742abdfbb4095e6440/15857/04_sbornik_B_2-4_07_bohme.pdf)), though this fossil is not especially well-documented.
 
-**Node 1117:** Barbinae + Cyprininae | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
+**Node 1117:** Barbinae + Cyprininae | 38.0–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Barbus barbus_ () and _Carassius carassius_ ().\
+**Fossil taxon:** _Eoprocypris maomingensis_ (IVPP V.855)\
 **Minimum age:** Ma\
-**Minimum justification:** \
+**Minimum justification:** Based on the oldest-known crown cyprinine from the Youganwo formation (Eocene: Priabonian), Guangdong, PR China ([Chen et al. 2015](https://link.springer.com/article/10.1007/s11430-015-5085-7)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** Considered a “cyprinin” by the authors, interpreted as an unambiguous crown cyprinine. There is a related cyprinin from the same formation, _Huashancyprinus_, but it is apparently slightly younger.
 
 **Node 1123:** Ariidae + Pangasiidae | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -233,6 +233,8 @@ Böhme, M., 2007. Revision of the cyprinids from the Early Oligocene of the Čes
 Brownstein, C.D., 2023. Syngnathoid evolutionary history and the conundrum of fossil misplacement. Integrative Organismal Biology, 5(1), p.obad011.
 
 Cantalice, K.M. and Alvarado-Ortega, J., 2016. Eekaulostomus cuevasae gen. and sp. nov., an ancient armored trumpetfish (Aulostomoidea) from Danian (Paleocene) marine deposits of Belisario Domínguez, Chiapas, southeastern Mexico. Palaeontologia Electronica 19.3.53A: 1-24
+
+Chen, G., Chang, MM. & Liu, H. 2015. Revision of Cyprinus maomingensis Liu 1957 and the first discovery of Procypris-like cyprinid (Teleostei, Pisces) from the late Eocene of South China. Sci. China Earth Sci. 58, 1123–1132.
 
 Davesne, D., Carnevale, G. and Friedman, M., 2017. Bajaichthys elegans from the Eocene of Bolca (Italy) and the overlooked morphological diversity of Zeiformes (Teleostei, Acanthomorpha). Palaeontology, 60(2), pp.255-268.
 
