@@ -107,7 +107,7 @@
 **Discussion:** This species is a “phoxinine” cyprininid according to Böhme ([2000](https://link.springer.com/content/pdf/10.1007/BF02987956.pdf), [2007](https://publikace.nm.cz/en/file/4edb6e44511173742abdfbb4095e6440/15857/04_sbornik_B_2-4_07_bohme.pdf)), though this fossil is not especially well-documented.
 
 **Node 1117:** Barbinae + Cyprininae | 38.0–**$XXX**Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Barbus barbus_ () and _Carassius carassius_ ().\
+**Node calibrated:** Last common ancestor of the clade encompassing _Barbus barbus_ (Barbinae) and _Carassius carassius_ (Cyprininae).\
 **Fossil taxon:** _Eoprocypris maomingensis_ (IVPP V.855)\
 **Minimum age:** Ma\
 **Minimum justification:** Based on the oldest-known crown cyprinine from the Youganwo formation (Eocene: Priabonian), Guangdong, PR China ([Chen et al. 2015](https://link.springer.com/article/10.1007/s11430-015-5085-7)).\
