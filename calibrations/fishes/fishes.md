@@ -116,13 +116,13 @@
 **Discussion:** Considered a “cyprinin” by the authors, interpreted as an unambiguous crown cyprinine. There is a related cyprinin from the same formation, _Huashancyprinus_, but it is apparently slightly younger.
 
 **Node 1123:** Ariidae + Pangasiidae | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
+**Node calibrated:** Last common ancestor of the clade encompassing Pangasianodon hypophthalmus () and Neoarius graeffei ().\
+**Fossil taxon:** _Qarmoutus hitanensis_ (MUVP 58)\
 **Minimum age:** Ma\
-**Minimum justification:** \
+**Minimum justification:** Based on the oldest-known stem-group ariid from the Birket Qarun Formation (Eocene: Priabonian), Faiyum Governorate, Egypt ([El-Sayed et al. 2017](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172409)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** [El-Sayed et al. (2017)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172409) find this species to be a crown ariine (Bayesian inference) or stem ariid (parsimony); its position within total group ariidae is apparently not contentious.
 
 **Node 1124:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -241,6 +241,8 @@ Davesne, D., Carnevale, G. and Friedman, M., 2017. Bajaichthys elegans from the 
 Davis, M.P. and Fielitz, C., 2010. Estimating divergence times of lizardfishes and their allies (Euteleostei: Aulopiformes) and the timing of deep-sea adaptations. Molecular Phylogenetics and Evolution, 57(3), pp.1194-1208.
 
 Delbarre, D.J., Davesne, D. and Friedman, M., 2016. Anatomy and relationships of† Aipichthys pretiosus and†‘Aipichthys’ nuchalis (Acanthomorpha: Lampridomorpha), with a review of Late Cretaceous relatives of oarfishes and their allies. Journal of Systematic Palaeontology, 14(7), pp.545-567.
+
+El-Sayed, S.E., Kora, M.A., Sallam, H.M., Claeson, K.M., Seiffert, E.R. and Antar, M.S., 2017. A new genus and species of marine catfishes (Siluriformes; Ariidae) from the upper Eocene Birket Qarun Formation, Wadi El-Hitan, Egypt. PLoS One, 12(3), p.e0172409.
 
 Gallo, V. and Coelho, P.M., 2008. First occurrence of an aulopiform fish in the Barremian of the Sergipe-Alagoas Basin, northeastern Brazil. Mesozoic fishes, 4, pp.351-371.
 
