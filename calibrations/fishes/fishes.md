@@ -170,14 +170,14 @@
 **Maximum justification:** \
 **Discussion:** Described from teeth only and considered a total-group scyliorhinid ([Underwood & Ward 2004](https://doi.org/10.1111/j.0031-0239.2004.00386.x)) and therefore an unequivocal crown carcharhiniform.
 
-**Node 1145:** Batomorpha | Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing .\
-**Fossil taxon:** __ ()\
-**Minimum age:** Ma\
-**Minimum justification:** \
+**Node 1145:** Batomorpha | 184.2–**$XXX**Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Raja brachyura_ (Rajiformes: Rajidae) and _Hypanus sabinus_ (Myliobatiformes: Dasyatidae).\
+**Fossil taxon:** _Antiquaobatis grimmenensis_ (GG 438/57)\
+**Minimum age:** 184.2Ma\
+**Minimum justification:** Based on the oldest-known crown batomorph from the Komorowo formation (Jurassic: Pliensbachian), Mecklenburg-Vorpommern, Germany ([Stumpf & Kriwet 2019](https://link.springer.com/article/10.1007/s12542-019-00451-4)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** .
+**Discussion:** Described from a tooth only and considered a stem rajiform ([Stumpf & Kriwet 2019](https://link.springer.com/article/10.1007/s12542-019-00451-4)) and therefore the oldest decisive batomorph fossil.
 
 **Node 1150:** Cyclostomata | Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing .\
@@ -288,6 +288,8 @@ Smith, W.L., Everman, E. and Richardson, C., 2018. Phylogeny and taxonomy of fla
 Sorbini, L. 1981. The cretaceous fishes of Nardo I. Order Gasterosteiformes (Pisces). Bollettino del Museo Civico di Storia Naturale di Verona, 8:1-27.
 
 Stack, J., 2026. An ontological morphological phylogenetic framework for living and extinct ray‐finned fishes (Actinopterygii). The Anatomical Record. _in press_ ar.70090.
+
+Stumpf, S. and Kriwet, J., 2019. A new Pliensbachian elasmobranch (Vertebrata, Chondrichthyes) assemblage from Europe, and its contribution to the understanding of late Early Jurassic elasmobranch diversity and distributional patterns. PalZ, 93(4), pp.637-658.
 
 Swinehart, A.L., Hoenig, M.M. and Ginter, M., 2020. A new addition to the Devonian elasmobranch fauna of Michigan, USA. The American midland naturalist, pp.109-115.
 
