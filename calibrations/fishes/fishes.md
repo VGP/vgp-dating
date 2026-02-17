@@ -8,10 +8,10 @@
 **Node calibrated:** Last common ancestor of the clade encompassing _Conger conger_ (Anguilliformes: Congridae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
 **Fossil taxon:** _Orthogonikleithrus leichi_ (Eichstӓtt 2301)\
 **Minimum age:** 145.5Ma\
-**Minimum justification:** The oldest-known stem euteleost based on a number of synapomorphies ([Arratia 1987](https://link.springer.com/article/10.1007/BF02985911)), from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.\
+**Minimum justification:** The oldest-known stem euteleost based on a number of synapomorphies ([Arratia 1987a](https://link.springer.com/article/10.1007/BF02985911)), from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** A teleost _incertae sedis_ following [Arratia (1987)](https://link.springer.com/article/10.1007/BF02985911), but considered a euteleost by more recent studies, including [Arratia (1998)](https://doi.org/10.2307/1447369).\
+**Discussion:** A teleost _incertae sedis_ following [Arratia (1987a)](https://link.springer.com/article/10.1007/BF02985911), but considered a euteleost by more recent studies, including [Arratia (1998)](https://doi.org/10.2307/1447369).\
 **$XXX IS THIS REALLY A USEFUL CALIBRATION??**
 
 **Node 987:** Eurypterygia | 121.4–**$XXX**Ma\
@@ -23,8 +23,6 @@
 **Maximum justification:** \
 **Discussion:** This species is considered an unequivocal total-group aulopiform (phylogenetically uncategorized within Aulopiformes by [Silva & Gallo 2011](https://doi.org/10.1590/S0001-37652011000200010), but potential crown aulopiform based on alepisauroid affinities according to [Davis & Fielitz 2010](https://www.sciencedirect.com/science/article/pii/S1055790310003702)), and therefore an unambiguous eurypterygian (see [Newbrey & Konishi 2015](https://www.tandfonline.com/doi/abs/10.1080/02724634.2014.918042); [Near & Thacker 2024](https://bioone.org/journals/bulletin-of-the-peabody-museum-of-natural-history/volume-65/issue-1/014.065.0101/Phylogenetic-Classification-of-Living-and-Fossil-Ray-Finned-Fishes-Actinopterygii/10.3374/014.065.0101.short)). Supporting its crown affinities, [Gallo & Coelho (2008)](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf) noted: “It is superficially more similar to Cimolichthyidae and Serrilepidae, differing from those by relevant anatomical details.” These two families are deeply nested inside Aulopiformes following [Davis & Fielitz (2010)](https://www.sciencedirect.com/science/article/pii/S1055790310003702), who also stated that “[w]hile the phylogenetic position of [_Atolvorator_] is unknown, [Gallo and Coelho (2008)](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf) suggested that the taxon shared some morphological similarities with members of Alepisauroidea” and that its “phylogenetic position within Aulopiformes is unknown.”
 
-
-
 **Node 1015:** Labriformes | 48.7–**$XXX**Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Choerodon schoenleinii_ (Labridae: Hypsigenyinae) and _Labrus mixtus_ (Labridae: Labrinae).\
 **Fossil taxon:** _Phyllopharyngodon longipinnis_ (T.149–150; Museo Civico de Storia Naturale di Verona)\
@@ -33,7 +31,6 @@
 **Maximum age:** Ma.\
 **Maximum justification:** \
 **Discussion:** Based on the oldest known hypsigenyin labrid. At least one other distantly-related fossil wrasse genus (_Eocoris_) is also known from the same formation ([Bennikov & Sorbini 1990](https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=5536996)).\
-**$XXX SHOULD THIS NODE BE RENAMED? ISN'T IT CROWN LABRIDAE?**
 
 **Node 1025:** Scorpaenidae + Triglidae + Cottoidei + Gasterosteoidei + Zoarcoidei | 48.7–**$XXX**Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Sebastes fasciatus_ (Scorpaenidae) and _Pholis gunnellus_ (Pholidae).\
@@ -142,8 +139,7 @@
 **Minimum justification:** Based on the oldest-known crown-group elopomorph (see [Arratia & Tischler 2010](https://doi.org/10.1002%2Fmmng.201000005)) from the Torleite formation (Jurassic Kimmeridgian), Bavaria, Germany ([Chellouche et al. 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** Though originally described from younger (Tithonian) fossils in Germany, this genus is apparently abundant in nearby Kimmeridgian deposits ([Chellouche et al 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)). Another crown-group elopomorph _Elopsomolos_ is approximately contemporary.\
-"Additional sources:   Arratia 1987" **$XXX ADDITIONAL SOURCES FOR WHAT??**
+**Discussion:** Though originally described from younger (Tithonian) fossils in Germany, this genus is apparently abundant in nearby Kimmeridgian deposits ([Chellouche et al 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)). Another crown-group elopomorph _Elopsomolos_ is approximately contemporary. A detailed morphological description of _Anaethalion_ was provided by [Arratia (1987b)](https://www.researchgate.net/publication/258820846_Anaethalion_and_similar_teleosts_Actinopterygii_Pisces_from_the_Late_Jurassic_Tithonian_of_southern_Germany_and_their_relationships_Palaeontographica_Abt_A_200_1-44_32).
 
 **Node 1134:** Holostei | 251.2–**$XXX**Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Amia calva_ (Amiiformes: Amiidae) and _Lepisosteus oculatus_ (Lepisosteiformes: Lepisosteidae).\
@@ -232,7 +228,9 @@ Arcila, D. and Tyler, J.C., 2017. Mass extinction in tetraodontiform fishes link
 
 Argyriou, T., Giles, S. and Friedman, M., 2022. A Permian fish reveals widespread distribution of neopterygian-like jaw suspension. Elife, 11, p.e58433.
 
-Arratia, G., 1987. Orthogonikleithrus leichi n. gen., n. sp. (Pisces: Teleostei) from the Late Jurassic of Germany. Paläontologische Zeitschrift, 61(3), pp.309-320.
+Arratia, G., 1987a. Orthogonikleithrus leichi n. gen., n. sp. (Pisces: Teleostei) from the Late Jurassic of Germany. Paläontologische Zeitschrift, 61(3), pp.309-320.
+
+Arratia, G., 1987b. Anaethalion and similar teleosts (Actinopterygii, Pisces) from the Late Jurassic (Tithonian) of southern Germany and their relationships. Palaeontographica Abt. A. Bd. 200: 1-44.
 
 Arratia, G. (1998). Basal Teleosts and Teleostean Phylogeny: Response to C. Patterson. Copeia, 1998(4), 1109–1113.
 
