@@ -57,8 +57,7 @@
 **Minimum justification:** The oldest-known crown syngnatharian from the Calcari de Melissano formation (Cretaceous: Campanian), Lecce, Italy ([Sorbini 1981](https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=44150)).\
 **Maximum age:** Ma.\
 **Maximum justification:** \
-**Discussion:** Considered a centriscoid by [Cantalice & Alvarado-Ortega (2016)](https://doi.org/10.26879/682), or else a stem syngnathiform or stem-syngnathoid ([Brownstein 2023](https://doi.org/10.1093/iob/obad011); other suborders not sampled).\
-**$XXX WHAT DOES THIS MEAN:** "Depending on the placement of other suborders, we would risk overestimating the node age, if the node were not organically estimated to be much older than this fossil."
+**Discussion:** Considered a centriscoid by [Cantalice & Alvarado-Ortega (2016)](https://doi.org/10.26879/682), or else a stem syngnathiform or stem-syngnathoid ([Brownstein 2023](https://doi.org/10.1093/iob/obad011); other suborders not sampled). [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) does not include several major syngnathiform lineages (Mullidae, Callionymidae+Draconettidae, Dactylopteridae, and Pegasidae), which means we can’t decisively consider _Gasterorhamphosus_ a crown-syngnathiform – compare the topologies of Figs 2 and 3 in [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) to see the ambiguity. This uncertainty is compounded by the instability of higher-level syngnatharian relationships across studies - the relationships of [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) are congruent with [Santaquiteria et al. (2021)](https://pubmed.ncbi.nlm.nih.gov/33892493/), but the VGP guide topology finds a non-monophyletic Syngnathoidei: (Aulostomidae,(Callionymidae,Syngnathidae)).
 
 **Node 1084:** Lampridiformes + Polymixiiformes | 93.9–**$XXX**Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Polymixia lowei_ (Polymixiidae) and _Lampris incognitus_ (Lampridae).\
@@ -308,6 +307,8 @@ Olsen, P.E., 1984. The skull and pectoral girdle of the parasemionotid fish Wats
 Palci, A., Jurkovšek, B., Kolar-Jurkovšek, T. and Caldwell, M.W., 2008. New palaeoenvironmental model for the Komen (Slovenia) Cenomanian (Upper Cretaceous) fossil lagerstätte. Cretaceous Research, 29(2), pp.316-328.
 
 Romano, C., Jenks, J.F., Jattiot, R., Scheyer, T.M., Bylund, K.G. and Bucher, H., 2017. Marine early Triassic Actinopterygii from Elko County (Nevada, USA): implications for the Smithian equatorial vertebrate eclipse. Journal of Paleontology, 91(5), pp.1025-1046.
+
+Santaquiteria, A., Siqueira, A.C., Duarte-Ribeiro, E., Carnevale, G., White, W.T., Pogonoski, J.J., Baldwin, C.C., Ortí, G., Arcila, D. and Ricardo, B.R., 2021. Phylogenomics and historical biogeography of seahorses, dragonets, goatfishes, and allies (Teleostei: Syngnatharia): assessing factors driving uncertainty in biogeographic inferences. Systematic Biology, 70(6), pp.1145-1162.
 
 Santini, F. and Tyler, J.C., 2003. A phylogeny of the families of fossil and extant tetraodontiform fishes (Acanthomorpha, Tetraodontiformes), Upper Cretaceous to Recent. Zoological Journal of the Linnean Society, 139(4), pp.565-617.
 
