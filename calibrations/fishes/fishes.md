@@ -155,7 +155,7 @@
 **Minimum age:** 382.3Ma\
 **Minimum justification:** Based on the oldest-known crown-group chondrichthyan from the Cedar Valley Limestone formation (Devonian: Givetian), Iowa, United States ([Ginter et al. 2010](https://pfeil-verlag.de/publikationen/handbook-of-paleoichthyology-chondrichthyes-%C2%B7-paleozoic-elasmobranchii-teeth/)).\
 **Maximum age:** 443.1Ma\
-**Maximum justification:** Based on the Ordovician-Silurian boundary, as the earliest jawed vertebrates are approximately 439 million years old (**ANDREEV ET AL. 2022_**), but no potential crown chondrichthyans are known until at least the Devonian (419.62 to 358.9 Ma).\
+**Maximum justification:** Based on the Ordovician-Silurian boundary, as the earliest jawed vertebrates are approximately 439 million years old (Andreev et al. [2022a](https://www.nature.com/articles/s41586-022-05166-2), [2022b](https://www.nature.com/articles/s41586-022-05233-8)), but no potential crown chondrichthyans are known until at least the Devonian (419.62 to 358.9 Ma).\
 **Discussion:** Considered an unambiguous elasmobranch ([Frey et al. 2019](https://doi.org/10.1098/rspb.2019.1336)), and slightly older than more recently described congeners. This taxon has a wide distribution ([Ivanov 2021](https://link.springer.com/article/10.1134/S0031030121030096)) and is putatively known from other Givetian deposits including the referenced specimen from the Rockport Quarry Limestone formation, Michigan, United States ([Swinehart et al. 2020](https://doi.org/10.1674/0003-0031-184.1.109)).
 
 **Node 1140:** Carcharhiniformes + Lamniformes | 165.3–251.2Ma\
@@ -215,6 +215,10 @@ Even though earlier papers found a significant effect of _Plectocretacicus_ on p
 
 
 ## References
+
+Andreev, P.S., Sansom, I.J., Li, Q., Zhao, W., Wang, J., Wang, C.C., Peng, L., Jia, L., Qiao, T. and Zhu, M., 2022a. The oldest gnathostome teeth. Nature, 609(7929), pp.964-968.
+
+Andreev, P.S., Sansom, I.J., Li, Q., Zhao, W., Wang, J., Wang, C.C., Peng, L., Jia, L., Qiao, T. and Zhu, M., 2022b. Spiny chondrichthyan from the lower Silurian of South China. Nature, 609(7929), pp.969-974.
 
 Arcila, D., Pyron, R.A., Tyler, J.C., Ortí, G. and Betancur-R, R., 2015. An evaluation of fossil tip-dating versus node-age calibrations in tetraodontiform fishes (Teleostei: Percomorphaceae). Molecular Phylogenetics and Evolution, 82, pp.131-145.
 
