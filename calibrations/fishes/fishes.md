@@ -113,31 +113,31 @@
 **Maximum justification:** Based on the K-Pg boundary, as no crown cypriniform fossils are known prior to the Paleogene.\
 **Discussion:** Considered a “cyprinin” by the authors, interpreted as an unambiguous crown cyprinine. There is a related cyprinin from the same formation, _Huashancyprinus_, but it is apparently slightly younger.
 
-**Node 1123:** Ariidae + Pangasiidae | 33.9–**$XXX**Ma\
+**Node 1123:** Ariidae + Pangasiidae | 33.9–125.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Pangasianodon hypophthalmus_ (Pangasiidae) and Neoarius graeffei (Ariidae).\
 **Fossil taxon:** _Qarmoutus hitanensis_ (MUVP 58)\
 **Minimum age:** 33.9Ma\
 **Minimum justification:** Based on the oldest-known stem-group ariid from the Birket Qarun Formation (Eocene: Priabonian), Faiyum Governorate, Egypt ([El-Sayed et al. 2017](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172409)).\
-**Maximum age:** Ma\
-**Maximum justification:** \
+**Maximum age:** 125.0Ma\
+**Maximum justification:** This is a broad calibration, conservatively based on the upper bound of the Barremian. No putative crown or definite stem siluriformes are known from before the Albian, but some have theorized that the biogeography of siluriforms in part reflects the latest stages of Gondwanan vicariance (**$XXX CITATION**), which would have taken place in the Aptian-Albian with the separation of Africa and South America.\
 **Discussion:** [El-Sayed et al. (2017)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172409) find this species to be a crown ariine (Bayesian inference) or stem ariid (parsimony); its position within total group ariidae is apparently not contentious.
 
-**Node 1124:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | 72.2–**$XXX**Ma\
+**Node 1124:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | 72.2–125.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Pygocentrus nattereri_ (Characidae) and _Astyanax mexicanus_ (Acestrorhamphidae).\
 **Fossil taxon:** _Eotexachara malateres_ (TMM 45947-640)\
 **Minimum age:** 72.2Ma\
 **Minimum justification:** Based on the oldest-known crown-group fossil from this clade, from the Aguja formation (Cretaceous: Campanian), Texas, United States ([Wick 2021](https://doi.org/10.1016/j.cretres.2021.104993)).\
-**Maximum age:** Ma\
-**Maximum justification:** \
+**Maximum age:** 125.0Ma\
+**Maximum justification:** Based on the upper bound of the Barremian. No putative crown or definite stem characiforms are known from before the Albian, but some have theorized that the biogeography of characiforms in part reflects the latest stages of Gondwanan vicariance (**$XXX CITATION**), which would have taken place in the Aptian-Albian with the separation of Africa and South America.\
 **Discussion:** [Wick (2021)](https://doi.org/10.1016/j.cretres.2021.104993) identified _Eotexachara_ as a characiform of South American origin, with affinities to the prochilodontids and curimatids (not sampled) based on tooth and jaw morphology. However, he did not provide a phylogeny to support this supposition. Another crown-group characiform _Primuluchara_ is approximately contemporary.
 
-**Node 1132:** Elopomorpha | 149.2–**$XXX**Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Megalops cyprinoides_ () and _Anguilla anguilla_ ().\
+**Node 1132:** Elopomorpha | 149.2–201.5Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Megalops cyprinoides_ (Megalopidae) and _Anguilla anguilla_ (Anguillidae).\
 **Fossil taxon:** _Anaethalion knorri_ (Eichstӓtt 2267)\
 **Minimum age:** 149.2Ma\
 **Minimum justification:** Based on the oldest-known crown-group elopomorph (see [Arratia & Tischler 2010](https://doi.org/10.1002%2Fmmng.201000005)) from the Torleite formation (Jurassic Kimmeridgian), Bavaria, Germany ([Chellouche et al. 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)).\
-**Maximum age:** Ma\
-**Maximum justification:** \
+**Maximum age:** 201.5Ma\
+**Maximum justification:** Based on the Triassic-Jurassic boundary, as Eurypterygia are oseanacephalian teleosts, but no crown or total group oseanacephalans are known before the Jurassic.\
 **Discussion:** Though originally described from younger (Tithonian) fossils in Germany, this genus is apparently abundant in nearby Kimmeridgian deposits ([Chellouche et al 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)). Another crown-group elopomorph _Elopsomolos_ is approximately contemporary. A detailed morphological description of _Anaethalion_ was provided by [Arratia (1987b)](https://www.researchgate.net/publication/258820846_Anaethalion_and_similar_teleosts_Actinopterygii_Pisces_from_the_Late_Jurassic_Tithonian_of_southern_Germany_and_their_relationships_Palaeontographica_Abt_A_200_1-44_32).
 
 **Node 1134:** Holostei | 251.2–**$XXX**Ma\
