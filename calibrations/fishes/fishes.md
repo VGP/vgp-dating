@@ -29,7 +29,7 @@
 **Minimum age:** 48.7Ma\
 **Minimum justification:** The oldest-known crown labriform from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Bellwood et al. 2018](https://www.jstor.org/stable/26595690)).\
 **Maximum age:** 83.6Ma\
-**Maximum justification:** Based on the Age of †_Gasterorhamphosus_ and the oldest percomorph faunas, Percomorpha must have diversified at some point during this interval, but no putative eupercarians are known from earlier in the Cretaceous **_(FRIEDMAN et al. 2023)_**.\
+**Maximum justification:** Based on the Age of †_Gasterorhamphosus_ and the oldest percomorph faunas, Percomorpha must have diversified at some point during this interval, but no putative eupercarians are known from earlier in the Cretaceous ([Friedman et al. 2023](https://doi.org/10.20341/gb.2023.002)).\
 **Discussion:** Based on the oldest known hypsigenyin labrid. At least one other distantly-related fossil wrasse genus (_Eocoris_) is also known from the same formation ([Bennikov & Sorbini 1990](https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=5536996)).\
 
 **Node 1025:** Scorpaenidae + Triglidae + Cottoidea + Gasterosteidae + Zoarcoidea | 48.7–83.6Ma\
@@ -38,7 +38,7 @@
 **Minimum age:** 48.7Ma\
 **Minimum justification:** The oldest-known taxon from this group based on a number of synapomorphies, from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Marramà et al. 2020](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf)).\
 **Maximum age:** 83.6Ma\
-**Maximum justification:** As with the calibration for Labridae (**Node 1015**) above, based on the age of †_Gasterorhamphosus_ and the oldest percomorph faunas, Percomorpha must have diversified at some point during this interval, but no putative eupercarians are known from earlier in the Cretaceous **_(FRIEDMAN et al. 2023)_**.\
+**Maximum justification:** As with the calibration for Labridae (**Node 1015**) above, based on the age of †_Gasterorhamphosus_ and the oldest percomorph faunas, Percomorpha must have diversified at some point during this interval, but no putative eupercarians are known from earlier in the Cretaceous ([Friedman et al. 2023](https://doi.org/10.20341/gb.2023.002)).\
 **Discussion:** [Marramà et al. (2020)](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf) assigned this taxon to “Scorpaenoidei” _sensu_ [Smith et al. (2018)](https://asih.kglmeridian.com/view/journals/cope/106/1/article-p94.xml), which is not monophyletic, as it includes scorpaenids and triglids but not cottoids, gasterosteoids, or zoarcoids. Node 1025 represents the MRCA of this grouping as well as the aforementioned groups.
 
 **Node 1071:** Scombriformes | 54.2–83.6Ma\
@@ -47,7 +47,7 @@
 **Minimum age:** 54.2Ma\
 **Minimum justification:** The oldest-known crown pelagiarian from the Danata formation (Eocene: Ypresian), Balkan region, Turkmenistan, associated with the layers just after the Paleocene-Eocene Thermal Maximum providing the more specific earlier minimum age ([Bannikov & Erebakan 2023](https://link.springer.com/article/10.1134/S0031030123050015)).\
 **Maximum age:** 83.6Ma\
-**Maximum justification:** As with the calibrations for **Nodes 1015** and **1025** above, based on the age of †_Gasterorhamphosus_ and the oldest percomorph faunas, as Percomorpha must have diversified at some point during this interval, but no putative scombriforms are known from earlier in the Cretaceous **_(FRIEDMAN et al. 2023)_**.\
+**Maximum justification:** As with the calibrations for **Nodes 1015** and **1025** above, based on the age of †_Gasterorhamphosus_ and the oldest percomorph faunas, as Percomorpha must have diversified at some point during this interval, but no putative scombriforms are known from earlier in the Cretaceous ([Friedman et al. 2023](https://doi.org/10.20341/gb.2023.002)).\
 **Discussion:** Eocoelopomins are considered total-group scombrids and therefore unequivocal crown pelagiarians ([Monsch & Bannikov 2012](https://www.cambridge.org/core/journals/earth-and-environmental-science-transactions-of-royal-society-of-edinburgh/article/new-taxonomic-synopses-and-revision-of-the-scombroid-fishes-scombroidei-perciformes-including-billfishes-from-the-cenozoic-of-territories-of-the-former-ussr/37C191646AD6ECED0B473DE94B6971EC); [Beckett & Friedman 2016](https://pubs.geoscienceworld.org/books/edited-volume/2011/chapter/16307715)).
 
 **Node 1076:** Syngnathiformes | 72.2–100.5Ma\
@@ -56,7 +56,7 @@
 **Minimum age:** 72.2Ma\
 **Minimum justification:** The oldest-known crown syngnatharian from the Calcari de Melissano formation (Cretaceous: Campanian), Lecce, Italy ([Sorbini 1981](https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=44150)).\
 **Maximum age:** 100.5Ma\
-**Maximum justification:** Based on the Albian-Cenomanian boundary, as the oldest acanthomorph fossils are known from this period ([Davesne et al. 2014](https://academic.oup.com/zoolinnean/article-abstract/172/2/475/3797055); **_FRIEDMAN et al. 2023_**), but no percomorph fossils are known until the oldest total group or crown group syngnathiform †_Gasterorhamphosus_.\
+**Maximum justification:** Based on the Albian-Cenomanian boundary, as the oldest acanthomorph fossils are known from this period ([Davesne et al. 2014](https://academic.oup.com/zoolinnean/article-abstract/172/2/475/3797055); [Friedman et al. 2023](https://doi.org/10.20341/gb.2023.002)), but no percomorph fossils are known until the oldest total group or crown group syngnathiform †_Gasterorhamphosus_.\
 **Discussion:** Considered a centriscoid by [Cantalice & Alvarado-Ortega (2016)](https://doi.org/10.26879/682), or else a stem syngnathiform or stem-syngnathoid ([Brownstein 2023](https://doi.org/10.1093/iob/obad011); other suborders not sampled). [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) does not include several major syngnathiform lineages (Mullidae, Callionymidae + Draconettidae, Dactylopteridae, and Pegasidae), which means we can’t decisively consider _Gasterorhamphosus_ a crown-syngnathiform – compare the topologies of Figs 2 and 3 in [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) to see the ambiguity. This uncertainty is compounded by the instability of higher-level syngnatharian relationships across studies - the relationships of [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) are congruent with [Santaquiteria et al. (2021)](https://pubmed.ncbi.nlm.nih.gov/33892493/), but the VGP guide topology finds a non-monophyletic Syngnathoidei: (Aulostomidae,(Callionymidae,Syngnathidae)).
 
 **Node 1084:** Lampriformes + Polymixiiformes | 93.9–145.0Ma\
@@ -269,6 +269,8 @@ Dornburg, A., Townsend, J.P., Friedman, M. and Near, T.J., 2014. Phylogenetic in
 El-Sayed, S.E., Kora, M.A., Sallam, H.M., Claeson, K.M., Seiffert, E.R. and Antar, M.S., 2017. A new genus and species of marine catfishes (Siluriformes; Ariidae) from the upper Eocene Birket Qarun Formation, Wadi El-Hitan, Egypt. PLoS One, 12(3), p.e0172409.
 
 Friedman, M. and Blom, H., 2006. A new actinopterygian from the Famennian of East Greenland and the interrelationships of Devonian ray-finned fishes. Journal of Paleontology, 80(6), pp.1186-1204.
+
+Friedman, M., Andrews, J.V. and Sanaa, E.S., 2023. The Cretaceous–Paleogene transition in spiny-rayed fishes: surveying “Patterson’s Gap” in the acanthomorph skeletal record André Dumont medalist lecture 2018. Geologica Belgica, Volume 26 (2023) — number 1-2, 1–23.
 
 Gallo, V. and Coelho, P.M., 2008. First occurrence of an aulopiform fish in the Barremian of the Sergipe-Alagoas Basin, northeastern Brazil. Mesozoic fishes, 4, pp.351-371.
 
