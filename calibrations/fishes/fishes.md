@@ -59,13 +59,13 @@
 **Maximum justification:** Based on the Albian-Cenomanian boundary, as the oldest acanthomorph fossils are known from this period ([Davesne et al., 2014](https://academic.oup.com/zoolinnean/article-abstract/172/2/475/3797055); **_FRIEDMAN ET AL., 2023_**), but no percomorph fossils are known until the oldest total group or crown group syngnathiform †_Gasterorhamphosus_.\
 **Discussion:** Considered a centriscoid by [Cantalice & Alvarado-Ortega (2016)](https://doi.org/10.26879/682), or else a stem syngnathiform or stem-syngnathoid ([Brownstein 2023](https://doi.org/10.1093/iob/obad011); other suborders not sampled). [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) does not include several major syngnathiform lineages (Mullidae, Callionymidae+Draconettidae, Dactylopteridae, and Pegasidae), which means we can’t decisively consider _Gasterorhamphosus_ a crown-syngnathiform – compare the topologies of Figs 2 and 3 in [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) to see the ambiguity. This uncertainty is compounded by the instability of higher-level syngnatharian relationships across studies - the relationships of [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) are congruent with [Santaquiteria et al. (2021)](https://pubmed.ncbi.nlm.nih.gov/33892493/), but the VGP guide topology finds a non-monophyletic Syngnathoidei: (Aulostomidae,(Callionymidae,Syngnathidae)).
 
-**Node 1084:** Lampridiformes + Polymixiiformes | 93.9–**$XXX**Ma\
+**Node 1084:** Lampriformes + Polymixiiformes | 93.9–145.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Polymixia lowei_ (Polymixiidae) and _Lampris incognitus_ (Lampridae).\
 **Fossil taxon:** _Aipichthys pretiosus_ (NHMW 1857.XXXVIII.7)\
 **Minimum age:** 93.9Ma\
 **Minimum justification:** Based on the oldest-known from the Komen Limestone, Komen Municipality, Slovenia ([Palci et al. 2008](https://www.sciencedirect.com/science/article/pii/S0195667107001097)).\
-**Maximum age:** Ma\
-**Maximum justification:** \
+**Maximum age:** 145.0Ma\
+**Maximum justification:** Based on the Jurassic-Cretaceous boundary. This is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al., 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al., 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al., 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); Betancur-R et al., 2017; Musilova et al., 2018; Hughes et al., 2018; Ghezelayagh et al., 2022; Brownstein and Near, 2024; Brownstein et al., 2025; Melendez-Vasquez et al., 2025) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
 **Discussion:** Considered a stem lampridomorph by [Davesne et al. (2014)](https://academic.oup.com/zoolinnean/article-abstract/172/2/475/3797055) based numerous synapomorphies, and by the morphological phylogenetic analysis of [Delbarre et al. (2016)](https://doi.org/10.1080/14772019.2015.1078538).
 
 **Node 1087:** Zeogadaria | 72.2–**$XXX**Ma\
@@ -236,6 +236,8 @@ Bannikov, A.F. and Sorbini, L., 1990. Eocoris blotti, a new genus and species of
 
 Beckett, H.T. and Friedman, M., 2016. The one that got away from Smith Woodward: cranial anatomy of Micrornatus (Acanthomorpha: Scombridae) revealed using computed microtomography. From: Johanson, Z., Barrett, P. M., Richter, M. & Smith, M. (eds) 2016. Arthur Smith Woodward: His Life and Influence on Modern Vertebrate Palaeontology. Geological Society, London, Special Publications, 430, 337– 353. 
 
+Betancur-R, R., Broughton, R.E., Wiley, E.O., Carpenter, K., López, J.A., Li, C., Holcroft, N.I., Arcila, D., Sanciangco, M., Cureton Ii, J.C. and Zhang, F., 2013. The tree of life and a new classification of bony fishes. PLoS Currents Tree of Life, 5, ecurrents.tol.53ba26640df0ccaee75bb165c8c26288.
+
 Betancur-R, R., Wiley, E.O., Arratia, G., Acero, A., Bailly, N., Miya, M., Lecointre, G. and Orti, G., 2017. Phylogenetic classification of bony fishes. BMC evolutionary biology, 17(1), p.162.
 
 Böhme, M., 2000. Die Cypriniden (Teleostei: Cypriniformes) des oberoligozänen Maares von Enspel nebst Bemerkungen zur Phylogenie und Biogeographie der Phoxininae. Paläontologische Zeitschrift, 74(1), pp.99-112.
@@ -297,6 +299,8 @@ Miyashita, T., Gess, R.W., Tietjen, K. and Coates, M.I., 2021. Non-ammocoete lar
 Monsch, K.A. and Bannikov, A.F., 2011. New taxonomic synopses and revision of the scombroid fishes (Scombroidei, Perciformes), including billfishes, from the Cenozoic of territories of the former USSR. Earth and Environmental Science Transactions of the Royal Society of Edinburgh, 102(4), pp.253-300.
 
 Near, T.J., Eytan, R.I., Dornburg, A., Kuhn, K.L., Moore, J.A., Davis, M.P., Wainwright, P.C., Friedman, M. and Smith, W.L., 2012. Resolution of ray-finned fish phylogeny and timing of diversification. Proceedings of the National Academy of Sciences, 109(34), pp.13698-13703.
+
+Near, T.J., Dornburg, A., Eytan, R.I., Keck, B.P., Smith, W.L., Kuhn, K.L., Moore, J.A., Price, S.A., Burbrink, F.T., Friedman, M. and Wainwright, P.C., 2013. Phylogeny and tempo of diversification in the superradiation of spiny-rayed fishes. Proceedings of the national Academy of sciences, 110(31), pp.12738-12743.
 
 Near, T.J. and Thacker, C.E., 2024. Phylogenetic classification of living and fossil ray-finned fishes (Actinopterygii). Bulletin of the Peabody Museum of Natural History, 65(1), pp.3-302.
 
