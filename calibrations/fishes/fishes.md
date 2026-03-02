@@ -158,31 +158,31 @@
 **Maximum justification:** Based on the Ordovician-Silurian boundary, as the earliest jawed vertebrates are approximately 439 million years old (**ANDREEV ET AL. 2022_**), but no potential crown chondrichthyans are known until at least the Devonian (419.62 to 358.9 Ma).\
 **Discussion:** Considered an unambiguous elasmobranch ([Frey et al. 2019](https://doi.org/10.1098/rspb.2019.1336)), and slightly older than more recently described congeners. This taxon has a wide distribution ([Ivanov 2021](https://link.springer.com/article/10.1134/S0031030121030096)) and is putatively known from other Givetian deposits including the referenced specimen from the Rockport Quarry Limestone formation, Michigan, United States ([Swinehart et al. 2020](https://doi.org/10.1674/0003-0031-184.1.109)).
 
-**Node 1140:** Carcharhiniformes + Lamniformes | 165.3–**$XXX**Ma\
+**Node 1140:** Carcharhiniformes + Lamniformes | 165.3–251.2Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Carcharodon carcharias_ (Lamniformes: Lamnidae) and _Mustelus asterias_ (Carchariniformes: Triakidae).\
 **Fossil taxon:** _Palaeoscyllium tenuidens_ (BMNH P. 66045)\
 **Minimum age:** 165.3Ma\
 **Minimum justification:** Based on the oldes-known stem-group carchariform from the Forest Marble formation (Jurassic: Bathonian), England, United Kingdom ([Underwood & Ward 2004](https://doi.org/10.1111/j.0031-0239.2004.00386.x)).\
-**Maximum age:** Ma\
-**Maximum justification:** \
+**Maximum age:** 251.2Ma\
+**Maximum justification:** Conservatively based on the Permian-Triassic boundary, as no potential stem or crown group members of either of these orders are known until the Jurassic.\
 **Discussion:** Described from teeth only and considered a total-group scyliorhinid ([Underwood & Ward 2004](https://doi.org/10.1111/j.0031-0239.2004.00386.x)) and therefore an unequivocal crown carcharhiniform.
 
-**Node 1145:** Batomorpha | 184.2–**$XXX**Ma\
+**Node 1145:** Batomorpha | 184.2–251.2Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Raja brachyura_ (Rajiformes: Rajidae) and _Hypanus sabinus_ (Myliobatiformes: Dasyatidae).\
 **Fossil taxon:** _Antiquaobatis grimmenensis_ (GG 438/57)\
 **Minimum age:** 184.2Ma\
 **Minimum justification:** Based on the oldest-known crown batomorph from the Komorowo formation (Jurassic: Pliensbachian), Mecklenburg-Vorpommern, Germany ([Stumpf & Kriwet 2019](https://link.springer.com/article/10.1007/s12542-019-00451-4)).\
-**Maximum age:** Ma\
-**Maximum justification:** \
+**Maximum age:** 251.2Ma\
+**Maximum justification:** Conservatively, based on the Permian-Triassic boundary, as no potential stem or crown group batoids are known until the Jurassic.\
 **Discussion:** Described from a tooth only and considered a stem rajiform ([Stumpf & Kriwet 2019](https://link.springer.com/article/10.1007/s12542-019-00451-4)) and therefore the oldest decisive batomorph fossil.
 
-**Node 1150:** Cyclostomata | 358.9–**$XXX**Ma\
+**Node 1150:** Cyclostomata | 358.9–506.5Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Myxine glutinosa_ (Myxiniformes: Myxinidae) and _Lampetra fluviatilis_ (Petromyzontiformes: Petromyzontidae).\
 **Fossil taxon:** _Priscomyzon riniensis_ (AM 5750)\
 **Minimum age:** 358.9Ma\
 **Minimum justification:** The oldest-known crown cyclostome from the Witpoort formation (Devonian: Fammenian), Eastern Cape Province, South Africa ([Gess et al. 2006](https://www.nature.com/articles/nature05150)).\
-**Maximum age:** Ma\
-**Maximum justification:** \
+**Maximum age:** 506.5Ma\
+**Maximum justification:** Based on the lower bound of the Miaolingian (Cambrian Series 3). Numerous fossil chordates, including stem-chordates (†Pikaia, †Yunnanozoon; [Mussini et al., 2023](https://www.cell.com/current-biology/fulltext/S0960-9822(24)00669-9)), stem or crown tunicates (†Megasiphon; [Nanglu et al. 2023](https://www.nature.com/articles/s41467-023-39012-4)), and stem vertebrates (†Myllokunmingiidae; [Shu et al. 1999](https://www.nature.com/articles/46965)), but no crown vertebrates or crown cyclostomes. \
 **Discussion:** Considered a stem petromyzontiform and therefore an unequivocal crown cyclostome ([Gess et al 2006](https://www.nature.com/articles/nature05150), [Miyashita et al. 2021](https://www.nature.com/articles/s41586-021-03305-9)).
 
 ### Controversies
@@ -304,6 +304,10 @@ Miyashita, T., Gess, R.W., Tietjen, K. and Coates, M.I., 2021. Non-ammocoete lar
 
 Monsch, K.A. and Bannikov, A.F., 2011. New taxonomic synopses and revision of the scombroid fishes (Scombroidei, Perciformes), including billfishes, from the Cenozoic of territories of the former USSR. Earth and Environmental Science Transactions of the Royal Society of Edinburgh, 102(4), pp.253-300.
 
+Mussini, G., Smith, M.P., Vinther, J., Rahman, I.A., Murdock, D.J., Harper, D.A. and Dunn, F.S., 2024. A new interpretation of Pikaia reveals the origins of the chordate body plan. Current Biology, 34(13), pp.2980-2989.
+
+Nanglu, K., Lerosey-Aubril, R., Weaver, J.C. and Ortega-Hernández, J., 2023. A mid-Cambrian tunicate and the deep origin of the ascidiacean body plan. Nature Communications, 14(1), p.3832.
+
 Near, T.J., Eytan, R.I., Dornburg, A., Kuhn, K.L., Moore, J.A., Davis, M.P., Wainwright, P.C., Friedman, M. and Smith, W.L., 2012. Resolution of ray-finned fish phylogeny and timing of diversification. Proceedings of the National Academy of Sciences, 109(34), pp.13698-13703.
 
 Near, T.J., Dornburg, A., Eytan, R.I., Keck, B.P., Smith, W.L., Kuhn, K.L., Moore, J.A., Price, S.A., Burbrink, F.T., Friedman, M. and Wainwright, P.C., 2013. Phylogeny and tempo of diversification in the superradiation of spiny-rayed fishes. Proceedings of the national Academy of sciences, 110(31), pp.12738-12743.
@@ -327,6 +331,8 @@ Santini, F. and Tyler, J.C., 2003. A phylogeny of the families of fossil and ext
 Schulz-Mirbach, T. and Reichenbacher, B., 2006. Reconstruction of Oligocene and Neogene freshwater fish faunas-an actualistic study on cypriniform otoliths. Acta Palaeontologica Polonica, 51(2) 283-304.
 
 Shen, C., 2025. A new early actinopterygian from the Mid-Pennsylvanian Logan Quarry Shale member of Indiana. Plos one, 20(5), p.e0320932.
+
+Shu, D.G., Luo, H.L., Conway Morris, S., Zhang, X.L., Hu, S.X., Chen, L., Han, J.I.A.N., Zhu, M., Li, Y. and Chen, L.Z., 1999. Lower Cambrian vertebrates from south China. Nature, 402(6757), pp.42-46.
 
 Silva, H. M. A., and V. Gallo. 2011. Taxonomic review and phylogenetic analysis of Enchodontoidei (Teleostei: Aulopiformes). Anais da Academia Brasileira de Ciências [Annals of the Brazilian Academy of Sciences] 83:483–511.
 
