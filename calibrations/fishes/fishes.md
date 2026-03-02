@@ -1,4 +1,4 @@
-<img width="468" height="15" alt="image" src="https://github.com/user-attachments/assets/12caf0f1-d4a0-4cb6-b98d-bb33d44411cd" /># Fish calibrations (chondrichthyes & osteichthyes)
+# Fish calibrations (chondrichthyes & osteichthyes)
 
 **$XXX** Expand as needed to explain the background of fish fossil phylogeny and existing resources. Give references to major recent phylogenetic classifications that provide a guide to the names used below.
 
@@ -32,13 +32,13 @@
 **Maximum justification:** Based on the Age of †_Gasterorhamphosus_ and the oldest percomorph faunas, Percomorpha must have diversified at some point during this interval, but no putative eupercarians are known from earlier in the Cretaceous **_(FRIEDMAN ET AL., 2023)_**.\
 **Discussion:** Based on the oldest known hypsigenyin labrid. At least one other distantly-related fossil wrasse genus (_Eocoris_) is also known from the same formation ([Bennikov & Sorbini 1990](https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=5536996)).\
 
-**Node 1025:** Scorpaenidae + Triglidae + Cottoidei + Gasterosteoidei + Zoarcoidei | 48.7–**$XXX**Ma\
+**Node 1025:** Scorpaenidae + Triglidae + Cottoidea + Gasterosteidae + Zoarcoidea | 48.7–83.6Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Sebastes fasciatus_ (Scorpaenidae) and _Pholis gunnellus_ (Pholidae).\
 **Fossil taxon:** "Monte Bolca scorpaenoid" (MCSNV IG.VR.66957)\
 **Minimum age:** 48.7Ma\
 **Minimum justification:** The oldest-known taxon from this group based on a number of synapomorphies, from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Marramà et al. 2020](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf)).\
-**Maximum age:** Ma.\
-**Maximum justification:** \
+**Maximum age:** 83.6Ma\
+**Maximum justification:** As with the calibration for Labridae (**Node 1015**) above, based on the age of †_Gasterorhamphosus_ and the oldest percomorph faunas, Percomorpha must have diversified at some point during this interval, but no putative eupercarians are known from earlier in the Cretaceous **_(FRIEDMAN ET AL., 2023)_**.\
 **Discussion:** [Marramà et al. (2020)](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf) assigned this taxon to “Scorpaenoidei” _sensu_ [Smith et al. (2018)](https://asih.kglmeridian.com/view/journals/cope/106/1/article-p94.xml), which is not monophyletic, as it includes scorpaenids and triglids but not cottoids, gasterosteoids, or zoarcoids. Node 1025 represents the MRCA of this grouping as well as the aforementioned groups.
 
 **Node 1071:** Pelagiaria | 54.2–**$XXX**Ma\
