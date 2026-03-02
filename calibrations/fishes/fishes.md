@@ -65,7 +65,7 @@
 **Minimum age:** 93.9Ma\
 **Minimum justification:** Based on the oldest-known from the Komen Limestone, Komen Municipality, Slovenia ([Palci et al. 2008](https://www.sciencedirect.com/science/article/pii/S0195667107001097)).\
 **Maximum age:** 145.0Ma\
-**Maximum justification:** Based on the Jurassic-Cretaceous boundary. This is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al., 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al., 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al., 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al., 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); Musilova et al., 2018; [Hughes et al., 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al., 2022](https://www.nature.com/articles/s41559-022-01801-3); Brownstein and Near, 2024; Brownstein et al., 2025; Melendez-Vasquez et al., 2025) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
+**Maximum justification:** Based on the Jurassic-Cretaceous boundary. This is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al., 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al., 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al., 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al., 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); Musilova et al., 2018; [Hughes et al., 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al., 2022](https://www.nature.com/articles/s41559-022-01801-3); [Brownstein and Near, 2024](https://academic.oup.com/zoolinnean/article-abstract/201/2/422/7319343); Brownstein et al., 2025; [Melendez-Vasquez et al., 2025](https://www.science.org/doi/abs/10.1126/sciadv.ads8488)) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
 **Discussion:** Considered a stem lampridomorph by [Davesne et al. (2014)](https://academic.oup.com/zoolinnean/article-abstract/172/2/475/3797055) based numerous synapomorphies, and by the morphological phylogenetic analysis of [Delbarre et al. (2016)](https://doi.org/10.1080/14772019.2015.1078538).
 
 **Node 1087:** Zeogadaria | 72.2–**$XXX**Ma\
@@ -246,6 +246,8 @@ Böhme, M., 2007. Revision of the cyprinids from the Early Oligocene of the Čes
 
 Brownstein, C.D., 2023. Syngnathoid evolutionary history and the conundrum of fossil misplacement. Integrative Organismal Biology, 5(1), p.obad011.
 
+Brownstein, C.D. and Near, T.J., 2024. Evolutionary origins of the lampriform pelagic radiation. Zoological Journal of the Linnean Society, 201(2), pp.422-430.
+
 Cantalice, K.M. and Alvarado-Ortega, J., 2016. Eekaulostomus cuevasae gen. and sp. nov., an ancient armored trumpetfish (Aulostomoidea) from Danian (Paleocene) marine deposits of Belisario Domínguez, Chiapas, southeastern Mexico. Palaeontologia Electronica 19.3.53A: 1-24
 
 Chellouche, P., Fürsich, F.T. & Mäuser, M. 2012. Taphonomy of neopterygian fishes from the Upper Kimmeridgian Wattendorf Plattenkalk of Southern Germany. Palaeobio Palaeoenv 92, 99–117.
@@ -293,6 +295,8 @@ Latimer, A.E. and Giles, S., 2018. A giant dapediid from the Late Triassic of Sw
 Lund, R., 2000. The new actinopterygian order Guildayichthyiformes from the Lower Carboniferous of Montana (USA). Geodiversitas, 22(2) 171-206.
 
 Marramà, G., Bannikov, A.F. and Carnevale, G., 2020. An Eocene scorpionfish from Monte Postale (Bolca Lagerstätte, northeastern Italy). Bollettino della Società Paleontologica Italiana, 59(2), p.106.
+
+Melendez-Vazquez, F., Lucaci, A.G., Selberg, A., Clavel, J., Rincon-Sandoval, M., Santaquiteria, A., White, W.T., Drabeck, D., Carnevale, G., Duarte-Ribeiro, E. and Miya, M., 2025. Ecological interactions and genomic innovation fueled the evolution of ray-finned fish endothermy. Science Advances, 11(26), p.eads8488.
 
 Miller, E.C., Faucher, R., Hart, P.B., Rincón-Sandoval, M., Santaquiteria, A., White, W.T., Baldwin, C.C., Miya, M., Betancur-R, R., Tornabene, L. and Evans, K., 2025. Reduced evolutionary constraint accompanies ongoing radiation in deep-sea anglerfishes. Nature Ecology & Evolution, 9(3), pp.474-490.
 
