@@ -65,7 +65,7 @@
 **Minimum age:** 93.9Ma\
 **Minimum justification:** Based on the oldest-known from the Komen Limestone, Komen Municipality, Slovenia ([Palci et al. 2008](https://www.sciencedirect.com/science/article/pii/S0195667107001097)).\
 **Maximum age:** 145.0Ma\
-**Maximum justification:** Based on the Jurassic-Cretaceous boundary. This is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al., 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al., 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al., 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); Betancur-R et al., 2017; Musilova et al., 2018; Hughes et al., 2018; Ghezelayagh et al., 2022; Brownstein and Near, 2024; Brownstein et al., 2025; Melendez-Vasquez et al., 2025) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
+**Maximum justification:** Based on the Jurassic-Cretaceous boundary. This is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al., 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al., 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al., 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al., 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); Musilova et al., 2018; [Hughes et al., 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al., 2022](https://www.nature.com/articles/s41559-022-01801-3); Brownstein and Near, 2024; Brownstein et al., 2025; Melendez-Vasquez et al., 2025) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
 **Discussion:** Considered a stem lampridomorph by [Davesne et al. (2014)](https://academic.oup.com/zoolinnean/article-abstract/172/2/475/3797055) based numerous synapomorphies, and by the morphological phylogenetic analysis of [Delbarre et al. (2016)](https://doi.org/10.1080/14772019.2015.1078538).
 
 **Node 1087:** Zeogadaria | 72.2–**$XXX**Ma\
@@ -271,6 +271,8 @@ Gallo, V. and Coelho, P.M., 2008. First occurrence of an aulopiform fish in the 
 Gardiner, B.G. and Schaeffer, B., 1989. Interrelationships of lower actinopterygian fishes. Zoological Journal of the Linnean Society, 97(2), pp.135-187.
 
 Gess, R., Coates, M. & Rubidge, B. 2006. A lamprey from the Devonian period of South Africa. Nature 443, 981–984.
+
+Ghezelayagh, A., Harrington, R.C., Burress, E.D., Campbell, M.A., Buckner, J.C., Chakrabarty, P., Glass, J.R., McCraney, W.T., Unmack, P.J., Thacker, C.E. and Alfaro, M.E., 2022. Prolonged morphological expansion of spiny-rayed fishes following the end-Cretaceous. Nature Ecology & Evolution, 6(8), pp.1211-1220.
 
 Giles, S., Xu, G.H., Near, T.J. and Friedman, M., 2017. Early members of ‘living fossil’ lineage imply later origin of modern ray-finned fishes. Nature, 549(7671), pp.265-268.
 
