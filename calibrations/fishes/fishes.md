@@ -41,13 +41,13 @@
 **Maximum justification:** As with the calibration for Labridae (**Node 1015**) above, based on the age of †_Gasterorhamphosus_ and the oldest percomorph faunas, Percomorpha must have diversified at some point during this interval, but no putative eupercarians are known from earlier in the Cretaceous **_(FRIEDMAN ET AL., 2023)_**.\
 **Discussion:** [Marramà et al. (2020)](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf) assigned this taxon to “Scorpaenoidei” _sensu_ [Smith et al. (2018)](https://asih.kglmeridian.com/view/journals/cope/106/1/article-p94.xml), which is not monophyletic, as it includes scorpaenids and triglids but not cottoids, gasterosteoids, or zoarcoids. Node 1025 represents the MRCA of this grouping as well as the aforementioned groups.
 
-**Node 1071:** Pelagiaria | 54.2–**$XXX**Ma\
+**Node 1071:** Scombriformes | 54.2–83.6Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Arripis georgiana_ (Arripidae) and _Scomber scombrus_ (Scombridae).\
 **Fossil taxon:** _Eocoelopoma portentosum_ (PIN 1762/85)\
 **Minimum age:** 54.2Ma\
 **Minimum justification:** The oldest-known crown pelagiarian from the Danata formation (Eocene: Ypresian), Balkan region, Turkmenistan, associated with the layers just after the Paleocene-Eocene Thermal Maximum providing the more specific earlier minimum age ([Bannikov & Erebakan 2023](https://link.springer.com/article/10.1134/S0031030123050015)).\
-**Maximum age:** Ma.\
-**Maximum justification:** \
+**Maximum age:** 83.6Ma\
+**Maximum justification:** As with the calibrations for **Nodes 1015** and **1025** above, based on the age of †_Gasterorhamphosus_ and the oldest percomorph faunas, as Percomorpha must have diversified at some point during this interval, but no putative scombriforms are known from earlier in the Cretaceous **_(FRIEDMAN ET AL., 2023)_**.\
 **Discussion:** Eocoelopomins are considered total-group scombrids and therefore unequivocal crown pelagiarians ([Monsch & Bannikov 2012](https://www.cambridge.org/core/journals/earth-and-environmental-science-transactions-of-royal-society-of-edinburgh/article/new-taxonomic-synopses-and-revision-of-the-scombroid-fishes-scombroidei-perciformes-including-billfishes-from-the-cenozoic-of-territories-of-the-former-ussr/37C191646AD6ECED0B473DE94B6971EC); [Beckett & Friedman 2016](https://pubs.geoscienceworld.org/books/edited-volume/2011/chapter/16307715)).
 
 **Node 1076:** Syngnatharia | 72.2–**$XXX**Ma\
