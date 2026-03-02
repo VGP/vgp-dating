@@ -1,4 +1,4 @@
-# Fish calibrations (chondrichthyes & osteichthyes)
+<img width="468" height="15" alt="image" src="https://github.com/user-attachments/assets/12caf0f1-d4a0-4cb6-b98d-bb33d44411cd" /># Fish calibrations (chondrichthyes & osteichthyes)
 
 **$XXX** Expand as needed to explain the background of fish fossil phylogeny and existing resources. Give references to major recent phylogenetic classifications that provide a guide to the names used below.
 
@@ -9,8 +9,8 @@
 **Fossil taxon:** _Orthogonikleithrus leichi_ (Eichstӓtt 2301)\
 **Minimum age:** 145.5Ma\
 **Minimum justification:** The oldest-known stem euteleost based on a number of synapomorphies ([Arratia 1987a](https://link.springer.com/article/10.1007/BF02985911)), from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.\
-**Maximum age:** Ma.\
-**Maximum justification:** \
+**Maximum age:** 298.9Ma.\
+**Maximum justification:** Based on the Carboniferous-Permian Boundary, since crown Actinopterygii and Neopterygii are known from the Permian, but no putative representatives of Pan-Teleostei or Teleostei are known from before the Triassic.\
 **Discussion:** A teleost _incertae sedis_ following [Arratia (1987a)](https://link.springer.com/article/10.1007/BF02985911), but considered a euteleost by more recent studies, including [Arratia (1998)](https://doi.org/10.2307/1447369).\
 **$XXX IS THIS REALLY A USEFUL CALIBRATION??**
 
