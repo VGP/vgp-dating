@@ -86,31 +86,31 @@
 **Maximum justification:** Based on the Triassic-Jurassic boundary, as Eurypterygia are euteleosts, but no crown or total group euteleosts are known before the Jurassic.\
 **Discussion:** [Wilson et al. (1992)](https://doi.org/10.1017/S0022336000020849) considered this species to be an esocid. The same deposits also contain _Estesesox_, but this taxon is apparently less closely related to extant esocids.
 
-**Node 1109:** Gobionidae + Leuciscidae | 27.3–**$XXX**Ma\
+**Node 1109:** Gobionidae + Leuciscidae | 27.3–66.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Gobio gobio_ (Gobionidae) and _Phoxinus phoxinus_ (Leuciscidae).\
 **Fossil taxon:** _Palaeotinca moeddeni_ (BSPG 2003 XVIII 51)\
 **Minimum age:** 27.3Ma\
 **Minimum justification:** The oldest-known crown-group fossil for this taxon, from the Wolfsheim formation (Oligocene: Rupelian), Hesse, Germany, assigned to MP24 by the authors ([Schulz-Mirbach & Reichenberger 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).\
-**Maximum age:** Ma\
-**Maximum justification:** \
+**Maximum age:** 66.0Ma\
+**Maximum justification:** Based on the K-Pg boundary,as no crown cypriniform fossils are known prior to the Paleogene.\
 **Discussion:** A stem-group tincid, known from otoliths and a pharyngeal tooth ([Schulz-Mirbach & Reichenberger 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).
 
-**Node 1110:** Leuciscidae | 23.0–**$XXX**Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Cyprinella venusta_ () and _Phoxinus phoxinus_ ().\
+**Node 1110:** Leuciscidae | 23.0–33.9Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Cyprinella venusta_ (Pogonichthyinae) and _Phoxinus phoxinus_ (Phoxininae).\
 **Fossil taxon:** _Palaeorutilus papyraceus_ (University of Leipzig Ro-6)\
 **Minimum age:** 23.0Ma\
 **Minimum justification:** The oldest-known crown-group leuciscid from the Enspel formation (Oligocene: Chattian), Rhineland-Palatinate, Germany, assigned to MP30 ([Böhme 2000](https://link.springer.com/content/pdf/10.1007/BF02987956.pdf)).\
-**Maximum age:** Ma\
-**Maximum justification:** \
+**Maximum age:** 33.9Ma\
+**Maximum justification:** Based on the Eocene-Oligocene boundary, as no crown leuciscid fossils are known prior to the Oligocene.\
 **Discussion:** This species is a “phoxinine” cyprininid according to Böhme ([2000](https://link.springer.com/content/pdf/10.1007/BF02987956.pdf), [2007](https://publikace.nm.cz/en/file/4edb6e44511173742abdfbb4095e6440/15857/04_sbornik_B_2-4_07_bohme.pdf)), though this fossil is not especially well-documented.
 
-**Node 1117:** Barbinae + Cyprininae | 38.0–**$XXX**Ma\
+**Node 1117:** Barbinae + Cyprininae | 38.0–66.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Barbus barbus_ (Barbinae) and _Carassius carassius_ (Cyprininae).\
 **Fossil taxon:** _Eoprocypris maomingensis_ (IVPP V.855)\
 **Minimum age:** Ma\
 **Minimum justification:** Based on the oldest-known crown cyprinine from the Youganwo formation (Eocene: Priabonian), Guangdong, PR China ([Chen et al. 2015](https://link.springer.com/article/10.1007/s11430-015-5085-7)).\
-**Maximum age:** Ma\
-**Maximum justification:** \
+**Maximum age:** 66.0Ma\
+**Maximum justification:** Based on the K-Pg boundary, as no crown cypriniform fossils are known prior to the Paleogene.\
 **Discussion:** Considered a “cyprinin” by the authors, interpreted as an unambiguous crown cyprinine. There is a related cyprinin from the same formation, _Huashancyprinus_, but it is apparently slightly younger.
 
 **Node 1123:** Ariidae + Pangasiidae | 33.9–**$XXX**Ma\
