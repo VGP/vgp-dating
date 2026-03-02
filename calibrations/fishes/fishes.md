@@ -140,22 +140,22 @@
 **Maximum justification:** Based on the Triassic-Jurassic boundary, as Eurypterygia are oseanacephalian teleosts, but no crown or total group oseanacephalans are known before the Jurassic.\
 **Discussion:** Though originally described from younger (Tithonian) fossils in Germany, this genus is apparently abundant in nearby Kimmeridgian deposits ([Chellouche et al 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)). Another crown-group elopomorph _Elopsomolos_ is approximately contemporary. A detailed morphological description of _Anaethalion_ was provided by [Arratia (1987b)](https://www.researchgate.net/publication/258820846_Anaethalion_and_similar_teleosts_Actinopterygii_Pisces_from_the_Late_Jurassic_Tithonian_of_southern_Germany_and_their_relationships_Palaeontographica_Abt_A_200_1-44_32).
 
-**Node 1134:** Holostei | 251.2–**$XXX**Ma\
+**Node 1134:** Holostei | 251.2–298.9Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Amia calva_ (Amiiformes: Amiidae) and _Lepisosteus oculatus_ (Lepisosteiformes: Lepisosteidae).\
 **Fossil taxon:** _Watsonulus eugnathoides_ (MCZ 13871–13878)\
 **Minimum age:** 251.2Ma\
 **Minimum justification:** Based on the oldest-known crown-group holostean from the Sakamena formation (Triassic: Induan), Anosy, Madagascar ([Olsen 1994](https://www.tandfonline.com/doi/abs/10.1080/02724634.1984.10012024)).\
-**Maximum age:** Ma\
-**Maximum justification:** \
+**Maximum age:** 298.9Ma\
+**Maximum justification:** Based on the Carboniferous-Permian Boundary, as crown Actinopterygii and Neopterygii are known from the Permian, but no putative representatives of Pan-Teleostei or Teleostei are known from before the Triassic.\
 **Discussion:** Considered a stem-amiiform (or a non-amiiform stem-halecomorph) by most recent studies ([Hurley et al. 2007](https://royalsocietypublishing.org/rspb/article/274/1609/489/48161), [Arygyriou et al. 2022](https://doi.org/10.7554/eLife.58433)), though [Giles et al. (2017)](https://www.nature.com/articles/nature23654) consider it to be a stem-holostean.
 
-**Node 1135:** Chondrichthyes | 382.3–**$XXX**Ma\
+**Node 1135:** Chondrichthyes | 382.3–443.1Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Hydrolagus colliei_ (Chimaeriformes: Chimaeridae) and _Mustelus asterias_ (Carchariniformes: Triakidae).\
 **Fossil taxon:** _Phoebodus sophiae_ (DMF 5296)\
 **Minimum age:** 382.3Ma\
 **Minimum justification:** Based on the oldest-known crown-group chondrichthyan from the Cedar Valley Limestone formation (Devonian: Givetian), Iowa, United States ([Ginter et al. 2010](https://pfeil-verlag.de/publikationen/handbook-of-paleoichthyology-chondrichthyes-%C2%B7-paleozoic-elasmobranchii-teeth/)).\
-**Maximum age:** Ma\
-**Maximum justification:** \
+**Maximum age:** 443.1Ma\
+**Maximum justification:** Based on the Ordovician-Silurian boundary, as the earliest jawed vertebrates are approximately 439 million years old (**ANDREEV ET AL. 2022_**), but no potential crown chondrichthyans are known until at least the Devonian (419.62 to 358.9 Ma).\
 **Discussion:** Considered an unambiguous elasmobranch ([Frey et al. 2019](https://doi.org/10.1098/rspb.2019.1336)), and slightly older than more recently described congeners. This taxon has a wide distribution ([Ivanov 2021](https://link.springer.com/article/10.1134/S0031030121030096)) and is putatively known from other Givetian deposits including the referenced specimen from the Rockport Quarry Limestone formation, Michigan, United States ([Swinehart et al. 2020](https://doi.org/10.1674/0003-0031-184.1.109)).
 
 **Node 1140:** Carcharhiniformes + Lamniformes | 165.3–**$XXX**Ma\
