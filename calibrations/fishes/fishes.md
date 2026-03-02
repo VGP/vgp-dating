@@ -65,7 +65,7 @@
 **Minimum age:** 93.9Ma\
 **Minimum justification:** Based on the oldest-known from the Komen Limestone, Komen Municipality, Slovenia ([Palci et al. 2008](https://www.sciencedirect.com/science/article/pii/S0195667107001097)).\
 **Maximum age:** 145.0Ma\
-**Maximum justification:** Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2018](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3); [Brownstein and Near, 2024](https://academic.oup.com/zoolinnean/article-abstract/201/2/422/7319343); **_Brownstein et al. 2025_**; [Melendez-Vasquez et al. 2025](https://www.science.org/doi/abs/10.1126/sciadv.ads8488)) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
+**Maximum justification:** Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2018](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3); [Brownstein and Near, 2024](https://academic.oup.com/zoolinnean/article-abstract/201/2/422/7319343); [Brownstein et al. 2025](https://academic.oup.com/evolut/article-abstract/79/6/922/8051721); [Melendez-Vasquez et al. 2025](https://www.science.org/doi/abs/10.1126/sciadv.ads8488)) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
 **Discussion:** Considered a stem lampridomorph by [Davesne et al. (2014)](https://academic.oup.com/zoolinnean/article-abstract/172/2/475/3797055) based numerous synapomorphies, and by the morphological phylogenetic analysis of [Delbarre et al. (2016)](https://doi.org/10.1080/14772019.2015.1078538).
 
 **Node 1087:** Zeogadaria | 72.2–145.0Ma\
@@ -74,7 +74,7 @@
 **Minimum age:** 72.2Ma\
 **Minimum justification:** Based on the oldest-known crown zeiform from the Nardò formation (Cretaceous: Campanian), Lecce, Italy ([Tyler et al. 2000](https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=44152)).\
 **Maximum age:** 145.0Ma\
-**Maximum justification:** Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2018](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3); [Brownstein and Near, 2024](https://academic.oup.com/zoolinnean/article-abstract/201/2/422/7319343); **_Brownstein et al. 2025_**; [Melendez-Vasquez et al. 2025](https://www.science.org/doi/abs/10.1126/sciadv.ads8488)) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
+**Maximum justification:** Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2018](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3); [Brownstein and Near, 2024](https://academic.oup.com/zoolinnean/article-abstract/201/2/422/7319343); [Brownstein et al. 2025](https://academic.oup.com/evolut/article-abstract/79/6/922/8051721); [Melendez-Vasquez et al. 2025](https://www.science.org/doi/abs/10.1126/sciadv.ads8488)) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
 **Discussion:** This species is considered an unambiguous crown zeiform, including both morphological and combined-evidence analyses ([Davesne et al. 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/pala.12280); [Grande et al. 2018](https://doi.org/10.1643/CG-17-594)) and “at least five different zeiform lineages were present in the Campanian” ([Tyler & Santini 2005](https://doi.org/10.1111%2Fj.1463-6409.2005.00180.x)).
 
 **Node 1099:** Esociformes + Salmoniformes | 76.2–201.5Ma\
@@ -119,7 +119,7 @@
 **Minimum age:** 33.9Ma\
 **Minimum justification:** Based on the oldest-known stem-group ariid from the Birket Qarun Formation (Eocene: Priabonian), Faiyum Governorate, Egypt ([El-Sayed et al. 2017](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172409)).\
 **Maximum age:** 125.0Ma\
-**Maximum justification:** This is a broad calibration, conservatively based on the upper bound of the Barremian. No putative crown or definite stem siluriformes are known from before the Albian, but some have theorized that the biogeography of siluriforms in part reflects the latest stages of Gondwanan vicariance (**$XXX CITATION**), which would have taken place in the Aptian-Albian with the separation of Africa and South America.\
+**Maximum justification:** This is a broad calibration, conservatively based on the upper bound of the Barremian. No putative crown or definite stem siluriformes are known from before the Albian, but some have theorized that the biogeography of siluriforms in part reflects the latest stages of Gondwanan vicariance ([Arroyave et al. 2026](https://www.biorxiv.org/content/10.64898/2026.01.30.702944.abstract); [Kappas et al. 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166988); [Capobianco and Friedman 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12473)), which would have taken place in the Aptian-Albian with the separation of Africa and South America.\
 **Discussion:** [El-Sayed et al. (2017)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172409) find this species to be a crown ariine (Bayesian inference) or stem ariid (parsimony); its position within total group ariidae is apparently not contentious.
 
 **Node 1124:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | 72.2–125.0Ma\
@@ -128,7 +128,7 @@
 **Minimum age:** 72.2Ma\
 **Minimum justification:** Based on the oldest-known crown-group fossil from this clade, from the Aguja formation (Cretaceous: Campanian), Texas, United States ([Wick 2021](https://doi.org/10.1016/j.cretres.2021.104993)).\
 **Maximum age:** 125.0Ma\
-**Maximum justification:** Based on the upper bound of the Barremian. No putative crown or definite stem characiforms are known from before the Albian, but some have theorized that the biogeography of characiforms in part reflects the latest stages of Gondwanan vicariance (**$XXX CITATION**), which would have taken place in the Aptian-Albian with the separation of Africa and South America.\
+**Maximum justification:** Based on the upper bound of the Barremian. No putative crown or definite stem characiforms are known from before the Albian, but some have theorized that the biogeography of characiforms in part reflects the latest stages of Gondwanan vicariance ([Arroyave et al. 2026](https://www.biorxiv.org/content/10.64898/2026.01.30.702944.abstract); [Kappas et al. 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166988); [Capobianco and Friedman 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12473)), which would have taken place in the Aptian-Albian with the separation of Africa and South America.\
 **Discussion:** [Wick (2021)](https://doi.org/10.1016/j.cretres.2021.104993) identified _Eotexachara_ as a characiform of South American origin, with affinities to the prochilodontids and curimatids (not sampled) based on tooth and jaw morphology. However, he did not provide a phylogeny to support this supposition. Another crown-group characiform _Primuluchara_ is approximately contemporary.
 
 **Node 1132:** Elopomorpha | 149.2–201.5Ma\
@@ -230,6 +230,8 @@ Arratia, G. (1998). Basal Teleosts and Teleostean Phylogeny: Response to C. Patt
 
 Arratia, G. and Tischlinger, H., 2010. The first record of Late Jurassic crossognathiform fishes from Europe and their phylogenetic importance for teleostean phylogeny. Fossil record, 13(2), pp.317-341.
 
+Arroyave, J., Mar-Silva, A.F., Gonzalez-Diaz, A.A., Huacuja-Barraza, S., Martinez, C.L., Salinas, N.R., Katawutpoonphan, K., Collins, R.A. and Day, J.J., 2026. African origin and Late Cretaceous divergence of the Middle American catfish Lacantunia enigmatica corroborated by a global mitogenome phylogeny. bioRxiv, pp.2026-01.
+
 Bellwood, D. R., Schultz, O., Siqueira, A. C., & Cowman, P. F. (2019). A review of the fossil record of the Labridae. Annalen Des Naturhistorischen Museums in Wien. Serie A Für Mineralogie Und Petrographie, Geologie Und Paläontologie, Anthropologie Und Prähistorie, 121, 125–194.
 
 Bannikov, A.F. and Sorbini, L., 1990. Eocoris blotti, a new genus and species of labrid fish (Perciformes, Labroidei) from the Eocene of Monte Bolca, Italy. Studi e Ricerche sui giacimenti Terziari di Bolca, 6, pp.133-148.
@@ -248,7 +250,11 @@ Brownstein, C.D., 2023. Syngnathoid evolutionary history and the conundrum of fo
 
 Brownstein, C.D. and Near, T.J., 2024. Evolutionary origins of the lampriform pelagic radiation. Zoological Journal of the Linnean Society, 201(2), pp.422-430.
 
+Brownstein, C.D., Dornburg, A. and Near, T.J., 2025. Cenozoic evolutionary history obscures the Mesozoic origins of acanthopterygian fishes. Evolution, 79(6), pp.922-934.
+
 Cantalice, K.M. and Alvarado-Ortega, J., 2016. Eekaulostomus cuevasae gen. and sp. nov., an ancient armored trumpetfish (Aulostomoidea) from Danian (Paleocene) marine deposits of Belisario Domínguez, Chiapas, southeastern Mexico. Palaeontologia Electronica 19.3.53A: 1-24
+
+Capobianco, A. and Friedman, M., 2019. Vicariance and dispersal in southern hemisphere freshwater fish clades: a palaeontological perspective. Biological Reviews, 94(2), pp.662-699.
 
 Chellouche, P., Fürsich, F.T. & Mäuser, M. 2012. Taphonomy of neopterygian fishes from the Upper Kimmeridgian Wattendorf Plattenkalk of Southern Germany. Palaeobio Palaeoenv 92, 99–117.
 
@@ -293,6 +299,8 @@ Hughes, L.C., Ortí, G., Huang, Y., Sun, Y., Baldwin, C.C., Thompson, A.W., Arci
 Hurley IA, Mueller RL, Dunn KA, Schmidt EJ, Friedman M, Ho RK, Prince VE, Yang Z, Thomas MG, Coates MI. 2007. A new time-scale for ray-finned fish evolution. Proc Biol Sci. 274(1609):489-98.
 
 Ivanov, A.O., 2021. A new phoebodontid shark from the Devonian of the Urals and the distribution of Phoebodus species. Paleontological Journal, 55(3), pp.301-310.
+
+Kappas, I., Vittas, S., Pantzartzi, C.N., Drosopoulou, E. and Scouras, Z.G., 2016. A time-calibrated mitogenome phylogeny of catfish (Teleostei: Siluriformes). PLoS One, 11(12), p.e0166988.
 
 Latimer, A.E. and Giles, S., 2018. A giant dapediid from the Late Triassic of Switzerland and insights into neopterygian phylogeny. Royal Society open science, 5(8).
 
