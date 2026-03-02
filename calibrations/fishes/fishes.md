@@ -14,13 +14,13 @@
 **Discussion:** A teleost _incertae sedis_ following [Arratia (1987a)](https://link.springer.com/article/10.1007/BF02985911), but considered a euteleost by more recent studies, including [Arratia (1998)](https://doi.org/10.2307/1447369).\
 **$XXX IS THIS REALLY A USEFUL CALIBRATION??**
 
-**Node 987:** Eurypterygia | 121.4–**$XXX**Ma\
+**Node 987:** Eurypterygia | 121.4–201.5Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Notolepis coatsi_ (Aulopiformes: Paralepididae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
 **Fossil taxon:** _Atolvorator longipectoralis_ (Pz. UERJ 486–487; 496a,e,b; 508a,e,b; 509–510)\
 **Minimum age:** 121.4Ma\
 **Minimum justification:** The oldest-known putative crown alopiform from the Coqueiro Seco Formation (Cretaceous: Barremian), Alagoas, Brazil ([Gallo & Coelho 2008](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf)).\
-**Maximum age:** Ma.\
-**Maximum justification:** \
+**Maximum age:** 201.5Ma\
+**Maximum justification:** Based on the Triassic-Jurassic boundary, as Eurypterygia are euteleosts, but no crown or total group euteleosts are known before the Jurassic.\
 **Discussion:** This species is considered an unequivocal total-group aulopiform (phylogenetically uncategorized within Aulopiformes by [Silva & Gallo 2011](https://doi.org/10.1590/S0001-37652011000200010), but potential crown aulopiform based on alepisauroid affinities according to [Davis & Fielitz 2010](https://www.sciencedirect.com/science/article/pii/S1055790310003702)), and therefore an unambiguous eurypterygian (see [Newbrey & Konishi 2015](https://www.tandfonline.com/doi/abs/10.1080/02724634.2014.918042); [Near & Thacker 2024](https://bioone.org/journals/bulletin-of-the-peabody-museum-of-natural-history/volume-65/issue-1/014.065.0101/Phylogenetic-Classification-of-Living-and-Fossil-Ray-Finned-Fishes-Actinopterygii/10.3374/014.065.0101.short)). Supporting its crown affinities, [Gallo & Coelho (2008)](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf) noted: “It is superficially more similar to Cimolichthyidae and Serrilepidae, differing from those by relevant anatomical details.” These two families are deeply nested inside Aulopiformes following [Davis & Fielitz (2010)](https://www.sciencedirect.com/science/article/pii/S1055790310003702), who also stated that “[w]hile the phylogenetic position of [_Atolvorator_] is unknown, [Gallo and Coelho (2008)](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf) suggested that the taxon shared some morphological similarities with members of Alepisauroidea” and that its “phylogenetic position within Aulopiformes is unknown.”
 
 **Node 1015:** Labriformes | 48.7–**$XXX**Ma\
