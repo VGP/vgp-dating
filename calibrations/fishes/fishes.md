@@ -23,13 +23,13 @@
 **Maximum justification:** Based on the Triassic-Jurassic boundary, as Eurypterygia are euteleosts, but no crown or total group euteleosts are known before the Jurassic.\
 **Discussion:** This species is considered an unequivocal total-group aulopiform (phylogenetically uncategorized within Aulopiformes by [Silva & Gallo 2011](https://doi.org/10.1590/S0001-37652011000200010), but potential crown aulopiform based on alepisauroid affinities according to [Davis & Fielitz 2010](https://www.sciencedirect.com/science/article/pii/S1055790310003702)), and therefore an unambiguous eurypterygian (see [Newbrey & Konishi 2015](https://www.tandfonline.com/doi/abs/10.1080/02724634.2014.918042); [Near & Thacker 2024](https://bioone.org/journals/bulletin-of-the-peabody-museum-of-natural-history/volume-65/issue-1/014.065.0101/Phylogenetic-Classification-of-Living-and-Fossil-Ray-Finned-Fishes-Actinopterygii/10.3374/014.065.0101.short)). Supporting its crown affinities, [Gallo & Coelho (2008)](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf) noted: “It is superficially more similar to Cimolichthyidae and Serrilepidae, differing from those by relevant anatomical details.” These two families are deeply nested inside Aulopiformes following [Davis & Fielitz (2010)](https://www.sciencedirect.com/science/article/pii/S1055790310003702), who also stated that “[w]hile the phylogenetic position of [_Atolvorator_] is unknown, [Gallo and Coelho (2008)](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf) suggested that the taxon shared some morphological similarities with members of Alepisauroidea” and that its “phylogenetic position within Aulopiformes is unknown.”
 
-**Node 1015:** Labriformes | 48.7–**$XXX**Ma\
+**Node 1015:** Labridae | 48.7–83.6Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Choerodon schoenleinii_ (Labridae: Hypsigenyinae) and _Labrus mixtus_ (Labridae: Labrinae).\
 **Fossil taxon:** _Phyllopharyngodon longipinnis_ (T.149–150; Museo Civico de Storia Naturale di Verona)\
 **Minimum age:** 48.7Ma\
 **Minimum justification:** The oldest-known crown labriform from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Bellwood et al. 2018](https://www.jstor.org/stable/26595690)).\
-**Maximum age:** Ma.\
-**Maximum justification:** \
+**Maximum age:** 83.6Ma\
+**Maximum justification:** Based on the Age of †_Gasterorhamphosus_ and the oldest percomorph faunas, Percomorpha must have diversified at some point during this interval, but no putative eupercarians are known from earlier in the Cretaceous **_(FRIEDMAN ET AL., 2023)_**.\
 **Discussion:** Based on the oldest known hypsigenyin labrid. At least one other distantly-related fossil wrasse genus (_Eocoris_) is also known from the same formation ([Bennikov & Sorbini 1990](https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=5536996)).\
 
 **Node 1025:** Scorpaenidae + Triglidae + Cottoidei + Gasterosteoidei + Zoarcoidei | 48.7–**$XXX**Ma\
