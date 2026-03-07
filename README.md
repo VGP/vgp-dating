@@ -34,8 +34,8 @@ We are using Bayesian dating methodologies implemented in [mcmctree](https://git
 
 The primary outcomes of this effort are:\
 i) A genomic timescale for vertebrate evolution based on the [VGP Phase I](https://github.com/VGP/vgp-trees/tree/main/phase-1) [guide trees](https://github.com/VGP/vgp-dating/blob/main/trees/roadies_v1.1.16b.numbers.scientific.nwk.pdf)\
-ii) A harmonized database of fossil calibrations, which are fundamental in unlocking the temporal dimension of genome evolution\
-iii) An expanded reach and broader integration of the VGP across biology by merging molecular and paleontological approaches
+ii) A harmonized database of fossil calibrations available to researchers for unlocking the temporal dimension of genome evolution\
+iii) An expanded reach and broader integration of the VGP across biological subfields by merging molecular and paleontological approaches
 
 ## Approach
 
