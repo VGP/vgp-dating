@@ -12,7 +12,6 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum age:** 298.9Ma\
 **Maximum justification:** Based on the Carboniferous-Permian Boundary, since crown Actinopterygii and Neopterygii are known from the Permian, but no putative representatives of Pan-Teleostei or Teleostei are known from before the Triassic.\
 **Discussion:** A teleost _incertae sedis_ following [Arratia (1987a)](https://link.springer.com/article/10.1007/BF02985911), but considered a euteleost by more recent studies, including [Arratia (1998)](https://doi.org/10.2307/1447369).\
-**$XXX IS THIS REALLY A USEFUL CALIBRATION??**
 
 **Node 987:** Eurypterygia | 121.4–201.5Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Notolepis coatsi_ (Aulopiformes: Paralepididae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
