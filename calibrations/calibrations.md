@@ -34,6 +34,23 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 
 ## [Fishes](./fishes/fishes.md):
 
+**982:** Teleostei | 145.5–298.9Ma\
+-_Orthogonikleithrus,_ from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.
+
+**987:** Eurypterygia | 121.4–201.5Ma\
+-_Atolvorator,_ from the Coqueiro Seco Formation (Cretaceous: Barremian), Alagoas, Brazil.
+
+**1015:** Labridae | 48.7–83.6Ma\
+-Phyllopharyngodon, from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy.
+
+**1025:** Scorpaenidae + Triglidae + Cottoidea + Gasterosteidae + Zoarcoidea | 48.7–83.6Ma\
+-"Monte Bolca scorpaenoid" from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy.
+
+**1071:** Scombriformes | 54.2–83.6Ma\
+-_Eocoelopoma,_ from the Danata formation (Eocene: Ypresian), Balkan region, Turkmenistan.
+
+
+
 ## [Tetrapods](./tetrapods/tetrapoda.md):
 
 **590:** Tetrapoda: 337-351Ma\
