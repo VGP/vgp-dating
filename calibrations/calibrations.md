@@ -79,6 +79,29 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 **1132:** Elopomorpha | 149.2–201.5Ma\
 -_Anaethalion,_ from the Torleite formation (Jurassic Kimmeridgian), Bavaria, Germany.
 
+**1134:** Holostei | 251.2–298.9Ma\
+-_Watsonulus,_ from the Sakamena formation (Triassic: Induan), Anosy, Madagascar.
+
+**1135:** Chondrichthyes | 382.3–443.1Ma\
+-_Phoebodus,_ from the Cedar Valley Limestone formation (Devonian: Givetian), Iowa, United States.
+
+**1140:** Carcharhiniformes + Lamniformes | 165.3–251.2Ma\
+-_Palaeoscyllium,_ from the Forest Marble formation (Jurassic: Bathonian), England, United Kingdom.
+
+**1145:** Batomorpha | 184.2–251.2Ma\
+-_Antiquaobatis,_ from the Komorowo formation (Jurassic: Pliensbachian), Mecklenburg-Vorpommern, Germany.
+
+**1150:** Cyclostomata | 358.9–506.5Ma\
+-_Priscomyzon,_ from the Witpoort formation (Devonian: Fammenian), Eastern Cape Province, South Africa.
+
+_Controversial Calibrations:_ These fossils are of uncertain phylogenetic placement
+
+**980:** Actinopteri | 330.3–419.6Ma\
+-_Platysomus,_ from the Glencartholm Volcanic Beds (Carboniferous: Viséan), Scotland, United Kingdom.
+
+**1012:** Lophiiformes + Tetraodontiformes | 93.9–145.0Ma
+-_Plectocretacicus,_ from the Sannine Formation (Cretaceous: Cenomanian), Keserwan-Jbeil Governorate, Lebanon.
+
 
 ## [Tetrapods](./tetrapods/tetrapoda.md):
 
