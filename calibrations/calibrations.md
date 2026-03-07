@@ -180,37 +180,37 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 ## [Turtles](./turtles/testudines.md):
 
 **732:** Testudines: 157.3–252.0Ma\
--based on the oldest crown testudine _Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).
+-based on the oldest crown testudine _Notoemys oxfordiensis_ from the Oxfordian of the Jurassic.
 
 **747:** Pleurodira: 125.0–157.3Ma\
--based the oldest crown pleurodiran _Atolchelys lepida_ from the Barremian of the Cretaceous (121.4–125.77Ma).
+-based the oldest crown pleurodiran _Atolchelys lepida_ from the Barremian of the Cretaceous.
 
 **733:** Cryptodira: 157.3–201.4Ma\
--based on the oldest crown cryptodiran _Yehguia tatsuensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).
+-based on the oldest crown cryptodiran _Yehguia tatsuensis_ from the Oxfordian of the Jurassic.
 
 **734:** Durocryptodira: 88.6–157.3Ma\
--based on the oldest crown durocryptodiran _Lindholmemys elegans_, likely stem Testudinoidea, from the Turonian of the Cretaceous (89.8–93.9Ma).
+-based on the oldest crown durocryptodiran _Lindholmemys elegans_, likely stem Testudinoidea, from the Turonian of the Cretaceous.
 
 **744:** Testuguria: 50.3–157.3Ma\
--based on the oldest crown testgurian _Hadrianus majusculus_, likely stem Testudinidae, from the Wasatchian of the Eocene (50.3–55.4Ma).
+-based on the oldest crown testgurian _Hadrianus majusculus_, likely stem Testudinidae, from the Wasatchian of the Eocene.
 
 **746:** Emydidae: 32.0–157.3Ma\
--based on the oldest crown emydid _Chrysemys antiqua_ from the Orellan of the Oligocene (32.0–33.7Ma).
+-based on the oldest crown emydid _Chrysemys antiqua_ from the Orellan of the Oligocene.
 
 **735:** Americhelydia: 70.0–157.3Ma\
--based on the oldest crown americhelyid _Toxochelys latiremys_, likely stem Chelonioidea, from the Campanian of the Cretaceous (72.2–83.6Ma).
+-based on the oldest crown americhelyid _Toxochelys latiremys_, likely stem Chelonioidea, from the Campanian of the Cretaceous.
 
 **742:** Chelydroidea: 70.0–157.3Ma\
--based on the oldest crown chelydroid SEPCP 9/493, likely stem Chelydridae, from the Campanian of the Cretaceous (72.2–83.6Ma).
+-based on the oldest crown chelydroid SEPCP 9/493, likely stem Chelydridae, from the Campanian of the Cretaceous.
 
 **736:** Chelonioidea: 48.4–157.3Ma\
--based on the oldest known chelonioid _Eosphargis breineri_, likely stem Dermochelyidae, from the Ypresian of the Eocene (48.07–56.0Ma).
+-based on the oldest known chelonioid _Eosphargis breineri_, likely stem Dermochelyidae, from the Ypresian of the Eocene.
 
 
 ## [Crocodilians:](./crocodylia/crocodylia.md) 
 
 **731:** Crocodylia: 77.9-113.2Ma\
--Based on _Leidyosuchus canadensis_ (Cretaceous: Campanian, 77.9–72.1Ma), supported by 8 total-evidence analyses.
+-Based on _Leidyosuchus canadensis_ from the Dinosaur Park Formation (Cretaceous: Campanian), the uppermost member of the Belly or Judith River Group of Alberta, Canada, supported by 8 total-evidence analyses.
 
 
 ## [Birds](./birds/aves.md):
