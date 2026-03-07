@@ -28,10 +28,14 @@ Nate Upham (nathan.upham@asu.edu) – ASU
 
 We have assembled a [final set](./calibrations/calibrations.md) of **$XXX** calibrations from our working group. For each clade, we also have Google Docs to keep track of our discussions for [Amphibians & Reptiles](https://docs.google.com/document/d/1VMTsPOSn6-E8yx2SoGJ6JiWdQ-omS7DwejFJVYD-AxQ/edit?usp=sharing), [Birds](https://docs.google.com/document/d/1G3ztyJx8t66nX5fdmEJtjLbXIoATYab_lRFytgtN4-A/edit?usp=sharing), [Fishes](https://docs.google.com/document/d/1peTTM31qZX1y7SY2SgsUnMst2tot416lubJ-ppSi1_s/edit?usp=sharing), [Mammals](https://docs.google.com/document/d/1fdghXoPY2i9wUCyBZXstzkNecUCnA5Q7V5yTdWLWg14/edit?usp=sharing), and [early nodes](https://docs.google.com/document/d/1XepP4Q753V84ACbQf73-WcU__SS8bk1m9IkEs7GVPsA/edit?usp=sharing). For exploratory analyses to generate immediate results as we go, I have set up initial testing pipelines using [treePL](./treePL/treePL.md) to generate a preliminary genomic timescale of vertebrate evolution. 
 
-We are using Bayesian dating methodologies implemented in [mcmctree](https://github.com/dosreislab/mcmctree) to extract the greatest accuracy and precision from our whole-genome data. This fulfils a core aim of the VGP in demonstrating how these  data allow superior inference over previous approaches with smaller molecular datasets, less-comprehensive sets of fossil-calibration densities on node ages, and less-sophisticated computational algorithms.
+We are using Bayesian dating methodologies implemented in [mcmctree](https://github.com/dosreislab/mcmctree) to extract the greatest accuracy and precision from our whole-genome data. This fulfils a core aim of the VGP in demonstrating how these data allow superior inference over previous approaches with smaller molecular datasets, less-comprehensive sets of fossil-calibration densities on node ages, and less-sophisticated algorithms.
 
 ![treePL constraints test](treePL/roadies_v1.1.16b.treePL.png)
 
+The primary outcomes of this effort are:
+i) A genomic timescale for vertebrate evolution based on the [VGP Phase I](https://github.com/VGP/vgp-trees/tree/main/phase-1) [guide trees](https://github.com/VGP/vgp-dating/blob/main/trees/roadies_v1.1.16b.numbers.scientific.nwk.pdf)
+ii) A harmonized database of fossil calibrations, which are fundamental to unlocking the temporal dimension of genome evolution
+iii) An expanded reach and broader integrations of the VGP with more fields of biology by merging molecular and paleontological approaches
 
 ## Approach
 
@@ -57,7 +61,7 @@ We explicitly modeled our calibrations to meet [best practices](https://academic
 	-(4) The locality and stratigraphic level (to the best of current knowledge) from which the calibrating fossil(s) was/were collected should be specified.
 	-(5) Reference to a published radioisotopic age and/or numeric timescale and details of numeric age selection should be given.
 
-For some nodes such as the root,  calibrations will primarily refer to stratigraphic ranges based on initial taxon appearances and expert-assessed consensus for the upper bounds. An example is the root, which [likely dates](https://www.nature.com/articles/nature16150) to the mid-Ediacaran ~570Ma. The impact of fossils is more indirect in these instances. Only a few nodes should receive calibrations like this, mostly towards the root and in the outgroups.
+For some nodes such as the root, calibrations will primarily refer to stratigraphic ranges based on initial taxon appearances and expert-assessed consensus for the upper bounds. An example is the root, which [likely dates](https://www.nature.com/articles/nature16150) to the mid-Ediacaran ~570Ma. The impact of fossils is more indirect in these instances. Only a few nodes should receive calibrations like this, mostly towards the root and in the outgroups.
 
 Many nodes will be calibrated by the classic implementation of well-characterized fossils that are widely considered to represent the earliest stem- or crown-group members of a clade based on diagnostic taxonomic characteristics or morphological phylogenetic analyses, but which have not been included in a total-evidence analyses for fossil-tip dating. Such fossils provide strong minimum ages, with maximum bounds set according to usual principles such as the stratigraphic range or the next-oldest constrained divergence – an [extensive literature](https://palaeo-electronica.org/content/fc-1) exists for this question. Ideally, this type of calibration will be minimal, as many fossils will ideally have been included in recent tip-dated trees.
 
