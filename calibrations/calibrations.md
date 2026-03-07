@@ -210,7 +210,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 ## [Crocodilians:](./crocodylia/crocodylia.md) 
 
 **731:** Crocodylia: 77.9-113.2Ma\
--Based on the oldest-known crown crocodylian _Leidyosuchus canadensis_, from the Dinosaur Park Formation (Cretaceous: Campanian) of Alberta, Canada, supported by 8 total-evidence analyses.
+-Based on the oldest-known crown crocodylian _Leidyosuchus canadensis_, likely stem Alligatoroidea, from the Dinosaur Park Formation (Cretaceous: Campanian) of Alberta, Canada.
 
 
 ## [Birds](./birds/aves.md):
