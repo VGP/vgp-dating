@@ -99,7 +99,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **980:** Actinopteri | 330.3–419.6Ma\
 -_Platysomus,_ from the Glencartholm Volcanic Beds (Carboniferous: Viséan), Scotland, United Kingdom.
 
-**1012:** Lophiiformes + Tetraodontiformes | 93.9–145.0Ma
+**1012:** Lophiiformes + Tetraodontiformes | 93.9–145.0Ma\
 -_Plectocretacicus,_ from the Sannine Formation (Cretaceous: Cenomanian), Keserwan-Jbeil Governorate, Lebanon.
 
 
