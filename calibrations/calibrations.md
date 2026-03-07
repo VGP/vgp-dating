@@ -67,16 +67,25 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 **1110:** Leuciscidae | 23.0–33.9Ma\
 -_Palaeorutilus,_ from the Enspel formation (Oligocene: Chattian), Rhineland-Palatinate, Germany.
 
+**1117:** Barbinae + Cyprininae | 38.0–66.0Ma\
+-_Eoprocypris,_ from the Youganwo formation (Eocene: Priabonian), Guangdong, PR China.
 
+**1123:** Ariidae + Pangasiidae | 33.9–125.0Ma\
+-_Qarmoutus,_ from the Birket Qarun Formation (Eocene: Priabonian), Faiyum Governorate, Egypt.
 
+**1124:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | 72.2–125.0Ma\
+-_Eotexachara,_ from the Aguja formation (Cretaceous: Campanian), Texas, United States.
+
+**1132:** Elopomorpha | 149.2–201.5Ma\
+-_Anaethalion,_ from the Torleite formation (Jurassic Kimmeridgian), Bavaria, Germany.
 
 
 ## [Tetrapods](./tetrapods/tetrapoda.md):
 
-**590:** Tetrapoda: 337-351Ma\
+**590:** Tetrapoda: 337.0-351.0Ma\
 -Based on the crown tetrapod _Lethiscus stocki_ from the Holkerian of the Carboniferous.
 
-**591:** Amniota: 315-335Ma\
+**591:** Amniota: 315.0-335.0Ma\
 -Based on the stem amniote _Hylonomus lyelli_ from the Bashkirian of the Carboniferous.
 
 **592:** Sauria: 255.9-295.9Ma\
