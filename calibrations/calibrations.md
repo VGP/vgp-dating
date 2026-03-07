@@ -4,31 +4,31 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 
 ## [Outgroups & root](./outgroups/deuterostomia.md):
 
-**582:** Deuterostomia: 517.32–590.8Ma\
+**582:** Deuterostomia: 517.3–590.8Ma\
 -Chengjiang fossils such as _Haikouichthys_ from the Chengjiang biota of the Cambrian.
 
 **1161:** Ambulacraria: 515.5–590.8Ma\
 -Isolated pelmatozoan columnals from the Micmacca Breccia, latest Atdabanian of the Cambrian.
 
-**583:** Chordata: 517.32–590.8Ma\
+**583:** Chordata: 517.3–590.8Ma\
 -Chengjiang fossils such as _Haikouichthys_ from the Chengjiang biota of the Cambrian.
 
-**584:** Olfactores: 517.32–590.8Ma\
+**584:** Olfactores: 517.3–590.8Ma\
 -Chengjiang fossils such as _Haikouichthys_ from the Chengjiang biota of the Cambrian.
 
 
 ## [Early vertebrates](./vertebrates/vertebrata.md):
 
-**585:** Vertebrata: 590.8-497Ma\
+**585:** Vertebrata: 497.0–590.8Ma\
 -_Furnishina,_ from the middle Cambrian Huaqiao Formation.
 
-**1150:** Cyclostomata: 590.8-358.5Ma\
+**1150:** Cyclostomata: 358.5–590.8Ma\
 -_Priscomyzon,_ from the Famennian of the Devonian-Carboniferous boundary.
 
-**586:** Gnathostomata: 468.4-431.7Ma\
+**586:** Gnathostomata: 431.7–468.4Ma\
 -_Shenacanthus,_ from the early Silurian (Telychian) Huixingshao Formation.
 
-**587:** Osteichthyes: 444.9-420.7Ma\
+**587:** Osteichthyes: 420.7–444.9Ma\
 -_Guiyu,_ from the Kuanti Formation near the Ludlow-Pridoli boundary of the Silurian.
 
 
