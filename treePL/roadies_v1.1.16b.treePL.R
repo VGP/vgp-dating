@@ -146,7 +146,7 @@ text(x = 0,y = -0.15 * h,labels = "Genomic timescale of\nvertebrate evolution",c
 vgp <- png::readPNG("vgp.png")
 
 aspect <- 842 / 352   # ≈ 2.392
-img_height <- 0.28 * h     # size dial (increase/decrease here)
+img_height <- 0.3 * h     # size dial (increase/decrease here)
 img_width  <- img_height * aspect
 y_bottom <- -0.06 * h      # push below axes
 
