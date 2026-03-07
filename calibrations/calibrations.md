@@ -49,6 +49,26 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 **1071:** Scombriformes | 54.2–83.6Ma\
 -_Eocoelopoma,_ from the Danata formation (Eocene: Ypresian), Balkan region, Turkmenistan.
 
+**1076:** Syngnathiformes | 72.2–100.5Ma\
+-_Gasterorhamphosus,_ from the Calcari de Melissano formation (Cretaceous: Campanian), Lecce, Italy.
+
+**1084:** Lampriformes + Polymixiiformes | 93.9–145.0Ma\
+-_Aipichthys,_ from the Komen Limestone (Cretaceous: Cenomanian), Komen Municipality, Slovenia.
+
+**1087:** Zeogadaria | 72.2–145.0Ma\
+-_Cretazeus,_ from the Nardò formation (Cretaceous: Campanian), Lecce, Italy.
+
+**1099:** Esociformes + Salmoniformes | 76.2–201.5Ma\
+-_Oldmanesox,_ from the Oldman formation (Cretaceous: Campanian), Alberta, Canada.
+
+**1109:** Gobionidae + Leuciscidae | 27.3–66.0Ma\
+-_Palaeotinca,_ from the Wolfsheim formation (Oligocene: Rupelian), Hesse, Germany.
+
+**1110:** Leuciscidae | 23.0–33.9Ma\
+-_Palaeorutilus,_ from the Enspel formation (Oligocene: Chattian), Rhineland-Palatinate, Germany.
+
+
+
 
 
 ## [Tetrapods](./tetrapods/tetrapoda.md):
