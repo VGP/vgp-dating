@@ -41,6 +41,7 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 
 ### Likelihood checkpoints
 
+TBD
 
 ## References
 
