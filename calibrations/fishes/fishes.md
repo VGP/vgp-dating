@@ -80,7 +80,7 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Node calibrated:** Last common ancestor of the clade encompassing _Esox lucius_ (Esociformes: Esocidae) and _Salmo trutta_ (Salmoniformes: Salmonidae).\
 **Fossil taxon:** _Oldmanesox canadensis_ (TMP 86.23.51)\
 **Minimum age:** 76.2Ma\
-**Minimum justification:** Based on the oldest-known esocid from the Oldman formation (Cretaceous: Campanian), Alberta, Canada, providing a more specific minimum age ([Wilson et al. 1992](https://doi.org/10.1017/S0022336000020849)).\
+**Minimum justification:** Based on the oldest-known esocid from the Oldman formation (Cretaceous: Campanian), Alberta, Canada, providing a more specific minimum age within the Campanian ([Wilson et al. 1992](https://doi.org/10.1017/S0022336000020849)).\
 **Maximum age:** 201.5Ma\
 **Maximum justification:** Based on the Triassic-Jurassic boundary, as Eurypterygia are euteleosts, but no crown or total group euteleosts are known before the Jurassic.\
 **Discussion:** [Wilson et al. (1992)](https://doi.org/10.1017/S0022336000020849) considered this species to be an esocid. The same deposits also contain _Estesesox_, but this taxon is apparently less closely related to extant esocids.
