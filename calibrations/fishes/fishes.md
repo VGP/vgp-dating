@@ -6,7 +6,7 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 982:** Teleostei | 145.5–298.9Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Conger conger_ (Anguilliformes: Congridae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
-**Fossil taxon:** _Orthogonikleithrus leichi_ (Eichstӓtt 2301)\
+**Fossil taxon:** †_Orthogonikleithrus leichi_ (Eichstӓtt 2301)\
 **Minimum age:** 145.5Ma\
 **Minimum justification:** The oldest-known stem euteleost based on a number of synapomorphies ([Arratia 1987a](https://link.springer.com/article/10.1007/BF02985911)), from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.\
 **Maximum age:** 298.9Ma\
@@ -15,25 +15,25 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 987:** Eurypterygia | 121.4–201.5Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Notolepis coatsi_ (Aulopiformes: Paralepididae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
-**Fossil taxon:** _Atolvorator longipectoralis_ (Pz. UERJ 486–487; 496a,e,b; 508a,e,b; 509–510)\
+**Fossil taxon:** †_Atolvorator longipectoralis_ (Pz. UERJ 486–487; 496a,e,b; 508a,e,b; 509–510)\
 **Minimum age:** 121.4Ma\
-**Minimum justification:** The oldest-known putative crown alopiform from the Coqueiro Seco Formation (Cretaceous: Barremian), Alagoas, Brazil ([Gallo & Coelho 2008](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf)).\
+**Minimum justification:** The oldest-known putative crown aulopiform from the Coqueiro Seco Formation (Cretaceous: Barremian), Alagoas, Brazil ([Gallo & Coelho 2008](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf)).\
 **Maximum age:** 201.5Ma\
 **Maximum justification:** Based on the Triassic-Jurassic boundary, as Eurypterygia are euteleosts, but no crown or total group euteleosts are known before the Jurassic.\
 **Discussion:** This species is considered an unequivocal total-group aulopiform (phylogenetically uncategorized within Aulopiformes by [Silva & Gallo 2011](https://doi.org/10.1590/S0001-37652011000200010), but potential crown aulopiform based on alepisauroid affinities according to [Davis & Fielitz 2010](https://www.sciencedirect.com/science/article/pii/S1055790310003702)), and therefore an unambiguous eurypterygian (see [Newbrey & Konishi 2015](https://www.tandfonline.com/doi/abs/10.1080/02724634.2014.918042); [Near & Thacker 2024](https://bioone.org/journals/bulletin-of-the-peabody-museum-of-natural-history/volume-65/issue-1/014.065.0101/Phylogenetic-Classification-of-Living-and-Fossil-Ray-Finned-Fishes-Actinopterygii/10.3374/014.065.0101.short)). Supporting its crown affinities, [Gallo & Coelho (2008)](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf) noted: “It is superficially more similar to Cimolichthyidae and Serrilepidae, differing from those by relevant anatomical details.” These two families are deeply nested inside Aulopiformes following [Davis & Fielitz (2010)](https://www.sciencedirect.com/science/article/pii/S1055790310003702), who also stated that “[w]hile the phylogenetic position of [_Atolvorator_] is unknown, [Gallo and Coelho (2008)](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf) suggested that the taxon shared some morphological similarities with members of Alepisauroidea” and that its “phylogenetic position within Aulopiformes is unknown.”
 
 **Node 1015:** Labridae | 48.7–83.6Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Choerodon schoenleinii_ (Labridae: Hypsigenyinae) and _Labrus mixtus_ (Labridae: Labrinae).\
-**Fossil taxon:** _Phyllopharyngodon longipinnis_ (T.149–150; Museo Civico de Storia Naturale di Verona)\
+**Fossil taxon:** †_Phyllopharyngodon longipinnis_ (T.149–150; Museo Civico de Storia Naturale di Verona)\
 **Minimum age:** 48.7Ma\
-**Minimum justification:** The oldest-known crown labriform from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Bellwood et al. 2018](https://www.jstor.org/stable/26595690)).\
+**Minimum justification:** The oldest-known crown labrid from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Bellwood et al. 2018](https://www.jstor.org/stable/26595690)).\
 **Maximum age:** 83.6Ma\
 **Maximum justification:** Based on the Age of †_Gasterorhamphosus_ and the oldest percomorph faunas, Percomorpha must have diversified at some point during this interval, but no putative eupercarians are known from earlier in the Cretaceous ([Friedman et al. 2023](https://doi.org/10.20341/gb.2023.002)).\
-**Discussion:** Based on the oldest known hypsigenyin labrid. At least one other distantly-related fossil wrasse genus (_Eocoris_) is also known from the same formation ([Bennikov & Sorbini 1990](https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=5536996)).\
+**Discussion:** Based on the oldest known hypsigenyine labrid. At least one other distantly-related fossil wrasse genus (†_Eocoris_) is also known from the same formation ([Bennikov & Sorbini 1990](https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=5536996)).\
 
 **Node 1025:** Scorpaenidae + Triglidae + Cottoidea + Gasterosteidae + Zoarcoidea | 48.7–83.6Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Sebastes fasciatus_ (Scorpaenidae) and _Pholis gunnellus_ (Pholidae).\
-**Fossil taxon:** "Monte Bolca scorpaenoid" (MCSNV IG.VR.66957)\
+**Fossil taxon:** †"Monte Bolca scorpaenoid" (MCSNV IG.VR.66957)\
 **Minimum age:** 48.7Ma\
 **Minimum justification:** The oldest-known taxon from this group based on a number of synapomorphies, from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Marramà et al. 2020](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf)).\
 **Maximum age:** 83.6Ma\
@@ -42,7 +42,7 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 1071:** Scombriformes | 54.2–83.6Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Arripis georgiana_ (Arripidae) and _Scomber scombrus_ (Scombridae).\
-**Fossil taxon:** _Eocoelopoma portentosum_ (PIN 1762/85)\
+**Fossil taxon:** †_Eocoelopoma portentosum_ (PIN 1762/85)\
 **Minimum age:** 54.2Ma\
 **Minimum justification:** The oldest-known crown pelagiarian from the Danata formation (Eocene: Ypresian), Balkan region, Turkmenistan, associated with the layers just after the Paleocene-Eocene Thermal Maximum providing the more specific earlier minimum age ([Bannikov & Erebakan 2023](https://link.springer.com/article/10.1134/S0031030123050015)).\
 **Maximum age:** 83.6Ma\
@@ -51,16 +51,16 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 1076:** Syngnathiformes | 72.2–100.5Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Aulostomus maculatus_ (Aulostomidae) and _Syngnathus acus_ (Syngnathidae).\
-**Fossil taxon:** _Gasterorhamphosus zuppichini_ (MCSNV 877)\
+**Fossil taxon:** †_Gasterorhamphosus zuppichini_ (MCSNV 877)\
 **Minimum age:** 72.2Ma\
 **Minimum justification:** The oldest-known crown syngnatharian from the Calcari de Melissano formation (Cretaceous: Campanian), Lecce, Italy ([Sorbini 1981](https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=44150)).\
 **Maximum age:** 100.5Ma\
 **Maximum justification:** Based on the Albian-Cenomanian boundary, as the oldest acanthomorph fossils are known from this period ([Davesne et al. 2014](https://academic.oup.com/zoolinnean/article-abstract/172/2/475/3797055); [Friedman et al. 2023](https://doi.org/10.20341/gb.2023.002)), but no percomorph fossils are known until the oldest total group or crown group syngnathiform †_Gasterorhamphosus_.\
-**Discussion:** Considered a centriscoid by [Cantalice & Alvarado-Ortega (2016)](https://doi.org/10.26879/682), or else a stem syngnathiform or stem-syngnathoid ([Brownstein 2023](https://doi.org/10.1093/iob/obad011); other suborders not sampled). [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) does not include several major syngnathiform lineages (Mullidae, Callionymidae + Draconettidae, Dactylopteridae, and Pegasidae), which means we can’t decisively consider _Gasterorhamphosus_ a crown-syngnathiform – compare the topologies of Figs 2 and 3 in [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) to see the ambiguity. This uncertainty is compounded by the instability of higher-level syngnatharian relationships across studies - the relationships of [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) are congruent with [Santaquiteria et al. (2021)](https://pubmed.ncbi.nlm.nih.gov/33892493/), but the VGP guide topology finds a non-monophyletic Syngnathoidei: (Aulostomidae,(Callionymidae,Syngnathidae)).
+**Discussion:** Considered a centriscoid by [Cantalice & Alvarado-Ortega (2016)](https://doi.org/10.26879/682), or else a stem syngnathiform or stem-syngnathoid ([Brownstein 2023](https://doi.org/10.1093/iob/obad011); other suborders not sampled). [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) considers that this may be a stem- or crown-syngnathoid (compare the topologies of Figs 2 and 3 in [Brownstein (2023)](https://doi.org/10.1093/iob/obad011)), although Syngnathoidei is not resolved as monophyletic in this tree. The relationships of [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) are congruent with [Santaquiteria et al. (2021)](https://pubmed.ncbi.nlm.nih.gov/33892493/), but the VGP guide topology finds a non-monophyletic Syngnathoidei: (Aulostomidae,(Callionymidae,Syngnathidae)).
 
 **Node 1084:** Lampriformes + Polymixiiformes | 93.9–145.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Polymixia lowei_ (Polymixiidae) and _Lampris incognitus_ (Lampridae).\
-**Fossil taxon:** _Aipichthys pretiosus_ (NHMW 1857.XXXVIII.7)\
+**Fossil taxon:** †_Aipichthys pretiosus_ (NHMW 1857.XXXVIII.7)\
 **Minimum age:** 93.9Ma\
 **Minimum justification:** Based on the oldest-known lampridomorph from the Komen Limestone (Cretaceous: Cenomanian), Komen Municipality, Slovenia ([Palci et al. 2008](https://www.sciencedirect.com/science/article/pii/S0195667107001097)).\
 **Maximum age:** 145.0Ma\
@@ -69,7 +69,7 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 1087:** Zeogadaria | 72.2–145.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Zeus faber_ (Zeiformes: Zeidae) and _Gadus morhua_ (Gadiformes: Gadidae).\
-**Fossil taxon:** _Cretazeus rinaldii_ (CCN 6659C)\
+**Fossil taxon:** †_Cretazeus rinaldii_ (CCN 6659C)\
 **Minimum age:** 72.2Ma\
 **Minimum justification:** Based on the oldest-known crown zeiform from the Nardò formation (Cretaceous: Campanian), Lecce, Italy ([Tyler et al. 2000](https://museodistorianaturale.comune.verona.it/nqcontent.cfm?a_id=44152)).\
 **Maximum age:** 145.0Ma\
@@ -78,16 +78,16 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 1099:** Esociformes + Salmoniformes | 76.2–201.5Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Esox lucius_ (Esociformes: Esocidae) and _Salmo trutta_ (Salmoniformes: Salmonidae).\
-**Fossil taxon:** _Oldmanesox canadensis_ (TMP 86.23.51)\
+**Fossil taxon:** †_Oldmanesox canadensis_ (TMP 86.23.51)\
 **Minimum age:** 76.2Ma\
 **Minimum justification:** Based on the oldest-known esocid from the Oldman formation (Cretaceous: Campanian), Alberta, Canada, providing a more specific minimum age within the Campanian ([Wilson et al. 1992](https://doi.org/10.1017/S0022336000020849)).\
 **Maximum age:** 201.5Ma\
 **Maximum justification:** Based on the Triassic-Jurassic boundary, as Eurypterygia are euteleosts, but no crown or total group euteleosts are known before the Jurassic.\
-**Discussion:** [Wilson et al. (1992)](https://doi.org/10.1017/S0022336000020849) considered this species to be an esocid. The same deposits also contain _Estesesox_, but this taxon is apparently less closely related to extant esocids.
+**Discussion:** [Wilson et al. (1992)](https://doi.org/10.1017/S0022336000020849) considered this species to be an esocid. The same deposits also contain †_Estesesox foxi_, but this taxon is apparently less closely related to extant esocids.
 
 **Node 1109:** Gobionidae + Leuciscidae | 27.3–66.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Gobio gobio_ (Gobionidae) and _Phoxinus phoxinus_ (Leuciscidae).\
-**Fossil taxon:** _Palaeotinca moeddeni_ (BSPG 2003 XVIII 51)\
+**Fossil taxon:** †_Palaeotinca moeddeni_ (BSPG 2003 XVIII 51)\
 **Minimum age:** 27.3Ma\
 **Minimum justification:** The oldest-known crown-group fossil for this taxon, from the Wolfsheim formation (Oligocene: Rupelian), Hesse, Germany, assigned to MP24 by the authors ([Schulz-Mirbach & Reichenberger 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).\
 **Maximum age:** 66.0Ma\
@@ -96,7 +96,7 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 1110:** Leuciscidae | 23.0–33.9Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Cyprinella venusta_ (Pogonichthyinae) and _Phoxinus phoxinus_ (Phoxininae).\
-**Fossil taxon:** _Palaeorutilus papyraceus_ (University of Leipzig Ro-6)\
+**Fossil taxon:** †_Palaeorutilus papyraceus_ (University of Leipzig Ro-6)\
 **Minimum age:** 23.0Ma\
 **Minimum justification:** The oldest-known crown-group leuciscid from the Enspel formation (Oligocene: Chattian), Rhineland-Palatinate, Germany, assigned to MP30 ([Böhme 2000](https://link.springer.com/content/pdf/10.1007/BF02987956.pdf)).\
 **Maximum age:** 33.9Ma\
@@ -105,7 +105,7 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 1117:** Barbinae + Cyprininae | 38.0–66.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Barbus barbus_ (Barbinae) and _Carassius carassius_ (Cyprininae).\
-**Fossil taxon:** _Eoprocypris maomingensis_ (IVPP V.855)\
+**Fossil taxon:** †_Eoprocypris maomingensis_ (IVPP V.855)\
 **Minimum age:** Ma\
 **Minimum justification:** Based on the oldest-known crown cyprinine from the Youganwo formation (Eocene: Priabonian), Guangdong, PR China ([Chen et al. 2015](https://link.springer.com/article/10.1007/s11430-015-5085-7)).\
 **Maximum age:** 66.0Ma\
@@ -114,7 +114,7 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 1123:** Ariidae + Pangasiidae | 33.9–125.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Pangasianodon hypophthalmus_ (Pangasiidae) and Neoarius graeffei (Ariidae).\
-**Fossil taxon:** _Qarmoutus hitanensis_ (MUVP 58)\
+**Fossil taxon:** †_Qarmoutus hitanensis_ (MUVP 58)\
 **Minimum age:** 33.9Ma\
 **Minimum justification:** Based on the oldest-known stem-group ariid from the Birket Qarun Formation (Eocene: Priabonian), Faiyum Governorate, Egypt ([El-Sayed et al. 2017](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172409)).\
 **Maximum age:** 125.0Ma\
@@ -123,25 +123,25 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 1124:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | 72.2–125.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Pygocentrus nattereri_ (Characidae) and _Astyanax mexicanus_ (Acestrorhamphidae).\
-**Fossil taxon:** _Eotexachara malateres_ (TMM 45947-640)\
+**Fossil taxon:** †_Eotexachara malateres_ (TMM 45947-640)\
 **Minimum age:** 72.2Ma\
 **Minimum justification:** Based on the oldest-known crown-group fossil from this clade, from the Aguja formation (Cretaceous: Campanian), Texas, United States ([Wick 2021](https://doi.org/10.1016/j.cretres.2021.104993)).\
 **Maximum age:** 125.0Ma\
 **Maximum justification:** Based on the upper bound of the Barremian. No putative crown or definite stem characiforms are known from before the Albian, but some have theorized that the biogeography of characiforms in part reflects the latest stages of Gondwanan vicariance ([Arroyave et al. 2026](https://www.biorxiv.org/content/10.64898/2026.01.30.702944.abstract); [Kappas et al. 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166988); [Capobianco and Friedman 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12473)), which would have taken place in the Aptian-Albian with the separation of Africa and South America.\
-**Discussion:** [Wick (2021)](https://doi.org/10.1016/j.cretres.2021.104993) identified _Eotexachara_ as a characiform of South American origin, with affinities to the prochilodontids and curimatids (not sampled) based on tooth and jaw morphology. However, he did not provide a phylogeny to support this supposition. Another crown-group characiform _Primuluchara_ is approximately contemporary.
+**Discussion:** [Wick (2021)](https://doi.org/10.1016/j.cretres.2021.104993) identified †_Eotexachara_ as a characiform of South American origin, with affinities to the prochilodontids and curimatids (not sampled) based on tooth and jaw morphology. However, he did not provide a phylogeny to support this supposition. Another crown-group characiform †_Primuluchara_ is approximately contemporary.
 
 **Node 1132:** Elopomorpha | 149.2–201.5Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Megalops cyprinoides_ (Megalopidae) and _Anguilla anguilla_ (Anguillidae).\
-**Fossil taxon:** _Anaethalion knorri_ (Eichstӓtt 2267)\
+**Fossil taxon:** †_Anaethalion knorri_ (Eichstӓtt 2267)\
 **Minimum age:** 149.2Ma\
 **Minimum justification:** Based on the oldest-known crown-group elopomorph (see [Arratia & Tischler 2010](https://doi.org/10.1002%2Fmmng.201000005)) from the Torleite formation (Jurassic Kimmeridgian), Bavaria, Germany ([Chellouche et al. 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)).\
 **Maximum age:** 201.5Ma\
 **Maximum justification:** Based on the Triassic-Jurassic boundary, as Eurypterygia are oseanacephalian teleosts, but no crown or total group oseanacephalans are known before the Jurassic.\
-**Discussion:** Though originally described from younger (Tithonian) fossils in Germany, this genus is apparently abundant in nearby Kimmeridgian deposits ([Chellouche et al 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)). Another crown-group elopomorph _Elopsomolos_ is approximately contemporary. A detailed morphological description of _Anaethalion_ was provided by [Arratia (1987b)](https://www.researchgate.net/publication/258820846_Anaethalion_and_similar_teleosts_Actinopterygii_Pisces_from_the_Late_Jurassic_Tithonian_of_southern_Germany_and_their_relationships_Palaeontographica_Abt_A_200_1-44_32).
+**Discussion:** Though originally described from younger (Tithonian) fossils in Germany, this genus is apparently abundant in nearby Kimmeridgian deposits ([Chellouche et al 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)). Another crown-group elopomorph †_Elopsomolos_ is approximately contemporary. A detailed morphological description of _Anaethalion_ was provided by [Arratia (1987b)](https://www.researchgate.net/publication/258820846_Anaethalion_and_similar_teleosts_Actinopterygii_Pisces_from_the_Late_Jurassic_Tithonian_of_southern_Germany_and_their_relationships_Palaeontographica_Abt_A_200_1-44_32).
 
 **Node 1134:** Holostei | 251.2–298.9Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Amia calva_ (Amiiformes: Amiidae) and _Lepisosteus oculatus_ (Lepisosteiformes: Lepisosteidae).\
-**Fossil taxon:** _Watsonulus eugnathoides_ (MCZ 13871–13878)\
+**Fossil taxon:** †_Watsonulus eugnathoides_ (MCZ 13871–13878)\
 **Minimum age:** 251.2Ma\
 **Minimum justification:** Based on the oldest-known crown-group holostean from the Sakamena formation (Triassic: Induan), Anosy, Madagascar ([Olsen 1994](https://www.tandfonline.com/doi/abs/10.1080/02724634.1984.10012024)).\
 **Maximum age:** 298.9Ma\
@@ -150,7 +150,7 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 1135:** Chondrichthyes | 382.3–443.1Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Hydrolagus colliei_ (Chimaeriformes: Chimaeridae) and _Mustelus asterias_ (Carchariniformes: Triakidae).\
-**Fossil taxon:** _Phoebodus sophiae_ (DMF 5296)\
+**Fossil taxon:** †_Phoebodus sophiae_ (DMF 5296)\
 **Minimum age:** 382.3Ma\
 **Minimum justification:** Based on the oldest-known crown-group chondrichthyan from the Cedar Valley Limestone formation (Devonian: Givetian), Iowa, United States ([Ginter et al. 2010](https://pfeil-verlag.de/publikationen/handbook-of-paleoichthyology-chondrichthyes-%C2%B7-paleozoic-elasmobranchii-teeth/)).\
 **Maximum age:** 443.1Ma\
@@ -159,7 +159,7 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 1140:** Carcharhiniformes + Lamniformes | 165.3–251.2Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Carcharodon carcharias_ (Lamniformes: Lamnidae) and _Mustelus asterias_ (Carchariniformes: Triakidae).\
-**Fossil taxon:** _Palaeoscyllium tenuidens_ (BMNH P. 66045)\
+**Fossil taxon:** †_Palaeoscyllium tenuidens_ (BMNH P. 66045)\
 **Minimum age:** 165.3Ma\
 **Minimum justification:** Based on the oldes-known stem-group carchariform from the Forest Marble formation (Jurassic: Bathonian), England, United Kingdom ([Underwood & Ward 2004](https://doi.org/10.1111/j.0031-0239.2004.00386.x)).\
 **Maximum age:** 251.2Ma\
@@ -168,7 +168,7 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 1145:** Batomorpha | 184.2–251.2Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Raja brachyura_ (Rajiformes: Rajidae) and _Hypanus sabinus_ (Myliobatiformes: Dasyatidae).\
-**Fossil taxon:** _Antiquaobatis grimmenensis_ (GG 438/57)\
+**Fossil taxon:** †_Antiquaobatis grimmenensis_ (GG 438/57)\
 **Minimum age:** 184.2Ma\
 **Minimum justification:** Based on the oldest-known crown batomorph from the Komorowo formation (Jurassic: Pliensbachian), Mecklenburg-Vorpommern, Germany ([Stumpf & Kriwet 2019](https://link.springer.com/article/10.1007/s12542-019-00451-4)).\
 **Maximum age:** 251.2Ma\
@@ -177,7 +177,7 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 1150:** Cyclostomata | 358.9–506.5Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Myxine glutinosa_ (Myxiniformes: Myxinidae) and _Lampetra fluviatilis_ (Petromyzontiformes: Petromyzontidae).\
-**Fossil taxon:** _Priscomyzon riniensis_ (AM 5750)\
+**Fossil taxon:** †_Priscomyzon riniensis_ (AM 5750)\
 **Minimum age:** 358.9Ma\
 **Minimum justification:** The oldest-known crown cyclostome from the Witpoort formation (Devonian: Fammenian), Eastern Cape Province, South Africa ([Gess et al. 2006](https://www.nature.com/articles/nature05150)).\
 **Maximum age:** 506.5Ma\
@@ -188,12 +188,12 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 **Node 980:** Actinopteri | 330.3–419.6Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Acipenser ruthenus_ (Acipenseriformes: Acipenseridae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
-**Fossil taxon:** _Platysomus superbus_ (NHMUK PV P 4060)\
+**Fossil taxon:** †_Platysomus superbus_ (NHMUK PV P 4060)\
 **Minimum age:** 330.3Ma\
 **Minimum justification:** Specimens of Platysomidae from the Glencartholm Volcanic Beds (Carboniferous: Viséan), Scotland, United Kingdom were included in crown Actinopteri by the phylogenetic analysis of [Stack (2026)](https://doi.org/10.1002/ar.70090) as guildayichthyiforms (see [Lund 2000](https://sciencepress.mnhn.fr/sites/default/files/articles/pdf/g2000n2a2.pdf)), based on a number of synapomorphies. Placement in crown Actinopteri was also estimated by [Giles et al. (2017)](https://www.nature.com/articles/nature23654) using a combined-evidence approach.\
 **Maximum age:** 419.6Ma\
 **Maximum justification:** Conservatively based on the Silurian-Devonian boundary, as this part of the tree has highly variable node ages (350-395 Ma in the literature), and all total-group actinopterygian fossils are Devonian or younger, with the oldest member of total-group Actinopterygii most likely being †_Moythomasia_ ([Choo 2015](https://www.tandfonline.com/doi/abs/10.1080/02724634.2015.952817)).\
-**Discussion:** The taxon _Platysomus superbus_ is a Carboniferous fossil that has been resolved as crown Actinopteri by several morphological and total-evidence studies betwee 1989 and 2025 ([Gardiner & Schaefer 1989](https://academic.oup.com/zoolinnean/article-abstract/97/2/135/2658349), [Xu et al 2014](https://doi.org/10.1080/02724634.2014.837053), [Giles et al 2017](https://www.nature.com/articles/nature23654), [Latimer & Giles 2018](https://doi.org/10.1098/rsos.180497), [Argyriou et al 2022](https://doi.org/10.7554/eLife.58433), and [Shen 2025](https://doi.org/10.1371/journal.pone.0320932)). Several of these sources used similar morphological matrices – the Giles, Latimer, Argyriou, and Shen studies all used expansions of a matrix generated by [Friedman & Blom (2006)](https://doi.org/10.1666/0022-3360(2006)80[1186:ANAFTF]2.0.CO;2), while the Xu study used an expanded version of a separate matrix generated by [Gardiner & Schaefer (1989)](https://academic.oup.com/zoolinnean/article-abstract/97/2/135/2658349).
+**Discussion:** The taxon †_Platysomus superbus_ is a Carboniferous fossil that has been resolved as crown Actinopteri by several morphological and total-evidence studies betwee 1989 and 2025 ([Gardiner & Schaefer 1989](https://academic.oup.com/zoolinnean/article-abstract/97/2/135/2658349), [Xu et al 2014](https://doi.org/10.1080/02724634.2014.837053), [Giles et al 2017](https://www.nature.com/articles/nature23654), [Latimer & Giles 2018](https://doi.org/10.1098/rsos.180497), [Argyriou et al 2022](https://doi.org/10.7554/eLife.58433), and [Shen 2025](https://doi.org/10.1371/journal.pone.0320932)). Several of these sources used similar morphological matrices – the Giles, Latimer, Argyriou, and Shen studies all used expansions of a matrix generated by [Friedman & Blom (2006)](https://doi.org/10.1666/0022-3360(2006)80[1186:ANAFTF]2.0.CO;2), while the Xu study used an expanded version of a separate matrix generated by [Gardiner & Schaefer (1989)](https://academic.oup.com/zoolinnean/article-abstract/97/2/135/2658349).
 
 Underlining the taxa considered to be crown Actinopteri (**Node 980**), the cited sources produce the VGP topology of (Polypteriformes,(<ins>Acipenseriformes</ins>,<ins>Neopterygii</ins>)). The oldest study ([Gardiner & Schaefer 1989](https://academic.oup.com/zoolinnean/article-abstract/97/2/135/2658349)), estimated (Polypteriformes,(_Platysomus_,(<ins>Acipenseriformes</ins>,<ins>Neopterygii</ins>))), while the more recent sources recovered (Polypteriformes,(<ins>Neopterygii</ins>,(<ins>Acipenseriformes,_</ins>Platysomus</ins>_))) or (Polypteriformes,(<ins>Acipenseriformes</ins>,(<ins>Neopterygii</ins>,_<ins>Platysomus</ins>_))). 
 
@@ -203,14 +203,14 @@ The phylogenetic analysis of [Stack (2026)](https://doi.org/10.1002/ar.70090) wa
 
 **Node 1012:** Lophiiformes + Tetraodontiformes | 93.9–145.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Antennarius maculatus_ (Lophiiformes: Antennariidae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
-**Fossil taxon:** _Plectocretacicus clarae_ (MCSNV S.L.1–2)\
+**Fossil taxon:** †_Plectocretacicus clarae_ (MCSNV S.L.1–2)\
 **Minimum age:** 93.9Ma\
 **Minimum justification:** The oldest-known putative stem tetraodontiform from the Sannine Formation (Cretaceous: Cenomanian), Keserwan-Jbeil Governorate, Lebanon, based on a number of proposed unequivocal synapomorphies [(Tyler & Sorbini 1996)](http://dx.doi.org/10.5479/si.00810266.82.1).\
 **Maximum age:** 145.0Ma\
 **Maximum justification:** Conservatively based on the Jurassic-Cretaceous boundary, which almost certainly predates the acanthomorph origin and substantially predates †_Plectocretacicus_.\
-**Discussion:** Though its placement has historically been contentious ([Dornburg et al. 2014](https://link.springer.com/article/10.1186/s12862-014-0169-0)), this and related genera are now widely considered stem tetraodontiforms following [Arcila et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1055790314003625), a total-evidence analysis based on the morphological matrix of [Santini & Tyler (2003)](https://academic.oup.com/zoolinnean/article-abstract/139/4/565/2624208). This placement was corroborated by the inclusion of lophiiform terminals by [Arcila & Tyler (2017)](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2017.1771) and [Troyer et al. 2022](https://www.pnas.org/doi/abs/10.1073/pnas.2122486119). In that matrix, _Plectocretacicus_ is united with tetraodontiforms relative to caproiforms by twelve character transformations recovered consistently under both parsimony and likelihood (characters 13, 25, 26, 32, 34, 66, 81, 82, 95, 97, 100, and 101). Additional support comes from three further characters recovered under parsimony alone (12, 20, 46) and two recovered under likelihood alone (24, 35). An independent and larger set of axial-skeletal and dorsal-fin support characters (146, 147, 158, 162, 163, 164, 166, 167, 182, 187, 190, 195, 196, 204, 206–209) consistently unites tetraodontiforms and lophiiforms to the exclusion of caproiforms.
+**Discussion:** Though its placement has historically been contentious ([Dornburg et al. 2014](https://link.springer.com/article/10.1186/s12862-014-0169-0)), this and related genera are now widely considered stem tetraodontiforms following [Arcila et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1055790314003625), a total-evidence analysis based on the morphological matrix of [Santini & Tyler (2003)](https://academic.oup.com/zoolinnean/article-abstract/139/4/565/2624208). This placement was corroborated by the inclusion of lophiiform terminals by [Arcila & Tyler (2017)](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2017.1771) and [Troyer et al. 2022](https://www.pnas.org/doi/abs/10.1073/pnas.2122486119). In that matrix, †_Plectocretacicus_ is united with tetraodontiforms relative to caproiforms by twelve character transformations recovered consistently under both parsimony and likelihood (characters 13, 25, 26, 32, 34, 66, 81, 82, 95, 97, 100, and 101). Additional support comes from three further characters recovered under parsimony alone (12, 20, 46) and two recovered under likelihood alone (24, 35). An independent and larger set of axial-skeletal and dorsal-fin support characters (146, 147, 158, 162, 163, 164, 166, 167, 182, 187, 190, 195, 196, 204, 206–209) consistently unites tetraodontiforms and lophiiforms to the exclusion of caproiforms.
 
-Even though earlier papers found a significant effect of _Plectocretacicus_ on percomorph ages (see [Arcila et al. 2015](https://www.sciencedirect.com/science/article/pii/S1055790314003625) and [Miller et al. 2024](https://www.nature.com/articles/s41559-024-02586-3) versus [Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109), [Dornburg et al. 2014](https://link.springer.com/article/10.1186/s12862-014-0169-0), [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3), and [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115)), a recent study with denser taxon and fossil calibration sampling (Santos et al, _in review_) support more ancient timelines of diversification, organically recovering node ages comparable to those in analyses including _Plectocretacicus_. The remaining controversy concerns two related points: **(i)** the morphological matrices arising from [Santini & Tyler (2003)](https://academic.oup.com/zoolinnean/article-abstract/139/4/565/2624208) have sampled at most one outgroup from Caproiformes (Caproidae: _Antigonia capros_) and the more distant Zeiformes (Cyttidae: _Cyttus novaezealandiae_), limiting possibility of other topological resolutions with respect to the closely-related Priacanthiformes, Scatophagidae, or Siganidae (the latter two being order-level _incertae sedis_ after [Betancur-R. et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3)), and **(ii)** as a result of the limited taxon sampling, character sampling is also limited and does not appear to provide any unambiguous synapomorphies or character states that are diagnostic in combination which can discriminate between the placement of _Plectocretacicus_ on the stem of Tetraodontiformes (**Node 1012**), the stem of Lophiiformes + Tetraodontiformes (**Node 1011**), or the stem of Scatophagidae + (Lophiiformes + Tetraodontiformes) represented by **Node 1001**.
+Even though earlier papers found a significant effect of †_Plectocretacicus_ on percomorph ages (see [Arcila et al. 2015](https://www.sciencedirect.com/science/article/pii/S1055790314003625) and [Miller et al. 2024](https://www.nature.com/articles/s41559-024-02586-3) versus [Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109), [Dornburg et al. 2014](https://link.springer.com/article/10.1186/s12862-014-0169-0), [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3), and [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115)), a recent study with denser taxon and fossil calibration sampling (Santos et al, _in review_) support more ancient timelines of diversification, organically recovering node ages comparable to those in analyses including _Plectocretacicus_. The remaining controversy concerns two related points: **(i)** the morphological matrices arising from [Santini & Tyler (2003)](https://academic.oup.com/zoolinnean/article-abstract/139/4/565/2624208) have sampled at most one outgroup from Caproiformes (Caproidae: _Antigonia capros_) and the more distant Zeiformes (Cyttidae: _Cyttus novaezealandiae_), limiting possibility of other topological resolutions with respect to the closely-related Priacanthiformes, Scatophagidae, or Siganidae (the latter two being order-level _incertae sedis_ after [Betancur-R. et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3)), and **(ii)** as a result of the limited taxon sampling, character sampling is also limited and does not appear to provide any unambiguous synapomorphies or character states that are diagnostic in combination which can discriminate between the placement of †_Plectocretacicus_ on the stem of Tetraodontiformes (**Node 1012**), the stem of Lophiiformes + Tetraodontiformes (**Node 1011**), or the stem of Scatophagidae + (Lophiiformes + Tetraodontiformes) represented by **Node 1001**.
 
 ### Likelihood checkpoints
 
