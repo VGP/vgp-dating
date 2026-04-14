@@ -91,7 +91,7 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 **1145:** Batomorpha | 184.2–251.2Ma\
 -_Antiquaobatis,_ from the Komorowo formation (Jurassic: Pliensbachian), Mecklenburg-Vorpommern, Germany.
 
-**1150:** Cyclostomata | 358.9–506.5Ma\
+**1150:** Cyclostomata | 358.9–506.5Ma\ [THIS NODE/CAL IS DUPLICATED ABOVE UNDER EARLY VERTS.] 
 -_Priscomyzon,_ from the Witpoort formation (Devonian: Fammenian), Eastern Cape Province, South Africa.
 
 _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placement
