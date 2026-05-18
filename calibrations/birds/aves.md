@@ -6,10 +6,10 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 ### Calibrations:
 
 **Node 709:** Galloanserae | 92.73-65.65Ma\
-**Node calibrated:** Last common ancestor of clade encompassing Galliformes () and Anseriformes()\
+**Node calibrated:** Last common ancestor of clade encompassing Galliformes (**$X**) and Anseriformes(**$X**)\
 **Fossil taxa:** Numerous fossil taxa satisfying the criteria of Parham et al. ([2012](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Galloanserae:
 
-_Conflicto antarcticus_ Tambussi, Degrange, de Mendoza, Sferco, & Santillana, 2019 – a nearly complete skeleton (MLP 07-III-1-1) from Level 10 of the López de Bertodano Formation at Seymour Island, Antarctica. A cladistic analysis including a variety of extant and extinct galloanserines placed the holotype of Conflicto antarticus as a stem Anseriformes ([Tambussi et al. 2019](https://academic.oup.com/zoolinnean/article-abstract/186/3/673/5281199)), a result further supported by subsequent cladistic and Bayesian analyses ([Field et al. 2020](https://www.nature.com/articles/s41586-020-2096-0), [Musser & Clarke 2024](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278737)). Level 10 of the López de Bertodano Formation is the youngest stratum of the formation and sits right above the K-Pg boundary (66.04Ma); its upper bound was estimated as 65.65Ma based on dinoflagellate cyst biostratigraphy and U–Pb zircon dating ([Bowman et al. 2016](https://www.sciencedirect.com/science/article/pii/S1342937X15002828)).
+_Conflicto antarcticus_ Tambussi, Degrange, de Mendoza, Sferco, & Santillana, 2019 – a nearly complete skeleton (MLP 07-III-1-1) from Level 10 of the López de Bertodano Formation at Seymour Island, Antarctica. A cladistic analysis including a variety of extant and extinct galloanserines placed the holotype of Conflicto antarticus as a stem Anseriformes ([Tambussi et al. 2019](https://academic.oup.com/zoolinnean/article-abstract/186/3/673/5281199)), a result further supported by subsequent cladistic and Bayesian analyses ([Field et al. 2020](https://www.nature.com/articles/s41586-020-2096-0), [Musser & Clarke 2024](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278737)).
 
 _Presbyornis mongoliensis_ Kurochkin & Dyke, 2009 – tarsometatarsals (PIN 3104-6, 3104-24) from the Naran and Zhygden members of Tsagaan Khushuu, southern Gobi Desert, Ömnögovi Aimag, Mongolia (Paleocene, 58.7–55.8Ma), Mongolia ([Kurochkin & Dyke 2009](https://onlinelibrary.wiley.com/doi/10.1002/gj.1177)).
 
@@ -23,12 +23,12 @@ _Namaortyx sperrgebietensis_ Mourer-Chauviré, Pickford, & Senut, 2011 – almos
 
 _Chaunoides antiquus_ [Alvarenga, 1999](https://www.biodiversitylibrary.org/item/266361#page/233/mode/1up) – associated bones of at least three individuals (MNRJ 4619-V to 4632-V) from montmorillonite clays of the Tremembé Formation at Fazenda Santa Fé, Sao Paulo, Brazil (late Oligocene to early Miocene, 27.3–16Ma). Phylogenetic analysis confirmed this fossil as a stem Anhimidae ([Musser & Clarke 2024](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278737)).
 
-Manuherikia lacustrina Worthy et al. 2007, isolated long bones from the Bannockburn Formation, St Bathans Fauna (Antonian 19–16Ma), Otago, New Zealand (Worthy et al. 2007, Worthy & Lee 2008).
+_Manuherikia lacustrina_ Worthy, Tennyson, Jones, McNamara, & Douglas, 2007 – isolated long bones (MNZ S40094, S42306-8) from the Bannockburn Formation, St Bathans Fauna (Antonian, 19–16Ma), Otago, New Zealand ([Worthy et al. 2007](https://www.tandfonline.com/doi/abs/10.1017/S1477201906001957), [Worthy & Lee 2008](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4983.2008.00778.x)).
  
 **Minimum age:** 65.65Ma\
-**Minimum justification:** Level 10 of the López de Bertodano Formation is the youngest stratum of the formation and sits right above the K-Pg boundary; its upper bound was estimated as 65.65Ma based on dinoflagellate cyst biostratigraphy and U–Pb zircon dating (Bowman et al. 2016).\
+**Minimum justification:** The oldest of these fossils, _Conflicto antarcticus_, is from Level 10 of the López de Bertodano Formation, which is the youngest stratum of the formation and sits right above the K-Pg boundary (66.04Ma); its upper bound was estimated as 65.65Ma based on dinoflagellate cyst biostratigraphy and U–Pb zircon dating ([Bowman et al. 2016](https://www.sciencedirect.com/science/article/pii/S1342937X15002828)).\
 **Maximum age:** 91.91Ma\
-**Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Galloanseres on each continent and the CladeDate algorithm (Claramunt 2022).\
+**Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Galloanseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=6.573e+01, omega=6.415e+00, alpha=4.680e+07, and nu=2.143e+00.
 
 
@@ -58,6 +58,8 @@ Alvarenga, H.M., 1999. A Fossil Screamer (Anseriformes: Anhimidae) from the Midd
 
 Bowman, V., J. Ineson, J. Riding, J. Crame, J. Francis, D. Condon, R. Whittle & F. Ferraccioli. 2016. The Paleocene of Antarctica: Dinoflagellate cyst biostratigraphy, chronostratigraphy and implications for the palaeo-Pacific margin of Gondwana. Gondwana Research 38:132-148.
 
+Claramunt, S., 2022. CladeDate: Calibration information generator for divergence time estimation. Methods in Ecology and Evolution, 13(11), pp.2331-2338.
+
 Elzanowski A, Boles WE. 2012 Australia’s oldest Anseriform fossil: a quadrate from the Early Eocene Tingamarra Fauna. Palaeontology 55, 903–911.
 
 Field, D. J., J. Benito, A. Chen, J. W. M. Jagt, D. T. Ksepka 2020. Late Cretaceous neornithine from Europe illuminates the origins of crown birds. Nature 579 (7799): 397–401.
@@ -80,3 +82,6 @@ Stiller, J., Feng, S., Chowdhury, A.A., Rivas-González, I., Duchêne, D.A., Fan
 
 Tambussi, C.P., F.J. Degrange, R.S. De Mendoza, E. Sferco & S. Santillana. 2019. A stem anseriform from the early Palaeocene of Antarctica provides new key evidence in the early evolution of waterfowl. Zoological Journal of the Linnean Society 186(3):673-700.
 
+Worthy, T. H., A. J. D. Tennyson, C. Jones, J. A. McNamara & B. J. Douglas. 2007. Miocene waterfowl and other birds from Central Otago, New Zealand. Journal of Systematic Palaeontology 5:1–39.
+
+Worthy T.H. & M. S. Y.  Lee. 2008. Affinities of Miocene (19–16 Ma) waterfowl (Anatidae: Manuherikia, Dunstanetta and Miotadorna) from the St Bathans Fauna, New Zealand. Palaeontology 51: 677–708.
