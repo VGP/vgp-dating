@@ -5,8 +5,28 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 
 ### Calibrations:
 
-**Node 982:** Teleostei | 145.5–298.9Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Conger conger_ (Anguilliformes: Congridae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
+**Node 709:** Galloanserae | 92.73- 65.65 Ma\
+**Node calibrated:** Last common ancestor of clade encompassing Galliformes () and Anseriformes()\
+**Fossil taxa:** Numerous fossil taxa satisfying the criteria of Parham et al. ([2012](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown group of Galloanserae:
+
+_Conflicto antarcticus_ Tambussi, Degrange, de Mendoza, Sferco, & Santillana 2019: a nearly complete skeleton (holotype MLP 07-III-1-1) from Level 10 of the López de Bertodano Formation at Seymour Island, Antarctica. A cladistic analysis including a variety of extant and extinct galloanserines placed the holotype of Conflicto antarticus as a stem Anseriformes ([Tambussi et al. 2019](https://academic.oup.com/zoolinnean/article-abstract/186/3/673/5281199)), a result further supported by subsequent cladistic and Bayesian analyses (Field et al. 2020, Musser & Clarke 2024). Level 10 of the López de Bertodano Formation is the youngest stratum of the formation and sits right above the K-Pg boundary (66.04 Ma); its upper bound was estimated as 65.65 Ma based on dinoflagellate cyst biostratigraphy and U–Pb zircon dating (Bowman et al. 2016).
+
+●      Presbyornis mongoliensis Kurochkin & Dyke, 2009, paratypes from Tsagaan Khushuu (Paleocene, 58.7–55.8 Ma), Mongolia.
+
+●     Anachronornis anhimops Houde et al. 2023, nearly complete skeleton including the skull (USNM 496700) from site T56N R101W, Clark Quadrangle, Park County, Wyoming. Dated as latest Thanetian (56.22–55.80 Ma). Phylogenetic analyses recovered Anachronornis as a stem Anseriformes (Houde et al. 2023).
+
+●    Nettapterornis oxfordi (Olson 1999), articulated partial skeleton from London Clay at Walton-on-the-Naze (early Ypresian, 54.6 – 55 Ma), United Kingdom. Phylogenetic analyses place this taxon at either the stem or the crown of Anseriformes (Mayr & Kitchener 2025).
+
+●   Unnamed anseriform, partial quadrate (QM F23019) from the Tingamarra Local Fauna (early Eocene, 54.65–54.55 Ma) of Murgon, Queensland, Australia (Elzanowski & Boles 2012).
+
+●   Namaortyx sperrgebietensis from the Middle Eocene (49 - 47 Ma) of Namibia (Mourer-Chauvire et al. 2011).
+
+● Chaunoides antiquus Alvarenga 1999, associated bones of at least three individuals from montmorillonite clays of the Tremembé Formation at Fazenda Santa Fé, Sao Paulo, Brazil (late Oligocene to early Miocene, 27.3 – 16 Ma). Phylogenetic analysis confirmed this fossil as a stem Anhimidae (Musser & Clarke 2024).
+
+Manuherikia lacustrina Worthy et al. 2007, isolated long bones from the Bannockburn Formation, St Bathans Fauna (Antonian 19 – 16 Ma), Otago, New Zealand (Worthy et al. 2007, Worthy & Lee 2008).
+
+
+
 **Fossil taxon:** †_Orthogonikleithrus leichi_ (Eichstӓtt 2301)\
 **Minimum age:** 145.5Ma\
 **Minimum justification:** The oldest-known stem euteleost based on a number of synapomorphies ([Arratia 1987a](https://link.springer.com/article/10.1007/BF02985911)), from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.\
@@ -37,4 +57,9 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 
 ## References
 
+Parham, J.F., Donoghue, P.C., Bell, C.J., Calway, T.D., Head, J.J., Holroyd, P.A., Inoue, J.G., Irmis, R.B., Joyce, W.G., Ksepka, D.T. and Patané, J.S., 2012. Best practices for justifying fossil calibrations. Systematic biology, 61(2), pp.346-359.
+
 Stiller, J., Feng, S., Chowdhury, A.A., Rivas-González, I., Duchêne, D.A., Fang, Q., Deng, Y., Kozlov, A., Stamatakis, A., Claramunt, S. and Nguyen, J.M., 2024. Complexity of avian evolution revealed by family-level genomes. Nature, 629(8013), pp.851-860.
+
+Tambussi, C.P., F.J. Degrange, R.S. De Mendoza, E. Sferco & S. Santillana. 2019. A stem anseriform from the early Palaeocene of Antarctica provides new key evidence in the early evolution of waterfowl. Zoological Journal of the Linnean Society 186(3):673-700.
+
