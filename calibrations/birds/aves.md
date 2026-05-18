@@ -5,7 +5,7 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 
 ### Calibrations:
 
-**Node 709:** Galloanserae | 92.73-65.65Ma\
+**Node 709:** Galloanserae | 92.73–65.65Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Galliformes (**$X**) and Anseriformes(**$X**)\
 **Fossil taxa:** Numerous fossil taxa satisfying the criteria of Parham et al. ([2012](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Galloanserae:
 
@@ -19,7 +19,7 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 
 - Unnamed anseriform – partial quadrate (QM F23019) from the Tingamarra Local Fauna (early Eocene, 54.65–54.55Ma) of Murgon, Queensland, Australia ([Elzanowski & Boles 2012](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4983.2012.01166.x)).
 
-- _Namaortyx sperrgebietensis_ Mourer-Chauviré, Pickford, & Senut, 2011 – almost complete tarsometatarsus (GSN No. SS 8’08) from the Middle Eocene (49-47Ma) of Namibia ([Mourer-Chauviré et al. 2011](https://ui.adsabs.harvard.edu/link_gateway/2011JOrni.152..617M/doi:10.1007/s10336-010-0630-9)).
+- _Namaortyx sperrgebietensis_ Mourer-Chauviré, Pickford, & Senut, 2011 – almost complete tarsometatarsus (GSN No. SS 8’08) from the Middle Eocene (49–47Ma) of Namibia ([Mourer-Chauviré et al. 2011](https://ui.adsabs.harvard.edu/link_gateway/2011JOrni.152..617M/doi:10.1007/s10336-010-0630-9)).
 
 - _Chaunoides antiquus_ [Alvarenga, 1999](https://www.biodiversitylibrary.org/item/266361#page/233/mode/1up) – associated bones of at least three individuals (MNRJ 4619-V to 4632-V) from montmorillonite clays of the Tremembé Formation at Fazenda Santa Fé, Sao Paulo, Brazil (late Oligocene to early Miocene, 27.3–16Ma). Phylogenetic analysis confirmed this fossil as a stem Anhimidae ([Musser & Clarke 2024](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278737)).
 
