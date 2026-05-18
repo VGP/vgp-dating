@@ -15,11 +15,11 @@ _Presbyornis mongoliensis_ Kurochkin & Dyke, 2009 – paratypes (PIN 3104-24) fr
 
 _Anachronornis anhimops_ Houde, Dickson, & Camerena, 2023 – nearly complete skeleton including the skull (USNM 496700) from site T56N R101W, Clark Quadrangle, Park County, Wyoming. Dated as latest Thanetian (56.22–55.80 Ma). Phylogenetic analyses recovered _Anachronornis_ as a stem Anseriformes ([Houde et al. 2023](https://www.mdpi.com/1424-2818/15/2/233)).
 
-_Nettapterornis oxfordi_ ([Olson 1999](https://repository.si.edu/items/a9f15a68-b2e8-45c5-92ef-cf4ed854a469)), articulated partial skeleton from London Clay at Walton-on-the-Naze (early Ypresian, 54.6 – 55 Ma), United Kingdom. Phylogenetic analyses place this taxon at either the stem or the crown of Anseriformes ([Mayr & Kitchener 2025](https://link.springer.com/article/10.1007/s12542-025-00730-3)).
+_Nettapterornis oxfordi_ ([Olson 1999](https://repository.si.edu/items/a9f15a68-b2e8-45c5-92ef-cf4ed854a469)) – articulated partial skeleton (BMNH Paleo A5922) from London Clay at Walton-on-the-Naze (early Ypresian, 54.6 – 55 Ma), United Kingdom. Phylogenetic analyses place this taxon at either the stem or the crown of Anseriformes ([Mayr & Kitchener 2025](https://link.springer.com/article/10.1007/s12542-025-00730-3)).
 
-Unnamed anseriform, partial quadrate (QM F23019) from the Tingamarra Local Fauna (early Eocene, 54.65–54.55 Ma) of Murgon, Queensland, Australia ([Elzanowski & Boles 2012](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4983.2012.01166.x)).
+Unnamed anseriform – partial quadrate (QM F23019) from the Tingamarra Local Fauna (early Eocene, 54.65–54.55 Ma) of Murgon, Queensland, Australia ([Elzanowski & Boles 2012](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4983.2012.01166.x)).
 
-●   Namaortyx sperrgebietensis from the Middle Eocene (49 - 47 Ma) of Namibia (Mourer-Chauvire et al. 2011).
+_Namaortyx sperrgebietensis_ Mourer-Chauviré, Pickford, & Senut, 2011 – almost complete tarsometatarsus (GSN No. SS 8’08) from the Middle Eocene (49 - 47 Ma) of Namibia ([Mourer-Chauviré et al. 2011](https://ui.adsabs.harvard.edu/link_gateway/2011JOrni.152..617M/doi:10.1007/s10336-010-0630-9)).
 
 ● Chaunoides antiquus Alvarenga 1999, associated bones of at least three individuals from montmorillonite clays of the Tremembé Formation at Fazenda Santa Fé, Sao Paulo, Brazil (late Oligocene to early Miocene, 27.3 – 16 Ma). Phylogenetic analysis confirmed this fossil as a stem Anhimidae (Musser & Clarke 2024).
 
@@ -29,7 +29,7 @@ Manuherikia lacustrina Worthy et al. 2007, isolated long bones from the Bannockb
 **Minimum justification:** Level 10 of the López de Bertodano Formation is the youngest stratum of the formation and sits right above the K-Pg boundary; its upper bound was estimated as 65.65 Ma based on dinoflagellate cyst biostratigraphy and U–Pb zircon dating (Bowman et al. 2016).\
 **Maximum age:** 91.91 Ma\
 **Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Galloanseres on each continent and the CladeDate algorithm (Claramunt 2022).\
-**Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree, the original calibration function results in a skewStudent distribution with xi=6.573e+01, omega=6.415e+00, alpha=4.680e+07, and nu=2.143e+00.
+**Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=6.573e+01, omega=6.415e+00, alpha=4.680e+07, and nu=2.143e+00.
 
 
 ### Notes
@@ -65,6 +65,8 @@ Houde, P., Dickson, M., & Camarena, D. (2023). Basal anseriformes from the early
 Kurochkin E. N. & A. A. Dyke 2009. A large collection of Presbyornis (Aves, Anseriformes, Presbyornithidae) from the late Paleocene and early Eocene of Mongolia. Geological Journal 45:375-387.
 
 Mayr, G., & Kitchener, A. C. (2025). Leg bones of the anseriform taxon Nettapterornis from the London Clay of Walton-on-the-Naze and notes on the bony-toothed birds from this locality. PalZ, 99(3), 355-369.
+
+Mourer-Chauvire, Pickford & Senut 2011. The first Palaeogene galliform from Africa. Journal of Ornithology 152 3:617-622
 
 Musser, G., & J. A. Clarke 2024. A new Paleogene fossil and a new dataset for waterfowl (Aves: Anseriformes) clarify phylogeny, ecological evolution, and avian evolution at the K-Pg Boundary. Plos one, 19(7), e0278737.
 
