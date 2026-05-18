@@ -29,8 +29,7 @@ Manuherikia lacustrina Worthy et al. 2007, isolated long bones from the Bannockb
 **Minimum justification:** Level 10 of the López de Bertodano Formation is the youngest stratum of the formation and sits right above the K-Pg boundary; its upper bound was estimated as 65.65 Ma based on dinoflagellate cyst biostratigraphy and U–Pb zircon dating (Bowman et al. 2016).\
 **Maximum age:** 91.91 Ma\
 **Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Galloanseres on each continent and the CladeDate algorithm (Claramunt 2022).\
-**Discussion:**
-
+**Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree, the original calibration function results in a skewStudent distribution with xi=6.573e+01, omega=6.415e+00, alpha=4.680e+07, and nu=2.143e+00.
 
 
 ### Notes
