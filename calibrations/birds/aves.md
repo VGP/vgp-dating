@@ -11,11 +11,11 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 
 _Conflicto antarcticus_ Tambussi, Degrange, de Mendoza, Sferco, & Santillana, 2019 – a nearly complete skeleton (holotype MLP 07-III-1-1) from Level 10 of the López de Bertodano Formation at Seymour Island, Antarctica. A cladistic analysis including a variety of extant and extinct galloanserines placed the holotype of Conflicto antarticus as a stem Anseriformes ([Tambussi et al. 2019](https://academic.oup.com/zoolinnean/article-abstract/186/3/673/5281199)), a result further supported by subsequent cladistic and Bayesian analyses ([Field et al. 2020](https://www.nature.com/articles/s41586-020-2096-0), [Musser & Clarke 2024](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278737)). Level 10 of the López de Bertodano Formation is the youngest stratum of the formation and sits right above the K-Pg boundary (66.04 Ma); its upper bound was estimated as 65.65 Ma based on dinoflagellate cyst biostratigraphy and U–Pb zircon dating ([Bowman et al. 2016](https://www.sciencedirect.com/science/article/pii/S1342937X15002828)).
 
-_Presbyornis mongoliensis_ Kurochkin & Dyke, 2009 – paratypes from Tsagaan Khushuu (Paleocene, 58.7–55.8 Ma), Mongolia ([Kurochkin & Dyke 2009](https://onlinelibrary.wiley.com/doi/10.1002/gj.1177)).
+_Presbyornis mongoliensis_ Kurochkin & Dyke, 2009 – paratypes (PIN 3104-24) from the Naran and Zhygden members of Tsagaan Khushuu, southern Gobi Desert, Ömnögovi Aimag, Mongolia (Paleocene, 58.7–55.8 Ma), Mongolia ([Kurochkin & Dyke 2009](https://onlinelibrary.wiley.com/doi/10.1002/gj.1177)).
 
-●     Anachronornis anhimops Houde et al. 2023, nearly complete skeleton including the skull (USNM 496700) from site T56N R101W, Clark Quadrangle, Park County, Wyoming. Dated as latest Thanetian (56.22–55.80 Ma). Phylogenetic analyses recovered Anachronornis as a stem Anseriformes (Houde et al. 2023).
+_Anachronornis anhimops_ Houde, Dickson, & Camerena, 2023 – nearly complete skeleton including the skull (USNM 496700) from site T56N R101W, Clark Quadrangle, Park County, Wyoming. Dated as latest Thanetian (56.22–55.80 Ma). Phylogenetic analyses recovered _Anachronornis_ as a stem Anseriformes ([Houde et al. 2023](https://www.mdpi.com/1424-2818/15/2/233)).
 
-●    Nettapterornis oxfordi (Olson 1999), articulated partial skeleton from London Clay at Walton-on-the-Naze (early Ypresian, 54.6 – 55 Ma), United Kingdom. Phylogenetic analyses place this taxon at either the stem or the crown of Anseriformes (Mayr & Kitchener 2025).
+●    Nettapterornis oxfordi ([Olson 1999](https://repository.si.edu/items/a9f15a68-b2e8-45c5-92ef-cf4ed854a469)), articulated partial skeleton from London Clay at Walton-on-the-Naze (early Ypresian, 54.6 – 55 Ma), United Kingdom. Phylogenetic analyses place this taxon at either the stem or the crown of Anseriformes ([Mayr & Kitchener 2025](https://link.springer.com/article/10.1007/s12542-025-00730-3)).
 
 ●   Unnamed anseriform, partial quadrate (QM F23019) from the Tingamarra Local Fauna (early Eocene, 54.65–54.55 Ma) of Murgon, Queensland, Australia (Elzanowski & Boles 2012).
 
@@ -24,15 +24,13 @@ _Presbyornis mongoliensis_ Kurochkin & Dyke, 2009 – paratypes from Tsagaan Khu
 ● Chaunoides antiquus Alvarenga 1999, associated bones of at least three individuals from montmorillonite clays of the Tremembé Formation at Fazenda Santa Fé, Sao Paulo, Brazil (late Oligocene to early Miocene, 27.3 – 16 Ma). Phylogenetic analysis confirmed this fossil as a stem Anhimidae (Musser & Clarke 2024).
 
 Manuherikia lacustrina Worthy et al. 2007, isolated long bones from the Bannockburn Formation, St Bathans Fauna (Antonian 19 – 16 Ma), Otago, New Zealand (Worthy et al. 2007, Worthy & Lee 2008).
+ 
+**Minimum age:** 65.65Ma\
+**Minimum justification:** Level 10 of the López de Bertodano Formation is the youngest stratum of the formation and sits right above the K-Pg boundary; its upper bound was estimated as 65.65 Ma based on dinoflagellate cyst biostratigraphy and U–Pb zircon dating (Bowman et al. 2016).\
+**Maximum age:** 91.91 Ma\
+**Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Galloanseres on each continent and the CladeDate algorithm (Claramunt 2022).\
+**Discussion:**
 
-
-
-**Fossil taxon:** †_Orthogonikleithrus leichi_ (Eichstӓtt 2301)\
-**Minimum age:** 145.5Ma\
-**Minimum justification:** The oldest-known stem euteleost based on a number of synapomorphies ([Arratia 1987a](https://link.springer.com/article/10.1007/BF02985911)), from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.\
-**Maximum age:** 298.9Ma\
-**Maximum justification:** Based on the Carboniferous-Permian Boundary, since crown Actinopterygii and Neopterygii are known from the Permian, but no putative representatives of Pan-Teleostei or Teleostei are known from before the Triassic.\
-**Discussion:** A teleost _incertae sedis_ following [Arratia (1987a)](https://link.springer.com/article/10.1007/BF02985911), but considered a euteleost by more recent studies, including [Arratia (1998)](https://doi.org/10.2307/1447369).
 
 
 ### Notes
@@ -61,9 +59,15 @@ Bowman, V., J. Ineson, J. Riding, J. Crame, J. Francis, D. Condon, R. Whittle & 
 
 Field, D. J., J. Benito, A. Chen, J. W. M. Jagt, D. T. Ksepka 2020. Late Cretaceous neornithine from Europe illuminates the origins of crown birds. Nature 579 (7799): 397–401.
 
+Houde, P., Dickson, M., & Camarena, D. (2023). Basal anseriformes from the early Paleogene of North America and Europe. Diversity, 15(2), 233.
+
 Kurochkin E. N. & A. A. Dyke 2009. A large collection of Presbyornis (Aves, Anseriformes, Presbyornithidae) from the late Paleocene and early Eocene of Mongolia. Geological Journal 45:375-387.
 
+Mayr, G., & Kitchener, A. C. (2025). Leg bones of the anseriform taxon Nettapterornis from the London Clay of Walton-on-the-Naze and notes on the bony-toothed birds from this locality. PalZ, 99(3), 355-369.
+
 Musser, G., & J. A. Clarke 2024. A new Paleogene fossil and a new dataset for waterfowl (Aves: Anseriformes) clarify phylogeny, ecological evolution, and avian evolution at the K-Pg Boundary. Plos one, 19(7), e0278737.
+
+Olson, S.L., 1999. The anseriform relationships of Anatalavis Olson and Parris (Anseranatidae), with a new species from the Lower Eocene London Clay. Smithsonian Contributions to Paleobiology, 89, pp.231-243.
 
 Parham, J.F., Donoghue, P.C., Bell, C.J., Calway, T.D., Head, J.J., Holroyd, P.A., Inoue, J.G., Irmis, R.B., Joyce, W.G., Ksepka, D.T. and Patané, J.S., 2012. Best practices for justifying fossil calibrations. Systematic biology, 61(2), pp.346-359.
 
