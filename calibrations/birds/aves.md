@@ -7,7 +7,7 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 
 **Node 709:** Galloanserae | 92.73- 65.65 Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Galliformes () and Anseriformes()\
-**Fossil taxa:** Numerous fossil taxa satisfying the criteria of Parham et al. ([2012](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown group of Galloanserae:
+**Fossil taxa:** Numerous fossil taxa satisfying the criteria of Parham et al. ([2012](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Galloanserae:
 
 _Conflicto antarcticus_ Tambussi, Degrange, de Mendoza, Sferco, & Santillana, 2019 – a nearly complete skeleton (holotype MLP 07-III-1-1) from Level 10 of the López de Bertodano Formation at Seymour Island, Antarctica. A cladistic analysis including a variety of extant and extinct galloanserines placed the holotype of Conflicto antarticus as a stem Anseriformes ([Tambussi et al. 2019](https://academic.oup.com/zoolinnean/article-abstract/186/3/673/5281199)), a result further supported by subsequent cladistic and Bayesian analyses ([Field et al. 2020](https://www.nature.com/articles/s41586-020-2096-0), [Musser & Clarke 2024](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278737)). Level 10 of the López de Bertodano Formation is the youngest stratum of the formation and sits right above the K-Pg boundary (66.04 Ma); its upper bound was estimated as 65.65 Ma based on dinoflagellate cyst biostratigraphy and U–Pb zircon dating ([Bowman et al. 2016](https://www.sciencedirect.com/science/article/pii/S1342937X15002828)).
 
@@ -15,9 +15,9 @@ _Presbyornis mongoliensis_ Kurochkin & Dyke, 2009 – paratypes (PIN 3104-24) fr
 
 _Anachronornis anhimops_ Houde, Dickson, & Camerena, 2023 – nearly complete skeleton including the skull (USNM 496700) from site T56N R101W, Clark Quadrangle, Park County, Wyoming. Dated as latest Thanetian (56.22–55.80 Ma). Phylogenetic analyses recovered _Anachronornis_ as a stem Anseriformes ([Houde et al. 2023](https://www.mdpi.com/1424-2818/15/2/233)).
 
-●    Nettapterornis oxfordi ([Olson 1999](https://repository.si.edu/items/a9f15a68-b2e8-45c5-92ef-cf4ed854a469)), articulated partial skeleton from London Clay at Walton-on-the-Naze (early Ypresian, 54.6 – 55 Ma), United Kingdom. Phylogenetic analyses place this taxon at either the stem or the crown of Anseriformes ([Mayr & Kitchener 2025](https://link.springer.com/article/10.1007/s12542-025-00730-3)).
+_Nettapterornis oxfordi_ ([Olson 1999](https://repository.si.edu/items/a9f15a68-b2e8-45c5-92ef-cf4ed854a469)), articulated partial skeleton from London Clay at Walton-on-the-Naze (early Ypresian, 54.6 – 55 Ma), United Kingdom. Phylogenetic analyses place this taxon at either the stem or the crown of Anseriformes ([Mayr & Kitchener 2025](https://link.springer.com/article/10.1007/s12542-025-00730-3)).
 
-●   Unnamed anseriform, partial quadrate (QM F23019) from the Tingamarra Local Fauna (early Eocene, 54.65–54.55 Ma) of Murgon, Queensland, Australia (Elzanowski & Boles 2012).
+Unnamed anseriform, partial quadrate (QM F23019) from the Tingamarra Local Fauna (early Eocene, 54.65–54.55 Ma) of Murgon, Queensland, Australia ([Elzanowski & Boles 2012](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4983.2012.01166.x)).
 
 ●   Namaortyx sperrgebietensis from the Middle Eocene (49 - 47 Ma) of Namibia (Mourer-Chauvire et al. 2011).
 
@@ -56,6 +56,8 @@ Manuherikia lacustrina Worthy et al. 2007, isolated long bones from the Bannockb
 ## References
 
 Bowman, V., J. Ineson, J. Riding, J. Crame, J. Francis, D. Condon, R. Whittle & F. Ferraccioli. 2016. The Paleocene of Antarctica: Dinoflagellate cyst biostratigraphy, chronostratigraphy and implications for the palaeo-Pacific margin of Gondwana. Gondwana Research 38:132-148.
+
+Elzanowski A, Boles WE. 2012 Australia’s oldest Anseriform fossil: a quadrate from the Early Eocene Tingamarra Fauna. Palaeontology 55, 903–911.
 
 Field, D. J., J. Benito, A. Chen, J. W. M. Jagt, D. T. Ksepka 2020. Late Cretaceous neornithine from Europe illuminates the origins of crown birds. Nature 579 (7799): 397–401.
 
