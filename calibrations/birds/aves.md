@@ -6,8 +6,8 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 ### Calibrations:
 
 **Node 709:** Galloanserae | 92.73–65.65Ma\
-**Node calibrated:** Last common ancestor of clade encompassing Galliformes (_Gallus gallus_) and Anseriformes(_Anser anser_)\
-**Fossil taxa:** Numerous fossil taxa satisfying the criteria of Parham et al. ([2012](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Galloanserae:
+**Node calibrated:** Last common ancestor of the clade encompassing Galliformes (_Gallus gallus_) and Anseriformes (_Anser anser_)\
+**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Galloanserae:
 
 - _Conflicto antarcticus_ Tambussi, Degrange, de Mendoza, Sferco, & Santillana, 2019 – a nearly complete skeleton (MLP 07-III-1-1) from Level 10 of the López de Bertodano Formation at Seymour Island, Antarctica. A cladistic analysis including a variety of extant and extinct galloanserines placed the holotype of Conflicto antarticus as a stem Anseriformes ([Tambussi et al. 2019](https://academic.oup.com/zoolinnean/article-abstract/186/3/673/5281199)), a result further supported by subsequent cladistic and Bayesian analyses ([Field et al. 2020](https://www.nature.com/articles/s41586-020-2096-0), [Musser & Clarke 2024](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278737)).
 
@@ -26,7 +26,7 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 - _Manuherikia lacustrina_ Worthy, Tennyson, Jones, McNamara, & Douglas, 2007 – isolated long bones (MNZ S40094, S42306-8) from the Bannockburn Formation, St Bathans Fauna (Antonian, 19–16Ma), Otago, New Zealand ([Worthy et al. 2007](https://www.tandfonline.com/doi/abs/10.1017/S1477201906001957), [Worthy & Lee 2008](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4983.2008.00778.x)).
  
 **Minimum age:** 65.65Ma\
-**Minimum justification:** The oldest of these fossils, _Conflicto antarcticus_, is from Level 10 of the López de Bertodano Formation, which is the youngest stratum of the formation and sits right above the K-Pg boundary (66.04Ma); its upper bound was estimated as 65.65Ma based on dinoflagellate cyst biostratigraphy and U–Pb zircon dating ([Bowman et al. 2016](https://www.sciencedirect.com/science/article/pii/S1342937X15002828)).\
+**Minimum justification:** The oldest of these taxa, _Conflicto antarcticus_, is from Level 10 of the López de Bertodano Formation, which is the youngest stratum of the formation and sits right above the K-Pg boundary (66.04Ma); its upper bound was estimated as 65.65Ma based on dinoflagellate cyst biostratigraphy and U–Pb zircon dating ([Bowman et al. 2016](https://www.sciencedirect.com/science/article/pii/S1342937X15002828)).\
 **Maximum age:** 91.91Ma\
 **Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Galloanseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=6.573e+01, omega=6.415e+00, alpha=4.680e+07, and nu=2.143e+00.
