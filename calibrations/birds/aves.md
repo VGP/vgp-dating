@@ -90,11 +90,11 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 **Node calibrated:** Last common ancestor of Aegothelidae (_Aegotheles albertisi_) and Apodiformes (_Apus apus_)\
 **Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Daedalornithes:
 
--  _Eocypselus vincenti_ Harrison 1984, referred material, a nearly complete skeleton (MGUH 29278) and two incomplete postcranial skeletons (MGUH 26729, MGUH 26730) from the early Eocene (55.8–54.6 Ma) Fur Formation, Denmark. A cladistic analysis (Ksepka et al. 2013) and Bayesian analyses with topological constraints (Chen et al. 2019) found Eocypselus vincenti as a stem Apodiformes, but a total evidence Bayesian analysis indicated a position as stem Aegothelidae instead (Chen et al. 2019). Either way, Eocypselus is confirmed as a basal crown Daedalornithes. The bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8 Ma ago (Stokke et al. 2020a). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6 Ma (King 2016, Stokke et al. 2020b).      
+-  _Eocypselus vincenti_ [Harrison 1984](https://natuurtijdschriften.nl/pub/521070) – referred material, a nearly complete skeleton (MGUH 29278) and two incomplete postcranial skeletons (MGUH 26729, MGUH 26730) from the early Eocene (55.8–54.6 Ma) Fur Formation, Denmark. A cladistic analysis ([Ksepka et al. 2013](https://doi.org/10.1098/rspb.2013.0580)) and Bayesian analyses with topological constraints ([Chen et al. 2019](https://doi.org/10.3390/d11090143)) found _E. vincenti_ on the stem of Apodiformes, but a total evidence Bayesian analysis indicated a position on the stem of Aegothelidae instead ([Chen et al. 2019](https://doi.org/10.3390/d11090143)). Either way, _Eocypselus_ is confirmed as a basal crown Daedalornithes.   
 
-- _Eocypselus rowei_ Ksepka et. al, 2013 from the Fossil Butte Member of the Green River Formation (Early Eocene, 51.97±0.16 Ma), Wyoming, USA.         
+- _Eocypselus rowei_ [Ksepka, Kulp, Nesbitt, Clarke, & Grande, 2013](https://doi.org/10.1098/rspb.2013.0580) – a complete skeleton (WDC CGR-109) from the Fossil Butte Member of the Green River Formation (Early Eocene, 51.97±0.16 Ma), Wyoming, USA ([Ksepka et. al. 2013](https://doi.org/10.1098/rspb.2013.0580)).         
 
-- _Collocalia buday_ Boles, 2001 from the early Miocene Camel Sputum Site (18.53–16.97 Ma, Woodhead et al. 2016), Riversleigh, Queensland, Australia.
+- _Collocalia buday_ [Boles, 2001](https://publications.australian.museum/a-swiftlet-apodidae-collocaliini-from-the-miocene-of-riversleigh-northwestern-queensland/) – left humerus (QM F20907) from the early Miocene Camel Sputum Site (18.53–16.97 Ma, [Woodhead et al. 2016](https://www.sciencedirect.com/science/article/abs/pii/S1342937X14003086)), Riversleigh, Queensland, Australia (see [Worthy & Nguyen 2020](https://doi.org/10.1080/03721426.2020.1756560)).
 
 - _Aegotheles zealandivetus_ Worthy et al. 2022 from the Bannockburn Formation, St Bathans Fauna (Early Miocene, Altonian, 18.26–15.97 Ma), Otago, New Zealand.
 
@@ -105,7 +105,7 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 - _Streptoprocne zonaris_, non-specified specimen from Barra do Antonião, Piauí, Brazil (Late Pleistocene: 0.129–0.0117 Ma, Guérin et al. 1996).
 
 **Minimum age:** 54.6Ma\
-**Minimum justification:** The bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8 Ma ago (Stokke et al. 2020a). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6 Ma (King 2016, Stokke et al. 2020b).\
+**Minimum justification:** The oldest of these fossils is _Eocypselus vincenti_, for which the bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8 Ma ago (Stokke et al. 2020a). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6 Ma (King 2016, Stokke et al. 2020b).\
 **Maximum age:** 83.85 Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Anatidae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=54.649, omega=7.722, alpha=37.041, and nu=2.233.\
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1))
@@ -138,11 +138,15 @@ Alvarenga, H.M., 1999. A Fossil Screamer (Anseriformes: Anhimidae) from the Midd
 
 Andrews, C.W. 1897. On some fossil remains of Carinate birds from Central Madagascar. Ibis 39(3): 343–359.
 
+Boles, W. E., 2001. A swiftlet (Apodidae: Collocaliini) from the Miocene of Riversleigh, northwestern Queensland. Memoir of the Association of Australasian Palaeontologists 25: 45–52.
+
 Bowman, V., J. Ineson, J. Riding, J. Crame, J. Francis, D. Condon, R. Whittle & F. Ferraccioli. 2016. The Paleocene of Antarctica: Dinoflagellate cyst biostratigraphy, chronostratigraphy and implications for the palaeo-Pacific margin of Gondwana. Gondwana Research 38:132-148.
 
 Braun, E.L., Cracraft, J. and Houde, P., 2019. Resolving the avian tree of life from top to bottom: the promise and potential boundaries of the phylogenomic era. In Avian genomics in ecology and evolution: from the lab into the wild (pp. 151-210). Cham: Springer International Publishing.
 
 Chandler, R., 1999. Fossil birds of Florissant, Colorado: with a description of a new genus and species of cuckoo. Geologic Resources Division, Technical Report, NPS/NRGRD/ GRDTR-99, 49-53.
+
+Chen, A., N. D. White, R. B. J. Benson, M. J. Braun & D. J. Field. 2019. Total-evidence framework reveals complex morphological evolution in nightbirds (Strisores). Diversity 11(9):143.
 
 Claramunt, S., 2022. CladeDate: Calibration information generator for divergence time estimation. Methods in Ecology and Evolution, 13(11), pp.2331-2338.
 
@@ -158,9 +162,13 @@ Goodman, S.M. 1999. Holocene bird subfossils from the sites of Ampasambazimba, A
 
 Goodman, S. M., M. J. Raherilalao & K. Muldoon 2013. Bird fossils from Ankilitelo Cave: inference about Holocene environmental changes in Southwestern Madagascar. Zootaxa 3750(5):534-548.
 
+Harrison, C. J. O.  1984. A revision of the fossil swifts (Vertebrata, Aves, suborder, Apodi), with descriptions of three new genera and two new species. Mededelingen van de Werkgroep voor Tertiaire en Kwartaire Geologie 21(4):157-177.
+
 Houde, P., Dickson, M., & Camarena, D. (2023). Basal anseriformes from the early Paleogene of North America and Europe. Diversity, 15(2), 233.
 
 Howard, H. 1992. New records of middle Miocene anseriform birds from Kern County, California. Papers in Avian Paleontology Honoring Pierce Brodkorb. Natural History Museum of Los Angeles County, Science Series, 36, 231-237
+
+Ksepka, D. T., J. A. Clarke, S. J. Nesbitt, F. B. Kulp & L. Grande. 2013 Fossil evidence of wing shape in a stem relative of swifts and hummingbirds (Aves, Pan-Apodiformes). Proc. R. Soc. B 280: 20130580.
 
 Kurochkin, E. N. 1976. A survey of the Paleogene birds of Asia. Smithson. Contrib. Paleobiol. 27:75-86.
 
@@ -204,11 +212,15 @@ Winge, O. 1887. Fugle fra Knoglehuler i Brasilien. E Museo Lundii, 1 (2), 1–54
 
 Woodburne, M. O., B. J. MacFadden, J. A. Case, M. S. Springer, N. S. Pledge, J. D. Power, J. M. Woodburne & K. B. Springer. 1994. Land mammal biostratigraphy and magnetostratigraphy of the Etadunna Formation (late Oligocene) of South Australia. Journal of Vertebrate Paleontology 13(4):483-515.
 
+Woodhead, J., S. J. Hand, M. Archer, I. Graham, K. Sniderman, D. A. Arena, K. H. Black, H. Godthelp, P. Creaser & Price, E. (2016). Developing a radiometrically-dated chronologic sequence for Neogene biotic change in Australia, from the Riversleigh World Heritage Area of Queensland. Gondwana Research 29(1):153-167.
+
 Worthy, T. H. 2009. Descriptions and phylogenetic relationships of two new genera and four new species of Oligo-Miocene waterfowl (Aves: Anatidae) from Australia. Zoological Journal of the Linnean Society 156: 411–454.
 
 Worthy, T. H., A. J. D. Tennyson, C. Jones, J. A. McNamara & B. J. Douglas. 2007. Miocene waterfowl and other birds from Central Otago, New Zealand. Journal of Systematic Palaeontology 5:1–39.
 
 Worthy T.H. & M. S. Y.  Lee. 2008. Affinities of Miocene (19–16 Ma) waterfowl (Anatidae: Manuherikia, Dunstanetta and Miotadorna) from the St Bathans Fauna, New Zealand. Palaeontology 51: 677–708.
+
+Worthy, T.H. and Nguyen, J.M., 2020. An annotated checklist of the fossil birds of Australia. Transactions of the Royal Society of South Australia, 144(1), pp.66-108.
 
 Zelenkov, N. V. 2011. Diving ducks from the Middle Miocene of western Mongolia. Paleontological Journal, 45(2), 191-199.
 
