@@ -8,14 +8,23 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 **Node 709:** Galloanserae | 92.73–65.65Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Galliformes (_Gallus gallus_) and Anseriformes (_Anser anser_)\
 **Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Galloanserae:
+
 - _Conflicto antarcticus_ Tambussi, Degrange, de Mendoza, Sferco, & Santillana, 2019 – a nearly complete skeleton (MLP 07-III-1-1) from Level 10 of the López de Bertodano Formation at Seymour Island, Antarctica. A cladistic analysis including a variety of extant and extinct galloanserines placed the holotype of Conflicto antarticus as a stem Anseriformes ([Tambussi et al. 2019](https://academic.oup.com/zoolinnean/article-abstract/186/3/673/5281199)), a result further supported by subsequent cladistic and Bayesian analyses ([Field et al. 2020](https://www.nature.com/articles/s41586-020-2096-0), [Musser & Clarke 2024](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278737)).
+
 - _Presbyornis mongoliensis_ Kurochkin & Dyke, 2009 – tarsometatarsals (PIN 3104-6, 3104-24) from the Naran and Zhygden members of Tsagaan Khushuu, southern Gobi Desert, Ömnögovi Aimag, Mongolia (Paleocene, 58.7–55.8Ma), Mongolia ([Kurochkin & Dyke 2009](https://onlinelibrary.wiley.com/doi/10.1002/gj.1177)).
+
 - _Anachronornis anhimops_ Houde, Dickson, & Camerena, 2023 – nearly complete skeleton including the skull (USNM 496700) from site T56N R101W, Clark Quadrangle, Park County, Wyoming. Dated as latest Thanetian (56.22–55.80Ma). Phylogenetic analyses recovered _Anachronornis_ as a stem Anseriformes ([Houde et al. 2023](https://www.mdpi.com/1424-2818/15/2/233)).
+
 - _Nettapterornis oxfordi_ ([Olson 1999](https://repository.si.edu/items/a9f15a68-b2e8-45c5-92ef-cf4ed854a469)) – articulated partial skeleton (BMNH Paleo A5922) from London Clay at Walton-on-the-Naze (early Ypresian, 54.6–55Ma), United Kingdom. Phylogenetic analyses place this taxon at either the stem or the crown of Anseriformes ([Mayr & Kitchener 2025](https://link.springer.com/article/10.1007/s12542-025-00730-3)).
+
 - Unnamed anseriform – partial quadrate (QM F23019) from the Tingamarra Local Fauna (early Eocene, 54.65–54.55Ma) of Murgon, Queensland, Australia ([Elzanowski & Boles 2012](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4983.2012.01166.x)).
+
 - _Namaortyx sperrgebietensis_ Mourer-Chauviré, Pickford, & Senut, 2011 – almost complete tarsometatarsus (GSN No. SS 8’08) from the Middle Eocene (49–47Ma) of Namibia ([Mourer-Chauviré et al. 2011](https://ui.adsabs.harvard.edu/link_gateway/2011JOrni.152..617M/doi:10.1007/s10336-010-0630-9)).
+
 - _Chaunoides antiquus_ [Alvarenga, 1999](https://www.biodiversitylibrary.org/item/266361#page/233/mode/1up) – associated bones of at least three individuals (MNRJ 4619-V to 4632-V) from montmorillonite clays of the Tremembé Formation at Fazenda Santa Fé, Sao Paulo, Brazil (late Oligocene to early Miocene, 27.3–16Ma). Phylogenetic analysis confirmed this fossil as a stem Anhimidae ([Musser & Clarke 2024](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278737)).
-- _Manuherikia lacustrina_ Worthy, Tennyson, Jones, McNamara, & Douglas, 2007 – isolated long bones (MNZ S40094, S42306-8) from the Bannockburn Formation, St Bathans Fauna (Antonian, 19–16Ma), Otago, New Zealand ([Worthy et al. 2007](https://www.tandfonline.com/doi/abs/10.1017/S1477201906001957), [Worthy & Lee 2008](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4983.2008.00778.x)).\
+
+- _Manuherikia lacustrina_ Worthy, Tennyson, Jones, McNamara, & Douglas, 2007 – isolated long bones (MNZ S40094, S42306-8) from the Bannockburn Formation, St Bathans Fauna (Antonian, 19–16Ma), Otago, New Zealand ([Worthy et al. 2007](https://www.tandfonline.com/doi/abs/10.1017/S1477201906001957), [Worthy & Lee 2008](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4983.2008.00778.x)).
+
 **Minimum age:** 65.65Ma\
 **Minimum justification:** The oldest of these taxa, _Conflicto antarcticus_, is from Level 10 of the López de Bertodano Formation, which is the youngest stratum of the formation and sits right above the K-Pg boundary (66.04Ma); its upper bound was estimated as 65.65Ma based on dinoflagellate cyst biostratigraphy and U–Pb zircon dating ([Bowman et al. 2016](https://www.sciencedirect.com/science/article/pii/S1342937X15002828)).\
 **Maximum age:** 91.91Ma\
