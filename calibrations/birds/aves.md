@@ -1,6 +1,6 @@
 # Bird calibrations
 
-Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
+Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
 
 
 ### Calibrations:
@@ -96,13 +96,13 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 
 - _Collocalia buday_ [Boles, 2001](https://publications.australian.museum/a-swiftlet-apodidae-collocaliini-from-the-miocene-of-riversleigh-northwestern-queensland/) – left humerus (QM F20907) from the early Miocene Camel Sputum Site (18.53–16.97 Ma, [Woodhead et al. 2016](https://www.sciencedirect.com/science/article/abs/pii/S1342937X14003086)), Riversleigh, Queensland, Australia (see [Worthy & Nguyen 2020](https://doi.org/10.1080/03721426.2020.1756560)).
 
-- _Aegotheles zealandivetus_ Worthy et al. 2022 from the Bannockburn Formation, St Bathans Fauna (Early Miocene, Altonian, 18.26–15.97 Ma), Otago, New Zealand.
+- _Aegotheles zealandivetus_ [Worthy, Scofield, Salisbury, Hand, De Pietri, & Archer, 2022](https://doi.org/10.1007/s10336-022-01981-6) – various material (CM 2013.18.1127; NMNZ S.42800, S.52761, S.52917) from the Bannockburn Formation, St Bathans Fauna (Early Miocene, Altonian, 18.26–15.97Ma), Otago, New Zealand ([Worthy et al. 2022](https://doi.org/10.1007/s10336-022-01981-6)).
 
-- _Tachymarptis_ sp. from the upper Varswater Formation at Langebaanweg (Early Pliocene 5.33–3.6 Ma), Cape Province, South Africa (Manegold et al. 2013).
+- _Tachymarptis_ sp. – a single humerus, currently undescribed, first reported by Rich ([1980](https://hdl.handle.net/10520/AJA00382353_1817)) from the upper Varswater Formation at Langebaanweg (Early Pliocene 5.33–3.6 Ma), Cape Province, South Africa ([Manegold et al. 2013](https://www.researchgate.net/publication/259272396_The_Early_Pliocene_avifauna_of_Langebaanweg_South_Africa_a_review_and_update)).
 
-- _Apus_ sp. left coracoid (NSMT PV 24548), left carpometacarpus (24549), proximal phalanx major digit (24550)from fissure-filling deposits in Shiriya, Aomori Prefecture, Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129 – 0.116 Ma, Watanabe et al. 2018)
+- _Apus_ sp. – material representing a left coracoid (NSMT PV 24548), left carpometacarpus (24549), and proximal phalanx major digit (24550) from fissure-filling deposits in Shiriya, Aomori Prefecture, Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129–0.116Ma, [Watanabe et al. 2018](https://doi.org/10.4202/app.00509.2018)).
 
-- _Streptoprocne zonaris_, non-specified specimen from Barra do Antonião, Piauí, Brazil (Late Pleistocene: 0.129–0.0117 Ma, Guérin et al. 1996).
+- _Streptoprocne zonaris_ ([Shaw, 1796](https://archive.org/details/bim_eighteenth-century_cimelia-physica-figures_shaw-george_1796)) – unspecified, possibly uncatalogued specimen from Barra do Antonião, Piauí, Brazil (Late Pleistocene: 0.129–0.0117Ma, [Guérin et al. 1996](https://www.researchgate.net/publication/291774116_A_fauna_pleistocenica_do_Piaui_Nordeste_do_Brasil_Relacoes_paleoecologicas_e_biocronologicas)).
 
 **Minimum age:** 54.6Ma\
 **Minimum justification:** The oldest of these fossils is _Eocypselus vincenti_, for which the bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8 Ma ago (Stokke et al. 2020a). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6 Ma (King 2016, Stokke et al. 2020b).\
@@ -162,6 +162,8 @@ Goodman, S.M. 1999. Holocene bird subfossils from the sites of Ampasambazimba, A
 
 Goodman, S. M., M. J. Raherilalao & K. Muldoon 2013. Bird fossils from Ankilitelo Cave: inference about Holocene environmental changes in Southwestern Madagascar. Zootaxa 3750(5):534-548.
 
+Guérin, C, M. A. Curvello, M. Faure, M. Hugueney & C. Mourer-Chauviré 1996 The Pleistocene fauna of Piauí (Northeastern Brazil): paleochronological and biochronological implications. Proceedings of the International Meeting on the Peopling of the Americas, São Raimundo Nonato, Piauí, Brasil (1993). Fundamentos 1(1):55-103.
+
 Harrison, C. J. O.  1984. A revision of the fossil swifts (Vertebrata, Aves, suborder, Apodi), with descriptions of three new genera and two new species. Mededelingen van de Werkgroep voor Tertiaire en Kwartaire Geologie 21(4):157-177.
 
 Houde, P., Dickson, M., & Camarena, D. (2023). Basal anseriformes from the early Paleogene of North America and Europe. Diversity, 15(2), 233.
@@ -175,6 +177,8 @@ Kurochkin, E. N. 1976. A survey of the Paleogene birds of Asia. Smithson. Contri
 Kurochkin E. N. & A. A. Dyke 2009. A large collection of Presbyornis (Aves, Anseriformes, Presbyornithidae) from the late Paleocene and early Eocene of Mongolia. Geological Journal 45:375-387.
 
 Linnaeus, C. 1758. Systema Naturae, 10th edition, vol. 1. Stockholm: Laurentius Salvius.
+
+Manegold, A., A. Louchart, J. Carrier & A. Elzanowski 2013 The early Pliocene avifauna of Langebaanweg (South Africa): a review and update. In Paleornithological Research 2013: Proceedings of the 8th International Meeting of the Society of Avian Paleontology and Evolution pp. 135-152. 
 
 Mayr, G. 2006. A specimen of Eocuculus Chandler, 1999 (Aves, ?Cuculidae) from the early Oligocene of France. Geobios, 39(6), 865-872.
 
@@ -200,6 +204,10 @@ Olson, S.L., 1999. The anseriform relationships of Anatalavis Olson and Parris (
 
 Parham, J.F., Donoghue, P.C., Bell, C.J., Calway, T.D., Head, J.J., Holroyd, P.A., Inoue, J.G., Irmis, R.B., Joyce, W.G., Ksepka, D.T. and Patané, J.S., 2012. Best practices for justifying fossil calibrations. Systematic biology, 61(2), pp.346-359.
 
+Rich, P.V., 1980. Preliminary report on the fossil avian remains from late Tertiary sediments at Langebaanweg (Cape Province), South Africa. South African Journal of Science, 76(4), pp.166-170.
+
+Shaw, G. 1796. Cimelia Physica. Figures of rare and curious quadrupeds, birds, etcetera, together with several of the most elegant plants. B. & J. White, London
+
 Shute, E., Prideaux, G.J., Worthy, T.H. 2016. Three terrestrial Pleistocene coucals (Centropus: Cuculidae) from southern Australia: biogeographical and ecological significance, Zoological Journal of the Linnean Society, 177, 964–1002.
 
 Stiller, J., Feng, S., Chowdhury, A.A., Rivas-González, I., Duchêne, D.A., Fang, Q., Deng, Y., Kozlov, A., Stamatakis, A., Claramunt, S. and Nguyen, J.M., 2024. Complexity of avian evolution revealed by family-level genomes. Nature, 629(8013), pp.851-860.
@@ -207,6 +215,8 @@ Stiller, J., Feng, S., Chowdhury, A.A., Rivas-González, I., Duchêne, D.A., Fan
 Tambussi C. P. 1998. Nuevo Anatidae (Aves: Anseriformes) del Plioceno de la región pampeana, Argentina. Boll. Soc Hist. Nat. Balears 41: 19-25.
 
 Tambussi, C.P., F.J. Degrange, R.S. De Mendoza, E. Sferco & S. Santillana. 2019. A stem anseriform from the early Palaeocene of Antarctica provides new key evidence in the early evolution of waterfowl. Zoological Journal of the Linnean Society 186(3):673-700.
+
+Watanabe, J., Matsuoka, H., & Hasegawa, Y. (2018). Pleistocene non-passeriform landbirds from Shiriya, northeast Japan. Acta Palaeontologica Polonica, 63(3).
 
 Winge, O. 1887. Fugle fra Knoglehuler i Brasilien. E Museo Lundii, 1 (2), 1–54.
 
@@ -221,6 +231,8 @@ Worthy, T. H., A. J. D. Tennyson, C. Jones, J. A. McNamara & B. J. Douglas. 2007
 Worthy T.H. & M. S. Y.  Lee. 2008. Affinities of Miocene (19–16 Ma) waterfowl (Anatidae: Manuherikia, Dunstanetta and Miotadorna) from the St Bathans Fauna, New Zealand. Palaeontology 51: 677–708.
 
 Worthy, T.H. and Nguyen, J.M., 2020. An annotated checklist of the fossil birds of Australia. Transactions of the Royal Society of South Australia, 144(1), pp.66-108.
+
+Worthy, T.H., Scofield, R.P., Salisbury, S.W., Hand, S.J., De Pietri, V.L. and Archer, M., 2022. Two new neoavian taxa with contrasting palaeobiogeographical implications from the early Miocene St Bathans Fauna, New Zealand. Journal of Ornithology, 163(3), pp.643-658.
 
 Zelenkov, N. V. 2011. Diving ducks from the Middle Miocene of western Mongolia. Paleontological Journal, 45(2), 191-199.
 
