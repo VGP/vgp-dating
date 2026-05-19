@@ -89,13 +89,20 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 **Node 704:** Daedalornithes | 95.7-54.6Ma\
 **Node calibrated:** Last common ancestor of Aegothelidae (_Aegotheles albertisi_) and Apodiformes (_Apus apus_)\
 **Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Daedalornithes:
--  Eocypselus vincenti Harrison 1984, referred material, a nearly complete skeleton (MGUH 29278) and two incomplete postcranial skeletons (MGUH 26729, MGUH 26730) from the early Eocene (55.8–54.6 Ma) Fur Formation, Denmark. A cladistic analysis (Ksepka et al. 2013) and Bayesian analyses with topological constraints (Chen et al. 2019) found Eocypselus vincenti as a stem Apodiformes, but a total evidence Bayesian analysis indicated a position as stem Aegothelidae instead (Chen et al. 2019). Either way, Eocypselus is confirmed as a basal crown Daedalornithes. The bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8 Ma ago (Stokke et al. 2020a). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6 Ma (King 2016, Stokke et al. 2020b).      
-●      Eocypselus rowei Ksepka et. al, 2013 from the Fossil Butte Member of the Green River Formation (Early Eocene, 51.97±0.16 Ma), Wyoming, USA.         
-●      Collocalia buday Boles, 2001 from the early Miocene Camel Sputum Site (18.53–16.97 Ma, Woodhead et al. 2016), Riversleigh, Queensland, Australia.
-●      Aegotheles zealandivetus Worthy et al. 2022 from the Bannockburn Formation, St Bathans Fauna (Early Miocene, Altonian, 18.26–15.97 Ma), Otago, New Zealand.
-●      Tachymarptis sp. from the upper Varswater Formation at Langebaanweg (Early Pliocene 5.33–3.6 Ma), Cape Province, South Africa (Manegold et al. 2013).
-●      Apus sp. left coracoid (NSMT PV 24548), left carpometacarpus (24549), proximal phalanx major digit (24550)from fissure-filling deposits in Shiriya, Aomori Prefecture, Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129 – 0.116 Ma, Watanabe et al. 2018)
-●      Streptoprocne zonaris, non-specified specimen from Barra do Antonião, Piauí, Brazil ( Late Pleistocene: 0.129–0.0117 Ma, Guérin et al. 1996).
+
+-  _Eocypselus vincenti_ Harrison 1984, referred material, a nearly complete skeleton (MGUH 29278) and two incomplete postcranial skeletons (MGUH 26729, MGUH 26730) from the early Eocene (55.8–54.6 Ma) Fur Formation, Denmark. A cladistic analysis (Ksepka et al. 2013) and Bayesian analyses with topological constraints (Chen et al. 2019) found Eocypselus vincenti as a stem Apodiformes, but a total evidence Bayesian analysis indicated a position as stem Aegothelidae instead (Chen et al. 2019). Either way, Eocypselus is confirmed as a basal crown Daedalornithes. The bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8 Ma ago (Stokke et al. 2020a). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6 Ma (King 2016, Stokke et al. 2020b).      
+
+- _Eocypselus rowei_ Ksepka et. al, 2013 from the Fossil Butte Member of the Green River Formation (Early Eocene, 51.97±0.16 Ma), Wyoming, USA.         
+
+- _Collocalia buday_ Boles, 2001 from the early Miocene Camel Sputum Site (18.53–16.97 Ma, Woodhead et al. 2016), Riversleigh, Queensland, Australia.
+
+- _Aegotheles zealandivetus_ Worthy et al. 2022 from the Bannockburn Formation, St Bathans Fauna (Early Miocene, Altonian, 18.26–15.97 Ma), Otago, New Zealand.
+
+- _Tachymarptis_ sp. from the upper Varswater Formation at Langebaanweg (Early Pliocene 5.33–3.6 Ma), Cape Province, South Africa (Manegold et al. 2013).
+
+- _Apus_ sp. left coracoid (NSMT PV 24548), left carpometacarpus (24549), proximal phalanx major digit (24550)from fissure-filling deposits in Shiriya, Aomori Prefecture, Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129 – 0.116 Ma, Watanabe et al. 2018)
+
+- _Streptoprocne zonaris_, non-specified specimen from Barra do Antonião, Piauí, Brazil (Late Pleistocene: 0.129–0.0117 Ma, Guérin et al. 1996).
 
 **Minimum age:** 54.6Ma\
 **Minimum justification:** The bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8 Ma ago (Stokke et al. 2020a). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6 Ma (King 2016, Stokke et al. 2020b).\
