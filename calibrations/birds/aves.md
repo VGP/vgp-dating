@@ -35,21 +35,21 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 Node calibrated: Last common ancestor of Anatinae (_Anas platyrhynchos)_ and Anserinae (_Anser anser_)
 **Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Anatidae:
 
-– _Pinpanetta tedfordi_ Worthy, 2009 – complete right humerus (SAMA P.41257) from the Etadunna Formation at Young Bucks Quarry, Lake Palankarinna, South Australia, Australia. This locality is shared with three other contemporaneous fossil ducks: _P. vickersrichae_ and _P. fromensis,_ and _Australotadorna alecwilsoni_ ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)). A cladistic analysis of _Pinpanetta_ (including _P. tedfordi_) placed it as a stem member of Erismaturinae ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)).
+- _Pinpanetta tedfordi_ Worthy, 2009 – complete right humerus (SAMA P.41257) from the Etadunna Formation at Young Bucks Quarry, Lake Palankarinna, South Australia, Australia. This locality is shared with three other contemporaneous fossil ducks: _P. vickersrichae_ and _P. fromensis,_ and _Australotadorna alecwilsoni_ ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)). A cladistic analysis of _Pinpanetta_ (including _P. tedfordi_) placed it as a stem member of Erismaturinae ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)).
 
-– _Mionetta blanchardi_ ([Milne-Edwards, 1863](https://www.biodiversitylibrary.org/page/3679973#page/1224/mode/1up)), multiple bones from several individuals including UCBL-FSL 442.807 and 442.800 from Saint-Gérand-le-Puy (Aquitanian, 23–20.4 Ma), Allier, France ([Worthy & Lee 2008](https://doi.org/10.1111/j.1475-4983.2008.00778.x)).
+- _Mionetta blanchardi_ ([Milne-Edwards, 1863](https://www.biodiversitylibrary.org/page/3679973#page/1224/mode/1up)) – multiple bones from several individuals including UCBL-FSL 442.807 and 442.800 from Saint-Gérand-le-Puy (Aquitanian, 23–20.4 Ma), Allier, France ([Worthy & Lee 2008](https://doi.org/10.1111/j.1475-4983.2008.00778.x)).
 
-– _Mionetta sp._ – distal humerus (GSN GT 133’06) from Grillental (early Miocene, 20 Ma), Northern Sperrgebiet, Namibia ([Mourer-Chauviré 2008](https://www.researchgate.net/publication/285787143_Birds_Aves_from_the_Early_Miocene_of_the_Northern_Sperrgebiet_Namibia)).
+- _Mionetta sp._ – distal humerus (GSN GT 133’06) from Grillental (early Miocene, 20 Ma), Northern Sperrgebiet, Namibia ([Mourer-Chauviré 2008](https://www.researchgate.net/publication/285787143_Birds_Aves_from_the_Early_Miocene_of_the_Northern_Sperrgebiet_Namibia)).
 
 - _Manuherikia lacustrina_ Worthy, Tennyson, Jones, McNamara, & Douglas, 2007 – isolated long bones (MNZ S40094, S42306-8) from the Bannockburn Formation, St Bathans Fauna (Antonian, 19–16Ma), Otago, New Zealand ([Worthy et al. 2007](https://www.tandfonline.com/doi/abs/10.1017/S1477201906001957), [Worthy & Lee 2008](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4983.2008.00778.x)).
 
-– Multiple bone fragments representing multiple anatid genera are known from Sharga (Middle Miocene, NMU7, MN7–8, 13.1–11.2 Ma), Shargyn-Govi area, Mongolia ([Zelenkov 2011]([url](https://doi.org/10.1134/S0031030111020195))). These include _Sharganetta mongolica_ Zelenkov, 2011 (PIN 4869/195 and 4869/198), _Nogusunna conflictoides_ Zelenkov, 2011 (PIN 4869/23, 4869/197, and 4869/199), _Protomelanitta gracilis_ Zelenkov, 2011 (PIN 4869/100, 4869/125, 4869/134, 4869/151), and _Chenoanas deserta_ [Zelenkov, 2012](https://link.springer.com/article/10.1134/S0031030112050139) (PIN 4869/57, 4869/196). 
+- Bone fragments representing multiple anatid genera are known from Sharga (Middle Miocene, NMU7, MN7–8, 13.1–11.2 Ma), Shargyn-Govi area, Mongolia ([Zelenkov 2011]([url](https://doi.org/10.1134/S0031030111020195))). These include _Sharganetta mongolica_ Zelenkov, 2011 (PIN 4869/195 and 4869/198), _Nogusunna conflictoides_ Zelenkov, 2011 (PIN 4869/23, 4869/197, and 4869/199), _Protomelanitta gracilis_ Zelenkov, 2011 (PIN 4869/100, 4869/125, 4869/134, 4869/151), and _Chenoanas deserta_ [Zelenkov, 2012](https://link.springer.com/article/10.1134/S0031030112050139) (PIN 4869/57, 4869/196). 
 
-●      Megalodytes morejohni Howard, 1992 from the Round Mountain Member of the Temblor Formation (Langhian, 15.99–11.63 Ma ), Kern County, California, USA. 
+- _Megalodytes morejohni_ Howard, 1992 – long bones (LACM 123991–3, 123995) from the Round Mountain Member of the Temblor Formation (Langhian, 15.99–11.63Ma), Kern County, California, USA ([Howard 1992](https://www.biodiversitylibrary.org/item/348547#page/273/mode/1up)). 
 
-●      Chloephaga robusta Tambussi, 1998, distal ulna from the Irene Formation (early Pliocene, 4–3 Ma), Buenos Aires, Argentina. There are many other fossils referred to Anatidae but likely represent stem fossils.
+- _Chloephaga robusta_ Tambussi, 1998 – distal ulna (MLP 57-VIl-23-47) from the Irene Formation (early Pliocene, 4–3Ma), Buenos Aires, Argentina ([Tambussi 1998](https://raco.cat/index.php/BolletiSHNBalears/article/view/169326)). There are many other fossils from this locality referred to Anatidae, but they most likely represent stem taxa.
 
-●      Alopochen sirabensis from the Pleistocene of Ampasambazimba (0.0229–0.0222 Ma), Madagascar (Goodman 1999).
+- _Alopochen sirabensis_ ([Andrews, 1897](https://onlinelibrary.wiley.com/doi/10.1111/j.1474-919X.1897.tb03281.x)) – bone fragments (UA 360) from the Pleistocene of Ampasambazimba (0.0229–0.0222 Ma), Madagascar ([Goodman 1999](https://www.internationalornithology.org/PROCEEDINGS_Durban/Symposium/S50/S50.4.htm)).
 
 
 **Minimum age:** 24Ma
@@ -96,6 +96,8 @@ Biostratigraphy of fossil land mammals, presence of Oligocene foraminiferal faun
 
 Alvarenga, H.M., 1999. A Fossil Screamer (Anseriformes: Anhimidae) from the Middle Tertiary of Southeastern Brazil. Smithsonian Contributions to Paleobiology, (89) 223-230.
 
+Andrews, C.W. 1897. On some fossil remains of Carinate birds from Central Madagascar. Ibis 39(3): 343–359.
+
 Bowman, V., J. Ineson, J. Riding, J. Crame, J. Francis, D. Condon, R. Whittle & F. Ferraccioli. 2016. The Paleocene of Antarctica: Dinoflagellate cyst biostratigraphy, chronostratigraphy and implications for the palaeo-Pacific margin of Gondwana. Gondwana Research 38:132-148.
 
 Claramunt, S., 2022. CladeDate: Calibration information generator for divergence time estimation. Methods in Ecology and Evolution, 13(11), pp.2331-2338.
@@ -104,7 +106,11 @@ Elzanowski A, Boles WE. 2012 Australia’s oldest Anseriform fossil: a quadrate 
 
 Field, D. J., J. Benito, A. Chen, J. W. M. Jagt, D. T. Ksepka 2020. Late Cretaceous neornithine from Europe illuminates the origins of crown birds. Nature 579 (7799): 397–401.
 
+Goodman, S.M. 1999. Holocene bird subfossils from the sites of Ampasambazimba, Antsirabe and Ampoza, Madagascar: Changes in the avifauna of south-central Madagascar over the past few millennia. In: Adams, N.J. & Slotow, R.H. (eds) Proc. 22 Int. Ornithol. Congr., Durban: 3071-3083. Johannesburg: BirdLife South Africa.
+
 Houde, P., Dickson, M., & Camarena, D. (2023). Basal anseriformes from the early Paleogene of North America and Europe. Diversity, 15(2), 233.
+
+Howard, H. 1992. New records of middle Miocene anseriform birds from Kern County, California. Papers in Avian Paleontology Honoring Pierce Brodkorb. Natural History Museum of Los Angeles County, Science Series, 36, 231-237
 
 Kurochkin E. N. & A. A. Dyke 2009. A large collection of Presbyornis (Aves, Anseriformes, Presbyornithidae) from the late Paleocene and early Eocene of Mongolia. Geological Journal 45:375-387.
 
@@ -123,6 +129,8 @@ Olson, S.L., 1999. The anseriform relationships of Anatalavis Olson and Parris (
 Parham, J.F., Donoghue, P.C., Bell, C.J., Calway, T.D., Head, J.J., Holroyd, P.A., Inoue, J.G., Irmis, R.B., Joyce, W.G., Ksepka, D.T. and Patané, J.S., 2012. Best practices for justifying fossil calibrations. Systematic biology, 61(2), pp.346-359.
 
 Stiller, J., Feng, S., Chowdhury, A.A., Rivas-González, I., Duchêne, D.A., Fang, Q., Deng, Y., Kozlov, A., Stamatakis, A., Claramunt, S. and Nguyen, J.M., 2024. Complexity of avian evolution revealed by family-level genomes. Nature, 629(8013), pp.851-860.
+
+Tambussi C. P. 1998. Nuevo Anatidae (Aves: Anseriformes) del Plioceno de la región pampeana, Argentina. Boll. Soc Hist. Nat. Balears 41: 19-25.
 
 Tambussi, C.P., F.J. Degrange, R.S. De Mendoza, E. Sferco & S. Santillana. 2019. A stem anseriform from the early Palaeocene of Antarctica provides new key evidence in the early evolution of waterfowl. Zoological Journal of the Linnean Society 186(3):673-700.
 
