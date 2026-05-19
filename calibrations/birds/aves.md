@@ -65,37 +65,21 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 
 - _Chambicuculus pusillus_ [Mourer-Chauviré, Tabuce, Essid, Marivaux, Khayati, Vianey-Liaud, & Ben Haj Ali, 2013](https://www.researchgate.net/publication/325753653_A_small_galliform_and_a_small_cuculiform_from_the_Eocene_of_Tunisia) – represented by fragments of multiple bones (ONM CB1-541, CB1-560–4, CB2-1001) from the Eocene (51–44.6 Ma, [Coster et al. 2012](https://doi.org/10.1130/B30565.1)) of Djebel Chambi, Tunisia ([Mourer-Chauviré et al. 2016](https://doi.org/10.18563/pv.40.1.e2)).
 
-- Eocuculus cf. cherpinae Chandler, 1999, partial postcranial skeleton from the Early Oligocene (MP24, 30–28.8 Ma) of Pichovet, France (Mayr 2006).
+- _Eocuculus_ cf. _cherpinae_ [Chandler, 1999](https://www.npshistory.com/publications/paleontology/grdtr-99-03-4.pdf) – partial postcranial skeleton (SMF Av 425) from the Early Oligocene (MP24, 30–28.8 Ma) of Pichovet, France ([Mayr 2006](https://doi.org/10.1016/j.geobios.2005.10.007)).
 
-- Otididae indet. from the Oligocene (33.9–23.0 Ma) of Tchelkar Nura, Kazakhstan (Kurochkin 1976).
+- Otididae indet. from the Oligocene (33.9–23.0 Ma) of Tchelkar Nura, Kazakhstan ([Kurochkin 1976](https://www.biodiversitylibrary.org/part/352126)). This material is not referenced to the specimen level, nor are explicit synapomorphies or phylogenetic analyses provided, but it is included here by reference for the sake of completeness.
 
-- Centropus bairdi (holotype:WAM 09.3.282 humerus, and referred material) and C. and Leaena’s Breath Cave, Nullarbor Plain, Western, Australia (Shute et al. 2016). Magnetostratigraphy and faunistic correlates suggest an early Pleistocene age within the Naracoortean land mammal age (2.58 - 0.78 Ma, Shute et al. 2016).
+- _Centropus bairdi_ [Shute, Prideaux, & Worthy, 2016](https://doi.org/10.1111/zoj.12387) – long bones (WAM 09.3.277–282) from Leaena’s Breath Cave, Nullarbor Plain, Western, Australia ([Shute et al. 2016](https://doi.org/10.1111/zoj.12387)). Magnetostratigraphy and faunistic correlates suggest an early Pleistocene age within the Naracoortean land mammal age (2.58-0.78Ma, [Shute et al. 2016](https://doi.org/10.1111/zoj.12387)).
 
-- Crotophaga ani, humeri and partial mandible from Lapa da Escrivania level 5, Lagoa Santa, Minas Gerais, Brazil (Winge 1887, Nascimento & Silveira 2020). Lapa da Escrivania level 5 contains remains deposited during the Pleistocene-Holocene transition, about 0.012 – 0.010 Ma (Nascimento & Silveira 2020).
+- _Crotophaga ani_ [Linnaeus, 1758](https://www.biodiversitylibrary.org/bibliography/542) – humeri and partial mandible, likely uncatalogued in the Natural History Museum of Denmark (formerly the University of Copenhagen Zoological Museum), from Lapa da Escrivania level 5, Lagoa Santa, Minas Gerais, Brazil ([Winge 1887](https://www.biodiversitylibrary.org/bibliography/13380), [Nascimento & Silveira 2020](https://doi.org/10.11646/zootaxa.4743.4.2)). This formation contains remains deposited during the Pleistocene-Holocene transition, about 0.012–0.010Ma ([Nascimento & Silveira 2020](https://doi.org/10.11646/zootaxa.4743.4.2)).
 
-- Remains of five species of Coua (Cuculidae) from Ankilitelo Cave (0.013 - 0.002 Ma) Madagascar (Goodman et al. 2013). 
-
-
+- Various fragmentary remains (DLC 17268, 18041, 18098, 18157, 18780, 18797, 18876) of five species of _Coua_ (Cuculidae) from Ankilitelo Cave (0.013–0.002Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)). 
 
 **Minimum age:** 51.81Ma\
 **Minimum justification:** The oldest of these taxa is _Foro panarium_, for which radiometric 40Ar/39Ar-dating of the K-spar tuff near the top of the Fossil Butte member yielded a recalibrated date of 51.97±0.16 Ma (Smith et al. 2008, 2010).
 **Maximum age:** 80.39Ma\
-
-Maximum justification: based on the 95% quantile of the empirical calibration distribution. 
-
-Calibration density: skew-Student  function
-      xi     omega     alpha        nu 
-5.191e+01 7.378e+00 6.311e+05 2.763e+00 
-
-**Discussion:** Relationships among Otidiformes, Musophagiformes and Cuculiformes are poorly resolved due to a very short internode and high levels of incomplete lineage sorting (Stiller et al. 2025). We applied this calibration to the entire crown group. Eocuculus has been very difficult to place phylogenetically—support for a position within Otidimorphae is ambiguous
-
-
-
-
-
-
-
-
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Anatidae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=51.91, omega=7.378, alpha=6.311e+05, and nu=2.763.\
+**Discussion:** Relationships among Otidiformes, Musophagiformes and Cuculiformes are poorly resolved due to a very short internode and high levels of incomplete lineage sorting ([Stiller et al. 2024](https://doi.org/10.1038/s41586-024-07323-1)). We applied this calibration based on _Foro panarium_ (Musophagiformes _incertae sedis_) to the entire crown group, noting that both it and _Eocuculus_ have been very difficult to place phylogenetically – support for a position within Musophagiformes and Otidimorphae, respectively, are ambiguous across analyses.
 
 ### Notes
 **DJF:** Just wondering if it would make sense to add any internal calibrations for Palaeognathae? I think _Emuarius gidju_ is clearly a total-clade casuariid, so it could calibrate the _Dromaius_-_Apteryx_ node in the tree at ~24.5Ma. **SC:** But _Emuarius_ is sister to _Dromaiaus_ (Worthy et al. 2014), thus calibrating crown Casuariiformes. It would be a stretch to use it for the much deeper node you mention. Unfortunately, we don't have _Cassuarius_ in the dataset.
@@ -127,6 +111,8 @@ Bowman, V., J. Ineson, J. Riding, J. Crame, J. Francis, D. Condon, R. Whittle & 
 
 Braun, E.L., Cracraft, J. and Houde, P., 2019. Resolving the avian tree of life from top to bottom: the promise and potential boundaries of the phylogenomic era. In Avian genomics in ecology and evolution: from the lab into the wild (pp. 151-210). Cham: Springer International Publishing.
 
+Chandler, R., 1999. Fossil birds of Florissant, Colorado: with a description of a new genus and species of cuckoo. Geologic Resources Division, Technical Report, NPS/NRGRD/ GRDTR-99, 49-53.
+
 Claramunt, S., 2022. CladeDate: Calibration information generator for divergence time estimation. Methods in Ecology and Evolution, 13(11), pp.2331-2338.
 
 Coster, P., Benammi, M., Mahboubi, M., Tabuce, R., Adaci, M., Marivaux, L., Bensalah, M., Mahboubi, S., Mahboubi, A., Mebrouk, F. & Maameri, C. 2012. Chronology of the Eocene continental deposits of Africa: Magnetostratigraphy and biostratigraphy of the El Kohol and Glib Zegdou Formations, Algeria. Geological Society of America Bulletin 124(9-10):1590-1606.
@@ -139,11 +125,19 @@ Field, D. J., J. Benito, A. Chen, J. W. M. Jagt, D. T. Ksepka 2020. Late Cretace
 
 Goodman, S.M. 1999. Holocene bird subfossils from the sites of Ampasambazimba, Antsirabe and Ampoza, Madagascar: Changes in the avifauna of south-central Madagascar over the past few millennia. In: Adams, N.J. & Slotow, R.H. (eds) Proc. 22 Int. Ornithol. Congr., Durban: 3071-3083. Johannesburg: BirdLife South Africa.
 
+Goodman, S. M., M. J. Raherilalao & K. Muldoon 2013. Bird fossils from Ankilitelo Cave: inference about Holocene environmental changes in Southwestern Madagascar. Zootaxa 3750(5):534-548.
+
 Houde, P., Dickson, M., & Camarena, D. (2023). Basal anseriformes from the early Paleogene of North America and Europe. Diversity, 15(2), 233.
 
 Howard, H. 1992. New records of middle Miocene anseriform birds from Kern County, California. Papers in Avian Paleontology Honoring Pierce Brodkorb. Natural History Museum of Los Angeles County, Science Series, 36, 231-237
 
+Kurochkin, E. N. 1976. A survey of the Paleogene birds of Asia. Smithson. Contrib. Paleobiol. 27:75-86.
+
 Kurochkin E. N. & A. A. Dyke 2009. A large collection of Presbyornis (Aves, Anseriformes, Presbyornithidae) from the late Paleocene and early Eocene of Mongolia. Geological Journal 45:375-387.
+
+Linnaeus, C. 1758. Systema Naturae, 10th edition, vol. 1. Stockholm: Laurentius Salvius.
+
+Mayr, G. 2006. A specimen of Eocuculus Chandler, 1999 (Aves, ?Cuculidae) from the early Oligocene of France. Geobios, 39(6), 865-872.
 
 Mayr, G., & Kitchener, A. C. (2025). Leg bones of the anseriform taxon Nettapterornis from the London Clay of Walton-on-the-Naze and notes on the bony-toothed birds from this locality. PalZ, 99(3), 355-369.
 
@@ -159,17 +153,23 @@ Mourer-Chauviré, C., Essid, E.M., Khayati, H., Marivaux, L., Marzougui, W., Tem
 
 Musser, G., & J. A. Clarke 2024. A new Paleogene fossil and a new dataset for waterfowl (Aves: Anseriformes) clarify phylogeny, ecological evolution, and avian evolution at the K-Pg Boundary. Plos one, 19(7), e0278737.
 
+Nascimento, R., & Silveira, L. F. (2020). The fossil birds of Peter Lund. Zootaxa, 4743(4), 480-510.
+
 Olson, S. L. 1992 A new family of primitive landbirds from the Lower Eocene Green River Formation of Wyoming. Natural History Museum of Los Angeles County Science Series 36, pp 127-136.
 
 Olson, S.L., 1999. The anseriform relationships of Anatalavis Olson and Parris (Anseranatidae), with a new species from the Lower Eocene London Clay. Smithsonian Contributions to Paleobiology, 89, pp.231-243.
 
 Parham, J.F., Donoghue, P.C., Bell, C.J., Calway, T.D., Head, J.J., Holroyd, P.A., Inoue, J.G., Irmis, R.B., Joyce, W.G., Ksepka, D.T. and Patané, J.S., 2012. Best practices for justifying fossil calibrations. Systematic biology, 61(2), pp.346-359.
 
+Shute, E., Prideaux, G.J., Worthy, T.H. 2016. Three terrestrial Pleistocene coucals (Centropus: Cuculidae) from southern Australia: biogeographical and ecological significance, Zoological Journal of the Linnean Society, 177, 964–1002.
+
 Stiller, J., Feng, S., Chowdhury, A.A., Rivas-González, I., Duchêne, D.A., Fang, Q., Deng, Y., Kozlov, A., Stamatakis, A., Claramunt, S. and Nguyen, J.M., 2024. Complexity of avian evolution revealed by family-level genomes. Nature, 629(8013), pp.851-860.
 
 Tambussi C. P. 1998. Nuevo Anatidae (Aves: Anseriformes) del Plioceno de la región pampeana, Argentina. Boll. Soc Hist. Nat. Balears 41: 19-25.
 
 Tambussi, C.P., F.J. Degrange, R.S. De Mendoza, E. Sferco & S. Santillana. 2019. A stem anseriform from the early Palaeocene of Antarctica provides new key evidence in the early evolution of waterfowl. Zoological Journal of the Linnean Society 186(3):673-700.
+
+Winge, O. 1887. Fugle fra Knoglehuler i Brasilien. E Museo Lundii, 1 (2), 1–54.
 
 Woodburne, M. O., B. J. MacFadden, J. A. Case, M. S. Springer, N. S. Pledge, J. D. Power, J. M. Woodburne & K. B. Springer. 1994. Land mammal biostratigraphy and magnetostratigraphy of the Etadunna Formation (late Oligocene) of South Australia. Journal of Vertebrate Paleontology 13(4):483-515.
 
