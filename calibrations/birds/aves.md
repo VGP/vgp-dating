@@ -57,6 +57,46 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 **Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Anatidae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=24.701, omega=3.477, alpha=10.192, and nu=2.627.
 
+
+
+**Node 699:** Otidimorphae | 80.39–51.81Ma\
+**Node calibrated:** Last common ancestor of Otidiformes (_Chlamydotis macqueenii_), Musophagiformes (_Tauraco erythrolophus_), and Cuculiformes (_Cuculus canorus_), sensu Braun et al. ([2019](https://link.springer.com/chapter/10.1007/978-3-030-16477-5_6))\
+**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Otidimorphae:
+
+– _Foro panarium_ [Olson, 1992](http://hdl.handle.net/10088/8418) – nearly complete skeleton (USNM 336621) from the Fossil Butte Member (52.13–51.81 Ma) of the Green River Formation at Thompson Quarry, Lincoln County, Wyoming, USA. Phylogenetic analysis placed this taxon in the stem of Musophagiformes ([Field & Hsiang 2018](https://doi.org/10.1186/s12862-018-1212-3)). 
+
+
+·      Chambicuculus pusillus Mourer-Chauviré et al., 2013, represented by fragments of multiple bones from the Eocene (51–44.6 Ma, Coster et al. 2012) of Djebel Chambi, Tunisia.
+
+·      Eocuculus cf. cherpinae Chandler, 1999, partial postcranial skeleton from the Early Oligocene (MP24, 30–28.8 Ma) of Pichovet, France (Mayr 2006).
+
+·      Otididae indet. from the Oligocene (33.9–23.0 Ma) of Tchelkar Nura, Kazakhstan (Kurochkin 1976).
+·      Centropus bairdi (holotype:WAM 09.3.282 humerus, and referred material) and C. and Leaena’s Breath Cave, Nullarbor Plain, Western, Australia (Shute et al. 2016). Magnetostratigraphy and faunistic correlates suggest an early Pleistocene age within the Naracoortean land mammal age (2.58 - 0.78 Ma, Shute et al. 2016).
+·      Crotophaga ani, humeri and partial mandible from Lapa da Escrivania level 5, Lagoa Santa, Minas Gerais, Brazil (Winge 1887, Nascimento & Silveira 2020). Lapa da Escrivania level 5 contains remains deposited during the Pleistocene-Holocene transition, about 0.012 – 0.010 Ma (Nascimento & Silveira 2020).
+·      Remains of five species of Coua (Cuculidae) from Ankilitelo Cave (0.013 - 0.002 Ma) Madagascar (Goodman et al. 2013). 
+
+
+
+**Minimum age:** 51.81Ma\
+**Minimum justification:** The oldest of these taxa is _Foro panarium_, for which radiometric 40Ar/39Ar-dating of the K-spar tuff near the top of the Fossil Butte member yielded a recalibrated date of 51.97±0.16 Ma (Smith et al. 2008, 2010).
+**Maximum age:** 80.39Ma\
+
+Maximum justification: based on the 95% quantile of the empirical calibration distribution. 
+
+Calibration density: skew-Student  function
+      xi     omega     alpha        nu 
+5.191e+01 7.378e+00 6.311e+05 2.763e+00 
+
+**Discussion:** Relationships among Otidiformes, Musophagiformes and Cuculiformes are poorly resolved due to a very short internode and high levels of incomplete lineage sorting (Stiller et al. 2025). We applied this calibration to the entire crown group. Eocuculus has been very difficult to place phylogenetically—support for a position within Otidimorphae is ambiguous
+
+
+
+
+
+
+
+
+
 ### Notes
 **DJF:** Just wondering if it would make sense to add any internal calibrations for Palaeognathae? I think _Emuarius gidju_ is clearly a total-clade casuariid, so it could calibrate the _Dromaius_-_Apteryx_ node in the tree at ~24.5Ma. **SC:** But _Emuarius_ is sister to _Dromaiaus_ (Worthy et al. 2014), thus calibrating crown Casuariiformes. It would be a stretch to use it for the much deeper node you mention. Unfortunately, we don't have _Cassuarius_ in the dataset.
 
@@ -85,9 +125,13 @@ Andrews, C.W. 1897. On some fossil remains of Carinate birds from Central Madaga
 
 Bowman, V., J. Ineson, J. Riding, J. Crame, J. Francis, D. Condon, R. Whittle & F. Ferraccioli. 2016. The Paleocene of Antarctica: Dinoflagellate cyst biostratigraphy, chronostratigraphy and implications for the palaeo-Pacific margin of Gondwana. Gondwana Research 38:132-148.
 
+Braun, E.L., Cracraft, J. and Houde, P., 2019. Resolving the avian tree of life from top to bottom: the promise and potential boundaries of the phylogenomic era. In Avian genomics in ecology and evolution: from the lab into the wild (pp. 151-210). Cham: Springer International Publishing.
+
 Claramunt, S., 2022. CladeDate: Calibration information generator for divergence time estimation. Methods in Ecology and Evolution, 13(11), pp.2331-2338.
 
 Elzanowski A, Boles WE. 2012 Australia’s oldest Anseriform fossil: a quadrate from the Early Eocene Tingamarra Fauna. Palaeontology 55, 903–911.
+
+Field, D.J. & Hsiang, A.Y. (2018): A North American stem turaco, and the complex biogeographic history of modern birds. BMC Evolutionary Biology 18 (102), pp 1–16.
 
 Field, D. J., J. Benito, A. Chen, J. W. M. Jagt, D. T. Ksepka 2020. Late Cretaceous neornithine from Europe illuminates the origins of crown birds. Nature 579 (7799): 397–401.
 
@@ -108,6 +152,8 @@ Mourer-Chauviré, C. 2008. Birds (Aves) from the Early Miocene of the Northern S
 Mourer-Chauviré, C., Pickford, M. and Senut, B., 2011. The first Palaeogene galliform from Africa. Journal of Ornithology, 152(3), pp.617-622.
 
 Musser, G., & J. A. Clarke 2024. A new Paleogene fossil and a new dataset for waterfowl (Aves: Anseriformes) clarify phylogeny, ecological evolution, and avian evolution at the K-Pg Boundary. Plos one, 19(7), e0278737.
+
+Olson, S. L. 1992 A new family of primitive landbirds from the Lower Eocene Green River Formation of Wyoming. Natural History Museum of Los Angeles County Science Series 36, pp 127-136.
 
 Olson, S.L., 1999. The anseriform relationships of Anatalavis Olson and Parris (Anseranatidae), with a new species from the Lower Eocene London Clay. Smithsonian Contributions to Paleobiology, 89, pp.231-243.
 
