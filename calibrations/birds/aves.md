@@ -51,26 +51,11 @@ Node calibrated: Last common ancestor of Anatinae (_Anas platyrhynchos)_ and Ans
 
 - _Alopochen sirabensis_ ([Andrews, 1897](https://onlinelibrary.wiley.com/doi/10.1111/j.1474-919X.1897.tb03281.x)) – bone fragments (UA 360) from the Pleistocene of Ampasambazimba (0.0229–0.0222 Ma), Madagascar ([Goodman 1999](https://www.internationalornithology.org/PROCEEDINGS_Durban/Symposium/S50/S50.4.htm)).
 
-
-**Minimum age:** 24Ma
-**Minimum justification:** Given the uncertainty in the relationships among anatid subfamilies, we use _Pinpanetta_ to calibrate crown Anatidae. Biostratigraphy of fossil land mammals, presence of Oligocene foraminiferal fauna, and magnetostratigraphy indicate an age between 24 and 26Ma for the Etadunna Formation ([Woodburne et al. 1994](https://doi.org/10.1080/02724634.1994.10011527)).
-
-Biostratigraphy of fossil land mammals, presence of Oligocene foraminiferal fauna, and magnetostratigraphy indicate an age between 24 and 26 Ma for the Etadunna Formation (Woodburne et al. 1994).
-**Maximum age:** 38.05Ma
-**Maximum justification:** based on the 95% quantile of the empirical calibration distribution.
-**Discussion:**
-**Calibration density:** skewStudent function
-    xi  omega  alpha     nu 
-24.701  3.477 10.192  2.627 
-
-
-
-
-
-
-
-
-
+**Minimum age:** 24Ma\
+**Minimum justification:** Given the uncertainty in the relationships among anatid subfamilies, we use _Pinpanetta_ to calibrate crown Anatidae. Biostratigraphy of fossil land mammals, presence of Oligocene foraminiferal fauna, and magnetostratigraphy indicate an age between 24 and 26Ma for the Etadunna Formation ([Woodburne et al. 1994](https://doi.org/10.1080/02724634.1994.10011527)).\
+**Maximum age:** 38.05Ma\
+**Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Anatidae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
+**Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=24.701, omega=3.477, alpha=10.192, and nu=2.627.
 
 ### Notes
 **DJF:** Just wondering if it would make sense to add any internal calibrations for Palaeognathae? I think _Emuarius gidju_ is clearly a total-clade casuariid, so it could calibrate the _Dromaius_-_Apteryx_ node in the tree at ~24.5Ma. **SC:** But _Emuarius_ is sister to _Dromaiaus_ (Worthy et al. 2014), thus calibrating crown Casuariiformes. It would be a stretch to use it for the much deeper node you mention. Unfortunately, we don't have _Cassuarius_ in the dataset.
