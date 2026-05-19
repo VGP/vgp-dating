@@ -63,15 +63,17 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 
 - _Foro panarium_ [Olson, 1992](http://hdl.handle.net/10088/8418) – nearly complete skeleton (USNM 336621) from the Fossil Butte Member (52.13–51.81 Ma) of the Green River Formation at Thompson Quarry, Lincoln County, Wyoming, USA. Phylogenetic analysis placed this taxon in the stem of Musophagiformes ([Field & Hsiang 2018](https://doi.org/10.1186/s12862-018-1212-3)). 
 
+- _Chambicuculus pusillus_ [Mourer-Chauviré, Tabuce, Essid, Marivaux, Khayati, Vianey-Liaud, & Ben Haj Ali, 2013](https://www.researchgate.net/publication/325753653_A_small_galliform_and_a_small_cuculiform_from_the_Eocene_of_Tunisia) – represented by fragments of multiple bones (ONM CB1-541, CB1-560–4, CB2-1001) from the Eocene (51–44.6 Ma, [Coster et al. 2012](https://doi.org/10.1130/B30565.1)) of Djebel Chambi, Tunisia ([Mourer-Chauviré et al. 2016](https://doi.org/10.18563/pv.40.1.e2)).
 
-·      Chambicuculus pusillus Mourer-Chauviré et al., 2013, represented by fragments of multiple bones from the Eocene (51–44.6 Ma, Coster et al. 2012) of Djebel Chambi, Tunisia.
+- Eocuculus cf. cherpinae Chandler, 1999, partial postcranial skeleton from the Early Oligocene (MP24, 30–28.8 Ma) of Pichovet, France (Mayr 2006).
 
-·      Eocuculus cf. cherpinae Chandler, 1999, partial postcranial skeleton from the Early Oligocene (MP24, 30–28.8 Ma) of Pichovet, France (Mayr 2006).
+- Otididae indet. from the Oligocene (33.9–23.0 Ma) of Tchelkar Nura, Kazakhstan (Kurochkin 1976).
 
-·      Otididae indet. from the Oligocene (33.9–23.0 Ma) of Tchelkar Nura, Kazakhstan (Kurochkin 1976).
-·      Centropus bairdi (holotype:WAM 09.3.282 humerus, and referred material) and C. and Leaena’s Breath Cave, Nullarbor Plain, Western, Australia (Shute et al. 2016). Magnetostratigraphy and faunistic correlates suggest an early Pleistocene age within the Naracoortean land mammal age (2.58 - 0.78 Ma, Shute et al. 2016).
-·      Crotophaga ani, humeri and partial mandible from Lapa da Escrivania level 5, Lagoa Santa, Minas Gerais, Brazil (Winge 1887, Nascimento & Silveira 2020). Lapa da Escrivania level 5 contains remains deposited during the Pleistocene-Holocene transition, about 0.012 – 0.010 Ma (Nascimento & Silveira 2020).
-·      Remains of five species of Coua (Cuculidae) from Ankilitelo Cave (0.013 - 0.002 Ma) Madagascar (Goodman et al. 2013). 
+- Centropus bairdi (holotype:WAM 09.3.282 humerus, and referred material) and C. and Leaena’s Breath Cave, Nullarbor Plain, Western, Australia (Shute et al. 2016). Magnetostratigraphy and faunistic correlates suggest an early Pleistocene age within the Naracoortean land mammal age (2.58 - 0.78 Ma, Shute et al. 2016).
+
+- Crotophaga ani, humeri and partial mandible from Lapa da Escrivania level 5, Lagoa Santa, Minas Gerais, Brazil (Winge 1887, Nascimento & Silveira 2020). Lapa da Escrivania level 5 contains remains deposited during the Pleistocene-Holocene transition, about 0.012 – 0.010 Ma (Nascimento & Silveira 2020).
+
+- Remains of five species of Coua (Cuculidae) from Ankilitelo Cave (0.013 - 0.002 Ma) Madagascar (Goodman et al. 2013). 
 
 
 
@@ -127,6 +129,8 @@ Braun, E.L., Cracraft, J. and Houde, P., 2019. Resolving the avian tree of life 
 
 Claramunt, S., 2022. CladeDate: Calibration information generator for divergence time estimation. Methods in Ecology and Evolution, 13(11), pp.2331-2338.
 
+Coster, P., Benammi, M., Mahboubi, M., Tabuce, R., Adaci, M., Marivaux, L., Bensalah, M., Mahboubi, S., Mahboubi, A., Mebrouk, F. & Maameri, C. 2012. Chronology of the Eocene continental deposits of Africa: Magnetostratigraphy and biostratigraphy of the El Kohol and Glib Zegdou Formations, Algeria. Geological Society of America Bulletin 124(9-10):1590-1606.
+
 Elzanowski A, Boles WE. 2012 Australia’s oldest Anseriform fossil: a quadrate from the Early Eocene Tingamarra Fauna. Palaeontology 55, 903–911.
 
 Field, D.J. & Hsiang, A.Y. (2018): A North American stem turaco, and the complex biogeographic history of modern birds. BMC Evolutionary Biology 18 (102), pp 1–16.
@@ -148,6 +152,10 @@ Milne-Edwards, A. 1863. Sur la distribution géologique des oiseaux fossiles et 
 Mourer-Chauviré, C. 2008. Birds (Aves) from the Early Miocene of the Northern Sperrgebiet, Namibia. Geology and Palaeobiology of Namib Desert, Southwestern Africa, 20: 147-167.
 
 Mourer-Chauviré, C., Pickford, M. and Senut, B., 2011. The first Palaeogene galliform from Africa. Journal of Ornithology, 152(3), pp.617-622.
+
+Mourer-Chauviré, C., Tabuce, R., Essid, E. M., Marivaux, L., Khayati, H., Vianey-Liaud, M., Ben Haj Ali, M., 2013. A new taxon of stem group Galliformes and the earliest record for stem group Cuculidae from the Eocene of Djebel Chambi, Tunisia. In Göhlich, U. B., Kroh, A. (Eds.), Palaeornithological Research 2013. Proceeding of the 8th International Meeting of the Society of Avian Paleontology and Evolution, pp. 1-15.
+
+Mourer-Chauviré, C., Essid, E.M., Khayati, H., Marivaux, L., Marzougui, W., Temani, R., Vianey-Liaud, M. & Tabuce, R. 2016. New remains of the very small cuckoo, Chambicuculus pusillus (Aves, Cuculiformes, Cuculidae) from the late Early or early Middle Eocene of Djebel Chambi, Tunisia. Palaeovertebrata 40(1):1-4.
 
 Musser, G., & J. A. Clarke 2024. A new Paleogene fossil and a new dataset for waterfowl (Aves: Anseriformes) clarify phylogeny, ecological evolution, and avian evolution at the K-Pg Boundary. Plos one, 19(7), e0278737.
 
