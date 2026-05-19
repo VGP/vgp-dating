@@ -35,18 +35,27 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 Node calibrated: Last common ancestor of Anatinae (_Anas platyrhynchos)_ and Anserinae (_Anser anser_)
 **Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Anatidae:
 
-– _Pinpanetta tedfordi_ Worthy, 2009 – complete right humerus (SAMA P.41257) from the Etadunna Formation at Young Bucks Quarry, Lake Palankarinna, South Australia, Australia. Shared with three other contemporaneous fossil ducks: _P. vickersrichae_ and _P. fromensis,_ and _Australotadorna alecwilsoni_ ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)). A cladistic analysis of _Pinpanetta_ (including _P. tedfordi_) placed it as a stem member of Erismaturinae ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)). Given the uncertainty in the relationships among anatid subfamilies, this fossil is used to calibrate crown Anatidae. Biostratigraphy of fossil land mammals, presence of Oligocene foraminiferal fauna, and magnetostratigraphy indicate an age between 24 and 26Ma for the Etadunna Formation ([Woodburne et al. 1994](https://doi.org/10.1080/02724634.1994.10011527)).
-●      Mionetta blanchardi (Milne-Edwards, 1863), multiple bones from several individuals from Saint-Gérand-le-Puy (Aquitanian, 23–20.4 Ma), Allier, France (Worthy & Lee 2008)
-●      Mionetta sp., distal humerus from Grillental (early Miocene, 20 Ma), Northern Sperrgebiet, Namibia (Mourer-Chauviré 2008).
-●      Manuherikia lacustrina Worthy et al. 2007, isolated long bones from the Bannockburn Formation, St Bathans Fauna (early Miocene, Altonian, 18.26–15.97 Ma), Otago, New Zealand (Worthy et al. 2007; Worthy & Lee 2008).
-●      Sharganetta mongolica Zelenkov, 2011, Nogusunna conflictoides Zelenkov, 2011, Protomelanitta gracilisZelenkov, 2011, Chenoanas deserta Zelenkov, 2012, multiple bone fragments representing multiple genera from Sharga (Middle Miocene, NMU7, MN7–8, 13.1–11.2 Ma), Shargyn-Govi area, Mongolia (Zelenkov 2011).
+– _Pinpanetta tedfordi_ Worthy, 2009 – complete right humerus (SAMA P.41257) from the Etadunna Formation at Young Bucks Quarry, Lake Palankarinna, South Australia, Australia. This locality is shared with three other contemporaneous fossil ducks: _P. vickersrichae_ and _P. fromensis,_ and _Australotadorna alecwilsoni_ ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)). A cladistic analysis of _Pinpanetta_ (including _P. tedfordi_) placed it as a stem member of Erismaturinae ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)).
+
+– _Mionetta blanchardi_ ([Milne-Edwards, 1863](https://www.biodiversitylibrary.org/page/3679973#page/1224/mode/1up)), multiple bones from several individuals including UCBL-FSL 442.807 and 442.800 from Saint-Gérand-le-Puy (Aquitanian, 23–20.4 Ma), Allier, France ([Worthy & Lee 2008](https://doi.org/10.1111/j.1475-4983.2008.00778.x)).
+
+– _Mionetta sp._ – distal humerus (GSN GT 133’06) from Grillental (early Miocene, 20 Ma), Northern Sperrgebiet, Namibia ([Mourer-Chauviré 2008](https://www.researchgate.net/publication/285787143_Birds_Aves_from_the_Early_Miocene_of_the_Northern_Sperrgebiet_Namibia)).
+
+- _Manuherikia lacustrina_ Worthy, Tennyson, Jones, McNamara, & Douglas, 2007 – isolated long bones (MNZ S40094, S42306-8) from the Bannockburn Formation, St Bathans Fauna (Antonian, 19–16Ma), Otago, New Zealand ([Worthy et al. 2007](https://www.tandfonline.com/doi/abs/10.1017/S1477201906001957), [Worthy & Lee 2008](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4983.2008.00778.x)).
+
+– Multiple bone fragments representing multiple anatid genera are known from Sharga (Middle Miocene, NMU7, MN7–8, 13.1–11.2 Ma), Shargyn-Govi area, Mongolia ([Zelenkov 2011]([url](https://doi.org/10.1134/S0031030111020195))). These include _Sharganetta mongolica_ Zelenkov, 2011 (PIN 4869/195 and 4869/198), _Nogusunna conflictoides_ Zelenkov, 2011 (PIN 4869/23, 4869/197, and 4869/199), _Protomelanitta gracilis_ Zelenkov, 2011 (PIN 4869/100, 4869/125, 4869/134, 4869/151), and _Chenoanas deserta_ [Zelenkov, 2012](https://link.springer.com/article/10.1134/S0031030112050139) (PIN 4869/57, 4869/196). 
+
 ●      Megalodytes morejohni Howard, 1992 from the Round Mountain Member of the Temblor Formation (Langhian, 15.99–11.63 Ma ), Kern County, California, USA. 
+
 ●      Chloephaga robusta Tambussi, 1998, distal ulna from the Irene Formation (early Pliocene, 4–3 Ma), Buenos Aires, Argentina. There are many other fossils referred to Anatidae but likely represent stem fossils.
+
 ●      Alopochen sirabensis from the Pleistocene of Ampasambazimba (0.0229–0.0222 Ma), Madagascar (Goodman 1999).
 
 
 **Minimum age:** 24Ma
-**Minimum justification:** Biostratigraphy of fossil land mammals, presence of Oligocene foraminiferal fauna, and magnetostratigraphy indicate an age between 24 and 26 Ma for the Etadunna Formation (Woodburne et al. 1994).
+**Minimum justification:** Given the uncertainty in the relationships among anatid subfamilies, we use _Pinpanetta_ to calibrate crown Anatidae. Biostratigraphy of fossil land mammals, presence of Oligocene foraminiferal fauna, and magnetostratigraphy indicate an age between 24 and 26Ma for the Etadunna Formation ([Woodburne et al. 1994](https://doi.org/10.1080/02724634.1994.10011527)).
+
+Biostratigraphy of fossil land mammals, presence of Oligocene foraminiferal fauna, and magnetostratigraphy indicate an age between 24 and 26 Ma for the Etadunna Formation (Woodburne et al. 1994).
 **Maximum age:** 38.05Ma
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution.
 **Discussion:**
@@ -101,7 +110,11 @@ Kurochkin E. N. & A. A. Dyke 2009. A large collection of Presbyornis (Aves, Anse
 
 Mayr, G., & Kitchener, A. C. (2025). Leg bones of the anseriform taxon Nettapterornis from the London Clay of Walton-on-the-Naze and notes on the bony-toothed birds from this locality. PalZ, 99(3), 355-369.
 
-Mourer-Chauvire, Pickford & Senut 2011. The first Palaeogene galliform from Africa. Journal of Ornithology 152 3:617-622
+Milne-Edwards, A. 1863. Sur la distribution géologique des oiseaux fossiles et description de quelques espèces nouvelles. Comptes rendus hebdomadaires des séances de l'Académie des sciences 56: 1219–1222.
+
+Mourer-Chauviré, C. 2008. Birds (Aves) from the Early Miocene of the Northern Sperrgebiet, Namibia. Geology and Palaeobiology of Namib Desert, Southwestern Africa, 20: 147-167.
+
+Mourer-Chauviré, C., Pickford, M. and Senut, B., 2011. The first Palaeogene galliform from Africa. Journal of Ornithology, 152(3), pp.617-622.
 
 Musser, G., & J. A. Clarke 2024. A new Paleogene fossil and a new dataset for waterfowl (Aves: Anseriformes) clarify phylogeny, ecological evolution, and avian evolution at the K-Pg Boundary. Plos one, 19(7), e0278737.
 
@@ -120,3 +133,7 @@ Worthy, T. H. 2009. Descriptions and phylogenetic relationships of two new gener
 Worthy, T. H., A. J. D. Tennyson, C. Jones, J. A. McNamara & B. J. Douglas. 2007. Miocene waterfowl and other birds from Central Otago, New Zealand. Journal of Systematic Palaeontology 5:1–39.
 
 Worthy T.H. & M. S. Y.  Lee. 2008. Affinities of Miocene (19–16 Ma) waterfowl (Anatidae: Manuherikia, Dunstanetta and Miotadorna) from the St Bathans Fauna, New Zealand. Palaeontology 51: 677–708.
+
+Zelenkov, N. V. 2011. Diving ducks from the Middle Miocene of western Mongolia. Paleontological Journal, 45(2), 191-199.
+
+Zelenkov, N.V. 2012. A new duck from the Middle Miocene of Mongolia, with comments on Miocene evolution of ducks. Paleontol. J. 46: 520–530.
