@@ -29,7 +29,7 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 **Minimum justification:** The oldest of these taxa, _Conflicto antarcticus_, is from Level 10 of the López de Bertodano Formation, which is the youngest stratum of the formation and sits right above the K-Pg boundary (66.04Ma); its upper bound was estimated as 65.65Ma based on dinoflagellate cyst biostratigraphy and U–Pb zircon dating ([Bowman et al. 2016](https://www.sciencedirect.com/science/article/pii/S1342937X15002828)).\
 **Maximum age:** 91.91Ma\
 **Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Galloanseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
-**Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=6.573e+01, omega=6.415e+00, alpha=4.680e+07, and nu=2.143e+00.
+**Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=65.73, omega=6.415, alpha=4.680e+07, and nu=2.143.
 
 **Node 710:** Anatidae | 38–24Ma\
 **Node calibrated:** Last common ancestor of Anatinae (_Anas platyrhynchos)_ and Anserinae (_Anser anser_)\
