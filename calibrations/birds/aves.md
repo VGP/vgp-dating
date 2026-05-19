@@ -132,6 +132,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Maximum justification:**\
 **Discussion:** **SC:** This fossil has never been analyzed using phylogenetic methods and its affinities are a matter of opinion. Let's not use this one unless we determine that it may be needed. **DJF:** I don't disagree that the fossil is potentially controversial, although Dan and I looked carefully at this one when we were working on the Oliveros et al. passerine paper and had to agree that everything is consistent with a referral to at least a broader emberizoid subclade including Passerellidae. **SC:** I think it can be referred to Passerellidae, in particular. Could add this calibration but would not be compliant with the Parham "best practices" because of a lack of phylogenetic analysis.
 
+---
+
 ## References
 
 Alvarenga, H.M., 1999. A Fossil Screamer (Anseriformes: Anhimidae) from the Middle Tertiary of Southeastern Brazil. Smithsonian Contributions to Paleobiology, (89) 223-230.
