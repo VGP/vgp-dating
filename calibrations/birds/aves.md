@@ -57,13 +57,11 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 **Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Anatidae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=24.701, omega=3.477, alpha=10.192, and nu=2.627.
 
-
-
 **Node 699:** Otidimorphae | 80.39–51.81Ma\
 **Node calibrated:** Last common ancestor of Otidiformes (_Chlamydotis macqueenii_), Musophagiformes (_Tauraco erythrolophus_), and Cuculiformes (_Cuculus canorus_), sensu Braun et al. ([2019](https://link.springer.com/chapter/10.1007/978-3-030-16477-5_6))\
 **Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Otidimorphae:
 
-– _Foro panarium_ [Olson, 1992](http://hdl.handle.net/10088/8418) – nearly complete skeleton (USNM 336621) from the Fossil Butte Member (52.13–51.81 Ma) of the Green River Formation at Thompson Quarry, Lincoln County, Wyoming, USA. Phylogenetic analysis placed this taxon in the stem of Musophagiformes ([Field & Hsiang 2018](https://doi.org/10.1186/s12862-018-1212-3)). 
+- _Foro panarium_ [Olson, 1992](http://hdl.handle.net/10088/8418) – nearly complete skeleton (USNM 336621) from the Fossil Butte Member (52.13–51.81 Ma) of the Green River Formation at Thompson Quarry, Lincoln County, Wyoming, USA. Phylogenetic analysis placed this taxon in the stem of Musophagiformes ([Field & Hsiang 2018](https://doi.org/10.1186/s12862-018-1212-3)). 
 
 
 ·      Chambicuculus pusillus Mourer-Chauviré et al., 2013, represented by fragments of multiple bones from the Eocene (51–44.6 Ma, Coster et al. 2012) of Djebel Chambi, Tunisia.
