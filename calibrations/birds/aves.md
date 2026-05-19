@@ -85,6 +85,26 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Anatidae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=51.91, omega=7.378, alpha=6.311e+05, and nu=2.763.\
 **Discussion:** Relationships among Otidiformes, Musophagiformes and Cuculiformes are poorly resolved due to a very short internode and high levels of incomplete lineage sorting ([Stiller et al. 2024](https://doi.org/10.1038/s41586-024-07323-1)). We applied this calibration based on _Foro panarium_ (Musophagiformes _incertae sedis_) to the entire crown group, noting that both it and _Eocuculus_ have been very difficult to place phylogenetically – support for a position within Musophagiformes and Otidimorphae, respectively, are ambiguous across analyses.
 
+---
+**Node 704:** Daedalornithes | 95.7-54.6Ma\
+**Node calibrated:** Last common ancestor of Aegothelidae (_Aegotheles albertisi_) and Apodiformes (_Apus apus_)\
+**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Daedalornithes:
+ ●      Eocypselus vincenti Harrison 1984, referred material, a nearly complete skeleton (MGUH 29278) and two incomplete postcranial skeletons (MGUH 26729, MGUH 26730) from the early Eocene (55.8–54.6 Ma) Fur Formation, Denmark. A cladistic analysis (Ksepka et al. 2013) and Bayesian analyses with topological constraints (Chen et al. 2019) found Eocypselus vincenti as a stem Apodiformes, but a total evidence Bayesian analysis indicated a position as stem Aegothelidae instead (Chen et al. 2019). Either way, Eocypselus is confirmed as a basal crown Daedalornithes. The bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8 Ma ago (Stokke et al. 2020a). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6 Ma (King 2016, Stokke et al. 2020b).      
+●      Eocypselus rowei Ksepka et. al, 2013 from the Fossil Butte Member of the Green River Formation (Early Eocene, 51.97±0.16 Ma), Wyoming, USA.         
+●      Collocalia buday Boles, 2001 from the early Miocene Camel Sputum Site (18.53–16.97 Ma, Woodhead et al. 2016), Riversleigh, Queensland, Australia.
+●      Aegotheles zealandivetus Worthy et al. 2022 from the Bannockburn Formation, St Bathans Fauna (Early Miocene, Altonian, 18.26–15.97 Ma), Otago, New Zealand.
+●      Tachymarptis sp. from the upper Varswater Formation at Langebaanweg (Early Pliocene 5.33–3.6 Ma), Cape Province, South Africa (Manegold et al. 2013).
+●      Apus sp. left coracoid (NSMT PV 24548), left carpometacarpus (24549), proximal phalanx major digit (24550)from fissure-filling deposits in Shiriya, Aomori Prefecture, Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129 – 0.116 Ma, Watanabe et al. 2018)
+●      Streptoprocne zonaris, non-specified specimen from Barra do Antonião, Piauí, Brazil ( Late Pleistocene: 0.129–0.0117 Ma, Guérin et al. 1996).
+
+**Minimum age:** 54.6Ma\
+**Minimum justification:** The bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8 Ma ago (Stokke et al. 2020a). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6 Ma (King 2016, Stokke et al. 2020b).\
+**Maximum age:** 83.85 Ma\
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Anatidae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=54.649, omega=7.722, alpha=37.041, and nu=2.233.\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1))
+
+---
+
 ### Notes
 **DJF:** Just wondering if it would make sense to add any internal calibrations for Palaeognathae? I think _Emuarius gidju_ is clearly a total-clade casuariid, so it could calibrate the _Dromaius_-_Apteryx_ node in the tree at ~24.5Ma. **SC:** But _Emuarius_ is sister to _Dromaiaus_ (Worthy et al. 2014), thus calibrating crown Casuariiformes. It would be a stretch to use it for the much deeper node you mention. Unfortunately, we don't have _Cassuarius_ in the dataset.
 
