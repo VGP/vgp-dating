@@ -31,6 +31,37 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 **Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Galloanseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=6.573e+01, omega=6.415e+00, alpha=4.680e+07, and nu=2.143e+00.
 
+**Node 710:** Anatidae | 38–24Ma
+Node calibrated: Last common ancestor of Anatinae (_Anas platyrhynchos)_ and Anserinae (_Anser anser_)
+**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Anatidae:
+
+– _Pinpanetta tedfordi_ Worthy, 2009 – complete right humerus (SAMA P.41257) from the Etadunna Formation at Young Bucks Quarry, Lake Palankarinna, South Australia, Australia. Shared with three other contemporaneous fossil ducks: _P. vickersrichae_ and _P. fromensis,_ and _Australotadorna alecwilsoni_ ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)). A cladistic analysis of _Pinpanetta_ (including _P. tedfordi_) placed it as a stem member of Erismaturinae ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)). Given the uncertainty in the relationships among anatid subfamilies, this fossil is used to calibrate crown Anatidae. Biostratigraphy of fossil land mammals, presence of Oligocene foraminiferal fauna, and magnetostratigraphy indicate an age between 24 and 26Ma for the Etadunna Formation ([Woodburne et al. 1994](https://doi.org/10.1080/02724634.1994.10011527)).
+●      Mionetta blanchardi (Milne-Edwards, 1863), multiple bones from several individuals from Saint-Gérand-le-Puy (Aquitanian, 23–20.4 Ma), Allier, France (Worthy & Lee 2008)
+●      Mionetta sp., distal humerus from Grillental (early Miocene, 20 Ma), Northern Sperrgebiet, Namibia (Mourer-Chauviré 2008).
+●      Manuherikia lacustrina Worthy et al. 2007, isolated long bones from the Bannockburn Formation, St Bathans Fauna (early Miocene, Altonian, 18.26–15.97 Ma), Otago, New Zealand (Worthy et al. 2007; Worthy & Lee 2008).
+●      Sharganetta mongolica Zelenkov, 2011, Nogusunna conflictoides Zelenkov, 2011, Protomelanitta gracilisZelenkov, 2011, Chenoanas deserta Zelenkov, 2012, multiple bone fragments representing multiple genera from Sharga (Middle Miocene, NMU7, MN7–8, 13.1–11.2 Ma), Shargyn-Govi area, Mongolia (Zelenkov 2011).
+●      Megalodytes morejohni Howard, 1992 from the Round Mountain Member of the Temblor Formation (Langhian, 15.99–11.63 Ma ), Kern County, California, USA. 
+●      Chloephaga robusta Tambussi, 1998, distal ulna from the Irene Formation (early Pliocene, 4–3 Ma), Buenos Aires, Argentina. There are many other fossils referred to Anatidae but likely represent stem fossils.
+●      Alopochen sirabensis from the Pleistocene of Ampasambazimba (0.0229–0.0222 Ma), Madagascar (Goodman 1999).
+
+
+**Minimum age:** 24Ma
+**Minimum justification:** Biostratigraphy of fossil land mammals, presence of Oligocene foraminiferal fauna, and magnetostratigraphy indicate an age between 24 and 26 Ma for the Etadunna Formation (Woodburne et al. 1994).
+**Maximum age:** 38.05Ma
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution.
+**Discussion:**
+**Calibration density:** skewStudent function
+    xi  omega  alpha     nu 
+24.701  3.477 10.192  2.627 
+
+
+
+
+
+
+
+
+
 
 ### Notes
 **DJF:** Just wondering if it would make sense to add any internal calibrations for Palaeognathae? I think _Emuarius gidju_ is clearly a total-clade casuariid, so it could calibrate the _Dromaius_-_Apteryx_ node in the tree at ~24.5Ma. **SC:** But _Emuarius_ is sister to _Dromaiaus_ (Worthy et al. 2014), thus calibrating crown Casuariiformes. It would be a stretch to use it for the much deeper node you mention. Unfortunately, we don't have _Cassuarius_ in the dataset.
@@ -81,6 +112,10 @@ Parham, J.F., Donoghue, P.C., Bell, C.J., Calway, T.D., Head, J.J., Holroyd, P.A
 Stiller, J., Feng, S., Chowdhury, A.A., Rivas-González, I., Duchêne, D.A., Fang, Q., Deng, Y., Kozlov, A., Stamatakis, A., Claramunt, S. and Nguyen, J.M., 2024. Complexity of avian evolution revealed by family-level genomes. Nature, 629(8013), pp.851-860.
 
 Tambussi, C.P., F.J. Degrange, R.S. De Mendoza, E. Sferco & S. Santillana. 2019. A stem anseriform from the early Palaeocene of Antarctica provides new key evidence in the early evolution of waterfowl. Zoological Journal of the Linnean Society 186(3):673-700.
+
+Woodburne, M. O., B. J. MacFadden, J. A. Case, M. S. Springer, N. S. Pledge, J. D. Power, J. M. Woodburne & K. B. Springer. 1994. Land mammal biostratigraphy and magnetostratigraphy of the Etadunna Formation (late Oligocene) of South Australia. Journal of Vertebrate Paleontology 13(4):483-515.
+
+Worthy, T. H. 2009. Descriptions and phylogenetic relationships of two new genera and four new species of Oligo-Miocene waterfowl (Aves: Anatidae) from Australia. Zoological Journal of the Linnean Society 156: 411–454.
 
 Worthy, T. H., A. J. D. Tennyson, C. Jones, J. A. McNamara & B. J. Douglas. 2007. Miocene waterfowl and other birds from Central Otago, New Zealand. Journal of Systematic Palaeontology 5:1–39.
 
