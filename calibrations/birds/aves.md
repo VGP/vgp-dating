@@ -31,8 +31,8 @@ Our bird calibrations are adapted primarily from Stiller et al. ([2024](https://
 **Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Galloanseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=6.573e+01, omega=6.415e+00, alpha=4.680e+07, and nu=2.143e+00.
 
-**Node 710:** Anatidae | 38–24Ma
-Node calibrated: Last common ancestor of Anatinae (_Anas platyrhynchos)_ and Anserinae (_Anser anser_)
+**Node 710:** Anatidae | 38–24Ma\
+**Node calibrated:** Last common ancestor of Anatinae (_Anas platyrhynchos)_ and Anserinae (_Anser anser_)\
 **Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Anatidae:
 
 - _Pinpanetta tedfordi_ Worthy, 2009 – complete right humerus (SAMA P.41257) from the Etadunna Formation at Young Bucks Quarry, Lake Palankarinna, South Australia, Australia. This locality is shared with three other contemporaneous fossil ducks: _P. vickersrichae_ and _P. fromensis,_ and _Australotadorna alecwilsoni_ ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)). A cladistic analysis of _Pinpanetta_ (including _P. tedfordi_) placed it as a stem member of Erismaturinae ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)).
