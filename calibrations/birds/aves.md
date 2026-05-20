@@ -195,7 +195,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Lithoptila abounensis_ [Bourdon _in_ Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2) – neurocranium (OCP.DEK/GE 1087) from the bed IIa of the Ouled Abdoun Phosphates Series (Thanetian, 58.7–55.8Ma), Ouled Abdoun Basin, Morocco ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)). A cladistic analysis placed _L. abounensis_ sister to _Prophaethon,_ constituting a stem clade of Phaethontidae ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)).
 
-- _Zhylgaia aestiflua_ [Nessov, 1988](https://www.zin.ru/journals/trudyzin/eng/history.html) – two partial humeri (PO 3468, 3485) from the late Paleocene (58.7–55.8Ma) of Kazakhstan. Bourdon et al. ([2008](https://doi.org/10.1671/0272-4634(2008)28[751:NSOLAA]2.0.CO;2)) proposed placement in Prophaethontiformes. _Tshulia litorea_ [Nessov, 1988](https://www.zin.ru/journals/trudyzin/eng/history.html), based on a tarsometatarsus from the same locality, represents the same taxon according to Mayr & Scofield ([2016](https://doi.org/10.1080/02724634.2015.1031343)).
+- _Zhylgaia aestiflua_ [Nessov, 1988](https://www.zin.ru/journals/trudyzin/eng/history.html) – two partial humeri (PO 3468, 3485) from the late Paleocene (58.7–55.8Ma) of Kazakhstan. Bourdon et al. ([2008](https://doi.org/10.1671/0272-4634(2008)28[751:NSOLAA]2.0.CO;2)) proposed placement in Prophaethontiformes. _Tshulia litorea_ [Nessov, 1988](https://www.zin.ru/journals/trudyzin/eng/history.html), based on a tarsometatarsus (PO 3470) and ulna (PO 3480) from the same locality ([Nessov 1992](https://www.biodiversitylibrary.org/item/348547#page/507/mode/1up)), represents the same taxon according to Mayr & Scofield ([2016](https://doi.org/10.1080/02724634.2015.1031343)).
 
 - _Prophaethon_ sp. – distal humerus (USNM 483158) from the Aquia Formation (Thanetian: 58.7–55.8Ma) at Capital Beltway and Central Avenue, Prince George’s County, Maryland, USA ([Olson 1994](http://hdl.handle.net/10088/6493)).
 
@@ -356,6 +356,8 @@ Musser G., D. T. Ksepka & D. J. Field 2019. New Material of Paleocene-Eocene Pel
 Nascimento, R., & Silveira, L. F. (2020). The fossil birds of Peter Lund. Zootaxa, 4743(4), 480-510.
 
 Nessov, L. A. 1988. New Cretaceous and Paleocene birds of Soviet Mid- dle Asia and Kazakhstan and their environments. Trudy Zoologiceskogo Instituta Akademii Nauk SSSR 182:116–123. [In Russian]
+
+Nessov, L. A. 1992. Mesozoic and Paleogene birds of the USSR and their paleoenvironments; pp. 465–478 in K. E. Campbell (ed.), Papers in Avian Paleontology Honoring Pierce Brodkorb. Natural History Museum of Los Angeles County, Science Series 36.
 
 Olson, S. L. 1992 A new family of primitive landbirds from the Lower Eocene Green River Formation of Wyoming. Natural History Museum of Los Angeles County Science Series 36, pp 127-136.
 
