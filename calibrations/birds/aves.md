@@ -90,7 +90,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Node calibrated:** Last common ancestor of Aegothelidae (_Aegotheles albertisi_) and Apodiformes (_Apus apus_)\
 **Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Daedalornithes:
 
--  _Eocypselus vincenti_ [Harrison 1984](https://natuurtijdschriften.nl/pub/521070) – referred material, a nearly complete skeleton (MGUH 29278) and two incomplete postcranial skeletons (MGUH 26729, MGUH 26730) from the early Eocene (55.8–54.6 Ma) Fur Formation, Denmark. A cladistic analysis ([Ksepka et al. 2013](https://doi.org/10.1098/rspb.2013.0580)) and Bayesian analyses with topological constraints ([Chen et al. 2019](https://doi.org/10.3390/d11090143)) found _E. vincenti_ on the stem of Apodiformes, but a total evidence Bayesian analysis indicated a position on the stem of Aegothelidae instead ([Chen et al. 2019](https://doi.org/10.3390/d11090143)). Either way, _Eocypselus_ is confirmed as a basal crown Daedalornithes.   
+-  _Eocypselus vincenti_ [Harrison 1984](https://natuurtijdschriften.nl/pub/521070) – referred material, a nearly complete skeleton (MGUH 29278) and two incomplete postcranial skeletons (MGUH 26729, MGUH 26730) from the early Eocene (55.8–54.6 Ma) Fur Formation, Denmark. A cladistic analysis ([Ksepka et al. 2013](https://doi.org/10.1098/rspb.2013.0580)) and Bayesian analyses with topological constraints ([Chen et al. 2019](https://doi.org/10.3390/d11090143)) found _E. vincenti_ on the stem of Apodiformes, but a total evidence Bayesian analysis indicated a position on the stem of Aegothelidae instead ([Chen et al. 2019](https://doi.org/10.3390/d11090143)). Either way, _Eocypselus_ is confirmed as a basal crown Daedalornithes.
 
 - _Eocypselus rowei_ [Ksepka, Kulp, Nesbitt, Clarke, & Grande, 2013](https://doi.org/10.1098/rspb.2013.0580) – a complete skeleton (WDC CGR-109) from the Fossil Butte Member of the Green River Formation (Early Eocene, 51.97±0.16 Ma), Wyoming, USA ([Ksepka et. al. 2013](https://doi.org/10.1098/rspb.2013.0580)).         
 
@@ -115,13 +115,19 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Node calibrated:** Last common ancestor of Apodidae (_Apus apus_) and Hemiprocnidae (_Hemiprocne comata_)
 **Fossil taxa:**
 
-- Scaniacypselus wardi Harrison, 1984, articulated pectoral girdle and forelimbs (BMNH A5430) from Bed R6 (50.3–51.5 Ma) of the Røsnæs Clay Formation in Ølst, Denmark. Cladistic analyses (Mayr 2003, Ksepka et al.2013) and Bayesian analyses with topological constraints (Chen et al. 2019) placed it on the stem of Apodidae.
-●      Collocalia buday Boles, 2001 from the early Miocene Camel Sputum Site (18.53–16.97 Ma, Woodhead et al. 2016), Riversleigh, Queensland, Australia.
-●      Collocalia sp. from the Bannockburn Formation, St Bathans Fauna (Early Miocene, Altonian, 18.26–15.97 Ma), Otago, New Zealand (Worthy et al. 2007). Although not identified at the species level, it is estimated to be much smaller than Collocalia buday (Worthy et al. 2007).         
-●      Tachymarptis sp. from the upper Varswater Formation at Langebaanweg (Early Pliocene 5.33–3.6 Ma), Cape Province, South Africa (Manegold et al. 2003).
-●       Apus sp. left coracoid (NSMT PV 24548), left carpometacarpus (24549), proximal phalanx major digit (24550)from fissure-filling deposits in Shiriya, Aomori Prefecture, Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129 – 0.116 Ma, Watanabe et al. 2018)
-●      Streptoprocne zonaris from the Late Pleistocene (0.129–0.0117 Ma) at Barra do Antonião, Piauí, Brazil (Guérin et al. 1996).
-●      Chaetura pelagica from the Late Pleistocene (0.1–0.0117 Ma) of Clark's Cave, Bath County, Virginia, USA (Guilday et al. 1977).
+- _Scaniacypselus wardi_ [Harrison, 1984](https://natuurtijdschriften.nl/pub/521070) – articulated pectoral girdle and forelimbs (BMNH A5430) from Bed R6 (50.3–51.5 Ma) of the Røsnæs Clay Formation in Ølst, Denmark. Cladistic analyses ([Mayr 2003](https://doi.org/10.1642/0004-8038(2003)120[0145:POETSA]2.0.CO;2), [Ksepka et al. 2013](https://doi.org/10.1098/rspb.2013.0580)) and Bayesian analyses with topological constraints ([Chen et al. 2019](https://doi.org/10.3390/d11090143)) placed it on the stem of Apodidae.
+
+- _Collocalia buday_ [Boles, 2001](https://publications.australian.museum/a-swiftlet-apodidae-collocaliini-from-the-miocene-of-riversleigh-northwestern-queensland/) – left humerus (QM F20907) from the early Miocene Camel Sputum Site (18.53–16.97 Ma, [Woodhead et al. 2016](https://www.sciencedirect.com/science/article/abs/pii/S1342937X14003086)), Riversleigh, Queensland, Australia (see [Worthy & Nguyen 2020](https://doi.org/10.1080/03721426.2020.1756560)).
+
+- _Collocalia_ sp. from the Bannockburn Formation, St Bathans Fauna (Early Miocene, Altonian, 18.26–15.97 Ma), Otago, New Zealand ([Worthy et al. 2007](https://doi.org/10.1017/S1477201906001957)). Although not identified at the species level, it is estimated to be much smaller than Collocalia buday ([Worthy et al. 2007](https://doi.org/10.1017/S1477201906001957)).
+         
+- _Tachymarptis_ sp. – a single humerus, currently undescribed, first reported by Rich ([1980](https://hdl.handle.net/10520/AJA00382353_1817)) from the upper Varswater Formation at Langebaanweg (Early Pliocene 5.33–3.6 Ma), Cape Province, South Africa ([Manegold et al. 2013](https://www.researchgate.net/publication/259272396_The_Early_Pliocene_avifauna_of_Langebaanweg_South_Africa_a_review_and_update)).
+
+- _Apus_ sp. – material representing a left coracoid (NSMT PV 24548), left carpometacarpus (24549), and proximal phalanx major digit (24550) from fissure-filling deposits in Shiriya, Aomori Prefecture, Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129–0.116Ma, [Watanabe et al. 2018](https://doi.org/10.4202/app.00509.2018)).
+  
+- _Streptoprocne zonaris_ ([Shaw, 1796](https://archive.org/details/bim_eighteenth-century_cimelia-physica-figures_shaw-george_1796)) – unspecified, possibly uncatalogued specimen from Barra do Antonião, Piauí, Brazil (Late Pleistocene: 0.129–0.0117Ma, [Guérin et al. 1996](https://www.researchgate.net/publication/291774116_A_fauna_pleistocenica_do_Piaui_Nordeste_do_Brasil_Relacoes_paleoecologicas_e_biocronologicas)).
+
+- _Chaetura pelagica_ ([Linnaeus, 1758](https://www.biodiversitylibrary.org/bibliography/542)) from the Late Pleistocene (0.1–0.0117 Ma) of Clark's Cave, Bath County, Virginia, USA ([Guilday et al. 1977](https://www.biodiversitylibrary.org/part/228581)).
 
 **Minimum age:** 50.3Ma\
 **Minimum justification:** The oldest fossil is _Scaniacypselus wardi,_ for which the top of Member R6 is overlaid conformably by the Lillebælt Clay Formation; its base coincides with a sharp transition from calcareous to non-calcareous foraminifera, including _Reticulophragmium amplectens,_ which correlates with the NS18-NS19 boundary at around 50.3 Ma ([King 2016](https://doi.org/10.1144/SR27), fig. 76). The lowest part of R6 (or the top of the underlying Member R5) shows the last occurrence of the dinoflagellate cysts _Ochetodinium romanum,_ which represent the top of Subzone DE8b ([King 2016](https://doi.org/10.1144/SR27)) at around 51.5 Ma ([Speijer et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00028-0)). King ([2016](https://doi.org/10.1144/SR27)) shows a very narrow Subzone DE8b containing Ochetodinium romanum and right after the polarity reversal in the middle of C23, which is 51.72 Ma ([Speijer et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00028-0)).\
@@ -201,6 +207,8 @@ Goodman, S. M., M. J. Raherilalao & K. Muldoon 2013. Bird fossils from Ankilitel
 
 Guérin, C, M. A. Curvello, M. Faure, M. Hugueney & C. Mourer-Chauviré 1996 The Pleistocene fauna of Piauí (Northeastern Brazil): paleochronological and biochronological implications. Proceedings of the International Meeting on the Peopling of the Americas, São Raimundo Nonato, Piauí, Brasil (1993). Fundamentos 1(1):55-103.
 
+Guilday, J. E., P. W. Parmalee, and H. W. Hamilton. 1977. The Clark's Cave bone deposit and the Late Pleistocene paleoecology of the central Appalachian Mountains of Virginia. Bulletin of Carnegie Museum of Natural History 2:1-87.
+
 Harrison, C. J. O.  1984. A revision of the fossil swifts (Vertebrata, Aves, suborder, Apodi), with descriptions of three new genera and two new species. Mededelingen van de Werkgroep voor Tertiaire en Kwartaire Geologie 21(4):157-177.
 
 Houde, P., Dickson, M., & Camarena, D. (2023). Basal anseriformes from the early Paleogene of North America and Europe. Diversity, 15(2), 233.
@@ -209,7 +217,7 @@ Howard, H. 1992. New records of middle Miocene anseriform birds from Kern County
 
 King, C. 2016. A revised correlation of Tertiary rocks in the British Isles and adjacent areas of NW Europe. Geol. Soc. Lond. Spec. Rep. 27: 1–719.
 
-Ksepka, D. T., J. A. Clarke, S. J. Nesbitt, F. B. Kulp & L. Grande. 2013 Fossil evidence of wing shape in a stem relative of swifts and hummingbirds (Aves, Pan-Apodiformes). Proc. R. Soc. B 280: 20130580.
+Ksepka, D. T., J. A. Clarke, S. J. Nesbitt, F. B. Kulp & L. Grande. 2013. Fossil evidence of wing shape in a stem relative of swifts and hummingbirds (Aves, Pan-Apodiformes). Proc. R. Soc. B 280: 20130580.
 
 Kurochkin, E. N. 1976. A survey of the Paleogene birds of Asia. Smithson. Contrib. Paleobiol. 27:75-86.
 
@@ -218,6 +226,8 @@ Kurochkin E. N. & A. A. Dyke 2009. A large collection of Presbyornis (Aves, Anse
 Linnaeus, C. 1758. Systema Naturae, 10th edition, vol. 1. Stockholm: Laurentius Salvius.
 
 Manegold, A., A. Louchart, J. Carrier & A. Elzanowski 2013 The early Pliocene avifauna of Langebaanweg (South Africa): a review and update. In Paleornithological Research 2013: Proceedings of the 8th International Meeting of the Society of Avian Paleontology and Evolution pp. 135-152. 
+
+Mayr, G. 2003 Phylogeny of early Tertiary swifts and hummingbirds (Aves: Apodiformes). Auk 120:145-151.
 
 Mayr, G. 2006. A specimen of Eocuculus Chandler, 1999 (Aves, ?Cuculidae) from the early Oligocene of France. Geobios, 39(6), 865-872.
 
