@@ -150,11 +150,11 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Australlus disneyi_ ([Boles, 2005](https://journals.australian.museum/boles-2005-rec-aust-mus-572-179190/)), specimens (QM F20906, F23723, F31469–76) from the White Hunter Site (Faunal Zone A, late Oligocene, 26–23.04Ma), Riversleigh, Queensland, Australia. Phylogenetic position determined by cladistic analysis ([Worthy & Boles 2011](https://doi.org/10.3853/j.0067-1975.63.2011.1563)).
 
-- Aptornis proasciarostratus Worthy et al., 2011, thoracic vertebrae (holotype NMNZ S.52350 and paratype NMNZ S.52353) from the Bannockburn Formation (early Miocene, Altonian, 18.26–15.97 Ma) of Otago, New Zealand. Although the Miocene fossils are fragmentary, the analysis of Quaternary fossils indicated that Aptornis belongs in crown Gruiformes, either in the Ralloidea (Boast et al. 2019) or sister to Psophiidae (Musser & Cracraft 2019).	
+- _?Aptornis proasciarostratus_ [Worthy, Tennyson, & Scofield, 2011b](https://doi.org/10.1007/s10336-011-0649-6) – thoracic vertebrae (NMNZ S.52350, S.52353) from the Bannockburn Formation (early Miocene, Altonian, 18.26–15.97Ma) of Otago, New Zealand ([Worthy et al. 2011b](https://doi.org/10.1007/s10336-011-0649-6)). Although the Miocene fossils are fragmentary, the analysis of Quaternary fossils indicated that Aptornis belongs in crown Gruiformes, either in the Ralloidea ([Boast et al. 2019](https://doi.org/10.3390/d11020024)) or sister to Psophiidae ([Musser & Cracraft 2019](https://doi.org/10.1206/3927.1)).
 
-- Gallirallus sp., Porzana sp. from the Late Pleistocene (0.129–0.0117 Ma) at Barra do Antonião Piauí, Brazil (Guérin et al. 1996).
+- _Gallirallus_ sp. and _Porzana_ sp. – unspecified, possibly uncatalogued specimens from the Late Pleistocene (0.129–0.0117Ma) at Barra do Antonião Piauí, Brazil ([Guérin et al. 1996](https://www.researchgate.net/publication/291774116_A_fauna_pleistocenica_do_Piaui_Nordeste_do_Brasil_Relacoes_paleoecologicas_e_biocronologicas)).
 
-- Gallinula chloropus, Porphyrio porphyrio, Hovacrex roberti from Antsirabe (Holocene, 0.002–0 Ma), Madagascar (Goodman 1999).
+- Fragmentary remains of _Gallinula chloropus_ ([Linnaeus, 1758](https://www.biodiversitylibrary.org/bibliography/542)), _Porphyrio porphyrio_ ([Linnaeus, 1758](https://www.biodiversitylibrary.org/bibliography/542)), and _Hovacrex roberti_ ([Andrews, 1897](https://onlinelibrary.wiley.com/doi/10.1111/j.1474-919X.1897.tb03281.x)) from Antsirabe (Holocene, 0.002–0 Ma), Madagascar reported by Goodman ([1999](https://www.internationalornithology.org/PROCEEDINGS_Durban/Symposium/S50/S50.4.htm)) from the BMNH and UA collections (catalog numbers unspecified) and references therein.
 
 **Minimum age:** 55.6Ma\
 **Minimum justification:** The oldest of these fossils is _Pellornis mikkelseni,_ for which MGUH 29278 is preserved in silicified diatomite, and thus must derive from one of two horizons near ash layers -19 or -21 in the lower part of the Knudeklint Member. The bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). The younger ash layer -17 has been dated at 55.6±0.12 Ma (corrected 40Ar/39Ar ages, [Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)), providing a minimum age for the fossil.\
@@ -207,6 +207,8 @@ Alvarenga, H.M., 1999. A Fossil Screamer (Anseriformes: Anhimidae) from the Midd
 Andrews, C.W. 1897. On some fossil remains of Carinate birds from Central Madagascar. Ibis 39(3): 343–359.
 
 Bertelli, S., L. M. Chiappe & G. Mayr. 2011. A new Messel rail from the Early Eocene Fur Formation of Denmark (Aves, Messelornithidae). Journal of Systematic Palaeontology 9.4: 551-562. 
+
+Boast, A.P., Chapman, B., Herrera, M.B., Worthy, T.H., Scofield, R.P., Tennyson, A.J., Houde, P., Bunce, M., Cooper, A. and Mitchell, K.J., 2019. Mitochondrial Genomes from New Zealand’s Extinct Adzebills (Aves: Aptornithidae: Aptornis) Support a Sister-Taxon Relationship with the Afro-Madagascan Sarothruridae. Diversity, 11(2), p.24.
 
 Boles, W. E., 2001. A swiftlet (Apodidae: Collocaliini) from the Miocene of Riversleigh, northwestern Queensland. Memoir of the Association of Australasian Palaeontologists 25: 45–52.
 
@@ -278,11 +280,13 @@ Mourer-Chauviré, C., Tabuce, R., Essid, E. M., Marivaux, L., Khayati, H., Viane
 
 Mourer-Chauviré, C., Essid, E.M., Khayati, H., Marivaux, L., Marzougui, W., Temani, R., Vianey-Liaud, M. & Tabuce, R. 2016. New remains of the very small cuckoo, Chambicuculus pusillus (Aves, Cuculiformes, Cuculidae) from the late Early or early Middle Eocene of Djebel Chambi, Tunisia. Palaeovertebrata 40(1):1-4.
 
-Musser G., D. T. Ksepka & D. J. Field 2019. New Material of Paleocene-Eocene Pellornis (Aves: Gruiformes) Clarifies the Pattern and Timing of the Extant Gruiform Radiation. Diversity 11(7):1-25.
-
 Musser, G. & J. A. Clarke 2020. An exceptionally preserved specimen from the Green River Formation elucidates complex phenotypic evolution in Gruiformes and Charadriiformes. Frontiers in Ecology and Evolution 8(326):1-18.
 
 Musser, G., & J. A. Clarke 2024. A new Paleogene fossil and a new dataset for waterfowl (Aves: Anseriformes) clarify phylogeny, ecological evolution, and avian evolution at the K-Pg Boundary. Plos one, 19(7), e0278737.
+
+Musser, G.M. & J. Cracraft 2019. A new morphological dataset reveals a novel relationship for the adzebills of New Zealand (Aptornis) and provides a foundation for total evidence neoavian phylogenetics. American Museum Novitates 2019(3927):1-70.
+
+Musser G., D. T. Ksepka & D. J. Field 2019. New Material of Paleocene-Eocene Pellornis (Aves: Gruiformes) Clarifies the Pattern and Timing of the Extant Gruiform Radiation. Diversity 11(7):1-25.
 
 Nascimento, R., & Silveira, L. F. (2020). The fossil birds of Peter Lund. Zootaxa, 4743(4), 480-510.
 
@@ -330,9 +334,11 @@ Worthy, T. H., A. J. D. Tennyson, C. Jones, J. A. McNamara & B. J. Douglas. 2007
 
 Worthy T.H. & M. S. Y.  Lee. 2008. Affinities of Miocene (19–16 Ma) waterfowl (Anatidae: Manuherikia, Dunstanetta and Miotadorna) from the St Bathans Fauna, New Zealand. Palaeontology 51: 677–708.
 
+Worthy, T.H. and Nguyen, J.M., 2020. An annotated checklist of the fossil birds of Australia. Transactions of the Royal Society of South Australia, 144(1), pp.66-108.
+
 Worthy, T. H., & Boles, W. E. (2011). Australlus, a new genus for Gallinula disneyi (Aves: Rallidae) and a description of a new species from Oligo-Miocene deposits at Riversleigh, northwestern Queensland, Australia. Records of the Australian Museum, 63(1), 61-77.
 
-Worthy, T.H. and Nguyen, J.M., 2020. An annotated checklist of the fossil birds of Australia. Transactions of the Royal Society of South Australia, 144(1), pp.66-108.
+Worthy, T.H.; Tennyson, A.J.; Scofield, R.P. 2011b. Fossils reveal an early Miocene presence of the aberrant gruiform Aves: Aptornithidae in New Zealand. J. Ornithol. 2011, 152, 669–680.
 
 Worthy, T.H., Scofield, R.P., Salisbury, S.W., Hand, S.J., De Pietri, V.L. and Archer, M., 2022. Two new neoavian taxa with contrasting palaeobiogeographical implications from the early Miocene St Bathans Fauna, New Zealand. Journal of Ornithology, 163(3), pp.643-658.
 
