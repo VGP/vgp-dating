@@ -163,6 +163,29 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
 
 ---
+**Node 666:** Charadriiformes | 78.61-54.97Ma\
+**Node calibrated:** Last common ancestor of Charadrii (_Pluvialus apricaria_) and Scolopaci (_Numenius arquata_)\
+**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Charadriiformes:
+
+- Unnamed taxon represented by the distal end of left humerus (IGM 100/1435) from Tsagaan Khushuu, Quarry 2, Mongolia, Bumban Member of the Naranbulag Formation of the early Eocene (Ypresian: 55.7-54.97 Ma, [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)). Phylogenetic analysis placed this fragmentary bone as sister to _Chionis,_ within crown Charadrii ([Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929), [Heingård et al. 2021](https://doi.org/10.3390/d13120651)).
+
+- Charadriisimilis essexensis Mayr & Kitchener 2023, incomplete skeleton (Holotype: NMS.Z.2021.40.93) from Walton-on-the-Naze, Essex, United Kingdom, Walton Member of the London Clay Formation, early Ypresian (54.6 – 55 Ma). Character comparisons and a cladistic analysis placed Charadriisimilis in the stem of the suborder Charadrii (Mayr & Kitchener 2023)
+
+- Distal end of right humerus (SMF AV 619) from the Nanjemoy Formation at the Fisher/Sullivan site, Virginia, USA (Mayr 2016). The bone shows apomorphic features of Charadriiformes (Mayr 2016) and a cladistic analysis placed it within crown Charadriiformes (Musser & Clarke 2020, Heingård et al. 2021). The Nanjemoy Formation is 54 – 53 Ma.
+
+- Nupharanassa bulotorum Rasmussen et al. 1987 distal tarsometatarsi the Jebel Qatrani Formation at Quarry M (30.2 - 29.5 Ma, Seiffert 2006), Fayum Province, Egypt.
+
+- Oligonomus milleri de Pietri, Camens & Worthy 2015, left coracoid member 7 of the Etadunna Formation at Lake Palankarinna (Faunal Zone B, 26 – 24 Ma, Woodburne et al. 1994), South Australia, Australia. Affinities with Pedionomidae based on combination of similarities (de Pietri et al. 2015).
+
+- Hakawai melvillei de Pietri et al. 2016, several bones from Bed HH4 of the Manuherikia River near St Bathans (Miocene 19 – 16 Ma), Otago, South Island, New Zealand. Derived characters suggest affinities with Pedionomidae (de Pietri et al. 2016).
+
+- Thinocoridae indet., distal end of right tarsometatarsus (INGEO-PV 032), from upper portion of the Limolita La Colmena Member of the Loma de Las Tapias Formation at Loma de Las Tapias, San Juan Province, Argentina (Agnolin et al. 2015). The fossil is estimated to be early Chasicoan (10 – 9 Ma, Agnolin et al. 2015). Affinities based on presumed derived characters of the family (Agnolin et al. 2015).
+
+**Minimum age:** 54.97Ma\
+**Minimum justification:** The oldest fossil is Charadrii indet., for which the estimated top of the Bumban Member of the Naranbulag Formation of Mongolia dates to the early Eocene (Ypresian: 55.7-54.97Ma, [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)).\
+**Maximum age:** 78.61Ma\
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Apodi on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=55.15, omega=7.283, alpha=9.888e+05, and nu=2.875.\
+**Notes:** This is a new calibration for this analysis, not present in Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
 
 ---
 
@@ -242,9 +265,13 @@ Guilday, J. E., P. W. Parmalee, and H. W. Hamilton. 1977. The Clark's Cave bone 
 
 Harrison, C. J. O.  1984. A revision of the fossil swifts (Vertebrata, Aves, suborder, Apodi), with descriptions of three new genera and two new species. Mededelingen van de Werkgroep voor Tertiaire en Kwartaire Geologie 21(4):157-177.
 
+Heingård, M., Musser, G., Hall, S. A., & Clarke, J. A. (2021). New remains of Scandiavis mikkelseni inform avian phylogenetic relationships and brain evolution. Diversity, 13(12), 651.
+
 Hesse, A. 1992. A new species of Messelornis (Aves: Gruiformes: Messelornithidae) from the Middle Eocene Green River Formation. Papers in Avian Paleontology honoring Pierce Brodkorb.-Los Angeles County Museum of Natural History, Science Series, 36, 171-178.
 
 Hoch, E. 1997. Notes on palaeornithology and on a New Bird from the Early Tertiary North Sea Region. Geological Society of Denmark, Online Series 1.
+
+Hood, S. C., C. R. Torres, M. A. Norell and J. A. Clarke. 2019. New fossil birds from the earliest Eocene of Mongolia. American Museum Novitates 3934:1-22.
 
 Hou, L.H. 1990 An Eocene bird from Songzi, Hubei province. Vertebr. Palasiat. 28:34-42.
 
