@@ -169,7 +169,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - Unnamed taxon represented by the distal end of left humerus (IGM 100/1435) from Tsagaan Khushuu, Quarry 2, Mongolia, Bumban Member of the Naranbulag Formation of the early Eocene (Ypresian: 55.7-54.97 Ma, [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)). Phylogenetic analysis placed this fragmentary bone as sister to _Chionis,_ within crown Charadrii ([Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929), [Heingård et al. 2021](https://doi.org/10.3390/d13120651)).
 
-- Charadriisimilis essexensis Mayr & Kitchener 2023, incomplete skeleton (Holotype: NMS.Z.2021.40.93) from Walton-on-the-Naze, Essex, United Kingdom, Walton Member of the London Clay Formation, early Ypresian (54.6 – 55 Ma). Character comparisons and a cladistic analysis placed Charadriisimilis in the stem of the suborder Charadrii (Mayr & Kitchener 2023)
+- _Charadriisimilis essexensis_ [Mayr & Kitchener 2023](https://doi.org/10.1017/jpa.2023.51) – incomplete skeleton (NMS.Z.2021.40.93) from Walton-on-the-Naze, Essex, United Kingdom, Walton Member of the Eocene London Clay Formation, early Ypresian (54.6 – 55 Ma). Character comparisons and a cladistic analysis placed _Charadriisimilis_ on the stem of the suborder Charadrii ([Mayr & Kitchener 2023](https://doi.org/10.1017/jpa.2023.51)).
 
 - Distal end of right humerus (SMF AV 619) from the Nanjemoy Formation at the Fisher/Sullivan site, Virginia, USA (Mayr 2016). The bone shows apomorphic features of Charadriiformes (Mayr 2016) and a cladistic analysis placed it within crown Charadriiformes (Musser & Clarke 2020, Heingård et al. 2021). The Nanjemoy Formation is 54 – 53 Ma.
 
@@ -294,6 +294,8 @@ Manegold, A., A. Louchart, J. Carrier & A. Elzanowski 2013 The early Pliocene av
 Mayr, G. 2003 Phylogeny of early Tertiary swifts and hummingbirds (Aves: Apodiformes). Auk 120:145-151.
 
 Mayr, G. 2006. A specimen of Eocuculus Chandler, 1999 (Aves, ?Cuculidae) from the early Oligocene of France. Geobios, 39(6), 865-872.
+
+Mayr, G., & Kitchener, A. C. (2023). Early Eocene fossils elucidate the evolutionary history of the Charadriiformes (shorebirds and allies). Journal of Paleontology, 97(4), 941-955.
 
 Mayr, G., & Kitchener, A. C. (2025). Leg bones of the anseriform taxon Nettapterornis from the London Clay of Walton-on-the-Naze and notes on the bony-toothed birds from this locality. PalZ, 99(3), 355-369.
 
