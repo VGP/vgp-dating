@@ -136,6 +136,31 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
 
 ---
+**Node 675:** Gruiformes | 80.4-55.6Ma\
+**Node calibrated:** Last common ancestor of Gruoidea (_Grus grus_) and Ralloidea (_Gallinula chloropus_)\
+**Fossil taxa:**
+
+- Pellornis mikkelseni [Bertelli, Chiappe, & Mayr, 2011](https://doi.org/10.1080/14772019.2010.538730) – a nearly complete articulated skeleton (holotype MGUH 29278) from the Fur Formation near Sundby, Isle of Mors, Jutland, Denmark ([Hoch 1997](https://2dgf.dk/dgf-online-series/notes-on-palaeornithology-and-on-a-new-bird-from-the-early-tertiary-north-sea-region/), [Musser et al. 2019](https://doi.org/10.3390/d11070102)). Initial cladistic analyses indicated a position of Messelornithidae, including Pellornis mikkelseni, as stem Rallidae ([Bertelli et al. 2011](https://doi.org/10.1080/14772019.2010.538730)). More recent analyses including additional characters from a more complete preparation of the holotype revealing a complete skull among other parts, indicated a more basal position as stem Ralloidea ([Musser et al. 2019](https://doi.org/10.3390/d11070102), [Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929)), thus setting a minimum age for crown Gruiformes.
+
+- Songzia acutunguis Hou, 1990, articulated skeletons (Wang et al. 2012) from the Yangxi Formation (55.8–48.6 Ma), China, phylogenetically placed in the Messelornithidae by cladistic analysis (Musser et al. 2019).
+
+- Messelornis nearctica Hesse, 1992, several skeletons (Weidig 2010) from the Fossil Butte Member of the Green River Formation (51.97 ± 0.16 Ma), Wyoming, USA. See Musser et al. (2019) for phylogenetic analysis.
+
+- Rallidae indet. from the Jebel Qatrani Formation (early Oligocene, 33.9–28.4 Ma) at Fayum, Egypt, (Rasmussen et al. 1987).
+
+- Australlus disneyi (Boles, 2005), specimens from White Hunter Site (Faunal Zone A, late Oligocene, 26–23.04 Ma), Riversleigh, Queensland, Australia. Phylogenetic position determined by cladistic analysis (Worthy & Boles 2011).
+
+- Aptornis proasciarostratus Worthy et al., 2011, thoracic vertebrae (holotype NMNZ S.52350 and paratype NMNZ S.52353) from the Bannockburn Formation (early Miocene, Altonian, 18.26–15.97 Ma) of Otago, New Zealand. Although the Miocene fossils are fragmentary, the analysis of Quaternary fossils indicated that Aptornis belongs in crown Gruiformes, either in the Ralloidea (Boast et al. 2019) or sister to Psophiidae (Musser & Cracraft 2019).	
+
+- Gallirallus sp., Porzana sp. from the Late Pleistocene (0.129–0.0117 Ma) at Barra do Antonião Piauí, Brazil (Guérin et al. 1996).
+
+- Gallinula chloropus, Porphyrio porphyrio, Hovacrex roberti from Antsirabe (Holocene, 0.002–0 Ma), Madagascar (Goodman 1999).
+
+**Minimum age:** 55.6Ma\
+**Minimum justification:** The oldest of these fossils is _Pellornis mikkelseni,_ for which MGUH 29278 is preserved in silicified diatomite, and thus must derive from one of two horizons near ash layers -19 or -21 in the lower part of the Knudeklint Member. The bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). The younger ash layer -17 has been dated at 55.6±0.12 Ma (corrected 40Ar/39Ar ages, [Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)), providing a minimum age for the fossil.\
+**Maximum age:** 80.40Ma\
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Apodi on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=55.629, omega=55.680, alpha=6.745, and nu=2.502.\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
 
 ---
 
@@ -181,6 +206,8 @@ Alvarenga, H.M., 1999. A Fossil Screamer (Anseriformes: Anhimidae) from the Midd
 
 Andrews, C.W. 1897. On some fossil remains of Carinate birds from Central Madagascar. Ibis 39(3): 343–359.
 
+Bertelli, S., L. M. Chiappe & G. Mayr. 2011. A new Messel rail from the Early Eocene Fur Formation of Denmark (Aves, Messelornithidae). Journal of Systematic Palaeontology 9.4: 551-562. 
+
 Boles, W. E., 2001. A swiftlet (Apodidae: Collocaliini) from the Miocene of Riversleigh, northwestern Queensland. Memoir of the Association of Australasian Palaeontologists 25: 45–52.
 
 Bowman, V., J. Ineson, J. Riding, J. Crame, J. Francis, D. Condon, R. Whittle & F. Ferraccioli. 2016. The Paleocene of Antarctica: Dinoflagellate cyst biostratigraphy, chronostratigraphy and implications for the palaeo-Pacific margin of Gondwana. Gondwana Research 38:132-148.
@@ -210,6 +237,8 @@ Guérin, C, M. A. Curvello, M. Faure, M. Hugueney & C. Mourer-Chauviré 1996 The
 Guilday, J. E., P. W. Parmalee, and H. W. Hamilton. 1977. The Clark's Cave bone deposit and the Late Pleistocene paleoecology of the central Appalachian Mountains of Virginia. Bulletin of Carnegie Museum of Natural History 2:1-87.
 
 Harrison, C. J. O.  1984. A revision of the fossil swifts (Vertebrata, Aves, suborder, Apodi), with descriptions of three new genera and two new species. Mededelingen van de Werkgroep voor Tertiaire en Kwartaire Geologie 21(4):157-177.
+
+Hoch, E. 1997. Notes on palaeornithology and on a New Bird from the Early Tertiary North Sea Region. Geological Society of Denmark, Online Series 1.
 
 Houde, P., Dickson, M., & Camarena, D. (2023). Basal anseriformes from the early Paleogene of North America and Europe. Diversity, 15(2), 233.
 
@@ -243,6 +272,10 @@ Mourer-Chauviré, C., Tabuce, R., Essid, E. M., Marivaux, L., Khayati, H., Viane
 
 Mourer-Chauviré, C., Essid, E.M., Khayati, H., Marivaux, L., Marzougui, W., Temani, R., Vianey-Liaud, M. & Tabuce, R. 2016. New remains of the very small cuckoo, Chambicuculus pusillus (Aves, Cuculiformes, Cuculidae) from the late Early or early Middle Eocene of Djebel Chambi, Tunisia. Palaeovertebrata 40(1):1-4.
 
+Musser G., D. T. Ksepka & D. J. Field 2019. New Material of Paleocene-Eocene Pellornis (Aves: Gruiformes) Clarifies the Pattern and Timing of the Extant Gruiform Radiation. Diversity 11(7):1-25.
+
+Musser, G. & J. A. Clarke 2020. An exceptionally preserved specimen from the Green River Formation elucidates complex phenotypic evolution in Gruiformes and Charadriiformes. Frontiers in Ecology and Evolution 8(326):1-18.
+
 Musser, G., & J. A. Clarke 2024. A new Paleogene fossil and a new dataset for waterfowl (Aves: Anseriformes) clarify phylogeny, ecological evolution, and avian evolution at the K-Pg Boundary. Plos one, 19(7), e0278737.
 
 Nascimento, R., & Silveira, L. F. (2020). The fossil birds of Peter Lund. Zootaxa, 4743(4), 480-510.
@@ -262,6 +295,10 @@ Shute, E., Prideaux, G.J., Worthy, T.H. 2016. Three terrestrial Pleistocene couc
 Speijer, R. P., Pälike, H., Hollis, C. J., Hooker, J. J., & Ogg, J. G. 2020. The Paleogene Period. In F. M. Gradstein, J. G. Ogg, M. D. Schmitz, & G. M. Ogg (Eds.), Geologic Time Scale 2020 (pp. 1087–1140). Elsevier B.V.: Amsterdam.
 
 Stiller, J., Feng, S., Chowdhury, A.A., Rivas-González, I., Duchêne, D.A., Fang, Q., Deng, Y., Kozlov, A., Stamatakis, A., Claramunt, S. and Nguyen, J.M., 2024. Complexity of avian evolution revealed by family-level genomes. Nature, 629(8013), pp.851-860.
+
+Stokke, E. W., E. Liu & M. T. Jones 2020a. Evidence of explosive hydromagmatic eruptions during the emplacement of the North Atlantic Igneous Province. Volcanica 3(2):227-250.
+
+Stokke, E. W., M. T. Jones, J. E. Tierney, H. H. Svensen, & J. H. Whiteside 2020b. Temperature changes across the Paleocene-Eocene Thermal Maximum – a new high-resolution TEX86 temperature record from the Eastern North Sea Basin. Earth and Planetary Science Letters 544:116388. doi: 10.1016/j.epsl. 2020.116388.
 
 Tambussi C. P. 1998. Nuevo Anatidae (Aves: Anseriformes) del Plioceno de la región pampeana, Argentina. Boll. Soc Hist. Nat. Balears 41: 19-25.
 
