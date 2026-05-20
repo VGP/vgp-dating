@@ -113,7 +113,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 ---
 **Node 708:** Apodi | 103.40-50.3Ma\
 **Node calibrated:** Last common ancestor of Apodidae (_Apus apus_) and Hemiprocnidae (_Hemiprocne comata_)
-**Fossil taxa:**
+**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Apodi:
 
 - _Scaniacypselus wardi_ [Harrison, 1984](https://natuurtijdschriften.nl/pub/521070) – articulated pectoral girdle and forelimbs (BMNH A5430) from Bed R6 (50.3–51.5 Ma) of the Røsnæs Clay Formation in Ølst, Denmark. Cladistic analyses ([Mayr 2003](https://doi.org/10.1642/0004-8038(2003)120[0145:POETSA]2.0.CO;2), [Ksepka et al. 2013](https://doi.org/10.1098/rspb.2013.0580)) and Bayesian analyses with topological constraints ([Chen et al. 2019](https://doi.org/10.3390/d11090143)) placed it on the stem of Apodidae.
 
@@ -138,7 +138,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 ---
 **Node 675:** Gruiformes | 80.4-55.6Ma\
 **Node calibrated:** Last common ancestor of Gruoidea (_Grus grus_) and Ralloidea (_Gallinula chloropus_)\
-**Fossil taxa:**
+**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Gruiformes:
 
 - _Pellornis mikkelseni_ [Bertelli, Chiappe, & Mayr, 2011](https://doi.org/10.1080/14772019.2010.538730) – a nearly complete articulated skeleton (holotype MGUH 29278) from the Fur Formation near Sundby, Isle of Mors, Jutland, Denmark ([Hoch 1997](https://2dgf.dk/dgf-online-series/notes-on-palaeornithology-and-on-a-new-bird-from-the-early-tertiary-north-sea-region/), [Musser et al. 2019](https://doi.org/10.3390/d11070102)). Initial cladistic analyses indicated a position of Messelornithidae, including Pellornis mikkelseni, as stem Rallidae ([Bertelli et al. 2011](https://doi.org/10.1080/14772019.2010.538730)). More recent analyses including additional characters from a more complete preparation of the holotype revealing a complete skull among other parts, indicated a more basal position as stem Ralloidea ([Musser et al. 2019](https://doi.org/10.3390/d11070102), [Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929)), thus setting a minimum age for crown Gruiformes.
 
