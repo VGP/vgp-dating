@@ -169,17 +169,17 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - Unnamed taxon represented by the distal end of left humerus (IGM 100/1435) from Tsagaan Khushuu, Quarry 2, Mongolia, Bumban Member of the Naranbulag Formation of the early Eocene (Ypresian: 55.7-54.97 Ma, [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)). Phylogenetic analysis placed this fragmentary bone as sister to _Chionis,_ within crown Charadrii ([Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929), [Heingård et al. 2021](https://doi.org/10.3390/d13120651)).
 
-- _Charadriisimilis essexensis_ [Mayr & Kitchener 2023](https://doi.org/10.1017/jpa.2023.51) – incomplete skeleton (NMS.Z.2021.40.93) from Walton-on-the-Naze, Essex, United Kingdom, Walton Member of the Eocene London Clay Formation, early Ypresian (54.6 – 55 Ma). Character comparisons and a cladistic analysis placed _Charadriisimilis_ on the stem of the suborder Charadrii ([Mayr & Kitchener 2023](https://doi.org/10.1017/jpa.2023.51)).
+- _Charadriisimilis essexensis_ [Mayr & Kitchener 2023](https://doi.org/10.1017/jpa.2023.51) – incomplete skeleton (NMS.Z.2021.40.93) from Walton-on-the-Naze, Essex, United Kingdom, Walton Member of the Eocene London Clay Formation, early Ypresian (54.6–55Ma). Character comparisons and a cladistic analysis placed _Charadriisimilis_ on the stem of the suborder Charadrii ([Mayr & Kitchener 2023](https://doi.org/10.1017/jpa.2023.51)).
 
-- Distal end of right humerus (SMF AV 619) from the Nanjemoy Formation at the Fisher/Sullivan site, Virginia, USA (Mayr 2016). The bone shows apomorphic features of Charadriiformes (Mayr 2016) and a cladistic analysis placed it within crown Charadriiformes (Musser & Clarke 2020, Heingård et al. 2021). The Nanjemoy Formation is 54 – 53 Ma.
+- Unnamed taxon represented by the distal end of right humerus (SMF AV 619) from the Nanjemoy Formation at the Fisher/Sullivan site, Virginia, USA ([Mayr 2016](https://doi.org/10.1007/s12542-016-0330-8)). The bone shows apomorphic features of Charadriiformes ([Mayr 2016](https://doi.org/10.1007/s12542-016-0330-8)) and a cladistic analysis placed it within crown Charadriiformes ([Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929), [Heingård et al. 2021](https://doi.org/10.3390/d13120651)). The Nanjemoy Formation is ~54–53Ma ([Berggren et al. 1995](https://doi.org/10.7916/D8XD1B1H)).
 
-- Nupharanassa bulotorum Rasmussen et al. 1987 distal tarsometatarsi the Jebel Qatrani Formation at Quarry M (30.2 - 29.5 Ma, Seiffert 2006), Fayum Province, Egypt.
+- _Nupharanassa bulotorum_ [Rasmussen, Olson, & Simons, 1987](http://dx.doi.org/10.5479/si.00810266.62.1) – distal tarsometatarsi (DPC 3848, 5327-8) the Jebel Qatrani Formation at Quarry M (30.2-29.5Ma, [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103)), Fayum Province, Egypt ([Rasmussen et al. 1987](http://dx.doi.org/10.5479/si.00810266.62.1)).
 
-- Oligonomus milleri de Pietri, Camens & Worthy 2015, left coracoid member 7 of the Etadunna Formation at Lake Palankarinna (Faunal Zone B, 26 – 24 Ma, Woodburne et al. 1994), South Australia, Australia. Affinities with Pedionomidae based on combination of similarities (de Pietri et al. 2015).
+- _Oligonomus milleri_ [de Pietri, Camens, & Worthy 2015](https://doi.org/10.1111/ibi.12215) – left coracoid (SAMA P27976) from member 7 of the Etadunna Formation at Lake Palankarinna (Faunal Zone B, 26–24 Ma, [Woodburne et al. 1994](https://doi.org/10.1080/02724634.1994.10011527)), South Australia, Australia. Affinities with Pedionomidae based on combination of similarities ([de Pietri et al. 2015](https://doi.org/10.1111/ibi.12215)).
 
-- Hakawai melvillei de Pietri et al. 2016, several bones from Bed HH4 of the Manuherikia River near St Bathans (Miocene 19 – 16 Ma), Otago, South Island, New Zealand. Derived characters suggest affinities with Pedionomidae (de Pietri et al. 2016).
+- _Hakawai melvillei_ [de Pietri, Scofield, Tennyson, Hand, & Worthy, 2016](https://doi.org/10.1080/14772019.2015.1087064) – several bones (NMNZ S.50806 and numerous referred elements) from Bed HH4 of the Manuherikia River near St Bathans (Miocene: 19–16Ma), Otago, South Island, New Zealand. Derived characters suggest affinities with Pedionomidae ([de Pietri et al. 2016](https://doi.org/10.1080/14772019.2015.1087064)).
 
-- Thinocoridae indet., distal end of right tarsometatarsus (INGEO-PV 032), from upper portion of the Limolita La Colmena Member of the Loma de Las Tapias Formation at Loma de Las Tapias, San Juan Province, Argentina (Agnolin et al. 2015). The fossil is estimated to be early Chasicoan (10 – 9 Ma, Agnolin et al. 2015). Affinities based on presumed derived characters of the family (Agnolin et al. 2015).
+- Thinocoridae indet. – distal end of right tarsometatarsus (INGEO-PV 032) from upper portion of the Limolita La Colmena Member of the Loma de Las Tapias Formation at Loma de Las Tapias, San Juan Province, Argentina ([Agnolin et al. 2015](https://doi.org/10.1016/j.annpal.2015.11.002)). The fossil is estimated to be early Chasicoan (10–9Ma), with affinities based on presumed derived characters of the family ([Agnolin et al. 2015](https://doi.org/10.1016/j.annpal.2015.11.002)).
 
 **Minimum age:** 54.97Ma\
 **Minimum justification:** The oldest fossil is Charadrii indet., for which the estimated top of the Bumban Member of the Naranbulag Formation of Mongolia dates to the early Eocene (Ypresian: 55.7-54.97Ma, [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)).\
@@ -225,9 +225,13 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ## References
 
+Agnolin, F.L., Tomassini, R.L. and Contreras, V.H., 2016, January. Oldest record of thinocoridae (aves, Charadriiformes) from south America. In Annales de paleontologie (Vol. 102, No. 1, pp. 1-6). Elsevier Masson.
+
 Alvarenga, H.M., 1999. A Fossil Screamer (Anseriformes: Anhimidae) from the Middle Tertiary of Southeastern Brazil. Smithsonian Contributions to Paleobiology, (89) 223-230.
 
 Andrews, C.W. 1897. On some fossil remains of Carinate birds from Central Madagascar. Ibis 39(3): 343–359.
+
+Berggren, W.A., Kent, D.V., Swisher, C.C., and Aubrey, M.-P. 1995. A revised Cenozoic geochronology and chronostratigraphy. In Geochronology, Time Scales and Global Stratigraphic Correlation, ed. W.A. Berggren, D.V. Kent, M.-P. Aubry, and J. Hardenbol. Society of Economic Paleontologists and Mineralogists Special Publication 54: 129–212.
 
 Bertelli, S., L. M. Chiappe & G. Mayr. 2011. A new Messel rail from the Early Eocene Fur Formation of Denmark (Aves, Messelornithidae). Journal of Systematic Palaeontology 9.4: 551-562. 
 
@@ -248,6 +252,10 @@ Chen, A., N. D. White, R. B. J. Benson, M. J. Braun & D. J. Field. 2019. Total-e
 Claramunt, S., 2022. CladeDate: Calibration information generator for divergence time estimation. Methods in Ecology and Evolution, 13(11), pp.2331-2338.
 
 Coster, P., Benammi, M., Mahboubi, M., Tabuce, R., Adaci, M., Marivaux, L., Bensalah, M., Mahboubi, S., Mahboubi, A., Mebrouk, F. & Maameri, C. 2012. Chronology of the Eocene continental deposits of Africa: Magnetostratigraphy and biostratigraphy of the El Kohol and Glib Zegdou Formations, Algeria. Geological Society of America Bulletin 124(9-10):1590-1606.
+
+de Pietri, V. L., Camens, A. B., & Worthy, T. H. (2015). A Plains‐wanderer (Pedionomidae) that did not wander plains: a new species from the Oligocene of South Australia. Ibis, 157(1), 68-74.
+
+de Pietri, V. L., Scofield, R. P., Tennyson, A. J., Hand, S. J., & Worthy, T. H. (2016). Wading a lost southern connection: Miocene fossils from New Zealand reveal a new lineage of shorebirds (Charadriiformes) linking Gondwanan avifaunas. Journal of Systematic Palaeontology, 14(7), 603-616.
 
 Elzanowski A, Boles WE. 2012 Australia’s oldest Anseriform fossil: a quadrate from the Early Eocene Tingamarra Fauna. Palaeontology 55, 903–911.
 
@@ -295,6 +303,8 @@ Mayr, G. 2003 Phylogeny of early Tertiary swifts and hummingbirds (Aves: Apodifo
 
 Mayr, G. 2006. A specimen of Eocuculus Chandler, 1999 (Aves, ?Cuculidae) from the early Oligocene of France. Geobios, 39(6), 865-872.
 
+Mayr, G. (2016). The world’s smallest owl, the earliest unambiguous charadriiform bird, and other avian remains from the early Eocene Nanjemoy Formation of Virginia (USA). PalZ, 90(4), 747-763.
+
 Mayr, G., & Kitchener, A. C. (2023). Early Eocene fossils elucidate the evolutionary history of the Charadriiformes (shorebirds and allies). Journal of Paleontology, 97(4), 941-955.
 
 Mayr, G., & Kitchener, A. C. (2025). Leg bones of the anseriform taxon Nettapterornis from the London Clay of Walton-on-the-Naze and notes on the bony-toothed birds from this locality. PalZ, 99(3), 355-369.
@@ -328,6 +338,8 @@ Parham, J.F., Donoghue, P.C., Bell, C.J., Calway, T.D., Head, J.J., Holroyd, P.A
 Rasmussen, D. T., Olson, S. L. & E. L. Simons. 1987. Fossil birds from the Oligocene Jebel Qatrani Formation, Fayum Province, Egypt. Smithsonian Contributions to Paleobiology 62:1-20.
 
 Rich, P.V., 1980. Preliminary report on the fossil avian remains from late Tertiary sediments at Langebaanweg (Cape Province), South Africa. South African Journal of Science, 76(4), pp.166-170.
+
+Seiffert, E. R. 2006 Revised Age Estimates for the Later Paleogene Mammal Faunas of Egypt and Oman. Proc. Natl. Acad. Sci. USA 103, 5000–5005.
 
 Shaw, G. 1796. Cimelia Physica. Figures of rare and curious quadrupeds, birds, etcetera, together with several of the most elegant plants. B. & J. White, London
 
