@@ -193,9 +193,9 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Node calibrated:** Last common ancestor of clade encompassing Phaethontiformes (_Phaethon aethereus_) and Eurypygiformes (_Rhynochetos jubatus_)\
 **Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Phaethontimorphae:
 
-- _Lithoptila abounensis_ [Bourdon, 2005 _in_ Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2) – neurocranium (OCP.DEK/GE 1087) from the bed IIa of the Ouled Abdoun Phosphates Series (Thanetian, 58.7–55.8Ma), Ouled Abdoun Basin, Morocco ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)). A cladistic analysis placed _L. abounensis_ sister to _Prophaethon,_ constituting a stem clade of Phaethontidae ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)).
+- _Lithoptila abounensis_ [Bourdon _in_ Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2) – neurocranium (OCP.DEK/GE 1087) from the bed IIa of the Ouled Abdoun Phosphates Series (Thanetian, 58.7–55.8Ma), Ouled Abdoun Basin, Morocco ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)). A cladistic analysis placed _L. abounensis_ sister to _Prophaethon,_ constituting a stem clade of Phaethontidae ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)).
 
-- Zhylgaia aestiflua Nessov, 1988, two partial humeri from the late Paleocene (58.7–55.8 Ma) of Kazakhstan. Bourdon et al. (2008) proposed placement in Prophaethontiformes. Tshulia litorea Nessov, 1988, based on a tarsometatarsus from the same locality, represents the same taxon according to Mayr & Scofield (2016).
+- _Zhylgaia aestiflua_ Nessov, 1988 – two partial humeri () from the late Paleocene (58.7–55.8Ma) of Kazakhstan. Bourdon et al. (2008) proposed placement in Prophaethontiformes. Tshulia litorea Nessov, 1988, based on a tarsometatarsus from the same locality, represents the same taxon according to Mayr & Scofield (2016).
 
 - Prophaethon sp., distal humerus (USNM 483158) from the Aquia Formation (Thanetian, 58.7–55.8 Ma) at Capital Beltway and Central Avenue, Prince George’s County, Maryland, USA (Olson 1994).
 
@@ -301,7 +301,7 @@ Hoch, E. 1997. Notes on palaeornithology and on a New Bird from the Early Tertia
 
 Hood, S. C., C. R. Torres, M. A. Norell and J. A. Clarke. 2019. New fossil birds from the earliest Eocene of Mongolia. American Museum Novitates 3934:1-22.
 
-Hou, L.H. 1990 An Eocene bird from Songzi, Hubei province. Vertebr. Palasiat. 28:34-42.
+Hou, L.H. 1990 An Eocene bird from Songzi, Hubei province. Vertebr. Palasiat. 28:34-42. [In Chinese]
 
 Houde, P., Dickson, M., & Camarena, D. (2023). Basal anseriformes from the early Paleogene of North America and Europe. Diversity, 15(2), 233.
 
@@ -348,6 +348,8 @@ Musser, G.M. & J. Cracraft 2019. A new morphological dataset reveals a novel rel
 Musser G., D. T. Ksepka & D. J. Field 2019. New Material of Paleocene-Eocene Pellornis (Aves: Gruiformes) Clarifies the Pattern and Timing of the Extant Gruiform Radiation. Diversity 11(7):1-25.
 
 Nascimento, R., & Silveira, L. F. (2020). The fossil birds of Peter Lund. Zootaxa, 4743(4), 480-510.
+
+Nessov, L. A. 1988. New Cretaceous and Paleocene birds of Soviet Mid- dle Asia and Kazakhstan and their environments. Trudy Zoologiceskogo Instituta Akademii Nauk SSSR 182:116–123. [In Russian]
 
 Olson, S. L. 1992 A new family of primitive landbirds from the Lower Eocene Green River Formation of Wyoming. Natural History Museum of Los Angeles County Science Series 36, pp 127-136.
 
