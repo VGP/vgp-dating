@@ -148,7 +148,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - Rallidae indet. – distal end of left tarsometatarsus (DPC 3858) from the upper sequence of Quarry M in the Jebel Qatrani Formation (early Oligocene, 33.9–28.4 Ma) at Fayum, Egypt ([Rasmussen et al. 1987](http://dx.doi.org/10.5479/si.00810266.62.1)).
 
-- Australlus disneyi (Boles, 2005), specimens from White Hunter Site (Faunal Zone A, late Oligocene, 26–23.04 Ma), Riversleigh, Queensland, Australia. Phylogenetic position determined by cladistic analysis (Worthy & Boles 2011).
+- _Australlus disneyi_ ([Boles, 2005](https://journals.australian.museum/boles-2005-rec-aust-mus-572-179190/)), specimens (QM F20906, F23723, F31469–76) from the White Hunter Site (Faunal Zone A, late Oligocene, 26–23.04Ma), Riversleigh, Queensland, Australia. Phylogenetic position determined by cladistic analysis ([Worthy & Boles 2011](https://doi.org/10.3853/j.0067-1975.63.2011.1563)).
 
 - Aptornis proasciarostratus Worthy et al., 2011, thoracic vertebrae (holotype NMNZ S.52350 and paratype NMNZ S.52353) from the Bannockburn Formation (early Miocene, Altonian, 18.26–15.97 Ma) of Otago, New Zealand. Although the Miocene fossils are fragmentary, the analysis of Quaternary fossils indicated that Aptornis belongs in crown Gruiformes, either in the Ralloidea (Boast et al. 2019) or sister to Psophiidae (Musser & Cracraft 2019).	
 
@@ -209,6 +209,8 @@ Andrews, C.W. 1897. On some fossil remains of Carinate birds from Central Madaga
 Bertelli, S., L. M. Chiappe & G. Mayr. 2011. A new Messel rail from the Early Eocene Fur Formation of Denmark (Aves, Messelornithidae). Journal of Systematic Palaeontology 9.4: 551-562. 
 
 Boles, W. E., 2001. A swiftlet (Apodidae: Collocaliini) from the Miocene of Riversleigh, northwestern Queensland. Memoir of the Association of Australasian Palaeontologists 25: 45–52.
+
+Boles, W.E., 2005. A new flightless gallinule (Aves: Rallidae: Gallinula) from the Oligo-Miocene of Riversleigh, northwestern Queensland, Australia. Records of the Australian Museum 57(2), p.179.
 
 Bowman, V., J. Ineson, J. Riding, J. Crame, J. Francis, D. Condon, R. Whittle & F. Ferraccioli. 2016. The Paleocene of Antarctica: Dinoflagellate cyst biostratigraphy, chronostratigraphy and implications for the palaeo-Pacific margin of Gondwana. Gondwana Research 38:132-148.
 
@@ -327,6 +329,8 @@ Worthy, T. H. 2009. Descriptions and phylogenetic relationships of two new gener
 Worthy, T. H., A. J. D. Tennyson, C. Jones, J. A. McNamara & B. J. Douglas. 2007. Miocene waterfowl and other birds from Central Otago, New Zealand. Journal of Systematic Palaeontology 5:1–39.
 
 Worthy T.H. & M. S. Y.  Lee. 2008. Affinities of Miocene (19–16 Ma) waterfowl (Anatidae: Manuherikia, Dunstanetta and Miotadorna) from the St Bathans Fauna, New Zealand. Palaeontology 51: 677–708.
+
+Worthy, T. H., & Boles, W. E. (2011). Australlus, a new genus for Gallinula disneyi (Aves: Rallidae) and a description of a new species from Oligo-Miocene deposits at Riversleigh, northwestern Queensland, Australia. Records of the Australian Museum, 63(1), 61-77.
 
 Worthy, T.H. and Nguyen, J.M., 2020. An annotated checklist of the fossil birds of Australia. Transactions of the Royal Society of South Australia, 144(1), pp.66-108.
 
