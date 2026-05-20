@@ -45,16 +45,16 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Manuherikia lacustrina_ [Worthy, Tennyson, Jones, McNamara, & Douglas, 2007](https://doi.org/10.1017/S1477201906001957) – isolated long bones (MNZ S40094, S42306-8) from the Bannockburn Formation, St Bathans Fauna (Antonian, 19–16Ma), Otago, New Zealand ([Worthy et al. 2007](https://doi.org/10.1017/S1477201906001957), [Worthy & Lee 2008](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4983.2008.00778.x)).
 
-- Bone fragments representing multiple anatid genera are known from Sharga (Middle Miocene, NMU7, MN7–8, 13.1–11.2 Ma), Shargyn-Govi area, Mongolia ([Zelenkov 2011](https://doi.org/10.1134/S0031030111020195)). These include _Sharganetta mongolica_ Zelenkov, 2011 (PIN 4869/195 and 4869/198), _Nogusunna conflictoides_ Zelenkov, 2011 (PIN 4869/23, 4869/197, and 4869/199), _Protomelanitta gracilis_ Zelenkov, 2011 (PIN 4869/100, 4869/125, 4869/134, 4869/151), and _Chenoanas deserta_ [Zelenkov, 2012](https://link.springer.com/article/10.1134/S0031030112050139) (PIN 4869/57, 4869/196). 
+- Bone fragments representing multiple anatid genera are known from Sharga (Middle Miocene, NMU7, MN7–8, 13.1–11.2 Ma), Shargyn-Govi area, Mongolia ([Zelenkov 2011](https://doi.org/10.1134/S0031030111020195)). These include _Sharganetta mongolica_ [Zelenkov, 2011](https://doi.org/10.1134/S0031030111020195) (PIN 4869/195 and 4869/198), _Nogusunna conflictoides_ [Zelenkov, 2011](https://doi.org/10.1134/S0031030111020195) (PIN 4869/23, 4869/197, and 4869/199), _Protomelanitta gracilis_ [Zelenkov, 2011](https://doi.org/10.1134/S0031030111020195) (PIN 4869/100, 4869/125, 4869/134, 4869/151), and _Chenoanas deserta_ [Zelenkov, 2012](https://doi.org/10.1134/S0031030112050139) (PIN 4869/57, 4869/196). 
 
-- _Megalodytes morejohni_ Howard, 1992 – long bones (LACM 123991–3, 123995) from the Round Mountain Member of the Temblor Formation (Langhian, 15.99–11.63Ma), Kern County, California, USA ([Howard 1992](https://www.biodiversitylibrary.org/item/348547#page/273/mode/1up)). 
+- _Megalodytes morejohni_ [Howard, 1992](https://www.biodiversitylibrary.org/item/348547#page/273/mode/1up) – long bones (LACM 123991–3, 123995) from the Round Mountain Member of the Temblor Formation (Langhian, 15.99–11.63Ma), Kern County, California, USA ([Howard 1992](https://www.biodiversitylibrary.org/item/348547#page/273/mode/1up)). 
 
-- _Chloephaga robusta_ Tambussi, 1998 – distal ulna (MLP 57-VIl-23-47) from the Irene Formation (early Pliocene, 4–3Ma), Buenos Aires, Argentina ([Tambussi 1998](https://raco.cat/index.php/BolletiSHNBalears/article/view/169326)). There are many other fossils from this locality referred to Anatidae, but they most likely represent stem taxa.
+- _Chloephaga robusta_ [Tambussi, 1998](https://raco.cat/index.php/BolletiSHNBalears/article/view/169326) – distal ulna (MLP 57-VIl-23-47) from the Irene Formation (early Pliocene, 4–3Ma), Buenos Aires, Argentina ([Tambussi 1998](https://raco.cat/index.php/BolletiSHNBalears/article/view/169326)). There are many other fossils from this locality referred to Anatidae, but they most likely represent stem taxa.
 
 - _Alopochen sirabensis_ ([Andrews, 1897](https://onlinelibrary.wiley.com/doi/10.1111/j.1474-919X.1897.tb03281.x)) – bone fragments (UA 360) from the Pleistocene of Ampasambazimba (0.0229–0.0222 Ma), Madagascar ([Goodman 1999](https://www.internationalornithology.org/PROCEEDINGS_Durban/Symposium/S50/S50.4.htm)).
 
 **Minimum age:** 24Ma\
-**Minimum justification:** Given the uncertainty in the relationships among anatid subfamilies, we use _Pinpanetta_ to calibrate crown Anatidae. Biostratigraphy of fossil land mammals, presence of Oligocene foraminiferal fauna, and magnetostratigraphy indicate an age between 24 and 26Ma for the Etadunna Formation ([Woodburne et al. 1994](https://doi.org/10.1080/02724634.1994.10011527)).\
+**Minimum justification:** Given the uncertainty in the relationships among anatid subfamilies, we use _Pinpanetta_ to calibrate crown Anatidae. Biostratigraphy of fossil land mammals, presence of Oligocene foraminiferal fauna, and magnetostratigraphy indicate an age of ~24–26Ma for the Etadunna Formation ([Woodburne et al. 1994](https://doi.org/10.1080/02724634.1994.10011527)).\
 **Maximum age:** 38.05Ma\
 **Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Anatidae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=24.701, omega=3.477, alpha=10.192, and nu=2.627.
@@ -80,7 +80,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 - Various fragmentary remains (DLC 17268, 18041, 18098, 18157, 18780, 18797, 18876) of five species of _Coua_ (Cuculidae) from Ankilitelo Cave (0.013–0.002Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)). 
 
 **Minimum age:** 51.81Ma\
-**Minimum justification:** The oldest of these taxa is _Foro panarium_, for which radiometric 40Ar/39Ar-dating of the K-spar tuff near the top of the Fossil Butte member yielded a recalibrated date of 51.97±0.16 Ma (Smith et al. 2008, 2010).
+**Minimum justification:** The oldest of these taxa is _Foro panarium_, for which radiometric 40Ar/39Ar-dating of the K-spar tuff near the top of the Fossil Butte member yielded a recalibrated date of 51.97±0.16 Ma (Smith et al. [2008](https://doi.org/10.1130/B26073.1), [2010](https://doi.org/10.1130/G30630.1)).
 **Maximum age:** 80.39Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Otidimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=51.91, omega=7.378, alpha=6.311e+05, and nu=2.763.\
 **Discussion:** Relationships among Otidiformes, Musophagiformes and Cuculiformes are poorly resolved due to a very short internode and high levels of incomplete lineage sorting ([Stiller et al. 2024](https://doi.org/10.1038/s41586-024-07323-1)). We applied this calibration based on _Foro panarium_ (Musophagiformes _incertae sedis_) to the entire crown group, noting that both it and _Eocuculus_ have been very difficult to place phylogenetically – support for a position within Musophagiformes and Otidimorphae, respectively, are ambiguous across analyses.
@@ -105,7 +105,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 - _Streptoprocne zonaris_ ([Shaw, 1796](https://archive.org/details/bim_eighteenth-century_cimelia-physica-figures_shaw-george_1796)) – unspecified, possibly uncatalogued specimen from Barra do Antonião, Piauí, Brazil (Late Pleistocene: 0.129–0.0117Ma, [Guérin et al. 1996](https://www.researchgate.net/publication/291774116_A_fauna_pleistocenica_do_Piaui_Nordeste_do_Brasil_Relacoes_paleoecologicas_e_biocronologicas)).
 
 **Minimum age:** 54.6Ma\
-**Minimum justification:** The oldest of these fossils is _Eocypselus vincenti_, for which the bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8 Ma ago (Stokke et al. 2020a). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6 Ma (King 2016, Stokke et al. 2020b).\
+**Minimum justification:** The oldest of these fossils is _Eocypselus vincenti_, for which the bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8 Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6 Ma ([King 2016](https://doi.org/10.1144/SR27), [Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)).\
 **Maximum age:** 83.85 Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Daedalornithes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=54.649, omega=7.722, alpha=37.041, and nu=2.233.\
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
@@ -377,13 +377,17 @@ Shaw, G. 1796. Cimelia Physica. Figures of rare and curious quadrupeds, birds, e
 
 Shute, E., Prideaux, G.J., Worthy, T.H. 2016. Three terrestrial Pleistocene coucals (Centropus: Cuculidae) from southern Australia: biogeographical and ecological significance, Zoological Journal of the Linnean Society, 177, 964–1002.
 
+Smith, M.E., Carroll, A.R., & Singer, B.S. 2008 Synoptic reconstruction of a major ancient lake system: Eocene Green River Formation, western United States. Geological Society of America Bulletin 120 (1/2), pp 54-84.
+
+Smith, M.E., Chamberlain, K.R., Singer, B.S. & Carroll, A.R. (2010): Eocene clocks agree: coeval 40Ar/39Ar, U-Pb, and astronomical ages from the Green River Formation. Geology 38 (6), pp 527-530.
+
 Speijer, R. P., Pälike, H., Hollis, C. J., Hooker, J. J., & Ogg, J. G. 2020. The Paleogene Period. In F. M. Gradstein, J. G. Ogg, M. D. Schmitz, & G. M. Ogg (Eds.), Geologic Time Scale 2020 (pp. 1087–1140). Elsevier B.V.: Amsterdam.
 
 Stiller, J., Feng, S., Chowdhury, A.A., Rivas-González, I., Duchêne, D.A., Fang, Q., Deng, Y., Kozlov, A., Stamatakis, A., Claramunt, S. and Nguyen, J.M., 2024. Complexity of avian evolution revealed by family-level genomes. Nature, 629(8013), pp.851-860.
 
 Stokke, E. W., E. Liu & M. T. Jones 2020a. Evidence of explosive hydromagmatic eruptions during the emplacement of the North Atlantic Igneous Province. Volcanica 3(2):227-250.
 
-Stokke, E. W., M. T. Jones, J. E. Tierney, H. H. Svensen, & J. H. Whiteside 2020b. Temperature changes across the Paleocene-Eocene Thermal Maximum – a new high-resolution TEX86 temperature record from the Eastern North Sea Basin. Earth and Planetary Science Letters 544:116388. doi: 10.1016/j.epsl. 2020.116388.
+Stokke, E. W., M. T. Jones, J. E. Tierney, H. H. Svensen, & J. H. Whiteside 2020b. Temperature changes across the Paleocene-Eocene Thermal Maximum – a new high-resolution TEX86 temperature record from the Eastern North Sea Basin. Earth and Planetary Science Letters 544:116388.
 
 Tambussi C. P. 1998. Nuevo Anatidae (Aves: Anseriformes) del Plioceno de la región pampeana, Argentina. Boll. Soc Hist. Nat. Balears 41: 19-25.
 
