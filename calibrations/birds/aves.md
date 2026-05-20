@@ -108,7 +108,42 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum justification:** The oldest of these fossils is _Eocypselus vincenti_, for which the bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8 Ma ago (Stokke et al. 2020a). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6 Ma (King 2016, Stokke et al. 2020b).\
 **Maximum age:** 83.85 Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Anatidae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=54.649, omega=7.722, alpha=37.041, and nu=2.233.\
-**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1))
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
+
+---
+**Node 708:** Apodi | 103.40-50.3Ma\
+**Node calibrated:** Last common ancestor of Apodidae (_Apus apus_) and Hemiprocnidae (_Hemiprocne comata_)
+**Fossil taxa:**
+
+- Scaniacypselus wardi Harrison, 1984, articulated pectoral girdle and forelimbs (BMNH A5430) from Bed R6 (50.3–51.5 Ma) of the Røsnæs Clay Formation in Ølst, Denmark. Cladistic analyses (Mayr 2003, Ksepka et al.2013) and Bayesian analyses with topological constraints (Chen et al. 2019) placed it on the stem of Apodidae.
+●      Collocalia buday Boles, 2001 from the early Miocene Camel Sputum Site (18.53–16.97 Ma, Woodhead et al. 2016), Riversleigh, Queensland, Australia.
+●      Collocalia sp. from the Bannockburn Formation, St Bathans Fauna (Early Miocene, Altonian, 18.26–15.97 Ma), Otago, New Zealand (Worthy et al. 2007). Although not identified at the species level, it is estimated to be much smaller than Collocalia buday (Worthy et al. 2007).         
+●      Tachymarptis sp. from the upper Varswater Formation at Langebaanweg (Early Pliocene 5.33–3.6 Ma), Cape Province, South Africa (Manegold et al. 2003).
+●       Apus sp. left coracoid (NSMT PV 24548), left carpometacarpus (24549), proximal phalanx major digit (24550)from fissure-filling deposits in Shiriya, Aomori Prefecture, Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129 – 0.116 Ma, Watanabe et al. 2018)
+●      Streptoprocne zonaris from the Late Pleistocene (0.129–0.0117 Ma) at Barra do Antonião, Piauí, Brazil (Guérin et al. 1996).
+●      Chaetura pelagica from the Late Pleistocene (0.1–0.0117 Ma) of Clark's Cave, Bath County, Virginia, USA (Guilday et al. 1977).
+
+**Minimum age:** 50.3Ma\
+**Minimum justification:** The oldest fossil is _Scaniacypselus wardi,_ for which the top of Member R6 is overlaid conformably by the Lillebælt Clay Formation; its base coincides with a sharp transition from calcareous to non-calcareous foraminifera, including _Reticulophragmium amplectens,_ which correlates with the NS18-NS19 boundary at around 50.3 Ma ([King 2016](https://doi.org/10.1144/SR27), fig. 76). The lowest part of R6 (or the top of the underlying Member R5) shows the last occurrence of the dinoflagellate cysts _Ochetodinium romanum,_ which represent the top of Subzone DE8b ([King 2016](https://doi.org/10.1144/SR27)) at around 51.5 Ma ([Speijer et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00028-0)). King ([2016](https://doi.org/10.1144/SR27)) shows a very narrow Subzone DE8b containing Ochetodinium romanum and right after the polarity reversal in the middle of C23, which is 51.72 Ma ([Speijer et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00028-0)).\
+**Maximum age:** 103.40 Ma\
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Apodi on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=50.32, omega=11.39, alpha=61.85, and nu=1.90.\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ---
 
@@ -172,6 +207,8 @@ Houde, P., Dickson, M., & Camarena, D. (2023). Basal anseriformes from the early
 
 Howard, H. 1992. New records of middle Miocene anseriform birds from Kern County, California. Papers in Avian Paleontology Honoring Pierce Brodkorb. Natural History Museum of Los Angeles County, Science Series, 36, 231-237
 
+King, C. 2016. A revised correlation of Tertiary rocks in the British Isles and adjacent areas of NW Europe. Geol. Soc. Lond. Spec. Rep. 27: 1–719.
+
 Ksepka, D. T., J. A. Clarke, S. J. Nesbitt, F. B. Kulp & L. Grande. 2013 Fossil evidence of wing shape in a stem relative of swifts and hummingbirds (Aves, Pan-Apodiformes). Proc. R. Soc. B 280: 20130580.
 
 Kurochkin, E. N. 1976. A survey of the Paleogene birds of Asia. Smithson. Contrib. Paleobiol. 27:75-86.
@@ -211,6 +248,8 @@ Rich, P.V., 1980. Preliminary report on the fossil avian remains from late Terti
 Shaw, G. 1796. Cimelia Physica. Figures of rare and curious quadrupeds, birds, etcetera, together with several of the most elegant plants. B. & J. White, London
 
 Shute, E., Prideaux, G.J., Worthy, T.H. 2016. Three terrestrial Pleistocene coucals (Centropus: Cuculidae) from southern Australia: biogeographical and ecological significance, Zoological Journal of the Linnean Society, 177, 964–1002.
+
+Speijer, R. P., Pälike, H., Hollis, C. J., Hooker, J. J., & Ogg, J. G. 2020. The Paleogene Period. In F. M. Gradstein, J. G. Ogg, M. D. Schmitz, & G. M. Ogg (Eds.), Geologic Time Scale 2020 (pp. 1087–1140). Elsevier B.V.: Amsterdam.
 
 Stiller, J., Feng, S., Chowdhury, A.A., Rivas-González, I., Duchêne, D.A., Fang, Q., Deng, Y., Kozlov, A., Stamatakis, A., Claramunt, S. and Nguyen, J.M., 2024. Complexity of avian evolution revealed by family-level genomes. Nature, 629(8013), pp.851-860.
 
