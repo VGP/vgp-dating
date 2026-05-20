@@ -195,11 +195,11 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Lithoptila abounensis_ [Bourdon _in_ Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2) – neurocranium (OCP.DEK/GE 1087) from the bed IIa of the Ouled Abdoun Phosphates Series (Thanetian, 58.7–55.8Ma), Ouled Abdoun Basin, Morocco ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)). A cladistic analysis placed _L. abounensis_ sister to _Prophaethon,_ constituting a stem clade of Phaethontidae ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)).
 
-- _Zhylgaia aestiflua_ Nessov, 1988 – two partial humeri () from the late Paleocene (58.7–55.8Ma) of Kazakhstan. Bourdon et al. (2008) proposed placement in Prophaethontiformes. Tshulia litorea Nessov, 1988, based on a tarsometatarsus from the same locality, represents the same taxon according to Mayr & Scofield (2016).
+- _Zhylgaia aestiflua_ [Nessov, 1988](https://www.zin.ru/journals/trudyzin/eng/history.html) – two partial humeri (PO 3468, 3485) from the late Paleocene (58.7–55.8Ma) of Kazakhstan. Bourdon et al. ([2008](https://doi.org/10.1671/0272-4634(2008)28[751:NSOLAA]2.0.CO;2)) proposed placement in Prophaethontiformes. _Tshulia litorea_ [Nessov, 1988](https://www.zin.ru/journals/trudyzin/eng/history.html), based on a tarsometatarsus from the same locality, represents the same taxon according to Mayr & Scofield ([2016](https://doi.org/10.1080/02724634.2015.1031343)).
 
-- Prophaethon sp., distal humerus (USNM 483158) from the Aquia Formation (Thanetian, 58.7–55.8 Ma) at Capital Beltway and Central Avenue, Prince George’s County, Maryland, USA (Olson 1994).
+- _Prophaethon_ sp. – distal humerus (USNM 483158) from the Aquia Formation (Thanetian: 58.7–55.8Ma) at Capital Beltway and Central Avenue, Prince George’s County, Maryland, USA ([Olson 1994](http://hdl.handle.net/10088/6493)).
 
-- Prophaethon shrubsolei Andrews, 1899 from the Walton Member of the London Clay Formation at Walton-on-the-Naze (54–54.9 Ma, King 2016), Essex, United Kingdom (Mayr 2015).
+- _Prophaethon shrubsolei_ Andrews, 1899 – partial neurocranium (SMF Av 602) from the Walton Member of the London Clay Formation at Walton-on-the-Naze (54–54.9Ma, [King 2016](https://doi.org/10.1144/sr27)), Essex, United Kingdom ([Mayr 2015](https://doi.org/10.1111/ibi.12214)).
 
 **Minimum age:** 55.8Ma\
 **Minimum justification:** The oldest fossil is _Lithoptila_, for which “[t]he specimen is dated as Thanetian (bed IIa of the mining lithostratigraphical terminology, Fig. 2) on the basis of the selachians identified in the matrix…” ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)), thus the upper boundary is 55.8 Ma.\
@@ -260,6 +260,8 @@ Boles, W. E., 2001. A swiftlet (Apodidae: Collocaliini) from the Miocene of Rive
 Boles, W.E., 2005. A new flightless gallinule (Aves: Rallidae: Gallinula) from the Oligo-Miocene of Riversleigh, northwestern Queensland, Australia. Records of the Australian Museum 57(2), p.179.
 
 Bourdon, E., B. Bouya & M. Iarchene 2005. Earliest African Neornithine Bird: A New Species of Prophaethontidae (Aves) from the Paleocene of Morocco. J. Vert. Paleontol. 25:157-170.
+
+Bourdon, E., C. Mourer-Chauviré, M. Amaghzaz & Bouya 2008. New specimens of Lithoptila abdounensis (Aves, Prophaethontidae) from the lower Paleogene of Morocco. J. Vert. Paleontol. 28: 751-761.
 
 Bowman, V., J. Ineson, J. Riding, J. Crame, J. Francis, D. Condon, R. Whittle & F. Ferraccioli. 2016. The Paleocene of Antarctica: Dinoflagellate cyst biostratigraphy, chronostratigraphy and implications for the palaeo-Pacific margin of Gondwana. Gondwana Research 38:132-148.
 
@@ -323,7 +325,11 @@ Mayr, G. 2003 Phylogeny of early Tertiary swifts and hummingbirds (Aves: Apodifo
 
 Mayr, G. 2006. A specimen of Eocuculus Chandler, 1999 (Aves, ?Cuculidae) from the early Oligocene of France. Geobios, 39(6), 865-872.
 
+Mayr, G. 2015. New remains of the Eocene Prophaethon and the early evolution of tropicbirds (Phaethontiformes). Ibis 157(1):54-67.
+
 Mayr, G. (2016). The world’s smallest owl, the earliest unambiguous charadriiform bird, and other avian remains from the early Eocene Nanjemoy Formation of Virginia (USA). PalZ, 90(4), 747-763.
+
+Mayr, G. & R. P. Scofield. 2016. New avian remains from the Paleocene of New Zealand: the first early Cenozoic Phaethontiformes (tropicbirds) from the Southern Hemisphere. J. Vert. Paleontol.: e1031343.
 
 Mayr, G., & Kitchener, A. C. (2023). Early Eocene fossils elucidate the evolutionary history of the Charadriiformes (shorebirds and allies). Journal of Paleontology, 97(4), 941-955.
 
@@ -352,6 +358,8 @@ Nascimento, R., & Silveira, L. F. (2020). The fossil birds of Peter Lund. Zootax
 Nessov, L. A. 1988. New Cretaceous and Paleocene birds of Soviet Mid- dle Asia and Kazakhstan and their environments. Trudy Zoologiceskogo Instituta Akademii Nauk SSSR 182:116–123. [In Russian]
 
 Olson, S. L. 1992 A new family of primitive landbirds from the Lower Eocene Green River Formation of Wyoming. Natural History Museum of Los Angeles County Science Series 36, pp 127-136.
+
+Olson, S. L. 1994. A giant Presbyornis (Aves, Anseriformes) and other birds from the Paleocene Aquia Formation of Maryland and Virginia. Proceedings of the Biological Society of Washington 107:429-435.
 
 Olson, S.L., 1999. The anseriform relationships of Anatalavis Olson and Parris (Anseranatidae), with a new species from the Lower Eocene London Clay. Smithsonian Contributions to Paleobiology, 89, pp.231-243.
 
