@@ -140,13 +140,13 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Node calibrated:** Last common ancestor of Gruoidea (_Grus grus_) and Ralloidea (_Gallinula chloropus_)\
 **Fossil taxa:**
 
-- Pellornis mikkelseni [Bertelli, Chiappe, & Mayr, 2011](https://doi.org/10.1080/14772019.2010.538730) – a nearly complete articulated skeleton (holotype MGUH 29278) from the Fur Formation near Sundby, Isle of Mors, Jutland, Denmark ([Hoch 1997](https://2dgf.dk/dgf-online-series/notes-on-palaeornithology-and-on-a-new-bird-from-the-early-tertiary-north-sea-region/), [Musser et al. 2019](https://doi.org/10.3390/d11070102)). Initial cladistic analyses indicated a position of Messelornithidae, including Pellornis mikkelseni, as stem Rallidae ([Bertelli et al. 2011](https://doi.org/10.1080/14772019.2010.538730)). More recent analyses including additional characters from a more complete preparation of the holotype revealing a complete skull among other parts, indicated a more basal position as stem Ralloidea ([Musser et al. 2019](https://doi.org/10.3390/d11070102), [Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929)), thus setting a minimum age for crown Gruiformes.
+- _Pellornis mikkelseni_ [Bertelli, Chiappe, & Mayr, 2011](https://doi.org/10.1080/14772019.2010.538730) – a nearly complete articulated skeleton (holotype MGUH 29278) from the Fur Formation near Sundby, Isle of Mors, Jutland, Denmark ([Hoch 1997](https://2dgf.dk/dgf-online-series/notes-on-palaeornithology-and-on-a-new-bird-from-the-early-tertiary-north-sea-region/), [Musser et al. 2019](https://doi.org/10.3390/d11070102)). Initial cladistic analyses indicated a position of Messelornithidae, including Pellornis mikkelseni, as stem Rallidae ([Bertelli et al. 2011](https://doi.org/10.1080/14772019.2010.538730)). More recent analyses including additional characters from a more complete preparation of the holotype revealing a complete skull among other parts, indicated a more basal position as stem Ralloidea ([Musser et al. 2019](https://doi.org/10.3390/d11070102), [Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929)), thus setting a minimum age for crown Gruiformes.
 
-- Songzia acutunguis Hou, 1990, articulated skeletons (Wang et al. 2012) from the Yangxi Formation (55.8–48.6 Ma), China, phylogenetically placed in the Messelornithidae by cladistic analysis (Musser et al. 2019).
+- _Songzia acutunguis_ [Hou, 1990](https://www.vertpala.ac.cn/EN/volumn/volumn_134.shtml#1) – articulated skeletons (IVPP 18187–8) from the Yangxi Formation (55.8–48.6Ma), China ([Wang et al. 2012](https://doi.org/10.1080/03115518.2012.673302)), phylogenetically placed in Messelornithidae by cladistic analysis ([Musser et al. 2019](https://doi.org/10.3390/d11070102)).
 
-- Messelornis nearctica Hesse, 1992, several skeletons (Weidig 2010) from the Fossil Butte Member of the Green River Formation (51.97 ± 0.16 Ma), Wyoming, USA. See Musser et al. (2019) for phylogenetic analysis.
+- _Messelornis nearctica_ [Hesse, 1992](https://www.biodiversitylibrary.org/item/348547#page/213/mode/1up) – several skeletons (BHI 1283, 1292, 1294; FMNH A 716; SMF Av 406; SMNK-PAL 3810; USNM 336269, 336277, 776273, 776275) from the Fossil Butte Member of the Green River Formation (51.97±0.16Ma), Wyoming, USA ([Weidig 2010](https://journals.australian.museum/weidig-2010-rec-aust-mus-621-2944/)). See Musser et al. ([2019](https://doi.org/10.3390/d11070102)) for phylogenetic analysis.
 
-- Rallidae indet. from the Jebel Qatrani Formation (early Oligocene, 33.9–28.4 Ma) at Fayum, Egypt, (Rasmussen et al. 1987).
+- Rallidae indet. – distal end of left tarsometatarsus (DPC 3858) from the upper sequence of Quarry M in the Jebel Qatrani Formation (early Oligocene, 33.9–28.4 Ma) at Fayum, Egypt ([Rasmussen et al. 1987](http://dx.doi.org/10.5479/si.00810266.62.1)).
 
 - Australlus disneyi (Boles, 2005), specimens from White Hunter Site (Faunal Zone A, late Oligocene, 26–23.04 Ma), Riversleigh, Queensland, Australia. Phylogenetic position determined by cladistic analysis (Worthy & Boles 2011).
 
@@ -238,7 +238,11 @@ Guilday, J. E., P. W. Parmalee, and H. W. Hamilton. 1977. The Clark's Cave bone 
 
 Harrison, C. J. O.  1984. A revision of the fossil swifts (Vertebrata, Aves, suborder, Apodi), with descriptions of three new genera and two new species. Mededelingen van de Werkgroep voor Tertiaire en Kwartaire Geologie 21(4):157-177.
 
+Hesse, A. 1992. A new species of Messelornis (Aves: Gruiformes: Messelornithidae) from the Middle Eocene Green River Formation. Papers in Avian Paleontology honoring Pierce Brodkorb.-Los Angeles County Museum of Natural History, Science Series, 36, 171-178.
+
 Hoch, E. 1997. Notes on palaeornithology and on a New Bird from the Early Tertiary North Sea Region. Geological Society of Denmark, Online Series 1.
+
+Hou, L.H. 1990 An Eocene bird from Songzi, Hubei province. Vertebr. Palasiat. 28:34-42.
 
 Houde, P., Dickson, M., & Camarena, D. (2023). Basal anseriformes from the early Paleogene of North America and Europe. Diversity, 15(2), 233.
 
@@ -286,6 +290,8 @@ Olson, S.L., 1999. The anseriform relationships of Anatalavis Olson and Parris (
 
 Parham, J.F., Donoghue, P.C., Bell, C.J., Calway, T.D., Head, J.J., Holroyd, P.A., Inoue, J.G., Irmis, R.B., Joyce, W.G., Ksepka, D.T. and Patané, J.S., 2012. Best practices for justifying fossil calibrations. Systematic biology, 61(2), pp.346-359.
 
+Rasmussen, D. T., Olson, S. L. & E. L. Simons. 1987. Fossil birds from the Oligocene Jebel Qatrani Formation, Fayum Province, Egypt. Smithsonian Contributions to Paleobiology 62:1-20.
+
 Rich, P.V., 1980. Preliminary report on the fossil avian remains from late Tertiary sediments at Langebaanweg (Cape Province), South Africa. South African Journal of Science, 76(4), pp.166-170.
 
 Shaw, G. 1796. Cimelia Physica. Figures of rare and curious quadrupeds, birds, etcetera, together with several of the most elegant plants. B. & J. White, London
@@ -304,7 +310,11 @@ Tambussi C. P. 1998. Nuevo Anatidae (Aves: Anseriformes) del Plioceno de la regi
 
 Tambussi, C.P., F.J. Degrange, R.S. De Mendoza, E. Sferco & S. Santillana. 2019. A stem anseriform from the early Palaeocene of Antarctica provides new key evidence in the early evolution of waterfowl. Zoological Journal of the Linnean Society 186(3):673-700.
 
+Wang, M., Mayr, G., Zhang, J. and Zhou, Z., 2012. Two new skeletons of the enigmatic, rail-like avian taxon Songzia Hou, 1990 (Songziidae) from the early Eocene of China. Alcheringa, 36(4), pp.487-499.
+
 Watanabe, J., Matsuoka, H., & Hasegawa, Y. (2018). Pleistocene non-passeriform landbirds from Shiriya, northeast Japan. Acta Palaeontologica Polonica, 63(3).
+
+Weidig, I., 2010. New birds from the lower Eocene Green River Formation, North America. Records of the Australian Museum, 62(1), pp.29-44.
 
 Winge, O. 1887. Fugle fra Knoglehuler i Brasilien. E Museo Lundii, 1 (2), 1–54.
 
