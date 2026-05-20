@@ -193,7 +193,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Node calibrated:** Last common ancestor of clade encompassing Phaethontiformes (_Phaethon aethereus_) and Eurypygiformes (_Rhynochetos jubatus_)\
 **Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Phaethontimorphae:
 
-- Lithoptila abounensis Bourdon, 2005, neurocranium (holotype) from the bed IIa of the Ouled Abdoun Phosphates Series (Thanetian, 58.7–55.8 Ma), Ouled Abdoun Basin, Morocco (Bourdon et al. 2005). A cladistic analysis placed L. abounensis sister to Prophaethon, constituting a stem clade of Phaethontidae (Bourdon et al. 2005).
+- _Lithoptila abounensis_ [Bourdon, 2005 _in_ Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2) – neurocranium (OCP.DEK/GE 1087) from the bed IIa of the Ouled Abdoun Phosphates Series (Thanetian, 58.7–55.8Ma), Ouled Abdoun Basin, Morocco ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)). A cladistic analysis placed _L. abounensis_ sister to _Prophaethon,_ constituting a stem clade of Phaethontidae ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)).
 
 - Zhylgaia aestiflua Nessov, 1988, two partial humeri from the late Paleocene (58.7–55.8 Ma) of Kazakhstan. Bourdon et al. (2008) proposed placement in Prophaethontiformes. Tshulia litorea Nessov, 1988, based on a tarsometatarsus from the same locality, represents the same taxon according to Mayr & Scofield (2016).
 
@@ -202,7 +202,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 - Prophaethon shrubsolei Andrews, 1899 from the Walton Member of the London Clay Formation at Walton-on-the-Naze (54–54.9 Ma, King 2016), Essex, United Kingdom (Mayr 2015).
 
 **Minimum age:** 55.8Ma\
-**Minimum justification:** The oldest fossil is _Lithoptila_, for which “[t]he specimen is dated as Thanetian (bed IIa of the mining lithostratigraphical terminology, Fig. 2) on the basis of the selachians identified in the matrix…” ([Bourdon et al. 2005](https://doi.org/10.1007/s00114-005-0047-0)), thus the upper boundary is 55.8 Ma.\
+**Minimum justification:** The oldest fossil is _Lithoptila_, for which “[t]he specimen is dated as Thanetian (bed IIa of the mining lithostratigraphical terminology, Fig. 2) on the basis of the selachians identified in the matrix…” ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)), thus the upper boundary is 55.8 Ma.\
 **Maximum age:** 62.31Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Charadriiformes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=55.952, omega=57.879, alpha=1.273, and nu=2.901.\
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
@@ -259,7 +259,7 @@ Boles, W. E., 2001. A swiftlet (Apodidae: Collocaliini) from the Miocene of Rive
 
 Boles, W.E., 2005. A new flightless gallinule (Aves: Rallidae: Gallinula) from the Oligo-Miocene of Riversleigh, northwestern Queensland, Australia. Records of the Australian Museum 57(2), p.179.
 
-Bourdon, E. 2005. Osteological evidence for sister group relationship between pseudo-toothed birds (Aves: Odontopterygiformes) and waterfowls (Anseriformes). Naturwissenschaften, 92(12), 586-591.
+Bourdon, E., B. Bouya & M. Iarchene 2005. Earliest African Neornithine Bird: A New Species of Prophaethontidae (Aves) from the Paleocene of Morocco. J. Vert. Paleontol. 25:157-170.
 
 Bowman, V., J. Ineson, J. Riding, J. Crame, J. Francis, D. Condon, R. Whittle & F. Ferraccioli. 2016. The Paleocene of Antarctica: Dinoflagellate cyst biostratigraphy, chronostratigraphy and implications for the palaeo-Pacific margin of Gondwana. Gondwana Research 38:132-148.
 
