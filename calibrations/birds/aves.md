@@ -199,7 +199,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Prophaethon_ sp. – distal humerus (USNM 483158) from the Aquia Formation (Thanetian: 58.7–55.8Ma) at Capital Beltway and Central Avenue, Prince George’s County, Maryland, USA ([Olson 1994](http://hdl.handle.net/10088/6493)).
 
-- _Prophaethon shrubsolei_ Andrews, 1899 – partial neurocranium (SMF Av 602) from the Walton Member of the London Clay Formation at Walton-on-the-Naze (54–54.9Ma, [King 2016](https://doi.org/10.1144/sr27)), Essex, United Kingdom ([Mayr 2015](https://doi.org/10.1111/ibi.12214)).
+- _Prophaethon shrubsolei_ Andrews, 1899 – partial neurocranium (SMF Av 602) from the Walton Member of the London Clay Formation at Walton-on-the-Naze (54–54.9Ma, [King 2016](https://doi.org/10.1144/sr27)), Essex, United Kingdom ([Mayr 2015a](https://doi.org/10.1111/ibi.12214)).
 
 **Minimum age:** 55.8Ma\
 **Minimum justification:** The oldest fossil is _Lithoptila_, for which “[t]he specimen is dated as Thanetian (bed IIa of the mining lithostratigraphical terminology, Fig. 2) on the basis of the selachians identified in the matrix…” ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)), thus the upper boundary is 55.8 Ma.\
@@ -221,7 +221,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _"Pachydyptes" simpsoni_ [Jenkins, 1974](https://palass.org/publications/palaeontology-journal/archive/17/2/article_pp291-310) – partial skeleton (SAMA P14157) from the Blanche Point Formation (Late Eocene: 38.0–36.5 Ma, [Park & Fitzgerald 2012](https://doi.org/10.24199/j.mmv.2012.69.06)) Australia. Phylogenetically placed by Ksepka et al. ([2006](https://doi.org/10.1111/j.1096-0031.2006.00116.x)) and Ksepka & Clarke ([2012](http://hdl.handle.net/2246/6065)).
 
-●      Makahala mirae Mayr, 2015 (Procellariiformes), wing bones (SMF Av 603) from Jansen Creek Member of the Makah Formation (Rupelian, 33.9–28.4 Ma), near the mouth of Bullman Creek, Clallam County, Washington, USA.
+- _Makahala mirae_ [Mayr, 2015b](https://doi.org/10.1127/njgpa/2015/0445) – wing bones (SMF Av 603) from Jansen Creek Member of the Makah Formation (Rupelian: 33.9–28.4 Ma), near the mouth of Bullman Creek, Clallam County, Washington, USA ([Mayr 2015b](https://doi.org/10.1127/njgpa/2015/0445)).
 
 ●      Rupelornis definitus van Beneden, 1871, (Diomedeoididae, De Pietri et al. 2009, Mayr & Smith 2012) from Frauenweiler (Rupelian, 32–30.5 Ma, Maxwell et al. 2016), Germany. Diomedeoididae is most probably a stem group Procellariiformes (De Pietri et al. 2009, Mayr & Smith 2012).
 
@@ -361,7 +361,9 @@ Mayr, G. 2003 Phylogeny of early Tertiary swifts and hummingbirds (Aves: Apodifo
 
 Mayr, G. 2006. A specimen of Eocuculus Chandler, 1999 (Aves, ?Cuculidae) from the early Oligocene of France. Geobios, 39(6), 865-872.
 
-Mayr, G. 2015. New remains of the Eocene Prophaethon and the early evolution of tropicbirds (Phaethontiformes). Ibis 157(1):54-67.
+Mayr, G. 2015a. New remains of the Eocene Prophaethon and the early evolution of tropicbirds (Phaethontiformes). Ibis 157(1):54-67.
+
+Mayr, G. 2015b. A new Paleogene procellariiform bird from western North America. Neues Jahrbuch für Geologie und Paläontologie-Abhandlungen 275(1):11-17.
 
 Mayr, G. (2016). The world’s smallest owl, the earliest unambiguous charadriiform bird, and other avian remains from the early Eocene Nanjemoy Formation of Virginia (USA). PalZ, 90(4), 747-763.
 
