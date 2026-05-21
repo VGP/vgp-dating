@@ -213,8 +213,26 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Node calibrated:** Last common ancestor of clade encompassing Sphenisciformes (_Spheniscus humboldti_) and Procellariiformes (_Calonectris borealis_).\
 **Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Procellariimorphae:
 
+- _Waimanu manneringi_ [Jones, Ando, & Fordyce _in_ Slack et al. 2006](https://doi.org/10.1093/molbev/msj124) – associated partial postcranial skeleton (CM zfa35) from the Waipara Greensand (Paleocene, 61.6–60.5 Ma), Waipara River, Canterbury, New Zealand ([Slack et al. 2006](https://doi.org/10.1093/molbev/msj124)).
+
+- _Crossvallia unienwillia_ [Tambussi, Reguero, Marenssi, & Santillana, 2005](https://doi.org/10.1016/j.geobios.2004.02.003) – humerus, femur, partial tibiotarsus, thoracic vertebra (MLP 00-I-10-1) from the Bahía Pingüino Member of the Cross Valley Formation at Seymour Island (Late Paleocene, 56–55Ma).
+
+- _Perudyptes devriesi_ [Clarke, Ksepka, Stucchi, Urbina, Giannini, Bertelli, Narváez, & Boyd, 2007](https://doi.org/10.1073/pnas.0611099104) – partial skeleton (MUSM 889) from the Paracas Formation (Middle Eocene, 42–42Ma) at Quebrada Perdida, Peru.
+
+- _"Pachydyptes" simpsoni_ [Jenkins, 1974](https://palass.org/publications/palaeontology-journal/archive/17/2/article_pp291-310) – partial skeleton (SAMA P14157) from the Blanche Point Formation (Late Eocene: 38.0–36.5 Ma, [Park & Fitzgerald 2012](https://doi.org/10.24199/j.mmv.2012.69.06)) Australia. Phylogenetically placed by Ksepka et al. ([2006](https://doi.org/10.1111/j.1096-0031.2006.00116.x)) and Ksepka & Clarke ([2012](http://hdl.handle.net/2246/6065)).
+
+●      Makahala mirae Mayr, 2015 (Procellariiformes), wing bones (SMF Av 603) from Jansen Creek Member of the Makah Formation (Rupelian, 33.9–28.4 Ma), near the mouth of Bullman Creek, Clallam County, Washington, USA.
+
+●      Rupelornis definitus van Beneden, 1871, (Diomedeoididae, De Pietri et al. 2009, Mayr & Smith 2012) from Frauenweiler (Rupelian, 32–30.5 Ma, Maxwell et al. 2016), Germany. Diomedeoididae is most probably a stem group Procellariiformes (De Pietri et al. 2009, Mayr & Smith 2012).
+
+●      Inguza predemersus (Simpson, 1971), Dege hendeyi Simpson, 1979, Nucleornis insolitus Simpson, 1979 and Palaeospheniscus? huxleyorum Simpson, 1973 from the Varswater Formation at Saldanha Steel (late Miocene, 11.6–7.2 Ma), South Africa (Thomas & Ksepka 2013).
+
+●      Phoebastria cf. albatrus, a right humeral shaft (KUGM FA 2018.007) from the Hirayama Formation (early Pleistocene, 1.7 Ma), Japan (Watanabe et al. 2019).
+
+●      Puffinus pacificus (Gmelin, 1789) from Holocene deposits (1755 - 365 a) in Marais de l'Ermitage, Reunión Island, Mascarene Islands (Mourer-Chauviré et al. 1999). 
+
 **Minimum age:** 60.5Ma\
-**Minimum justification:** Dated by nannofossil biostratigraphy. The matrix of the holotype CM zfa35 contained the coccolithophores Chiasmolithus bidens and Hornibrookina teurensis which indicate an age between 61.6 and 60.5 Ma (Slack et al. 2006). Waimanu manneringi is nearly coeval with several other fossil penguins but its age is better constrained, and its minimum possible age, in particular, is older than the others (Blokland et al. 2019).\
+**Minimum justification:** Dated by nannofossil biostratigraphy of the oldest taxon, _Waimanu_. The matrix of the holotype CM zfa35 contained the coccolithophores _Chiasmolithus bidens_ and _Hornibrookina teurensis_ which indicate an age between 61.6 and 60.5 Ma ([Slack et al. 2006](https://doi.org/10.1093/molbev/msj124)). _W. manneringi_ is nearly coeval with several other fossil penguins but its age is better constrained, and its minimum possible age, in particular, is older than the others ([Blokland et al. 2019](https://doi.org/10.26879/1009)).\
 **Maximum age:** 84.70 Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Procellariimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in an offset skewStudent distribution with offset=60.530, xi=60.845, omega=6.749, alpha=37.833, and nu=2.655.\
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
@@ -262,6 +280,8 @@ Andrews, C.W. 1897. On some fossil remains of Carinate birds from Central Madaga
 Berggren, W.A., Kent, D.V., Swisher, C.C., and Aubrey, M.-P. 1995. A revised Cenozoic geochronology and chronostratigraphy. In Geochronology, Time Scales and Global Stratigraphic Correlation, ed. W.A. Berggren, D.V. Kent, M.-P. Aubry, and J. Hardenbol. Society of Economic Paleontologists and Mineralogists Special Publication 54: 129–212.
 
 Bertelli, S., L. M. Chiappe & G. Mayr. 2011. A new Messel rail from the Early Eocene Fur Formation of Denmark (Aves, Messelornithidae). Journal of Systematic Palaeontology 9.4: 551-562. 
+
+Blockland, J. C., C. M. Reid, T. H. Worthy, A. J. D. Tennyson, J. A. Clarke, & R. P. Scofield. 2019. Chatham Island Paleocene fossils provide insight into the palaeobiology, evolution, and diversity of early penguins (Aves, Sphenisciformes). Palaeontologia Electronica 22 (3):78.
 
 Boast, A.P., Chapman, B., Herrera, M.B., Worthy, T.H., Scofield, R.P., Tennyson, A.J., Houde, P., Bunce, M., Cooper, A. and Mitchell, K.J., 2019. Mitochondrial Genomes from New Zealand’s Extinct Adzebills (Aves: Aptornithidae: Aptornis) Support a Sister-Taxon Relationship with the Afro-Madagascan Sarothruridae. Diversity, 11(2), p.24.
 
@@ -319,7 +339,13 @@ Houde, P., Dickson, M., & Camarena, D. (2023). Basal anseriformes from the early
 
 Howard, H. 1992. New records of middle Miocene anseriform birds from Kern County, California. Papers in Avian Paleontology Honoring Pierce Brodkorb. Natural History Museum of Los Angeles County, Science Series, 36, 231-237
 
+Jenkins, R. J. F. 1974. A new giant penguin from the Eocene of Australia. Palaeontology, 17, 2, 291–310.
+
 King, C. 2016. A revised correlation of Tertiary rocks in the British Isles and adjacent areas of NW Europe. Geol. Soc. Lond. Spec. Rep. 27: 1–719.
+
+Ksepka, D. T., & J. A. Clarke. 2012. The basal penguin (Aves: Sphenisciformes) Perudyptes devriesi and a phylogenetic evaluation of the penguin fossil record. Bulletin of the American Museum of Natural History 337:1-77.
+
+Ksepka, D. T., S. Bertelli & N. P. Giannini. 2006. The phylogeny of the living and fossil Sphenisciformes (penguins). Cladistics 22(5): 412-441.
 
 Ksepka, D. T., J. A. Clarke, S. J. Nesbitt, F. B. Kulp & L. Grande. 2013. Fossil evidence of wing shape in a stem relative of swifts and hummingbirds (Aves, Pan-Apodiformes). Proc. R. Soc. B 280: 20130580.
 
@@ -387,6 +413,8 @@ Shaw, G. 1796. Cimelia Physica. Figures of rare and curious quadrupeds, birds, e
 
 Shute, E., Prideaux, G.J., Worthy, T.H. 2016. Three terrestrial Pleistocene coucals (Centropus: Cuculidae) from southern Australia: biogeographical and ecological significance, Zoological Journal of the Linnean Society, 177, 964–1002.
 
+Slack, K. E., C. M. Jones, T. Ando, G. L. Harrison, R. E. Fordyce, U. Arnason & D. Penny 2006. Early penguin fossils, plus mitochondrial genomes, calibrate avian evolution. Mol. Biol. Evol. 23 (6):1144-1155.
+
 Smith, M.E., Carroll, A.R., & Singer, B.S. 2008 Synoptic reconstruction of a major ancient lake system: Eocene Green River Formation, western United States. Geological Society of America Bulletin 120 (1/2), pp 54-84.
 
 Smith, M.E., Chamberlain, K.R., Singer, B.S. & Carroll, A.R. (2010): Eocene clocks agree: coeval 40Ar/39Ar, U-Pb, and astronomical ages from the Green River Formation. Geology 38 (6), pp 527-530.
@@ -400,6 +428,8 @@ Stokke, E. W., E. Liu & M. T. Jones 2020a. Evidence of explosive hydromagmatic e
 Stokke, E. W., M. T. Jones, J. E. Tierney, H. H. Svensen, & J. H. Whiteside 2020b. Temperature changes across the Paleocene-Eocene Thermal Maximum – a new high-resolution TEX86 temperature record from the Eastern North Sea Basin. Earth and Planetary Science Letters 544:116388.
 
 Tambussi C. P. 1998. Nuevo Anatidae (Aves: Anseriformes) del Plioceno de la región pampeana, Argentina. Boll. Soc Hist. Nat. Balears 41: 19-25.
+
+Tambussi, C. P., M. A. Reguero, S. A. Marenssi, & S. N. Santillana 2005. Crossvallia unienwillia, a new Spheniscidae (Sphenisciformes, Aves) from the Late Paleocene of Antarctica. Geobios 38:667-675.
 
 Tambussi, C.P., F.J. Degrange, R.S. De Mendoza, E. Sferco & S. Santillana. 2019. A stem anseriform from the early Palaeocene of Antarctica provides new key evidence in the early evolution of waterfowl. Zoological Journal of the Linnean Society 186(3):673-700.
 
