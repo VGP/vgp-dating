@@ -225,11 +225,11 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Rupelornis definitus_ [van Beneden, 1871](https://www.biodiversitylibrary.org/item/28485#page/278/mode/1up) – numerous elements (IRSNB Av 102–14) from the early Oligocene, lower part of the Boom Formation, Rupel Group, middle Rupelian (32–30.5Ma; [Maxwell et al. 2016](https://doi.org/10.1016/j.palaeo.2016.10.002)) of Frauenweiler, Germany. Assigned to Diomedeoididae, which is most probably a stem group Procellariiformes ([De Pietri et al. 2009](https://doi.org/10.4202/app.2009.0069), [Mayr & Smith 2012](https://doi.org/10.1111/j.1096-3642.2012.00858.x)).
 
-- Stem-group material apparently related to the Pliocene species _Inguza predemersus_ ([Simpson, 1971](https://doi.org/10.1126%2Fscience.171.3976.1144)), _Dege hendeyi_ [Simpson, 1979a](https://www.biodiversitylibrary.org/page/40687242#page/19/mode/1up), _Nucleornis insolitus_ [Simpson, 1979b](https://www.biodiversitylibrary.org/item/126255#page/19/mode/1up), and _?Palaeospheniscus huxleyorum_ [Simpson, 1973](https://journals.co.za/doi/epdf/10.10520/AJA00382353_4787) assigned to 'Sphenisciformes species A' resembling _N. insolitus_ (SAM PQSS000211-1, PQSS000214-1, PQSS000217-2, PQSS000217-3, PQSS000220, and PQSS000223-7) and 'Sphenisciformes species C'  resembling _I. predemersus, D. hendeyi,_ and _?P. huxleyorum_ (SAM PQSS000211-2, PQSS000213, PQSS000214-2, PQSS000217-1, and PQSS000223-5) from the Varswater Formation (late Miocene: 11.6–7.2Ma) at Saldanha Steel, South Africa ([Thomas & Ksepka 2013](https://doi.org/10.1111/zoj.12024)).
+- Stem-group material apparently related to the Pliocene species _Inguza predemersus_ ([Simpson, 1971](https://doi.org/10.1126%2Fscience.171.3976.1144)), _Dege hendeyi_ [Simpson, 1979a](https://www.biodiversitylibrary.org/page/40687242#page/19/mode/1up), _Nucleornis insolitus_ [Simpson, 1979b](https://www.biodiversitylibrary.org/item/126255#page/19/mode/1up), and _?Palaeospheniscus huxleyorum_ [Simpson, 1973](https://journals.co.za/doi/epdf/10.10520/AJA00382353_4787), assigned to 'Sphenisciformes species A' resembling _N. insolitus_ (SAM PQSS000211-1, PQSS000214-1, PQSS000217-2, PQSS000217-3, PQSS000220, and PQSS000223-7) and 'Sphenisciformes species C'  resembling _I. predemersus, D. hendeyi,_ and _?P. huxleyorum_ (SAM PQSS000211-2, PQSS000213, PQSS000214-2, PQSS000217-1, and PQSS000223-5) from the Varswater Formation (late Miocene: 11.6–7.2Ma) at Saldanha Steel, South Africa ([Thomas & Ksepka 2013](https://doi.org/10.1111/zoj.12024)).
 
-●      Phoebastria cf. albatrus, a right humeral shaft (KUGM FA 2018.007) from the Hirayama Formation (early Pleistocene, 1.7 Ma), Japan (Watanabe et al. 2019).
+- _Phoebastria_ cf. _albatrus_ ([Pallas, 1769](https://doi.org/10.5962/bhl.title.39832)) – right humeral shaft (KUGM FA 2018.007) from the Hirayama Formation (early Pleistocene, 1.7 Ma), Japan ([Watanabe et al. 2019](https://doi.org/10.1080/02724634.2019.1697277)).
 
-●      Puffinus pacificus (Gmelin, 1789) from Holocene deposits (1755 - 365 a) in Marais de l'Ermitage, Reunión Island, Mascarene Islands (Mourer-Chauviré et al. 1999). 
+- _Puffinus pacificus_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/66/mode/1up)) – at least 72 individuals from Holocene deposits (~300–1700AD) in Marais de l'Ermitage, Reunión Island, Mascarene Islands ([Mourer-Chauviré et al. 1999](http://dx.doi.org/10.5479/si.00810266.89.1)). 
 
 **Minimum age:** 60.5Ma\
 **Minimum justification:** Dated by nannofossil biostratigraphy of the oldest taxon, _Waimanu_. The matrix of the holotype CM zfa35 contained the coccolithophores _Chiasmolithus bidens_ and _Hornibrookina teurensis_ which indicate an age between 61.6 and 60.5 Ma ([Slack et al. 2006](https://doi.org/10.1093/molbev/msj124)). _W. manneringi_ is nearly coeval with several other fossil penguins but its age is better constrained, and its minimum possible age, in particular, is older than the others ([Blokland et al. 2019](https://doi.org/10.26879/1009)).\
@@ -321,6 +321,8 @@ Goodman, S.M. 1999. Holocene bird subfossils from the sites of Ampasambazimba, A
 
 Goodman, S. M., M. J. Raherilalao & K. Muldoon 2013. Bird fossils from Ankilitelo Cave: inference about Holocene environmental changes in Southwestern Madagascar. Zootaxa 3750(5):534-548.
 
+Gmelin, J. F. 1789. Systema Naturae. 13th edn. G. E. Beer, Liepzig.
+
 Guérin, C, M. A. Curvello, M. Faure, M. Hugueney & C. Mourer-Chauviré 1996 The Pleistocene fauna of Piauí (Northeastern Brazil): paleochronological and biochronological implications. Proceedings of the International Meeting on the Peopling of the Americas, São Raimundo Nonato, Piauí, Brasil (1993). Fundamentos 1(1):55-103.
 
 Guilday, J. E., P. W. Parmalee, and H. W. Hamilton. 1977. The Clark's Cave bone deposit and the Late Pleistocene paleoecology of the central Appalachian Mountains of Virginia. Bulletin of Carnegie Museum of Natural History 2:1-87.
@@ -385,6 +387,8 @@ Milne-Edwards, A. 1863. Sur la distribution géologique des oiseaux fossiles et 
 
 Mourer-Chauviré, C. 2008. Birds (Aves) from the Early Miocene of the Northern Sperrgebiet, Namibia. Geology and Palaeobiology of Namib Desert, Southwestern Africa, 20: 147-167.
 
+Mourer-Chauvire, C., Bour, R., Ribes, S. and Moutou, F., 1999. The avifauna of Réunion Island (Mascarene Islands) at the time of the arrival of the first Europeans. Smithsonian contributions to paleobiology, 89(1999), pp.1-38.
+
 Mourer-Chauviré, C., Pickford, M. and Senut, B., 2011. The first Palaeogene galliform from Africa. Journal of Ornithology, 152(3), pp.617-622.
 
 Mourer-Chauviré, C., Tabuce, R., Essid, E. M., Marivaux, L., Khayati, H., Vianey-Liaud, M., Ben Haj Ali, M., 2013. A new taxon of stem group Galliformes and the earliest record for stem group Cuculidae from the Eocene of Djebel Chambi, Tunisia. In Göhlich, U. B., Kroh, A. (Eds.), Palaeornithological Research 2013. Proceeding of the 8th International Meeting of the Society of Avian Paleontology and Evolution, pp. 1-15.
@@ -410,6 +414,8 @@ Olson, S. L. 1992 A new family of primitive landbirds from the Lower Eocene Gree
 Olson, S. L. 1994. A giant Presbyornis (Aves, Anseriformes) and other birds from the Paleocene Aquia Formation of Maryland and Virginia. Proceedings of the Biological Society of Washington 107:429-435.
 
 Olson, S.L., 1999. The anseriform relationships of Anatalavis Olson and Parris (Anseranatidae), with a new species from the Lower Eocene London Clay. Smithsonian Contributions to Paleobiology, 89, pp.231-243.
+
+Pallas, P. S. 1769. Spicilegia zoologia: quibus novae imprimis et obscurae animalium species iconibus, descriptionibus atque commentariis illustrantur, Volume 1, Fasc. 5. Gottlieb August Lange, Berlin, Germany, v + 34 pp., 5 pls.
 
 Parham, J.F., Donoghue, P.C., Bell, C.J., Calway, T.D., Head, J.J., Holroyd, P.A., Inoue, J.G., Irmis, R.B., Joyce, W.G., Ksepka, D.T. and Patané, J.S., 2012. Best practices for justifying fossil calibrations. Systematic biology, 61(2), pp.346-359.
 
@@ -458,6 +464,8 @@ van Beneden PJ 1871. Les oiseaux de l’argile rupélienne. Bulletin de l’Acad
 Wang, M., Mayr, G., Zhang, J. and Zhou, Z., 2012. Two new skeletons of the enigmatic, rail-like avian taxon Songzia Hou, 1990 (Songziidae) from the early Eocene of China. Alcheringa, 36(4), pp.487-499.
 
 Watanabe, J., Matsuoka, H., & Hasegawa, Y. (2018). Pleistocene non-passeriform landbirds from Shiriya, northeast Japan. Acta Palaeontologica Polonica, 63(3).
+
+Watanabe, J., Koizumi, A., Nakagawa, R., Takahashi, K., Tanaka, T. and Matsuoka, H., 2019. Seabirds (Aves) from the Pleistocene Kazusa and Shimosa Groups, Central Japan. Journal of Vertebrate Paleontology,39(5):e1697277.
 
 Weidig, I., 2010. New birds from the lower Eocene Green River Formation, North America. Records of the Australian Museum, 62(1), pp.29-44.
 
