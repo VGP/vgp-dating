@@ -225,7 +225,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Rupelornis definitus_ [van Beneden, 1871](https://www.biodiversitylibrary.org/item/28485#page/278/mode/1up) – numerous elements (IRSNB Av 102–14) from the early Oligocene, lower part of the Boom Formation, Rupel Group, middle Rupelian (32–30.5Ma; [Maxwell et al. 2016](https://doi.org/10.1016/j.palaeo.2016.10.002)) of Frauenweiler, Germany. Assigned to Diomedeoididae, which is most probably a stem group Procellariiformes ([De Pietri et al. 2009](https://doi.org/10.4202/app.2009.0069), [Mayr & Smith 2012](https://doi.org/10.1111/j.1096-3642.2012.00858.x)).
 
-- _Inguza predemersus_ ([Simpson, 1971](https://doi.org/10.1126%2Fscience.171.3976.1144)), _Dege hendeyi_ [Simpson, 1979a](https://www.biodiversitylibrary.org/page/40687242#page/19/mode/1up), _Nucleornis insolitus_ [Simpson, 1979b](https://www.biodiversitylibrary.org/item/126255#page/19/mode/1up), and _?Palaeospheniscus huxleyorum_ [Simpson, 1973](https://journals.co.za/doi/epdf/10.10520/AJA00382353_4787) from the Varswater Formation at Saldanha Steel (late Miocene, 11.6–7.2 Ma), South Africa ([Thomas & Ksepka 2013](https://doi.org/10.1111/zoj.12024)).
+- Stem-group material apparently related to the Pliocene species _Inguza predemersus_ ([Simpson, 1971](https://doi.org/10.1126%2Fscience.171.3976.1144)), _Dege hendeyi_ [Simpson, 1979a](https://www.biodiversitylibrary.org/page/40687242#page/19/mode/1up), _Nucleornis insolitus_ [Simpson, 1979b](https://www.biodiversitylibrary.org/item/126255#page/19/mode/1up), and _?Palaeospheniscus huxleyorum_ [Simpson, 1973](https://journals.co.za/doi/epdf/10.10520/AJA00382353_4787) assigned to 'Sphenisciformes species A' resembling _N. insolitus_ (SAM PQSS000211-1, PQSS000214-1, PQSS000217-2, PQSS000217-3, PQSS000220, and PQSS000223-7) and 'Sphenisciformes species C'  resembling _I. predemersus, D. hendeyi,_ and _?P. huxleyorum_ (SAM PQSS000211-2, PQSS000213, PQSS000214-2, PQSS000217-1, and PQSS000223-5) from the Varswater Formation (late Miocene: 11.6–7.2Ma) at Saldanha Steel, South Africa ([Thomas & Ksepka 2013](https://doi.org/10.1111/zoj.12024)).
 
 ●      Phoebastria cf. albatrus, a right humeral shaft (KUGM FA 2018.007) from the Hirayama Formation (early Pleistocene, 1.7 Ma), Japan (Watanabe et al. 2019).
 
@@ -346,6 +346,8 @@ Jenkins, R. J. F. 1974. A new giant penguin from the Eocene of Australia. Palaeo
 King, C. 2016. A revised correlation of Tertiary rocks in the British Isles and adjacent areas of NW Europe. Geol. Soc. Lond. Spec. Rep. 27: 1–719.
 
 Ksepka, D. T., & J. A. Clarke. 2012. The basal penguin (Aves: Sphenisciformes) Perudyptes devriesi and a phylogenetic evaluation of the penguin fossil record. Bulletin of the American Museum of Natural History 337:1-77.
+
+Ksepka, D.T. and Thomas, D.B., 2012. Multiple cenozoic invasions of Africa by penguins (Aves, Sphenisciformes). Proceedings of the Royal Society B: Biological Sciences, 279(1730), pp.1027-1032.
 
 Ksepka, D. T., S. Bertelli & N. P. Giannini. 2006. The phylogeny of the living and fossil Sphenisciformes (penguins). Cladistics 22(5): 412-441.
 
