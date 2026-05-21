@@ -67,13 +67,13 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Foro panarium_ [Olson, 1992](http://hdl.handle.net/10088/8418) – nearly complete skeleton (USNM 336621) from the Fossil Butte Member (52.13–51.81 Ma) of the Green River Formation at Thompson Quarry, Lincoln County, Wyoming, USA. Phylogenetic analysis placed this taxon in the stem of Musophagiformes ([Field & Hsiang 2018](https://doi.org/10.1186/s12862-018-1212-3)). 
 
-- _Chambicuculus pusillus_ [Mourer-Chauviré, Tabuce, Essid, Marivaux, Khayati, Vianey-Liaud, & Ben Haj Ali, 2013](https://www.researchgate.net/publication/325753653_A_small_galliform_and_a_small_cuculiform_from_the_Eocene_of_Tunisia) – represented by fragments of multiple bones (ONM CB1-541, CB1-560–4, CB2-1001) from the Eocene (51–44.6 Ma, [Coster et al. 2012](https://doi.org/10.1130/B30565.1)) of Djebel Chambi, Tunisia ([Mourer-Chauviré et al. 2016](https://doi.org/10.18563/pv.40.1.e2)).
+- _Chambicuculus pusillus_ [Mourer-Chauviré, Tabuce, Essid, Marivaux, Khayati, Vianey-Liaud, & Ben Haj Ali, 2013](https://www.researchgate.net/publication/325753653_A_small_galliform_and_a_small_cuculiform_from_the_Eocene_of_Tunisia) – represented by fragments of multiple bones (ONM CB1-541, CB1-560–4, CB2-1001) from the Eocene (51–44.6 Ma; [Coster et al. 2012](https://doi.org/10.1130/B30565.1)) of Djebel Chambi, Tunisia ([Mourer-Chauviré et al. 2016](https://doi.org/10.18563/pv.40.1.e2)).
 
 - _Eocuculus_ cf. _cherpinae_ [Chandler, 1999](https://www.npshistory.com/publications/paleontology/grdtr-99-03-4.pdf) – partial postcranial skeleton (SMF Av 425) from the Early Oligocene (MP24, 30–28.8 Ma) of Pichovet, France ([Mayr 2006](https://doi.org/10.1016/j.geobios.2005.10.007)).
 
 - Otididae indet. from the Oligocene (33.9–23.0 Ma) of Tchelkar Nura, Kazakhstan ([Kurochkin 1976](https://www.biodiversitylibrary.org/part/352126)). This material is not referenced to the specimen level, nor are explicit synapomorphies or phylogenetic analyses provided, but it is included here by reference for the sake of completeness.
 
-- _Centropus bairdi_ [Shute, Prideaux, & Worthy, 2016](https://doi.org/10.1111/zoj.12387) – long bones (WAM 09.3.277–282) from Leaena’s Breath Cave, Nullarbor Plain, Western, Australia ([Shute et al. 2016](https://doi.org/10.1111/zoj.12387)). Magnetostratigraphy and faunistic correlates suggest an early Pleistocene age within the Naracoortean land mammal age (2.58-0.78Ma, [Shute et al. 2016](https://doi.org/10.1111/zoj.12387)).
+- _Centropus bairdi_ [Shute, Prideaux, & Worthy, 2016](https://doi.org/10.1111/zoj.12387) – long bones (WAM 09.3.277–282) from Leaena’s Breath Cave, Nullarbor Plain, Western, Australia ([Shute et al. 2016](https://doi.org/10.1111/zoj.12387)). Magnetostratigraphy and faunistic correlates suggest an early Pleistocene age within the Naracoortean land mammal age (2.58-0.78Ma; [Shute et al. 2016](https://doi.org/10.1111/zoj.12387)).
 
 - _Crotophaga ani_ [Linnaeus, 1758](https://www.biodiversitylibrary.org/bibliography/542) – humeri and partial mandible, likely uncatalogued in the Natural History Museum of Denmark (formerly the University of Copenhagen Zoological Museum), from Lapa da Escrivania level 5, Lagoa Santa, Minas Gerais, Brazil ([Winge 1887](https://www.biodiversitylibrary.org/bibliography/13380), [Nascimento & Silveira 2020](https://doi.org/10.11646/zootaxa.4743.4.2)). This formation contains remains deposited during the Pleistocene-Holocene transition, about 0.012–0.010Ma ([Nascimento & Silveira 2020](https://doi.org/10.11646/zootaxa.4743.4.2)).
 
@@ -94,15 +94,15 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Eocypselus rowei_ [Ksepka, Kulp, Nesbitt, Clarke, & Grande, 2013](https://doi.org/10.1098/rspb.2013.0580) – a complete skeleton (WDC CGR-109) from the Fossil Butte Member of the Green River Formation (Early Eocene, 51.97±0.16 Ma), Wyoming, USA ([Ksepka et. al. 2013](https://doi.org/10.1098/rspb.2013.0580)).         
 
-- _Collocalia buday_ [Boles, 2001](https://publications.australian.museum/a-swiftlet-apodidae-collocaliini-from-the-miocene-of-riversleigh-northwestern-queensland/) – left humerus (QM F20907) from the early Miocene Camel Sputum Site (18.53–16.97 Ma, [Woodhead et al. 2016](https://www.sciencedirect.com/science/article/abs/pii/S1342937X14003086)), Riversleigh, Queensland, Australia (see [Worthy & Nguyen 2020](https://doi.org/10.1080/03721426.2020.1756560)).
+- _Collocalia buday_ [Boles, 2001](https://publications.australian.museum/a-swiftlet-apodidae-collocaliini-from-the-miocene-of-riversleigh-northwestern-queensland/) – left humerus (QM F20907) from the early Miocene Camel Sputum Site (18.53–16.97 Ma; [Woodhead et al. 2016](https://www.sciencedirect.com/science/article/abs/pii/S1342937X14003086)), Riversleigh, Queensland, Australia (see [Worthy & Nguyen 2020](https://doi.org/10.1080/03721426.2020.1756560)).
 
 - _Aegotheles zealandivetus_ [Worthy, Scofield, Salisbury, Hand, De Pietri, & Archer, 2022](https://doi.org/10.1007/s10336-022-01981-6) – various material (CM 2013.18.1127; NMNZ S.42800, S.52761, S.52917) from the Bannockburn Formation, St Bathans Fauna (Early Miocene, Altonian, 18.26–15.97Ma), Otago, New Zealand ([Worthy et al. 2022](https://doi.org/10.1007/s10336-022-01981-6)).
 
 - _Tachymarptis_ sp. – a single humerus, currently undescribed, first reported by Rich ([1980](https://hdl.handle.net/10520/AJA00382353_1817)) from the upper Varswater Formation at Langebaanweg (Early Pliocene 5.33–3.6 Ma), Cape Province, South Africa ([Manegold et al. 2013](https://www.researchgate.net/publication/259272396_The_Early_Pliocene_avifauna_of_Langebaanweg_South_Africa_a_review_and_update)).
 
-- _Apus_ sp. – material representing a left coracoid (NSMT PV 24548), left carpometacarpus (24549), and proximal phalanx major digit (24550) from fissure-filling deposits in Shiriya, Aomori Prefecture, Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129–0.116Ma, [Watanabe et al. 2018](https://doi.org/10.4202/app.00509.2018)).
+- _Apus_ sp. – material representing a left coracoid (NSMT PV 24548), left carpometacarpus (24549), and proximal phalanx major digit (24550) from fissure-filling deposits in Shiriya, Aomori Prefecture, Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129–0.116Ma; [Watanabe et al. 2018](https://doi.org/10.4202/app.00509.2018)).
 
-- _Streptoprocne zonaris_ ([Shaw, 1796](https://archive.org/details/bim_eighteenth-century_cimelia-physica-figures_shaw-george_1796)) – unspecified, possibly uncatalogued specimen from Barra do Antonião, Piauí, Brazil (Late Pleistocene: 0.129–0.0117Ma, [Guérin et al. 1996](https://www.researchgate.net/publication/291774116_A_fauna_pleistocenica_do_Piaui_Nordeste_do_Brasil_Relacoes_paleoecologicas_e_biocronologicas)).
+- _Streptoprocne zonaris_ ([Shaw, 1796](https://archive.org/details/bim_eighteenth-century_cimelia-physica-figures_shaw-george_1796)) – unspecified, possibly uncatalogued specimen from Barra do Antonião, Piauí, Brazil (Late Pleistocene: 0.129–0.0117Ma; [Guérin et al. 1996](https://www.researchgate.net/publication/291774116_A_fauna_pleistocenica_do_Piaui_Nordeste_do_Brasil_Relacoes_paleoecologicas_e_biocronologicas)).
 
 **Minimum age:** 54.6Ma\
 **Minimum justification:** The oldest of these fossils is _Eocypselus vincenti_, for which the bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8 Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6 Ma ([King 2016](https://doi.org/10.1144/SR27), [Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)).\
@@ -117,15 +117,15 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Scaniacypselus wardi_ [Harrison, 1984](https://natuurtijdschriften.nl/pub/521070) – articulated pectoral girdle and forelimbs (BMNH A5430) from Bed R6 (50.3–51.5 Ma) of the Røsnæs Clay Formation in Ølst, Denmark. Cladistic analyses ([Mayr 2003](https://doi.org/10.1642/0004-8038(2003)120[0145:POETSA]2.0.CO;2), [Ksepka et al. 2013](https://doi.org/10.1098/rspb.2013.0580)) and Bayesian analyses with topological constraints ([Chen et al. 2019](https://doi.org/10.3390/d11090143)) placed it on the stem of Apodidae.
 
-- _Collocalia buday_ [Boles, 2001](https://publications.australian.museum/a-swiftlet-apodidae-collocaliini-from-the-miocene-of-riversleigh-northwestern-queensland/) – left humerus (QM F20907) from the early Miocene Camel Sputum Site (18.53–16.97 Ma, [Woodhead et al. 2016](https://www.sciencedirect.com/science/article/abs/pii/S1342937X14003086)), Riversleigh, Queensland, Australia (see [Worthy & Nguyen 2020](https://doi.org/10.1080/03721426.2020.1756560)).
+- _Collocalia buday_ [Boles, 2001](https://publications.australian.museum/a-swiftlet-apodidae-collocaliini-from-the-miocene-of-riversleigh-northwestern-queensland/) – left humerus (QM F20907) from the early Miocene Camel Sputum Site (18.53–16.97 Ma; [Woodhead et al. 2016](https://www.sciencedirect.com/science/article/abs/pii/S1342937X14003086)), Riversleigh, Queensland, Australia (see [Worthy & Nguyen 2020](https://doi.org/10.1080/03721426.2020.1756560)).
 
 - _Collocalia_ sp. from the Bannockburn Formation, St Bathans Fauna (Early Miocene, Altonian, 18.26–15.97 Ma), Otago, New Zealand ([Worthy et al. 2007](https://doi.org/10.1017/S1477201906001957)). Although not identified at the species level, it is estimated to be much smaller than Collocalia buday ([Worthy et al. 2007](https://doi.org/10.1017/S1477201906001957)).
          
 - _Tachymarptis_ sp. – a single humerus, currently undescribed, first reported by Rich ([1980](https://hdl.handle.net/10520/AJA00382353_1817)) from the upper Varswater Formation at Langebaanweg (Early Pliocene 5.33–3.6 Ma), Cape Province, South Africa ([Manegold et al. 2013](https://www.researchgate.net/publication/259272396_The_Early_Pliocene_avifauna_of_Langebaanweg_South_Africa_a_review_and_update)).
 
-- _Apus_ sp. – material representing a left coracoid (NSMT PV 24548), left carpometacarpus (24549), and proximal phalanx major digit (24550) from fissure-filling deposits in Shiriya, Aomori Prefecture, Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129–0.116Ma, [Watanabe et al. 2018](https://doi.org/10.4202/app.00509.2018)).
+- _Apus_ sp. – material representing a left coracoid (NSMT PV 24548), left carpometacarpus (24549), and proximal phalanx major digit (24550) from fissure-filling deposits in Shiriya, Aomori Prefecture, Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129–0.116Ma; [Watanabe et al. 2018](https://doi.org/10.4202/app.00509.2018)).
   
-- _Streptoprocne zonaris_ ([Shaw, 1796](https://archive.org/details/bim_eighteenth-century_cimelia-physica-figures_shaw-george_1796)) – unspecified, possibly uncatalogued specimen from Barra do Antonião, Piauí, Brazil (Late Pleistocene: 0.129–0.0117Ma, [Guérin et al. 1996](https://www.researchgate.net/publication/291774116_A_fauna_pleistocenica_do_Piaui_Nordeste_do_Brasil_Relacoes_paleoecologicas_e_biocronologicas)).
+- _Streptoprocne zonaris_ ([Shaw, 1796](https://archive.org/details/bim_eighteenth-century_cimelia-physica-figures_shaw-george_1796)) – unspecified, possibly uncatalogued specimen from Barra do Antonião, Piauí, Brazil (Late Pleistocene: 0.129–0.0117Ma; [Guérin et al. 1996](https://www.researchgate.net/publication/291774116_A_fauna_pleistocenica_do_Piaui_Nordeste_do_Brasil_Relacoes_paleoecologicas_e_biocronologicas)).
 
 - _Chaetura pelagica_ ([Linnaeus, 1758](https://www.biodiversitylibrary.org/bibliography/542)) from the Late Pleistocene (0.1–0.0117 Ma) of Clark's Cave, Bath County, Virginia, USA ([Guilday et al. 1977](https://www.biodiversitylibrary.org/part/228581)).
 
@@ -167,22 +167,22 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Node calibrated:** Last common ancestor of Charadrii (_Pluvialus apricaria_) and Scolopaci (_Numenius arquata_)\
 **Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Charadriiformes:
 
-- Unnamed taxon represented by the distal end of left humerus (IGM 100/1435) from Tsagaan Khushuu, Quarry 2, Mongolia, Bumban Member of the Naranbulag Formation of the early Eocene (Ypresian: 55.7-54.97 Ma, [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)). Phylogenetic analysis placed this fragmentary bone as sister to _Chionis,_ within crown Charadrii ([Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929), [Heingård et al. 2021](https://doi.org/10.3390/d13120651)).
+- Unnamed taxon represented by the distal end of left humerus (IGM 100/1435) from Tsagaan Khushuu, Quarry 2, Mongolia, Bumban Member of the Naranbulag Formation of the early Eocene (Ypresian: 55.7-54.97 Ma; [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)). Phylogenetic analysis placed this fragmentary bone as sister to _Chionis,_ within crown Charadrii ([Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929), [Heingård et al. 2021](https://doi.org/10.3390/d13120651)).
 
 - _Charadriisimilis essexensis_ [Mayr & Kitchener 2023](https://doi.org/10.1017/jpa.2023.51) – incomplete skeleton (NMS.Z.2021.40.93) from Walton-on-the-Naze, Essex, United Kingdom, Walton Member of the Eocene London Clay Formation, early Ypresian (54.6–55Ma). Character comparisons and a cladistic analysis placed _Charadriisimilis_ on the stem of the suborder Charadrii ([Mayr & Kitchener 2023](https://doi.org/10.1017/jpa.2023.51)).
 
 - Unnamed taxon represented by the distal end of right humerus (SMF AV 619) from the Nanjemoy Formation at the Fisher/Sullivan site, Virginia, USA ([Mayr 2016](https://doi.org/10.1007/s12542-016-0330-8)). The bone shows apomorphic features of Charadriiformes ([Mayr 2016](https://doi.org/10.1007/s12542-016-0330-8)) and a cladistic analysis placed it within crown Charadriiformes ([Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929), [Heingård et al. 2021](https://doi.org/10.3390/d13120651)). The Nanjemoy Formation is ~54–53Ma ([Berggren et al. 1995](https://doi.org/10.7916/D8XD1B1H)).
 
-- _Nupharanassa bulotorum_ [Rasmussen, Olson, & Simons, 1987](http://dx.doi.org/10.5479/si.00810266.62.1) – distal tarsometatarsi (DPC 3848, 5327-8) the Jebel Qatrani Formation at Quarry M (30.2-29.5Ma, [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103)), Fayum Province, Egypt ([Rasmussen et al. 1987](http://dx.doi.org/10.5479/si.00810266.62.1)).
+- _Nupharanassa bulotorum_ [Rasmussen, Olson, & Simons, 1987](http://dx.doi.org/10.5479/si.00810266.62.1) – distal tarsometatarsi (DPC 3848, 5327-8) the Jebel Qatrani Formation at Quarry M (30.2-29.5Ma; [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103)), Fayum Province, Egypt ([Rasmussen et al. 1987](http://dx.doi.org/10.5479/si.00810266.62.1)).
 
-- _Oligonomus milleri_ [de Pietri, Camens, & Worthy 2015](https://doi.org/10.1111/ibi.12215) – left coracoid (SAMA P27976) from member 7 of the Etadunna Formation at Lake Palankarinna (Faunal Zone B, 26–24 Ma, [Woodburne et al. 1994](https://doi.org/10.1080/02724634.1994.10011527)), South Australia, Australia. Affinities with Pedionomidae based on combination of similarities ([de Pietri et al. 2015](https://doi.org/10.1111/ibi.12215)).
+- _Oligonomus milleri_ [De Pietri, Camens, & Worthy 2015](https://doi.org/10.1111/ibi.12215) – left coracoid (SAMA P27976) from member 7 of the Etadunna Formation at Lake Palankarinna (Faunal Zone B, 26–24 Ma; [Woodburne et al. 1994](https://doi.org/10.1080/02724634.1994.10011527)), South Australia, Australia. Affinities with Pedionomidae based on combination of similarities ([De Pietri et al. 2015](https://doi.org/10.1111/ibi.12215)).
 
-- _Hakawai melvillei_ [de Pietri, Scofield, Tennyson, Hand, & Worthy, 2016](https://doi.org/10.1080/14772019.2015.1087064) – several bones (NMNZ S.50806 and numerous referred elements) from Bed HH4 of the Manuherikia River near St Bathans (Miocene: 19–16Ma), Otago, South Island, New Zealand. Derived characters suggest affinities with Pedionomidae ([de Pietri et al. 2016](https://doi.org/10.1080/14772019.2015.1087064)).
+- _Hakawai melvillei_ [De Pietri, Scofield, Tennyson, Hand, & Worthy, 2016](https://doi.org/10.1080/14772019.2015.1087064) – several bones (NMNZ S.50806 and numerous referred elements) from Bed HH4 of the Manuherikia River near St Bathans (Miocene: 19–16Ma), Otago, South Island, New Zealand. Derived characters suggest affinities with Pedionomidae ([De Pietri et al. 2016](https://doi.org/10.1080/14772019.2015.1087064)).
 
 - Thinocoridae indet. – distal end of right tarsometatarsus (INGEO-PV 032) from upper portion of the Limolita La Colmena Member of the Loma de Las Tapias Formation at Loma de Las Tapias, San Juan Province, Argentina ([Agnolin et al. 2015](https://doi.org/10.1016/j.annpal.2015.11.002)). The fossil is estimated to be early Chasicoan (10–9Ma), with affinities based on presumed derived characters of the family ([Agnolin et al. 2015](https://doi.org/10.1016/j.annpal.2015.11.002)).
 
 **Minimum age:** 54.97Ma\
-**Minimum justification:** The oldest fossil is Charadrii indet., for which the estimated top of the Bumban Member of the Naranbulag Formation of Mongolia dates to the early Eocene (Ypresian: 55.7-54.97Ma, [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)).\
+**Minimum justification:** The oldest fossil is Charadrii indet., for which the estimated top of the Bumban Member of the Naranbulag Formation of Mongolia dates to the early Eocene (Ypresian: 55.7-54.97Ma; [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)).\
 **Maximum age:** 78.61Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Charadriiformes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=55.15, omega=7.283, alpha=9.888e+05, and nu=2.875.\
 **Notes:** This is a new calibration for this analysis, not present in Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
@@ -199,7 +199,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Prophaethon_ sp. – distal humerus (USNM 483158) from the Aquia Formation (Thanetian: 58.7–55.8Ma) at Capital Beltway and Central Avenue, Prince George’s County, Maryland, USA ([Olson 1994](http://hdl.handle.net/10088/6493)).
 
-- _Prophaethon shrubsolei_ Andrews, 1899 – partial neurocranium (SMF Av 602) from the Walton Member of the London Clay Formation at Walton-on-the-Naze (54–54.9Ma, [King 2016](https://doi.org/10.1144/sr27)), Essex, United Kingdom ([Mayr 2015a](https://doi.org/10.1111/ibi.12214)).
+- _Prophaethon shrubsolei_ Andrews, 1899 – partial neurocranium (SMF Av 602) from the Walton Member of the London Clay Formation at Walton-on-the-Naze (54–54.9Ma; [King 2016](https://doi.org/10.1144/sr27)), Essex, United Kingdom ([Mayr 2015a](https://doi.org/10.1111/ibi.12214)).
 
 **Minimum age:** 55.8Ma\
 **Minimum justification:** The oldest fossil is _Lithoptila_, for which “[t]he specimen is dated as Thanetian (bed IIa of the mining lithostratigraphical terminology, Fig. 2) on the basis of the selachians identified in the matrix…” ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)), thus the upper boundary is 55.8 Ma.\
@@ -219,11 +219,11 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Perudyptes devriesi_ [Clarke, Ksepka, Stucchi, Urbina, Giannini, Bertelli, Narváez, & Boyd, 2007](https://doi.org/10.1073/pnas.0611099104) – partial skeleton (MUSM 889) from the Paracas Formation (Middle Eocene, 42–42Ma) at Quebrada Perdida, Peru.
 
-- _"Pachydyptes" simpsoni_ [Jenkins, 1974](https://palass.org/publications/palaeontology-journal/archive/17/2/article_pp291-310) – partial skeleton (SAMA P14157) from the Blanche Point Formation (Late Eocene: 38.0–36.5 Ma, [Park & Fitzgerald 2012](https://doi.org/10.24199/j.mmv.2012.69.06)) Australia. Phylogenetically placed by Ksepka et al. ([2006](https://doi.org/10.1111/j.1096-0031.2006.00116.x)) and Ksepka & Clarke ([2012](http://hdl.handle.net/2246/6065)).
+- _"Pachydyptes" simpsoni_ [Jenkins, 1974](https://palass.org/publications/palaeontology-journal/archive/17/2/article_pp291-310) – partial skeleton (SAMA P14157) from the Blanche Point Formation (Late Eocene: 38.0–36.5 Ma; [Park & Fitzgerald 2012](https://doi.org/10.24199/j.mmv.2012.69.06)) Australia. Phylogenetically placed by Ksepka et al. ([2006](https://doi.org/10.1111/j.1096-0031.2006.00116.x)) and Ksepka & Clarke ([2012](http://hdl.handle.net/2246/6065)).
 
 - _Makahala mirae_ [Mayr, 2015b](https://doi.org/10.1127/njgpa/2015/0445) – wing bones (SMF Av 603) from Jansen Creek Member of the Makah Formation (Rupelian: 33.9–28.4 Ma), near the mouth of Bullman Creek, Clallam County, Washington, USA ([Mayr 2015b](https://doi.org/10.1127/njgpa/2015/0445)).
 
-●      Rupelornis definitus van Beneden, 1871, (Diomedeoididae, De Pietri et al. 2009, Mayr & Smith 2012) from Frauenweiler (Rupelian, 32–30.5 Ma, Maxwell et al. 2016), Germany. Diomedeoididae is most probably a stem group Procellariiformes (De Pietri et al. 2009, Mayr & Smith 2012).
+- _Rupelornis definitus_ [van Beneden, 1871](https://www.biodiversitylibrary.org/item/28485#page/278/mode/1up) – numerous elements (IRSNB Av 102–14) from the early Oligocene, lower part of the Boom Formation, Rupel Group, middle Rupelian (32–30.5Ma; [Maxwell et al. 2016](https://doi.org/10.1016/j.palaeo.2016.10.002)) of Frauenweiler, Germany. Assigned to Diomedeoididae, which is most probably a stem group Procellariiformes ([De Pietri et al. 2009](https://doi.org/10.4202/app.2009.0069), [Mayr & Smith 2012](https://doi.org/10.1111/j.1096-3642.2012.00858.x)).
 
 ●      Inguza predemersus (Simpson, 1971), Dege hendeyi Simpson, 1979, Nucleornis insolitus Simpson, 1979 and Palaeospheniscus? huxleyorum Simpson, 1973 from the Varswater Formation at Saldanha Steel (late Miocene, 11.6–7.2 Ma), South Africa (Thomas & Ksepka 2013).
 
@@ -305,9 +305,11 @@ Claramunt, S., 2022. CladeDate: Calibration information generator for divergence
 
 Coster, P., Benammi, M., Mahboubi, M., Tabuce, R., Adaci, M., Marivaux, L., Bensalah, M., Mahboubi, S., Mahboubi, A., Mebrouk, F. & Maameri, C. 2012. Chronology of the Eocene continental deposits of Africa: Magnetostratigraphy and biostratigraphy of the El Kohol and Glib Zegdou Formations, Algeria. Geological Society of America Bulletin 124(9-10):1590-1606.
 
-de Pietri, V. L., Camens, A. B., & Worthy, T. H. (2015). A Plains‐wanderer (Pedionomidae) that did not wander plains: a new species from the Oligocene of South Australia. Ibis, 157(1), 68-74.
+De Pietri, V.L., Berger, J.P., Pirkenseer, C., Scherler, L. and Mayr, G., 2009. New skeleton from the early Oligocene of Germany indicates a stem-group position of diomedeoidid birds. Acta Palaeontologica Polonica, 55(1), pp.23-34.
 
-de Pietri, V. L., Scofield, R. P., Tennyson, A. J., Hand, S. J., & Worthy, T. H. (2016). Wading a lost southern connection: Miocene fossils from New Zealand reveal a new lineage of shorebirds (Charadriiformes) linking Gondwanan avifaunas. Journal of Systematic Palaeontology, 14(7), 603-616.
+De Pietri, V. L., Camens, A. B., & Worthy, T. H. (2015). A Plains‐wanderer (Pedionomidae) that did not wander plains: a new species from the Oligocene of South Australia. Ibis, 157(1), 68-74.
+
+De Pietri, V. L., Scofield, R. P., Tennyson, A. J., Hand, S. J., & Worthy, T. H. (2016). Wading a lost southern connection: Miocene fossils from New Zealand reveal a new lineage of shorebirds (Charadriiformes) linking Gondwanan avifaunas. Journal of Systematic Palaeontology, 14(7), 603-616.
 
 Elzanowski A, Boles WE. 2012 Australia’s oldest Anseriform fossil: a quadrate from the Early Eocene Tingamarra Fauna. Palaeontology 55, 903–911.
 
@@ -357,6 +359,8 @@ Linnaeus, C. 1758. Systema Naturae, 10th edition, vol. 1. Stockholm: Laurentius 
 
 Manegold, A., A. Louchart, J. Carrier & A. Elzanowski 2013 The early Pliocene avifauna of Langebaanweg (South Africa): a review and update. In Paleornithological Research 2013: Proceedings of the 8th International Meeting of the Society of Avian Paleontology and Evolution pp. 135-152. 
 
+Maxwell, E.E., Alexander, S., Bechly, G., Eck, K., Frey, E., Grimm, K., Kovar-Eder, J., Mayr, G., Micklich, N., Rasser, M. and Roth-Nebelsick, A., 2016. The Rauenberg fossil Lagerstätte (Baden-Württemberg, Germany): A window into early Oligocene marine and coastal ecosystems of Central Europe. Palaeogeography, Palaeoclimatology, Palaeoecology, 463, pp.238-260.
+
 Mayr, G. 2003 Phylogeny of early Tertiary swifts and hummingbirds (Aves: Apodiformes). Auk 120:145-151.
 
 Mayr, G. 2006. A specimen of Eocuculus Chandler, 1999 (Aves, ?Cuculidae) from the early Oligocene of France. Geobios, 39(6), 865-872.
@@ -365,13 +369,15 @@ Mayr, G. 2015a. New remains of the Eocene Prophaethon and the early evolution of
 
 Mayr, G. 2015b. A new Paleogene procellariiform bird from western North America. Neues Jahrbuch für Geologie und Paläontologie-Abhandlungen 275(1):11-17.
 
-Mayr, G. (2016). The world’s smallest owl, the earliest unambiguous charadriiform bird, and other avian remains from the early Eocene Nanjemoy Formation of Virginia (USA). PalZ, 90(4), 747-763.
+Mayr, G. 2016. The world’s smallest owl, the earliest unambiguous charadriiform bird, and other avian remains from the early Eocene Nanjemoy Formation of Virginia (USA). PalZ, 90(4), 747-763.
+
+Mayr, G., & T. Smith. 2012. Phylogenetic affinities and taxonomy of the Oligocene Diomedeoididae, and the basal divergences amongst extant procellariiform birds. Zoological Journal of the Linnean Society, 166:854-875.
 
 Mayr, G. & R. P. Scofield. 2016. New avian remains from the Paleocene of New Zealand: the first early Cenozoic Phaethontiformes (tropicbirds) from the Southern Hemisphere. J. Vert. Paleontol.: e1031343.
 
-Mayr, G., & Kitchener, A. C. (2023). Early Eocene fossils elucidate the evolutionary history of the Charadriiformes (shorebirds and allies). Journal of Paleontology, 97(4), 941-955.
+Mayr, G., & Kitchener, A. C. 2023. Early Eocene fossils elucidate the evolutionary history of the Charadriiformes (shorebirds and allies). Journal of Paleontology, 97(4), 941-955.
 
-Mayr, G., & Kitchener, A. C. (2025). Leg bones of the anseriform taxon Nettapterornis from the London Clay of Walton-on-the-Naze and notes on the bony-toothed birds from this locality. PalZ, 99(3), 355-369.
+Mayr, G., & Kitchener, A. C. 2025. Leg bones of the anseriform taxon Nettapterornis from the London Clay of Walton-on-the-Naze and notes on the bony-toothed birds from this locality. PalZ, 99(3), 355-369.
 
 Milne-Edwards, A. 1863. Sur la distribution géologique des oiseaux fossiles et description de quelques espèces nouvelles. Comptes rendus hebdomadaires des séances de l'Académie des sciences 56: 1219–1222.
 
@@ -434,6 +440,8 @@ Tambussi C. P. 1998. Nuevo Anatidae (Aves: Anseriformes) del Plioceno de la regi
 Tambussi, C. P., M. A. Reguero, S. A. Marenssi, & S. N. Santillana 2005. Crossvallia unienwillia, a new Spheniscidae (Sphenisciformes, Aves) from the Late Paleocene of Antarctica. Geobios 38:667-675.
 
 Tambussi, C.P., F.J. Degrange, R.S. De Mendoza, E. Sferco & S. Santillana. 2019. A stem anseriform from the early Palaeocene of Antarctica provides new key evidence in the early evolution of waterfowl. Zoological Journal of the Linnean Society 186(3):673-700.
+
+van Beneden PJ 1871. Les oiseaux de l’argile rupélienne. Bulletin de l’Académie Royale des Sciences, Lettres et Beaux-Arts de Belgique, série 2 32: 256–261.
 
 Wang, M., Mayr, G., Zhang, J. and Zhou, Z., 2012. Two new skeletons of the enigmatic, rail-like avian taxon Songzia Hou, 1990 (Songziidae) from the early Eocene of China. Alcheringa, 36(4), pp.487-499.
 
