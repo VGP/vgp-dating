@@ -204,10 +204,20 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum age:** 55.8Ma\
 **Minimum justification:** The oldest fossil is _Lithoptila_, for which “[t]he specimen is dated as Thanetian (bed IIa of the mining lithostratigraphical terminology, Fig. 2) on the basis of the selachians identified in the matrix…” ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)), thus the upper boundary is 55.8 Ma.\
 **Maximum age:** 62.31Ma\
-**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Charadriiformes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=55.952, omega=57.879, alpha=1.273, and nu=2.901.\
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Phaethontimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=55.952, omega=57.879, alpha=1.273, and nu=2.901.\
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
 
 ---
+
+**Node 689:** Procellariimorphae | 84.70-60.5Ma\
+**Node calibrated:** Last common ancestor of clade encompassing Sphenisciformes (_Spheniscus humboldti_) and Procellariiformes (_Calonectris borealis_).\
+**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Procellariimorphae:
+
+**Minimum age:** 60.5Ma\
+**Minimum justification:** Dated by nannofossil biostratigraphy. The matrix of the holotype CM zfa35 contained the coccolithophores Chiasmolithus bidens and Hornibrookina teurensis which indicate an age between 61.6 and 60.5 Ma (Slack et al. 2006). Waimanu manneringi is nearly coeval with several other fossil penguins but its age is better constrained, and its minimum possible age, in particular, is older than the others (Blokland et al. 2019).\
+**Maximum age:** 84.70 Ma\
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Procellariimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in an offset skewStudent distribution with offset=60.530, xi=60.845, omega=6.749, alpha=37.833, and nu=2.655.\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
 
 ---
 
