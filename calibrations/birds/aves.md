@@ -225,7 +225,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Rupelornis definitus_ [van Beneden, 1871](https://www.biodiversitylibrary.org/item/28485#page/278/mode/1up) – numerous elements (IRSNB Av 102–14) from the early Oligocene, lower part of the Boom Formation, Rupel Group, middle Rupelian (32–30.5Ma; [Maxwell et al. 2016](https://doi.org/10.1016/j.palaeo.2016.10.002)) of Frauenweiler, Germany. Assigned to Diomedeoididae, which is most probably a stem group Procellariiformes ([De Pietri et al. 2009](https://doi.org/10.4202/app.2009.0069), [Mayr & Smith 2012](https://doi.org/10.1111/j.1096-3642.2012.00858.x)).
 
-●      Inguza predemersus (Simpson, 1971), Dege hendeyi Simpson, 1979, Nucleornis insolitus Simpson, 1979 and Palaeospheniscus? huxleyorum Simpson, 1973 from the Varswater Formation at Saldanha Steel (late Miocene, 11.6–7.2 Ma), South Africa (Thomas & Ksepka 2013).
+- _Inguza predemersus_ ([Simpson, 1971](https://doi.org/10.1126%2Fscience.171.3976.1144)), _Dege hendeyi_ [Simpson, 1979a](https://www.biodiversitylibrary.org/page/40687242#page/19/mode/1up), _Nucleornis insolitus_ [Simpson, 1979b](https://www.biodiversitylibrary.org/item/126255#page/19/mode/1up), and _?Palaeospheniscus huxleyorum_ [Simpson, 1973](https://journals.co.za/doi/epdf/10.10520/AJA00382353_4787) from the Varswater Formation at Saldanha Steel (late Miocene, 11.6–7.2 Ma), South Africa ([Thomas & Ksepka 2013](https://doi.org/10.1111/zoj.12024)).
 
 ●      Phoebastria cf. albatrus, a right humeral shaft (KUGM FA 2018.007) from the Hirayama Formation (early Pleistocene, 1.7 Ma), Japan (Watanabe et al. 2019).
 
@@ -421,6 +421,14 @@ Shaw, G. 1796. Cimelia Physica. Figures of rare and curious quadrupeds, birds, e
 
 Shute, E., Prideaux, G.J., Worthy, T.H. 2016. Three terrestrial Pleistocene coucals (Centropus: Cuculidae) from southern Australia: biogeographical and ecological significance, Zoological Journal of the Linnean Society, 177, 964–1002.
 
+Simpson, G.G. 1971. Fossil penguin from the late Cenozoic of South Africa. Science, 171(3976), pp.1144-1145.
+
+Simpson, G.G. 1973. Tertiary penguins (Sphenisciformes, Spheniscidae) from Ysterplaats, Cape Town, South Africa. South African Journal of Science 69: 342–344.
+
+Simpson, G.G. 1979a. A new genus of Late Tertiary penguin from Langebaanweg, South Africa. Annals of the South African Museum 78: 1–9.
+
+Simpson, G.G. 1979b. Tertiary penguins from the Duinefontein site, Cape Province, South Africa. Annals of the South African Museum 79: 1–17.
+
 Slack, K. E., C. M. Jones, T. Ando, G. L. Harrison, R. E. Fordyce, U. Arnason & D. Penny 2006. Early penguin fossils, plus mitochondrial genomes, calibrate avian evolution. Mol. Biol. Evol. 23 (6):1144-1155.
 
 Smith, M.E., Carroll, A.R., & Singer, B.S. 2008 Synoptic reconstruction of a major ancient lake system: Eocene Green River Formation, western United States. Geological Society of America Bulletin 120 (1/2), pp 54-84.
@@ -440,6 +448,8 @@ Tambussi C. P. 1998. Nuevo Anatidae (Aves: Anseriformes) del Plioceno de la regi
 Tambussi, C. P., M. A. Reguero, S. A. Marenssi, & S. N. Santillana 2005. Crossvallia unienwillia, a new Spheniscidae (Sphenisciformes, Aves) from the Late Paleocene of Antarctica. Geobios 38:667-675.
 
 Tambussi, C.P., F.J. Degrange, R.S. De Mendoza, E. Sferco & S. Santillana. 2019. A stem anseriform from the early Palaeocene of Antarctica provides new key evidence in the early evolution of waterfowl. Zoological Journal of the Linnean Society 186(3):673-700.
+
+Thomas, D. B., & D. T. Ksepka. 2013. A history of shifting fortunes for African penguins. Zoological Journal of the Linnean Society 168:207-2019.
 
 van Beneden PJ 1871. Les oiseaux de l’argile rupélienne. Bulletin de l’Académie Royale des Sciences, Lettres et Beaux-Arts de Belgique, série 2 32: 256–261.
 
