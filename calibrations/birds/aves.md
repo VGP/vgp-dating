@@ -215,7 +215,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Waimanu manneringi_ [Jones, Ando, & Fordyce _in_ Slack et al. 2006](https://doi.org/10.1093/molbev/msj124) – associated partial postcranial skeleton (CM zfa35) from the Waipara Greensand (Paleocene, 61.6–60.5Ma), Waipara River, Canterbury, New Zealand ([Slack et al. 2006](https://doi.org/10.1093/molbev/msj124)).
 
-- _Crossvallia unienwillia_ [Tambussi, Reguero, Marenssi, & Santillana, 2005](https://doi.org/10.1016/j.geobios.2004.02.003) – humerus, femur, partial tibiotarsus, thoracic vertebra (MLP 00-I-10-1) from the Bahía Pingüino Member of the Cross Valley Formation at Seymour Island (Late Paleocene, 56–55Ma).
+- _Crossvallia unienwillia_ [Tambussi, Reguero, Marenssi, & Santillana, 2005](https://doi.org/10.1016/j.geobios.2004.02.003) – humerus, femur, partial tibiotarsus, and thoracic vertebra (MLP 00-I-10-1) from the Bahía Pingüino Member of the Cross Valley Formation at Seymour Island (Late Paleocene, 56–55Ma).
 
 - _Perudyptes devriesi_ [Clarke, Ksepka, Stucchi, Urbina, Giannini, Bertelli, Narváez, & Boyd, 2007](https://doi.org/10.1073/pnas.0611099104) – partial skeleton (MUSM 889) from the Paracas Formation (Middle Eocene, 42–42Ma) at Quebrada Perdida, Peru.
 
