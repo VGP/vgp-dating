@@ -239,6 +239,32 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
+**Node 653:** Accipitrimorphae + Strigiformes | 74.4-58.8Ma\
+**Node calibrated:** Last common ancestor of clade encompassing Strigiformes (_Athene noctua_) and Accipitriformes (_Buteo buteo_).\
+**Fossil taxa:**
+
+- _Ogygoptynx wetmorei_ [Rich & Bohaska, 1976](https://doi.org/10.5479/si.00810266.27.87) – tarsometatarsus (AMNH 2653) from the Late Paleocene of Mason Pocket (Ti-4a, Tiffanian NALMA, 58.8-59.5Ma; [Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)), Colorado, USA ([Rich & Bohaska 1976](https://doi.org/10.5479/si.00810266.27.87)).
+
+- _Berruornis halbedeli_ Mayr, 2007 – Right tarsometatarsus, lacking articular ends from (61.7-58.7Ma), Germany: Walbeck (Mayr 2007, 2009).
+
+●      Eostrix tsaganica Kurochkin & Dyke 2011 (Protostrigidae) distal tarsometatarsus from the Bumban member of the Naranbulag Formation at Tsagaan Khushuu (55.7 - 54.97 Ma) Mongolia.
+
+●      cf. Selenornithidae from the Jebel Qatrani Formation (30.2 - 29.5 Ma), Fayum, Egypt (Smith et al. 2020).
+
+●      Archaehierax sylvestris (Accipitridae) multiple bones from the Namba Formation (26 - 24 ), Lake Pinpa, Australia (Mather et al. 2021).
+
+●      Accipitridae indet., tibiotarsus and ulna from Bannockburn Formation, St Bathans Fauna (1826-15.97 Ma), Otago, New Zealand (Worthy et al. 2007).
+
+●      Strigidae indet. from the Pinturas Formation (19 - 14 Ma), Santa Cruz, Argentina (Chiappe 1991).
+
+●      Asio madagascariensis, Otus rutilus, Ninox superciliaris remains from Ankilitelo Cave (0.013 - 0.005 Ma), Madagascar (Goodman et al. 2013).
+
+**Minimum age:** 58.8Ma\
+**Minimum justification:** The oldest taxon, _Ogygoptynx wetmorei,_ is from the _Plesiadapis churchilli_ biozone, Chron C26r: 58.8-59.5Ma ([Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)).\
+**Maximum age:** 74.43 Ma\
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of taxa from Accipitrimorphae + Strigiformes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in an offset skewStudent distribution with offset=50.540, xi=51.049, omega=6.467, alpha=24.212, and nu=2.615.\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
+
 ---
 
 ---
@@ -422,6 +448,10 @@ Parham, J.F., Donoghue, P.C., Bell, C.J., Calway, T.D., Head, J.J., Holroyd, P.A
 Rasmussen, D. T., Olson, S. L. & E. L. Simons. 1987. Fossil birds from the Oligocene Jebel Qatrani Formation, Fayum Province, Egypt. Smithsonian Contributions to Paleobiology 62:1-20.
 
 Rich, P.V., 1980. Preliminary report on the fossil avian remains from late Tertiary sediments at Langebaanweg (Cape Province), South Africa. South African Journal of Science, 76(4), pp.166-170.
+
+Rich,P. V., D. J. Bohaska. 1976. The world’s oldest owl: A new strigiform from the Paleocene of southwestern Colorado. Smithson. Contrib. Paleobiol. 27, 87–93.
+
+Secord, R., P. D. Gingerich, M. E. Smith, W. C. Clyde, P. Wilf, and B. S. Singer (2006) Geochronology and mammalian stratigraphy of middle and upper Paleocene continental strata, Bighorn Basin, Wyoming. American Journal of Science, 306: 211–245.
 
 Seiffert, E. R. 2006 Revised Age Estimates for the Later Paleogene Mammal Faunas of Egypt and Oman. Proc. Natl. Acad. Sci. USA 103, 5000–5005.
 
