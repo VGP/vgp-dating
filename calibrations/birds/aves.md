@@ -273,9 +273,9 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Tsidiiyazhi abini_ [Ksepka, Stidham, & Williamson, 2017](https://doi.org/10.1073/pnas.1700188114) – associated partial skeleton (NMMNH P-54128) from NMMNH locality L-6898 in the Ojo Encino Member of the Nacimiento Formation (62.52-62.22Ma), New Mexico, USA ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)). 
 
-●      Septentrogon madseni Kristoffersen 2002, fragmentary cranium without rostrum or palatines from levels containing ash layers +25 through +30 in the Silstrup Mb. (55.4 Ma, see justification under Septencoracias), Fur Formation, Denmark.
+- _Septentrogon madseni_ [Kristoffersen, 2002](https://doi.org/10.1671/0272-4634(2001)022[0661:AEPTAT]2.0.CO;2) – fragmentary cranium without rostrum or palatines (MGUH VP 3496) from levels containing ash layers +25 through +30 in the Silstrup Mb. (55.4 Ma; see [Westerhold et al. 2009](https://doi.org/10.1016/j.epsl.2009.08.027) and [Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250), along with discussion in [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1)), Fur Formation, Denmark ([Kristoffersen 2002](https://doi.org/10.1671/0272-4634(2001)022[0661:AEPTAT]2.0.CO;2)).
 
-●      Ueekenkcoracias tambussiae Degrange, Pol, Puerta & Wilf 2021, incomplete right hind limb, preserved in two slabs as part and counterpart (MPEF-PV 10991) from the Huitrera Formation at Laguna del Hunco, quarry LH27 (52.2 Ma) Chubut prov., Argentina.
+- _Ueekenkcoracias tambussiae_ [Degrange, Pol, Puerta, & Wilf, 2021](https://doi.org/10.1038/s41598-020-80479-8) – incomplete right hind limb, preserved in two slabs as part and counterpart (MPEF-PV 10991) from the Huitrera Formation at Laguna del Hunco, quarry LH27 (52.2Ma) Chubut province, Argentina ([Degrange et al. 2021](https://doi.org/10.1038/s41598-020-80479-8)).
 
 ●      Foshanornis songi Zhao et al. 2015, semiarticulated nearly complete skeleton from the Buxin Formation (55.8 - 48.6 Ma), China.
 
@@ -534,6 +534,8 @@ Watanabe, J., Matsuoka, H., & Hasegawa, Y. (2018). Pleistocene non-passeriform l
 Watanabe, J., Koizumi, A., Nakagawa, R., Takahashi, K., Tanaka, T. and Matsuoka, H., 2019. Seabirds (Aves) from the Pleistocene Kazusa and Shimosa Groups, Central Japan. Journal of Vertebrate Paleontology,39(5):e1697277.
 
 Weidig, I., 2010. New birds from the lower Eocene Green River Formation, North America. Records of the Australian Museum, 62(1), pp.29-44.
+
+Westerhold, T., U. Röhl, H. K. McCarren, and J. C. Zachos 2009 Latest on the absolute age of the Paleocene–Eocene Thermal Maximum (PETM): New insights from exact stratigraphic position of key ash layers 19 and -17. Earth and Planetary Science Letters 287:412–419.
 
 Winge, O. 1887. Fugle fra Knoglehuler i Brasilien. E Museo Lundii, 1 (2), 1–54.
 
