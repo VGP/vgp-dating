@@ -245,7 +245,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Ogygoptynx wetmorei_ [Rich & Bohaska, 1976](https://doi.org/10.5479/si.00810266.27.87) – tarsometatarsus (AMNH 2653) from the Late Paleocene of Mason Pocket (Ti-4a, Tiffanian NALMA, 58.8-59.5Ma; [Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)), Colorado, USA ([Rich & Bohaska 1976](https://doi.org/10.5479/si.00810266.27.87)).
 
-- _Berruornis halbedeli_ Mayr, 2007 – Right tarsometatarsus, lacking articular ends from (61.7-58.7Ma), Germany: Walbeck (Mayr 2007, 2009).
+- _Berruornis halbedeli_ [Mayr, 2007](https://doi.org/10.1671/0272-4634(2007)27[394:TBFTPF]2.0.CO;2) – Right tarsometatarsus lacking articular ends (WAL01.2001) from Walbeck near Helmstedt, Germany (middle Paleocene, MP5: 61.7-58.7Ma; Mayr [2007](https://doi.org/10.1671/0272-4634(2007)27[394:TBFTPF]2.0.CO;2), [2009](https://doi.org/10.1007/978-3-540-89628-9)).
 
 ●      Eostrix tsaganica Kurochkin & Dyke 2011 (Protostrigidae) distal tarsometatarsus from the Bumban member of the Naranbulag Formation at Tsagaan Khushuu (55.7 - 54.97 Ma) Mongolia.
 
@@ -394,6 +394,10 @@ Maxwell, E.E., Alexander, S., Bechly, G., Eck, K., Frey, E., Grimm, K., Kovar-Ed
 Mayr, G. 2003 Phylogeny of early Tertiary swifts and hummingbirds (Aves: Apodiformes). Auk 120:145-151.
 
 Mayr, G. 2006. A specimen of Eocuculus Chandler, 1999 (Aves, ?Cuculidae) from the early Oligocene of France. Geobios, 39(6), 865-872.
+
+Mayr, G. 2007. The birds from the Paleocene fissure filling of Walbeck (Germany). Journal of Vertebrate Paleontology, 27(2), 394–408.
+
+Mayr, G. 2009. Paleogene Fossil Birds. Berlin, Heidelberg: Springer, 262 pp.
 
 Mayr, G. 2015a. New remains of the Eocene Prophaethon and the early evolution of tropicbirds (Phaethontiformes). Ibis 157(1):54-67.
 
