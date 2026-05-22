@@ -277,15 +277,15 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Ueekenkcoracias tambussiae_ [Degrange, Pol, Puerta, & Wilf, 2021](https://doi.org/10.1038/s41598-020-80479-8) – incomplete right hind limb, preserved in two slabs as part and counterpart (MPEF-PV 10991) from the Huitrera Formation at Laguna del Hunco, quarry LH27 (52.2Ma) Chubut province, Argentina ([Degrange et al. 2021](https://doi.org/10.1038/s41598-020-80479-8)).
 
-●      Foshanornis songi Zhao et al. 2015, semiarticulated nearly complete skeleton from the Buxin Formation (55.8 - 48.6 Ma), China.
+- _Foshanornis songi_ [Zhao, Mayr, Wang, & Wang, 2015](https://doi.org/10.1080/03115518.2015.994160) – semiarticulated nearly complete skeleton (IVPP V18855a,b) from the Buxin Formation (55.8-48.6Ma), China ([Zhao et al. 2015](https://doi.org/10.1080/03115518.2015.994160)).
 
-●      Coliidae indet, fragmented distal tarsometatarsus from Grillental (20 Ma), Northern Sperrgebiet, Namibia (Mourer-Chauviré 2008). 
+- Coliidae indet. – fragmented distal tarsometatarsus (GT 120’06) from Grillental (20Ma), Northern Sperrgebiet, Namibia ([Mourer-Chauviré 2008](https://www.researchgate.net/publication/285787143_Birds_Aves_from_the_Early_Miocene_of_the_Northern_Sperrgebiet_Namibia)). 
 
-●      Halcyonidae, a complete carpometacarpus from Last Minute Site, Faunal Zone C (16 - 11.6 Ma), Riversleigh, Australia (Boles 1997). The bone differs from that of all modern genera examined including Halcyon (Boles 1997).
+- Halcyonidae indet. – complete carpometacarpus (QMF 29719) from Last Minute Site, Faunal Zone C (16-11.6Ma), Riversleigh, Australia, differing from all modern halcyonid genera examined including _Halcyon_ ([Boles 1997](https://publications.australian.museum/a-kingfisher-halcyonidae-from-the-miocene-of-riversleigh-northwestern-queensland-with-comments-on-the-evolution-of-kingfishers-in-australo-papua/)).
 
-●      Leptosomus discolor remains from Ankilitelo Cave (0.013 - 0.005 Ma), Madagascar (Goodman et al. 2013).
+- _Leptosomus discolor_ ([Hermann, 1783](https://www.biodiversitylibrary.org/item/120418#page/206/mode/1up)) – remains (DLC 18042) from Ankilitelo Cave (0.013-0.005Ma), Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
-●      Halcyon sancta two right humeri from the Holocene of Gilles Cave (0.0036 - 0.0032 Ma), New Caledonia (Balouet & Olson 1989) 
+- _Halcyon sancta_ [Vigors & Horsfield, 1827](https://www.biodiversitylibrary.org/item/13694#page/212/mode/1up) – two right humeri (accessions not specified) from the Holocene of Gilles Cave (0.0036-0.0032Ma), New Caledonia ([Balouet & Olson 1989](http://dx.doi.org/10.5479/si.00810282.469)) 
 
 **Minimum age:** 62.2Ma\
 **Minimum justification:** L-6898 was located within magnetochron C27N, constraining the absolute age to between 62.221 and 62.517 Ma (Ksepka et al. 2017).\
@@ -329,6 +329,8 @@ Alvarenga, H.M., 1999. A Fossil Screamer (Anseriformes: Anhimidae) from the Midd
 
 Andrews, C.W. 1897. On some fossil remains of Carinate birds from Central Madagascar. Ibis 39(3): 343–359.
 
+Balouet, J. C., & S. L. Olson 1989 Fossil birds from late Quaternary deposits in New Caledonia. Smithsonian Contributions to Zoology 469:1-38.
+
 Berggren, W.A., Kent, D.V., Swisher, C.C., and Aubrey, M.-P. 1995. A revised Cenozoic geochronology and chronostratigraphy. In Geochronology, Time Scales and Global Stratigraphic Correlation, ed. W.A. Berggren, D.V. Kent, M.-P. Aubry, and J. Hardenbol. Society of Economic Paleontologists and Mineralogists Special Publication 54: 129–212.
 
 Bertelli, S., L. M. Chiappe & G. Mayr. 2011. A new Messel rail from the Early Eocene Fur Formation of Denmark (Aves, Messelornithidae). Journal of Systematic Palaeontology 9.4: 551-562. 
@@ -336,6 +338,8 @@ Bertelli, S., L. M. Chiappe & G. Mayr. 2011. A new Messel rail from the Early Eo
 Blockland, J. C., C. M. Reid, T. H. Worthy, A. J. D. Tennyson, J. A. Clarke, & R. P. Scofield. 2019. Chatham Island Paleocene fossils provide insight into the palaeobiology, evolution, and diversity of early penguins (Aves, Sphenisciformes). Palaeontologia Electronica 22 (3):78.
 
 Boast, A.P., Chapman, B., Herrera, M.B., Worthy, T.H., Scofield, R.P., Tennyson, A.J., Houde, P., Bunce, M., Cooper, A. and Mitchell, K.J., 2019. Mitochondrial Genomes from New Zealand’s Extinct Adzebills (Aves: Aptornithidae: Aptornis) Support a Sister-Taxon Relationship with the Afro-Madagascan Sarothruridae. Diversity, 11(2), p.24.
+
+Boles, W. E., 1997. A kingfisher (Halcyonidae) from the Miocene of Riversleigh, northwestern Queensland, with comments on the evolution of kingfishers in Australo-Papua. Memoirs of the Queensland Museum 41:229-234.
 
 Boles, W. E., 2001. A swiftlet (Apodidae: Collocaliini) from the Miocene of Riversleigh, northwestern Queensland. Memoir of the Association of Australasian Palaeontologists 25: 45–52.
 
@@ -384,6 +388,8 @@ Guilday, J. E., P. W. Parmalee, and H. W. Hamilton. 1977. The Clark's Cave bone 
 Harrison, C. J. O.  1984. A revision of the fossil swifts (Vertebrata, Aves, suborder, Apodi), with descriptions of three new genera and two new species. Mededelingen van de Werkgroep voor Tertiaire en Kwartaire Geologie 21(4):157-177.
 
 Heingård, M., Musser, G., Hall, S. A., & Clarke, J. A. (2021). New remains of Scandiavis mikkelseni inform avian phylogenetic relationships and brain evolution. Diversity, 13(12), 651.
+
+Hermann, J. 1783. Tabula affinitatum animalium. Strasbourg: J.G. Treuttel. p. 186.
 
 Hesse, A. 1992. A new species of Messelornis (Aves: Gruiformes: Messelornithidae) from the Middle Eocene Green River Formation. Papers in Avian Paleontology honoring Pierce Brodkorb.-Los Angeles County Museum of Natural History, Science Series, 36, 171-178.
 
@@ -526,6 +532,8 @@ Tambussi, C.P., F.J. Degrange, R.S. De Mendoza, E. Sferco & S. Santillana. 2019.
 Thomas, D. B., & D. T. Ksepka. 2013. A history of shifting fortunes for African penguins. Zoological Journal of the Linnean Society 168:207-2019.
 
 van Beneden PJ 1871. Les oiseaux de l’argile rupélienne. Bulletin de l’Académie Royale des Sciences, Lettres et Beaux-Arts de Belgique, série 2 32: 256–261.
+
+Vigors, N. A. & Horsfield, T. 1827. A description of the Australian birds in the collection of the Linnean Society; with an attempt at arranging them according to their natural affinities. Transactions of the Linnean Society of London 15(1): 170–331.
 
 Wang, M., Mayr, G., Zhang, J. and Zhou, Z., 2012. Two new skeletons of the enigmatic, rail-like avian taxon Songzia Hou, 1990 (Songziidae) from the early Eocene of China. Alcheringa, 36(4), pp.487-499.
 
