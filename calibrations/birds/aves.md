@@ -247,17 +247,17 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Berruornis halbedeli_ [Mayr, 2007](https://doi.org/10.1671/0272-4634(2007)27[394:TBFTPF]2.0.CO;2) – Right tarsometatarsus lacking articular ends (WAL01.2001) from Walbeck near Helmstedt, Germany (middle Paleocene, MP5: 61.7-58.7Ma; Mayr [2007](https://doi.org/10.1671/0272-4634(2007)27[394:TBFTPF]2.0.CO;2), [2009](https://doi.org/10.1007/978-3-540-89628-9)).
 
-●      Eostrix tsaganica Kurochkin & Dyke 2011 (Protostrigidae) distal tarsometatarsus from the Bumban member of the Naranbulag Formation at Tsagaan Khushuu (55.7 - 54.97 Ma) Mongolia.
+- _Eostrix tsaganica_ [Kurochkin & Dyke 2011](https://doi.org/10.1134/S003103011104006X) – distal tarsometatarsus (PIN 3104/129) from the Bumban member of the Naranbulag Formation at Tsagaan Khushuu (55.7-54.97Ma) Mongolia, assigned to Protostrigidae ([Kurochkin & Dyke 2011](https://doi.org/10.1134/S003103011104006X)).
 
-●      cf. Selenornithidae from the Jebel Qatrani Formation (30.2 - 29.5 Ma), Fayum, Egypt (Smith et al. 2020).
+- cf. Selenornithidae – distal left tibiotarsus (DPC 24780) from the Jebel Qatrani Formation (Oligocene: 30.2-29.5 Ma), Fayum, Egypt ([Smith et al. 2020](https://doi.org/10.3390/d12040163)).
 
-●      Archaehierax sylvestris (Accipitridae) multiple bones from the Namba Formation (26 - 24 ), Lake Pinpa, Australia (Mather et al. 2021).
+- _Archaehierax sylvestris_ [Mather, Lee, Camens, & Worthy, 2022](https://doi.org/10.1080/08912963.2021.1966777) – multiple bones (SAMA P.54998) from Site 12a, Lake Pinpa, Frome Downs Station, Callabonna Sub-Basin, S.A. Dolomite bed of Namba Formation, Pinpa LF, late Oligocene (26-24Ma), assigned to Accipitridae ([Mather et al. 2022](https://doi.org/10.1080/08912963.2021.1966777)).
 
-●      Accipitridae indet., tibiotarsus and ulna from Bannockburn Formation, St Bathans Fauna (1826-15.97 Ma), Otago, New Zealand (Worthy et al. 2007).
+– Accipitridae indet. – tibiotarsus (MNZ S4281) and ulna (MNZS42490) from Bannockburn Formation, St Bathans Fauna (18.26-15.97Ma), Otago, New Zealand ([Worthy et al. 2007](https://doi.org/10.1017/S1477201906001957)).
 
-●      Strigidae indet. from the Pinturas Formation (19 - 14 Ma), Santa Cruz, Argentina (Chiappe 1991).
+- Strigidae indet. – unspecified material, presumably in the MACN, from the Pinturas Formation (19-14Ma), Santa Cruz, Argentina ([Chiappe 1991](https://doi.org/10.1080/02724634.1991.10011425)).
 
-●      Asio madagascariensis, Otus rutilus, Ninox superciliaris remains from Ankilitelo Cave (0.013 - 0.005 Ma), Madagascar (Goodman et al. 2013).
+- Remains of _Asio madagascariensis_ (Smith, 1834) including DLC 17170, 17255, 17300, 18043, 18100, 18103, 18888, 18973; _Otus rutilus_ (Pucheran, 1849) including DLC 18042, 18945, 18973; and _Ninox superciliaris_ (Vieillot, 1817) including DLC 18103, 18946; from Ankilitelo Cave (0.013-0.005Ma), Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
 **Minimum age:** 58.8Ma\
 **Minimum justification:** The oldest taxon, _Ogygoptynx wetmorei,_ is from the _Plesiadapis churchilli_ biozone, Chron C26r: 58.8-59.5Ma ([Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)).\
@@ -326,6 +326,8 @@ Braun, E.L., Cracraft, J. and Houde, P., 2019. Resolving the avian tree of life 
 Chandler, R., 1999. Fossil birds of Florissant, Colorado: with a description of a new genus and species of cuckoo. Geologic Resources Division, Technical Report, NPS/NRGRD/ GRDTR-99, 49-53.
 
 Chen, A., N. D. White, R. B. J. Benson, M. J. Braun & D. J. Field. 2019. Total-evidence framework reveals complex morphological evolution in nightbirds (Strisores). Diversity 11(9):143.
+
+Chiappe, L. M. 1991. Fossil birds from the Miocene Pinturas Formation of Southern Argentina. Journal of Vertebrate Paleontology 11, 21A–22A.
 
 Claramunt, S., 2022. CladeDate: Calibration information generator for divergence time estimation. Methods in Ecology and Evolution, 13(11), pp.2331-2338.
 
@@ -477,6 +479,8 @@ Smith, M.E., Carroll, A.R., & Singer, B.S. 2008 Synoptic reconstruction of a maj
 
 Smith, M.E., Chamberlain, K.R., Singer, B.S. & Carroll, A.R. (2010): Eocene clocks agree: coeval 40Ar/39Ar, U-Pb, and astronomical ages from the Green River Formation. Geology 38 (6), pp 527-530.
 
+Smith, N.A., Stidham, T.A. and Mitchell, J.S., 2020. The first fossil owl (Aves, Strigiformes) from the Paleogene of Africa. Diversity, 12(4), p.163.
+
 Speijer, R. P., Pälike, H., Hollis, C. J., Hooker, J. J., & Ogg, J. G. 2020. The Paleogene Period. In F. M. Gradstein, J. G. Ogg, M. D. Schmitz, & G. M. Ogg (Eds.), Geologic Time Scale 2020 (pp. 1087–1140). Elsevier B.V.: Amsterdam.
 
 Stiller, J., Feng, S., Chowdhury, A.A., Rivas-González, I., Duchêne, D.A., Fang, Q., Deng, Y., Kozlov, A., Stamatakis, A., Claramunt, S. and Nguyen, J.M., 2024. Complexity of avian evolution revealed by family-level genomes. Nature, 629(8013), pp.851-860.
@@ -511,13 +515,13 @@ Woodhead, J., S. J. Hand, M. Archer, I. Graham, K. Sniderman, D. A. Arena, K. H.
 
 Worthy, T. H. 2009. Descriptions and phylogenetic relationships of two new genera and four new species of Oligo-Miocene waterfowl (Aves: Anatidae) from Australia. Zoological Journal of the Linnean Society 156: 411–454.
 
-Worthy, T. H., A. J. D. Tennyson, C. Jones, J. A. McNamara & B. J. Douglas. 2007. Miocene waterfowl and other birds from Central Otago, New Zealand. Journal of Systematic Palaeontology 5:1–39.
-
 Worthy T.H. & M. S. Y.  Lee. 2008. Affinities of Miocene (19–16 Ma) waterfowl (Anatidae: Manuherikia, Dunstanetta and Miotadorna) from the St Bathans Fauna, New Zealand. Palaeontology 51: 677–708.
 
 Worthy, T.H. and Nguyen, J.M., 2020. An annotated checklist of the fossil birds of Australia. Transactions of the Royal Society of South Australia, 144(1), pp.66-108.
 
 Worthy, T. H., & Boles, W. E. (2011). Australlus, a new genus for Gallinula disneyi (Aves: Rallidae) and a description of a new species from Oligo-Miocene deposits at Riversleigh, northwestern Queensland, Australia. Records of the Australian Museum, 63(1), 61-77.
+
+Worthy, T. H., A. J. D. Tennyson, C. Jones, J. A. McNamara & B. J. Douglas. 2007. Miocene waterfowl and other birds from Central Otago, New Zealand. Journal of Systematic Palaeontology 5:1–39.
 
 Worthy, T.H.; Tennyson, A.J.; Scofield, R.P. 2011b. Fossils reveal an early Miocene presence of the aberrant gruiform Aves: Aptornithidae in New Zealand. J. Ornithol. 2011, 152, 669–680.
 
