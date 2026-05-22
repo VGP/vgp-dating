@@ -150,7 +150,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Australlus disneyi_ ([Boles, 2005](https://journals.australian.museum/boles-2005-rec-aust-mus-572-179190/)), specimens (QM F20906, F23723, F31469–76) from the White Hunter Site (Faunal Zone A, late Oligocene, 26–23.04Ma), Riversleigh, Queensland, Australia. Phylogenetic position determined by cladistic analysis ([Worthy & Boles 2011](https://doi.org/10.3853/j.0067-1975.63.2011.1563)).
 
-- _?Aptornis proasciarostratus_ [Worthy, Tennyson, & Scofield, 2011b](https://doi.org/10.1007/s10336-011-0649-6) – thoracic vertebrae (NMNZ S.52350, S.52353) from the Bannockburn Formation (early Miocene, Altonian, 18.26–15.97Ma) of Otago, New Zealand ([Worthy et al. 2011b](https://doi.org/10.1007/s10336-011-0649-6)). Although the Miocene fossils are fragmentary, the analysis of Quaternary fossils indicated that Aptornis belongs in crown Gruiformes, either in the Ralloidea ([Boast et al. 2019](https://doi.org/10.3390/d11020024)) or sister to Psophiidae ([Musser & Cracraft 2019](https://doi.org/10.1206/3927.1)).
+- _?Aptornis proasciarostratus_ [Worthy, Tennyson, & Scofield, 2011a](https://doi.org/10.1007/s10336-011-0649-6) – thoracic vertebrae (NMNZ S.52350, S.52353) from the Bannockburn Formation (early Miocene, Altonian, 18.26–15.97Ma) of Otago, New Zealand ([Worthy et al. 2011a](https://doi.org/10.1007/s10336-011-0649-6)). Although the Miocene fossils are fragmentary, the analysis of Quaternary fossils indicated that Aptornis belongs in crown Gruiformes, either in the Ralloidea ([Boast et al. 2019](https://doi.org/10.3390/d11020024)) or sister to Psophiidae ([Musser & Cracraft 2019](https://doi.org/10.1206/3927.1)).
 
 - _Gallinula_ sp. and _Porzana_ sp. – unspecified, possibly uncatalogued specimens from the Late Pleistocene (0.129–0.0117Ma) at Barra do Antonião Piauí, Brazil ([Guérin et al. 1996](https://www.researchgate.net/publication/291774116_A_fauna_pleistocenica_do_Piaui_Nordeste_do_Brasil_Relacoes_paleoecologicas_e_biocronologicas)).
 
@@ -303,17 +303,17 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Eozygodactylus americanus_ [Weidig, 2010](https://doi.org/10.3853/j.0067-1975.62.2010.1544) – two partial articulated skeletons (USNM 299821, WDC-CGR-014) from the Fossil Butte Member of the Green River Formation (early Eocene: 52Ma). Attributed to Zygodactylidae, showing derived characters shared with _Zygodactylus_ and _Primozygodactylus_ ([Weidig 2010](https://doi.org/10.3853/j.0067-1975.62.2010.1544)). Cladistic analysis did not support monophyly of Zygodactylidae _per se,_ but placed these zygodactyl genera on the stem lineage of Passeriformes ([Ksepka et al. 2019](https://doi.org/10.1016/j.cub.2018.12.040)).
 
-- _Namapsitta praeruptorum_ [Mourer-Chauviré, Pickford, & Senut, 2015](https://doi.org/10.1007%2Fs10336-014-1124-y) – distal tarsometatarsus and ulna (GSN EC 8-01′13, GSN EC 8-02′13) from Eocliff (Middle Eocene 40.4 37.2 Ma), Namibia, attributed to ?Psittaciformes ([Mourer-Chauvire et al. 2015](https://doi.org/10.1007%2Fs10336-014-1124-y)).
+- _Namapsitta praeruptorum_ [Mourer-Chauviré, Pickford, & Senut, 2015](https://doi.org/10.1007%2Fs10336-014-1124-y) – distal tarsometatarsus and ulna (GSN EC 8-01′13, 8-02′13) from Eocliff (middle Eocene: 40.4–37.2Ma), Namibia, attributed to Psittaciformes _incertae sedis_ ([Mourer-Chauvire et al. 2015](https://doi.org/10.1007%2Fs10336-014-1124-y)).
 
-·      Nelepsittacus minimus Worthy et al. 2011 – isolated long bones from the Bannockburn Formation, St Bathans Fauna (early Miocene: 19-16Ma), Otago, New Zealand. Family assignment (Nestoridae) based on putative apomorphies (Worthy et al. 2011).
+- _Nelepsittacus minimus_ [Worthy, Tennyson, & Scofield, 2011b](https://doi.org/10.1080/02724634.2011.595857) – isolated long bones (NMNZ S.42671, S.43916, S.43993–4, S.43997, S.50171, S.50870, S.51690, S.51801, S.52115, S.52163, S.52223, S.52404, S.52484, S.52683) from the Bannockburn Formation, St Bathans Fauna (early Miocene: 19-16Ma), Otago, New Zealand. Family assignment (Nestoridae) based on putative apomorphies ([Worthy et al. 2011b](https://doi.org/10.1080/02724634.2011.595857)).
 
-·      Orthonyx kaldowinyeri Boles 1993 – distal right tarsometatarsus (QM F30244) from Neville’s Garden SiteFaunal Zones A at Hiatus Site (18.5–17.5Ma, Woodhead et al. 2016), Riversleigh, Australia (Nguyen et al. 2013).
+- _Orthonyx kaldowinyeri_ [Boles, 1993](https://doi.org/10.1071/MU9930044) – distal right tarsometatarsus (QM F30244) from Neville’s Garden Site, Faunal Zones A at Hiatus Site (18.5–17.5Ma; [Woodhead et al. 2016](https://doi.org/10.1016/j.gr.2014.10.004)), Riversleigh, Australia ([Nguyen et al. 2014](https://doi.org/10.1080/03115518.2014.861732)).
 
-•	Tyrannidae indet. – distal humerus (MACN-SC-1411) from the middle levels of the Pinturas Formation at “Portezuelo Sumich Sur,” Santa Cruz, Argentina (Noriega & Chiappe 1993). Portezuelo Sumich Sur has not been dated but sits on top of. Tephra samples were dated at 16.8 Ma at Portezuelo Sumich North, which exposes deeper levels of the formation (Kramarz & Bellosi 2005, Fleagel et al. 2012), thus we use that date as a maximum bound for the fossil. 40Ar/39Ar dates obtained form the top of the middle level yielded an age of 16.5 Ma (Kramarz & Bellosi 2005), providing a minimum bound for the fossil.
+- Tyrannidae indet. – distal humerus (MACN-SC-1411) from the middle levels of the Pinturas Formation at “Portezuelo Sumich Sur,” Santa Cruz, Argentina ([Noriega & Chiappe 1993](https://doi.org/10.2307/4088653)). Portezuelo Sumich Sur has not been dated but sits on top of tephra samples that were dated at 16.8Ma at Portezuelo Sumich North, which exposes deeper levels of the formation ([Kramarz & Bellosi 2005](https://doi.org/10.1016/j.jsames.2004.10.005), [Fleagel et al. 2012](https://doi.org/10.1017/CBO9780511667381.003)), thus we use that date as a maximum bound for the fossil. 40Ar/39Ar dates obtained from the top of the middle level yielded an age of 16.5Ma ([Kramarz & Bellosi 2005](https://doi.org/10.1016/j.jsames.2004.10.005)), providing a minimum bound as well.
 
-·      Corvoidea indet. – partial skeleton impression (TRPM 667-011) from the Fuganji member of the Iwami formation (16.0-17.6Ma; Hirao et al. 2005) Japan (Kakegawa & Hirao 2003).
+- Corvoidea indet. – partial skeleton impression (TRPM 667-011) from the Fuganji member of the Iwami formation (16.0-17.6Ma; [Hirao et al. 2005](https://www.researchgate.net/publication/257922534_Stratigraphy_and_fossil_fishes_of_the_Fuganji_Formation_at_Miyanoshita_Kokufu-cho_Tottori_Japan)) Japan ([Kakegawa & Hirao 2003](https://gbank.gsj.jp/geolis/geolis_link/200424147/en)).
 
-·      Remains of Phedina borbonica, Corvus albus, Ploceus sakalava from Ankilitelo Cave (0.0112-0.005Ma) Madagascar (Goodman et al. 2013).
+- Remains of _Phedina borbonica_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/66/mode/1up)) including DLC 18103; _Corvus albus_ [Müller, 1776](https://www.biodiversitylibrary.org/item/218386#page/105/mode/1up) including DLC 17187D, 17189, 17216, 17246, 17265, 17268, 17272, 17298, 17300, 18099, 18102, 18103, 18105, 18157, 18758, 18876, 18906, 18909, 18921, 18944, 18946; and unspecified _Ploceus sakalava_ from Ankilitelo Cave (0.0112-0.005Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
 **Minimum age:** 54.6Ma\
 **Minimum justification:** Based on the oldest taxon _Morsoravis sedilis_ from the bottom of the Fur Formation, which was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation suggesting a minimum age of 54.6Ma ([Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)).
@@ -367,6 +367,8 @@ Blockland, J. C., C. M. Reid, T. H. Worthy, A. J. D. Tennyson, J. A. Clarke, & R
 
 Boast, A.P., Chapman, B., Herrera, M.B., Worthy, T.H., Scofield, R.P., Tennyson, A.J., Houde, P., Bunce, M., Cooper, A. and Mitchell, K.J., 2019. Mitochondrial Genomes from New Zealand’s Extinct Adzebills (Aves: Aptornithidae: Aptornis) Support a Sister-Taxon Relationship with the Afro-Madagascan Sarothruridae. Diversity, 11(2), p.24.
 
+Boles, W. E. 1993. A logrunner Orthonyx (Passeriformes, Orthonychidae) from the Miocene of Riversleigh, north-western Queensland. Emu, 93(1), 44-49.
+
 Boles, W. E., 1997. A kingfisher (Halcyonidae) from the Miocene of Riversleigh, northwestern Queensland, with comments on the evolution of kingfishers in Australo-Papua. Memoirs of the Queensland Museum 41:229-234.
 
 Boles, W. E., 2001. A swiftlet (Apodidae: Collocaliini) from the Miocene of Riversleigh, northwestern Queensland. Memoir of the Association of Australasian Palaeontologists 25: 45–52.
@@ -403,6 +405,8 @@ Field, D.J. & Hsiang, A.Y. (2018): A North American stem turaco, and the complex
 
 Field, D. J., J. Benito, A. Chen, J. W. M. Jagt, D. T. Ksepka 2020. Late Cretaceous neornithine from Europe illuminates the origins of crown birds. Nature 579 (7799): 397–401.
 
+Fleagle, J.G., Perkins, M.E., Heizler, M.T., Nash, B., Bown, T.M., Tauber, A.A., Dozo, M.T. & M. F. Tejedor 2012. Tephrochronology of the Miocene Santa Cruz and Pinturas formations, Argentina. In: Vizcaíno, S.F., Kay, R.F., Bargo, M.S. (Eds.), Early Miocene Paleobiology in Patagonia: High-latitude Paleocommunities of the Santa Cruz Formation. Cambridge University Press.
+
 Goodman, S.M. 1999. Holocene bird subfossils from the sites of Ampasambazimba, Antsirabe and Ampoza, Madagascar: Changes in the avifauna of south-central Madagascar over the past few millennia. In: Adams, N.J. & Slotow, R.H. (eds) Proc. 22 Int. Ornithol. Congr., Durban: 3071-3083. Johannesburg: BirdLife South Africa.
 
 Goodman, S. M., M. J. Raherilalao & K. Muldoon 2013. Bird fossils from Ankilitelo Cave: inference about Holocene environmental changes in Southwestern Madagascar. Zootaxa 3750(5):534-548.
@@ -421,6 +425,8 @@ Hermann, J. 1783. Tabula affinitatum animalium. Strasbourg: J.G. Treuttel. p. 18
 
 Hesse, A. 1992. A new species of Messelornis (Aves: Gruiformes: Messelornithidae) from the Middle Eocene Green River Formation. Papers in Avian Paleontology honoring Pierce Brodkorb.-Los Angeles County Museum of Natural History, Science Series, 36, 171-178.
 
+Hirao, K., Yano, T., Uyeno, T., Yabumoto, Y., & Aoki, T. (2005). Stratigraphy and fossil fishes of the Fuganji Formation at Miyanoshita, Kokufu-cho, Tottori, Japan. Bull. Tottori Pref. Mus, 42, 3-20.
+
 Hoch, E. 1997. Notes on palaeornithology and on a New Bird from the Early Tertiary North Sea Region. Geological Society of Denmark, Online Series 1.
 
 Hood, S. C., C. R. Torres, M. A. Norell and J. A. Clarke. 2019. New fossil birds from the earliest Eocene of Mongolia. American Museum Novitates 3934:1-22.
@@ -433,7 +439,11 @@ Howard, H. 1992. New records of middle Miocene anseriform birds from Kern County
 
 Jenkins, R. J. F. 1974. A new giant penguin from the Eocene of Australia. Palaeontology, 17, 2, 291–310.
 
+Kakegawa, Y. & K. Hirao 2003 A Miocene passeriform bird from the Iwami Formation, Tottori Group, Tottori, Japan. Bulletin of the National Science Museum, Series C 29:33–37.
+
 King, C. 2016. A revised correlation of Tertiary rocks in the British Isles and adjacent areas of NW Europe. Geol. Soc. Lond. Spec. Rep. 27: 1–719.
+
+Kramarz, A. G., & E. S. Bellosi 2005. Hystricognath rodents from the Pinturas Formation, Early–Middle Miocene of Patagonia, biostratigraphic and paleoenvironmental implications. Journal of South American Earth Sciences 18(2):199-212.
 
 Ksepka, D. T., & J. A. Clarke. 2012. The basal penguin (Aves: Sphenisciformes) Perudyptes devriesi and a phylogenetic evaluation of the penguin fossil record. Bulletin of the American Museum of Natural History 337:1-77.
 
@@ -497,6 +507,8 @@ Mourer-Chauvire, C., M. Pickford & B. Senut. 2015. Stem group galliform and stem
 
 Mourer-Chauviré, C., Essid, E.M., Khayati, H., Marivaux, L., Marzougui, W., Temani, R., Vianey-Liaud, M. & Tabuce, R. 2016. New remains of the very small cuckoo, Chambicuculus pusillus (Aves, Cuculiformes, Cuculidae) from the late Early or early Middle Eocene of Djebel Chambi, Tunisia. Palaeovertebrata 40(1):1-4.
 
+Müller, P. L. S. 1776. Des Ritters Carl von Linné vollständiges Natursystem Supplement- und Registerband. Nürnberg: Gabriel Nicolaus Raspe, p. 82.
+
 Musser, G. & J. A. Clarke 2020. An exceptionally preserved specimen from the Green River Formation elucidates complex phenotypic evolution in Gruiformes and Charadriiformes. Frontiers in Ecology and Evolution 8(326):1-18.
 
 Musser, G., & J. A. Clarke 2024. A new Paleogene fossil and a new dataset for waterfowl (Aves: Anseriformes) clarify phylogeny, ecological evolution, and avian evolution at the K-Pg Boundary. Plos one, 19(7), e0278737.
@@ -510,6 +522,10 @@ Nascimento, R., & Silveira, L. F. (2020). The fossil birds of Peter Lund. Zootax
 Nessov, L. A. 1988. New Cretaceous and Paleocene birds of Soviet Mid- dle Asia and Kazakhstan and their environments. Trudy Zoologiceskogo Instituta Akademii Nauk SSSR 182:116–123. [In Russian]
 
 Nessov, L. A. 1992. Mesozoic and Paleogene birds of the USSR and their paleoenvironments; pp. 465–478 in K. E. Campbell (ed.), Papers in Avian Paleontology Honoring Pierce Brodkorb. Natural History Museum of Los Angeles County, Science Series 36.
+
+Nguyen, J. M. T., Boles, W. E., Worthy, T. H., Hand, S. J., & Archer, M. (2014). New specimens of the logrunner Orthonyx kaldowinyeri (Passeriformes: Orthonychidae) from the Oligo-Miocene of Australia. Alcheringa: An Australasian Journal of Palaeontology, 38(2), 245–255.
+
+Noriega, J. I., & Chiappe, L. M. (1993). An early Miocene passeriform from Argentina. The Auk, 936-938.
 
 Olson, S. L. 1992 A new family of primitive landbirds from the Lower Eocene Green River Formation of Wyoming. Natural History Museum of Los Angeles County Science Series 36, pp 127-136.
 
@@ -599,11 +615,13 @@ Worthy T.H. & M. S. Y.  Lee. 2008. Affinities of Miocene (19–16 Ma) waterfowl 
 
 Worthy, T.H. and Nguyen, J.M., 2020. An annotated checklist of the fossil birds of Australia. Transactions of the Royal Society of South Australia, 144(1), pp.66-108.
 
-Worthy, T. H., & Boles, W. E. (2011). Australlus, a new genus for Gallinula disneyi (Aves: Rallidae) and a description of a new species from Oligo-Miocene deposits at Riversleigh, northwestern Queensland, Australia. Records of the Australian Museum, 63(1), 61-77.
+Worthy, T. H., & Boles, W. E. 2011. Australlus, a new genus for Gallinula disneyi (Aves: Rallidae) and a description of a new species from Oligo-Miocene deposits at Riversleigh, northwestern Queensland, Australia. Records of the Australian Museum, 63(1), 61-77.
 
 Worthy, T. H., A. J. D. Tennyson, C. Jones, J. A. McNamara & B. J. Douglas. 2007. Miocene waterfowl and other birds from Central Otago, New Zealand. Journal of Systematic Palaeontology 5:1–39.
 
-Worthy, T.H.; Tennyson, A.J.; Scofield, R.P. 2011b. Fossils reveal an early Miocene presence of the aberrant gruiform Aves: Aptornithidae in New Zealand. J. Ornithol. 2011, 152, 669–680.
+Worthy, T.H.; Tennyson, A.J.; Scofield, R.P. 2011a. Fossils reveal an early Miocene presence of the aberrant gruiform Aves: Aptornithidae in New Zealand. J. Ornithol. 152, 669–680.
+
+Worthy, T. H., Tennyson, A. J., & Scofield, R. P. 2011b. An early Miocene diversity of parrots (Aves, Strigopidae, Nestorinae) from New Zealand. Journal of Vertebrate Paleontology, 31(5), 1102-1116.
 
 Worthy, T.H., Scofield, R.P., Salisbury, S.W., Hand, S.J., De Pietri, V.L. and Archer, M., 2022. Two new neoavian taxa with contrasting palaeobiogeographical implications from the early Miocene St Bathans Fauna, New Zealand. Journal of Ornithology, 163(3), pp.643-658.
 
