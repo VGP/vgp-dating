@@ -299,7 +299,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Node calibrated:** Last common ancestor of clade encompassing Psittaciformes (_Ara ararauna_) and Passeriformes (_Passer domesticus_).\
 **Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the stem of Psittacopasseres:
 
-·      Morsoravis sedilis Bertelli et al. 2010, articulated skeleton including the skull, vertebral column, pelvic girdle and hind limbs (Geological Museum, University of Copenhagen 28930) from the Fur Formation (55.8 - 54.6 Ma), Denmark. Initial cladistic analysis placed Morsoravis in the Charadriiformes, but a reexamination of the specimen and a more complete matrix placed Morsoravis as a stem Passeriformes (Mayr 2015). This result was replicated by a second matrix (modified from Ksepka et al. 2017) of 34 species representing major clades of Telluraves, 28 fossil taxa and 146 morphological characters (Ksepka et al. 2019).
+- _Morsoravis sedilis_ [Bertelli, Lindow, Dyke, & Chiappe, 2010](https://doi.org/10.1111/j.1475-4983.2010.00950.x) – articulated skeleton including the skull, vertebral column, pelvic girdle and hind limbs (Geological Museum, University of Copenhagen 28930) from the Fur Formation (55.8-54.6Ma), Denmark. Initial cladistic analysis placed _Morsoravis_ in Charadriiformes, but a reexamination of the specimen and a more complete matrix placed it on the stem of Passeriformes ([Mayr 2015c](https://doi.org/10.1111/zsc.12128)). This result was replicated by a second matrix (modified from [Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)) of 34 species representing major clades of Telluraves, 28 fossil taxa and 146 morphological characters ([Ksepka et al. 2019](https://doi.org/10.1016/j.cub.2018.12.040)).
 
 ·      Eozygodactylus americanus Weidig 2010 (Zygodactylidae), two partial articulated skeletons from the Fossil Butte Member of the Green River Formation (Early Eocene, 52 Ma). Shows derived characters shared with Zygodactylus and Primozygodactylus (Weidig 2010). A cladistic analysis didn’t confirm the monophyly of Zygodactylidae but showed all these zygodactyl genera as stem members of Passeriformes (Ksepka et al. 2019)
 
@@ -358,6 +358,8 @@ Andrews, C.W. 1897. On some fossil remains of Carinate birds from Central Madaga
 Balouet, J. C., & S. L. Olson 1989 Fossil birds from late Quaternary deposits in New Caledonia. Smithsonian Contributions to Zoology 469:1-38.
 
 Berggren, W.A., Kent, D.V., Swisher, C.C., and Aubrey, M.-P. 1995. A revised Cenozoic geochronology and chronostratigraphy. In Geochronology, Time Scales and Global Stratigraphic Correlation, ed. W.A. Berggren, D.V. Kent, M.-P. Aubry, and J. Hardenbol. Society of Economic Paleontologists and Mineralogists Special Publication 54: 129–212.
+
+Bertelli, S., B. E. Lindow, G. J. Dyke & L. M. Chiappe 2010. A well-preserved ‘charadriiform-like’fossil bird from the Early Eocene Fur Formation of Denmark. Palaeontology 53:507–531.
 
 Bertelli, S., L. M. Chiappe & G. Mayr. 2011. A new Messel rail from the Early Eocene Fur Formation of Denmark (Aves, Messelornithidae). Journal of Systematic Palaeontology 9.4: 551-562. 
 
@@ -443,6 +445,8 @@ Ksepka, D. T., J. A. Clarke, S. J. Nesbitt, F. B. Kulp & L. Grande. 2013. Fossil
 
 Ksepka, D. T., T. A. Stidham & T. E. Williamson. 2017 Early Paleocene landbird supports rapid phylogenetic and morphological diversification of crown birds after the K–Pg mass extinction. Proceedings of the National Academy of Sciences 114(30):8047-8052.
 
+Ksepka, D.T., L. Grande & G. Mayr 2019. Oldest finch-beaked birds reveal parallel ecological radiations in the earliest evolution of passerines. Current Biology 29(4):657-663.
+
 Kurochkin, E. N. 1976. A survey of the Paleogene birds of Asia. Smithson. Contrib. Paleobiol. 27:75-86.
 
 Kurochkin E. N. & A. A. Dyke 2009. A large collection of Presbyornis (Aves, Anseriformes, Presbyornithidae) from the late Paleocene and early Eocene of Mongolia. Geological Journal 45:375-387.
@@ -466,6 +470,8 @@ Mayr, G. 2009. Paleogene Fossil Birds. Berlin, Heidelberg: Springer, 262 pp.
 Mayr, G. 2015a. New remains of the Eocene Prophaethon and the early evolution of tropicbirds (Phaethontiformes). Ibis 157(1):54-67.
 
 Mayr, G. 2015b. A new Paleogene procellariiform bird from western North America. Neues Jahrbuch für Geologie und Paläontologie-Abhandlungen 275(1):11-17.
+
+Mayr, G., 2015c. A reassessment of Eocene parrotlike fossils indicates a previously undetected radiation of zygodactyl stem group representatives of passerines (Passeriformes). Zoologica Scripta 44(6):587-602.
 
 Mayr, G. 2016. The world’s smallest owl, the earliest unambiguous charadriiform bird, and other avian remains from the early Eocene Nanjemoy Formation of Virginia (USA). PalZ, 90(4), 747-763.
 
