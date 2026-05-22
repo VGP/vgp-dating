@@ -271,7 +271,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Node calibrated:** Last common ancestor of clade encompassing Coliiformes (_Colius striatus_) and Coraciiformes (_Merops nubicus_)\
 **Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Coraciimorphae:
 
-●      Tsidiiyazhi abini Ksepka et al. 2017 associated partial skeleton from the Ojo Encino Member of the Nacimiento Formation (62.52 - 62.22 Ma), New Mexico, USA. 
+- _Tsidiiyazhi abini_ [Ksepka, Stidham, & Williamson, 2017](https://doi.org/10.1073/pnas.1700188114) – associated partial skeleton (NMMNH P-54128) from NMMNH locality L-6898 in the Ojo Encino Member of the Nacimiento Formation (62.52-62.22Ma), New Mexico, USA ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)). 
 
 ●      Septentrogon madseni Kristoffersen 2002, fragmentary cranium without rostrum or palatines from levels containing ash layers +25 through +30 in the Silstrup Mb. (55.4 Ma, see justification under Septencoracias), Fur Formation, Denmark.
 
@@ -408,6 +408,8 @@ Ksepka, D.T. and Thomas, D.B., 2012. Multiple cenozoic invasions of Africa by pe
 Ksepka, D. T., S. Bertelli & N. P. Giannini. 2006. The phylogeny of the living and fossil Sphenisciformes (penguins). Cladistics 22(5): 412-441.
 
 Ksepka, D. T., J. A. Clarke, S. J. Nesbitt, F. B. Kulp & L. Grande. 2013. Fossil evidence of wing shape in a stem relative of swifts and hummingbirds (Aves, Pan-Apodiformes). Proc. R. Soc. B 280: 20130580.
+
+Ksepka, D. T., T. A. Stidham & T. E. Williamson. 2017 Early Paleocene landbird supports rapid phylogenetic and morphological diversification of crown birds after the K–Pg mass extinction. Proceedings of the National Academy of Sciences 114(30):8047-8052.
 
 Kurochkin, E. N. 1976. A survey of the Paleogene birds of Asia. Smithson. Contrib. Paleobiol. 27:75-86.
 
