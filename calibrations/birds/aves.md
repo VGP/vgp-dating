@@ -257,7 +257,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - Strigidae indet. – unspecified material, presumably in the MACN, from the Pinturas Formation (19-14Ma), Santa Cruz, Argentina ([Chiappe 1991](https://doi.org/10.1080/02724634.1991.10011425)).
 
-- Remains of _Asio madagascariensis_ (Smith, 1834) including DLC 17170, 17255, 17300, 18043, 18100, 18103, 18888, 18973; _Otus rutilus_ (Pucheran, 1849) including DLC 18042, 18945, 18973; and _Ninox superciliaris_ (Vieillot, 1817) including DLC 18103, 18946; from Ankilitelo Cave (0.013-0.005Ma), Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
+- Remains of _Asio madagascariensis_ ([Smith, 1834](https://www.doi.org/10.21504/saqj.s2n4p1.2852)) including DLC 17170, 17255, 17300, 18043, 18100, 18103, 18888, 18973; _Otus rutilus_ ([Pucheran, 1849](https://www.biodiversitylibrary.org/item/19604#page/35/mode/1up)) including DLC 18042, 18945, 18973; and _Ninox superciliaris_ ([Vieillot, 1817](https://www.biodiversitylibrary.org/item/60105#page/41/mode/1up)) including DLC 18103, 18946; from Ankilitelo Cave (0.013-0.005Ma), Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
 **Minimum age:** 58.8Ma\
 **Minimum justification:** The oldest taxon, _Ogygoptynx wetmorei,_ is from the _Plesiadapis churchilli_ biozone, Chron C26r: 58.8-59.5Ma ([Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)).\
@@ -288,7 +288,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 - _Halcyon sancta_ [Vigors & Horsfield, 1827](https://www.biodiversitylibrary.org/item/13694#page/212/mode/1up) – two right humeri (accessions not specified) from the Holocene of Gilles Cave (0.0036-0.0032Ma), New Caledonia ([Balouet & Olson 1989](http://dx.doi.org/10.5479/si.00810282.469)) 
 
 **Minimum age:** 62.2Ma\
-**Minimum justification:** L-6898 was located within magnetochron C27N, constraining the absolute age to between 62.221 and 62.517 Ma (Ksepka et al. 2017).\
+**Minimum justification:** The oldest of these taxa, _Tsidiiyazhi abini,_ is from NMMNH locality L-6898, which was located within magnetochron C27N, constraining the absolute age to between 62.221 and 62.517Ma ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)).\
 **Maximum age:** 91.89Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Coraciimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in an offset skewStudent distribution with offset=62.240, xi=62.334, omega=7.442, alpha=137.954, and nu=2.258.\
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). **{Currently not a clade but that should change with a more thorough analysis, currently Node 600, see CDB’s placement below}**
@@ -485,6 +485,8 @@ Pallas, P. S. 1769. Spicilegia zoologia: quibus novae imprimis et obscurae anima
 
 Parham, J.F., Donoghue, P.C., Bell, C.J., Calway, T.D., Head, J.J., Holroyd, P.A., Inoue, J.G., Irmis, R.B., Joyce, W.G., Ksepka, D.T. and Patané, J.S., 2012. Best practices for justifying fossil calibrations. Systematic biology, 61(2), pp.346-359.
 
+Pucheran, J. 1849. Note sur une nouvelle espèce de hibou de Madagascar. Revue et Magasin de Zoologie Pure et Appliquée, sér. 2, 1: 29.
+
 Rasmussen, D. T., Olson, S. L. & E. L. Simons. 1987. Fossil birds from the Oligocene Jebel Qatrani Formation, Fayum Province, Egypt. Smithsonian Contributions to Paleobiology 62:1-20.
 
 Rich, P.V., 1980. Preliminary report on the fossil avian remains from late Tertiary sediments at Langebaanweg (Cape Province), South Africa. South African Journal of Science, 76(4), pp.166-170.
@@ -509,6 +511,8 @@ Simpson, G.G. 1979b. Tertiary penguins from the Duinefontein site, Cape Province
 
 Slack, K. E., C. M. Jones, T. Ando, G. L. Harrison, R. E. Fordyce, U. Arnason & D. Penny 2006. Early penguin fossils, plus mitochondrial genomes, calibrate avian evolution. Mol. Biol. Evol. 23 (6):1144-1155.
 
+Smith, A. 1834. Descriptions of some African birds. South African Quarterly Journal 2(4, pt. 1): 315–317.
+
 Smith, M.E., Carroll, A.R., & Singer, B.S. 2008 Synoptic reconstruction of a major ancient lake system: Eocene Green River Formation, western United States. Geological Society of America Bulletin 120 (1/2), pp 54-84.
 
 Smith, M.E., Chamberlain, K.R., Singer, B.S. & Carroll, A.R. (2010): Eocene clocks agree: coeval 40Ar/39Ar, U-Pb, and astronomical ages from the Green River Formation. Geology 38 (6), pp 527-530.
@@ -532,6 +536,8 @@ Tambussi, C.P., F.J. Degrange, R.S. De Mendoza, E. Sferco & S. Santillana. 2019.
 Thomas, D. B., & D. T. Ksepka. 2013. A history of shifting fortunes for African penguins. Zoological Journal of the Linnean Society 168:207-2019.
 
 van Beneden PJ 1871. Les oiseaux de l’argile rupélienne. Bulletin de l’Académie Royale des Sciences, Lettres et Beaux-Arts de Belgique, série 2 32: 256–261.
+
+Vieillot, L. P. 1817. Nouveau Dictionnaire d’Histoire Naturelle, nouvelle édition, vol. 7. Paris: Deterville. 586 pp.
 
 Vigors, N. A. & Horsfield, T. 1827. A description of the Australian birds in the collection of the Linnean Society; with an attempt at arranging them according to their natural affinities. Transactions of the Linnean Society of London 15(1): 170–331.
 
