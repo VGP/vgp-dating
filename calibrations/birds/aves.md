@@ -313,7 +313,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - Corvoidea indet. – partial skeleton impression (TRPM 667-011) from the Fuganji member of the Iwami formation (16.0-17.6Ma; [Hirao et al. 2005](https://www.researchgate.net/publication/257922534_Stratigraphy_and_fossil_fishes_of_the_Fuganji_Formation_at_Miyanoshita_Kokufu-cho_Tottori_Japan)) Japan ([Kakegawa & Hirao 2003](https://gbank.gsj.jp/geolis/geolis_link/200424147/en)).
 
-- Remains of _Phedina borbonica_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/66/mode/1up)) including DLC 18103; _Corvus albus_ [Müller, 1776](https://www.biodiversitylibrary.org/item/218386#page/105/mode/1up) including DLC 17187D, 17189, 17216, 17246, 17265, 17268, 17272, 17298, 17300, 18099, 18102, 18103, 18105, 18157, 18758, 18876, 18906, 18909, 18921, 18944, 18946; and unspecified _Ploceus sakalava_ from Ankilitelo Cave (0.0112-0.005Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
+- Remains of _Phedina borbonica_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/66/mode/1up)) including DLC 18103; _Corvus albus_ [Müller, 1776](https://www.biodiversitylibrary.org/item/218386#page/105/mode/1up) including DLC 17187D, 17189, 17216, 17246, 17265, 17268, 17272, 17298, 17300, 18099, 18102, 18103, 18105, 18157, 18758, 18876, 18906, 18909, 18921, 18944, 18946; and unspecified _Ploceus sakalava_ [Hartlaub, 1861](https://www.biodiversitylibrary.org/page/15140643#page/70/mode/1up) from Ankilitelo Cave (0.0112-0.005Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
 **Minimum age:** 54.6Ma\
 **Minimum justification:** Based on the oldest taxon _Morsoravis sedilis_ from the bottom of the Fur Formation, which was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation suggesting a minimum age of 54.6Ma ([Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)).
@@ -418,6 +418,8 @@ Guérin, C, M. A. Curvello, M. Faure, M. Hugueney & C. Mourer-Chauviré 1996 The
 Guilday, J. E., P. W. Parmalee, and H. W. Hamilton. 1977. The Clark's Cave bone deposit and the Late Pleistocene paleoecology of the central Appalachian Mountains of Virginia. Bulletin of Carnegie Museum of Natural History 2:1-87.
 
 Harrison, C. J. O.  1984. A revision of the fossil swifts (Vertebrata, Aves, suborder, Apodi), with descriptions of three new genera and two new species. Mededelingen van de Werkgroep voor Tertiaire en Kwartaire Geologie 21(4):157-177.
+
+Hartlaub, G. 1861. Ornithologischer Beitrag zur Fauna Madagaskar’s. Bremen: C. Schünemann, p. 54.
 
 Heingård, M., Musser, G., Hall, S. A., & Clarke, J. A. (2021). New remains of Scandiavis mikkelseni inform avian phylogenetic relationships and brain evolution. Diversity, 13(12), 651.
 
