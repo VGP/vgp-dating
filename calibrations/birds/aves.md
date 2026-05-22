@@ -241,7 +241,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 **Node 653:** Accipitrimorphae + Strigiformes | 74.4-58.8Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Strigiformes (_Athene noctua_) and Accipitriformes (_Buteo buteo_).\
-**Fossil taxa:**
+**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Accipitrimorphae + Strigiformes:
 
 - _Ogygoptynx wetmorei_ [Rich & Bohaska, 1976](https://doi.org/10.5479/si.00810266.27.87) – tarsometatarsus (AMNH 2653) from the Late Paleocene of Mason Pocket (Ti-4a, Tiffanian NALMA, 58.8-59.5Ma; [Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)), Colorado, USA ([Rich & Bohaska 1976](https://doi.org/10.5479/si.00810266.27.87)).
 
@@ -253,7 +253,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Archaehierax sylvestris_ [Mather, Lee, Camens, & Worthy, 2022](https://doi.org/10.1080/08912963.2021.1966777) – multiple bones (SAMA P.54998) from Site 12a, Lake Pinpa, Frome Downs Station, Callabonna Sub-Basin, S.A. Dolomite bed of Namba Formation, Pinpa LF, late Oligocene (26-24Ma), assigned to Accipitridae ([Mather et al. 2022](https://doi.org/10.1080/08912963.2021.1966777)).
 
-– Accipitridae indet. – tibiotarsus (MNZ S4281) and ulna (MNZS42490) from Bannockburn Formation, St Bathans Fauna (18.26-15.97Ma), Otago, New Zealand ([Worthy et al. 2007](https://doi.org/10.1017/S1477201906001957)).
+- Accipitridae indet. – tibiotarsus (MNZ S4281) and ulna (MNZS42490) from Bannockburn Formation, St Bathans Fauna (18.26-15.97Ma), Otago, New Zealand ([Worthy et al. 2007](https://doi.org/10.1017/S1477201906001957)).
 
 - Strigidae indet. – unspecified material, presumably in the MACN, from the Pinturas Formation (19-14Ma), Santa Cruz, Argentina ([Chiappe 1991](https://doi.org/10.1080/02724634.1991.10011425)).
 
