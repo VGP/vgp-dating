@@ -267,6 +267,32 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
+**Node 600:** Coraciimorphae | 91.89-62.2Ma\
+**Node calibrated:** Last common ancestor of clade encompassing Coliiformes (_Colius striatus_) and Coraciiformes (_Merops nubicus_)\
+**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Coraciimorphae:
+
+●      Tsidiiyazhi abini Ksepka et al. 2017 associated partial skeleton from the Ojo Encino Member of the Nacimiento Formation (62.52 - 62.22 Ma), New Mexico, USA. 
+
+●      Septentrogon madseni Kristoffersen 2002, fragmentary cranium without rostrum or palatines from levels containing ash layers +25 through +30 in the Silstrup Mb. (55.4 Ma, see justification under Septencoracias), Fur Formation, Denmark.
+
+●      Ueekenkcoracias tambussiae Degrange, Pol, Puerta & Wilf 2021, incomplete right hind limb, preserved in two slabs as part and counterpart (MPEF-PV 10991) from the Huitrera Formation at Laguna del Hunco, quarry LH27 (52.2 Ma) Chubut prov., Argentina.
+
+●      Foshanornis songi Zhao et al. 2015, semiarticulated nearly complete skeleton from the Buxin Formation (55.8 - 48.6 Ma), China.
+
+●      Coliidae indet, fragmented distal tarsometatarsus from Grillental (20 Ma), Northern Sperrgebiet, Namibia (Mourer-Chauviré 2008). 
+
+●      Halcyonidae, a complete carpometacarpus from Last Minute Site, Faunal Zone C (16 - 11.6 Ma), Riversleigh, Australia (Boles 1997). The bone differs from that of all modern genera examined including Halcyon (Boles 1997).
+
+●      Leptosomus discolor remains from Ankilitelo Cave (0.013 - 0.005 Ma), Madagascar (Goodman et al. 2013).
+
+●      Halcyon sancta two right humeri from the Holocene of Gilles Cave (0.0036 - 0.0032 Ma), New Caledonia (Balouet & Olson 1989) 
+
+**Minimum age:** 62.2Ma\
+**Minimum justification:** L-6898 was located within magnetochron C27N, constraining the absolute age to between 62.221 and 62.517 Ma (Ksepka et al. 2017).\
+**Maximum age:** 91.89Ma\
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Coraciimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in an offset skewStudent distribution with offset=62.240, xi=62.334, omega=7.442, alpha=137.954, and nu=2.258.\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). **{Currently not a clade but that should change with a more thorough analysis, currently Node 600, see CDB’s placement below}**
+
 ---
 
 ---
