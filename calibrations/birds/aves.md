@@ -295,6 +295,32 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
+**Node 603:** stem Psittacopasseres | 80.46-54.6Ma\
+**Node calibrated:** Last common ancestor of clade encompassing Psittaciformes (_Ara ararauna_) and Passeriformes (_Passer domesticus_).\
+**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the stem of Psittacopasseres:
+
+·      Morsoravis sedilis Bertelli et al. 2010, articulated skeleton including the skull, vertebral column, pelvic girdle and hind limbs (Geological Museum, University of Copenhagen 28930) from the Fur Formation (55.8 - 54.6 Ma), Denmark. Initial cladistic analysis placed Morsoravis in the Charadriiformes, but a reexamination of the specimen and a more complete matrix placed Morsoravis as a stem Passeriformes (Mayr 2015). This result was replicated by a second matrix (modified from Ksepka et al. 2017) of 34 species representing major clades of Telluraves, 28 fossil taxa and 146 morphological characters (Ksepka et al. 2019).
+
+·      Eozygodactylus americanus Weidig 2010 (Zygodactylidae), two partial articulated skeletons from the Fossil Butte Member of the Green River Formation (Early Eocene, 52 Ma). Shows derived characters shared with Zygodactylus and Primozygodactylus (Weidig 2010). A cladistic analysis didn’t confirm the monophyly of Zygodactylidae but showed all these zygodactyl genera as stem members of Passeriformes (Ksepka et al. 2019)
+
+·      Namapsitta praeruptorum (Psittaciformes?) distal tarsometatarsus from Eocliff (Middle Eocene 40.4 37.2 Ma), Namibia (Mourer-Chauvire et al. 2015)
+
+·      Nelepsittacus minimus Worthy et al. 2011 (Nestoridae), isolated long bones from the Bannockburn Formation, St Bathans Fauna (early Miocene: 19 - 16 Ma), Otago, New Zealand. Family assignment based on putative apomorphies (Worthy et al. 2011).
+
+·      Orthonyx kaldowinyeri Boles 1993, distal right tarsometatarsus (QM F30244) from Neville’s Garden SiteFaunal Zones A at Hiatus Site (18.5 – 17.5 Ma, Woodhead et al. 2016), Riversleigh, Australia (Nguyen et al. 2013).
+
+•	Tyrannidae indet. distal humerus (MACN-SC-1411) from the middle levels of the Pinturas Formation at “Portezuelo Sumich Sur,” Santa Cruz, Argentina (Noriega & Chiappe 1993). Portezuelo Sumich Sur has not been dated but sits on top of. Tephra samples were dated at 16.8 Ma at Portezuelo Sumich North, which exposes deeper levels of the formation (Kramarz & Bellosi 2005, Fleagel et al. 2012), thus we use that date as a maximum bound for the fossil. 40Ar/39Ar dates obtained form the top of the middle level yielded an age of 16.5 Ma (Kramarz & Bellosi 2005), providing a minimum bound for the fossil.
+
+·      Corvoidea indet. a partial skeleton impression (TRPM 667-011) from the Fuganji member of the Iwami formation (16.0 - 17.6 Ma, Hirao et al. 2005) Japan (Kakegawa & Hirao 2003).
+
+·      Phedina borbonica, Corvus albus, Ploceus sakalava remains from Ankilitelo Cave (0.0112 - 0.005 Ma) Madagascar (Goodman et al. 2013).
+
+**Minimum age:** 54.6Ma\
+**Minimum justification:** Based on the oldest taxon _Morsoravis sedilis_ from the bottom of the Fur Formation, which was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation suggesting a minimum age of 54.6Ma ([Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)).
+**Maximum age:** 81.04 Ma\
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of stem Psittacopasseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=55.151, omega=6.290, alpha=38.217, and nu=2.216.\
+**Discussion:** Derived from Lowi-Merri et al. ([2024](https://doi.org/10.1080/14772019.2024.2356086)). This constraint has raised informal discussion, as the fossil was described originally as an ancient shorebird, but the most recent total-evidence phylogenetic analyses place _Morsoravis_ on the stem of Passeriformes.
+
 ---
 
 ---
@@ -422,6 +448,8 @@ Kurochkin, E. N. 1976. A survey of the Paleogene birds of Asia. Smithson. Contri
 Kurochkin E. N. & A. A. Dyke 2009. A large collection of Presbyornis (Aves, Anseriformes, Presbyornithidae) from the late Paleocene and early Eocene of Mongolia. Geological Journal 45:375-387.
 
 Linnaeus, C. 1758. Systema Naturae, 10th edition, vol. 1. Stockholm: Laurentius Salvius.
+
+Lowi-Merri, T. M., Gjevori, M., Bochenski, Z. M., Wertz, K., & Claramunt, S. (2024). Total-evidence dating and the phylogenetic affinities of early fossil passerines. Journal of Systematic Palaeontology, 22(1), 2356086.
 
 Manegold, A., A. Louchart, J. Carrier & A. Elzanowski 2013 The early Pliocene avifauna of Langebaanweg (South Africa): a review and update. In Paleornithological Research 2013: Proceedings of the 8th International Meeting of the Society of Avian Paleontology and Evolution pp. 135-152. 
 
