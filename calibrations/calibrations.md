@@ -32,7 +32,7 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 -_Guiyu,_ from the Kuanti Formation near the Ludlow-Pridoli boundary of the Silurian.
 
 
-## [Fishes](./fishes/fishes.md): {resolve maximum age for Cyclostomata}
+## [Fishes](./fishes/fishes.md): {resolve Cyclostomata into Early Vertebrates}
 
 **982:** Teleostei | 145.5–298.9Ma\
 -_Orthogonikleithrus,_ from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.
