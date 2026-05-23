@@ -350,7 +350,18 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
 
 ---
+### Possible additions
 
+**Node 612:** Passerellidae and allies | **$XXX**-7.5Ma\
+**Node calibrated:** Last common ancestor of clade encompassing Passerellidae () and Icteridae () + Parulidae ()\
+**Fossil taxon:** _Palaeostruthus hatcheri_ ([Shufeldt, 1913](http://hdl.handle.net/2246/1412)) – rostrum maxillae (holotype USNM 6647) collected from "Quarry E" near Long Island in Phillips County, Kansas, USA ([Steadman 1981](https://doi.org/10.1080/02724634.1981.10011889)).\
+**Minimum age:** 7.5Ma\
+**Minimum justification:** The holotype is from the Barstovian–Hemphillian (Miocene-Pliocene) Ogallala Formation. The deposits at Long Island quarry are early Hemphillian (Hh1, late Miocene; [Janis et al. 2008](https://doi.org/10.1017/CBO9780511541438)). This gives an estimated age of 9.0–7.5Ma for the fossil, based on Hh1 boundaries in Hilgen et al. ([2012](https://doi.org/10.1016/B978-0-444-59425-9.00029-9)).\
+**Maximum age:** **$XXX**Ma\
+**Maximum justification:** **$XXX MAXIMUM JUSTIFICATION NEEDED**\
+**Discussion:** This fossil has not been included in an explicit phylogenetic analysis, and therefore does not satisfy all criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)). However, expert appraisal (DFJ and DTK, _pers. comm._) during the preparation of Oliveiros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)) found numerous apparent synapomorphies supporting referral to at least a broader emberizoid subclade including Passerellidae. As a consequence, we treat it as a provisionally appropriate calibration for this node.
+
+---
 ### Notes
 **DJF:** Just wondering if it would make sense to add any internal calibrations for Palaeognathae? I think _Emuarius gidju_ is clearly a total-clade casuariid, so it could calibrate the _Dromaius_-_Apteryx_ node in the tree at ~24.5Ma. **SC:** But _Emuarius_ is sister to _Dromaiaus_ (Worthy et al. 2014), thus calibrating crown Casuariiformes. It would be a stretch to use it for the much deeper node you mention. Unfortunately, we don't have _Cassuarius_ in the dataset.
 
@@ -361,15 +372,6 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **DJF:** Deeper within Strisores it could be possible to calibrate some of the divergences within 'Caprimulgiformes'. For instance, since _Prefica_ looks like a stem-Oilbird (and we assume monophyly of Sedentaves, i.e. Steatornis + Nyctibiidae), then _Prefica_ would provide a calibration for the MRCA of _Nyctibius_ and its sister taxon in the tree at 51.8Ma.
 
 **DJF:** The sampling in the tree would allow calibration of crown Gruidae (MRCA of _Balearica_ and _Grus_) at 10.3Ma using _Balearica exigua_ (although I think it would be interesting to revisit this taxon). **SC:** a potentially good addition, but there is no phylogenetic analysis of B. exigua.
-
-**Node 612:** Passerellidae and allies | XX-7.5Ma\
-**Node calibrated:** Last common ancestor of clade encompassing Passerellidae and Icteridae + Parulidae\
-**Fossil taxa:** Palaeostruthus hatcheri (holotype USNM 6647). Palaeostruthus hatcheri (Shufeldt, 1913), rostrum maxillae (holotype USNM 6647). It was collected from "Quarry E" near Long Island in Phillips County, Kansas, United States of America.\
-**Minimum age:** 7.5Ma\
-**Minimum justification:** The holotype is from the Barstovian–Hemphillian (Miocene-Pliocene) Ogallala Formation. The deposits at Long Island quarry are early Hemphillian (Hh1; late Miocene) (Janis et al. 2008). This gives an estimated age of 9.0–7.5Ma for the fossil, based on Hh1 boundaries in Hilgen et al. (2012).\
-**Maximum age:** XXXMa\
-**Maximum justification:**\
-**Discussion:** **SC:** This fossil has never been analyzed using phylogenetic methods and its affinities are a matter of opinion. Let's not use this one unless we determine that it may be needed. **DJF:** I don't disagree that the fossil is potentially controversial, although Dan and I looked carefully at this one when we were working on the Oliveros et al. passerine paper and had to agree that everything is consistent with a referral to at least a broader emberizoid subclade including Passerellidae. **SC:** I think it can be referred to Passerellidae, in particular. Could add this calibration but would not be compliant with the Parham "best practices" because of a lack of phylogenetic analysis.
 
 ---
 
@@ -455,6 +457,8 @@ Hermann, J. 1783. Tabula affinitatum animalium. Strasbourg: J.G. Treuttel. p. 18
 
 Hesse, A. 1992. A new species of Messelornis (Aves: Gruiformes: Messelornithidae) from the Middle Eocene Green River Formation. Papers in Avian Paleontology honoring Pierce Brodkorb.-Los Angeles County Museum of Natural History, Science Series, 36, 171-178.
 
+Hilgen, F. J., Lourens, L. J., & Van Dam, J. A. 2012. The Neogene Period. In F. M. Gradstein, J. G. Ogg, M. D. Schmitz, & G. M. Ogg (eds.), The Geologic Time Scale 2012, vol. 2, pp. 923–978. Elsevier, Amsterdam.
+
 Hirao, K., Yano, T., Uyeno, T., Yabumoto, Y., & Aoki, T. (2005). Stratigraphy and fossil fishes of the Fuganji Formation at Miyanoshita, Kokufu-cho, Tottori, Japan. Bull. Tottori Pref. Mus, 42, 3-20.
 
 Hoch, E. 1997. Notes on palaeornithology and on a New Bird from the Early Tertiary North Sea Region. Geological Society of Denmark, Online Series 1.
@@ -466,6 +470,8 @@ Hou, L.H. 1990 An Eocene bird from Songzi, Hubei province. Vertebr. Palasiat. 28
 Houde, P., Dickson, M., & Camarena, D. (2023). Basal anseriformes from the early Paleogene of North America and Europe. Diversity, 15(2), 233.
 
 Howard, H. 1992. New records of middle Miocene anseriform birds from Kern County, California. Papers in Avian Paleontology Honoring Pierce Brodkorb. Natural History Museum of Los Angeles County, Science Series, 36, 231-237
+
+Janis, C.M., Gunnell, G.F., & Uhen, M.D., eds. 2008. Evolution of Tertiary Mammals of North America. Cambridge University Press.
 
 Jenkins, R. J. F. 1974. A new giant penguin from the Eocene of Australia. Palaeontology, 17, 2, 291–310.
 
@@ -563,6 +569,8 @@ Nguyen, J. M. T., Boles, W. E., Worthy, T. H., Hand, S. J., & Archer, M. (2014).
 
 Noriega, J. I., & Chiappe, L. M. (1993). An early Miocene passeriform from Argentina. The Auk, 936-938.
 
+Oliveros, C.H., Field, D.J., Ksepka, D.T., Barker, F.K., Aleixo, A., Andersen, M.J., Alström, P., Benz, B.W., Braun, E.L., Braun, M.J. and Bravo, G.A., 2019. Earth history and the passerine superradiation. Proceedings of the National Academy of Sciences, 116(16), pp.7916-7925.
+
 Olson, S. L. 1992 A new family of primitive landbirds from the Lower Eocene Green River Formation of Wyoming. Natural History Museum of Los Angeles County Science Series 36, pp 127-136.
 
 Olson, S. L. 1994. A giant Presbyornis (Aves, Anseriformes) and other birds from the Paleocene Aquia Formation of Maryland and Virginia. Proceedings of the Biological Society of Washington 107:429-435.
@@ -587,6 +595,8 @@ Seiffert, E. R. 2006 Revised Age Estimates for the Later Paleogene Mammal Faunas
 
 Shaw, G. 1796. Cimelia Physica. Figures of rare and curious quadrupeds, birds, etcetera, together with several of the most elegant plants. B. & J. White, London
 
+Shufeldt, R. W. 1913. Further studies of fossil birds with descriptions of new and extinct species. Bulletin of the American Museum of Natural History 32(16):285-306.
+
 Shute, E., Prideaux, G.J., Worthy, T.H. 2016. Three terrestrial Pleistocene coucals (Centropus: Cuculidae) from southern Australia: biogeographical and ecological significance, Zoological Journal of the Linnean Society, 177, 964–1002.
 
 Simpson, G.G. 1971. Fossil penguin from the late Cenozoic of South Africa. Science, 171(3976), pp.1144-1145.
@@ -608,6 +618,8 @@ Smith, M.E., Chamberlain, K.R., Singer, B.S. & Carroll, A.R. (2010): Eocene cloc
 Smith, N.A., Stidham, T.A. and Mitchell, J.S., 2020. The first fossil owl (Aves, Strigiformes) from the Paleogene of Africa. Diversity, 12(4), p.163.
 
 Speijer, R. P., Pälike, H., Hollis, C. J., Hooker, J. J., & Ogg, J. G. 2020. The Paleogene Period. In F. M. Gradstein, J. G. Ogg, M. D. Schmitz, & G. M. Ogg (Eds.), Geologic Time Scale 2020 (pp. 1087–1140). Elsevier B.V.: Amsterdam.
+
+Steadman, D. W. (1981). A re-examination of Palaeostruthus hatcheri (Shufeldt), a late Miocene sparrow from kansas. Journal of Vertebrate Paleontology, 1(2), 171–173.
 
 Stiller, J., Feng, S., Chowdhury, A.A., Rivas-González, I., Duchêne, D.A., Fang, Q., Deng, Y., Kozlov, A., Stamatakis, A., Claramunt, S. and Nguyen, J.M., 2024. Complexity of avian evolution revealed by family-level genomes. Nature, 629(8013), pp.851-860.
 
