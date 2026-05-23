@@ -331,11 +331,11 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
  
 - _Orthonyx kaldowinyeri_ [Boles, 1993](https://doi.org/10.1071/MU9930044) – distal right tarsometatarsus (QM F30244) from Neville’s Garden Site, Faunal Zones A at Hiatus Site (18.5–17.5Ma; [Woodhead et al. 2016](https://doi.org/10.1016/j.gr.2014.10.004)), Riversleigh, Australia ([Nguyen et al. 2014](https://doi.org/10.1080/03115518.2014.861732)).
 
-– Artamidae indet. – proximal scapula fragment (NMNZ S41061) from the Bannockburn Formation (early Miocene, Altonian: 18.26–15.97Ma) of Otago, New Zealand ([Worthy et al. 2007](https://doi.org/10.1017/S1477201906001957)).
+- Artamidae indet. – proximal scapula fragment (NMNZ S41061) from the Bannockburn Formation (early Miocene, Altonian: 18.26–15.97Ma) of Otago, New Zealand ([Worthy et al. 2007](https://doi.org/10.1017/S1477201906001957)).
 
 - Corvides indet. – partial skeleton impression from the Fuganji Member of the Iwami Formation (17.6–16.0Ma; [Micklich et al. 2017](https://doi.org/10.1007/s12542-017-0340-1)), Miyanoshita, Japan ([Kakegawa & Hirao 2003](https://gbank.gsj.jp/geolis/geolis_link/200424147/en)).
 
-– Passeriformes indet. – fragmentary distal humerus (Kenyan National Museum-SO 5466) from the Early Miocene (23.04-15.99Ma) of Songhor, Kenya ([Mayr 2014](https://doi.org/10.1016/j.geobios.2014.03.001)).
+- Passeriformes indet. – fragmentary distal humerus (Kenyan National Museum-SO 5466) from the Early Miocene (23.04-15.99Ma) of Songhor, Kenya ([Mayr 2014](https://doi.org/10.1016/j.geobios.2014.03.001)).
 
 - _Miocitta galbreathi_ [Brodkorb, 1972](https://doi.org/10.2307/1366596) – humerus (SIU P198) from the middle Miocene (Barstovian: 14.78–14.07Ma) Pawnee Creek Formation in Logan County, Colorado, USA.
 
