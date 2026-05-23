@@ -323,6 +323,16 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
+**Node 605:** Eupasseres | 45.7-30.2Ma\
+**Node calibrated:** Last common ancestor of clade encompassing Tyranni (_Willisornis vidua_) and Passeri (_Passer domesticus_)\
+**Fossil taxa:** 
+
+**Minimum age:** 30.2Ma\
+**Minimum justification:** Based on the oldest taxon _Wieslochia_. Biostratigraphic correlations of calcareous nannofossils and  dinoflagellate cysts place the youngest Hochberg Member present in Rauenberg in the intersection of NP23 and Subzone D14a ([Maxwell et al. 2016](https://doi.org/10.1016/j.palaeo.2016.10.002)), indicating an age of 30.2–32.0Ma ([Speijer et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00028-0)).\
+**Maximum age:** 45.73Ma\
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of stem Eupasseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in an offset skewStudent distribution with offset=30.233, xi=30.841, omega=4.250, alpha=12.623, and nu=2.737.\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
+
 ---
 
 ### Notes
