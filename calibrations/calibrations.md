@@ -17,7 +17,7 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 -Chengjiang fossils such as _Haikouichthys_ from the Chengjiang biota of the Cambrian.
 
 
-## [Early vertebrates](./vertebrates/vertebrata.md):
+## [Early vertebrates](./vertebrates/vertebrata.md): {resolve maximum age for Cyclostomata}
 
 **585:** Vertebrata: 497.0–590.8Ma\
 -_Furnishina,_ from the middle Cambrian Huaqiao Formation.
@@ -32,7 +32,7 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 -_Guiyu,_ from the Kuanti Formation near the Ludlow-Pridoli boundary of the Silurian.
 
 
-## [Fishes](./fishes/fishes.md):
+## [Fishes](./fishes/fishes.md): {resolve maximum age for Cyclostomata}
 
 **982:** Teleostei | 145.5–298.9Ma\
 -_Orthogonikleithrus,_ from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.
@@ -91,7 +91,7 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 **1145:** Batomorpha | 184.2–251.2Ma\
 -_Antiquaobatis,_ from the Komorowo formation (Jurassic: Pliensbachian), Mecklenburg-Vorpommern, Germany.
 
-**1150:** Cyclostomata | 358.9–506.5Ma [THIS NODE/CAL IS DUPLICATED ABOVE UNDER EARLY VERTS.]\
+**1150:** Cyclostomata | 358.9–506.5Ma\
 -_Priscomyzon,_ from the Witpoort formation (Devonian: Fammenian), Eastern Cape Province, South Africa.
 
 _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placement
