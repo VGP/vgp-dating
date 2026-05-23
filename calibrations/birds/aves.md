@@ -309,11 +309,11 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - _Orthonyx kaldowinyeri_ [Boles, 1993](https://doi.org/10.1071/MU9930044) – distal right tarsometatarsus (QM F30244) from Neville’s Garden Site, Faunal Zones A at Hiatus Site (18.5–17.5Ma; [Woodhead et al. 2016](https://doi.org/10.1016/j.gr.2014.10.004)), Riversleigh, Australia ([Nguyen et al. 2014](https://doi.org/10.1080/03115518.2014.861732)).
 
-- Tyrannidae indet. – distal humerus (MACN-SC-1411) from the middle levels of the Pinturas Formation at “Portezuelo Sumich Sur,” Santa Cruz, Argentina ([Noriega & Chiappe 1993](https://doi.org/10.2307/4088653)). Portezuelo Sumich Sur has not been dated but sits on top of tephra samples that were dated at 16.8Ma at Portezuelo Sumich North, which exposes deeper levels of the formation ([Kramarz & Bellosi 2005](https://doi.org/10.1016/j.jsames.2004.10.005), [Fleagel et al. 2012](https://doi.org/10.1017/CBO9780511667381.003)), thus we use that date as a maximum bound for the fossil. 40Ar/39Ar dates obtained from the top of the middle level yielded an age of 16.5Ma ([Kramarz & Bellosi 2005](https://doi.org/10.1016/j.jsames.2004.10.005)), providing a minimum bound as well.
+- cf. Tyrannidae – distal humerus (MACN-SC-1411) from the middle levels of the Pinturas Formation at “Portezuelo Sumich Sur,” Santa Cruz, Argentina ([Noriega & Chiappe 1993](https://doi.org/10.2307/4088653)). Portezuelo Sumich Sur has not been dated but sits on top of tephra samples that were dated at 16.8Ma at Portezuelo Sumich North, which exposes deeper levels of the formation ([Kramarz & Bellosi 2005](https://doi.org/10.1016/j.jsames.2004.10.005), [Fleagel et al. 2012](https://doi.org/10.1017/CBO9780511667381.003)), thus we use that date as a maximum bound for the fossil. 40Ar/39Ar dates obtained from the top of the middle level yielded an age of 16.5Ma ([Kramarz & Bellosi 2005](https://doi.org/10.1016/j.jsames.2004.10.005)), providing a minimum bound as well.
 
 - Corvoidea indet. – partial skeleton impression (TRPM 667-011) from the Fuganji member of the Iwami formation (16.0-17.6Ma; [Hirao et al. 2005](https://www.researchgate.net/publication/257922534_Stratigraphy_and_fossil_fishes_of_the_Fuganji_Formation_at_Miyanoshita_Kokufu-cho_Tottori_Japan)) Japan ([Kakegawa & Hirao 2003](https://gbank.gsj.jp/geolis/geolis_link/200424147/en)).
 
-- Remains of _Phedina borbonica_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/66/mode/1up)) including DLC 18103; _Corvus albus_ [Müller, 1776](https://www.biodiversitylibrary.org/item/218386#page/105/mode/1up) including DLC 17187D, 17189, 17216, 17246, 17265, 17268, 17272, 17298, 17300, 18099, 18102, 18103, 18105, 18157, 18758, 18876, 18906, 18909, 18921, 18944, 18946; and unspecified _Ploceus sakalava_ [Hartlaub, 1861](https://www.biodiversitylibrary.org/page/15140643#page/70/mode/1up) from Ankilitelo Cave (0.0112-0.005Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
+- Remains of _Phedina borbonica_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/66/mode/1up)) including DLC 18103; _Corvus albus_ [Müller, 1776](https://www.biodiversitylibrary.org/item/218386#page/105/mode/1up) including DLC 17187D, 17189, 17216, 17246, 17265, 17268, 17272, 17298, 17300, 18099, 18102, 18103, 18105, 18157, 18758, 18876, 18906, 18909, 18921, 18944, 18946; and unspecified _Ploceus sakalava_ [Hartlaub, 1861](https://www.biodiversitylibrary.org/page/15140643#page/70/mode/1up) specimens from Ankilitelo Cave (0.0112-0.005Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
 **Minimum age:** 54.6Ma\
 **Minimum justification:** Based on the oldest taxon _Morsoravis sedilis_ from the bottom of the Fur Formation, which was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation suggesting a minimum age of 54.6Ma ([Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)).\
@@ -325,7 +325,23 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 **Node 605:** Eupasseres | 45.7-30.2Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Tyranni (_Willisornis vidua_) and Passeri (_Passer domesticus_)\
-**Fossil taxa:** 
+**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the stem of Eupasseres:
+
+- _Wieslochia weissi_ [Mayr & Manegold, 2006](https://www.app.pan.pl/article/item/app51-315.html) – dissociated nearly complete skeleton preserved in two slabs (SMF Av 497 and SMNK–PAL.3980) from the Rauenberg clay pits (early Oligocene, Rupelian: 32–30.2 Ma) near Frauenweiler, south of Wiesloch, Baden−Württemberg, Germany. Phylogenetic analysis supported the position of Wieslochia as a crown Eupasseres and within Tyranni ([Lowi-Merri et al. 2024](https://doi.org/10.1080/14772019.2024.2356086)).
+ 
+- _Orthonyx kaldowinyeri_ [Boles, 1993](https://doi.org/10.1071/MU9930044) – distal right tarsometatarsus (QM F30244) from Neville’s Garden Site, Faunal Zones A at Hiatus Site (18.5–17.5Ma; [Woodhead et al. 2016](https://doi.org/10.1016/j.gr.2014.10.004)), Riversleigh, Australia ([Nguyen et al. 2014](https://doi.org/10.1080/03115518.2014.861732)).
+
+– Artamidae indet. – proximal scapula fragment (NMNZ S41061) from the Bannockburn Formation (early Miocene, Altonian: 18.26–15.97Ma) of Otago, New Zealand ([Worthy et al. 2007](https://doi.org/10.1017/S1477201906001957)).
+
+- Corvides indet. – partial skeleton impression from the Fuganji Member of the Iwami Formation (17.6–16.0Ma; [Micklich et al. 2017](https://doi.org/10.1007/s12542-017-0340-1)), Miyanoshita, Japan ([Kakegawa & Hirao 2003](https://gbank.gsj.jp/geolis/geolis_link/200424147/en)).
+
+– Passeriformes indet. – fragmentary distal humerus (Kenyan National Museum-SO 5466) from the Early Miocene (23.04-15.99Ma) of Songhor, Kenya ([Mayr 2014](https://doi.org/10.1016/j.geobios.2014.03.001)).
+
+- _Miocitta galbreathi_ [Brodkorb, 1972](https://doi.org/10.2307/1366596) – humerus (SIU P198) from the middle Miocene (Barstovian: 14.78–14.07Ma) Pawnee Creek Formation in Logan County, Colorado, USA.
+
+- cf. Tyrannidae – distal humerus (MACN-SC-1411) from the middle levels of the Pinturas Formation at “Portezuelo Sumich Sur,” Santa Cruz, Argentina ([Noriega & Chiappe 1993](https://doi.org/10.2307/4088653)).  Argon radiometric dates and tephrochronology suggest an age bounded between 16.8–16.5Ma for the middle levels of the Formation ([Kramarz & Bellosi 2005](https://doi.org/10.1016/j.jsames.2004.10.005), [Fleagel et al. 2012](https://doi.org/10.1017/CBO9780511667381.003)). 
+
+- Remains of _Phedina borbonica_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/66/mode/1up)) including DLC 18103; _Corvus albus_ [Müller, 1776](https://www.biodiversitylibrary.org/item/218386#page/105/mode/1up) including DLC 17187D, 17189, 17216, 17246, 17265, 17268, 17272, 17298, 17300, 18099, 18102, 18103, 18105, 18157, 18758, 18876, 18906, 18909, 18921, 18944, 18946; and unspecified _Ploceus sakalava_ [Hartlaub, 1861](https://www.biodiversitylibrary.org/page/15140643#page/70/mode/1up) specimens from Ankilitelo Cave (0.0112-0.005Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
 **Minimum age:** 30.2Ma\
 **Minimum justification:** Based on the oldest taxon _Wieslochia_. Biostratigraphic correlations of calcareous nannofossils and  dinoflagellate cysts place the youngest Hochberg Member present in Rauenberg in the intersection of NP23 and Subzone D14a ([Maxwell et al. 2016](https://doi.org/10.1016/j.palaeo.2016.10.002)), indicating an age of 30.2–32.0Ma ([Speijer et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00028-0)).\
@@ -392,6 +408,8 @@ Bourdon, E., C. Mourer-Chauviré, M. Amaghzaz & Bouya 2008. New specimens of Lit
 Bowman, V., J. Ineson, J. Riding, J. Crame, J. Francis, D. Condon, R. Whittle & F. Ferraccioli. 2016. The Paleocene of Antarctica: Dinoflagellate cyst biostratigraphy, chronostratigraphy and implications for the palaeo-Pacific margin of Gondwana. Gondwana Research 38:132-148.
 
 Braun, E.L., Cracraft, J. and Houde, P., 2019. Resolving the avian tree of life from top to bottom: the promise and potential boundaries of the phylogenomic era. In Avian genomics in ecology and evolution: from the lab into the wild (pp. 151-210). Cham: Springer International Publishing.
+
+Brodkorb, P. 1972. Neogene fossil jays from the Great Plains. Condor 347-349.
 
 Chandler, R., 1999. Fossil birds of Florissant, Colorado: with a description of a new genus and species of cuckoo. Geologic Resources Division, Technical Report, NPS/NRGRD/ GRDTR-99, 49-53.
 
@@ -489,6 +507,8 @@ Mayr, G. 2007. The birds from the Paleocene fissure filling of Walbeck (Germany)
 
 Mayr, G. 2009. Paleogene Fossil Birds. Berlin, Heidelberg: Springer, 262 pp.
 
+Mayr, G. 2014. On the middle Miocene avifauna of Maboko Island, Kenya. Geobios, 47(3), 133-146.
+
 Mayr, G. 2015a. New remains of the Eocene Prophaethon and the early evolution of tropicbirds (Phaethontiformes). Ibis 157(1):54-67.
 
 Mayr, G. 2015b. A new Paleogene procellariiform bird from western North America. Neues Jahrbuch für Geologie und Paläontologie-Abhandlungen 275(1):11-17.
@@ -497,6 +517,8 @@ Mayr, G., 2015c. A reassessment of Eocene parrotlike fossils indicates a previou
 
 Mayr, G. 2016. The world’s smallest owl, the earliest unambiguous charadriiform bird, and other avian remains from the early Eocene Nanjemoy Formation of Virginia (USA). PalZ, 90(4), 747-763.
 
+Mayr, G., & A. Manegold. 2006. New specimens of the earliest European passeriform bird. Acta Palaeontologica Polonica 51:315–323. 
+
 Mayr, G., & T. Smith. 2012. Phylogenetic affinities and taxonomy of the Oligocene Diomedeoididae, and the basal divergences amongst extant procellariiform birds. Zoological Journal of the Linnean Society, 166:854-875.
 
 Mayr, G. & R. P. Scofield. 2016. New avian remains from the Paleocene of New Zealand: the first early Cenozoic Phaethontiformes (tropicbirds) from the Southern Hemisphere. J. Vert. Paleontol.: e1031343.
@@ -504,6 +526,8 @@ Mayr, G. & R. P. Scofield. 2016. New avian remains from the Paleocene of New Zea
 Mayr, G., & Kitchener, A. C. 2023. Early Eocene fossils elucidate the evolutionary history of the Charadriiformes (shorebirds and allies). Journal of Paleontology, 97(4), 941-955.
 
 Mayr, G., & Kitchener, A. C. 2025. Leg bones of the anseriform taxon Nettapterornis from the London Clay of Walton-on-the-Naze and notes on the bony-toothed birds from this locality. PalZ, 99(3), 355-369.
+
+Micklich, N., Bannikov, A. F., & Yabumoto, Y. (2017). First record of ponyfishes (Perciformes: Leiognathidae) from the Oligocene of the Grube Unterfeld (“Frauenweiler”) clay pit. PalZ, 91(3), 375-398.
 
 Milne-Edwards, A. 1863. Sur la distribution géologique des oiseaux fossiles et description de quelques espèces nouvelles. Comptes rendus hebdomadaires des séances de l'Académie des sciences 56: 1219–1222.
 
