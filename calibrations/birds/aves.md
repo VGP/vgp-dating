@@ -291,7 +291,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum justification:** The oldest of these taxa, _Tsidiiyazhi abini,_ is from NMMNH locality L-6898, which was located within magnetochron C27N, constraining the absolute age to between 62.221 and 62.517Ma ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)).\
 **Maximum age:** 91.89Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Coraciimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in an offset skewStudent distribution with offset=62.240, xi=62.334, omega=7.442, alpha=137.954, and nu=2.258.\
-**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). **{Currently not a clade but that should change with a more thorough analysis, currently Node 600, see CDB’s placement below}**
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). 
+**{Not a clade in the ROADIES tree but recovered in the newer analyses}**
 
 ---
 
@@ -360,18 +361,6 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Maximum age:** **$XXX**Ma\
 **Maximum justification:** **$XXX MAXIMUM JUSTIFICATION NEEDED**\
 **Discussion:** This fossil has not been included in an explicit phylogenetic analysis, and therefore does not satisfy all criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)). However, expert appraisal (DJF and DTK, _pers. comm._) during the preparation of Oliveiros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)) found numerous apparent synapomorphies supporting referral to at least a broader emberizoid subclade including Passerellidae. As a consequence, we treat it as a provisionally appropriate calibration for this node.
-
----
-### Notes
-**DJF:** Just wondering if it would make sense to add any internal calibrations for Palaeognathae? I think _Emuarius gidju_ is clearly a total-clade casuariid, so it could calibrate the _Dromaius_-_Apteryx_ node in the tree at ~24.5Ma. **SC:** But _Emuarius_ is sister to _Dromaiaus_ (Worthy et al. 2014), thus calibrating crown Casuariiformes. It would be a stretch to use it for the much deeper node you mention. Unfortunately, we don't have _Cassuarius_ in the dataset.
-
-**DJF:** I like Romainvillia as a calibration for crown Anseres (Anatidae + Anseranatidae), but it looks like Anhimidae and Anseranas are not included in the tree [re: Node 709]
-
-**DJF:** Crown Columbimorphae? Santiago and Josefin, since the Pteroclidae + Columbidae split is represented in the tree, should we calibrate that node? I think Leptoganga sepultus provides a good calibration for that node. Since it is thought to be a stem-sandgrouse, it would calibrate the sandgrouse-pigeon divergence at 23.9Ma based on the age of the Quercy fissure fillings. **SC:** Is there a phylogenetic analysis of Leptoganga?
-
-**DJF:** Deeper within Strisores it could be possible to calibrate some of the divergences within 'Caprimulgiformes'. For instance, since _Prefica_ looks like a stem-Oilbird (and we assume monophyly of Sedentaves, i.e. Steatornis + Nyctibiidae), then _Prefica_ would provide a calibration for the MRCA of _Nyctibius_ and its sister taxon in the tree at 51.8Ma.
-
-**DJF:** The sampling in the tree would allow calibration of crown Gruidae (MRCA of _Balearica_ and _Grus_) at 10.3Ma using _Balearica exigua_ (although I think it would be interesting to revisit this taxon). **SC:** a potentially good addition, but there is no phylogenetic analysis of B. exigua.
 
 ---
 
