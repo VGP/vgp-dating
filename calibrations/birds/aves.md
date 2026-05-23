@@ -353,13 +353,13 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 ### Possible additions
 
 **Node 612:** Passerellidae and allies | **$XXX**-7.5Ma\
-**Node calibrated:** Last common ancestor of clade encompassing Passerellidae () and Icteridae () + Parulidae ()\
+**Node calibrated:** Last common ancestor of clade encompassing Passerellidae (_Zonotrichia albicollis_) and Icteridae (_Agelaius phoeniceus_) + Parulidae (_Geothlypis trichas_)\
 **Fossil taxon:** _Palaeostruthus hatcheri_ ([Shufeldt, 1913](http://hdl.handle.net/2246/1412)) – rostrum maxillae (holotype USNM 6647) collected from "Quarry E" near Long Island in Phillips County, Kansas, USA ([Steadman 1981](https://doi.org/10.1080/02724634.1981.10011889)).\
 **Minimum age:** 7.5Ma\
 **Minimum justification:** The holotype is from the Barstovian–Hemphillian (Miocene-Pliocene) Ogallala Formation. The deposits at Long Island quarry are early Hemphillian (Hh1, late Miocene; [Janis et al. 2008](https://doi.org/10.1017/CBO9780511541438)). This gives an estimated age of 9.0–7.5Ma for the fossil, based on Hh1 boundaries in Hilgen et al. ([2012](https://doi.org/10.1016/B978-0-444-59425-9.00029-9)).\
 **Maximum age:** **$XXX**Ma\
 **Maximum justification:** **$XXX MAXIMUM JUSTIFICATION NEEDED**\
-**Discussion:** This fossil has not been included in an explicit phylogenetic analysis, and therefore does not satisfy all criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)). However, expert appraisal (DFJ and DTK, _pers. comm._) during the preparation of Oliveiros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)) found numerous apparent synapomorphies supporting referral to at least a broader emberizoid subclade including Passerellidae. As a consequence, we treat it as a provisionally appropriate calibration for this node.
+**Discussion:** This fossil has not been included in an explicit phylogenetic analysis, and therefore does not satisfy all criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)). However, expert appraisal (DJF and DTK, _pers. comm._) during the preparation of Oliveiros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)) found numerous apparent synapomorphies supporting referral to at least a broader emberizoid subclade including Passerellidae. As a consequence, we treat it as a provisionally appropriate calibration for this node.
 
 ---
 ### Notes
