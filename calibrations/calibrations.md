@@ -215,6 +215,44 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 
 ## [Birds](./birds/aves.md):
 
+**709:** Galloanserae | 92.73–65.65Ma\
+–based on _Conflicto antarcticus_ from the KPg boundary (earliest Paleocene) of Antarctica.
+
+**710:** Anatidae | 38–24Ma\
+–based on _Pinpanetta tedfordi_ from the Oligocene of Australia.
+
+**699:** Otidimorphae | 80.39–51.81Ma\
+–based on _Foro panarium_ from the Eocene of Wyoming, USA.
+
+**704:** Daedalornithes | 95.7-54.6Ma\
+–based on _Eocypselus vincenti_ from the Eocene of Denmark.
+
+**708:** Apodi | 103.40-50.3Ma\
+–based on _Scaniacypselus wardi_ from the Eocene of Denmark.
+
+**675:** Gruiformes | 80.4-55.6Ma\
+–based on _Pellornis mikkelseni_ from the Eocene of Denmark.
+
+**666:** Charadriiformes | 78.61-54.97Ma\
+–based on an unnamed charadriiform (IGM 100/1435) from the Eocene of Mongolia.
+
+**690:** Phaethontimorphae | 62.3-55.8Ma\
+–based on _Lithoptila abounensis_ from the Paleocene of Morocco.
+
+**689:** Procellariimorphae | 84.70-60.5Ma\
+–based on _Waimanu manneringi_ from the Paleocene of New Zealand.
+
+**653:** Accipitrimorphae + Strigiformes | 74.4-58.8Ma\
+–based on _Ogygoptynx wetmorei_ from the Paleocene of Colorado, USA.
+
+**600:** Coraciimorphae | 91.89-62.2Ma\
+–based on _Tsidiiyazhi abini_ from the Paleocene of New Mexico, USA.
+
+**603:** stem Psittacopasseres | 80.46-54.6Ma\
+–based on _Morsoravis sedilis_ from the Eoceen of Denmark.
+
+**605:** Eupasseres | 45.7-30.2Ma\
+–based on _Wieslochia weissi_ from the Oligocene of Germany.
 
 ## References
 
