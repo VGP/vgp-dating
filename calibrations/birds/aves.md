@@ -362,6 +362,12 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Maximum justification:** **$XXX MAXIMUM JUSTIFICATION NEEDED**\
 **Discussion:** This fossil has not been included in an explicit phylogenetic analysis, and therefore does not satisfy all criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)). However, expert appraisal (DJF and DTK, _pers. comm._) during the preparation of Oliveiros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)) found numerous apparent synapomorphies supporting referral to at least a broader emberizoid subclade including Passerellidae. As a consequence, we treat it as a provisionally appropriate calibration for this node.
 
+**DJF:** Crown Columbimorphae? Santiago and Josefin, since the Pteroclidae + Columbidae split is represented in the tree, should we calibrate that node? I think Leptoganga sepultus provides a good calibration for that node. Since it is thought to be a stem-sandgrouse, it would calibrate the sandgrouse-pigeon divergence at 23.9Ma based on the age of the Quercy fissure fillings. **SC:** Is there a phylogenetic analysis of Leptoganga?
+
+**DJF:** Deeper within Strisores it could be possible to calibrate some of the divergences within 'Caprimulgiformes'. For instance, since _Prefica_ looks like a stem-Oilbird (and we assume monophyly of Sedentaves, i.e. Steatornis + Nyctibiidae), then _Prefica_ would provide a calibration for the MRCA of _Nyctibius_ and its sister taxon in the tree at 51.8Ma.
+
+**DJF:** The sampling in the tree would allow calibration of crown Gruidae (MRCA of _Balearica_ and _Grus_) at 10.3Ma using _Balearica exigua_ (although I think it would be interesting to revisit this taxon). **SC:** a potentially good addition, but there is no phylogenetic analysis of B. exigua.
+
 ---
 
 ## References
