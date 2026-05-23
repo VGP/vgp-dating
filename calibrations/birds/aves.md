@@ -313,7 +313,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - Corvoidea indet. – partial skeleton impression (TRPM 667-011) from the Fuganji member of the Iwami formation (16.0-17.6Ma; [Hirao et al. 2005](https://www.researchgate.net/publication/257922534_Stratigraphy_and_fossil_fishes_of_the_Fuganji_Formation_at_Miyanoshita_Kokufu-cho_Tottori_Japan)) Japan ([Kakegawa & Hirao 2003](https://gbank.gsj.jp/geolis/geolis_link/200424147/en)).
 
-- Remains of _Phedina borbonica_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/66/mode/1up)) including DLC 18103; _Corvus albus_ [Müller, 1776](https://www.biodiversitylibrary.org/item/218386#page/105/mode/1up) including DLC 17187D, 17189, 17216, 17246, 17265, 17268, 17272, 17298, 17300, 18099, 18102, 18103, 18105, 18157, 18758, 18876, 18906, 18909, 18921, 18944, 18946; and unspecified _Ploceus sakalava_ [Hartlaub, 1861](https://www.biodiversitylibrary.org/page/15140643#page/70/mode/1up) specimens from Ankilitelo Cave (0.0112-0.005Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
+- Remains of _Phedina borbonica_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/523/mode/1up)) including DLC 18103; _Corvus albus_ [Müller, 1776](https://www.biodiversitylibrary.org/item/218386#page/105/mode/1up) including DLC 17187D, 17189, 17216, 17246, 17265, 17268, 17272, 17298, 17300, 18099, 18102, 18103, 18105, 18157, 18758, 18876, 18906, 18909, 18921, 18944, 18946; and unspecified _Ploceus sakalava_ [Hartlaub, 1861](https://www.biodiversitylibrary.org/page/15140643#page/70/mode/1up) specimens from Ankilitelo Cave (0.0112-0.005Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
 **Minimum age:** 54.6Ma\
 **Minimum justification:** Based on the oldest taxon _Morsoravis sedilis_ from the bottom of the Fur Formation, which was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation suggesting a minimum age of 54.6Ma ([Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)).\
@@ -341,7 +341,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - cf. Tyrannidae – distal humerus (MACN-SC-1411) from the middle levels of the Pinturas Formation at “Portezuelo Sumich Sur,” Santa Cruz, Argentina ([Noriega & Chiappe 1993](https://doi.org/10.2307/4088653)).  Argon radiometric dates and tephrochronology suggest an age bounded between 16.8–16.5Ma for the middle levels of the Formation ([Kramarz & Bellosi 2005](https://doi.org/10.1016/j.jsames.2004.10.005), [Fleagel et al. 2012](https://doi.org/10.1017/CBO9780511667381.003)). 
 
-- Remains of _Phedina borbonica_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/66/mode/1up)) including DLC 18103; _Corvus albus_ [Müller, 1776](https://www.biodiversitylibrary.org/item/218386#page/105/mode/1up) including DLC 17187D, 17189, 17216, 17246, 17265, 17268, 17272, 17298, 17300, 18099, 18102, 18103, 18105, 18157, 18758, 18876, 18906, 18909, 18921, 18944, 18946; and unspecified _Ploceus sakalava_ [Hartlaub, 1861](https://www.biodiversitylibrary.org/page/15140643#page/70/mode/1up) specimens from Ankilitelo Cave (0.0112-0.005Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
+- Remains of _Phedina borbonica_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/523/mode/1up)) including DLC 18103; _Corvus albus_ [Müller, 1776](https://www.biodiversitylibrary.org/item/218386#page/105/mode/1up) including DLC 17187D, 17189, 17216, 17246, 17265, 17268, 17272, 17298, 17300, 18099, 18102, 18103, 18105, 18157, 18758, 18876, 18906, 18909, 18921, 18944, 18946; and unspecified _Ploceus sakalava_ [Hartlaub, 1861](https://www.biodiversitylibrary.org/page/15140643#page/70/mode/1up) specimens from Ankilitelo Cave (0.0112-0.005Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
 **Minimum age:** 30.2Ma\
 **Minimum justification:** Based on the oldest taxon _Wieslochia_. Biostratigraphic correlations of calcareous nannofossils and  dinoflagellate cysts place the youngest Hochberg Member present in Rauenberg in the intersection of NP23 and Subzone D14a ([Maxwell et al. 2016](https://doi.org/10.1016/j.palaeo.2016.10.002)), indicating an age of 30.2–32.0Ma ([Speijer et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00028-0)).\
@@ -439,7 +439,7 @@ Goodman, S.M. 1999. Holocene bird subfossils from the sites of Ampasambazimba, A
 
 Goodman, S. M., M. J. Raherilalao & K. Muldoon 2013. Bird fossils from Ankilitelo Cave: inference about Holocene environmental changes in Southwestern Madagascar. Zootaxa 3750(5):534-548.
 
-Gmelin, J. F. 1789. Systema Naturae. 13th edn. G. E. Beer, Liepzig.
+Gmelin, J. F. 1789. Caroli a Linné, systema naturae. Tom. I. Pars II. – pp. 501–1032. Lipsiae. (Beer)
 
 Guérin, C, M. A. Curvello, M. Faure, M. Hugueney & C. Mourer-Chauviré 1996 The Pleistocene fauna of Piauí (Northeastern Brazil): paleochronological and biochronological implications. Proceedings of the International Meeting on the Peopling of the Americas, São Raimundo Nonato, Piauí, Brasil (1993). Fundamentos 1(1):55-103.
 
@@ -537,7 +537,7 @@ Mourer-Chauvire, C., Bour, R., Ribes, S. and Moutou, F., 1999. The avifauna of R
 
 Mourer-Chauviré, C., Pickford, M. and Senut, B., 2011. The first Palaeogene galliform from Africa. Journal of Ornithology, 152(3), pp.617-622.
 
-Mourer-Chauviré, C., Tabuce, R., Essid, E. M., Marivaux, L., Khayati, H., Vianey-Liaud, M., Ben Haj Ali, M., 2013. A new taxon of stem group Galliformes and the earliest record for stem group Cuculidae from the Eocene of Djebel Chambi, Tunisia. In Göhlich, U. B., Kroh, A. (Eds.), Palaeornithological Research 2013. Proceeding of the 8th International Meeting of the Society of Avian Paleontology and Evolution, pp. 1-15.
+Mourer-Chauviré, C., Tabuce, R., Essid, E. M., Marivaux, L., Khayati, H., Vianey-Liaud, M., & Ben Haj Ali, M. 2013. A new taxon of stem group Galliformes and the earliest record for stem group Cuculidae from the Eocene of Djebel Chambi, Tunisia. In U. B. Göhlich & A. Kroh (eds.), Paleornithological Research 2013: Proceedings of the 8th International Meeting of the Society of Avian Paleontology and Evolution, Vienna, Austria, pp. 1–15. Natural History Museum Vienna, Vienna.
 
 Mourer-Chauvire, C., M. Pickford & B. Senut. 2015. Stem group galliform and stem group psittaciform birds (Aves, Galliformes, Paraortygidae, and Psittaciformes, family incertae sedis) from the Middle Eocene of Namibia. Journal of Ornithology 156:275-286.
 
@@ -555,7 +555,7 @@ Musser G., D. T. Ksepka & D. J. Field 2019. New Material of Paleocene-Eocene Pel
 
 Nascimento, R., & Silveira, L. F. (2020). The fossil birds of Peter Lund. Zootaxa, 4743(4), 480-510.
 
-Nessov, L. A. 1988. New Cretaceous and Paleocene birds of Soviet Mid- dle Asia and Kazakhstan and their environments. Trudy Zoologiceskogo Instituta Akademii Nauk SSSR 182:116–123. [In Russian]
+Nessov, L. A. 1988. New Cretaceous and Paleocene birds of Soviet Middle Asia and Kazakhstan and their environments. Trudy Zoologiceskogo Instituta Akademii Nauk SSSR 182:116–123. [In Russian]
 
 Nessov, L. A. 1992. Mesozoic and Paleogene birds of the USSR and their paleoenvironments; pp. 465–478 in K. E. Campbell (ed.), Papers in Avian Paleontology Honoring Pierce Brodkorb. Natural History Museum of Los Angeles County, Science Series 36.
 
@@ -579,7 +579,7 @@ Rasmussen, D. T., Olson, S. L. & E. L. Simons. 1987. Fossil birds from the Oligo
 
 Rich, P.V., 1980. Preliminary report on the fossil avian remains from late Tertiary sediments at Langebaanweg (Cape Province), South Africa. South African Journal of Science, 76(4), pp.166-170.
 
-Rich,P. V., D. J. Bohaska. 1976. The world’s oldest owl: A new strigiform from the Paleocene of southwestern Colorado. Smithson. Contrib. Paleobiol. 27, 87–93.
+Rich, P. V., & D. J. Bohaska. 1976. The world’s oldest owl: A new strigiform from the Paleocene of southwestern Colorado. Smithson. Contrib. Paleobiol. 27, 87–93.
 
 Secord, R., P. D. Gingerich, M. E. Smith, W. C. Clyde, P. Wilf, and B. S. Singer (2006) Geochronology and mammalian stratigraphy of middle and upper Paleocene continental strata, Bighorn Basin, Wyoming. American Journal of Science, 306: 211–245.
 
@@ -621,7 +621,7 @@ Tambussi, C. P., M. A. Reguero, S. A. Marenssi, & S. N. Santillana 2005. Crossva
 
 Tambussi, C.P., F.J. Degrange, R.S. De Mendoza, E. Sferco & S. Santillana. 2019. A stem anseriform from the early Palaeocene of Antarctica provides new key evidence in the early evolution of waterfowl. Zoological Journal of the Linnean Society 186(3):673-700.
 
-Thomas, D. B., & D. T. Ksepka. 2013. A history of shifting fortunes for African penguins. Zoological Journal of the Linnean Society 168:207-2019.
+Thomas, D.B. and Ksepka, D.T., 2013. A history of shifting fortunes for African penguins. Zoological Journal of the Linnean Society, 168(1), pp.207-219.
 
 van Beneden PJ 1871. Les oiseaux de l’argile rupélienne. Bulletin de l’Académie Royale des Sciences, Lettres et Beaux-Arts de Belgique, série 2 32: 256–261.
 
