@@ -385,11 +385,11 @@ Balouet, J. C., & S. L. Olson 1989 Fossil birds from late Quaternary deposits in
 
 Berggren, W.A., Kent, D.V., Swisher, C.C., and Aubrey, M.-P. 1995. A revised Cenozoic geochronology and chronostratigraphy. In Geochronology, Time Scales and Global Stratigraphic Correlation, ed. W.A. Berggren, D.V. Kent, M.-P. Aubry, and J. Hardenbol. Society of Economic Paleontologists and Mineralogists Special Publication 54: 129–212.
 
-Bertelli, S., B. E. Lindow, G. J. Dyke & L. M. Chiappe 2010. A well-preserved ‘charadriiform-like’fossil bird from the Early Eocene Fur Formation of Denmark. Palaeontology 53:507–531.
+Bertelli, S., B. E. Lindow, G. J. Dyke & L. M. Chiappe 2010. A well-preserved ‘charadriiform-like’ fossil bird from the Early Eocene Fur Formation of Denmark. Palaeontology 53:507–531.
 
 Bertelli, S., L. M. Chiappe & G. Mayr. 2011. A new Messel rail from the Early Eocene Fur Formation of Denmark (Aves, Messelornithidae). Journal of Systematic Palaeontology 9.4: 551-562. 
 
-Blockland, J. C., C. M. Reid, T. H. Worthy, A. J. D. Tennyson, J. A. Clarke, & R. P. Scofield. 2019. Chatham Island Paleocene fossils provide insight into the palaeobiology, evolution, and diversity of early penguins (Aves, Sphenisciformes). Palaeontologia Electronica 22 (3):78.
+Blokland, J. C., C. M. Reid, T. H. Worthy, A. J. D. Tennyson, J. A. Clarke, & R. P. Scofield. 2019. Chatham Island Paleocene fossils provide insight into the palaeobiology, evolution, and diversity of early penguins (Aves, Sphenisciformes). Palaeontologia Electronica 22 (3):78.
 
 Boast, A.P., Chapman, B., Herrera, M.B., Worthy, T.H., Scofield, R.P., Tennyson, A.J., Houde, P., Bunce, M., Cooper, A. and Mitchell, K.J., 2019. Mitochondrial Genomes from New Zealand’s Extinct Adzebills (Aves: Aptornithidae: Aptornis) Support a Sister-Taxon Relationship with the Afro-Madagascan Sarothruridae. Diversity, 11(2), p.24.
 
@@ -403,7 +403,7 @@ Boles, W.E., 2005. A new flightless gallinule (Aves: Rallidae: Gallinula) from t
 
 Bourdon, E., B. Bouya & M. Iarchene 2005. Earliest African Neornithine Bird: A New Species of Prophaethontidae (Aves) from the Paleocene of Morocco. J. Vert. Paleontol. 25:157-170.
 
-Bourdon, E., C. Mourer-Chauviré, M. Amaghzaz & Bouya 2008. New specimens of Lithoptila abdounensis (Aves, Prophaethontidae) from the lower Paleogene of Morocco. J. Vert. Paleontol. 28: 751-761.
+Bourdon, E., C. Mourer-Chauviré, M. Amaghzaz & B. Bouya 2008. New specimens of Lithoptila abdounensis (Aves, Prophaethontidae) from the lower Paleogene of Morocco. J. Vert. Paleontol. 28: 751-761.
 
 Bowman, V., J. Ineson, J. Riding, J. Crame, J. Francis, D. Condon, R. Whittle & F. Ferraccioli. 2016. The Paleocene of Antarctica: Dinoflagellate cyst biostratigraphy, chronostratigraphy and implications for the palaeo-Pacific margin of Gondwana. Gondwana Research 38:132-148.
 
@@ -431,7 +431,7 @@ Elzanowski A, Boles WE. 2012 Australia’s oldest Anseriform fossil: a quadrate 
 
 Field, D.J. & Hsiang, A.Y. (2018): A North American stem turaco, and the complex biogeographic history of modern birds. BMC Evolutionary Biology 18 (102), pp 1–16.
 
-Field, D. J., J. Benito, A. Chen, J. W. M. Jagt, D. T. Ksepka 2020. Late Cretaceous neornithine from Europe illuminates the origins of crown birds. Nature 579 (7799): 397–401.
+Field, D. J., J. Benito, A. Chen, J. W. M. Jagt, & D. T. Ksepka 2020. Late Cretaceous neornithine from Europe illuminates the origins of crown birds. Nature 579 (7799): 397–401.
 
 Fleagle, J.G., Perkins, M.E., Heizler, M.T., Nash, B., Bown, T.M., Tauber, A.A., Dozo, M.T. & M. F. Tejedor 2012. Tephrochronology of the Miocene Santa Cruz and Pinturas formations, Argentina. In: Vizcaíno, S.F., Kay, R.F., Bargo, M.S. (Eds.), Early Miocene Paleobiology in Patagonia: High-latitude Paleocommunities of the Santa Cruz Formation. Cambridge University Press.
 
