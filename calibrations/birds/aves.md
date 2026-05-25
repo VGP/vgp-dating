@@ -28,7 +28,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum justification:** The oldest of these taxa, _Conflicto antarcticus_, is from Level 10 of the López de Bertodano Formation, which is the youngest stratum of the formation and sits right above the K-Pg boundary (66.04Ma); its upper bound was estimated as 65.65Ma based on dinoflagellate cyst biostratigraphy and U–Pb zircon dating ([Bowman et al. 2016](https://www.sciencedirect.com/science/article/pii/S1342937X15002828)).\
 **Maximum age:** 91.91Ma\
 **Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Galloanserae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
-**Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=65.73, omega=6.415, alpha=4.680e+07, and nu=2.143.
+**Discussion:** The CladeDate calibration function results in a skewStudent distribution with xi=65.73, omega=6.415, alpha=4.680e+07, and nu=2.143.
 
 ---
 
@@ -56,7 +56,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum justification:** Given the uncertainty in the relationships among anatid subfamilies, we use _Pinpanetta_ to calibrate crown Anatidae. Biostratigraphy of fossil land mammals, presence of Oligocene foraminiferal fauna, and magnetostratigraphy indicate an age of ~24–26Ma for the Etadunna Formation ([Woodburne et al. 1994](https://doi.org/10.1080/02724634.1994.10011527)).\
 **Maximum age:** 38.05Ma\
 **Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Anatidae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
-**Discussion:** While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=24.701, omega=3.477, alpha=10.192, and nu=2.627.
+**Discussion:** The CladeDate calibration function results in a skewStudent distribution with xi=24.701, omega=3.477, alpha=10.192, and nu=2.627.
 
 ---
 
@@ -81,10 +81,11 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum age:** 51.81Ma\
 **Minimum justification:** The oldest of these taxa is _Foro panarium_, for which radiometric 40Ar/39Ar-dating of the K-spar tuff near the top of the Fossil Butte member yielded a recalibrated date of 51.97±0.16 Ma (Smith et al. [2008](https://doi.org/10.1130/B26073.1), [2010](https://doi.org/10.1130/G30630.1)).
 **Maximum age:** 80.39Ma\
-**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Otidimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=51.91, omega=7.378, alpha=6.311e+05, and nu=2.763.\
-**Discussion:** Relationships among Otidiformes, Musophagiformes and Cuculiformes are poorly resolved due to a very short internode and high levels of incomplete lineage sorting ([Stiller et al. 2024](https://doi.org/10.1038/s41586-024-07323-1)). We applied this calibration based on _Foro panarium_ (Musophagiformes _incertae sedis_) to the entire crown group, noting that both it and _Eocuculus_ have been very difficult to place phylogenetically – support for a position within Musophagiformes and Otidimorphae, respectively, are ambiguous across analyses.
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Otidimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
+**Discussion:** The CladeDate calibration function results in a skewStudent distribution with xi=51.91, omega=7.378, alpha=6.311e+05, and nu=2.763. Relationships among Otidiformes, Musophagiformes and Cuculiformes are poorly resolved due to a very short internode and high levels of incomplete lineage sorting ([Stiller et al. 2024](https://doi.org/10.1038/s41586-024-07323-1)). We applied this calibration based on _Foro panarium_ (Musophagiformes _incertae sedis_) to the entire crown group, noting that both it and _Eocuculus_ have been very difficult to place phylogenetically – support for a position within Musophagiformes and Otidimorphae, respectively, are ambiguous across analyses.
 
 ---
+
 **Node 704:** Daedalornithes | 95.7-54.6Ma\
 **Node calibrated:** Last common ancestor of Aegothelidae (_Aegotheles albertisi_) and Apodiformes (_Apus apus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
@@ -106,10 +107,11 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum age:** 54.6Ma\
 **Minimum justification:** The oldest of these fossils is _Eocypselus vincenti_, for which the bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8 Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6 Ma ([King 2016](https://doi.org/10.1144/SR27), [Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)).\
 **Maximum age:** 83.85 Ma\
-**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Daedalornithes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=54.649, omega=7.722, alpha=37.041, and nu=2.233.\
-**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Daedalornithes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in a skewStudent distribution with xi=54.649, omega=7.722, alpha=37.041, and nu=2.233.
 
 ---
+
 **Node 708:** Apodi | 103.40-50.3Ma\
 **Node calibrated:** Last common ancestor of Apodidae (_Apus apus_) and Hemiprocnidae (_Hemiprocne comata_)
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
@@ -131,10 +133,11 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum age:** 50.3Ma\
 **Minimum justification:** The oldest fossil is _Scaniacypselus wardi,_ for which the top of Member R6 is overlaid conformably by the Lillebælt Clay Formation; its base coincides with a sharp transition from calcareous to non-calcareous foraminifera, including _Reticulophragmium amplectens,_ which correlates with the NS18-NS19 boundary at around 50.3 Ma ([King 2016](https://doi.org/10.1144/SR27), fig. 76). The lowest part of R6 (or the top of the underlying Member R5) shows the last occurrence of the dinoflagellate cysts _Ochetodinium romanum,_ which represent the top of Subzone DE8b ([King 2016](https://doi.org/10.1144/SR27)) at around 51.5 Ma ([Speijer et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00028-0)). King ([2016](https://doi.org/10.1144/SR27)) shows a very narrow Subzone DE8b containing Ochetodinium romanum and right after the polarity reversal in the middle of C23, which is 51.72 Ma ([Speijer et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00028-0)).\
 **Maximum age:** 103.40 Ma\
-**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Apodi on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=50.32, omega=11.39, alpha=61.85, and nu=1.90.\
-**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Apodi on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in a skewStudent distribution with xi=50.32, omega=11.39, alpha=61.85, and nu=1.90.
 
 ---
+
 **Node 675:** Gruiformes | 80.4-55.6Ma\
 **Node calibrated:** Last common ancestor of Gruoidea (_Grus grus_) and Ralloidea (_Gallinula chloropus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
@@ -158,10 +161,11 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum age:** 55.6Ma\
 **Minimum justification:** The oldest of these fossils is _Pellornis mikkelseni,_ for which MGUH 29278 is preserved in silicified diatomite, and thus must derive from one of two horizons near ash layers -19 or -21 in the lower part of the Knudeklint Member. The bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). The younger ash layer -17 has been dated at 55.6±0.12 Ma (corrected 40Ar/39Ar ages, [Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)), providing a minimum age for the fossil.\
 **Maximum age:** 80.40Ma\
-**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Gruiformes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=55.629, omega=55.680, alpha=6.745, and nu=2.502.\
-**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Gruiformes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in a skewStudent distribution with xi=55.629, omega=55.680, alpha=6.745, and nu=2.502.
 
 ---
+
 **Node 666:** Charadriiformes | 78.61-54.97Ma\
 **Node calibrated:** Last common ancestor of Charadrii (_Pluvialus apricaria_) and Scolopaci (_Numenius arquata_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
@@ -183,8 +187,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum age:** 54.97Ma\
 **Minimum justification:** The oldest fossil is Charadrii indet., for which the estimated top of the Bumban Member of the Naranbulag Formation of Mongolia dates to the early Eocene (Ypresian: 55.7-54.97Ma; [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)).\
 **Maximum age:** 78.61Ma\
-**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Charadriiformes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=55.15, omega=7.283, alpha=9.888e+05, and nu=2.875.\
-**Notes:** This is a new calibration for this analysis, not present in Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Charadriiformes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
+**Notes:** This is a new calibration for this analysis, not present in Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in a skewStudent distribution with xi=55.15, omega=7.283, alpha=9.888e+05, and nu=2.875.
 
 ---
 
@@ -203,8 +207,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum age:** 55.8Ma\
 **Minimum justification:** The oldest fossil is _Lithoptila_, for which “[t]he specimen is dated as Thanetian (bed IIa of the mining lithostratigraphical terminology, Fig. 2) on the basis of the selachians identified in the matrix…” ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)), thus the upper boundary is 55.8 Ma.\
 **Maximum age:** 62.31Ma\
-**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Phaethontimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=55.952, omega=57.879, alpha=1.273, and nu=2.901.\
-**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Phaethontimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in a skewStudent distribution with xi=55.952, omega=57.879, alpha=1.273, and nu=2.901.
 
 ---
 
@@ -233,8 +237,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum age:** 60.5Ma\
 **Minimum justification:** Dated by nannofossil biostratigraphy of the oldest taxon, _Waimanu_. The matrix of the holotype CM zfa35 contained the coccolithophores _Chiasmolithus bidens_ and _Hornibrookina teurensis_ which indicate an age between 61.6 and 60.5 Ma ([Slack et al. 2006](https://doi.org/10.1093/molbev/msj124)). _W. manneringi_ is nearly coeval with several other fossil penguins but its age is better constrained, and its minimum possible age, in particular, is older than the others ([Blokland et al. 2019](https://doi.org/10.26879/1009)).\
 **Maximum age:** 84.70 Ma\
-**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Procellariimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in an offset skewStudent distribution with offset=60.530, xi=60.845, omega=6.749, alpha=37.833, and nu=2.655.\
-**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Procellariimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in an offset skewStudent distribution with offset=60.530, xi=60.845, omega=6.749, alpha=37.833, and nu=2.655.
 
 ---
 
@@ -261,8 +265,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum age:** 58.8Ma\
 **Minimum justification:** The oldest taxon, _Ogygoptynx wetmorei,_ is from the _Plesiadapis churchilli_ biozone, Chron C26r: 58.8-59.5Ma ([Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)).\
 **Maximum age:** 74.43 Ma\
-**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of taxa from Accipitrimorphae + Strigiformes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in an offset skewStudent distribution with offset=50.540, xi=51.049, omega=6.467, alpha=24.212, and nu=2.615.\
-**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of taxa from Accipitrimorphae + Strigiformes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in an offset skewStudent distribution with offset=50.540, xi=51.049, omega=6.467, alpha=24.212, and nu=2.615.
 
 ---
 
@@ -289,8 +293,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum age:** 62.2Ma\
 **Minimum justification:** The oldest of these taxa, _Tsidiiyazhi abini,_ is from NMMNH locality L-6898, which was located within magnetochron C27N, constraining the absolute age to between 62.221 and 62.517Ma ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)).\
 **Maximum age:** 91.89Ma\
-**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Coraciimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in an offset skewStudent distribution with offset=62.240, xi=62.334, omega=7.442, alpha=137.954, and nu=2.258.\
-**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). 
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Coraciimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in an offset skewStudent distribution with offset=62.240, xi=62.334, omega=7.442, alpha=137.954, and nu=2.258.\
 **{Not a clade in the ROADIES tree but recovered in the newer analyses}**
 
 ---
@@ -318,8 +322,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum age:** 54.6Ma\
 **Minimum justification:** Based on the oldest taxon _Morsoravis sedilis_ from the bottom of the Fur Formation, which was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation suggesting a minimum age of 54.6Ma ([Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)).\
 **Maximum age:** 81.04 Ma\
-**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of stem Psittacopasseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in a skewStudent distribution with xi=55.151, omega=6.290, alpha=38.217, and nu=2.216.\
-**Discussion:** Derived from Lowi-Merri et al. ([2024](https://doi.org/10.1080/14772019.2024.2356086)). This constraint has raised informal discussion, as the fossil was described originally as an ancient shorebird, but the most recent total-evidence phylogenetic analyses place _Morsoravis_ on the stem of Passeriformes.
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of stem Psittacopasseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
+**Discussion:** Derived from Lowi-Merri et al. ([2024](https://doi.org/10.1080/14772019.2024.2356086)). This constraint has raised informal discussion, as the fossil was described originally as an ancient shorebird, but the most recent total-evidence phylogenetic analyses place _Morsoravis_ on the stem of Passeriformes. The CladeDate calibration function results in a skewStudent distribution with xi=55.151, omega=6.290, alpha=38.217, and nu=2.216.
 
 ---
 
@@ -346,8 +350,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum age:** 30.2Ma\
 **Minimum justification:** Based on the oldest taxon _Wieslochia_. Biostratigraphic correlations of calcareous nannofossils and  dinoflagellate cysts place the youngest Hochberg Member present in Rauenberg in the intersection of NP23 and Subzone D14a ([Maxwell et al. 2016](https://doi.org/10.1016/j.palaeo.2016.10.002)), indicating an age of 30.2–32.0Ma ([Speijer et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00028-0)).\
 **Maximum age:** 45.73Ma\
-**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of stem Eupasseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). While we simplify the CladeDate results for boundaries that are compatible with mcmctree and treePL, the original calibration function results in an offset skewStudent distribution with offset=30.233, xi=30.841, omega=4.250, alpha=12.623, and nu=2.737.\
-**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
+**Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of stem Eupasseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in an offset skewStudent distribution with offset=30.233, xi=30.841, omega=4.250, alpha=12.623, and nu=2.737.
 
 ---
 
@@ -363,7 +367,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Minimum justification:** The oldest taxon, _Palaeostruthus,_ is from the Barstovian–Hemphillian (Miocene-Pliocene) Ogallala Formation. The deposits at Long Island Quarry E are early Hemphillian (Hh1, late Miocene; [Janis et al. 2008](https://doi.org/10.1017/CBO9780511541438)). This gives an estimated age of 9.0–7.5Ma for the fossil, based on the Hh1 boundaries given by Hilgen et al. ([2012](https://doi.org/10.1016/B978-0-444-59425-9.00029-9)).\
 **Maximum age:** 32.9Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution generated by CladeDate.\
-**Discussion:** Modified from Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)) and Oliveros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)), this fossil has not been included in an explicit phylogenetic analysis, and therefore does not satisfy all criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)). However, expert appraisal (DJF and DTK, _pers. comm._) during the preparation of Oliveiros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)) found numerous apparent synapomorphies supporting referral to at least a broader emberizoid subclade including Passerellidae. As a consequence, we treat it as a provisionally appropriate calibration for this node. Parameters of the fitted skew-Student function: xi = 7.917, omega=3.729, alpha=18.566, nu=1.421.
+**Discussion:** Modified from Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)) and Oliveros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)), this fossil has not been included in an explicit phylogenetic analysis, and therefore does not satisfy all criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)). However, expert appraisal (DJF and DTK, _pers. comm._) during the preparation of Oliveiros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)) found numerous apparent synapomorphies supporting referral to at least a broader emberizoid subclade including Passerellidae. As a consequence, we treat it as a provisionally appropriate calibration for this node. The CladeDate calibration function results in a skewStudent function with xi = 7.917, omega=3.729, alpha=18.566, and nu=1.421.
 
 ---
 
