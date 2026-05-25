@@ -1,12 +1,12 @@
 # Bird calibrations
 
-Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). Calibration parameters were derived from the fossil record using the CladeDate method (Claramunt 2022). The set of fossil ages represent the first fossil occurrence of a taxon in each continent. The minimum age is the minimum possible age (upper stratigraphic bound) of the oldest fossil. The maximum age was obtained from the 95% quantile of the empirical distribution obtained from CladeDate. The parameters of a skew-Student distribution fitted to the empirical distribution are also provided.
+Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). Calibration parameters were derived from the fossil record using the CladeDate method (Claramunt 2022). The set of fossil ages represent the first fossil occurrence of a taxon in each continent. The minimum age is the minimum possible age (upper stratigraphic bound) of the oldest fossil. The maximum age was obtained from the 95% quantile of the empirical distribution obtained from CladeDate. The parameters of a skew-Student distribution fitted to the empirical distribution are also provided. In general, we attempt to ensure that the oldest fossil constraining the minimum bound on each node age satisfies the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)).
 
 ### Calibrations:
 
 **Node 709:** Galloanserae | 92.73–65.65Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Galliformes (_Gallus gallus_) and Anseriformes (_Anser anser_)\
-**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Galloanserae:
+**Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - _Conflicto antarcticus_ [Tambussi, Degrange, de Mendoza, Sferco, & Santillana, 2019](https://doi.org/10.1093/zoolinnean/zly085) – a nearly complete skeleton (MLP 07-III-1-1) from Level 10 of the López de Bertodano Formation at Seymour Island, Antarctica. A cladistic analysis including a variety of extant and extinct galloanserines placed the holotype of Conflicto antarticus as a stem Anseriformes ([Tambussi et al. 2019](https://doi.org/10.1093/zoolinnean/zly085)), a result further supported by subsequent cladistic and Bayesian analyses ([Field et al. 2020](https://www.nature.com/articles/s41586-020-2096-0), [Musser & Clarke 2024](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278737)).
 
@@ -34,7 +34,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 **Node 710:** Anatidae | 38–24Ma\
 **Node calibrated:** Last common ancestor of Anatinae (_Anas platyrhynchos)_ and Anserinae (_Anser anser_)\
-**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Anatidae:
+**Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - _Pinpanetta tedfordi_ [Worthy, 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x) – complete right humerus (SAMA P.41257) from the Etadunna Formation at Young Bucks Quarry, Lake Palankarinna, South Australia, Australia. This locality is shared with three other contemporaneous fossil ducks: _P. vickersrichae_ and _P. fromensis,_ and _Australotadorna alecwilsoni_ ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)). A cladistic analysis of _Pinpanetta_ (including _P. tedfordi_) placed it as a stem member of Erismaturinae ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)).
 
@@ -62,7 +62,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 **Node 699:** Otidimorphae | 80.39–51.81Ma\
 **Node calibrated:** Last common ancestor of Otidiformes (_Chlamydotis macqueenii_), Musophagiformes (_Tauraco erythrolophus_), and Cuculiformes (_Cuculus canorus_), sensu Braun et al. ([2019](https://link.springer.com/chapter/10.1007/978-3-030-16477-5_6))\
-**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Otidimorphae:
+**Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - _Foro panarium_ [Olson, 1992](http://hdl.handle.net/10088/8418) – nearly complete skeleton (USNM 336621) from the Fossil Butte Member (52.13–51.81 Ma) of the Green River Formation at Thompson Quarry, Lincoln County, Wyoming, USA. Phylogenetic analysis placed this taxon in the stem of Musophagiformes ([Field & Hsiang 2018](https://doi.org/10.1186/s12862-018-1212-3)). 
 
@@ -87,7 +87,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 ---
 **Node 704:** Daedalornithes | 95.7-54.6Ma\
 **Node calibrated:** Last common ancestor of Aegothelidae (_Aegotheles albertisi_) and Apodiformes (_Apus apus_)\
-**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Daedalornithes:
+**Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 -  _Eocypselus vincenti_ [Harrison 1984](https://natuurtijdschriften.nl/pub/521070) – referred material, a nearly complete skeleton (MGUH 29278) and two incomplete postcranial skeletons (MGUH 26729–30) from the early Eocene (55.8–54.6 Ma) Fur Formation, Denmark. A cladistic analysis ([Ksepka et al. 2013](https://doi.org/10.1098/rspb.2013.0580)) and Bayesian analyses with topological constraints ([Chen et al. 2019](https://doi.org/10.3390/d11090143)) found _E. vincenti_ on the stem of Apodiformes, but a total evidence Bayesian analysis indicated a position on the stem of Aegothelidae instead ([Chen et al. 2019](https://doi.org/10.3390/d11090143)). Either way, _Eocypselus_ is confirmed as a basal crown Daedalornithes.
 
@@ -112,7 +112,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 ---
 **Node 708:** Apodi | 103.40-50.3Ma\
 **Node calibrated:** Last common ancestor of Apodidae (_Apus apus_) and Hemiprocnidae (_Hemiprocne comata_)
-**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Apodi:
+**Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - _Scaniacypselus wardi_ [Harrison, 1984](https://natuurtijdschriften.nl/pub/521070) – articulated pectoral girdle and forelimbs (BMNH A5430) from Bed R6 (50.3–51.5 Ma) of the Røsnæs Clay Formation in Ølst, Denmark. Cladistic analyses ([Mayr 2003](https://doi.org/10.1642/0004-8038(2003)120[0145:POETSA]2.0.CO;2), [Ksepka et al. 2013](https://doi.org/10.1098/rspb.2013.0580)) and Bayesian analyses with topological constraints ([Chen et al. 2019](https://doi.org/10.3390/d11090143)) placed it on the stem of Apodidae.
 
@@ -137,7 +137,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 ---
 **Node 675:** Gruiformes | 80.4-55.6Ma\
 **Node calibrated:** Last common ancestor of Gruoidea (_Grus grus_) and Ralloidea (_Gallinula chloropus_)\
-**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Gruiformes:
+**Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - _Pellornis mikkelseni_ [Bertelli, Chiappe, & Mayr, 2011](https://doi.org/10.1080/14772019.2010.538730) – a nearly complete articulated skeleton (holotype MGUH 29278) from the Fur Formation near Sundby, Isle of Mors, Jutland, Denmark ([Hoch 1997](https://2dgf.dk/dgf-online-series/notes-on-palaeornithology-and-on-a-new-bird-from-the-early-tertiary-north-sea-region/), [Musser et al. 2019](https://doi.org/10.3390/d11070102)). Initial cladistic analyses indicated a position of Messelornithidae, including Pellornis mikkelseni, as stem Rallidae ([Bertelli et al. 2011](https://doi.org/10.1080/14772019.2010.538730)). More recent analyses including additional characters from a more complete preparation of the holotype revealing a complete skull among other parts, indicated a more basal position as stem Ralloidea ([Musser et al. 2019](https://doi.org/10.3390/d11070102), [Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929)), thus setting a minimum age for crown Gruiformes.
 
@@ -164,7 +164,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 ---
 **Node 666:** Charadriiformes | 78.61-54.97Ma\
 **Node calibrated:** Last common ancestor of Charadrii (_Pluvialus apricaria_) and Scolopaci (_Numenius arquata_)\
-**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Charadriiformes:
+**Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - Unnamed taxon represented by the distal end of left humerus (IGM 100/1435) from Tsagaan Khushuu, Quarry 2, Mongolia, Bumban Member of the Naranbulag Formation of the early Eocene (Ypresian: 55.7-54.97 Ma; [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)). Phylogenetic analysis placed this fragmentary bone as sister to _Chionis,_ within crown Charadrii ([Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929), [Heingård et al. 2021](https://doi.org/10.3390/d13120651)).
 
@@ -190,7 +190,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 **Node 690:** Phaethontimorphae | 62.3-55.8Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Phaethontiformes (_Phaethon aethereus_) and Eurypygiformes (_Rhynochetos jubatus_)\
-**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Phaethontimorphae:
+**Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - _Lithoptila abounensis_ [Bourdon _in_ Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2) – neurocranium (OCP.DEK/GE 1087) from the bed IIa of the Ouled Abdoun Phosphates Series (Thanetian, 58.7–55.8Ma), Ouled Abdoun Basin, Morocco ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)). A cladistic analysis placed _L. abounensis_ sister to _Prophaethon,_ constituting a stem clade of Phaethontidae ([Bourdon et al. 2005](https://doi.org/10.1671/0272-4634(2005)025[0157:EANBAN]2.0.CO;2)).
 
@@ -210,7 +210,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 **Node 689:** Procellariimorphae | 84.70-60.5Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Sphenisciformes (_Spheniscus humboldti_) and Procellariiformes (_Calonectris borealis_).\
-**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Procellariimorphae:
+**Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - _Waimanu manneringi_ [Jones, Ando, & Fordyce _in_ Slack et al. 2006](https://doi.org/10.1093/molbev/msj124) – associated partial postcranial skeleton (CM zfa35) from the Waipara Greensand (Paleocene, 61.6–60.5Ma), Waipara River, Canterbury, New Zealand ([Slack et al. 2006](https://doi.org/10.1093/molbev/msj124)). A number of other sphenisciform species have also recently been described from this formation ([Mayr et al. 2025](https://doi.org/10.1093/zoolinnean/zlaf080)), including the very well-preserved _†Daniadyptes primaevus_ (UC 22081–2), _†Waiparadyptes gracilitarsus_ (CM 2013.27.1; UC 22080, 22094), _†Archaeodyptes waitahaorum_ (CM 2020.46.1), and _†Waimanutaha kenlovei_ (CM 2010.108.1, 2018.124.4; UC 22079), all with the taxonomic authority [Mayr, De Pietri, Proffitt, Blokland, Clarke, Love, Mannering, Crouch, Reid, & Scofield, 2025](https://doi.org/10.1093/zoolinnean/zlaf080).
 
@@ -240,7 +240,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 **Node 653:** Accipitrimorphae + Strigiformes | 74.4-58.8Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Strigiformes (_Athene noctua_) and Accipitriformes (_Buteo buteo_).\
-**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Accipitrimorphae + Strigiformes:
+**Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - _Ogygoptynx wetmorei_ [Rich & Bohaska, 1976](https://doi.org/10.5479/si.00810266.27.87) – tarsometatarsus (AMNH 2653) from the Late Paleocene of Mason Pocket (Ti-4a, Tiffanian NALMA, 58.8-59.5Ma; [Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)), Colorado, USA ([Rich & Bohaska 1976](https://doi.org/10.5479/si.00810266.27.87)).
 
@@ -268,7 +268,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 **Node 600:** Coraciimorphae | 91.89-62.2Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Coliiformes (_Colius striatus_) and Coraciiformes (_Merops nubicus_)\
-**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the crown of Coraciimorphae:
+**Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - _Tsidiiyazhi abini_ [Ksepka, Stidham, & Williamson, 2017](https://doi.org/10.1073/pnas.1700188114) – associated partial skeleton (NMMNH P-54128) from NMMNH locality L-6898 in the Ojo Encino Member of the Nacimiento Formation (62.52-62.22Ma), New Mexico, USA ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)). 
 
@@ -297,7 +297,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 **Node 603:** stem Psittacopasseres | 80.46-54.6Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Psittaciformes (_Ara ararauna_) and Passeriformes (_Passer domesticus_).\
-**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the stem of Psittacopasseres:
+**Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - _Morsoravis sedilis_ [Bertelli, Lindow, Dyke, & Chiappe, 2010](https://doi.org/10.1111/j.1475-4983.2010.00950.x) – articulated skeleton including the skull, vertebral column, pelvic girdle and hind limbs (Geological Museum, University of Copenhagen 28930) from the Fur Formation (55.8-54.6Ma), Denmark. Initial cladistic analysis placed _Morsoravis_ in Charadriiformes ([Bertelli et al. 2010](https://doi.org/10.1111/j.1475-4983.2010.00950.x)), but a reexamination of the specimen and a more complete matrix placed it on the stem of Passeriformes ([Mayr 2015c](https://doi.org/10.1111/zsc.12128)). This result was replicated by a second matrix (modified from [Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)) of 34 species representing major clades of Telluraves, 28 fossil taxa and 146 morphological characters ([Ksepka et al. 2019](https://doi.org/10.1016/j.cub.2018.12.040)).
 
@@ -325,7 +325,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 **Node 605:** Eupasseres | 45.7-30.2Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Tyranni (_Willisornis vidua_) and Passeri (_Passer domesticus_)\
-**Fossil taxa:** Numerous fossil taxa from multiple continents satisfying the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)) support this calibration. These are listed below with references justifying the synapomorphies or phylogenetic analyses allying them with the stem of Eupasseres:
+**Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - _Wieslochia weissi_ [Mayr & Manegold, 2006](https://www.app.pan.pl/article/item/app51-315.html) – dissociated nearly complete skeleton preserved in two slabs (SMF Av 497 and SMNK–PAL.3980) from the Rauenberg clay pits (early Oligocene, Rupelian: 32–30.2 Ma) near Frauenweiler, south of Wiesloch, Baden−Württemberg, Germany. Phylogenetic analysis supported the position of Wieslochia as a crown Eupasseres and within Tyranni ([Lowi-Merri et al. 2024](https://doi.org/10.1080/14772019.2024.2356086)).
  
@@ -353,7 +353,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 **Node 612:** Passerellidae and allies | 32.9-7.5Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Passerellidae (_Zonotrichia albicollis_) and Icteridae (_Agelaius phoeniceus_) + Parulidae (_Geothlypis trichas_)\
-**Fossil taxon:** We surveyed two fossil taxa to calibrate this node:
+**Fossil taxon:** We surveyed the following specimens to calibrate this node:
 
 - _Palaeostruthus hatcheri_ ([Shufeldt, 1913](http://hdl.handle.net/2246/1412)) – rostrum maxillae (USNM 6647) collected from "Quarry E" near Long Island in Phillips County, Kansas, USA ([Steadman 1981](https://doi.org/10.1080/02724634.1981.10011889)). The rostrum shows the typical morphology of Passerellidae, distinguishable from similar groups such as Emberizidae and Calcariidae ([Steadman 1981](https://doi.org/10.1080/02724634.1981.10011889); [Oliveros et al. 2019](https://doi.org/10.1073/pnas.1813206116)). Although previously considered to be in the extant genus _Ammodramus_ ([Steadman 1981](https://doi.org/10.1080/02724634.1981.10011889)), a phylogenetic analysis is lacking, and affinities within the family may be better considered uncertain ([Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1)).
 
@@ -366,6 +366,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Discussion:** Modified from Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)) and Oliveros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)), this fossil has not been included in an explicit phylogenetic analysis, and therefore does not satisfy all criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)). However, expert appraisal (DJF and DTK, _pers. comm._) during the preparation of Oliveiros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)) found numerous apparent synapomorphies supporting referral to at least a broader emberizoid subclade including Passerellidae. As a consequence, we treat it as a provisionally appropriate calibration for this node. Parameters of the fitted skew-Student function: xi = 7.917, omega=3.729, alpha=18.566, nu=1.421.
 
 ---
+
 ### Possible additions
 
 **DJF:** Crown Columbimorphae? Santiago and Josefin, since the Pteroclidae + Columbidae split is represented in the tree, should we calibrate that node? I think Leptoganga sepultus provides a good calibration for that node. Since it is thought to be a stem-sandgrouse, it would calibrate the sandgrouse-pigeon divergence at 23.9Ma based on the age of the Quercy fissure fillings. **SC:** Is there a phylogenetic analysis of Leptoganga?
