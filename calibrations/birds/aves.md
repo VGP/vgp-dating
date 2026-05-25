@@ -351,16 +351,23 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
 
 ---
-### Possible additions
 
-**Node 612:** Passerellidae and allies | **$XXX**-7.5Ma\
+**Node 612:** Passerellidae and allies | 32.9-7.5Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Passerellidae (_Zonotrichia albicollis_) and Icteridae (_Agelaius phoeniceus_) + Parulidae (_Geothlypis trichas_)\
-**Fossil taxon:** _Palaeostruthus hatcheri_ ([Shufeldt, 1913](http://hdl.handle.net/2246/1412)) – rostrum maxillae (holotype USNM 6647) collected from "Quarry E" near Long Island in Phillips County, Kansas, USA ([Steadman 1981](https://doi.org/10.1080/02724634.1981.10011889)).\
+**Fossil taxon:** We surveyed two fossil taxa to calibrate this node:\
+
+- _Palaeostruthus hatcheri_ ([Shufeldt, 1913](http://hdl.handle.net/2246/1412)) – rostrum maxillae (holotype USNM 6647) collected from "Quarry E" near Long Island in Phillips County, Kansas, USA ([Steadman 1981](https://doi.org/10.1080/02724634.1981.10011889)). The rostrum shows the typical morphology of Passerellidae, distinguishable from similar groups such as Emberizidae and Calcariidae ([Steadman 1981](https://doi.org/10.1080/02724634.1981.10011889); [Oliveros et al. 2019](https://doi.org/10.1073/pnas.1813206116)). Although previously considered to be in the extant genus _Ammodramus_ ([Steadman 1981](https://doi.org/10.1080/02724634.1981.10011889)), a phylogenetic analysis is lacking, and affinities within the family may be better considered uncertain ([Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1)).\
+
+- _Zonotrichia robusta_ [Tonni, 1970](https://naturalis.fcnym.unlp.edu.ar/handle/628872547/48149) – fragmentary maxillary rostrum and mandible (Holotype: MLP 63-VI-30-6) from the Miramar Formation SW of Punta Armengo, Buenos Aires Province, Argentina. Magnetostratigraphic analysis indicated that the Miramar formation was deposited between 0.773 and 1.78 Ma ([Bidegain & Rico 2011](https://doi.org/10.1016/j.quaint.2011.08.018)).
+
 **Minimum age:** 7.5Ma\
-**Minimum justification:** The holotype is from the Barstovian–Hemphillian (Miocene-Pliocene) Ogallala Formation. The deposits at Long Island quarry are early Hemphillian (Hh1, late Miocene; [Janis et al. 2008](https://doi.org/10.1017/CBO9780511541438)). This gives an estimated age of 9.0–7.5Ma for the fossil, based on Hh1 boundaries in Hilgen et al. ([2012](https://doi.org/10.1016/B978-0-444-59425-9.00029-9)).\
+**Minimum justification:** The oldest taxon, _Palaeostruthus,_ is from the Barstovian–Hemphillian (Miocene-Pliocene) Ogallala Formation. The deposits at Long Island Quarry E are early Hemphillian (Hh1, late Miocene; [Janis et al. 2008](https://doi.org/10.1017/CBO9780511541438)). This gives an estimated age of 9.0–7.5Ma for the fossil, based on Hh1 boundaries in Hilgen et al. ([2012](https://doi.org/10.1016/B978-0-444-59425-9.00029-9)).\
 **Maximum age:** **$XXX**Ma\
 **Maximum justification:** **$XXX MAXIMUM JUSTIFICATION NEEDED**\
-**Discussion:** This fossil has not been included in an explicit phylogenetic analysis, and therefore does not satisfy all criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)). However, expert appraisal (DJF and DTK, _pers. comm._) during the preparation of Oliveiros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)) found numerous apparent synapomorphies supporting referral to at least a broader emberizoid subclade including Passerellidae. As a consequence, we treat it as a provisionally appropriate calibration for this node.
+**Discussion:** Modified from Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)) and Oliveros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)), this fossil has not been included in an explicit phylogenetic analysis, and therefore does not satisfy all criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)). However, expert appraisal (DJF and DTK, _pers. comm._) during the preparation of Oliveiros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)) found numerous apparent synapomorphies supporting referral to at least a broader emberizoid subclade including Passerellidae. As a consequence, we treat it as a provisionally appropriate calibration for this node.
+
+---
+### Possible additions
 
 **DJF:** Crown Columbimorphae? Santiago and Josefin, since the Pteroclidae + Columbidae split is represented in the tree, should we calibrate that node? I think Leptoganga sepultus provides a good calibration for that node. Since it is thought to be a stem-sandgrouse, it would calibrate the sandgrouse-pigeon divergence at 23.9Ma based on the age of the Quercy fissure fillings. **SC:** Is there a phylogenetic analysis of Leptoganga?
 
@@ -385,6 +392,8 @@ Berggren, W.A., Kent, D.V., Swisher, C.C., and Aubrey, M.-P. 1995. A revised Cen
 Bertelli, S., B. E. Lindow, G. J. Dyke & L. M. Chiappe 2010. A well-preserved ‘charadriiform-like’ fossil bird from the Early Eocene Fur Formation of Denmark. Palaeontology 53:507–531.
 
 Bertelli, S., L. M. Chiappe & G. Mayr. 2011. A new Messel rail from the Early Eocene Fur Formation of Denmark (Aves, Messelornithidae). Journal of Systematic Palaeontology 9.4: 551-562. 
+
+Bidegain, J. C., & Rico, Y. (2012). Magnetostratigraphy and magnetic parameters of a sedimentary sequence in Punta San Andres, Buenos Aires, Argentina. Quaternary International, 253, 91-103.
 
 Blokland, J. C., C. M. Reid, T. H. Worthy, A. J. D. Tennyson, J. A. Clarke, & R. P. Scofield. 2019. Chatham Island Paleocene fossils provide insight into the palaeobiology, evolution, and diversity of early penguins (Aves, Sphenisciformes). Palaeontologia Electronica 22 (3):78.
 
@@ -629,6 +638,8 @@ Tambussi, C. P., M. A. Reguero, S. A. Marenssi, & S. N. Santillana 2005. Crossva
 Tambussi, C.P., F.J. Degrange, R.S. De Mendoza, E. Sferco & S. Santillana. 2019. A stem anseriform from the early Palaeocene of Antarctica provides new key evidence in the early evolution of waterfowl. Zoological Journal of the Linnean Society 186(3):673-700.
 
 Thomas, D.B. and Ksepka, D.T., 2013. A history of shifting fortunes for African penguins. Zoological Journal of the Linnean Society, 168(1), pp.207-219.
+
+Tonni, E. P. 1970. Zonotrichia robusta n. sp. (Aves, Passeriformes) del Pleistoceno Medio de Buenos Aires. Ameghiniana 11:366-372.
 
 van Beneden PJ 1871. Les oiseaux de l’argile rupélienne. Bulletin de l’Académie Royale des Sciences, Lettres et Beaux-Arts de Belgique, série 2 32: 256–261.
 
