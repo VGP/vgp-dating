@@ -1,7 +1,6 @@
 # Bird calibrations
 
-Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)).
-
+Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). Calibration parameters were derived from the fossil record using the CladeDate method (Claramunt 2022). The set of fossil ages represent the first fossil occurrence of a taxon in each continent. The minimum age is the minimum possible age (upper stratigraphic bound) of the oldest fossil. The maximum age was obtained from the 95% quantile of the empirical distribution obtained from CladeDate. The parameters of a skew-Student distribution fitted to the empirical distribution are also provided.
 
 ### Calibrations:
 
@@ -354,7 +353,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 **Node 612:** Passerellidae and allies | 32.9-7.5Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Passerellidae (_Zonotrichia albicollis_) and Icteridae (_Agelaius phoeniceus_) + Parulidae (_Geothlypis trichas_)\
-**Fossil taxon:** We surveyed two fossil taxa to calibrate this node:\
+**Fossil taxon:** We surveyed two fossil taxa to calibrate this node:
 
 - _Palaeostruthus hatcheri_ ([Shufeldt, 1913](http://hdl.handle.net/2246/1412)) – rostrum maxillae (holotype USNM 6647) collected from "Quarry E" near Long Island in Phillips County, Kansas, USA ([Steadman 1981](https://doi.org/10.1080/02724634.1981.10011889)). The rostrum shows the typical morphology of Passerellidae, distinguishable from similar groups such as Emberizidae and Calcariidae ([Steadman 1981](https://doi.org/10.1080/02724634.1981.10011889); [Oliveros et al. 2019](https://doi.org/10.1073/pnas.1813206116)). Although previously considered to be in the extant genus _Ammodramus_ ([Steadman 1981](https://doi.org/10.1080/02724634.1981.10011889)), a phylogenetic analysis is lacking, and affinities within the family may be better considered uncertain ([Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1)).\
 
