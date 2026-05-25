@@ -254,6 +254,9 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **605:** Eupasseres | 45.7-30.2Ma\
 –based on _Wieslochia weissi_ from the Oligocene of Germany.
 
+**612:** Passerellidae and allies | 32.9-7.5Ma\
+-based on _Palaeostruthus hatcheri_ from the Miocene of Kansas, USA.
+
 ## References
 
 Parham, J.F., Donoghue, P.C., Bell, C.J., Calway, T.D., Head, J.J., Holroyd, P.A., Inoue, J.G., Irmis, R.B., Joyce, W.G., Ksepka, D.T. and Patané, J.S., 2012. Best practices for justifying fossil calibrations. Systematic biology, 61(2), pp.346-359.
