@@ -175,15 +175,6 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum justification:** Conservatively, based on the Permian-Triassic boundary, as no potential stem or crown group batoids are known until the Jurassic.\
 **Discussion:** Described from a tooth only and considered a stem rajiform ([Stumpf & Kriwet 2019](https://link.springer.com/article/10.1007/s12542-019-00451-4)) and therefore the oldest decisive batomorph fossil.
 
-**Node 1150:** Cyclostomata | 358.9–506.5Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Myxine glutinosa_ (Myxiniformes: Myxinidae) and _Lampetra fluviatilis_ (Petromyzontiformes: Petromyzontidae).\
-**Fossil taxon:** †_Priscomyzon riniensis_ (AM 5750)\
-**Minimum age:** 358.9Ma\
-**Minimum justification:** The oldest-known crown cyclostome from the Witpoort formation (Devonian: Fammenian), Eastern Cape Province, South Africa ([Gess et al. 2006](https://www.nature.com/articles/nature05150)).\
-**Maximum age:** 506.5Ma\
-**Maximum justification:** Based on the lower bound of the Miaolingian (Cambrian Series 3). Numerous fossil chordates, including stem-chordates (†Pikaia, †Yunnanozoon; [Mussini et al. 2023](https://www.cell.com/current-biology/fulltext/S0960-9822(24)00669-9)), stem or crown tunicates (†Megasiphon; [Nanglu et al. 2023](https://www.nature.com/articles/s41467-023-39012-4)), and stem vertebrates (†Myllokunmingiidae; [Shu et al. 1999](https://www.nature.com/articles/46965)), but no crown vertebrates or crown cyclostomes. \
-**Discussion:** Considered a stem petromyzontiform and therefore an unequivocal crown cyclostome ([Gess et al 2006](https://www.nature.com/articles/nature05150), [Miyashita et al. 2021](https://www.nature.com/articles/s41586-021-03305-9)).
-
 ### Controversies
 
 **Node 980:** Actinopteri | 330.3–419.6Ma\
