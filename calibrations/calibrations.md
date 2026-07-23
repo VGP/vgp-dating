@@ -246,7 +246,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 –based on _Tsidiiyazhi abini_ from the Paleocene of New Mexico, USA.
 
 **603:** stem Psittacopasseres | 80.46-54.6Ma\
-–based on _Morsoravis sedilis_ from the Eoceen of Denmark.
+–based on _Morsoravis sedilis_ from the Eocene of Denmark.
 
 **605:** Eupasseres | 45.7-30.2Ma\
 –based on _Wieslochia weissi_ from the Oligocene of Germany.
