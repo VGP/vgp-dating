@@ -2,7 +2,7 @@
 
 We primarily focus here on the well-constrained ages discussed by [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1) and [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161).
 
-Calibrations:
+### Calibrations:
 ------
 
 **Node 582:** Crown Deuterostomia | 590.8 - 517.32 Ma\
