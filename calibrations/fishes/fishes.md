@@ -13,6 +13,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum justification:** Based on the Carboniferous-Permian Boundary, since crown Actinopterygii and Neopterygii are known from the Permian, but no putative representatives of Pan-Teleostei or Teleostei are known from before the Triassic.\
 **Discussion:** A teleost _incertae sedis_ following [Arratia (1987a)](https://link.springer.com/article/10.1007/BF02985911), but considered a euteleost by more recent studies, including [Arratia (1998)](https://doi.org/10.2307/1447369).
 
+---
+
 **Node 987:** Eurypterygia | 121.4–201.5Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Notolepis coatsi_ (Aulopiformes: Paralepididae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
 **Fossil taxon:** †_Atolvorator longipectoralis_ (Pz. UERJ 486–487; 496a,e,b; 508a,e,b; 509–510)\
@@ -21,6 +23,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum age:** 201.5Ma\
 **Maximum justification:** Based on the Triassic-Jurassic boundary, as Eurypterygia are euteleosts, but no crown or total group euteleosts are known before the Jurassic.\
 **Discussion:** This species is considered an unequivocal total-group aulopiform (phylogenetically uncategorized within Aulopiformes by [Silva & Gallo 2011](https://doi.org/10.1590/S0001-37652011000200010), but potential crown aulopiform based on alepisauroid affinities according to [Davis & Fielitz 2010](https://www.sciencedirect.com/science/article/pii/S1055790310003702)), and therefore an unambiguous eurypterygian (see [Newbrey & Konishi 2015](https://www.tandfonline.com/doi/abs/10.1080/02724634.2014.918042); [Near & Thacker 2024](https://bioone.org/journals/bulletin-of-the-peabody-museum-of-natural-history/volume-65/issue-1/014.065.0101/Phylogenetic-Classification-of-Living-and-Fossil-Ray-Finned-Fishes-Actinopterygii/10.3374/014.065.0101.short)). Supporting its crown affinities, [Gallo & Coelho (2008)](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf) noted: “It is superficially more similar to Cimolichthyidae and Serrilepidae, differing from those by relevant anatomical details.” These two families are deeply nested inside Aulopiformes following [Davis & Fielitz (2010)](https://www.sciencedirect.com/science/article/pii/S1055790310003702), who also stated that “[w]hile the phylogenetic position of [_Atolvorator_] is unknown, [Gallo and Coelho (2008)](http://www.pfeil-verlag.de/wp-content/uploads/2015/05/3_80d16.pdf) suggested that the taxon shared some morphological similarities with members of Alepisauroidea” and that its “phylogenetic position within Aulopiformes is unknown.”
+
+---
 
 **Node 1015:** Labridae | 48.7–83.6Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Choerodon schoenleinii_ (Labridae: Hypsigenyinae) and _Labrus mixtus_ (Labridae: Labrinae).\
@@ -31,6 +35,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum justification:** Based on the Age of †_Gasterorhamphosus_ and the oldest percomorph faunas, Percomorpha must have diversified at some point during this interval, but no putative eupercarians are known from earlier in the Cretaceous ([Friedman et al. 2023](https://doi.org/10.20341/gb.2023.002)).\
 **Discussion:** Based on the oldest known hypsigenyine labrid. At least one other distantly-related fossil wrasse genus (†_Eocoris_) is also known from the same formation ([Bennikov & Sorbini 1990](https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=5536996)).\
 
+---
+
 **Node 1025:** Scorpaenidae + Triglidae + Cottoidea + Gasterosteidae + Zoarcoidea | 48.7–83.6Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Sebastes fasciatus_ (Scorpaenidae) and _Pholis gunnellus_ (Pholidae).\
 **Fossil taxon:** †"Monte Bolca scorpaenoid" (MCSNV IG.VR.66957)\
@@ -39,6 +45,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum age:** 83.6Ma\
 **Maximum justification:** As with the calibration for Labridae (**Node 1015**) above, based on the age of †_Gasterorhamphosus_ and the oldest percomorph faunas, Percomorpha must have diversified at some point during this interval, but no putative eupercarians are known from earlier in the Cretaceous ([Friedman et al. 2023](https://doi.org/10.20341/gb.2023.002)).\
 **Discussion:** [Marramà et al. (2020)](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf) assigned this taxon to “Scorpaenoidei” _sensu_ [Smith et al. (2018)](https://asih.kglmeridian.com/view/journals/cope/106/1/article-p94.xml), which is not monophyletic, as it includes scorpaenids and triglids but not cottoids, gasterosteoids, or zoarcoids. Node 1025 represents the MRCA of this grouping as well as the aforementioned groups.
+
+---
 
 **Node 1071:** Scombriformes | 54.2–83.6Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Arripis georgiana_ (Arripidae) and _Scomber scombrus_ (Scombridae).\
@@ -49,6 +57,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum justification:** As with the calibrations for **Nodes 1015** and **1025** above, based on the age of †_Gasterorhamphosus_ and the oldest percomorph faunas, as Percomorpha must have diversified at some point during this interval, but no putative scombriforms are known from earlier in the Cretaceous ([Friedman et al. 2023](https://doi.org/10.20341/gb.2023.002)).\
 **Discussion:** Eocoelopomins are considered total-group scombrids and therefore unequivocal crown pelagiarians ([Monsch & Bannikov 2012](https://www.cambridge.org/core/journals/earth-and-environmental-science-transactions-of-royal-society-of-edinburgh/article/new-taxonomic-synopses-and-revision-of-the-scombroid-fishes-scombroidei-perciformes-including-billfishes-from-the-cenozoic-of-territories-of-the-former-ussr/37C191646AD6ECED0B473DE94B6971EC); [Beckett & Friedman 2016](https://pubs.geoscienceworld.org/books/edited-volume/2011/chapter/16307715)).
 
+---
+
 **Node 1076:** Syngnathiformes | 72.2–100.5Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Aulostomus maculatus_ (Aulostomidae) and _Syngnathus acus_ (Syngnathidae).\
 **Fossil taxon:** †_Gasterorhamphosus zuppichini_ (MCSNV 877)\
@@ -57,6 +67,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum age:** 100.5Ma\
 **Maximum justification:** Based on the Albian-Cenomanian boundary, as the oldest acanthomorph fossils are known from this period ([Davesne et al. 2014](https://academic.oup.com/zoolinnean/article-abstract/172/2/475/3797055); [Friedman et al. 2023](https://doi.org/10.20341/gb.2023.002)), but no percomorph fossils are known until the oldest total group or crown group syngnathiform †_Gasterorhamphosus_.\
 **Discussion:** Considered a centriscoid by [Cantalice & Alvarado-Ortega (2016)](https://doi.org/10.26879/682), or else a stem syngnathiform or stem-syngnathoid ([Brownstein 2023](https://doi.org/10.1093/iob/obad011); other suborders not sampled). [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) considers that this may be a stem- or crown-syngnathoid (compare the topologies of Figs 2 and 3 in [Brownstein (2023)](https://doi.org/10.1093/iob/obad011)), although Syngnathoidei is not resolved as monophyletic in this tree. The relationships of [Brownstein (2023)](https://doi.org/10.1093/iob/obad011) are congruent with [Santaquiteria et al. (2021)](https://pubmed.ncbi.nlm.nih.gov/33892493/), but the VGP guide topology finds a non-monophyletic Syngnathoidei: (Aulostomidae,(Callionymidae,Syngnathidae)).
+
+---
 
 **Node 1084:** Lampriformes + Polymixiiformes | 93.9–145.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Polymixia lowei_ (Polymixiidae) and _Lampris incognitus_ (Lampridae).\
@@ -67,6 +79,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum justification:** Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2018](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3); [Brownstein and Near, 2024](https://academic.oup.com/zoolinnean/article-abstract/201/2/422/7319343); [Brownstein et al. 2025](https://academic.oup.com/evolut/article-abstract/79/6/922/8051721); [Melendez-Vasquez et al. 2025](https://www.science.org/doi/abs/10.1126/sciadv.ads8488)) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
 **Discussion:** Considered a stem lampridomorph by [Davesne et al. (2014)](https://academic.oup.com/zoolinnean/article-abstract/172/2/475/3797055) based numerous synapomorphies, and by the morphological phylogenetic analysis of [Delbarre et al. (2016)](https://doi.org/10.1080/14772019.2015.1078538).
 
+---
+
 **Node 1087:** Zeogadaria | 72.2–145.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Zeus faber_ (Zeiformes: Zeidae) and _Gadus morhua_ (Gadiformes: Gadidae).\
 **Fossil taxon:** †_Cretazeus rinaldii_ (CCN 6659C)\
@@ -75,6 +89,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum age:** 145.0Ma\
 **Maximum justification:** Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2018](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3); [Brownstein and Near, 2024](https://academic.oup.com/zoolinnean/article-abstract/201/2/422/7319343); [Brownstein et al. 2025](https://academic.oup.com/evolut/article-abstract/79/6/922/8051721); [Melendez-Vasquez et al. 2025](https://www.science.org/doi/abs/10.1126/sciadv.ads8488)) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
 **Discussion:** This species is considered an unambiguous crown zeiform, including both morphological and combined-evidence analyses ([Davesne et al. 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/pala.12280); [Grande et al. 2018](https://doi.org/10.1643/CG-17-594)) and “at least five different zeiform lineages were present in the Campanian” ([Tyler & Santini 2005](https://doi.org/10.1111%2Fj.1463-6409.2005.00180.x)).
+
+---
 
 **Node 1099:** Esociformes + Salmoniformes | 76.2–201.5Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Esox lucius_ (Esociformes: Esocidae) and _Salmo trutta_ (Salmoniformes: Salmonidae).\
@@ -85,6 +101,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum justification:** Based on the Triassic-Jurassic boundary, as Eurypterygia are euteleosts, but no crown or total group euteleosts are known before the Jurassic.\
 **Discussion:** [Wilson et al. (1992)](https://doi.org/10.1017/S0022336000020849) considered this species to be an esocid. The same deposits also contain †_Estesesox foxi_, but this taxon is apparently less closely related to extant esocids.
 
+---
+
 **Node 1109:** Gobionidae + Leuciscidae | 27.3–66.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Gobio gobio_ (Gobionidae) and _Phoxinus phoxinus_ (Leuciscidae).\
 **Fossil taxon:** †_Palaeotinca moeddeni_ (BSPG 2003 XVIII 51)\
@@ -93,6 +111,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum age:** 66.0Ma\
 **Maximum justification:** Based on the K-Pg boundary,as no crown cypriniform fossils are known prior to the Paleogene.\
 **Discussion:** A stem-group tincid, known from otoliths and a pharyngeal tooth ([Schulz-Mirbach & Reichenberger 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).
+
+---
 
 **Node 1110:** Leuciscidae | 23.0–33.9Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Cyprinella venusta_ (Pogonichthyinae) and _Phoxinus phoxinus_ (Phoxininae).\
@@ -103,6 +123,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum justification:** Based on the Eocene-Oligocene boundary, as no crown leuciscid fossils are known prior to the Oligocene.\
 **Discussion:** This species is a “phoxinine” cyprininid according to Böhme ([2000](https://link.springer.com/content/pdf/10.1007/BF02987956.pdf), [2007](https://publikace.nm.cz/en/file/4edb6e44511173742abdfbb4095e6440/15857/04_sbornik_B_2-4_07_bohme.pdf)), though this fossil is not especially well-documented.
 
+---
+
 **Node 1117:** Barbinae + Cyprininae | 38.0–66.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Barbus barbus_ (Barbinae) and _Carassius carassius_ (Cyprininae).\
 **Fossil taxon:** †_Eoprocypris maomingensis_ (IVPP V.855)\
@@ -111,6 +133,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum age:** 66.0Ma\
 **Maximum justification:** Based on the K-Pg boundary, as no crown cypriniform fossils are known prior to the Paleogene.\
 **Discussion:** Considered a “cyprinin” by the authors, interpreted as an unambiguous crown cyprinine. There is a related cyprinin from the same formation, _Huashancyprinus_, but it is apparently slightly younger.
+
+---
 
 **Node 1123:** Ariidae + Pangasiidae | 33.9–125.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Pangasianodon hypophthalmus_ (Pangasiidae) and Neoarius graeffei (Ariidae).\
@@ -121,6 +145,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum justification:** This is a broad calibration, conservatively based on the upper bound of the Barremian. No putative crown or definite stem siluriformes are known from before the Albian, but some have theorized that the biogeography of siluriforms in part reflects the latest stages of Gondwanan vicariance ([Arroyave et al. 2026](https://www.biorxiv.org/content/10.64898/2026.01.30.702944.abstract); [Kappas et al. 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166988); [Capobianco and Friedman 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12473)), which would have taken place in the Aptian-Albian with the separation of Africa and South America.\
 **Discussion:** [El-Sayed et al. (2017)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172409) find this species to be a crown ariine (Bayesian inference) or stem ariid (parsimony); its position within total group ariidae is apparently not contentious.
 
+---
+
 **Node 1124:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | 72.2–125.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Pygocentrus nattereri_ (Characidae) and _Astyanax mexicanus_ (Acestrorhamphidae).\
 **Fossil taxon:** †_Eotexachara malateres_ (TMM 45947-640)\
@@ -129,6 +155,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum age:** 125.0Ma\
 **Maximum justification:** Based on the upper bound of the Barremian. No putative crown or definite stem characiforms are known from before the Albian, but some have theorized that the biogeography of characiforms in part reflects the latest stages of Gondwanan vicariance ([Arroyave et al. 2026](https://www.biorxiv.org/content/10.64898/2026.01.30.702944.abstract); [Kappas et al. 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166988); [Capobianco and Friedman 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12473)), which would have taken place in the Aptian-Albian with the separation of Africa and South America.\
 **Discussion:** [Wick (2021)](https://doi.org/10.1016/j.cretres.2021.104993) identified †_Eotexachara_ as a characiform of South American origin, with affinities to the prochilodontids and curimatids (not sampled) based on tooth and jaw morphology. However, he did not provide a phylogeny to support this supposition. Another crown-group characiform †_Primuluchara_ is approximately contemporary.
+
+---
 
 **Node 1132:** Elopomorpha | 149.2–201.5Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Megalops cyprinoides_ (Megalopidae) and _Anguilla anguilla_ (Anguillidae).\
@@ -139,6 +167,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum justification:** Based on the Triassic-Jurassic boundary, as Eurypterygia are oseanacephalian teleosts, but no crown or total group oseanacephalans are known before the Jurassic.\
 **Discussion:** Though originally described from younger (Tithonian) fossils in Germany, this genus is apparently abundant in nearby Kimmeridgian deposits ([Chellouche et al 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)). Another crown-group elopomorph †_Elopsomolos_ is approximately contemporary. A detailed morphological description of _Anaethalion_ was provided by [Arratia (1987b)](https://www.researchgate.net/publication/258820846_Anaethalion_and_similar_teleosts_Actinopterygii_Pisces_from_the_Late_Jurassic_Tithonian_of_southern_Germany_and_their_relationships_Palaeontographica_Abt_A_200_1-44_32).
 
+---
+
 **Node 1134:** Holostei | 251.2–298.9Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Amia calva_ (Amiiformes: Amiidae) and _Lepisosteus oculatus_ (Lepisosteiformes: Lepisosteidae).\
 **Fossil taxon:** †_Watsonulus eugnathoides_ (MCZ 13871–13878)\
@@ -147,6 +177,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum age:** 298.9Ma\
 **Maximum justification:** Based on the Carboniferous-Permian Boundary, as crown Actinopterygii and Neopterygii are known from the Permian, but no putative representatives of Pan-Teleostei or Teleostei are known from before the Triassic.\
 **Discussion:** Considered a stem-amiiform (or a non-amiiform stem-halecomorph) by most recent studies ([Hurley et al. 2007](https://royalsocietypublishing.org/rspb/article/274/1609/489/48161), [Arygyriou et al. 2022](https://doi.org/10.7554/eLife.58433)), though [Giles et al. (2017)](https://www.nature.com/articles/nature23654) consider it to be a stem-holostean.
+
+---
 
 **Node 1135:** Chondrichthyes | 382.3–443.1Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Hydrolagus colliei_ (Chimaeriformes: Chimaeridae) and _Mustelus asterias_ (Carchariniformes: Triakidae).\
@@ -157,6 +189,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum justification:** Based on the Ordovician-Silurian boundary, as the earliest jawed vertebrates are approximately 439 million years old (Andreev et al. [2022a](https://www.nature.com/articles/s41586-022-05166-2), [2022b](https://www.nature.com/articles/s41586-022-05233-8)), but no potential crown chondrichthyans are known until at least the Devonian (419.62 to 358.9 Ma).\
 **Discussion:** Considered an unambiguous elasmobranch ([Frey et al. 2019](https://doi.org/10.1098/rspb.2019.1336)), and slightly older than more recently described congeners. This taxon has a wide distribution ([Ivanov 2021](https://link.springer.com/article/10.1134/S0031030121030096)) and is putatively known from other Givetian deposits including the referenced specimen from the Rockport Quarry Limestone formation, Michigan, United States ([Swinehart et al. 2020](https://doi.org/10.1674/0003-0031-184.1.109)).
 
+---
+
 **Node 1140:** Carcharhiniformes + Lamniformes | 165.3–251.2Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Carcharodon carcharias_ (Lamniformes: Lamnidae) and _Mustelus asterias_ (Carchariniformes: Triakidae).\
 **Fossil taxon:** †_Palaeoscyllium tenuidens_ (BMNH P. 66045)\
@@ -165,6 +199,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum age:** 251.2Ma\
 **Maximum justification:** Conservatively based on the Permian-Triassic boundary, as no potential stem or crown group members of either of these orders are known until the Jurassic.\
 **Discussion:** Described from teeth only and considered a total-group scyliorhinid ([Underwood & Ward 2004](https://doi.org/10.1111/j.0031-0239.2004.00386.x)) and therefore an unequivocal crown carcharhiniform.
+
+---
 
 **Node 1145:** Batomorpha | 184.2–251.2Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Raja brachyura_ (Rajiformes: Rajidae) and _Hypanus sabinus_ (Myliobatiformes: Dasyatidae).\
@@ -191,6 +227,8 @@ Underlining the taxa considered to be crown Actinopteri (**Node 980**), the cite
 A seventh study ([Stack 2026](https://doi.org/10.1002/ar.70090)), used a new morphological matrix without complementary molecular data to estimate extremely unorthodox relationships among extant fishes - (Acipenseriformes,(_Platysomus_,(<ins>Polypteriformes</ins>,(<ins>Lepisosteiformes</ins>,(<ins>Amiiformes</ins>,<ins>Teleostei</ins>))))). The author ultimately put forward a higher-level topology of (Polypteriformes,(<ins>Acipenseriformes</ins>,(<ins>Platysomus</ins>,<ins>Neopterygii</ins>))) following [Near & Thacker (2024)](https://doi.org/10.3374/014.065.0101), which is evidently their primary hypothesis and consistent with the above six sources. A similar issue is seen in [Giles et al. (2023)](https://www.nature.com/articles/s41559-022-01919-4), which included _Platysomus_ but did not recover the same topology as the VGP tree, and did not include molecular data. 
 
 The phylogenetic analysis of [Stack (2026)](https://doi.org/10.1002/ar.70090) was based on a revised approach to character ontology that has not been corroborated by other authors. As a result, we make a note of caution regarding this calibration, to be assessed by future total-evidence analyses. Other material and characters supporting the monophyly of Platysomidae were discussed by [Wilson et al. (2021)](https://doi.org/10.1038/s41598-021-87027-y). An alternative fossil for this node is _Birgeria_ from the Triassic ([Romano et al. 2017](https://www.cambridge.org/core/journals/journal-of-paleontology/article/marine-early-triassic-actinopterygii-from-elko-county-nevada-usa-implications-for-the-smithian-equatorial-vertebrate-eclipse/6E362373D3CFD016D645AEAC2ED54776), [Ni et al. 2019](https://link.springer.com/article/10.1007/s00015-018-0329-0)). This is an unequivocal member of crown Actinopteri, though it is also (relatively) very young, only about 250 Ma, while Actinopteri is generally resolved between ~350–400Ma in the literature ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109), [Dornburg et al. 2014](https://link.springer.com/article/10.1186/s12862-014-0169-0), [Betancur-R. et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3), [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115)) and test calibrations.
+
+---
 
 **Node 1012:** Lophiiformes + Tetraodontiformes | 93.9–145.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Antennarius maculatus_ (Lophiiformes: Antennariidae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
