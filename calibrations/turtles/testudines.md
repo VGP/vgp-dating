@@ -13,6 +13,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Maximum justification:** Maximum age based on the lower boundary of the Triassic.\
 **Discussion:** The minimum age of 157.3Ma for crown Testudines is generally used as a maximum age for other calibrations in the absence of more precise constraints. As noted by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773): "_Yehguia tatsuensis_ stems from the same age (Oxfordian) and also serves as a prior for this node."
 
+---
+
 **Node 747:** Pleurodira | 125.0–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant pleurodiran turtles.\
 **Fossil taxa:** _Atolchelys lepida_ (UERJ.MC 2)\
@@ -21,6 +23,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Maximum age:** 157.3Ma\
 **Maximum justification:** Maximum age based on the oldest pan-pleurodiran _Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).\
 **Discussion:** [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773) assign this fossil to the less-inclusive clade Pelumedusoides, but our taxon sampling is not detailed enough to capture this crown group. As result, we calibrate its stem age instead, which is equivalent to the crown group Pleurodira.
+
+---
 
 **Node 733:** Cryptodira | 157.3–201.4Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant cryptodiran turtles.\
@@ -31,6 +35,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Maximum justification:** Maximum age based on the minimum age of the Triassic.\
 **Discussion:** Also serves as a minimum age for Testudines.
 
+---
+
 **Node 734:** Durocryptodira | 88.6–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
 **Fossil taxa:** _Lindholmemys elegans_ (CCMGE 34/12175)\
@@ -38,7 +44,9 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Minimum justification:** Based on the oldest crown durocryptodiran, likely stem Testudinoidea ([Danilov and Parham 2005](https://www.tandfonline.com/doi/abs/10.1671/0272-4634(2005)025%5B0784%3AAROTRO%5D2.0.CO%3B2)), from the Turonian Bissekty Formation of Uzbekistan of the Cretaceous (89.8–93.9Ma).\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
-**Discussion:** Previous phylogenetic analyses used chimaeric specimens ([Shaffer et al. 1997](https://academic.oup.com/sysbio/article-abstract/46/2/235/1712833)), but the referenced material was placed on the testudinoid stem ([Danilov and Parham 2005](https://www.tandfonline.com/doi/abs/10.1671/0272-4634(2005)025%5B0784%3AAROTRO%5D2.0.CO%3B2)). 
+**Discussion:** Previous phylogenetic analyses used chimaeric specimens ([Shaffer et al. 1997](https://academic.oup.com/sysbio/article-abstract/46/2/235/1712833)), but the referenced material was placed on the testudinoid stem ([Danilov and Parham 2005](https://www.tandfonline.com/doi/abs/10.1671/0272-4634(2005)025%5B0784%3AAROTRO%5D2.0.CO%3B2)).
+
+---
 
 **Node 744:** Testuguria | 50.3–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant species of Testudinidae and Geoemydidae.\
@@ -49,6 +57,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
 **Discussion:** Some uncertainty exists as to the precise geographic and stratigraphic localities of material associated with this taxon [(Joyce et al. 2013)](https://doi.org/10.1666/12-149).
 
+---
+
 **Node 746:** Emydidae | 32.0–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant species of _Emys_ and _Trachemys_.\
 **Fossil taxa:** _Chrysemys antiqua_ (SDSM 2754)\
@@ -57,6 +67,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
 **Discussion:** A range of material exists for this taxon ([Hutchison 1996](https://doi.org/10.1017/CBO9780511665431.017)).
+
+---
 
 **Node 735:** Americhelydia | 70.0–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant species of Chelydroidea and Chelonioidea.\
@@ -67,6 +79,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
 **Discussion:** The stratigraphic placement of the referenced specimen is uncertain and may actually be slightly older ([Joyce et al. 2013](https://doi.org/10.1666/12-149)).
 
+---
+
 **Node 742:** Chelydroidea | 70.0–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant species of _Chelydra_ and _Macrochelys_.\
 **Fossil taxa:** Chelydridae indet. (SEPCP 9/493)\
@@ -75,6 +89,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
 **Discussion:** A range of apparent chelydrid material exists from the Mesozoic of North America (summarized by [Joyce et al. 2013](https://doi.org/10.1666/12-149)), but only the referenced specimen shows clear synapomorphies.
+
+---
 
 **Node 736:** Chelonioidea | 48.4–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles.\
