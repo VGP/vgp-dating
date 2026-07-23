@@ -13,7 +13,7 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 **Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
 **Discussion:** Isolated pelmatozoan columnals with characteristic morphology and stereom structure of the echinoderm total group have been found, however they are dated to 515.5 Ma and are therefore younger than _Haikouichthys_ ([Swalla and Smith 2008](https://royalsocietypublishing.org/doi/abs/10.1098/rstb.2007.2246); [Clausen and Smith 2008](https://www.cambridge.org/core/journals/journal-of-paleontology/article/abs/stem-structure-and-evolution-in-the-earliest-pelmatozoan-echinoderms/2F53133C923A5FC745C94E99C98503F4)). The Lantian Biota also has extensive macrofossils without any definitive metazoans, but it is older than the Weng’an Biota ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)), making the Weng’an a more reasonable choice.
 
-––
+---
 
 **Node 1161:** Crown Ambulacraria | 590.8 - 515.5 Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Hemichordata and Echinodermata.\
