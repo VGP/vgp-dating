@@ -13,6 +13,8 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum justification:** Divergence time for crown Squamata has a range spanning between the Late Triassic and Early Jurassic among recent genomic and total evidence based studies: 193.2Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 190.3Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 186.5Ma ([Simões et al. 2020](https://www.nature.com/articles/s41467-020-17190-9)), 214.5Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 213.2Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)). Therefore, we place a soft maximum age for the root reasonably older than the oldest estimate, at 215Ma.\
 **Discussion:** Divergence times for crown Squamata vary little between datasets and analyses, without any fossil evidence indicating crown squamates in the Triassic. A recent study suggested the presence of crown squamates in the Triassic based on the fossil taxon _Cryptovaranoides_ from the late Triassic of the UK ([Whiteside et al. 2022](https://www.science.org/doi/10.1126/sciadv.abq8274), [2024](https://royalsocietypublishing.org/rsos/article/11/11/231874/92497/Late-Triassic-Cryptovaranoides-microlanius-is-a)). However, several aspects of its anatomy and affinity to squamates have been subsequently corrected and phylogenetic interpretations altered ([Brownstein et al. 2023](https://royalsocietypublishing.org/rsos/article/10/10/230968/92232/The-affinities-of-the-Late-Triassic), [Caldwell et al. 2025](https://elifesciences.org/articles/107021), [Whiteside et al. 2024](https://royalsocietypublishing.org/rsos/article/11/11/231874/92497/Late-Triassic-Cryptovaranoides-microlanius-is-a)), raising doubt over its interpretation as a squamate, much less a crown squamate ([Brownstein et al. 2023](https://royalsocietypublishing.org/rsos/article/10/10/230968/92232/The-affinities-of-the-Late-Triassic), [Caldwell et al. 2025](https://elifesciences.org/articles/107021)). We therefore also consider this taxon unfit for node calibration.
 
+---
+
 **Node 749:** Unidentata | 205-166Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Scincoidea and Toxicofera.\
 **Fossil taxon:** _Paramacellodus_ sp. (e.g., DINO 13861; [Evans 1998](https://doi.org/10.1127/pala/250/1998/123))\
@@ -20,6 +22,8 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Minimum justification:** As discussed above (**Node 748:** Crown Squamata), paramacellodids have been consistently inferred to be part of Total Group Scincoidea, and therefore part of crown Unidentata. This places the youngest possible age for Unidentata to be at least in the Middle Jurassic, at 166Ma.\
 **Maximum age:** Triassic-Jurassic boundary, at 200Ma.\
 **Maximum justification:** Divergence time for crown Unidentata has a broad range among recent genomic and total evidence based studies: 189.5Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 183.4Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 178Ma ([Simões et al. 2020](https://www.nature.com/articles/s41467-020-17190-9)), 200Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 203.7Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)). Therefore, we place a wide prior on this node, with a soft maximum age reasonably older than the oldest estimate, at 205Ma.
+
+---
 
 **Node 767:** Toxicofera | 190-166Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Serpentes, Iguania, and Anguimorpha.\
@@ -29,6 +33,8 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum age:** Pliensbachian, Early Jurassic, at 190Ma.\
 **Maximum justification:** Toxicofera has been estimated at 161-185.6Ma based on very different morphological and molecular datasets, including phylogenomic and total evidence dating studies ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126), [Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090), [Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067), [Simões et al. 2018](https://www.nature.com/articles/s41586-018-0093-3), [Simões et al. 2020](https://www.nature.com/articles/s41467-020-17190-9), [Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449), [Zheng and Wiens 2016](https://www.sciencedirect.com/science/article/pii/S1055790315003127)). Therefore, we provide a wide sampling range for ages up to 190Ma.
 
+---
+
 **Node 769:** Endoglyptodonta | 66.0–20.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Viperidae + Colubroides (e.g., _Erythrolamprus reginae_ and _Vipera berus_).\
 **Fossil taxon:** _Vipera_ cf. _aspis_ (MNHN SG 13732–3)\
@@ -36,6 +42,8 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Minimum justification:** This calibration is based on the oldest crown Viperinae ([Szyndlar and Rage, 1999](https://www.zobodat.at/publikation_volumes.php?id=58079)) from the St-Gérand-le-Puy complex of the early Miocene (16.0–20.5Ma) of France. Synapomorphies listed and assigned by [Head et al. (2016)](https://doi.org/10.26879/625) at 20.0 Ma, the youngest age for the MN2 stage ([Agustí et al. 2001](https://doi.org/10.1016/S0012-8252(00)00025-8)).\
 **Maximum age:** K–Pg boundary, 66.043Ma.\
 **Maximum justification:** The crown group Endoglyptodonta has been dated to 59.5Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 47.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 52.0Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), 43.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 42.5Ma ([Zaher et al. 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216148)), leaving the K–Pg boundary as a conservative upper bound.
+
+---
 
 **Node 771:** Natricidae | 33.9–13.8Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Natrix_ and _Thamnophis_.\
@@ -45,6 +53,8 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum age:** Eocene-Oligocene boundary, 33.9Ma.\
 **Maximum justification:** The age of the crown group Natricidae has been estimated at 27.3Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 20.0Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 19.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 26.0Ma ([Zaher et al. 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216148)) – the total clade was not captured by [Simões et al. (2026)](https://doi.org/10.1093/sysbio/syaf067) – leaving the Eocene–Oligocene boundary as a conservative upper bound.
 
+---
+
 **Node 774:** Constrictores | 100.5-48Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Pythonidae (_Liasis_) and Boidae (_Candoia_).\
 **Fossil taxon:** _Eoconstrictor fischeri_ (SMF-ME 929) and _Rageryx schmidi_ (HLMD-Me 9723)\
@@ -52,6 +62,8 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Minimum justification:** _Eoconstrictor fischeri_ ([Scanferla et al. 2020](https://doi.org/10.3390%2Fd12030100)) and _Rageryx schmidi_ ([Smith and Scanferla 2021](https://doi.org/10.5252/geodiversitas2021v43a1)), from the Middle Messel Formation, Germany, dated as latest early to earliest middle Eocene (48.4-47.9Ma; [Lenz et al. 2015](https://link.springer.com/article/10.1007/s00531-014-1126-2)), currently stand as the oldest known booids ([Onary et al. 2021](https://www.tandfonline.com/doi/full/10.1080/14772019.2022.2068386), [Smith and Scanferla 2021](https://doi.org/10.5252/geodiversitas2021v43a1)), providing a minimum age for the split between boas and pythons.\
 **Maximum age:** Albian–Cenomanian boundary, late Cretaceous, 100.5Ma.\
 **Maximum justification:** The divergence of boas and pythons has a broad temporal range among recent genomic and total evidence based studies: 97.1Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)); 60.6 ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 70.5Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 81.5Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)). We therefore place a tentative maximum of 100.5Ma, slightly predating the earlier-branching snakes _Haasiophis, Najash,_ and _Pachyrhachis_ ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090), [Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)).
+
+---
 
 **Node 777:** Pleurodonta | 120-48Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant pleurodontan iguanians, here represented by Iguanidae (_Iguana_) and Dactyloidae (_Anolis_).\
@@ -62,6 +74,8 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum justification:** Divergence time for crown Pleurodonta has a relatively wide range among recent genomic and total evidence based studies: 99.8Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 74.8Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 118.9Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 72.3Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)). This suggests a maximum age of ~120Ma.\
 **Discussion:** The putative corytophanid _Suzanniwana patriciana_ ([Smith 2009](https://doi.org/10.3374/014.050.0201)) from the earliest Eocene was used by [Townsend et al. (2011)](https://www.sciencedirect.com/science/article/pii/S1055790311003319) to calibrate the maximally-supported (in all concatenated Bayesian analyses) node representing the MRCA of _Polychrus, Leiocephalus, Anolis, Basiliscus, Corytophanes, Stenocercus, Tropidurus,_ and _Uranoscodon_ at approximately 55 Mya. However, its phylogenetic placement is ambiguous relative to other pleurodontan iguanians among distinct analyses, even when using the same morphological dataset ([Conrad 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127900), [Scarpetta 2020](https://doi.org/10.1098/rsbl.2020.0356), [Welt and Raxworthy 2022](https://www.sciencedirect.com/science/article/pii/S1055790321002785)). Therefore, we take a conservative approach and do not include this as the minimum age for the clade.
 
+---
+
 **Node 778:** Chamaeleoninae | 66.0–20.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Bradypodion_ and _Furcifer_, which is within the crown group Chamaeleoninae.\
 **Fossil taxon:** _Calumma benovskyi_ (KNM-RU 18340)\
@@ -69,6 +83,8 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Minimum justification:** This calibration is based on the oldest crown chameleonine ([Čerňanský et al. 2020](https://doi.org/10.1038%2Fs41598-019-57014-5)), from the early Miocene at the base of the Hiwegi formation, dated to ~17–20Ma ([Maxbauer et al. 2013](https://doi.org/10.26879/342)).\
 **Maximum age:** K–Pg boundary, 66.043Ma.\
 **Maximum justification:** Assignment of this material to _Calumma_ places it within the _Bradypodion + Furcifer_ divergence, which has previously been estimated at ~45–50Ma using molecular timetrees ([Tolley et al. 2013](https://doi.org/10.1098/rspb.2013.0184)), leaving the K–Pg boundary as a conservative upper bound.
+
+---
 
 **Node 779:** Anguimorpha | 150-70Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Anguidae and Xenosauridae.\
@@ -78,6 +94,8 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum age:** Late Jurassic, ~150Ma.\
 **Maximum justification:** Divergence time for crown Anguimorpha has a relatively narrow range among recent genomic and total evidence based studies: 136.9Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 144.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)), and 134.4Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067); without _Shinisaurus_). This suggests a maximum age of ~150Ma. An estimate of 114.3Ma from [Pyron (2017)](https://academic.oup.com/sysbio/article/66/1/38/2670090) is a younger outlier.\
 **Discussion:** While there is a putative anguimorph _Dorsetisaurus purbeckensis_ from the Tithonian of the Jurassic (143.1–149.2Ma), it is unresolved as a crown or stem member and frequently referred to the stem ([Conrad et al. 2011](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1096-0031.2010.00330.x)). The oldest unambiguous crown anguimorphs come from the late Cretaceous of Mongolia, which are much younger in age. There might exist a really long ghost lineage towards the crown of Anguimorpha, or simply an incorrect placement of _Dorsetisaurus,_ which is made up of several different individuals (NHMUK PV R 8129) and somewhat difficult to interpret and score for a decisive phylogenetic analysis.
+
+---
 
 **Node 780:** Stem Anguidae | 100.5-33.9Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Anniellidae (_Anniella_) and Anguidae (_Elgaria_).\
