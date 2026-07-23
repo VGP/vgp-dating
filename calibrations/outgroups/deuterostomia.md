@@ -23,6 +23,8 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 **Minimum justification:** The isolated pelmatzoan columnals have characteristic morphology and stereom structure of the Echinodermata total group ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1); [Swalla and Smith 2008](https://royalsocietypublishing.org/doi/abs/10.1098/rstb.2007.2246); [Clausen and Smith 2008](https://www.cambridge.org/core/journals/journal-of-paleontology/article/abs/stem-structure-and-evolution-in-the-earliest-pelmatozoan-echinoderms/2F53133C923A5FC745C94E99C98503F4)).\
 **Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).
 
+---
+
 **Node 583:** Crown Chordata | 590.8 - 517.32 Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing vertebrates, tunicates, and cephalochordates.\
 **Fossil taxon:** Chengjiang fossils such as _Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China) ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646)).\
@@ -31,6 +33,8 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 **Maximum age:** Weng’an Biota, 590.8 Ma ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)). Yang et al. date the biota based on Re-Os data to 587.2 Ma ±3.6 Myr, yielding a maximum age constraint of 590.8 Ma.\
 **Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
 **Discussion:** The Lantian Biota also has extensive macrofossils without any definitive metazoans, but it is older than the Weng’an Biota ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)), making the Weng’an a more reasonable choice.
+
+---
 
 **Node 584:** Crown Olfactores | 590.8 - 517.32 Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing tunicates and Vertebrata-Craniata.\
