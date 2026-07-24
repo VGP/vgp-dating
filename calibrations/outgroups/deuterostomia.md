@@ -47,7 +47,9 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 
 ### Likelihood checkpoints
 
-TBD
+We gathered 15 studies supporting a likelihood checkpoint for the root (Deuterostomia) published between 1998 and 2024. As discussed by previous authors ([Cunningham et al. 2017](https://doi.org/10.1002/bies.201600120)), early disagreements between the fossil record and molecular divergence times have narrowed with more recent discoveries, interpretations, and methods. As noted above, we rely primarily on the recent framework of [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1) and [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161) to interpret the Cambrian and Ediacaran fossil record and derive well-constrained ages for the emergence of deuterostomes between 517–591Ma. Of the 15 studies evaluated here, only 5 fall within that interval and the modal estimate is ~600Ma. However, most of the older ages are from older studies, before the recent movement towards reconciliation. Consequently, we are confident in the younger and narrower bounds used here.
+
+![Deuterostomia ages](deuterostomia_ages_density.png)
 
 ## References
 
@@ -56,6 +58,8 @@ Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther,
 Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification of Metazoa.Sci. Adv. 10, eadp7161(2024).
 
 Clausen, S. and Smith, A.B., 2008. Stem structure and evolution in the earliest pelmatozoan echinoderms. Journal of Paleontology, 82(4), pp.737-748.
+
+Cunningham, J.A., Liu, A.G., Bengtson, S. and Donoghue, P.C.J. (2017), The origin of animals: Can molecular clocks and the fossil record be reconciled?. BioEssays, 39: 1-12 e201600120.
 
 Gabbott, S.E., Donoghue, P.C., Sansom, R.S., Vinther, J., Dolocan, A. and Purnell, M.A., 2016. Pigmented anatomy in Carboniferous cyclostomes and the evolution of the vertebrate eye. Proceedings of the Royal Society B: Biological Sciences, 283(1836), p.20161151.
 
