@@ -104,14 +104,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 915:** Lagomorpha | 66.0-47.6Ma\
+**Node calibrated:** The most recent common ancestor of Leporidae (_Oryctolagus cuniculus_) and Ochotonidae (_Ochotona princeps_).\
+**Fossil taxa:** Unnamed leporid fossils (GU/RSR/VAS 711) from the early Eocene Cambay Shales at the Vastan lignite mine, Gujarat, India ([Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661))\
+**Minimum age:** Early Eocene (Ypresian), 47.6Ma\
+**Minimum justification:** The Cambay Shale are dated to the middle Ypresian ([Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)), the top of which dates to 47.8Ma ± 0.2 Myr, thus 47.6Ma\
+**Maximum age:** Early Paleocene (Danian), 66.0Ma\
+**Maximum justification:** Based on the occurrences of basal Glires, including †_Mimotona_ ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387); [de Vries & Beck, 2023](https://doi.org/10.26879/1249)) and †_Heomys_ ([Li & Ting, 1983](https://doi.org/10.5962/p.228600))\
+**Discussion:** The oldest-known crown lagomorphs, these unnamed stem leporid fossils are from the Vastan Mines (Cambay Shale) of West-Central India, dated to the early Eocene (Ypresian) ([Benton et al. 2015](https://doi.org/10.26879/424); [Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)). The oldest known stem Lagomorphs, Mimotona, have a concordant upper age of 66.0Ma ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387); [de Vries & Beck, 2023](https://doi.org/10.26879/1249)).
 
 ---
 
@@ -229,6 +229,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 Archer, M., Jenkins Jr, F.A., Hand, S.J., Murray, P. and Godthelp, H., 1992. Description of the skull and non-vestigial dentition of a Miocene platypus (Obdurodon dicksoni n. sp.) from Riversleigh, Australia, and the problem of monotreme origins. pp. 15–27 In: Platypus and echidnas, Royal Zoological Society of New South Wales, Sydney.
 
+Asher, R.J., Smith, M.R., Rankin, A. and Emry, R.J., 2019. Congruence, fossils and the evolutionary tree of rodents and lagomorphs. Royal Society Open Science, 6(7), p.190387.
+
 Beck, R.M., 2012. An ‘ameridelphian’marsupial from the early Eocene of Australia supports a complex model of Southern Hemisphere marsupial biogeography. Naturwissenschaften, 99(9), pp.715-729.
 
 Beck, R.M., 2023. Diversity and phylogeny of marsupials and their stem relatives (Metatheria). In American and Australasian marsupials: An evolutionary, biogeographical, and ecological approach (pp. 23-88). Cham: Springer International Publishing.
@@ -238,6 +240,8 @@ Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther,
 Bergqvist, L. P., Abrantes, E. A. L., & Avila, L. D. S. (2004). The Xenarthra (Mammalia) of São José de Itaboraí Basin (Upper Paleocene, Itaboraian), Rio de Janeiro, Brazil. Geodiversitas, 26, 323–337.
 
 Bi, S., Zheng, X., Wang, X., Cignetti, N.E., Yang, S. and Wible, J.R., 2018. An Early Cretaceous eutherian and the placental–marsupial dichotomy. Nature, 558(7710), pp.390-395.
+
+de Vries, Dorien and Beck, Robin M.D. 2023. Twenty-five well-justified fossil calibrations for primate divergences. Palaeontologia Electronica, 26(1):a8. 
 
 Flynn, J.J., Parrish, J.M., Rakotosamimanana, B., Simpson, W.F. and Wyss, A.R., 1999. A middle Jurassic mammal from Madagascar. Nature, 401(6748), pp.57-60.
 
@@ -259,6 +263,8 @@ Jones, M.F., Beard, K.C. and Simmons, N.B., 2024. Phylogeny and systematics of e
 
 Lenz, O.K., Wilde, V., Mertz, D.F. and Riegel, W., 2015. New palynology-based astronomical and revised 40Ar/39Ar ages for the Eocene maar lake of Messel (Germany). International Journal of Earth Sciences, 104(3), pp.873-889.
 
+Li, C.K., and Ting, S.Y. 1983. The paleogene mammals of china. Bulletin Carnegie Mus. Nat. Hist., 21, pp.1-93.
+
 Luo, Z.X., Crompton, A.W. and Sun, A.L., 2001. A new mammaliaform from the early Jurassic and evolution of mammalian characteristics. Science, 292(5521), pp.1535-1540.
 
 Luo, Z., Kielan-Jaworowska, Z., Cifelli, R.L. (2002). In quest for a phylogeny of Mesozoic mammals. Acta Palaeontologica Polonica, 47, 1–78.
@@ -276,6 +282,8 @@ Phillips, M.J., Bennett, T.H. and Lee, M.S., 2009. Molecules, morphology, and ec
 Phillips, M.J. 2014. Four mammal fossil calibrations: balancing competing palaeontological and molecular considerations. Palaeontologia Electronica 18.1.5FC; 1-16.
 
 Ravel, A., Marivaux, L., Tabuce, R., Adaci, M., Mahboubi, M., Mebrouk, F. and Bensalah, M., 2011. The oldest African bat from the early Eocene of El Kohol (Algeria). Naturwissenschaften, 98(5), pp.397-405.
+
+Rose, K.D., DeLeon, V.B., Missiaen, P., Rana, R.S., Sahni, A., Singh, L. and Smith, T., 2008. Early Eocene lagomorph (Mammalia) from Western India and the early diversification of Lagomorpha. Proceedings of the Royal Society B: Biological Sciences, 275(1639), p.1203.
 
 Travouillon, K.J., Archer, M., Hand, S.J. and Godthelp, H., 2006. Multivariate analyses of Cenozoic mammalian faunas from Riversleigh, northwestern Queensland. Alcheringa: An Australasian Journal of Palaeontology, 30(S1), pp.323-349.
 
