@@ -6,11 +6,11 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 **Node 783:** Mammalia | 201.5-164.9Ma\
 **Node calibrated:** Last common ancestor of monotremes (_Ornithorhynchus anatinus_), marsupials (_Monodelphis domestica_), and placentals (_Dasypus novemcinctus_)\
-**Fossil taxa:** _Ambondro mahabo_ (UA 10602) from the Isalo III Formation of the Mahajanga Basin in northwestern Madagascar ([Flynn et al. 1999](https://doi.org/10.1038/43420))\
+**Fossil taxa:** _†Ambondro mahabo_ (UA 10602) from the Isalo III Formation of the Mahajanga Basin in northwestern Madagascar ([Flynn et al. 1999](https://doi.org/10.1038/43420))\
 **Minimum age:** Middle Jurassic (Bathonian), 164.9Ma\
 **Minimum justification:** Specimen locality dated to Bathonian, top of which is 166.1 Ma, ± 1.2 Myr = 164.9 Ma ([Benton et al. 2015](https://doi.org/10.26879/424))\
 **Maximum age:** Jurassic-Triassic Boundary, 201.5Ma\
-**Maximum justification:** The closest known relative of crown mammals, _Hadrocodium_, dates to early Jurassic Sinemurian ([Luo et al. 2001](https://doi.org/10.1126/science.1058476)), and other closely related mammaliaformes are known from Late Triassic ([Benton et al. 2015](https://doi.org/10.26879/424))\
+**Maximum justification:** The closest known relative of crown mammals, _†Hadrocodium_, dates to early Jurassic Sinemurian ([Luo et al. 2001](https://doi.org/10.1126/science.1058476)), and other closely related mammaliaformes are known from Late Triassic ([Benton et al. 2015](https://doi.org/10.26879/424))\
 **Discussion:** Member of the monotreme clade Australosphenida from the middle Jurassic (Bathonian) of Madagascar ([Benton et al. 2015](https://doi.org/10.26879/424); [Flynn et al. 1999](https://doi.org/10.1038/43420); [Luo et al. 2002](https://www.app.pan.pl/article/pdf/41/item/app47-001.html); [Luo et al. 2011](https://doi.org/10.1038/nature10291))
 
 ---
