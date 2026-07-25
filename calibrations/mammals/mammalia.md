@@ -48,14 +48,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 785:** Placentalia | 126.0-61.6Ma\
+**Node calibrated:** The most recent common ancestor of Atlantogenata (_Dasypus novemcinctus_) and Boroeutheria (_Tupaia tana_)\
+**Fossil taxa:** †_Ravenictis krausei_ (UALVP 31175) from the Ravenscrag Formation of the early Puercan of Saskatchewan, Canada ([Fox & Youzwyshyn 1994](https://doi.org/10.1080/02724634.1994.10011566))\
+**Minimum age:** Early Paleocene (Danian), 61.6Ma\
+**Minimum justification:** The Ravenscrag Formation is from the early Puercan NALMA, corresponding to the Danian age of the Paleocene, the top of which corresponds to 61.7Ma ± 0.1 Myr, thus 61.6Ma ([Fox & Youzwyshyn 1994](https://doi.org/10.1080/02724634.1994.10011566))\
+**Maximum age:** Early Cretaceous (Barremian/Aptian), ~126Ma\
+**Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
+**Discussion:** This fossil is a stem carnivoran from the early Paleocene (Danian) of Ravenscrag Formation in Saskatchewan, Canada ([Benton et al. 2015](https://doi.org/10.26879/424); [Fox et al. 2010](https://doi.org/10.1666/09-165.1))
 
 ---
 
@@ -238,6 +238,10 @@ Bi, S., Zheng, X., Wang, X., Cignetti, N.E., Yang, S. and Wible, J.R., 2018. An 
 
 Flynn, J.J., Parrish, J.M., Rakotosamimanana, B., Simpson, W.F. and Wyss, A.R., 1999. A middle Jurassic mammal from Madagascar. Nature, 401(6748), pp.57-60.
 
+Fox, R.C. and Youzwyshyn, G.P., 1994. New primitive carnivorans (Mammalia) from the Paleocene of western Canada, and their bearing on relationships of the order. Journal of Vertebrate Paleontology, 14(3), pp.382-404.
+
+Fox, R.C., Scott, C.S. and Rankin, B.D., 2010. New early carnivoran specimens from the Puercan (earliest Paleocene) of Saskatchewan, Canada. Journal of Paleontology, 84(6), pp.1035-1039.
+
 Godthelp, H., Wroe, S. and Archer, M., 1999. A new marsupial from the early Eocene Tingamarra Local Fauna of Murgon, southeastern Queensland: a prototypical Australian marsupial?. Journal of Mammalian Evolution, 6(3), pp.289-313.
 
 Luo, Z.X., Crompton, A.W. and Sun, A.L., 2001. A new mammaliaform from the early Jurassic and evolution of mammalian characteristics. Science, 292(5521), pp.1535-1540.
@@ -259,6 +263,8 @@ Travouillon, K.J., Archer, M., Hand, S.J. and Godthelp, H., 2006. Multivariate a
 Upham, N.S., Esselstyn, J.A. and Jetz, W., 2019. Inferring the mammal tree: species-level sets of phylogenies for questions in ecology, evolution, and conservation. PLoS biology, 17(12), p.e3000494.
 
 Woodburne, M.O., Rich, T.H. and Springer, M.S., 2003. The evolution of tribospheny and the antiquity of mammalian clades. Molecular phylogenetics and evolution, 28(2), pp.360-385.
+
+Yang, S., He, H., Jin, F., Zhang, F., Wu, Y., Yu, Z., Li, Q., Wang, M., O'Connor, J.K., Deng, C. and Zhu, R., 2020. The appearance and duration of the Jehol Biota: Constraint from SIMS U-Pb zircon dating for the Huajiying Formation in northern China. Proceedings of the National Academy of Sciences, 117(25), pp.14299-14305.
 
 Zhou, Z., Barrett, P.M. and Hilton, J., 2003. An exceptionally preserved Lower Cretaceous ecosystem. Nature, 421(6925), pp.807-814.
 
