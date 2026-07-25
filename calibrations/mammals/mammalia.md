@@ -126,7 +126,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 891:** 66.0-62.3Ma\
+**Node 891:** Glires | 66.0-62.3Ma\
 **Node calibrated:** The most recent common ancestor of Rodentia (_Mus musculus_) and Lagomorpha (_Oryctolagus cuniculus_)\
 **Fossil taxa:** †_Heomys_ sp. (IVPP V4323) from the lower part of the Upper Member of the Wanghudun Formation, Anhui Province, China ([Li 1977](https://www.vertpala.ac.cn/EN/column/column1.shtml))\
 **Minimum age:** Paleocene (Danian), 62.278Ma\
