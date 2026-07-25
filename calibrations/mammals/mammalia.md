@@ -121,7 +121,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Middle Eocene (Lutetian), 41.03Ma\
 **Minimum justification:** The taxon is known from Late Eocene deposits at West Canyon Creek, Wyoming, dated to the Duchesnean NALMA ([Heaton 1996](https://doi.org/10.1017/CBO9780511665431.019)), and Hough Draw, Montana, dated to the late Uintan (Ui3) NALMA, corresponding to the Lutetian ([Tabrum et al. 1996](https://doi.org/10.1017/CBO9780511665431.015))\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
-**Maximum justification:** As for other nested, crown placental clades. **$XXX WHAT DOES THIS MEAN??**\
+**Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries & Beck, 2023](https://doi.org/10.26879/1249))\
 **Discussion:** †_Ischyromys_ sp. is a stem member of Sciuromorpha nested well within crown Rodentia ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387)), with the oldest specimens known from the Uintan (Ui3) NALMA (Lutetian) of Montana, USA (Hough Draw, [Tabrum et al. 1996](https://doi.org/10.1017/CBO9780511665431.015)). Older minimum ages for crown Rodentia would be justified if future studies sampling both extant and fossil species support the placements of taxa such as †_Tamquammys_ close to Ctenohystrica ([Marivaux & Boivin 2019](https://doi.org/10.1093/zoolinnean/zlz048)) or †_Franimys_ close to Sciuridae ([Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)). Benton et al. ([2015](https://doi.org/10.26879/424)) advocated for using †_Paramys atavus_ (YPM-PU 14200) to calibrate crown Rodentia, citing several papers that placed †_Paramys_ in Sciuromorpha, within the crown group ([Korth 1984](https://doi.org/10.5962/p.228603), [McKenna and Bell 1997](https://cup.columbia.edu/book/classification-of-mammals/9780231110136/), [Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)). However, †_“Paramys” atavus_ is likely better assigned as †_Acritoparamys atavus_ ([Ivy 1990](https://hdl.handle.net/2027.42/48538)). More recent work that did not sample †_A. atavus_ but did code †_Paramys_ sp, †_P. delicatus,_ and †_P. copei,_ as well as †_Reithroparamys_ and older Asian Paleocene species such as †_Tribosphenomys,_ found that these taxa are stem rather than crown rodents ([Meng et al. 2003](https://doi.org/10.1206/0003-0090(2003)275%3C0001:TOORMG%3E2.0.CO;2), [Asher et al. 2005](https://doi.org/10.1126/science.1107808), [2019](https://doi.org/10.1098/rsos.190387)). While Vianey-Laud and Marivaux ([2021](https://dx.doi.org/10.18563/pv.44.2.e2)) reconstruct †_Acritoparamys_ as falling within crown Rodentia, the analysis includes no extant taxa. We therefore suggest †_Ischyromys_ as a younger and more conservative calibration for crown rodents at present.
 
 ---
@@ -137,14 +137,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 906:** Castorimorpha | 66.0-37.7Ma\
+**Node calibrated:** Divergence of Geomyoidea (_Thomomys bottae_) from Castoroidea (_Castor canadensis_)\
+**Fossil taxa:** †_Heliscomys walshi_ (LACM 153717) from the Sespe Formation of California, USA ([Kelly 2009](https://rivp-paludicola.org/wp-content/uploads/2018/05/7-3-kelly-2009.pdf))\
+**Minimum age:** Eocene (Bartonian), 37.71Ma\
+**Minimum justification:** Known from Simi Valley Landfill Local Fauna, middle Eocene (Duchesnean NALMA, 38-37.8Ma), corresponding to the top of the Bartonian (37.71Ma)\
+**Maximum age:** Danian, 66.0Ma\
+**Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries & Beck, 2023](https://doi.org/10.26879/1249))\
+**Discussion:** More complete cranioskeletal material known from †_Heliscomys ostranderi_ (Chadronian) in an analysis with morphological and molecular data from fossil and living taxa supports independent Eocene record for geomyoids ([Asher et al. 2019: Figure 4](https://doi.org/10.1098/rsos.190387)) with 0.95pp support for †_Heliscomys_-crown geomyoids to the exclusion of _Castor_ and weaker support (0.5pp) for an older taxon (†_Paradjidaumo_ from the Uintan NALMA) with geomyoids.
 
 ---
 
@@ -268,6 +268,8 @@ Heaton, T.H. 1996. 18. Ischyromyidae. In: Prothero DR, Emry RJ, eds. The Terrest
 Ivy, L.D., 1990. Systematics of late Paleocene and early Eocene Rodentia (Mammalia) from the Clarks Fork Basin, Wyoming. Contributions from the Museum of Paleontology, The University of Michigan, 28(2):1–70.
 
 Jones, M.F., Beard, K.C. and Simmons, N.B., 2024. Phylogeny and systematics of early Paleogene bats. Journal of Mammalian Evolution, 31(2), p.18.
+
+Kelly, T.S., 2009. A new species of Heliscomys (Rodentia, Heliscomyidae) from the Duchesnean (middle Eocene) Simi Valley Landfill Local Fauna, Sespe Formation, California. Paludicola, 7, pp.67-77.
 
 Korth, W.W., 1984. Earliest Tertiary evolution and radiation of rodents in North America. Bulletin of Carnegie Museum of Natural History, 24, pp.1-71.
 
