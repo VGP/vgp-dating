@@ -261,3 +261,5 @@ Upham, N.S., Esselstyn, J.A. and Jetz, W., 2019. Inferring the mammal tree: spec
 Woodburne, M.O., Rich, T.H. and Springer, M.S., 2003. The evolution of tribospheny and the antiquity of mammalian clades. Molecular phylogenetics and evolution, 28(2), pp.360-385.
 
 Zhou, Z., Barrett, P.M. and Hilton, J., 2003. An exceptionally preserved Lower Cretaceous ecosystem. Nature, 421(6925), pp.807-814.
+
+Zhou, Z., 2014. The Jehol Biota, an Early Cretaceous terrestrial Lagerstätte: new discoveries and implications. National Science Review, 1(4), pp.543-559.
