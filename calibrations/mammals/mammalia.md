@@ -59,7 +59,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**$XXX SHOULD THIS BE INCLUDED? PROBABLY NOT!**
+**$XXX SHOULD THIS BE INCLUDED? PROBABLY NOT!**\
 **Node 930:** Atlantogenata | 126.0-59.24Ma\
 **Node calibrated:** The most recent common ancestor of Xenarthra (_Dasypus novemcinctus_) and Afrotheria (_Rhynchocyon petersi_)\
 **Fossil taxa:** †_Ocepia daouiensis_ (CPSGM MA1) from the Ouled Abdoun Basin (Paleocene), Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739))\
