@@ -126,14 +126,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 891:** 66.0-62.3Ma\
+**Node calibrated:** The most recent common ancestor of Rodentia (_Mus musculus_) and Lagomorpha (_Oryctolagus cuniculus_)\
+**Fossil taxa:** †_Heomys_ sp. (IVPP V4323) from the lower part of the Upper Member of the Wanghudun Formation, Anhui Province, China ([Li 1977](https://www.vertpala.ac.cn/EN/column/column1.shtml))\
+**Minimum age:** Paleocene (Danian), 62.278Ma\
+**Minimum justification:** Minimum age of Wanghudun Formation ([Wang et al. 2019](https://doi.org/10.1007/s11430-018-9305-y))\
+**Maximum age:** Paleocene (Danian), 66.0Ma\
+**Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries & Beck, 2023](https://doi.org/10.26879/1249))\
+**Discussion:** †_Heomys_ is known from the lower part of the Upper Member of the Wanghudun Formation in Anhui Province, China. Oldest stem rodent and earliest known member of Simplicidentata ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [Rankin et al. 2020](https://doi.org/10.26879/1049)), a group which includes Rodentia and is characterised by the presence of a single pair of gliriform upper incisors, a synapomorphic feature shared by all rodents ([Li et al. 2016](https://www.vertpala.ac.cn/EN/Y2016/V54/I2/121); [Fostowicz-Frelik, 2017](https://doi.org/10.1007/978-3-319-61569-1_11), [2020](https://doi.org/10.1007/978-3-030-57246-4_5)).
 
 ---
 
@@ -247,6 +247,8 @@ de Vries, Dorien and Beck, Robin M.D. 2023. Twenty-five well-justified fossil ca
 
 Flynn, J.J., Parrish, J.M., Rakotosamimanana, B., Simpson, W.F. and Wyss, A.R., 1999. A middle Jurassic mammal from Madagascar. Nature, 401(6748), pp.57-60.
 
+Fostowicz-Frelik, Ł. (2020). Most Successful Mammals in the Making: A Review of the Paleocene Glires. In: Pontarotti, P. (eds) Evolutionary Biology—A Transdisciplinary Approach. Springer, Cham.
+
 Fox, R.C. and Youzwyshyn, G.P., 1994. New primitive carnivorans (Mammalia) from the Paleocene of western Canada, and their bearing on relationships of the order. Journal of Vertebrate Paleontology, 14(3), pp.382-404.
 
 Fox, R.C., Scott, C.S. and Rankin, B.D., 2010. New early carnivoran specimens from the Puercan (earliest Paleocene) of Saskatchewan, Canada. Journal of Paleontology, 84(6), pp.1035-1039.
@@ -271,7 +273,11 @@ Korth, W.W., 1984. Earliest Tertiary evolution and radiation of rodents in North
 
 Lenz, O.K., Wilde, V., Mertz, D.F. and Riegel, W., 2015. New palynology-based astronomical and revised 40Ar/39Ar ages for the Eocene maar lake of Messel (Germany). International Journal of Earth Sciences, 104(3), pp.873-889.
 
+Li, C.K., 1977. Paleocene eurymyloids (Anagalida, Mammalia) of Qianshan, Anhui. Vertebrata PalAsiatica, 15(2), pp.103-118.
+
 Li, C.K., and Ting, S.Y. 1983. The paleogene mammals of china. Bulletin Carnegie Mus. Nat. Hist., 21, pp.1-93.
+
+Li C.K., Wang, Y.Q., Zhang, Z.Q., Mao, F.Y., and Meng, J. 2016 A new mimotonidan Mina hui (Mammalia, Glires) from the Middle Paleocene of Qianshan, Anhui, China. Vertebrata PalAsiatica. 2016;54(2): 121–136.
 
 Luo, Z.X., Crompton, A.W. and Sun, A.L., 2001. A new mammaliaform from the early Jurassic and evolution of mammalian characteristics. Science, 292(5521), pp.1535-1540.
 
@@ -297,6 +303,8 @@ Phillips, M.J., Bennett, T.H. and Lee, M.S., 2009. Molecules, morphology, and ec
 
 Phillips, M.J. 2014. Four mammal fossil calibrations: balancing competing palaeontological and molecular considerations. Palaeontologia Electronica 18.1.5FC; 1-16.
 
+Rankin, A.H., Emry, R.J., and Asher, R.J. 2020. Anatomical sciuromorphy in "protrogomorph" rodents. Palaeontologica Electronica, 23(2):a25.
+
 Ravel, A., Marivaux, L., Tabuce, R., Adaci, M., Mahboubi, M., Mebrouk, F. and Bensalah, M., 2011. The oldest African bat from the early Eocene of El Kohol (Algeria). Naturwissenschaften, 98(5), pp.397-405.
 
 Rose, K.D., DeLeon, V.B., Missiaen, P., Rana, R.S., Sahni, A., Singh, L. and Smith, T., 2008. Early Eocene lagomorph (Mammalia) from Western India and the early diversification of Lagomorpha. Proceedings of the Royal Society B: Biological Sciences, 275(1639), p.1203.
@@ -308,6 +316,8 @@ Travouillon, K.J., Archer, M., Hand, S.J. and Godthelp, H., 2006. Multivariate a
 Upham, N.S., Esselstyn, J.A. and Jetz, W., 2019. Inferring the mammal tree: species-level sets of phylogenies for questions in ecology, evolution, and conservation. PLoS biology, 17(12), p.e3000494.
 
 Vianey-Liaud, M. and Marivaux, L., 2021. The beginning of the adaptive radiation of Theridomorpha (Rodentia) in Western Europe: morphological and phylogenetic analyses of early and middle Eocene taxa; implications for systematics. Palaeovertebrata, 44, pp.2-e2.
+
+Wang, Y., Li, Q., Bai, B., Jin, X., Mao, F. and Meng, J., 2019. Paleogene integrative stratigraphy and timescale of China. Science China Earth Sciences, 62(1), pp.287-309.
 
 Woodburne, M.O., Rich, T.H. and Springer, M.S., 2003. The evolution of tribospheny and the antiquity of mammalian clades. Molecular phylogenetics and evolution, 28(2), pp.360-385.
 
