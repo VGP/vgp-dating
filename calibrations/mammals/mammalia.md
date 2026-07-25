@@ -93,14 +93,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 845:** Chiroptera | 58.9-45.0Ma\
+**Node calibrated:** The most recent common ancestor of Yinpterochiroptera (_Rousettus aegyptiacus_) and Yangochiroptera (_Rhynchonycteris naso_)\
+**Fossil taxa:** †_Tanzanycteris mannardi_ (TNM MP-207)\
+**Minimum age:** Middle Eocene (Lutetian), 45.0Ma\
+**Minimum justification:** Age estimates using 206Pb/238U dating and sedimentary rate analysis put the lacustrine Mahenge formation at 45.83Ma ± 1.1 Myr and the fossil itself at a lower bound of 45.0Ma ([Harrison et al. 2001](https://doi.org/10.1007/978-1-4615-1271-4_2))\
+**Maximum age:** Late Paleocene (Thanetian), 58.9Ma\
+**Maximum justification:** Following Phillips ([2015](https://doi.org/10.26879/490)), we use the base of the Thanetian as the upper bound to be conservative regarding stem bats that are from very close to the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0)).\
+**Discussion:** This fossil is the oldest-known stem member of Rhinolophoidea within Yinpterochiroptera from the middle Eocene (Lutetian) of Tanzania in the Mahenge formation ([Phillips 2015](https://doi.org/10.26879/490); [Flynn et al. 1999](https://doi.org/10.1038/43420); [Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Ypresian †_Archaeonycterus praecursor_ as the oldest crown bat, but only for majority-rule consensus approaches, and only for trees not rooted on _Sorex_. The oldest stem bat in their analyses, †_Tachypteron,_ is dated to the Lutetian ([Lenz et al. 2015](https://doi.org/10.1007/s00531-014-1126-2)), supporting the minimum age of †_Tanzanycteris_. 
 
 ---
 
@@ -251,6 +251,14 @@ Gheerbrant, E., Amaghzaz, M., Bouya, B., Goussard, F. and Letenneur, C., 2014. O
 
 Godthelp, H., Wroe, S. and Archer, M., 1999. A new marsupial from the early Eocene Tingamarra Local Fauna of Murgon, southeastern Queensland: a prototypical Australian marsupial?. Journal of Mammalian Evolution, 6(3), pp.289-313.
 
+Gunnell, G.F., Jacobs, B.F., Herendeen, P.S., Head, J.J., Kowalski, E., Msuya, C.P., Mizambwa, F.A., Harrison, T., Habersetzer, J. and Storch, G., 2003. Oldest placental mammal from sub-Saharan Africa: Eocene microbat from Tanzania—evidence for early evolution of sophisticated echolocation. Palaeontologia Electronica, 5(2), pp.1-10.
+
+Harrison, T., Msuya, C.P., Murray, A.M., Jacobs, B.F., Báez, A.M., Mundil, R. and Ludwig, K.R., 2001. Paleontological investigations at the Eocene locality of Mahenge in north-central Tanzania, East Africa. In Eocene biodiversity: unusual occurrences and rarely sampled habitats (pp. 39-74). Boston, MA: Springer US.
+
+Jones, M.F., Beard, K.C. and Simmons, N.B., 2024. Phylogeny and systematics of early Paleogene bats. Journal of Mammalian Evolution, 31(2), p.18.
+
+Lenz, O.K., Wilde, V., Mertz, D.F. and Riegel, W., 2015. New palynology-based astronomical and revised 40Ar/39Ar ages for the Eocene maar lake of Messel (Germany). International Journal of Earth Sciences, 104(3), pp.873-889.
+
 Luo, Z.X., Crompton, A.W. and Sun, A.L., 2001. A new mammaliaform from the early Jurassic and evolution of mammalian characteristics. Science, 292(5521), pp.1535-1540.
 
 Luo, Z., Kielan-Jaworowska, Z., Cifelli, R.L. (2002). In quest for a phylogeny of Mesozoic mammals. Acta Palaeontologica Polonica, 47, 1–78.
@@ -266,6 +274,8 @@ Oliveira, É.V. and Bergqvist, L.P., 1998. A new Paleocene armadillo (Mammalia, 
 Phillips, M.J., Bennett, T.H. and Lee, M.S., 2009. Molecules, morphology, and ecology indicate a recent, amphibious ancestry for echidnas. Proceedings of the National Academy of Sciences, 106(40), pp.17089-17094.
 
 Phillips, M.J. 2014. Four mammal fossil calibrations: balancing competing palaeontological and molecular considerations. Palaeontologia Electronica 18.1.5FC; 1-16.
+
+Ravel, A., Marivaux, L., Tabuce, R., Adaci, M., Mahboubi, M., Mebrouk, F. and Bensalah, M., 2011. The oldest African bat from the early Eocene of El Kohol (Algeria). Naturwissenschaften, 98(5), pp.397-405.
 
 Travouillon, K.J., Archer, M., Hand, S.J. and Godthelp, H., 2006. Multivariate analyses of Cenozoic mammalian faunas from Riversleigh, northwestern Queensland. Alcheringa: An Australasian Journal of Palaeontology, 30(S1), pp.323-349.
 
