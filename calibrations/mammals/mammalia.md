@@ -59,25 +59,26 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**$XXX SHOULD THIS BE INCLUDED? PROBABLY NOT!**
+**Node 930:** Atlantogenata | 126.0-59.24Ma\
+**Node calibrated:** The most recent common ancestor of Xenarthra (_Dasypus novemcinctus_) and Afrotheria (_Rhynchocyon petersi_)\
+**Fossil taxa:** †_Ocepia daouiensis_ (CPSGM MA1) from the Ouled Abdoun Basin (Paleocene), Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739))\
+**Minimum age:** Late Paleocene (Selandian), 59.24Ma\
+**Minimum justification:** Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) specify a Selandian age for this taxon, which is evidently the same locality as †_Eritherium azzouzorum,_ previously described as "early Thanetian (incl. Selandian)" ([Gheerbrant 2009](https://doi.org/10.1073/pnas.0900251106)). Here, we follow Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) who write "...The new material of this species confirms its Paleocene age. It comes from the same bone bed level located at the base of phosphorite Bed IIa that is dated Selandian … and that yields _Eritherium azzouzorum, Abdounodus hamdii,_ and _Lahimia selloumi_."\
+**Maximum age:** Early Cretaceous (Barremian/Aptian), ~126Ma\
+**Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
+**Discussion:** Stem proboscidean from the Paleocene (Selandian) of Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739)). Same fossil as **Node 931:** Afrotheria.
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 931:** Afrotheria | 126.0-59.24Ma\
+**Node calibrated:** The most recent common ancestor of Paenungulata (_Dugong dugon_) and Afroinsectiphilia (_Rhynchocyon petersi_)\
+**Fossil taxa:** †_Ocepia daouiensis_ (CPSGM MA1) from the Ouled Abdoun Basin (Paleocene), Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739))\
+**Minimum age:** Late Paleocene (Selandian), 59.24Ma\
+**Minimum justification:** Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) specify a Selandian age for this taxon, which is evidently the same locality as †_Eritherium azzouzorum,_ previously described as "early Thanetian (incl. Selandian)" ([Gheerbrant 2009](https://doi.org/10.1073/pnas.0900251106)). Here, we follow Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) who write "...The new material of this species confirms its Paleocene age. It comes from the same bone bed level located at the base of phosphorite Bed IIa that is dated Selandian … and that yields _Eritherium azzouzorum, Abdounodus hamdii,_ and _Lahimia selloumi_."\
+**Maximum age:** Early Cretaceous (Barremian/Aptian), ~126Ma\
+**Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
+**Discussion:** Stem proboscidean from the Paleocene (Selandian) of Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739)). Same fossil as **Node 930:** Atlantogenata.
 
 ---
 
@@ -241,6 +242,10 @@ Flynn, J.J., Parrish, J.M., Rakotosamimanana, B., Simpson, W.F. and Wyss, A.R., 
 Fox, R.C. and Youzwyshyn, G.P., 1994. New primitive carnivorans (Mammalia) from the Paleocene of western Canada, and their bearing on relationships of the order. Journal of Vertebrate Paleontology, 14(3), pp.382-404.
 
 Fox, R.C., Scott, C.S. and Rankin, B.D., 2010. New early carnivoran specimens from the Puercan (earliest Paleocene) of Saskatchewan, Canada. Journal of Paleontology, 84(6), pp.1035-1039.
+
+Gheerbrant, E., 2009. Paleocene emergence of elephant relatives and the rapid radiation of African ungulates. Proceedings of the National Academy of Sciences, 106(26), pp.10717-10721.
+
+Gheerbrant, E., Amaghzaz, M., Bouya, B., Goussard, F. and Letenneur, C., 2014. Ocepeia (Middle Paleocene of Morocco): the oldest skull of an afrotherian mammal. PLoS One, 9(2), p.e89739.
 
 Godthelp, H., Wroe, S. and Archer, M., 1999. A new marsupial from the early Eocene Tingamarra Local Fauna of Murgon, southeastern Queensland: a prototypical Australian marsupial?. Journal of Mammalian Evolution, 6(3), pp.289-313.
 
