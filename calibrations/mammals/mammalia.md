@@ -141,10 +141,10 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Node calibrated:** Divergence of Geomyoidea (_Thomomys bottae_) from Castoroidea (_Castor canadensis_)\
 **Fossil taxa:** †_Heliscomys walshi_ (LACM 153717) from the Sespe Formation of California, USA ([Kelly 2009](https://rivp-paludicola.org/wp-content/uploads/2018/05/7-3-kelly-2009.pdf))\
 **Minimum age:** Eocene (Bartonian), 37.71Ma\
-**Minimum justification:** Known from Simi Valley Landfill Local Fauna, middle Eocene (Duchesnean NALMA, 38-37.8Ma), corresponding to the top of the Bartonian (37.71Ma)\
+**Minimum justification:** Known from the Simi Valley Landfill Local Fauna, middle Eocene (Duchesnean NALMA, 38-37.8Ma), corresponding to the top of the Bartonian (37.71Ma)\
 **Maximum age:** Danian, 66.0Ma\
 **Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries & Beck, 2023](https://doi.org/10.26879/1249))\
-**Discussion:** More complete cranioskeletal material known from †_Heliscomys ostranderi_ (Chadronian) in an analysis with morphological and molecular data from fossil and living taxa supports independent Eocene record for geomyoids ([Asher et al. 2019: Figure 4](https://doi.org/10.1098/rsos.190387)) with 0.95pp support for †_Heliscomys_-crown geomyoids to the exclusion of _Castor_ and weaker support (0.5pp) for an older taxon (†_Paradjidaumo_ from the Uintan NALMA) with geomyoids.
+**Discussion:** More complete cranioskeletal material known from †_Heliscomys ostranderi_ (Chadronian) in an analysis with morphological and molecular data from fossil and living taxa supports an independent Eocene record for geomyoids ([Asher et al. 2019: Figure 4](https://doi.org/10.1098/rsos.190387)), with 0.95pp support for †_Heliscomys_ + crown geomyoids to the exclusion of _Castor_, and weaker support (0.5pp) for an older taxon (†_Paradjidaumo_ from the Uintan NALMA) with geomyoids.
 
 ---
 
