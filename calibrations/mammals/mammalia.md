@@ -111,7 +111,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** The Cambay Shale are dated to the middle Ypresian ([Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)), the top of which dates to 47.8Ma ± 0.2 Myr, thus 47.6Ma\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Based on the occurrences of basal Glires, including †_Mimotona_ ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387); [de Vries & Beck, 2023](https://doi.org/10.26879/1249)) and †_Heomys_ ([Li & Ting, 1983](https://doi.org/10.5962/p.228600))\
-**Discussion:** The oldest-known crown lagomorphs, these unnamed stem leporid fossils are from the Vastan Mines (Cambay Shale) of West-Central India, dated to the early Eocene (Ypresian) ([Benton et al. 2015](https://doi.org/10.26879/424); [Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)). The oldest known stem Lagomorphs, Mimotona, have a concordant upper age of 66.0Ma ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387); [de Vries & Beck, 2023](https://doi.org/10.26879/1249)).
+**Discussion:** The oldest-known crown lagomorphs, these unnamed stem leporid fossils are from the Vastan Mines (Cambay Shale) of West-Central India, dated to the early Eocene (Ypresian) ([Benton et al. 2015](https://doi.org/10.26879/424); [Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)). The oldest known stem Lagomorphs, †_Mimotona,_ have a concordant upper age of 66.0Ma ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387); [de Vries & Beck, 2023](https://doi.org/10.26879/1249)).
 
 ---
 
