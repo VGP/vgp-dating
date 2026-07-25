@@ -37,14 +37,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 784:** Theria | 169.6-156.3Ma\
+**Node calibrated:** The most recent common ancestor of marsupials (_Monodelphis domestica_) and placentals (_Dasypus novemcinctus_)\
+**Fossil taxa:** †_Juramaia sinensis_ (PM1143) from the Daxigou site in the Middle–Late Jurassic Tiaojishan formation, Jianchang County, Liaoning Province, China ([Luo et al. 2011](https://doi.org/10.1038/nature10291))\
+**Minimum age:** Late Jurassic (Oxfordian), 156.3Ma\
+**Minimum justification:** Radiometric dating sets the age of the Beipiao area at the Daxigou site at just over 160Ma, placing it within the Late Jurassic (Oxfordian), with a minimum bound of 157.3Ma ± 1.0 Myr, thus 156.3Ma ([Luo et al. 2011](https://doi.org/10.1038/nature10291))\
+**Maximum age:** Middle Jurassic (Bathonian), 169.6Ma\
+**Maximum justification:** Following the rationale of Benton et al. ([2015](https://doi.org/10.26879/424)), we set the maximum age at 169.6Ma to account for viewpoints that place taxa such as †_Ambondro_ (see **Node 783:** Mammalia) as stem therians ([Woodburne et al. 2003](https://doi.org/10.1016/S1055-7903(03)00113-1)), constraining the therian maximum within the Jurassic (Bathonian) at 168.6Ma ± 1.0 Myr, thus 169.6Ma.\
+**Discussion:** This fossil is the oldest-known stem eutherian ([Benton et al. 2015](https://doi.org/10.26879/424); [Luo et al. 2011](https://doi.org/10.1038/nature10291))
 
 ---
 
@@ -242,7 +242,7 @@ Godthelp, H., Wroe, S. and Archer, M., 1999. A new marsupial from the early Eoce
 
 Luo, Z.X., Crompton, A.W. and Sun, A.L., 2001. A new mammaliaform from the early Jurassic and evolution of mammalian characteristics. Science, 292(5521), pp.1535-1540.
 
-Luo   Z., Kielan-Jaworowska   Z., Cifelli   R. L. (2002). In quest for a phylogeny of Mesozoic mammals. Acta Palaeontologica Polonica, 47, 1–78.
+Luo, Z., Kielan-Jaworowska, Z., Cifelli, R.L. (2002). In quest for a phylogeny of Mesozoic mammals. Acta Palaeontologica Polonica, 47, 1–78.
 
 Luo, Z.X., Ji, Q., Wible, J.R. and Yuan, C.X., 2003. An Early Cretaceous tribosphenic mammal and metatherian evolution. Science, 302(5652), pp.1934-1940.
 
@@ -257,5 +257,7 @@ Phillips, M.J. 2014. Four mammal fossil calibrations: balancing competing palaeo
 Travouillon, K.J., Archer, M., Hand, S.J. and Godthelp, H., 2006. Multivariate analyses of Cenozoic mammalian faunas from Riversleigh, northwestern Queensland. Alcheringa: An Australasian Journal of Palaeontology, 30(S1), pp.323-349.
 
 Upham, N.S., Esselstyn, J.A. and Jetz, W., 2019. Inferring the mammal tree: species-level sets of phylogenies for questions in ecology, evolution, and conservation. PLoS biology, 17(12), p.e3000494.
+
+Woodburne, M.O., Rich, T.H. and Springer, M.S., 2003. The evolution of tribospheny and the antiquity of mammalian clades. Molecular phylogenetics and evolution, 28(2), pp.360-385.
 
 Zhou, Z., Barrett, P.M. and Hilton, J., 2003. An exceptionally preserved Lower Cretaceous ecosystem. Nature, 421(6925), pp.807-814.
