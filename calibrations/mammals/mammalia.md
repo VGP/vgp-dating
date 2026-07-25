@@ -115,14 +115,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 892:** Rodentia | 66.0-41.0Ma\
+**Node calibrated:** The most recent common ancestor of Muroidea (_Mus musculus_), Sciuromorpha (_Sciurus vulgaris_), and Hystricomorpha (_Erethizon dorsatum_)\
+**Fossil taxa:** _Ischyromys_ sp. (USNM PAL 617532)\
+**Minimum age:** Middle Eocene (Lutetian), 41.03Ma\
+**Minimum justification:** The specimen is from Late Eocene deposits at West Canyon Creek, Wyoming, dated to Duchesnean NALMA ([Heaton 1996](https://doi.org/10.1017/CBO9780511665431.019))\
+**Maximum age:** Early Paleocene (Danian), 66.0Ma\
+**Maximum justification:** As for other nested, crown placental clades. **$XXX WHAT DOES THIS MEAN??**\
+**Discussion:** †_Ischyromys_ sp. is a stem member of Sciuromorpha from the Uintan NALMA (Lutetian) of Montana (Hough Draw, [Tabrum et al. 1996](https://doi.org/10.1017/CBO9780511665431.015)), USA, that is nested well within crown Rodentia ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387)). Earlier calibrations for crown Rodentia would be justified if future studies sampling both extant and fossil species support the placements of taxa such as †_Tamquammys_ close to Ctenohystrica ([Marivaux & Boivin 2019](https://doi.org/10.1093/zoolinnean/zlz048)) or †_Franimys_ close to Sciuridae ([Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)). Benton et al. ([2015](https://doi.org/10.26879/424)) advocated for using †_Paramys atavus_ (YPM-PU 14200) to calibrate crown Rodentia, citing several papers that placed †_Paramys_ in Sciuromorpha, within the crown group ([Korth 1984](https://doi.org/10.5962/p.228603); [McKenna and Bell 1997](https://cup.columbia.edu/book/classification-of-mammals/9780231110136/); [Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)). However, †_“Paramys” atavus_ is likely better assigned as †_Acritoparamys atavus_ ([Ivy 1990](https://hdl.handle.net/2027.42/48538)). More recent work that did not sample †_Acritoparamys atavus_ but did code †_Paramys_ sp, †_P. delicatus,_ and †_P. copei,_ as well as †_Reithroparamys_ and older Asian Paleocene species such as †_Tribosphenomys,_ found that these taxa are stem rather than crown rodents ([Meng et al. 2003](https://doi.org/10.1206/0003-0090(2003)275%3C0001:TOORMG%3E2.0.CO;2); [Asher et al. 2005](https://doi.org/10.1126/science.1107808); [2019](https://doi.org/10.1098/rsos.190387)). While Vianey-Laud & Marivaux ([2021](https://dx.doi.org/10.18563/pv.44.2.e2)) reconstruct †_Acritoparamys_ as falling within crown Rodentia, the analysis includes no extant taxa. We therefore suggest †_Ischyromys_ as a younger calibration for crown rodents.
 
 ---
 
@@ -229,6 +229,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 Archer, M., Jenkins Jr, F.A., Hand, S.J., Murray, P. and Godthelp, H., 1992. Description of the skull and non-vestigial dentition of a Miocene platypus (Obdurodon dicksoni n. sp.) from Riversleigh, Australia, and the problem of monotreme origins. pp. 15–27 In: Platypus and echidnas, Royal Zoological Society of New South Wales, Sydney.
 
+Asher, R.J., Meng, J., Wible, J.R., McKenna, M.C., Rougier, G.W., Dashzeveg, D. and Novacek, M.J., 2005. Stem Lagomorpha and the antiquity of Glires. Science, 307(5712), pp.1091-1094.
+
 Asher, R.J., Smith, M.R., Rankin, A. and Emry, R.J., 2019. Congruence, fossils and the evolutionary tree of rodents and lagomorphs. Royal Society Open Science, 6(7), p.190387.
 
 Beck, R.M., 2012. An ‘ameridelphian’marsupial from the early Eocene of Australia supports a complex model of Southern Hemisphere marsupial biogeography. Naturwissenschaften, 99(9), pp.715-729.
@@ -259,7 +261,13 @@ Gunnell, G.F., Jacobs, B.F., Herendeen, P.S., Head, J.J., Kowalski, E., Msuya, C
 
 Harrison, T., Msuya, C.P., Murray, A.M., Jacobs, B.F., Báez, A.M., Mundil, R. and Ludwig, K.R., 2001. Paleontological investigations at the Eocene locality of Mahenge in north-central Tanzania, East Africa. In Eocene biodiversity: unusual occurrences and rarely sampled habitats (pp. 39-74). Boston, MA: Springer US.
 
+Heaton, T.H. 1996. 18. Ischyromyidae. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-Oligocene Transition in North America. Cambridge University Press, pp. 373-398.
+
+Ivy, L.D., 1990. Systematics of late Paleocene and early Eocene Rodentia (Mammalia) from the Clarks Fork Basin, Wyoming. Contributions from the Museum of Paleontology, The University of Michigan, 28(2):1–70.
+
 Jones, M.F., Beard, K.C. and Simmons, N.B., 2024. Phylogeny and systematics of early Paleogene bats. Journal of Mammalian Evolution, 31(2), p.18.
+
+Korth, W.W., 1984. Earliest Tertiary evolution and radiation of rodents in North America. Bulletin of Carnegie Museum of Natural History, 24, pp.1-71.
 
 Lenz, O.K., Wilde, V., Mertz, D.F. and Riegel, W., 2015. New palynology-based astronomical and revised 40Ar/39Ar ages for the Eocene maar lake of Messel (Germany). International Journal of Earth Sciences, 104(3), pp.873-889.
 
@@ -275,6 +283,14 @@ Luo, Z.X., Chen, P., Li, G. and Chen, M., 2007. A new eutriconodont mammal and e
 
 Luo, Z.X., Yuan, C.X., Meng, Q.J. and Ji, Q., 2011. A Jurassic eutherian mammal and divergence of marsupials and placentals. Nature, 476(7361), pp.442-445.
 
+Marivaux, L., Vianey-Liaud, M. and Jaeger, J.J., 2004. High-level phylogeny of early Tertiary rodents: dental evidence. Zoological Journal of the Linnean society, 142(1), pp.105-134.
+
+Marivaux, L. and Boivin, M., 2019. Emergence of hystricognathous rodents: Palaeogene fossil record, phylogeny, dental evolution and historical biogeography. Zoological Journal of the Linnean Society, 187(3), pp.929-964.
+
+McKenna, M.C. and Bell, S.K., 1997. Classification of mammals: above the species level. Columbia University Press.
+
+Meng, J., Hu, Y. and Li, C., 2003. The osteology of Rhombomylus (Mammalia, Glires): implications for phylogeny and evolution of Glires. Bulletin of the American Museum of Natural History, 2003(275), pp.1-247.
+
 Oliveira, É.V. and Bergqvist, L.P., 1998. A new Paleocene armadillo (Mammalia, Dasypodoidea) from the Itaboraí basin, Brazil. Publicación Electrónica de la Asociación Paleontológica Argentina, 5(1): 35–40.
 
 Phillips, M.J., Bennett, T.H. and Lee, M.S., 2009. Molecules, morphology, and ecology indicate a recent, amphibious ancestry for echidnas. Proceedings of the National Academy of Sciences, 106(40), pp.17089-17094.
@@ -285,9 +301,13 @@ Ravel, A., Marivaux, L., Tabuce, R., Adaci, M., Mahboubi, M., Mebrouk, F. and Be
 
 Rose, K.D., DeLeon, V.B., Missiaen, P., Rana, R.S., Sahni, A., Singh, L. and Smith, T., 2008. Early Eocene lagomorph (Mammalia) from Western India and the early diversification of Lagomorpha. Proceedings of the Royal Society B: Biological Sciences, 275(1639), p.1203.
 
+Tabrum, A.R., Prothero, D.R., and Garcia, D. 1996. 14. Magnetostratigraphy and biostratigraphy of the Eocene-Oligocene transition, southwestern Montana. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-Oligocene Transition in North America. Cambridge University Press, pp. 278-311.
+
 Travouillon, K.J., Archer, M., Hand, S.J. and Godthelp, H., 2006. Multivariate analyses of Cenozoic mammalian faunas from Riversleigh, northwestern Queensland. Alcheringa: An Australasian Journal of Palaeontology, 30(S1), pp.323-349.
 
 Upham, N.S., Esselstyn, J.A. and Jetz, W., 2019. Inferring the mammal tree: species-level sets of phylogenies for questions in ecology, evolution, and conservation. PLoS biology, 17(12), p.e3000494.
+
+Vianey-Liaud, M. and Marivaux, L., 2021. The beginning of the adaptive radiation of Theridomorpha (Rodentia) in Western Europe: morphological and phylogenetic analyses of early and middle Eocene taxa; implications for systematics. Palaeovertebrata, 44, pp.2-e2.
 
 Woodburne, M.O., Rich, T.H. and Springer, M.S., 2003. The evolution of tribospheny and the antiquity of mammalian clades. Molecular phylogenetics and evolution, 28(2), pp.360-385.
 
