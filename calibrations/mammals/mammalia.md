@@ -55,7 +55,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** The Ravenscrag Formation is from the early Puercan NALMA, corresponding to the Danian age of the Paleocene, the top of which corresponds to 61.7Ma ± 0.1 Myr, thus 61.6Ma ([Fox & Youzwyshyn 1994](https://doi.org/10.1080/02724634.1994.10011566))\
 **Maximum age:** Early Cretaceous (Barremian/Aptian), ~126Ma\
 **Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
-**Discussion:** This fossil is a stem carnivoran from the early Paleocene (Danian) of Ravenscrag Formation in Saskatchewan, Canada ([Benton et al. 2015](https://doi.org/10.26879/424); [Fox et al. 2010](https://doi.org/10.1666/09-165.1))
+**Discussion:** This fossil is a stem carnivoran from the early Paleocene (Danian) of Ravenscrag Formation in Saskatchewan, Canada ([Benton et al. 2015](https://doi.org/10.26879/424); [Fox et al. 2010](https://doi.org/10.1666/09-165.1)), and therefore the oldest-known crown placentalian
 
 ---
 
