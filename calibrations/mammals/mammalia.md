@@ -95,12 +95,12 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 **Node 845:** Chiroptera | 58.9-45.0Ma\
 **Node calibrated:** The most recent common ancestor of Yinpterochiroptera (_Rousettus aegyptiacus_) and Yangochiroptera (_Rhynchonycteris naso_)\
-**Fossil taxa:** †_Tanzanycteris mannardi_ (TNM MP-207)\
+**Fossil taxa:** †_Tanzanycteris mannardi_ (TNM MP-207) from the middle Eocene lake sediments of the Mahenge formation, Tanzania ([Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm))\
 **Minimum age:** Middle Eocene (Lutetian), 45.0Ma\
 **Minimum justification:** Age estimates using 206Pb/238U dating and sedimentary rate analysis put the lacustrine Mahenge formation at 45.83Ma ± 1.1 Myr and the fossil itself at a lower bound of 45.0Ma ([Harrison et al. 2001](https://doi.org/10.1007/978-1-4615-1271-4_2))\
 **Maximum age:** Late Paleocene (Thanetian), 58.9Ma\
 **Maximum justification:** Following Phillips ([2015](https://doi.org/10.26879/490)), we use the base of the Thanetian as the upper bound to be conservative regarding stem bats that are from very close to the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0)).\
-**Discussion:** This fossil is the oldest-known stem member of Rhinolophoidea within Yinpterochiroptera from the middle Eocene (Lutetian) of Tanzania in the Mahenge formation ([Phillips 2015](https://doi.org/10.26879/490); [Flynn et al. 1999](https://doi.org/10.1038/43420); [Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Ypresian †_Archaeonycterus praecursor_ as the oldest crown bat, but only for majority-rule consensus approaches, and only for trees not rooted on _Sorex_. The oldest stem bat in their analyses, †_Tachypteron,_ is dated to the Lutetian ([Lenz et al. 2015](https://doi.org/10.1007/s00531-014-1126-2)), supporting the minimum age of †_Tanzanycteris_. 
+**Discussion:** This fossil is the oldest-known stem member of Rhinolophoidea within Yinpterochiroptera, from the middle Eocene (Lutetian) of Tanzania in the Mahenge formation ([Phillips 2015](https://doi.org/10.26879/490); [Flynn et al. 1999](https://doi.org/10.1038/43420); [Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Ypresian †_Archaeonycterus praecursor_ as the oldest crown bat, but only for majority-rule consensus approaches, and only for trees not rooted on _Sorex_. The oldest stem bat in their analyses, †_Tachypteron,_ is dated to the Lutetian ([Lenz et al. 2015](https://doi.org/10.1007/s00531-014-1126-2)), supporting the minimum age of †_Tanzanycteris_. 
 
 ---
 
