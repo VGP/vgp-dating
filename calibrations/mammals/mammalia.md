@@ -10,8 +10,8 @@ TBD
 **Minimum age:** Middle Jurassic (Bathonian), 164.9Ma\
 **Minimum justification:** Specimen locality dated to Bathonian, top of which is 166.1 Ma, ± 1.2 Myr = 164.9 Ma ([Benton et al. 2015](https://doi.org/10.26879/424))\
 **Maximum age:** Jurassic-Triassic Boundary, 201.5Ma\
-**Maximum justification:** \
-**Discussion:**
+**Maximum justification:** The closest known relative of crown mammals, _Hadrocodium_, dates to early Jurassic Sinemurian ([Luo et al. 2001](https://doi.org/10.1126/science.1058476)), and other closely related mammaliaformes are known from Late Triassic ([Benton et al. 2015](https://doi.org/10.26879/424))\
+**Discussion:** Member of the monotreme clade Australosphenida from the middle Jurassic (Bathonian) of Madagascar ([Benton et al. 2015](https://doi.org/10.26879/424); [Flynn et al. 1999](https://doi.org/10.1038/43420); [Luo et al. 2002](https://www.app.pan.pl/article/pdf/41/item/app47-001.html); [Luo et al. 2011](https://doi.org/10.1038/nature10291))
 
 ---
 
@@ -225,3 +225,11 @@ TBD
 ## References
 
 Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18.1.1FC; 1-106.
+
+Flynn, J.J., Parrish, J.M., Rakotosamimanana, B., Simpson, W.F. and Wyss, A.R., 1999. A middle Jurassic mammal from Madagascar. Nature, 401(6748), pp.57-60.
+
+Luo, Z.X., Crompton, A.W. and Sun, A.L., 2001. A new mammaliaform from the early Jurassic and evolution of mammalian characteristics. Science, 292(5521), pp.1535-1540.
+
+Luo   Z., Kielan-Jaworowska   Z., Cifelli   R. L. (2002). In quest for a phylogeny of Mesozoic mammals. Acta Palaeontologica Polonica, 47, 1–78.
+
+Luo, Z.X., Yuan, C.X., Meng, Q.J. and Ji, Q., 2011. A Jurassic eutherian mammal and divergence of marsupials and placentals. Nature, 476(7361), pp.442-445.
