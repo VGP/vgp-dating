@@ -148,7 +148,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-***$XXX SHOULD BE 896**
+**$XXX SHOULD BE 896**
 
 **Node 897:** Stem Murinae | 18.3-16.0Ma\
 **Node calibrated:** The most recent common ancestory of Murinae (_Mus musculus_) and Deomyinae (_Acomys russatus_)\
@@ -215,6 +215,41 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Discussion:**
 
 ---
+
+**Node 709:** \
+**Node calibrated:** \
+**Fossil taxa:** 
+**Minimum age:** \
+**Minimum justification:** \
+**Maximum age:** \
+**Maximum justification:** \
+**Discussion:**
+
+---
+
+**Node 709:** \
+**Node calibrated:** \
+**Fossil taxa:** 
+**Minimum age:** \
+**Minimum justification:** \
+**Maximum age:** \
+**Maximum justification:** \
+**Discussion:**
+
+---
+
+**Node 709:** \
+**Node calibrated:** \
+**Fossil taxa:** 
+**Minimum age:** \
+**Minimum justification:** \
+**Maximum age:** \
+**Maximum justification:** \
+**Discussion:**
+
+---
+
+## Considered but not included:
 
 **Node 709:** \
 **Node calibrated:** \
