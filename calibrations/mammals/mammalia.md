@@ -249,22 +249,26 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ## Considered but not included:
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 914:** Hystricomorpha | 56.0-40.9Ma\
+**Node calibrated:** The most recent common ancestor of Ctenodactylomorphi (_Ctenodactylus gundi_) and Hystricognathi (_Erethizon dorsatum_)\
+**Fossil taxa:** †_Cachiyacuy contamanensis_ (MUSM1871) from the top of the Yahuarango Formation (latest Lutetian) near Contamana, Peru ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732))\
+**Minimum age:** Eocene (Bartonian), 40.94Ma\
+**Minimum justification:** The CTA–27 locality in Peru has been dated to a minimum of 40.94Ma based on radioisotopy, vertebrate biochronology and palynostratigraphy ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732))\
+**Maximum age:** Late Paleocene (Thanetian), 56.0Ma\
+**Maximum justification:** As noted by Phillips ([2015](https://doi.org/10.26879/490)): ""the absence of any hystricognaths from the better sampled Early Eocene faunas ([Marivaux et al. 2011](https://doi.org/10.1080/14772019.2011.562555), [Coster et al. 2012](https://doi.org/10.1130/B30565.1)) provides a more appropriate soft maximum of basal Ypresian age."\
+**Discussion:** Earliest-known stem caviomorph rodent from locality CTA-27 in Yahuarango, Peru ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)). Phillips ([2015](https://doi.org/10.26879/490)) used this fossil to calibrate the Caviomorphia + Phiomorpha split, but it could still function to provide a lower bound for Hystricomorpha. However, Campbell et al. ([2021](https://doi.org/10.1073/pnas.2105956118)) concluded that "there are currently no compelling Eocene records of either rodents or primates in the known fossil record of South America" – also see Arnal et al. ([2022](https://doi.org/10.1080/08912963.2021.2017916)). CTA-27 has been dated to the Late/Mid Eocene ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)) and to the Lower Oligocene (C[ampbell et al. 2021](https://doi.org/10.1073/pnas.2105956118)); this conflict in dates gives us reason to disfavour †_Cachiyacuy_ for use in calibration. Total-group ctenohystricids may still have early Paleogene records elsewhere (e.g., chapattimyids, †_Tamquammys_; see [Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)) but we tentatively refrain from using such records as calibrations pending a phylogenetic analysis broadly sampled for morphology and DNA across living and fossil species.
 
 ## References
 
 Aghová, T., Kimura, Y., Bryja, J., Dobigny, G., Granjon, L. and Kergoat, G.J., 2018. Fossils know it best: using a new set of fossil calibrations to improve the temporal phylogenetic framework of murid rodents (Rodentia: Muridae). Molecular Phylogenetics and Evolution, 128, pp.98-111.
 
-Álvarez-Carretero, S., Tamuri, A.U., Battini, M., Nascimento, F.F., Carlisle, E., Asher, R.J., Yang, Z., Donoghue, P.C. and Dos Reis, M., 2022. A species-level timeline of mammal evolution integrating phylogenomic data. Nature, 602(7896), pp.263-267.
+Álvarez-Carretero, S., Tamuri, A.U., Battini, M., Nascimento, F.F., Carlisle, E., Asher, R.J., Yang, Z., Donoghue, P.C., and Dos Reis, M., 2022. A species-level timeline of mammal evolution integrating phylogenomic data. Nature, 602(7896), pp.263-267.
+
+Antoine, P.O., Marivaux, L., Croft, D.A., Billet, G., Ganerød, M., Jaramillo, C., Martin, T., Orliac, M.J., Tejada, J., Altamirano, A.J. and Duranthon, F., 2011. Middle Eocene rodents from Peruvian Amazonia reveal the pattern and timing of caviomorph origins and biogeography. Proceedings of the Royal Society B: Biological Sciences, 279(1732), p.1319.
 
 Archer, M., Jenkins Jr, F.A., Hand, S.J., Murray, P. and Godthelp, H., 1992. Description of the skull and non-vestigial dentition of a Miocene platypus (Obdurodon dicksoni n. sp.) from Riversleigh, Australia, and the problem of monotreme origins. pp. 15–27 In: Platypus and echidnas, Royal Zoological Society of New South Wales, Sydney.
+
+Arnal, M., Pérez, M.E., Tejada Medina, L.M. and Campbell Jr, K.E., 2022. The high taxonomic diversity of the Palaeogene hystricognath rodents (Caviomorpha) from Santa Rosa (Peru, South America) framed within a new geochronological context. Historical Biology, 34(12), pp.2350-2373.
 
 Asher, R.J., Meng, J., Wible, J.R., McKenna, M.C., Rougier, G.W., Dashzeveg, D. and Novacek, M.J., 2005. Stem Lagomorpha and the antiquity of Glires. Science, 307(5712), pp.1091-1094.
 
@@ -279,6 +283,10 @@ Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther,
 Bergqvist, L. P., Abrantes, E. A. L., & Avila, L. D. S. (2004). The Xenarthra (Mammalia) of São José de Itaboraí Basin (Upper Paleocene, Itaboraian), Rio de Janeiro, Brazil. Geodiversitas, 26, 323–337.
 
 Bi, S., Zheng, X., Wang, X., Cignetti, N.E., Yang, S. and Wible, J.R., 2018. An Early Cretaceous eutherian and the placental–marsupial dichotomy. Nature, 558(7710), pp.390-395.
+
+Campbell Jr, K.E., O’Sullivan, P.B., Fleagle, J.G., de Vries, D. and Seiffert, E.R., 2021. An Early Oligocene age for the oldest known monkeys and rodents of South America. Proceedings of the National Academy of Sciences, 118(37), p.e2105956118.
+
+Coster, P., Benammi, M., Mahboubi, M., Tabuce, R., Adaci, M., Marivaux, L., Bensalah, M., Mahboubi, S., Mahboubi, A., Mebrouk, F. and Maameri, C., 2012. Chronology of the Eocene continental deposits of Africa: Magnetostratigraphy and biostratigraphy of the El Kohol and Glib Zegdou Formations, Algeria. Bulletin, 124(9-10), pp.1590-1606.
 
 de Vries, Dorien and Beck, Robin M.D. 2023. Twenty-five well-justified fossil calibrations for primate divergences. Palaeontologia Electronica, 26(1):a8. 
 
@@ -347,6 +355,8 @@ Luo, Z.X., Yuan, C.X., Meng, Q.J. and Ji, Q., 2011. A Jurassic eutherian mammal 
 Mantilla, G.P.W., Chester, S.G., Clemens, W.A., Moore, J.R., Sprain, C.J., Hovatter, B.T., Mitchell, W.S., Mans, W.W., Mundil, R. and Renne, P.R., 2021. Earliest Palaeocene purgatoriids and the initial radiation of stem primates. Royal Society Open Science, 8(2), p.210050.
 
 Marivaux, L., Vianey-Liaud, M. and Jaeger, J.J., 2004. High-level phylogeny of early Tertiary rodents: dental evidence. Zoological Journal of the Linnean society, 142(1), pp.105-134.
+
+Marivaux, L., Adaci, M., Bensalah, M., Rodrigues, H.G., Hautier, L., Mahboubi, M.H., Mebrouk, F., Tabuce, R. and Vianey-Liaud, M., 2011. Zegdoumyidae (Rodentia, Mammalia), stem anomaluroid rodents from the early to middle Eocene of Algeria (Gour Lazib, Western Sahara): new dental evidence. Journal of Systematic Palaeontology, 9(4), pp.563-588.
 
 Marivaux, L. and Boivin, M., 2019. Emergence of hystricognathous rodents: Palaeogene fossil record, phylogeny, dental evolution and historical biogeography. Zoological Journal of the Linnean Society, 187(3), pp.929-964.
 
