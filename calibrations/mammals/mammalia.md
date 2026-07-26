@@ -205,14 +205,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 919:** Anthropoidea | 66.0-33.9Ma\
+**Node calibrated:** The most recent common ancestor of Catarrhini (_Homo sapiens_) and Platyrrhini (_Callithrix jacchus_)\
+**Fossil taxa:** †_Catopithecus browni_ (DPC 8701) from the Fayum Depression of Egpyt ([Simons 1989](https://doi.org/10.1073/pnas.86.24.9956))\
+**Minimum age:** Late Eocene (Priabonian), 33.9Ma\
+**Minimum justification:** Fayûm Quarry L-41 where †_Catopithecus_ was discovered has been dated to the Priabonian, with an upper bound of 33.9Ma ([Seiffert et al. 2006](https://doi.org/10.1073/pnas.0600689103))\
+**Maximum age:** Early Paleocene (Danian), 66.0Ma\
+**Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), the Early Paleocene is set as the maximum age, as there are no definitive crown primates from the Danian and the split must predate the potential anthropoid sister-taxon †_Altiatlasius koulchii_ (see **Node 918:** Primates; [Seiffert et al. 2005](https://doi.org/10.1126/science.1116569)) of 56.0Ma.\
+**Discussion:** The oldest-known crown catarrhine from the late Eocene (Priabonian) of Fayûm, Egypt ([Seiffert et al. 2006](https://doi.org/10.1073/pnas.0600689103))
 
 ---
 
@@ -386,9 +386,15 @@ Ravel, A., Marivaux, L., Tabuce, R., Adaci, M., Mahboubi, M., Mebrouk, F. and Be
 
 Rose, K.D., DeLeon, V.B., Missiaen, P., Rana, R.S., Sahni, A., Singh, L. and Smith, T., 2008. Early Eocene lagomorph (Mammalia) from Western India and the early diversification of Lagomorpha. Proceedings of the Royal Society B: Biological Sciences, 275(1639), p.1203.
 
+Seiffert, E.R., Simons, E.L. and Attia, Y., 2003. Fossil evidence for an ancient divergence of lorises and galagos. Nature, 422(6930), pp.421-424.
+
+Seiffert, E.R., Simons, E.L., Clyde, W.C., Rossie, J.B., Attia, Y., Bown, T.M., Chatrath, P. and Mathison, M.E., 2005. Basal anthropoids from Egypt and the antiquity of Africa's higher primate radiation. Science, 310(5746), pp.300-304.
+
 Seiffert, E.R., 2006. Revised age estimates for the later Paleogene mammal faunas of Egypt and Oman. Proceedings of the National Academy of Sciences, 103(13), pp.5000-5005.
 
 Sigé, B., Jaeger, J.J., Sudre, J. and Vianey-Liaud, M., 1990. Altiatlasius koulchii n. gen. et sp., primate omomyidé du Paléocène supérieur du Maroc, et les origines des euprimates. Palaeontographica Abteilung A, pp.31-56.
+
+Simons, E.L., 1989. Description of two genera and species of late Eocene Anthropoidea from Egypt. Proceedings of the National Academy of Sciences, 86(24), pp.9956-9960.
 
 Tabrum, A.R., Prothero, D.R., and Garcia, D. 1996. 14. Magnetostratigraphy and biostratigraphy of the Eocene-Oligocene transition, southwestern Montana. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-Oligocene Transition in North America. Cambridge University Press, pp. 278-311.
 
