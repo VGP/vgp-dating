@@ -220,9 +220,9 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Node calibrated:** The most recent common ancestor of Cercopithecoidea (_Macaca fascicularis_) and Hominoidea (_Homo sapiens_)\
 **Fossil taxa:** †_Rukwapithecus fleaglei_ (RRBP 12444A, Ohio University USA) from the Nsungwe Formation, Rukwa Rift Basin, Tanzania ([Stevens et al. 2013](https://doi.org/10.1038/nature12161))\
 **Minimum age:** Late Oligocene (Chattian), 24.44Ma\
-**Minimum justification:** Radiometric dating constrains the Nsungwe Formation to 24.93 ± 0.49 Ma ([Roberts et al. 2010](https://doi.org/10.1016/j.jafrearsci.2009.09.002))\
+**Minimum justification:** Radiometric dating constrains the Nsungwe Formation to 24.93 ± 0.49Ma ([Roberts et al. 2010](https://doi.org/10.1016/j.jafrearsci.2009.09.002))\
 **Maximum age:** Early Oligocene (Rupelian), 34.0Ma\
-**Maximum justification:** Stem Catarrhini that predate the Cercopithecoidea/Hominoidea split are found in the Fayûm beds in Egypt, with the oldest anthropoid primates dated to 33.9 – 28.4 Ma ± 0.1 Myr ([Seiffert et al. 2005](https://doi.org/10.1126/science.1116569), [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103), [Stevens et al. 2013](https://doi.org/10.1038/nature12161))\
+**Maximum justification:** Fossils referred to the stem of Catarrhini that predate the Cercopithecoidea/Hominoidea split are found in the Fayûm beds in Egypt, with the oldest anthropoid primates dated to 33.9–28.4 ± 0.1Ma ([Seiffert et al. 2005](https://doi.org/10.1126/science.1116569), [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103), [Stevens et al. 2013](https://doi.org/10.1038/nature12161))\
 **Discussion:** The oldest-known stem hominoid and crown catarrhine, from the Nsungwe Formation, Rukwa Rift Basin, Tanzania ([Roberts et al. 2010](https://doi.org/10.1016/j.jafrearsci.2009.09.002), [Stevens et al. 2013](https://doi.org/10.1038/nature12161), [Benton et al. 2015](https://doi.org/10.26879/424))
 
 ---
