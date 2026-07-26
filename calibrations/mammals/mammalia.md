@@ -227,14 +227,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 791:** Artiodactyla | 66.0-52.4Ma\
+**Node calibrated:** Last common ancestor of Tylopoda (_Camelus dromedarius_) and Ruminantia (_Muntiacus reevesi_)\
+**Fossil taxa:** †_Himalayacetus subathuensis_ (RUSB 2003) from the Subathu Formation (zone IIIc), India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464))\
+**Minimum age:** Early Eocene (Ypresian), 52.4Ma\
+**Minimum justification:** Specimen found in Subathu Formation in Pakistan ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464)). As per Benton et al. ([2015](https://doi.org/10.26879/424)), it co-occurs with the foraminiferan †_Nummulites atacicus,_ which is distributed across nanoplankton zones 11-12 ([Martín-Martín et al. 2001](https://doi.org/10.1046%2Fj.0950-091x.2001.00158.x)), which permits setting the minimum age to 52.4Ma instead of using the top of the Ypresian stage (47.8Ma)\
+**Maximum age:** Early Paleocene (Danian), 66.0Ma\
+**Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), we use the lack of Paleocene crown cetartiodactyls to suggest 66.04 ± 0.4Ma, thus 66.0Ma\
+**Discussion:** The oldest-known stem member of Cetacea from the early Eocene (Ypresian) of India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464), [O’Leary and Uhen 1999](https://doi.org/10.1017/S0094837300020376), [Benton et al. 2015](https://doi.org/10.26879/424))
 
 ---
 
@@ -273,6 +273,8 @@ Arnal, M., Pérez, M.E., Tejada Medina, L.M. and Campbell Jr, K.E., 2022. The hi
 Asher, R.J., Meng, J., Wible, J.R., McKenna, M.C., Rougier, G.W., Dashzeveg, D. and Novacek, M.J., 2005. Stem Lagomorpha and the antiquity of Glires. Science, 307(5712), pp.1091-1094.
 
 Asher, R.J., Smith, M.R., Rankin, A. and Emry, R.J., 2019. Congruence, fossils and the evolutionary tree of rodents and lagomorphs. Royal Society Open Science, 6(7), p.190387.
+
+Bajpai, S. and Gingerich, P.D., 1998. A new Eocene archaeocete (Mammalia, Cetacea) from India and the time of origin of whales. Proceedings of the National Academy of Sciences, 95(26), pp.15464-15468.
 
 Beck, R.M., 2012. An ‘ameridelphian’marsupial from the early Eocene of Australia supports a complex model of Southern Hemisphere marsupial biogeography. Naturwissenschaften, 99(9), pp.715-729.
 
@@ -368,9 +370,13 @@ Marivaux, L., Adaci, M., Bensalah, M., Rodrigues, H.G., Hautier, L., Mahboubi, M
 
 Marivaux, L. and Boivin, M., 2019. Emergence of hystricognathous rodents: Palaeogene fossil record, phylogeny, dental evolution and historical biogeography. Zoological Journal of the Linnean Society, 187(3), pp.929-964.
 
+Martín-Martín, M., Rey, J., Alcala‐Garcia, F.J., Tosquella, J., Deramond, J., Lara‐Corona, E., Duranthon, F. and Antoine, P.O., 2001. Tectonic controls on the deposits of a foreland basin: An example from the Eocene Corbières–Minervois basin, France. Basin Research, 13(4), pp.419-433.
+
 McKenna, M.C. and Bell, S.K., 1997. Classification of mammals: above the species level. Columbia University Press.
 
 Meng, J., Hu, Y. and Li, C., 2003. The osteology of Rhombomylus (Mammalia, Glires): implications for phylogeny and evolution of Glires. Bulletin of the American Museum of Natural History, 2003(275), pp.1-247.
+
+O'Leary, M.A. and Uhen, M.D., 1999. The time of origin of whales and the role of behavioral changes in the terrestrial-aquatic transition. Paleobiology, 25(4), pp.534-556.
 
 Oliveira, É.V. and Bergqvist, L.P., 1998. A new Paleocene armadillo (Mammalia, Dasypodoidea) from the Itaboraí basin, Brazil. Publicación Electrónica de la Asociación Paleontológica Argentina, 5(1): 35–40.
 
