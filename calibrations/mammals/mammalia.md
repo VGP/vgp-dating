@@ -179,18 +179,18 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** Specimen is from the Harley’s Point locality in the Tullock Member of the Fort Union Formation, Montana, and has been dated to the Puercan NALMA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050)), which corresponds to the Danian\
 **Maximum age:** Early Cretaceous (Barremian/Aptian), ~126Ma\
 **Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
-**Discussion:** As noted by de Vries and Beck ([2023](https://doi.org/10.26879/1249)): "recent phylogenetic analyses specifically intended to resolve euarchontan relationships consistently place Purgatorius and other “plesiadapiforms” within crown Euarchonta, and specifically closer to Primates and Dermoptera than to Scandentia, although the precise affinities of “plesiadapiforms” vary in these analyses."
+**Discussion:** As noted by de Vries and Beck ([2023](https://doi.org/10.26879/1249)): "recent phylogenetic analyses specifically intended to resolve euarchontan relationships consistently place _Purgatorius_ and other “plesiadapiforms” within crown Euarchonta, and specifically closer to Primates and Dermoptera than to Scandentia, although the precise affinities of “plesiadapiforms” vary in these analyses." See Chester et al. ([2015](https://doi.org/10.1073/pnas.1421707112)) for an example.
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 918:** Primates | 66.0-56.0Ma\
+**Node calibrated:** The most recent common ancestor of Strepsirrhini () and Haplorhini ()\
+**Fossil taxa:** †_Altiatlasius koulchii_ (THR 141) from the Adrar Mgorn 1 locality in the Jbel Guersif Formation of the Ouarzazate Basin, Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates))\
+**Minimum age:** Late Paleocene (Thanetian), 56.0Ma\
+**Minimum justification:** This formation is dated to the Thanetian, 57.6 ± 1.6Ma, yielding 56.0Ma (reviewed in [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
+**Maximum age:** Early Paleocene (Danian), 66.0Ma\
+**Maximum justification:** As noted by Benton et al. ([2009](https://doi.org/10.1093/oso/9780199535033.001.0001)), the soft maximum constraint can be derived from older possible stem-primate fossils such as carpolestids and _Decoredon_ from the Danian ([McKenna and Bell 1997](https://cup.columbia.edu/book/classification-of-mammals/9780231110136/), [Kondrashov et al. 2004](https://www.researchgate.net/publication/281111353_REVISED_DISTRIBUTION_OF_CONDYLARTHS_MAMMALIA_EUTHERIA_IN_ASIA)). Benton et al. ([2009](https://doi.org/10.1093/oso/9780199535033.001.0001)) therefore conclude that "early Paleocene strata have yielded fossils of several groups (plesiadapids, paromomyids, carpolestids) reconstructed closer to crown primates than to Scandentia or Dermoptera ([Bloch et al. 2007](https://doi.org/10.1073/pnas.0610579104)), but have not yielded any definitive crown primates," providing a soft maximum constraint for Primates at the base of the Paleocene.\
+**Discussion:** The earliest-known haplorhine primate from the late Paleocene (Thanetian) of Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates), [Pattinson et al. 2015](https://doi.org/10.1093/sysbio/syu077)). An alternative would be †_Purgatorius,_ which is described from dental (e.g. UCMP 107406) and tarsal (e.g. UCMP 197509) remains and has a well-constrained age of 66.0-63.4Ma, but is not consistently recovered in crown Primates ([Chester et al. 2015](https://doi.org/10.1073/pnas.1421707112)).
 
 ---
 
@@ -278,17 +278,23 @@ Beck, R.M., 2012. An ‘ameridelphian’marsupial from the early Eocene of Austr
 
 Beck, R.M., 2023. Diversity and phylogeny of marsupials and their stem relatives (Metatheria). In American and Australasian marsupials: An evolutionary, biogeographical, and ecological approach (pp. 23-88). Cham: Springer International Publishing.
 
+Benton, M.J., Donoghue, P.C. and Asher, R.J., 2009. Calibrating and constraining molecular clocks. pp. 35–86 In: The Timetree of Life, S.B. Hedges and S. Kumar (eds.), Oxford University Press 
+
 Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18.1.1FC; 1-106.
 
 Bergqvist, L. P., Abrantes, E. A. L., & Avila, L. D. S. (2004). The Xenarthra (Mammalia) of São José de Itaboraí Basin (Upper Paleocene, Itaboraian), Rio de Janeiro, Brazil. Geodiversitas, 26, 323–337.
 
 Bi, S., Zheng, X., Wang, X., Cignetti, N.E., Yang, S. and Wible, J.R., 2018. An Early Cretaceous eutherian and the placental–marsupial dichotomy. Nature, 558(7710), pp.390-395.
 
+Bloch, J.I., Silcox, M.T., Boyer, D.M. and Sargis, E.J., 2007. New Paleocene skeletons and the relationship of plesiadapiforms to crown-clade primates. Proceedings of the National Academy of Sciences, 104(4), pp.1159-1164.
+
 Campbell Jr, K.E., O’Sullivan, P.B., Fleagle, J.G., de Vries, D. and Seiffert, E.R., 2021. An Early Oligocene age for the oldest known monkeys and rodents of South America. Proceedings of the National Academy of Sciences, 118(37), p.e2105956118.
 
 Coster, P., Benammi, M., Mahboubi, M., Tabuce, R., Adaci, M., Marivaux, L., Bensalah, M., Mahboubi, S., Mahboubi, A., Mebrouk, F. and Maameri, C., 2012. Chronology of the Eocene continental deposits of Africa: Magnetostratigraphy and biostratigraphy of the El Kohol and Glib Zegdou Formations, Algeria. Bulletin, 124(9-10), pp.1590-1606.
 
 de Vries, Dorien and Beck, Robin M.D. 2023. Twenty-five well-justified fossil calibrations for primate divergences. Palaeontologia Electronica, 26(1):a8. 
+
+Dragastan, O.N. and Herbig, H.G., 2007. Halimeda (green siphonous algae) from the Paleogene of (Morocco)–taxonomy, phylogeny and paleoenvironment. Micropaleontology, 53(1-2), pp.1-72.
 
 Flynn, L.J., Barry, J.C., Morgan, M.E., Pilbeam, D., Jacobs, L.L. and Lindsay, E.H., 1995. Neogene Siwalik mammalian lineages: species longevities, rates of change, and modes of speciation. Palaeogeography, Palaeoclimatology, Palaeoecology, 115(1-4), pp.249-264.
 
@@ -328,6 +334,8 @@ Kimura, Y., Jacobs, L.L., Cerling, T.E., Uno, K.T., Ferguson, K.M., Flynn, L.J. 
 
 Kimura, Y., Hawkins, M.T., McDonough, M.M., Jacobs, L.L. and Flynn, L.J., 2015. Corrected placement of Mus-Rattus fossil calibration forces precision in the molecular tree of rodents. Scientific Reports, 5(1), p.14444.
 
+Kondrashov, P.E. and Lucas, S.G.2004. Revised distribution of condylarths (Mammalia, Eutheria) in Asia. New Mexico Museum of Natural History and Science Bulletin, 26:209-214.
+
 Korth, W.W., 1984. Earliest Tertiary evolution and radiation of rodents in North America. Bulletin of Carnegie Museum of Natural History, 24, pp.1-71.
 
 Lenz, O.K., Wilde, V., Mertz, D.F. and Riegel, W., 2015. New palynology-based astronomical and revised 40Ar/39Ar ages for the Eocene maar lake of Messel (Germany). International Journal of Earth Sciences, 104(3), pp.873-889.
@@ -366,6 +374,8 @@ Meng, J., Hu, Y. and Li, C., 2003. The osteology of Rhombomylus (Mammalia, Glire
 
 Oliveira, É.V. and Bergqvist, L.P., 1998. A new Paleocene armadillo (Mammalia, Dasypodoidea) from the Itaboraí basin, Brazil. Publicación Electrónica de la Asociación Paleontológica Argentina, 5(1): 35–40.
 
+Pattinson, D.J., Thompson, R.S., Piotrowski, A.K. and Asher, R.J., 2015. Phylogeny, paleontology, and primates: do incomplete fossils bias the tree of life?. Systematic Biology, 64(2), pp.169-186.
+
 Phillips, M.J., Bennett, T.H. and Lee, M.S., 2009. Molecules, morphology, and ecology indicate a recent, amphibious ancestry for echidnas. Proceedings of the National Academy of Sciences, 106(40), pp.17089-17094.
 
 Phillips, M.J. 2014. Four mammal fossil calibrations: balancing competing palaeontological and molecular considerations. Palaeontologia Electronica 18.1.5FC; 1-16.
@@ -375,6 +385,8 @@ Rankin, A.H., Emry, R.J., and Asher, R.J. 2020. Anatomical sciuromorphy in "prot
 Ravel, A., Marivaux, L., Tabuce, R., Adaci, M., Mahboubi, M., Mebrouk, F. and Bensalah, M., 2011. The oldest African bat from the early Eocene of El Kohol (Algeria). Naturwissenschaften, 98(5), pp.397-405.
 
 Rose, K.D., DeLeon, V.B., Missiaen, P., Rana, R.S., Sahni, A., Singh, L. and Smith, T., 2008. Early Eocene lagomorph (Mammalia) from Western India and the early diversification of Lagomorpha. Proceedings of the Royal Society B: Biological Sciences, 275(1639), p.1203.
+
+Sigé, B., Jaeger, J.J., Sudre, J. and Vianey-Liaud, M., 1990. Altiatlasius koulchii n. gen. et sp., primate omomyidé du Paléocène supérieur du Maroc, et les origines des euprimates. Palaeontographica Abteilung A, pp.31-56.
 
 Tabrum, A.R., Prothero, D.R., and Garcia, D. 1996. 14. Magnetostratigraphy and biostratigraphy of the Eocene-Oligocene transition, southwestern Montana. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-Oligocene Transition in North America. Cambridge University Press, pp. 278-311.
 
