@@ -200,7 +200,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Late Eocene (Priabonian), 33.9Ma\
 **Minimum justification:** The Birket Quaran Formation corresponds to upper Priabonian ([Seiffert et al. 2006](https://doi.org/10.1073/pnas.0600689103))\
 **Maximum age:** Late Paleocene (Thanetian), 56.0Ma\
-**Maximum justification:** Bounded by the first appearance of euprimates, represented by Altiatlasius koulchii (see Node 918: Primates), which dates to the Late Paleocene at 56.0Ma ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates)), [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
+**Maximum justification:** Bounded by the first appearance of euprimates, represented by †_Altiatlasius koulchii_ (see **Node 918:** Primates), which dates to the late Paleocene at 56.0Ma ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates)), [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
 **Discussion:** The oldest-known stem lorisiform or crown strepsirrhine (of uncertain affinities) from the late Eocene (Priabonian) Birket Quaran Formation of Fayûm, Egypt ([Benton et al. 2015](https://doi.org/10.26879/424); Seiffert et al. [2003](https://doi.org/10.1038/nature01489), [2006](https://doi.org/10.1073/pnas.0600689103))
 
 ---
