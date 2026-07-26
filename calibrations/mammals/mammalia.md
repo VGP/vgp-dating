@@ -148,23 +148,23 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 897:** Stem Murinae | 18.3-16.0Ma\
+**Node calibrated:** The most recent common ancestory of Murinae (_Mus musculus_) and Deomyinae (_Acomys russatus_)\
+**Fossil taxa:** †_Potwarmus primitivus_ (YGSP 591) from the from lower and middle Siwalik deposits in the Potwar Plateau of Pakistan ([Wessels et al. 1982](https://ubbern.swisscovery.slsp.ch/permalink/41SLSP_UBE/ar3q4e/alma99118009708505511), [Lindsey 1988](https://doi.org/10.18563/pv.18.2.95-154))\
+**Minimum age:** Middle Miocene (Langhian), 15.98Ma\
+**Minimum justification:** Upper age of locality (15.98Ma, Burdigalian Marine stage)\
+**Maximum age:** Early Miocene (Burdigalian), 18.3Ma\
+**Maximum justification:** The oldest stem gerbils, represented by †_Myocricetodon,_ are found in the same Siwalik deposits of the Potwar Plateau as †_Potwarmus_ ([Flynn et al. 2020](https://doi.org/10.1007/978-3-030-49753-8_15)), with the oldest dating as far back as 18.3Ma in the early Miocene ([Flynn et al. 1995](https://doi.org/10.1016/0031-0182(94)00114-N), [Lazzari et al. 2007](https://doi.org/10.1671/0272-4634(2007)27[1062:FOIEOM]2.0.CO;2)). Consequently, Flynn et al. ([2020](https://doi.org/10.1007/978-3-030-49753-8_15)) suggest the murine/gerbil split was complete prior to ~16Ma.\
+**Discussion:** This fossil is the oldest-known stem murine, from a Miocene fluvial horizon in the Chinji Formation of Pakistan ([Jacobs and Flynn 2005](https://doi.org/10.1163/9789047416616_011)). Benton et al. ([2015](https://doi.org/10.26879/424)) considered †_Karnimata darwini_ (YGSP 7720) as a calibration for Murinae (_Mus_ + _Rattus_ split), whereas Aghová et al. ([2018](https://doi.org/10.1016/j.ympev.2018.07.017)) use the same fossil to calibrate Crown Millardini/Otomyini/Arvicanthini and instead advocate †_Antemus chinjiensis_ for crown Murinae. 
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
+**Node 898:** Murinae (part: Murini + Arvicanthini) | 12.3-11.1Ma\
+**Node calibrated:** The most recent common ancestor of Murini (_Mus musculus_) and Arvicanthini (_Arvicanthis niloticus_)\
+**Fossil taxa:** †_Karnimata_ sp. (YGSP 791)\
+**Minimum age:** Middle Miocene (Tortonian), 11.1Ma\
+**Minimum justification:** Upper age of localities associated with first appearance of the taxon ([Jacobs and Flynn 2005](https://doi.org/10.1163/9789047416616_011))\
+**Maximum age:** Middle Miocene (Serravallian), 12.3Ma\
 **Maximum justification:** \
 **Discussion:**
 
@@ -225,6 +225,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ## References
 
+Aghová, T., Kimura, Y., Bryja, J., Dobigny, G., Granjon, L. and Kergoat, G.J., 2018. Fossils know it best: using a new set of fossil calibrations to improve the temporal phylogenetic framework of murid rodents (Rodentia: Muridae). Molecular Phylogenetics and Evolution, 128, pp.98-111.
+
 Álvarez-Carretero, S., Tamuri, A.U., Battini, M., Nascimento, F.F., Carlisle, E., Asher, R.J., Yang, Z., Donoghue, P.C. and Dos Reis, M., 2022. A species-level timeline of mammal evolution integrating phylogenomic data. Nature, 602(7896), pp.263-267.
 
 Archer, M., Jenkins Jr, F.A., Hand, S.J., Murray, P. and Godthelp, H., 1992. Description of the skull and non-vestigial dentition of a Miocene platypus (Obdurodon dicksoni n. sp.) from Riversleigh, Australia, and the problem of monotreme origins. pp. 15–27 In: Platypus and echidnas, Royal Zoological Society of New South Wales, Sydney.
@@ -245,7 +247,11 @@ Bi, S., Zheng, X., Wang, X., Cignetti, N.E., Yang, S. and Wible, J.R., 2018. An 
 
 de Vries, Dorien and Beck, Robin M.D. 2023. Twenty-five well-justified fossil calibrations for primate divergences. Palaeontologia Electronica, 26(1):a8. 
 
+Flynn, L.J., Barry, J.C., Morgan, M.E., Pilbeam, D., Jacobs, L.L. and Lindsay, E.H., 1995. Neogene Siwalik mammalian lineages: species longevities, rates of change, and modes of speciation. Palaeogeography, Palaeoclimatology, Palaeoecology, 115(1-4), pp.249-264.
+
 Flynn, J.J., Parrish, J.M., Rakotosamimanana, B., Simpson, W.F. and Wyss, A.R., 1999. A middle Jurassic mammal from Madagascar. Nature, 401(6748), pp.57-60.
+
+Flynn, L.J., Kimura, Y., Jacobs, L.L. (2020). The Murine Cradle. In: Prasad, G.V., Patnaik, R. (eds) Biological Consequences of Plate Tectonics. Vertebrate Paleobiology and Paleoanthropology. Springer, Cham.
 
 Fostowicz-Frelik, Ł. (2020). Most Successful Mammals in the Making: A Review of the Paleocene Glires. In: Pontarotti, P. (eds) Evolutionary Biology—A Transdisciplinary Approach. Springer, Cham.
 
@@ -267,6 +273,8 @@ Heaton, T.H. 1996. 18. Ischyromyidae. In: Prothero DR, Emry RJ, eds. The Terrest
 
 Ivy, L.D., 1990. Systematics of late Paleocene and early Eocene Rodentia (Mammalia) from the Clarks Fork Basin, Wyoming. Contributions from the Museum of Paleontology, The University of Michigan, 28(2):1–70.
 
+Jacobs, L.L., and Flynn, L.J. (2005). 5 Of Mice… Again: The Siwalik Rodent Record, Murine Distribution, and Molecular Clocks. pp. 63–80 In: Interpreting the Past. Leiden, The Netherlands: Brill.
+
 Jones, M.F., Beard, K.C. and Simmons, N.B., 2024. Phylogeny and systematics of early Paleogene bats. Journal of Mammalian Evolution, 31(2), p.18.
 
 Kelly, T.S., 2009. A new species of Heliscomys (Rodentia, Heliscomyidae) from the Duchesnean (middle Eocene) Simi Valley Landfill Local Fauna, Sespe Formation, California. Paludicola, 7, pp.67-77.
@@ -275,11 +283,15 @@ Korth, W.W., 1984. Earliest Tertiary evolution and radiation of rodents in North
 
 Lenz, O.K., Wilde, V., Mertz, D.F. and Riegel, W., 2015. New palynology-based astronomical and revised 40Ar/39Ar ages for the Eocene maar lake of Messel (Germany). International Journal of Earth Sciences, 104(3), pp.873-889.
 
+Lazzari, V., Michaux, J. and Aguilar, J.P., 2007. First occurence in Europe of Myocricetodontinae (Rodentia, Gerbillidae) During the lower middle Miocene in the Karstic Locality of Blanquatère 1 (southern France): implications. Journal of Vertebrate Paleontology, 27(4), pp.1062-1065.
+
 Li, C.K., 1977. Paleocene eurymyloids (Anagalida, Mammalia) of Qianshan, Anhui. Vertebrata PalAsiatica, 15(2), pp.103-118.
 
 Li, C.K., and Ting, S.Y. 1983. The paleogene mammals of china. Bulletin Carnegie Mus. Nat. Hist., 21, pp.1-93.
 
 Li C.K., Wang, Y.Q., Zhang, Z.Q., Mao, F.Y., and Meng, J. 2016 A new mimotonidan Mina hui (Mammalia, Glires) from the Middle Paleocene of Qianshan, Anhui, China. Vertebrata PalAsiatica. 2016;54(2): 121–136.
+
+Lindsey, E.H. 1988. Cricetid rodents from Siwalik deposits near Chinji village. Part I: Megacricetodontinae, Myocricetodontinae and Dendromurinae. PalaeoVertebrata 18 (2): 95-154.
 
 Luo, Z.X., Crompton, A.W. and Sun, A.L., 2001. A new mammaliaform from the early Jurassic and evolution of mammalian characteristics. Science, 292(5521), pp.1535-1540.
 
@@ -320,6 +332,8 @@ Upham, N.S., Esselstyn, J.A. and Jetz, W., 2019. Inferring the mammal tree: spec
 Vianey-Liaud, M. and Marivaux, L., 2021. The beginning of the adaptive radiation of Theridomorpha (Rodentia) in Western Europe: morphological and phylogenetic analyses of early and middle Eocene taxa; implications for systematics. Palaeovertebrata, 44, pp.2-e2.
 
 Wang, Y., Li, Q., Bai, B., Jin, X., Mao, F. and Meng, J., 2019. Paleogene integrative stratigraphy and timescale of China. Science China Earth Sciences, 62(1), pp.287-309.
+
+Wessels, W., de Bruijn, H., Hussain, S.T., Leinders, J.J.M. 1982. Fossil rodents from the Chinji Formation, Banda Daud Shah, Pakistan. Proc Konink Nederl Akad Weten. B85:337–364.
 
 Woodburne, M.O., Rich, T.H. and Springer, M.S., 2003. The evolution of tribospheny and the antiquity of mammalian clades. Molecular phylogenetics and evolution, 28(2), pp.360-385.
 
