@@ -1,6 +1,6 @@
 # Mammal calibrations
 
-Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1371/journal.pbio.3000494)) and Álvarez-Carretero et al. ([2022](https://doi.org/10.1038/s41586-021-04341-1)), with recent updates and revisions therein.
+Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1371/journal.pbio.3000494)) and Álvarez-Carretero et al. ([2022](https://doi.org/10.1038/s41586-021-04341-1)), with recent updates and revisions therein. Many of the calibrations were originally derived from Benton et al. ([2015](https://doi.org/10.26879/424)) and Phillips ([2015](https://doi.org/10.26879/490)), which we indicate when appropriate.
 
 ## Calibrations:
 
@@ -233,19 +233,19 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Early Eocene (Ypresian), 52.4Ma\
 **Minimum justification:** Specimen found in Subathu Formation in Pakistan ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464)). As per Benton et al. ([2015](https://doi.org/10.26879/424)), it co-occurs with the foraminiferan †_Nummulites atacicus,_ which is distributed across nanoplankton zones 11-12 ([Martín-Martín et al. 2001](https://doi.org/10.1046%2Fj.0950-091x.2001.00158.x)), which permits setting the minimum age to 52.4Ma instead of using the top of the Ypresian stage (47.8Ma)\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
-**Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), we use the lack of Paleocene crown cetartiodactyls to suggest 66.04 ± 0.4Ma, thus 66.0Ma\
+**Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), we use the lack of Paleocene crown cetartiodactyls to suggest a plausible soft maximum age of 66.04 ± 0.4Ma, thus 66.0Ma\
 **Discussion:** The oldest-known stem member of Cetacea from the early Eocene (Ypresian) of India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464), [O’Leary and Uhen 1999](https://doi.org/10.1017/S0094837300020376), [Benton et al. 2015](https://doi.org/10.26879/424))
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 827:** Carnivora | 66.0-37.3Ma\
+**Node calibrated:** The most recent common ancestor of Caniformia (_Vulpes vulpes_) and Feliformia (_Lynx canadensis_)\
+**Fossil taxa:** †_Hesperocyon gregarius_ (SMNH P1899.6) from the Lac Pelletier local fauna of the Cypress Hills Formation (Duchesnean NALMA), Saskatchewan, Canada ([Bryant 1992](https://doi.org/10.1017/S0022336000020850))\
+**Minimum age:** Middle Eocene (Bartonian), 37.3Ma\
+**Minimum justification:** The oldest caniforms, including †_Hesperocyon,_ are known from the early Duchesnean NALMA ([Robinson et al. 2004](http://www.jstor.org/stable/10.7312/wood13040.10)), which corresponds to the Bartonian\
+**Maximum age:** Early Paleocene (Danian), 66.0Ma\
+**Maximum justification:** The earliest known stem carnivorans date to the early Paleocene ([Fox et al. 2010](https://doi.org/10.1666/09-165.1)), which we use to set the maximum at 66.04Ma ± 0.4 Myr, thus 66.0Ma\
+**Discussion:** The oldest-known stem caniform from the middle Eocene (Bartonian) of Saskatchewan, Canada ([Wesley-Hunt and Flynn 2005](https://doi.org/10.1017/S1477201904001518), [Benton et al. 2015](https://doi.org/10.26879/424))
 
 ## Considered but not included:
 
@@ -289,6 +289,8 @@ Bergqvist, L. P., Abrantes, E. A. L., & Avila, L. D. S. (2004). The Xenarthra (M
 Bi, S., Zheng, X., Wang, X., Cignetti, N.E., Yang, S. and Wible, J.R., 2018. An Early Cretaceous eutherian and the placental–marsupial dichotomy. Nature, 558(7710), pp.390-395.
 
 Bloch, J.I., Silcox, M.T., Boyer, D.M. and Sargis, E.J., 2007. New Paleocene skeletons and the relationship of plesiadapiforms to crown-clade primates. Proceedings of the National Academy of Sciences, 104(4), pp.1159-1164.
+
+Bryant, H.N., 1992. The Carnivora of the Lac Pelletier Lower Fauna (Eocene: Duchesnean), Cypress Hills Formation, Saskatchewan. Journal of Paleontology, 66(5), pp.847-855.
 
 Campbell Jr, K.E., O’Sullivan, P.B., Fleagle, J.G., de Vries, D. and Seiffert, E.R., 2021. An Early Oligocene age for the oldest known monkeys and rodents of South America. Proceedings of the National Academy of Sciences, 118(37), p.e2105956118.
 
@@ -392,6 +394,8 @@ Ravel, A., Marivaux, L., Tabuce, R., Adaci, M., Mahboubi, M., Mebrouk, F. and Be
 
 Roberts, E.M., O’Connor, P.M., Stevens, N.J., Gottfried, M.D., Jinnah, Z.A., Ngasala, S., Choh, A.M. and Armstrong, R.A., 2010. Sedimentology and depositional environments of the Red Sandstone Group, Rukwa Rift Basin, southwestern Tanzania: New insight into Cretaceous and Paleogene terrestrial ecosystems and tectonics in sub-equatorial Africa. Journal of African Earth Sciences, 57(3), pp.179-212.
 
+Robinson, P., Gunnell, G.F., Walsh, S.L., Clyde, W.C., Storer, J.E., Stucky, R.K., Froehlich, D.J., Ferrusquia-Villafranca, I., McKenna, M.C. and Woodburne, M.O., 2004. Wasatchian through Duchesnean biochronology. Late Cretaceous and Cenozoic Mammals of North America. Columbia University Press, New York, pp.106-155.
+
 Rose, K.D., DeLeon, V.B., Missiaen, P., Rana, R.S., Sahni, A., Singh, L. and Smith, T., 2008. Early Eocene lagomorph (Mammalia) from Western India and the early diversification of Lagomorpha. Proceedings of the Royal Society B: Biological Sciences, 275(1639), p.1203.
 
 Seiffert, E.R., Simons, E.L. and Attia, Y., 2003. Fossil evidence for an ancient divergence of lorises and galagos. Nature, 422(6930), pp.421-424.
@@ -415,6 +419,8 @@ Upham, N.S., Esselstyn, J.A. and Jetz, W., 2019. Inferring the mammal tree: spec
 Vianey-Liaud, M. and Marivaux, L., 2021. The beginning of the adaptive radiation of Theridomorpha (Rodentia) in Western Europe: morphological and phylogenetic analyses of early and middle Eocene taxa; implications for systematics. Palaeovertebrata, 44, pp.2-e2.
 
 Wang, Y., Li, Q., Bai, B., Jin, X., Mao, F. and Meng, J., 2019. Paleogene integrative stratigraphy and timescale of China. Science China Earth Sciences, 62(1), pp.287-309.
+
+Wesley‐Hunt, G.D. and Flynn, J.J., 2005. Phylogeny of the Carnivora: basal relationships among the carnivoramorphans, and assessment of the position of ‘Miacoidea’relative to Carnivora. Journal of Systematic Palaeontology, 3(1), pp.1-28.
 
 Wessels, W., de Bruijn, H., Hussain, S.T., Leinders, J.J.M. 1982. Fossil rodents from the Chinji Formation, Banda Daud Shah, Pakistan. Proc Konink Nederl Akad Weten. B85:337–364.
 
