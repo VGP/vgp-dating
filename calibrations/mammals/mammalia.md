@@ -172,14 +172,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 916:** Euarchonta | 126.0-61.6Ma\
+**Node calibrated:** The most recent common ancestor of Primata (_Homo sapiens_), Dermoptera (_Cynocephalus volans_), and Scandentia(_Tupaia tana_)\
+**Fossil taxa:** †_Purgatorius mckeeveri_ (UCMP 150021) from the Harley’s Point locality in the Tullock Member of the Fort Union Formation in Montana, USA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050))\
+**Minimum age:** Early Paleocene (Danian), 61.6Ma\
+**Minimum justification:** Specimen is from the Harley’s Point locality in the Tullock Member of the Fort Union Formation, Montana, and has been dated to the Puercan NALMA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050)), which corresponds to the Danian\
+**Maximum age:** Early Cretaceous (Barremian/Aptian), ~126Ma\
+**Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
+**Discussion:** As noted by de Vries and Beck ([2023](https://doi.org/10.26879/1249)): "recent phylogenetic analyses specifically intended to resolve euarchontan relationships consistently place Purgatorius and other “plesiadapiforms” within crown Euarchonta, and specifically closer to Primates and Dermoptera than to Scandentia, although the precise affinities of “plesiadapiforms” vary in these analyses."
 
 ---
 
@@ -343,6 +343,8 @@ Luo, Z.X., Ji, Q., Wible, J.R. and Yuan, C.X., 2003. An Early Cretaceous tribosp
 Luo, Z.X., Chen, P., Li, G. and Chen, M., 2007. A new eutriconodont mammal and evolutionary development in early mammals. Nature, 446(7133), pp.288-293.
 
 Luo, Z.X., Yuan, C.X., Meng, Q.J. and Ji, Q., 2011. A Jurassic eutherian mammal and divergence of marsupials and placentals. Nature, 476(7361), pp.442-445.
+
+Mantilla, G.P.W., Chester, S.G., Clemens, W.A., Moore, J.R., Sprain, C.J., Hovatter, B.T., Mitchell, W.S., Mans, W.W., Mundil, R. and Renne, P.R., 2021. Earliest Palaeocene purgatoriids and the initial radiation of stem primates. Royal Society Open Science, 8(2), p.210050.
 
 Marivaux, L., Vianey-Liaud, M. and Jaeger, J.J., 2004. High-level phylogeny of early Tertiary rodents: dental evidence. Zoological Journal of the Linnean society, 142(1), pp.105-134.
 
