@@ -165,8 +165,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Middle Miocene (Tortonian), 11.1Ma\
 **Minimum justification:** Upper age of localities associated with first appearance of the taxon ([Jacobs and Flynn 2005](https://doi.org/10.1163/9789047416616_011))\
 **Maximum age:** Middle Miocene (Serravallian), 12.3Ma\
-**Maximum justification:** \
-**Discussion:**
+**Maximum justification:** Lower age of locality associated with appearance of the Progonomys clade, which contains Mus ([Jacobs 1978](https://search.worldcat.org/title/Fossil-rodents-(Rhizomyidae-and-Muridae)-:-from-Neogene-Siwalik-deposits-Pakistan/oclc/4611477), [Jacobs and Flynn 2005](https://doi.org/10.1163/9789047416616_011))\
+**Discussion:** This taxon is the oldest-known stem member and basis for the naming of the †_Karnimata_ clade of Arvicanthini, Millardini, and Otomyini, which is sister to the †_Progonomys_ clade including Murini ([Kimura et al. 2015](https://doi.org/10.1038/srep14444), [López-Antoñanzas et al. 2024](https://doi.org/10.1186/s12915-024-02053-2)), though placement of the taxon †_Progonomys_ itself varies in total-evidence analyses, sometimes occupying a position on the stem of Murinae ([López-Antoñanzas et al. 2024](https://doi.org/10.1186/s12915-024-02053-2)). The age is based on the M1 specimens from localities Y791 and Y797 in Nagri Formation, Siwalik Group, Potwar Plateau, northern Pakistan ([Jacobs and Flynn 2005](https://doi.org/10.1163/9789047416616_011); [Kimura et al. 2013](https://doi.org/10.1371/journal.pone.0069308), [2015](https://doi.org/10.1038/srep14444); [Aghová et al. 2018](https://doi.org/10.1016/j.ympev.2018.07.017)).
 
 ---
 
@@ -273,11 +273,17 @@ Heaton, T.H. 1996. 18. Ischyromyidae. In: Prothero DR, Emry RJ, eds. The Terrest
 
 Ivy, L.D., 1990. Systematics of late Paleocene and early Eocene Rodentia (Mammalia) from the Clarks Fork Basin, Wyoming. Contributions from the Museum of Paleontology, The University of Michigan, 28(2):1–70.
 
-Jacobs, L.L., and Flynn, L.J. (2005). 5 Of Mice… Again: The Siwalik Rodent Record, Murine Distribution, and Molecular Clocks. pp. 63–80 In: Interpreting the Past. Leiden, The Netherlands: Brill.
+Jacobs, L.L., 1978. Fossil rodents (Rhizomyidae & Muridae) from Neogene Siwalik deposits, Pakistan. Museum of North Arizona, Bulletin, 52, pp.1-103.
+
+Jacobs, L.L., and Flynn, L.J. 2005. 5 Of Mice… Again: The Siwalik Rodent Record, Murine Distribution, and Molecular Clocks. pp. 63–80 In: Interpreting the Past. Leiden, The Netherlands: Brill.
 
 Jones, M.F., Beard, K.C. and Simmons, N.B., 2024. Phylogeny and systematics of early Paleogene bats. Journal of Mammalian Evolution, 31(2), p.18.
 
 Kelly, T.S., 2009. A new species of Heliscomys (Rodentia, Heliscomyidae) from the Duchesnean (middle Eocene) Simi Valley Landfill Local Fauna, Sespe Formation, California. Paludicola, 7, pp.67-77.
+
+Kimura, Y., Jacobs, L.L., Cerling, T.E., Uno, K.T., Ferguson, K.M., Flynn, L.J. and Patnaik, R., 2013. Fossil mice and rats show isotopic evidence of niche partitioning and change in dental ecomorphology related to dietary shift in Late Miocene of Pakistan. PLoS One, 8(8), p.e69308.
+
+Kimura, Y., Hawkins, M.T., McDonough, M.M., Jacobs, L.L. and Flynn, L.J., 2015. Corrected placement of Mus-Rattus fossil calibration forces precision in the molecular tree of rodents. Scientific Reports, 5(1), p.14444.
 
 Korth, W.W., 1984. Earliest Tertiary evolution and radiation of rodents in North America. Bulletin of Carnegie Museum of Natural History, 24, pp.1-71.
 
