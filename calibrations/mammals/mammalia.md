@@ -2,7 +2,7 @@
 
 Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1371/journal.pbio.3000494)) and Álvarez-Carretero et al. ([2022](https://doi.org/10.1038/s41586-021-04341-1)), with recent updates and revisions therein.
 
-### Calibrations:
+## Calibrations:
 
 **Node 783:** Mammalia | 201.5-164.9Ma\
 **Node calibrated:** Most recent common ancestor of monotremes (_Ornithorhynchus anatinus_), marsupials (_Monodelphis domestica_), and placentals (_Dasypus novemcinctus_)\
@@ -246,8 +246,6 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Maximum age:** \
 **Maximum justification:** \
 **Discussion:**
-
----
 
 ## Considered but not included:
 
