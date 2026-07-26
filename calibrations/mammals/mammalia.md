@@ -1,6 +1,6 @@
 # Mammal calibrations
 
-Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1371/journal.pbio.3000494)) and Álvarez-Carretero et al. ([2022](https://doi.org/10.1038/s41586-021-04341-1)), with recent updates and revisions therein. Many of the calibrations were originally derived from Benton et al. ([2015](https://doi.org/10.26879/424)) and Phillips ([2015](https://doi.org/10.26879/490)), which we indicate when appropriate.
+Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1371/journal.pbio.3000494)) and Álvarez-Carretero et al. ([2022](https://doi.org/10.1038/s41586-021-04341-1)), with recent updates and revisions therein. Many of the calibrations were originally derived from Benton et al. ([2015](https://doi.org/10.26879/424)) and Phillips ([2014](https://doi.org/10.26879/490)), which we indicate when appropriate.
 
 ## Calibrations:
 
@@ -21,8 +21,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Miocene, 15.97Ma\
 **Minimum justification:** Oldest specimens found in northwestern Queensland in Faunal Zone B sites, which date to early Miocene ([Travouillon et al. 2006](https://doi.org/10.1080/03115510609506871))\
 **Maximum age:** Early Cretaceous, 113.0Ma\
-**Maximum justification:** Potential crown Monotremes are present in Argentina from ~61Ma, but the latest Australasian sites that lack any evidence of crown monotremes date to the Albian (Phillips 2015)\
-**Discussion:** The oldest-known stem member of Ornithorhynchidae from the early Miocene (Burdigalian) of northwestern Queensland, Australia ([Phillips 2015](https://doi.org/10.26879/490), [Luo et al. 2007](https://doi.org/10.1038/nature05627), [Phillips et al. 2009](https://doi.org/10.1073/pnas.0904649106)), and also the oldest-known crown monotrematan.
+**Maximum justification:** Potential crown Monotremes are present in Argentina from ~61Ma, but the latest Australasian sites that lack any evidence of crown monotremes date to the Albian ([Phillips 2014](https://doi.org/10.26879/490))\
+**Discussion:** The oldest-known stem member of Ornithorhynchidae from the early Miocene (Burdigalian) of northwestern Queensland, Australia ([Phillips 2014](https://doi.org/10.26879/490), [Luo et al. 2007](https://doi.org/10.1038/nature05627), [Phillips et al. 2009](https://doi.org/10.1073/pnas.0904649106)), and also the oldest-known crown monotrematan.
 
 ---
 
@@ -99,8 +99,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Middle Eocene (Lutetian), 45.0Ma\
 **Minimum justification:** Age estimates using 206Pb/238U dating and sedimentary rate analysis put the lacustrine Mahenge formation at 45.83Ma ± 1.1 Myr and the fossil itself at a lower bound of 45.0Ma ([Harrison et al. 2001](https://doi.org/10.1007/978-1-4615-1271-4_2))\
 **Maximum age:** Late Paleocene (Thanetian), 58.9Ma\
-**Maximum justification:** Following Phillips ([2015](https://doi.org/10.26879/490)), we use the base of the Thanetian as the upper bound to be conservative regarding stem bats that are from very close to the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0)).\
-**Discussion:** This fossil is the oldest-known stem member of Rhinolophoidea within Yinpterochiroptera, from the middle Eocene (Lutetian) of Tanzania in the Mahenge formation ([Phillips 2015](https://doi.org/10.26879/490), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Ypresian †_Archaeonycterus praecursor_ as the oldest crown bat, but only for majority-rule consensus approaches, and only for trees not rooted on _Sorex_. The oldest stem bat in their analyses, †_Tachypteron,_ is dated to the Lutetian ([Lenz et al. 2015](https://doi.org/10.1007/s00531-014-1126-2)), supporting the minimum age of †_Tanzanycteris_. 
+**Maximum justification:** Following Phillips ([2014](https://doi.org/10.26879/490)), we use the base of the Thanetian as the upper bound to be conservative regarding stem bats that are from very close to the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0)).\
+**Discussion:** This fossil is the oldest-known stem member of Rhinolophoidea within Yinpterochiroptera, from the middle Eocene (Lutetian) of Tanzania in the Mahenge formation ([Phillips 2014](https://doi.org/10.26879/490), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Ypresian †_Archaeonycterus praecursor_ as the oldest crown bat, but only for majority-rule consensus approaches, and only for trees not rooted on _Sorex_. The oldest stem bat in their analyses, †_Tachypteron,_ is dated to the Lutetian ([Lenz et al. 2015](https://doi.org/10.1007/s00531-014-1126-2)), supporting the minimum age of †_Tanzanycteris_. 
 
 ---
 
@@ -255,8 +255,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Eocene (Bartonian), 40.94Ma\
 **Minimum justification:** The CTA–27 locality in Peru has been dated to a minimum of 40.94Ma based on radioisotopy, vertebrate biochronology and palynostratigraphy ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732))\
 **Maximum age:** Late Paleocene (Thanetian), 56.0Ma\
-**Maximum justification:** As noted by Phillips ([2015](https://doi.org/10.26879/490)): ""the absence of any hystricognaths from the better sampled Early Eocene faunas ([Marivaux et al. 2011](https://doi.org/10.1080/14772019.2011.562555), [Coster et al. 2012](https://doi.org/10.1130/B30565.1)) provides a more appropriate soft maximum of basal Ypresian age."\
-**Discussion:** Earliest-known stem caviomorph rodent from locality CTA-27 in Yahuarango, Peru ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)). Phillips ([2015](https://doi.org/10.26879/490)) used this fossil to calibrate the Caviomorphia + Phiomorpha split, but it could still function to provide a lower bound for Hystricomorpha. However, Campbell et al. ([2021](https://doi.org/10.1073/pnas.2105956118)) concluded that "there are currently no compelling Eocene records of either rodents or primates in the known fossil record of South America" – also see Arnal et al. ([2022](https://doi.org/10.1080/08912963.2021.2017916)). CTA-27 has been dated to the Late/Mid Eocene ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)) and to the Lower Oligocene (C[ampbell et al. 2021](https://doi.org/10.1073/pnas.2105956118)); this conflict in dates gives us reason to disfavour †_Cachiyacuy_ for use in calibration. Total-group ctenohystricids may still have early Paleogene records elsewhere (e.g., chapattimyids, †_Tamquammys_; see [Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)), but we tentatively refrain from using such records as calibrations pending a phylogenetic analysis broadly sampled for morphology and DNA across living and fossil species.
+**Maximum justification:** As noted by Phillips ([2014](https://doi.org/10.26879/490)): ""the absence of any hystricognaths from the better sampled Early Eocene faunas ([Marivaux et al. 2011](https://doi.org/10.1080/14772019.2011.562555), [Coster et al. 2012](https://doi.org/10.1130/B30565.1)) provides a more appropriate soft maximum of basal Ypresian age."\
+**Discussion:** Earliest-known stem caviomorph rodent from locality CTA-27 in Yahuarango, Peru ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)). Phillips ([2014](https://doi.org/10.26879/490)) used this fossil to calibrate the Caviomorphia + Phiomorpha split, but it could still function to provide a lower bound for Hystricomorpha. However, Campbell et al. ([2021](https://doi.org/10.1073/pnas.2105956118)) concluded that "there are currently no compelling Eocene records of either rodents or primates in the known fossil record of South America" – also see Arnal et al. ([2022](https://doi.org/10.1080/08912963.2021.2017916)). CTA-27 has been dated to the Late/Mid Eocene ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)) and to the Lower Oligocene (C[ampbell et al. 2021](https://doi.org/10.1073/pnas.2105956118)); this conflict in dates gives us reason to disfavour †_Cachiyacuy_ for use in calibration. Total-group ctenohystricids may still have early Paleogene records elsewhere (e.g., chapattimyids, †_Tamquammys_; see [Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)), but we tentatively refrain from using such records as calibrations pending a phylogenetic analysis broadly sampled for morphology and DNA across living and fossil species.
 
 ## References
 
@@ -294,6 +294,8 @@ Bryant, H.N., 1992. The Carnivora of the Lac Pelletier Lower Fauna (Eocene: Duch
 
 Campbell Jr, K.E., O’Sullivan, P.B., Fleagle, J.G., de Vries, D. and Seiffert, E.R., 2021. An Early Oligocene age for the oldest known monkeys and rodents of South America. Proceedings of the National Academy of Sciences, 118(37), p.e2105956118.
 
+Chester, S.G., Bloch, J.I., Boyer, D.M. and Clemens, W.A., 2015. Oldest known euarchontan tarsals and affinities of Paleocene Purgatorius to Primates. Proceedings of the National Academy of Sciences, 112(5), pp.1487-1492.
+
 Coster, P., Benammi, M., Mahboubi, M., Tabuce, R., Adaci, M., Marivaux, L., Bensalah, M., Mahboubi, S., Mahboubi, A., Mebrouk, F. and Maameri, C., 2012. Chronology of the Eocene continental deposits of Africa: Magnetostratigraphy and biostratigraphy of the El Kohol and Glib Zegdou Formations, Algeria. Bulletin, 124(9-10), pp.1590-1606.
 
 de Vries, Dorien and Beck, Robin M.D. 2023. Twenty-five well-justified fossil calibrations for primate divergences. Palaeontologia Electronica, 26(1):a8. 
@@ -305,6 +307,8 @@ Flynn, L.J., Barry, J.C., Morgan, M.E., Pilbeam, D., Jacobs, L.L. and Lindsay, E
 Flynn, J.J., Parrish, J.M., Rakotosamimanana, B., Simpson, W.F. and Wyss, A.R., 1999. A middle Jurassic mammal from Madagascar. Nature, 401(6748), pp.57-60.
 
 Flynn, L.J., Kimura, Y., Jacobs, L.L. (2020). The Murine Cradle. In: Prasad, G.V., Patnaik, R. (eds) Biological Consequences of Plate Tectonics. Vertebrate Paleobiology and Paleoanthropology. Springer, Cham.
+
+Fostowicz-Frelik, Ł., 2017. Convergent and parallel evolution in early Glires (Mammalia). In Evolutionary biology: self/nonself evolution, species and complex traits evolution, methods and concepts (pp. 199-216). Cham: Springer International Publishing.
 
 Fostowicz-Frelik, Ł. (2020). Most Successful Mammals in the Making: A Review of the Paleocene Glires. In: Pontarotti, P. (eds) Evolutionary Biology—A Transdisciplinary Approach. Springer, Cham.
 
@@ -342,9 +346,9 @@ Kondrashov, P.E. and Lucas, S.G.2004. Revised distribution of condylarths (Mamma
 
 Korth, W.W., 1984. Earliest Tertiary evolution and radiation of rodents in North America. Bulletin of Carnegie Museum of Natural History, 24, pp.1-71.
 
-Lenz, O.K., Wilde, V., Mertz, D.F. and Riegel, W., 2015. New palynology-based astronomical and revised 40Ar/39Ar ages for the Eocene maar lake of Messel (Germany). International Journal of Earth Sciences, 104(3), pp.873-889.
-
 Lazzari, V., Michaux, J. and Aguilar, J.P., 2007. First occurence in Europe of Myocricetodontinae (Rodentia, Gerbillidae) During the lower middle Miocene in the Karstic Locality of Blanquatère 1 (southern France): implications. Journal of Vertebrate Paleontology, 27(4), pp.1062-1065.
+
+Lenz, O.K., Wilde, V., Mertz, D.F. and Riegel, W., 2015. New palynology-based astronomical and revised 40Ar/39Ar ages for the Eocene maar lake of Messel (Germany). International Journal of Earth Sciences, 104(3), pp.873-889.
 
 Li, C.K., 1977. Paleocene eurymyloids (Anagalida, Mammalia) of Qianshan, Anhui. Vertebrata PalAsiatica, 15(2), pp.103-118.
 
@@ -356,15 +360,13 @@ Lindsey, E.H. 1988. Cricetid rodents from Siwalik deposits near Chinji village. 
 
 Luo, Z.X., Crompton, A.W. and Sun, A.L., 2001. A new mammaliaform from the early Jurassic and evolution of mammalian characteristics. Science, 292(5521), pp.1535-1540.
 
-Luo, Z., Kielan-Jaworowska, Z., Cifelli, R.L. (2002). In quest for a phylogeny of Mesozoic mammals. Acta Palaeontologica Polonica, 47, 1–78.
+Luo, Z., Kielan-Jaworowska, Z., Cifelli, R.L. 2002. In quest for a phylogeny of Mesozoic mammals. Acta Palaeontologica Polonica, 47, 1–78.
 
 Luo, Z.X., Ji, Q., Wible, J.R. and Yuan, C.X., 2003. An Early Cretaceous tribosphenic mammal and metatherian evolution. Science, 302(5652), pp.1934-1940.
 
 Luo, Z.X., Chen, P., Li, G. and Chen, M., 2007. A new eutriconodont mammal and evolutionary development in early mammals. Nature, 446(7133), pp.288-293.
 
 Luo, Z.X., Yuan, C.X., Meng, Q.J. and Ji, Q., 2011. A Jurassic eutherian mammal and divergence of marsupials and placentals. Nature, 476(7361), pp.442-445.
-
-Mantilla, G.P.W., Chester, S.G., Clemens, W.A., Moore, J.R., Sprain, C.J., Hovatter, B.T., Mitchell, W.S., Mans, W.W., Mundil, R. and Renne, P.R., 2021. Earliest Palaeocene purgatoriids and the initial radiation of stem primates. Royal Society Open Science, 8(2), p.210050.
 
 Marivaux, L., Vianey-Liaud, M. and Jaeger, J.J., 2004. High-level phylogeny of early Tertiary rodents: dental evidence. Zoological Journal of the Linnean society, 142(1), pp.105-134.
 
@@ -423,6 +425,8 @@ Wang, Y., Li, Q., Bai, B., Jin, X., Mao, F. and Meng, J., 2019. Paleogene integr
 Wesley‐Hunt, G.D. and Flynn, J.J., 2005. Phylogeny of the Carnivora: basal relationships among the carnivoramorphans, and assessment of the position of ‘Miacoidea’relative to Carnivora. Journal of Systematic Palaeontology, 3(1), pp.1-28.
 
 Wessels, W., de Bruijn, H., Hussain, S.T., Leinders, J.J.M. 1982. Fossil rodents from the Chinji Formation, Banda Daud Shah, Pakistan. Proc Konink Nederl Akad Weten. B85:337–364.
+
+Wilson Mantilla, G.P., Chester, S.G., Clemens, W.A., Moore, J.R., Sprain, C.J., Hovatter, B.T., Mitchell, W.S., Mans, W.W., Mundil, R. and Renne, P.R., 2021. Earliest Palaeocene purgatoriids and the initial radiation of stem primates. Royal Society Open Science, 8(2), p.210050.
 
 Woodburne, M.O., Rich, T.H. and Springer, M.S., 2003. The evolution of tribospheny and the antiquity of mammalian clades. Molecular phylogenetics and evolution, 28(2), pp.360-385.
 
