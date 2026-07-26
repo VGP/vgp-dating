@@ -198,10 +198,10 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Node calibrated:** The most recent common ancestor of Lorisoidea (_Nycticebus coucang_) and Lemuroidea (_Lemur cata_)\
 **Fossil taxa:** †_Karanisia clarki_ (CGM40265) from the Birket Quaran Formation (Eocene: Priabonian) of Fayûm, Egypt ([Seiffert et al. 2003](https://doi.org/10.1038/nature01489))\
 **Minimum age:** Late Eocene (Priabonian), 33.9Ma\
-**Minimum justification:** The Birket Quaran Formation corresponds to upper Priabonian ([Seiffert et al. 2006](https://doi.org/10.1073/pnas.0600689103))\
+**Minimum justification:** The Birket Quaran Formation corresponds to upper Priabonian ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
 **Maximum age:** Late Paleocene (Thanetian), 56.0Ma\
 **Maximum justification:** Bounded by the first appearance of euprimates, represented by †_Altiatlasius koulchii_ (see **Node 918:** Primates), which dates to the late Paleocene at 56.0Ma ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates)), [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
-**Discussion:** The oldest-known stem lorisiform or crown strepsirrhine (of uncertain affinities) from the late Eocene (Priabonian) Birket Quaran Formation of Fayûm, Egypt ([Benton et al. 2015](https://doi.org/10.26879/424); Seiffert et al. [2003](https://doi.org/10.1038/nature01489), [2006](https://doi.org/10.1073/pnas.0600689103))
+**Discussion:** The oldest-known stem lorisiform or crown strepsirrhine (of uncertain affinities) from the late Eocene (Priabonian) Birket Quaran Formation of Fayûm, Egypt ([Benton et al. 2015](https://doi.org/10.26879/424), [Seiffert et al. 2003](https://doi.org/10.1038/nature01489), [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))
 
 ---
 
@@ -209,21 +209,21 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Node calibrated:** The most recent common ancestor of Catarrhini (_Homo sapiens_) and Platyrrhini (_Callithrix jacchus_)\
 **Fossil taxa:** †_Catopithecus browni_ (DPC 8701) from the Fayum Depression of Egpyt ([Simons 1989](https://doi.org/10.1073/pnas.86.24.9956))\
 **Minimum age:** Late Eocene (Priabonian), 33.9Ma\
-**Minimum justification:** Fayûm Quarry L-41 where †_Catopithecus_ was discovered has been dated to the Priabonian, with an upper bound of 33.9Ma ([Seiffert et al. 2006](https://doi.org/10.1073/pnas.0600689103))\
+**Minimum justification:** Fayûm Quarry L-41 where †_Catopithecus_ was discovered has been dated to the Priabonian, with an upper bound of 33.9Ma ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), the Early Paleocene is set as the maximum age, as there are no definitive crown primates from the Danian and the split must predate the potential anthropoid sister-taxon †_Altiatlasius koulchii_ (see **Node 918:** Primates; [Seiffert et al. 2005](https://doi.org/10.1126/science.1116569)) of 56.0Ma.\
-**Discussion:** The oldest-known crown catarrhine from the late Eocene (Priabonian) of Fayûm, Egypt ([Seiffert et al. 2006](https://doi.org/10.1073/pnas.0600689103))
+**Discussion:** The oldest-known crown catarrhine from the late Eocene (Priabonian) of Fayûm, Egypt ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))
 
 ---
 
-**Node 709:** \
-**Node calibrated:** \
-**Fossil taxa:** 
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 920:** Catarrhini | 34.0-24.44Ma\
+**Node calibrated:** The most recent common ancestor of Cercopithecoidea (_Macaca fascicularis_) and Hominoidea (_Homo sapiens_)\
+**Fossil taxa:** †_Rukwapithecus fleaglei_ (RRBP 12444A, Ohio University USA)\
+**Minimum age:** Late Oligocene (Chattian), 24.44Ma\
+**Minimum justification:** Radiometric dating constrains the Rukwapithecus-containing Nsungwe Formation to 24.93 ± 0.49 Ma ([Roberts et al. 2010](https://doi.org/10.1016/j.jafrearsci.2009.09.002))\
+**Maximum age:** Early Oligocene (Rupelian), 34.0Ma\
+**Maximum justification:** Stem Catarrhini that predate the Cercopithecoidea/Hominoidea split are found in the Fayûm beds in Egypt, with the oldest anthropoid primates dated to 33.9 – 28.4 Ma ± 0.1 Myr ([Seiffert et al. 2005](https://doi.org/10.1126/science.1116569), [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103), [Stevens et al. 2013](https://doi.org/10.1038/nature12161))\
+**Discussion:** The oldest-known stem hominoid and crown catarrhine, from the Nsungwe Formation, Rukwa Rift Basin, Tanzania  ([Roberts et al. 2010](https://doi.org/10.1016/j.jafrearsci.2009.09.002), [Stevens et al. 2013](https://doi.org/10.1038/nature12161), [Benton et al. 2015](https://doi.org/10.26879/424))
 
 ---
 
@@ -384,6 +384,8 @@ Rankin, A.H., Emry, R.J., and Asher, R.J. 2020. Anatomical sciuromorphy in "prot
 
 Ravel, A., Marivaux, L., Tabuce, R., Adaci, M., Mahboubi, M., Mebrouk, F. and Bensalah, M., 2011. The oldest African bat from the early Eocene of El Kohol (Algeria). Naturwissenschaften, 98(5), pp.397-405.
 
+Roberts, E.M., O’Connor, P.M., Stevens, N.J., Gottfried, M.D., Jinnah, Z.A., Ngasala, S., Choh, A.M. and Armstrong, R.A., 2010. Sedimentology and depositional environments of the Red Sandstone Group, Rukwa Rift Basin, southwestern Tanzania: New insight into Cretaceous and Paleogene terrestrial ecosystems and tectonics in sub-equatorial Africa. Journal of African Earth Sciences, 57(3), pp.179-212.
+
 Rose, K.D., DeLeon, V.B., Missiaen, P., Rana, R.S., Sahni, A., Singh, L. and Smith, T., 2008. Early Eocene lagomorph (Mammalia) from Western India and the early diversification of Lagomorpha. Proceedings of the Royal Society B: Biological Sciences, 275(1639), p.1203.
 
 Seiffert, E.R., Simons, E.L. and Attia, Y., 2003. Fossil evidence for an ancient divergence of lorises and galagos. Nature, 422(6930), pp.421-424.
@@ -395,6 +397,8 @@ Seiffert, E.R., 2006. Revised age estimates for the later Paleogene mammal fauna
 Sigé, B., Jaeger, J.J., Sudre, J. and Vianey-Liaud, M., 1990. Altiatlasius koulchii n. gen. et sp., primate omomyidé du Paléocène supérieur du Maroc, et les origines des euprimates. Palaeontographica Abteilung A, pp.31-56.
 
 Simons, E.L., 1989. Description of two genera and species of late Eocene Anthropoidea from Egypt. Proceedings of the National Academy of Sciences, 86(24), pp.9956-9960.
+
+Stevens, N.J., Seiffert, E.R., O'Connor, P.M., Roberts, E.M., Schmitz, M.D., Krause, C., Gorscak, E., Ngasala, S., Hieronymus, T.L. and Temu, J., 2013. Palaeontological evidence for an Oligocene divergence between Old World monkeys and apes. Nature, 497(7451), pp.611-615.
 
 Tabrum, A.R., Prothero, D.R., and Garcia, D. 1996. 14. Magnetostratigraphy and biostratigraphy of the Eocene-Oligocene transition, southwestern Montana. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-Oligocene Transition in North America. Cambridge University Press, pp. 278-311.
 
