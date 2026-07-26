@@ -196,12 +196,12 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 **Node 929:** Strepsirrhini | 56.0-33.9Ma\
 **Node calibrated:** The most recent common ancestor of Lorisoidea (_Nycticebus coucang_) and Lemuroidea (_Lemur cata_)\
-**Fossil taxa:** †_Karanisia clarki_ (CGM40265)\
+**Fossil taxa:** †_Karanisia clarki_ (CGM40265) from the Birket Quaran Formation (Eocene: Priabonian) of Fayûm, Egypt ([Seiffert et al. 2003](https://doi.org/10.1038/nature01489))\
 **Minimum age:** Late Eocene (Priabonian), 33.9Ma\
 **Minimum justification:** The Birket Quaran Formation corresponds to upper Priabonian ([Seiffert et al. 2006](https://doi.org/10.1073/pnas.0600689103))\
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Maximum age:** Late Paleocene (Thanetian), 56.0Ma\
+**Maximum justification:** Bounded by the first appearance of euprimates, represented by Altiatlasius koulchii (see Node 918: Primates), which dates to the Late Paleocene at 56.0Ma ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates)), [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
+**Discussion:** The oldest-known stem lorisiform or crown strepsirrhine (of uncertain affinities) from the late Eocene (Priabonian) Birket Quaran Formation of Fayûm, Egypt ([Benton et al. 2015](https://doi.org/10.26879/424); Seiffert et al. [2003](https://doi.org/10.1038/nature01489), [2006](https://doi.org/10.1073/pnas.0600689103))
 
 ---
 
@@ -385,6 +385,8 @@ Rankin, A.H., Emry, R.J., and Asher, R.J. 2020. Anatomical sciuromorphy in "prot
 Ravel, A., Marivaux, L., Tabuce, R., Adaci, M., Mahboubi, M., Mebrouk, F. and Bensalah, M., 2011. The oldest African bat from the early Eocene of El Kohol (Algeria). Naturwissenschaften, 98(5), pp.397-405.
 
 Rose, K.D., DeLeon, V.B., Missiaen, P., Rana, R.S., Sahni, A., Singh, L. and Smith, T., 2008. Early Eocene lagomorph (Mammalia) from Western India and the early diversification of Lagomorpha. Proceedings of the Royal Society B: Biological Sciences, 275(1639), p.1203.
+
+Seiffert, E.R., 2006. Revised age estimates for the later Paleogene mammal faunas of Egypt and Oman. Proceedings of the National Academy of Sciences, 103(13), pp.5000-5005.
 
 Sigé, B., Jaeger, J.J., Sudre, J. and Vianey-Liaud, M., 1990. Altiatlasius koulchii n. gen. et sp., primate omomyidé du Paléocène supérieur du Maroc, et les origines des euprimates. Palaeontographica Abteilung A, pp.31-56.
 
