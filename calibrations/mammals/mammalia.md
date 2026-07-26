@@ -184,7 +184,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 ---
 
 **Node 918:** Primates | 66.0-56.0Ma\
-**Node calibrated:** The most recent common ancestor of Strepsirrhini () and Haplorhini ()\
+**Node calibrated:** The most recent common ancestor of Strepsirrhini (_Lemur catta_) and Haplorhini (_Homo sapiens_)\
 **Fossil taxa:** †_Altiatlasius koulchii_ (THR 141) from the Adrar Mgorn 1 locality in the Jbel Guersif Formation of the Ouarzazate Basin, Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates))\
 **Minimum age:** Late Paleocene (Thanetian), 56.0Ma\
 **Minimum justification:** This formation is dated to the Thanetian, 57.6 ± 1.6Ma, yielding 56.0Ma (reviewed in [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
