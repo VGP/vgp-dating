@@ -147,7 +147,23 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **947:** Monotremata: 16.0–113.0Ma\
 -Based on the oldest-known stem ornithorhynchid †_Obdurodon dicksoni_ from the early Miocene
 
+**938:** Marsupialia: 47.6–131.3Ma\
+-Based on the oldest-known crown marsupial †_Djarthia murgonensis_ from the early Eocene
 
+**784:** Theria: 156.3169.6Ma\
+–Based on the oldest-known crown therian †_Juramaia sinensis_ from the Oxfordian of the late Jurassic
+
+**785:** Placentalia: 61.6–126.0Ma\
+-Based on the oldest-known crown placentalian †_Ravenictis krausei_ from the Danian of the early Paleocene
+
+**931:** Afrotheria: 59.2–126.0Ma\
+-Based on the oldest-known crown afrotherian †_Ocepia daouiensis_ from the Selandian of the late Paleocene
+
+**936:** Xenarthra: 47.6–126.0Ma\
+-Based on the oldest-known crown xenarthran †_Riostegotherium yanei_ from the Ypresian of the early Eocene
+
+**845:** Chiroptera: 45.0–58.9Ma\
+-Based on the oldest-known crown chiropteran †_Tanzanycteris mannardi_ from the Lutetian of the middle Eocene
 
 
 
