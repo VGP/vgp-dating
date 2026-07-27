@@ -183,6 +183,26 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **898:** Murinae (part: Murini + Arvicanthini): 11.1–12.3Ma\
 -Based on the oldest-known stem member of the Arvicanthini + Millardini + Otomyini clade †_Karnimata_ sp. from the Tortonian of the middle Miocene.
 
+**916:** Euarchonta: 61.6–126.0Ma\
+-Based on the oldest-known crown euarchontan †_Purgatorius mckeeveri_ from the Danian of the early Paleocene.
+
+**918:** Primates: 56.0–66.0Ma\
+-Based on the oldest-known haplorhine primate †_Altiatlasius koulchii_ from the Thanetian of the late Paleocene.
+
+**929:** Strepsirrhini: 33.9–56.0Ma\
+-Based on the oldest-known stem lorisiform or crown strepsirrhine (exact affinities uncertain) †_Karanisia clarki_ from the Priabonian of the late Eocene.
+
+**919:** Anthropoidea: 33.9–66.0Ma\
+-Based on the oldest-known crown catarrhine †_Catopithecus browni_ from the Priabonian of the late Eocene.
+
+**920:** Catarrhini: 24.4–34.0Ma\
+-Based on the oldest-known stem hominoid and crown catarrhine †_Rukwapithecus fleaglei_ from the Chattian of the late Oligocene.
+
+**791:** Artiodactyla: 52.4–66.0Ma\
+-Based on the oldest-known stem cetacean and crown artiodactylan †_Himalayacetus subathuensis_ from the Ypresian of the early Eocene.
+
+**827:** Carnivora: 37.3–66.0Ma\
+-Based on the oldest-known stem caniform and crown carnivoran †_Hesperocyon gregarius_ from the Bartonian of the middle Eocene.
 
 
 ## [Squamates](./squamata/squamata.md):
