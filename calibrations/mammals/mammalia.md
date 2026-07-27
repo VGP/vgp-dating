@@ -53,21 +53,9 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Fossil taxa:** †_Ravenictis krausei_ (UALVP 31175) from the Ravenscrag Formation of the early Puercan of Saskatchewan, Canada ([Fox & Youzwyshyn 1994](https://doi.org/10.1080/02724634.1994.10011566))\
 **Minimum age:** Early Paleocene (Danian), 61.6Ma\
 **Minimum justification:** The Ravenscrag Formation is from the early Puercan NALMA, corresponding to the Danian age of the Paleocene, the top of which corresponds to 61.7Ma ± 0.1 Myr, thus 61.6Ma ([Fox & Youzwyshyn 1994](https://doi.org/10.1080/02724634.1994.10011566))\
-**Maximum age:** Early Cretaceous (Barremian/Aptian), ~126Ma\
-**Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
+**Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
+**Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members. A soft-maximum in the Jurassic for crown placental clades (cf. [Benton et al. 2015](https://doi.org/10.26879/424)) is arguably more conservative, as such soft constraints do not penalize truly ancient crown placental divergences as much. However, given methodological difficulties arising from broad prior distributions that can artifactually favor older ages ([Budd and Mann 2024](https://doi.org/10.1093/sysbio/syad057)), we instead use tighter soft maxima derived from the diversity of lower Cretaceous mammalian faunae (e.g., from the Jehol biota), which document a variety of therian species but no crown placentals. Given the nature of "soft" maxima, divergence estimates older than 126Ma are still possible, but 126Ma better reflects the negative information present in Lower Cretaceous localities. In the case of crown placentals, the fossil record suggests that, at this time, absence of evidence really does indicate evidence of absence.\
 **Discussion:** This fossil is a stem carnivoran from the early Paleocene (Danian) of Ravenscrag Formation in Saskatchewan, Canada ([Benton et al. 2015](https://doi.org/10.26879/424), [Fox et al. 2010](https://doi.org/10.1666/09-165.1)), and therefore the oldest-known crown placentalian.
-
----
-
-**$XXX SHOULD THIS BE INCLUDED? PROBABLY NOT!**\
-**Node 930:** Atlantogenata | 126.0-59.2Ma\
-**Node calibrated:** The most recent common ancestor of Xenarthra (_Dasypus novemcinctus_) and Afrotheria (_Rhynchocyon petersi_)\
-**Fossil taxa:** †_Ocepia daouiensis_ (CPSGM MA1) from the Ouled Abdoun Basin (Paleocene), Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739))\
-**Minimum age:** Late Paleocene (Selandian), 59.24Ma\
-**Minimum justification:** Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) specify a Selandian age for this taxon, which is evidently the same locality as †_Eritherium azzouzorum,_ previously described as "early Thanetian (incl. Selandian)" ([Gheerbrant 2009](https://doi.org/10.1073/pnas.0900251106)). Here, we follow Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) who write "...The new material of this species confirms its Paleocene age. It comes from the same bone bed level located at the base of phosphorite Bed IIa that is dated Selandian … and that yields _Eritherium azzouzorum, Abdounodus hamdii,_ and _Lahimia selloumi_."\
-**Maximum age:** Early Cretaceous (Barremian/Aptian), ~126Ma\
-**Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
-**Discussion:** This fossil is the oldest-known stem proboscidean from the Paleocene (Selandian) of Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739)), and also the oldest-known crown atlantogenatan. Same constraint as **Node 931:** Afrotheria.
 
 ---
 
@@ -78,7 +66,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) specify a Selandian age for this taxon, which is evidently the same locality as †_Eritherium azzouzorum,_ previously described as "early Thanetian (incl. Selandian)" ([Gheerbrant 2009](https://doi.org/10.1073/pnas.0900251106)). Here, we follow Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) who write "...The new material of this species confirms its Paleocene age. It comes from the same bone bed level located at the base of phosphorite Bed IIa that is dated Selandian … and that yields _Eritherium azzouzorum, Abdounodus hamdii,_ and _Lahimia selloumi_."\
 **Maximum age:** Early Cretaceous (Barremian/Aptian), ~126Ma\
 **Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
-**Discussion:** This fossil is the oldest-known stem proboscidean from the Paleocene (Selandian) of Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739)), and also the oldest-known crown afrotherian. Same constraint as **Node 930:** Atlantogenata.
+**Discussion:** This fossil is the oldest-known stem proboscidean from the Paleocene (Selandian) of Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739)), and also the oldest-known crown afrotherian.
 
 ---
 
@@ -111,7 +99,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** The Cambay Shale are dated to the middle Ypresian ([Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)), the top of which dates to 47.8Ma ± 0.2 Myr, thus 47.6Ma\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Based on the occurrences of basal Glires, including †_Mimotona_ ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [de Vries & Beck, 2023](https://doi.org/10.26879/1249)) and †_Heomys_ ([Li & Ting, 1983](https://doi.org/10.5962/p.228600))\
-**Discussion:** The oldest-known crown lagomorphs, these unnamed stem leporid fossils are from the Vastan Mines (Cambay Shale) of West-Central India, dated to the early Eocene (Ypresian) ([Benton et al. 2015](https://doi.org/10.26879/424), [Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)). The oldest known stem Lagomorphs, †_Mimotona,_ have a concordant upper age of 66.0Ma ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [de Vries & Beck, 2023](https://doi.org/10.26879/1249)).
+**Discussion:** The oldest-known crown lagomorphs, these unnamed stem leporid fossils are from the Vastan Mines (Cambay Shale) of West-Central India, dated to the early Eocene (Ypresian) ([Benton et al. 2015](https://doi.org/10.26879/424), [Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)). The oldest known stem Lagomorphs (e.g., †_Heomys_) are known from the lower Paleocene ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [de Vries & Beck, 2023](https://doi.org/10.26879/1249)).
 
 ---
 
@@ -291,6 +279,8 @@ Bi, S., Zheng, X., Wang, X., Cignetti, N.E., Yang, S. and Wible, J.R., 2018. An 
 Bloch, J.I., Silcox, M.T., Boyer, D.M. and Sargis, E.J., 2007. New Paleocene skeletons and the relationship of plesiadapiforms to crown-clade primates. Proceedings of the National Academy of Sciences, 104(4), pp.1159-1164.
 
 Bryant, H.N., 1992. The Carnivora of the Lac Pelletier Lower Fauna (Eocene: Duchesnean), Cypress Hills Formation, Saskatchewan. Journal of Paleontology, 66(5), pp.847-855.
+
+Budd, G.E. and Mann, R.P., 2024. Two notorious nodes: a critical examination of relaxed molecular clock age estimates of the bilaterian animals and placental mammals. Systematic Biology, 73(1), pp.223-234.
 
 Campbell Jr, K.E., O’Sullivan, P.B., Fleagle, J.G., de Vries, D. and Seiffert, E.R., 2021. An Early Oligocene age for the oldest known monkeys and rodents of South America. Proceedings of the National Academy of Sciences, 118(37), p.e2105956118.
 
