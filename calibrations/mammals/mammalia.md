@@ -18,8 +18,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Node 947:** Monotremata | 113.0-16.0Ma\
 **Node calibrated:** Most recent common ancestor of _Tachyglossus aculeatus_ and _Ornithorhynchus anatinus_\
 **Fossil taxa:** †_Obdurodon dicksoni_ (QMF20568) from the Riversleigh World Heritage Area in Queensland, Australia ([Archer et al. 1992](https://catalogue.nla.gov.au/catalog/608888))\
-**Minimum age:** Miocene, 15.97Ma\
-**Minimum justification:** Oldest specimens found in northwestern Queensland in Faunal Zone B sites, which date to early Miocene ([Travouillon et al. 2006](https://doi.org/10.1080/03115510609506871))\
+**Minimum age:** Early Miocene, 15.97Ma\
+**Minimum justification:** Oldest specimens found in northwestern Queensland in Faunal Zone B sites, which date to the early Miocene ([Travouillon et al. 2006](https://doi.org/10.1080/03115510609506871))\
 **Maximum age:** Early Cretaceous, 113.0Ma\
 **Maximum justification:** Potential crown Monotremes are present in Argentina from ~61Ma, but the latest Australasian sites that lack any evidence of crown monotremes date to the Albian ([Phillips 2014](https://doi.org/10.26879/490))\
 **Discussion:** The oldest-known stem member of Ornithorhynchidae from the early Miocene (Burdigalian) of northwestern Queensland, Australia ([Phillips 2014](https://doi.org/10.26879/490), [Luo et al. 2007](https://doi.org/10.1038/nature05627), [Phillips et al. 2009](https://doi.org/10.1073/pnas.0904649106)), and also the oldest-known crown monotrematan.
