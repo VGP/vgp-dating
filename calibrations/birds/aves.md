@@ -167,7 +167,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 ---
 
 **Node 666:** Charadriiformes | 78.61-54.97Ma\
-**Node calibrated:** Last common ancestor of Charadrii (_Pluvialus apricaria_) and Scolopaci (_Numenius arquata_)\
+**Node calibrated:** Last common ancestor of Charadrii (_Pluvialis apricaria_) and Scolopaci (_Numenius arquata_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - Unnamed taxon represented by the distal end of left humerus (IGM 100/1435) from Tsagaan Khushuu, Quarry 2, Mongolia, Bumban Member of the Naranbulag Formation of the early Eocene (Ypresian: 55.7-54.97Ma; [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)). Phylogenetic analysis placed this fragmentary bone as sister to _Chionis,_ within crown Charadrii ([Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929), [Heingård et al. 2021](https://doi.org/10.3390/d13120651)).
