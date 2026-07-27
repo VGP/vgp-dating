@@ -142,28 +142,46 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 ## [Mammals](./mammals/mammalia.md):
 
 **783:** Mammalia: 164.9–201.5Ma\
--Based on the oldest-known crown mammalian †_Ambondro mahabo_ from the Bathonian of the middle Jurassic
+-Based on the oldest-known crown mammalian †_Ambondro mahabo_ from the Bathonian of the middle Jurassic.
 
 **947:** Monotremata: 16.0–113.0Ma\
--Based on the oldest-known stem ornithorhynchid †_Obdurodon dicksoni_ from the early Miocene
+-Based on the oldest-known stem ornithorhynchid †_Obdurodon dicksoni_ from the early Miocene.
 
 **938:** Marsupialia: 47.6–131.3Ma\
--Based on the oldest-known crown marsupial †_Djarthia murgonensis_ from the early Eocene
+-Based on the oldest-known crown marsupial †_Djarthia murgonensis_ from the early Eocene.
 
 **784:** Theria: 156.3169.6Ma\
-–Based on the oldest-known crown therian †_Juramaia sinensis_ from the Oxfordian of the late Jurassic
+–Based on the oldest-known crown therian †_Juramaia sinensis_ from the Oxfordian of the late Jurassic.
 
 **785:** Placentalia: 61.6–126.0Ma\
--Based on the oldest-known crown placentalian †_Ravenictis krausei_ from the Danian of the early Paleocene
+-Based on the oldest-known crown placentalian †_Ravenictis krausei_ from the Danian of the early Paleocene.
 
 **931:** Afrotheria: 59.2–126.0Ma\
--Based on the oldest-known crown afrotherian †_Ocepia daouiensis_ from the Selandian of the late Paleocene
+-Based on the oldest-known crown afrotherian †_Ocepia daouiensis_ from the Selandian of the late Paleocene.
 
 **936:** Xenarthra: 47.6–126.0Ma\
--Based on the oldest-known crown xenarthran †_Riostegotherium yanei_ from the Ypresian of the early Eocene
+-Based on the oldest-known crown xenarthran †_Riostegotherium yanei_ from the Ypresian of the early Eocene.
 
 **845:** Chiroptera: 45.0–58.9Ma\
--Based on the oldest-known crown chiropteran †_Tanzanycteris mannardi_ from the Lutetian of the middle Eocene
+-Based on the oldest-known crown chiropteran †_Tanzanycteris mannardi_ from the Lutetian of the middle Eocene.
+
+**915:** Lagomorpha: 47.6–66.0Ma\
+-Based on the oldest-known crown lagomorph fossils (GU/RSR/VAS 711) from the Ypresian of the early Eocene.
+
+**892:** Rodentia: 41.0–66.0Ma\
+-Based on the oldest-known crown rodentian _Ischyromys_ sp. from the Lutetian of the middle Eocene.
+
+**891:** Glires: 62.3–66.0Ma\
+-Based on the oldest-known crown gliran †_Heomys_ sp. from the Danian of the early Paleocene.
+
+**906:** Castorimorpha: 37.7–66.0Ma\
+-Based on the oldest-known crown castorimorphan †_Heliscomys walshi_ from the Bartonian of the middle Eocene.
+
+**896:** Stem Murinae: 16.0–18.3Ma\
+-Based on the oldest-known stem murine †_Potwarmus primitivus_ from the Burdigalian of the early Miocene.
+
+**898:** Murinae (part: Murini + Arvicanthini): 11.1–12.3Ma\
+-Based on the oldest-known stem member of the Arvicanthini + Millardini + Otomyini clade †_Karnimata_ sp. from the Tortonian of the middle Miocene.
 
 
 
