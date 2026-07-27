@@ -299,7 +299,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 603:** stem Psittacopasseres | 80.46-54.6Ma\
+**Node 603:** stem Psittacopasseres | 81.04-54.6Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Psittaciformes (_Ara ararauna_) and Passeriformes (_Passer domesticus_).\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
