@@ -64,7 +64,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Fossil taxa:** †_Ocepia daouiensis_ (CPSGM MA1) from the Ouled Abdoun Basin (Paleocene), Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739))\
 **Minimum age:** Late Paleocene (Selandian), 59.24Ma\
 **Minimum justification:** Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) specify a Selandian age for this taxon, which is evidently the same locality as †_Eritherium azzouzorum,_ previously described as "early Thanetian (incl. Selandian)" ([Gheerbrant 2009](https://doi.org/10.1073/pnas.0900251106)). Here, we follow Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) who write "...The new material of this species confirms its Paleocene age. It comes from the same bone bed level located at the base of phosphorite Bed IIa that is dated Selandian … and that yields _Eritherium azzouzorum, Abdounodus hamdii,_ and _Lahimia selloumi_."\
-**Maximum age:** Early Cretaceous (Barremian/Aptian), ~126Ma\
+**Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
 **Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
 **Discussion:** This fossil is the oldest-known stem proboscidean from the Paleocene (Selandian) of Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739)), and also the oldest-known crown afrotherian.
 
@@ -75,7 +75,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Fossil taxa:** †_Riostegotherium yanei_ (MCN-PV 1774) from the Itaboraí Formation of the Itaboraian land-mammal age (middle Paleocene) of Rio de Janeiro, Brazil ([Oliveira and Bergqvuist 1998](https://peapaleontologica.org.ar/index.php/peapa/article/view/174))\
 **Minimum age:** Early Eocene (Ypresian), 47.6Ma\
 **Minimum justification:** The Itaboraí formation dates to the Ypresian of the early Eocene ([Woodburne et al. 2014](https://doi.org/10.1007/s10914-012-9222-1)), the top of which is 47.8Ma, ± 0.2 Myr, thus 47.6Ma ([Benton et al. 2015](https://doi.org/10.26879/424))\
-**Maximum age:** Early Cretaceous (Barremian/Aptian), ~126Ma\
+**Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
 **Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
 **Discussion:** This fossil is the oldest-known stem cingulate from the early Eocene (Ypresian) of Itaboraí, Brazil ([Benton et al. 2015](https://doi.org/10.26879/424), [Bergqvist et al. 2004](https://sciencepress.mnhn.fr/en/periodiques/geodiversitas/26/2/les-xenarthra-mammalia-du-bassin-de-sao-jose-de-itaborai-paleocene-superieur-age-itaboraiense-rio-de-janeiro-bresil)), and also the oldest-known crown xenarthran.
 
@@ -163,7 +163,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Fossil taxa:** †_Purgatorius mckeeveri_ (UCMP 150021) from the Harley’s Point locality in the Tullock Member of the Fort Union Formation in Montana, USA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050))\
 **Minimum age:** Early Paleocene (Danian), 61.6Ma\
 **Minimum justification:** Specimen is from the Harley’s Point locality in the Tullock Member of the Fort Union Formation, Montana, and has been dated to the Puercan NALMA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050)), which corresponds to the Danian\
-**Maximum age:** Early Cretaceous (Barremian/Aptian), ~126Ma\
+**Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
 **Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
 **Discussion:** As noted by de Vries and Beck ([2023](https://doi.org/10.26879/1249)): "recent phylogenetic analyses specifically intended to resolve euarchontan relationships consistently place _Purgatorius_ and other “plesiadapiforms” within crown Euarchonta, and specifically closer to Primates and Dermoptera than to Scandentia, although the precise affinities of “plesiadapiforms” vary in these analyses." See Chester et al. ([2015](https://doi.org/10.1073/pnas.1421707112)) for an example.
 
@@ -202,7 +202,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 920:** Catarrhini | 34.0-24.44Ma\
+**Node 920:** Catarrhini | 34.0-24.4Ma\
 **Node calibrated:** The most recent common ancestor of Cercopithecoidea (_Macaca fascicularis_) and Hominoidea (_Homo sapiens_)\
 **Fossil taxa:** †_Rukwapithecus fleaglei_ (RRBP 12444A, Ohio University USA) from the Nsungwe Formation, Rukwa Rift Basin, Tanzania ([Stevens et al. 2013](https://doi.org/10.1038/nature12161))\
 **Minimum age:** Late Oligocene (Chattian), 24.44Ma\
