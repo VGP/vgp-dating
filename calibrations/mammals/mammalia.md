@@ -121,7 +121,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** Minimum age of Wanghudun Formation ([Wang et al. 2019](https://doi.org/10.1007/s11430-018-9305-y))\
 **Maximum age:** Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries & Beck, 2023](https://doi.org/10.26879/1249))\
-**Discussion:** †_Heomys_ is known from the lower part of the Upper Member of the Wanghudun Formation in Anhui Province, China. Oldest stem rodent and earliest known member of Simplicidentata ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [Rankin et al. 2020](https://doi.org/10.26879/1049)), a group which includes Rodentia and is characterised by the presence of a single pair of gliriform upper incisors, a synapomorphic feature shared by all rodents ([Li et al. 2016](https://www.vertpala.ac.cn/EN/Y2016/V54/I2/121); [Fostowicz-Frelik, 2017](https://doi.org/10.1007/978-3-319-61569-1_11), [2020](https://doi.org/10.1007/978-3-030-57246-4_5)).
+**Discussion:** †_Heomys_ is known from the lower part of the Upper Member of the Wanghudun Formation in Anhui Province, China, and is among the oldest members of Simplicidentata ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [Rankin et al. 2020](https://doi.org/10.26879/1049)), a group which includes Rodentia and is characterised by the presence of a single pair of gliriform upper incisors, a synapomorphic feature shared by all rodents ([Li et al. 2016](https://www.vertpala.ac.cn/EN/Y2016/V54/I2/121); [Fostowicz-Frelik, 2017](https://doi.org/10.1007/978-3-319-61569-1_11), [2020](https://doi.org/10.1007/978-3-030-57246-4_5)).
 
 ---
 
@@ -136,9 +136,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**$XXX SHOULD BE 896**
-
-**Node 897:** Stem Murinae | 18.3-16.0Ma\
+**Node 896:** Stem Murinae | 18.3-16.0Ma\
 **Node calibrated:** The most recent common ancestory of Murinae (_Mus musculus_) and Deomyinae (_Acomys russatus_)\
 **Fossil taxa:** †_Potwarmus primitivus_ (YGSP 591) from the from lower and middle Siwalik deposits in the Potwar Plateau of Pakistan ([Wessels et al. 1982](https://ubbern.swisscovery.slsp.ch/permalink/41SLSP_UBE/ar3q4e/alma99118009708505511), [Lindsey 1988](https://doi.org/10.18563/pv.18.2.95-154))\
 **Minimum age:** Middle Miocene (Langhian), 15.98Ma\
