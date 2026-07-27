@@ -220,7 +220,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** Specimen found in Subathu Formation in Pakistan ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464)). As per Benton et al. ([2015](https://doi.org/10.26879/424)), it co-occurs with the foraminiferan †_Nummulites atacicus,_ which is distributed across nanoplankton zones 11-12 ([Martín-Martín et al. 2001](https://doi.org/10.1046%2Fj.0950-091x.2001.00158.x)), which permits setting the minimum age to 52.4Ma instead of using the top of the Ypresian stage (47.8Ma)\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), we use the lack of Paleocene crown cetartiodactyls to suggest a plausible soft maximum age of 66.04 ± 0.4Ma, thus 66.0Ma\
-**Discussion:** The oldest-known stem member of Cetacea from the early Eocene (Ypresian) of India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464), [O’Leary and Uhen 1999](https://doi.org/10.1017/S0094837300020376), [Benton et al. 2015](https://doi.org/10.26879/424))
+**Discussion:** The oldest-known stem cetacean from the early Eocene (Ypresian) of India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464), [O’Leary and Uhen 1999](https://doi.org/10.1017/S0094837300020376), [Benton et al. 2015](https://doi.org/10.26879/424))
 
 ---
 
