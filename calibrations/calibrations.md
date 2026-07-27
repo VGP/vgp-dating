@@ -5,135 +5,135 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 ## [Outgroups & root](./outgroups/deuterostomia.md):
 
 **582:** Deuterostomia: 517.3–590.8Ma\
--Chengjiang fossils such as _Haikouichthys_ from the Chengjiang biota of the Cambrian.
+-Based on Chengjiang fossils such as †_Haikouichthys_ from the Chengjiang biota of the Cambrian.
 
 **1161:** Ambulacraria: 515.5–590.8Ma\
--Isolated pelmatozoan columnals from the Micmacca Breccia, latest Atdabanian of the Cambrian.
+-Based on isolated pelmatozoan columnals from the Micmacca Breccia, latest Atdabanian of the Cambrian.
 
 **583:** Chordata: 517.3–590.8Ma\
--Chengjiang fossils such as _Haikouichthys_ from the Chengjiang biota of the Cambrian.
+-Based on Chengjiang fossils such as †_Haikouichthys_ from the Chengjiang biota of the Cambrian.
 
 **584:** Olfactores: 517.3–590.8Ma\
--Chengjiang fossils such as _Haikouichthys_ from the Chengjiang biota of the Cambrian.
+-Based on Chengjiang fossils such as †_Haikouichthys_ from the Chengjiang biota of the Cambrian.
 
 
 ## [Early vertebrates](./vertebrates/vertebrata.md):
 
 **585:** Vertebrata: 497.0–590.8Ma\
--_Furnishina,_ from the middle Cambrian Huaqiao Formation.
+-Based on †_Furnishina,_ from the middle Cambrian Huaqiao Formation.
 
 **1150:** Cyclostomata: 358.5–590.8Ma\
--_Priscomyzon,_ from the Famennian of the Devonian-Carboniferous boundary.
+-Based on †_Priscomyzon,_ from the Famennian of the Devonian-Carboniferous boundary.
 
 **586:** Gnathostomata: 431.7–468.4Ma\
--_Shenacanthus,_ from the early Silurian (Telychian) Huixingshao Formation.
+-Based on †_Shenacanthus,_ from the early Silurian (Telychian) Huixingshao Formation.
 
 **587:** Osteichthyes: 420.7–444.9Ma\
--_Guiyu,_ from the Kuanti Formation near the Ludlow-Pridoli boundary of the Silurian.
+-Based on †_Guiyu,_ from the Kuanti Formation near the Ludlow-Pridoli boundary of the Silurian.
 
 
 ## [Fishes](./fishes/fishes.md):
 
 **982:** Teleostei | 145.5–298.9Ma\
--_Orthogonikleithrus,_ from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.
+-Based on †_Orthogonikleithrus,_ from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.
 
 **987:** Eurypterygia | 121.4–201.5Ma\
--_Atolvorator,_ from the Coqueiro Seco Formation (Cretaceous: Barremian), Alagoas, Brazil.
+-Based on †_Atolvorator,_ from the Coqueiro Seco Formation (Cretaceous: Barremian), Alagoas, Brazil.
 
 **1015:** Labridae | 48.7–83.6Ma\
--Phyllopharyngodon, from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy.
+-Based on Phyllopharyngodon, from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy.
 
 **1025:** Scorpaenidae + Triglidae + Cottoidea + Gasterosteidae + Zoarcoidea | 48.7–83.6Ma\
--"Monte Bolca scorpaenoid" from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy.
+-Based on the "Monte Bolca scorpaenoid," from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy.
 
 **1071:** Scombriformes | 54.2–83.6Ma\
--_Eocoelopoma,_ from the Danata formation (Eocene: Ypresian), Balkan region, Turkmenistan.
+-Based on †_Eocoelopoma,_ from the Danata formation (Eocene: Ypresian), Balkan region, Turkmenistan.
 
 **1076:** Syngnathiformes | 72.2–100.5Ma\
--_Gasterorhamphosus,_ from the Calcari de Melissano formation (Cretaceous: Campanian), Lecce, Italy.
+-Based on †_Gasterorhamphosus,_ from the Calcari de Melissano formation (Cretaceous: Campanian), Lecce, Italy.
 
 **1084:** Lampriformes + Polymixiiformes | 93.9–145.0Ma\
--_Aipichthys,_ from the Komen Limestone (Cretaceous: Cenomanian), Komen Municipality, Slovenia.
+-Based on †_Aipichthys,_ from the Komen Limestone (Cretaceous: Cenomanian), Komen Municipality, Slovenia.
 
 **1087:** Zeogadaria | 72.2–145.0Ma\
--_Cretazeus,_ from the Nardò formation (Cretaceous: Campanian), Lecce, Italy.
+-Based on †_Cretazeus,_ from the Nardò formation (Cretaceous: Campanian), Lecce, Italy.
 
 **1099:** Esociformes + Salmoniformes | 76.2–201.5Ma\
--_Oldmanesox,_ from the Oldman formation (Cretaceous: Campanian), Alberta, Canada.
+-Based on †_Oldmanesox,_ from the Oldman formation (Cretaceous: Campanian), Alberta, Canada.
 
 **1109:** Gobionidae + Leuciscidae | 27.3–66.0Ma\
--_Palaeotinca,_ from the Wolfsheim formation (Oligocene: Rupelian), Hesse, Germany.
+-Based on †_Palaeotinca,_ from the Wolfsheim formation (Oligocene: Rupelian), Hesse, Germany.
 
 **1110:** Leuciscidae | 23.0–33.9Ma\
--_Palaeorutilus,_ from the Enspel formation (Oligocene: Chattian), Rhineland-Palatinate, Germany.
+-Based on †_Palaeorutilus,_ from the Enspel formation (Oligocene: Chattian), Rhineland-Palatinate, Germany.
 
 **1117:** Barbinae + Cyprininae | 38.0–66.0Ma\
--_Eoprocypris,_ from the Youganwo formation (Eocene: Priabonian), Guangdong, PR China.
+-Based on †_Eoprocypris,_ from the Youganwo formation (Eocene: Priabonian), Guangdong, PR China.
 
 **1123:** Ariidae + Pangasiidae | 33.9–125.0Ma\
--_Qarmoutus,_ from the Birket Qarun Formation (Eocene: Priabonian), Faiyum Governorate, Egypt.
+-Based on †_Qarmoutus,_ from the Birket Qarun Formation (Eocene: Priabonian), Faiyum Governorate, Egypt.
 
 **1124:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | 72.2–125.0Ma\
--_Eotexachara,_ from the Aguja formation (Cretaceous: Campanian), Texas, United States.
+-Based on †_Eotexachara,_ from the Aguja formation (Cretaceous: Campanian), Texas, United States.
 
 **1132:** Elopomorpha | 149.2–201.5Ma\
--_Anaethalion,_ from the Torleite formation (Jurassic Kimmeridgian), Bavaria, Germany.
+-Based on †_Anaethalion,_ from the Torleite formation (Jurassic Kimmeridgian), Bavaria, Germany.
 
 **1134:** Holostei | 251.2–298.9Ma\
--_Watsonulus,_ from the Sakamena formation (Triassic: Induan), Anosy, Madagascar.
+-Based on †_Watsonulus,_ from the Sakamena formation (Triassic: Induan), Anosy, Madagascar.
 
 **1135:** Chondrichthyes | 382.3–443.1Ma\
--_Phoebodus,_ from the Cedar Valley Limestone formation (Devonian: Givetian), Iowa, United States.
+-Based on †_Phoebodus,_ from the Cedar Valley Limestone formation (Devonian: Givetian), Iowa, United States.
 
 **1140:** Carcharhiniformes + Lamniformes | 165.3–251.2Ma\
--_Palaeoscyllium,_ from the Forest Marble formation (Jurassic: Bathonian), England, United Kingdom.
+-Based on †_Palaeoscyllium,_ from the Forest Marble formation (Jurassic: Bathonian), England, United Kingdom.
 
 **1145:** Batomorpha | 184.2–251.2Ma\
--_Antiquaobatis,_ from the Komorowo formation (Jurassic: Pliensbachian), Mecklenburg-Vorpommern, Germany.
+-Based on †_Antiquaobatis,_ from the Komorowo formation (Jurassic: Pliensbachian), Mecklenburg-Vorpommern, Germany.
 
 _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placement
 
 **980:** Actinopteri | 330.3–419.6Ma\
--_Platysomus,_ from the Glencartholm Volcanic Beds (Carboniferous: Viséan), Scotland, United Kingdom.
+-†_Platysomus,_ from the Glencartholm Volcanic Beds (Carboniferous: Viséan), Scotland, United Kingdom.
 
 **1012:** Lophiiformes + Tetraodontiformes | 93.9–145.0Ma\
--_Plectocretacicus,_ from the Sannine Formation (Cretaceous: Cenomanian), Keserwan-Jbeil Governorate, Lebanon.
+-†_Plectocretacicus,_ from the Sannine Formation (Cretaceous: Cenomanian), Keserwan-Jbeil Governorate, Lebanon.
 
 
 ## [Tetrapods](./tetrapods/tetrapoda.md):
 
 **590:** Tetrapoda: 337.0-351.0Ma\
--Based on the crown tetrapod _Lethiscus stocki_ from the Holkerian of the Carboniferous.
+-Based on the crown tetrapod †_Lethiscus stocki_ from the Holkerian of the Carboniferous.
 
 **591:** Amniota: 315.0-335.0Ma\
--Based on the stem amniote _Hylonomus lyelli_ from the Bashkirian of the Carboniferous.
+-Based on the stem amniote †_Hylonomus lyelli_ from the Bashkirian of the Carboniferous.
 
 **592:** Sauria: 255.9-295.9Ma\
--Based on the stem archosauromorph _Protorosaurus speneri_ from the Lopingian of the Permian.
+-Based on the stem archosauromorph †_Protorosaurus speneri_ from the Lopingian of the Permian.
 
 **594:** Archosauria: 247.2-256.0Ma\
--Based on the stem pseudosuchian _Xilousuchus sapingensis_ from the Olenekian of the Triassic.
+-Based on the stem pseudosuchian †_Xilousuchus sapingensis_ from the Olenekian of the Triassic.
 
 
 ## [Amphibians](./amphibia/amphibia.md):
 
 **948:** Lissamphibia: 274.4–358.9Ma\
--Based on the stem batrachian _Gerobatrachus hottoni_ from the Leonardian of the early Permian.
+-Based on the stem batrachian †_Gerobatrachus hottoni_ from the Leonardian of the early Permian.
 
 **949:** Batrachia: 250.0–272.8Ma\
--Based on the stem anuran _Triadobatrachus massinoti_ from the earliest Triassic.
+-Based on the stem anuran †_Triadobatrachus massinoti_ from the earliest Triassic.
 
 **950:** Anura: 165.3–250.0Ma\
--Based on the crown anuran _Eodiscoglossus oxoniensis_ from the Bathonian of the middle Jurassic.
+-Based on the crown anuran †_Eodiscoglossus oxoniensis_ from the Bathonian of the middle Jurassic.
 
 **970:** Dorsipares: 148.1–201.5Ma\
--Based on the crown rhinophrynid _Rhadinosteus parvus_ from the Kimmeridgian of the late Jurassic.
+-Based on the crown rhinophrynid †_Rhadinosteus parvus_ from the Kimmeridgian of the late Jurassic.
 
 **969:** Pelobatoidea: 85.7-143.1Ma\
--Based on the crown pelobatoid _Gobiates spinari_ from the Coniacian of the late Cretaceous.
+-Based on the crown pelobatoid †_Gobiates spinari_ from the Coniacian of the late Cretaceous.
 
 **954:** Aquipares: 113.0-143.1Ma\
--Based on the crown neobatrachian _Kururubatrachus gondwanicus_ from the Aptian of the early Cretaceous.
+-Based on the crown neobatrachian †_Kururubatrachus gondwanicus_ from the Aptian of the early Cretaceous.
 
 **974:** Pleurodelinae: 23.0–66.0Ma\
 -Based on numerous crown pleurodelines allied with the extant genera _Lissotriton_ and _Triturus_ from the late Oligocene and early Miocene.
@@ -141,118 +141,128 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 
 ## [Mammals](./mammals/mammalia.md):
 
+**783:** Mammalia: 164.9–201.5Ma\
+-Based on the oldest-known crown mammalian †_Ambondro mahabo_ from the Bathonian of the middle Jurassic
+
+**947:** Monotremata: 16.0–113.0Ma\
+-Based on the oldest-known stem ornithorhynchid †_Obdurodon dicksoni_ from the early Miocene
+
+
+
+
+
 ## [Squamates](./squamata/squamata.md):
 
 **748:** Squamata: 166.0–215.0Ma\
--based on the earliest crown squamates _Eichstaettisaurus, Helioscopus,_ and _Paramacellodus_ sp., from the middle Jurassic.
+-based on the earliest crown squamates †_Eichstaettisaurus,_ †_Helioscopus,_ and †_Paramacellodus_ sp., from the middle Jurassic.
 
 **749:** Unidentata: 166.0–205.0Ma\
--based on the earliest stem Scincoidea (Paramacellodidae: _Paramacellodus_ sp.), from the middle Jurassic..
+-based on the earliest stem Scincoidea (Paramacellodidae: †_Paramacellodus_ sp.), from the middle Jurassic..
 
 **767:** Toxicofera: 166.0–190.0Ma\
--based on the earliest known snake _Eophis_ and earliest putative crown toxicoferan _Breugnathair_, from the middle Jurassic.
+-based on the earliest known snake †_Eophis_ and earliest putative crown toxicoferan †_Breugnathair_, from the middle Jurassic.
 
 **769:** Endoglyptodonta: 20.0–66.0Ma\
--based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene.
+-based on †_Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene.
 
 **771:** Natricidae: 13.8–33.9Ma\
--based on _Natrix_ aff. _longivertebrata_, the oldest crown Natricinae.
+-based on †_Natrix_ aff. _longivertebrata_, the oldest crown Natricinae.
 
 **774:** Constrictores: 48.0–100.5Ma\
--based on _Eoconstrictor_ and _Rageryx_, the earliest stem booids from the middle Eocene.
+-based on †_Eoconstrictor_ and †_Rageryx_, the earliest stem booids from the middle Eocene.
 
 **777:** Pleurodonta: 48.0–120.0Ma\
--based on _Geiseltaliellus_ and _Babibasiliscus_, the oldest crown pleurodontans from the early Eocene.  
+-based on †_Geiseltaliellus_ and †_Babibasiliscus_, the oldest crown pleurodontans from the early Eocene.  
 
 **778:** Chamaeleonidae: 20.0–66.0Ma\
--based on the oldest crown chameleonid _Calumma benovskyi_, from the early Miocene.
+-based on the oldest crown chameleonid †_Calumma benovskyi_, from the early Miocene.
 
 **779:** Anguimorpha: 70.0–150.0Ma\
--based on the oldest crown anguimorph _Aiolosaurus_, from the late Cretaceous.
+-based on the oldest crown anguimorph †_Aiolosaurus_, from the late Cretaceous.
 
 **780:** Anguidae: 33.9–100.5Ma\
--based on _Ophisaurus_ sp., the oldest crown anguid from the early Oligocene.
+-based on †_Ophisaurus_ sp., the oldest crown anguid from the early Oligocene.
 
 
 ## [Turtles](./turtles/testudines.md):
 
 **732:** Testudines: 157.3–252.0Ma\
--based on the oldest crown testudine _Notoemys oxfordiensis_ from the Oxfordian of the Jurassic.
+-based on the oldest crown testudine †_Notoemys oxfordiensis_ from the Oxfordian of the Jurassic.
 
 **747:** Pleurodira: 125.0–157.3Ma\
--based the oldest crown pleurodiran _Atolchelys lepida_ from the Barremian of the Cretaceous.
+-based the oldest crown pleurodiran †_Atolchelys lepida_ from the Barremian of the Cretaceous.
 
 **733:** Cryptodira: 157.3–201.4Ma\
--based on the oldest crown cryptodiran _Yehguia tatsuensis_ from the Oxfordian of the Jurassic.
+-based on the oldest crown cryptodiran †_Yehguia tatsuensis_ from the Oxfordian of the Jurassic.
 
 **734:** Durocryptodira: 88.6–157.3Ma\
--based on the oldest crown durocryptodiran _Lindholmemys elegans_, likely stem Testudinoidea, from the Turonian of the Cretaceous.
+-based on the oldest crown durocryptodiran †_Lindholmemys elegans_, likely stem Testudinoidea, from the Turonian of the Cretaceous.
 
 **744:** Testuguria: 50.3–157.3Ma\
--based on the oldest crown testgurian _Hadrianus majusculus_, likely stem Testudinidae, from the Wasatchian of the Eocene.
+-based on the oldest crown testgurian †_Hadrianus majusculus_, likely stem Testudinidae, from the Wasatchian of the Eocene.
 
 **746:** Emydidae: 32.0–157.3Ma\
--based on the oldest crown emydid _Chrysemys antiqua_ from the Orellan of the Oligocene.
+-based on the oldest crown emydid †_Chrysemys antiqua_ from the Orellan of the Oligocene.
 
 **735:** Americhelydia: 70.0–157.3Ma\
--based on the oldest crown americhelyid _Toxochelys latiremys_, likely stem Chelonioidea, from the Campanian of the Cretaceous.
+-based on the oldest crown americhelyid †_Toxochelys latiremys_, likely stem Chelonioidea, from the Campanian of the Cretaceous.
 
 **742:** Chelydroidea: 70.0–157.3Ma\
 -based on the oldest crown chelydroid SEPCP 9/493, likely stem Chelydridae, from the Campanian of the Cretaceous.
 
 **736:** Chelonioidea: 48.4–157.3Ma\
--based on the oldest known chelonioid _Eosphargis breineri_, likely stem Dermochelyidae, from the Ypresian of the Eocene.
+-based on the oldest known chelonioid †_Eosphargis breineri_, likely stem Dermochelyidae, from the Ypresian of the Eocene.
 
 
 ## [Crocodilians:](./crocodylia/crocodylia.md) 
 
 **731:** Crocodylia: 77.9-113.2Ma\
--Based on the oldest-known crown crocodylian _Leidyosuchus canadensis_, likely stem Alligatoroidea, from the Dinosaur Park Formation (Cretaceous: Campanian) of Alberta, Canada.
+-Based on the oldest-known crown crocodylian †_Leidyosuchus canadensis_, likely stem Alligatoroidea, from the Dinosaur Park Formation (Cretaceous: Campanian) of Alberta, Canada.
 
 
 ## [Birds](./birds/aves.md):
 
 **709:** Galloanserae | 92.73–65.65Ma\
-–based on _Conflicto antarcticus_ from the KPg boundary (earliest Paleocene) of Antarctica.
+–based on †_Conflicto antarcticus_ from the KPg boundary (earliest Paleocene) of Antarctica.
 
 **710:** Anatidae | 38–24Ma\
-–based on _Pinpanetta tedfordi_ from the Oligocene of Australia.
+–based on †_Pinpanetta tedfordi_ from the Oligocene of Australia.
 
 **699:** Otidimorphae | 80.39–51.81Ma\
-–based on _Foro panarium_ from the Eocene of Wyoming, USA.
+–based on †_Foro panarium_ from the Eocene of Wyoming, USA.
 
 **704:** Daedalornithes | 95.7-54.6Ma\
-–based on _Eocypselus vincenti_ from the Eocene of Denmark.
+–based on †_Eocypselus vincenti_ from the Eocene of Denmark.
 
 **708:** Apodi | 103.40-50.3Ma\
-–based on _Scaniacypselus wardi_ from the Eocene of Denmark.
+–based on †_Scaniacypselus wardi_ from the Eocene of Denmark.
 
 **675:** Gruiformes | 80.4-55.6Ma\
-–based on _Pellornis mikkelseni_ from the Eocene of Denmark.
+–based on †_Pellornis mikkelseni_ from the Eocene of Denmark.
 
 **666:** Charadriiformes | 78.61-54.97Ma\
 –based on an unnamed charadriiform (IGM 100/1435) from the Eocene of Mongolia.
 
 **690:** Phaethontimorphae | 62.3-55.8Ma\
-–based on _Lithoptila abounensis_ from the Paleocene of Morocco.
+–based on †_Lithoptila abounensis_ from the Paleocene of Morocco.
 
 **689:** Procellariimorphae | 84.70-60.5Ma\
-–based on _Waimanu manneringi_ from the Paleocene of New Zealand.
+–based on †_Waimanu manneringi_ from the Paleocene of New Zealand.
 
 **653:** Accipitrimorphae + Strigiformes | 74.4-58.8Ma\
-–based on _Ogygoptynx wetmorei_ from the Paleocene of Colorado, USA.
+–based on †_Ogygoptynx wetmorei_ from the Paleocene of Colorado, USA.
 
 **600:** Coraciimorphae | 91.89-62.2Ma\
-–based on _Tsidiiyazhi abini_ from the Paleocene of New Mexico, USA.
+–based on †_Tsidiiyazhi abini_ from the Paleocene of New Mexico, USA.
 
 **603:** stem Psittacopasseres | 80.46-54.6Ma\
-–based on _Morsoravis sedilis_ from the Eocene of Denmark.
+–based on †_Morsoravis sedilis_ from the Eocene of Denmark.
 
 **605:** Eupasseres | 45.7-30.2Ma\
-–based on _Wieslochia weissi_ from the Oligocene of Germany.
+–based on †_Wieslochia weissi_ from the Oligocene of Germany.
 
 **612:** Passerellidae and allies | 32.9-7.5Ma\
--based on _Palaeostruthus hatcheri_ from the Miocene of Kansas, USA.
+-based on †_Palaeostruthus hatcheri_ from the Miocene of Kansas, USA.
 
 ## References
 
