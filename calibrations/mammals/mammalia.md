@@ -181,7 +181,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 ---
 
 **Node 929:** Strepsirrhini | 56.0-33.9Ma\
-**Node calibrated:** The most recent common ancestor of Lorisoidea (_Nycticebus coucang_) and Lemuroidea (_Lemur cata_)\
+**Node calibrated:** The most recent common ancestor of Lorisoidea (_Nycticebus coucang_) and Lemuroidea (_Lemur catta_)\
 **Fossil taxa:** †_Karanisia clarki_ (CGM40265) from the Birket Quaran Formation (Eocene: Priabonian) of Fayûm, Egypt ([Seiffert et al. 2003](https://doi.org/10.1038/nature01489))\
 **Minimum age:** Late Eocene (Priabonian), 33.9Ma\
 **Minimum justification:** The Birket Quaran Formation corresponds to upper Priabonian ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
