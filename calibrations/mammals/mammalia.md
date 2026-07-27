@@ -16,7 +16,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 ---
 
 **Node 947:** Monotremata | 113.0-16.0Ma\
-**Node calibrated:** Most recent common ancestor of _Tachyglossus aculeatus_ and _Ornithorhynchus anatinus_\
+**Node calibrated:** Most recent common ancestor of Tachyglossidae (_Tachyglossus aculeatus_) and Ornithorhynchidae (_Ornithorhynchus anatinus_)\
 **Fossil taxa:** †_Obdurodon dicksoni_ (QMF20568) from the Riversleigh World Heritage Area in Queensland, Australia ([Archer et al. 1992](https://catalogue.nla.gov.au/catalog/608888))\
 **Minimum age:** Early Miocene, 15.97Ma\
 **Minimum justification:** Oldest specimens found in northwestern Queensland in Faunal Zone B sites, which date to the early Miocene ([Travouillon et al. 2006](https://doi.org/10.1080/03115510609506871))\
