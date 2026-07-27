@@ -154,64 +154,64 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 ## [Squamates](./squamata/squamata.md):
 
 **748:** Squamata: 166.0–215.0Ma\
--based on the earliest crown squamates †_Eichstaettisaurus,_ †_Helioscopus,_ and †_Paramacellodus_ sp., from the middle Jurassic.
+-Based on the earliest crown squamates †_Eichstaettisaurus,_ †_Helioscopus,_ and †_Paramacellodus_ sp., from the middle Jurassic.
 
 **749:** Unidentata: 166.0–205.0Ma\
--based on the earliest stem Scincoidea (Paramacellodidae: †_Paramacellodus_ sp.), from the middle Jurassic..
+-Based on the earliest stem Scincoidea (Paramacellodidae: †_Paramacellodus_ sp.), from the middle Jurassic..
 
 **767:** Toxicofera: 166.0–190.0Ma\
--based on the earliest known snake †_Eophis_ and earliest putative crown toxicoferan †_Breugnathair_, from the middle Jurassic.
+-Based on the earliest known snake †_Eophis_ and earliest putative crown toxicoferan †_Breugnathair_, from the middle Jurassic.
 
 **769:** Endoglyptodonta: 20.0–66.0Ma\
--based on †_Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene.
+-Based on †_Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene.
 
 **771:** Natricidae: 13.8–33.9Ma\
--based on †_Natrix_ aff. _longivertebrata_, the oldest crown Natricinae.
+-Based on †_Natrix_ aff. _longivertebrata_, the oldest crown Natricinae.
 
 **774:** Constrictores: 48.0–100.5Ma\
--based on †_Eoconstrictor_ and †_Rageryx_, the earliest stem booids from the middle Eocene.
+-Based on †_Eoconstrictor_ and †_Rageryx_, the earliest stem booids from the middle Eocene.
 
 **777:** Pleurodonta: 48.0–120.0Ma\
--based on †_Geiseltaliellus_ and †_Babibasiliscus_, the oldest crown pleurodontans from the early Eocene.  
+-Based on †_Geiseltaliellus_ and †_Babibasiliscus_, the oldest crown pleurodontans from the early Eocene.  
 
 **778:** Chamaeleonidae: 20.0–66.0Ma\
--based on the oldest crown chameleonid †_Calumma benovskyi_, from the early Miocene.
+-Based on the oldest crown chameleonid †_Calumma benovskyi_, from the early Miocene.
 
 **779:** Anguimorpha: 70.0–150.0Ma\
--based on the oldest crown anguimorph †_Aiolosaurus_, from the late Cretaceous.
+-Based on the oldest crown anguimorph †_Aiolosaurus_, from the late Cretaceous.
 
 **780:** Anguidae: 33.9–100.5Ma\
--based on †_Ophisaurus_ sp., the oldest crown anguid from the early Oligocene.
+-Based on †_Ophisaurus_ sp., the oldest crown anguid from the early Oligocene.
 
 
 ## [Turtles](./turtles/testudines.md):
 
 **732:** Testudines: 157.3–252.0Ma\
--based on the oldest crown testudine †_Notoemys oxfordiensis_ from the Oxfordian of the Jurassic.
+-Based on the oldest crown testudine †_Notoemys oxfordiensis_ from the Oxfordian of the Jurassic.
 
 **747:** Pleurodira: 125.0–157.3Ma\
--based the oldest crown pleurodiran †_Atolchelys lepida_ from the Barremian of the Cretaceous.
+-Based the oldest crown pleurodiran †_Atolchelys lepida_ from the Barremian of the Cretaceous.
 
 **733:** Cryptodira: 157.3–201.4Ma\
--based on the oldest crown cryptodiran †_Yehguia tatsuensis_ from the Oxfordian of the Jurassic.
+-Based on the oldest crown cryptodiran †_Yehguia tatsuensis_ from the Oxfordian of the Jurassic.
 
 **734:** Durocryptodira: 88.6–157.3Ma\
--based on the oldest crown durocryptodiran †_Lindholmemys elegans_, likely stem Testudinoidea, from the Turonian of the Cretaceous.
+-Based on the oldest crown durocryptodiran †_Lindholmemys elegans_, likely stem Testudinoidea, from the Turonian of the Cretaceous.
 
 **744:** Testuguria: 50.3–157.3Ma\
--based on the oldest crown testgurian †_Hadrianus majusculus_, likely stem Testudinidae, from the Wasatchian of the Eocene.
+-Based on the oldest crown testgurian †_Hadrianus majusculus_, likely stem Testudinidae, from the Wasatchian of the Eocene.
 
 **746:** Emydidae: 32.0–157.3Ma\
--based on the oldest crown emydid †_Chrysemys antiqua_ from the Orellan of the Oligocene.
+-Based on the oldest crown emydid †_Chrysemys antiqua_ from the Orellan of the Oligocene.
 
 **735:** Americhelydia: 70.0–157.3Ma\
--based on the oldest crown americhelyid †_Toxochelys latiremys_, likely stem Chelonioidea, from the Campanian of the Cretaceous.
+-Based on the oldest crown americhelyid †_Toxochelys latiremys_, likely stem Chelonioidea, from the Campanian of the Cretaceous.
 
 **742:** Chelydroidea: 70.0–157.3Ma\
--based on the oldest crown chelydroid SEPCP 9/493, likely stem Chelydridae, from the Campanian of the Cretaceous.
+-Based on the oldest crown chelydroid SEPCP 9/493, likely stem Chelydridae, from the Campanian of the Cretaceous.
 
 **736:** Chelonioidea: 48.4–157.3Ma\
--based on the oldest known chelonioid †_Eosphargis breineri_, likely stem Dermochelyidae, from the Ypresian of the Eocene.
+-Based on the oldest known chelonioid †_Eosphargis breineri_, likely stem Dermochelyidae, from the Ypresian of the Eocene.
 
 
 ## [Crocodilians:](./crocodylia/crocodylia.md) 
@@ -262,7 +262,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 –based on †_Wieslochia weissi_ from the Oligocene of Germany.
 
 **612:** Passerellidae and allies | 32.9-7.5Ma\
--based on †_Palaeostruthus hatcheri_ from the Miocene of Kansas, USA.
+-Based on †_Palaeostruthus hatcheri_ from the Miocene of Kansas, USA.
 
 ## References
 
