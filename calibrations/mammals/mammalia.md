@@ -115,14 +115,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 914:** Hystricomorpha | 56.0-40.9Ma\
+**Node 914:** Hystricomorpha | 56.0-31.6Ma\
 **Node calibrated:** The most recent common ancestor of Ctenodactylomorphi (_Ctenodactylus gundi_) and Hystricognathi (_Erethizon dorsatum_)\
-**Fossil taxa:** †_Cachiyacuy contamanensis_ (MUSM1871) from the top of the Yahuarango Formation (latest Lutetian) near Contamana, Peru ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732))\
-**Minimum age:** Eocene (Bartonian), 40.94Ma\
-**Minimum justification:** The CTA–27 locality in Peru has been dated to a minimum of 40.94Ma based on radioisotopy, vertebrate biochronology and palynostratigraphy ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732))\
+**Fossil taxa:** †_Eoviscaccia frassinetti_ (SGOPV 2935) from the Tinguiririca River valley, Termas del Flaco, Chile ([Bertrand et al. 2012](https://doi.org/10.1206/3750.2))\
+**Minimum age:** Early Oligocene (Tinguirican) 31.6Ma\
+**Minimum justification:** The locality dates to the ?late Eocene–early Oligocene Tinguirican SALMA, with whole-rock K/Ar dates ranging in mean age from 31.3–35.6Ma (see [Bertrand et al. 2012](https://doi.org/10.1206/3750.2), [Dunn et al. 2013](https://doi.org/10.1130/B30660.1), with 31.65 ± 0.32Ma and 31.34 ± 0.17Ma in the type area)\
 **Maximum age:** Late Paleocene (Thanetian), 56.0Ma\
 **Maximum justification:** As noted by Phillips ([2014](https://doi.org/10.26879/490)): ""the absence of any hystricognaths from the better sampled Early Eocene faunas ([Marivaux et al. 2011](https://doi.org/10.1080/14772019.2011.562555), [Coster et al. 2012](https://doi.org/10.1130/B30565.1)) provides a more appropriate soft maximum of basal Ypresian age."\
-**Discussion:** Earliest-known stem caviomorph rodent from locality CTA-27 in Yahuarango, Peru ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)). Phillips ([2014](https://doi.org/10.26879/490)) used this fossil to calibrate the Caviomorphia + Phiomorpha split, but it could still function to provide a lower bound for Hystricomorpha. However, Campbell et al. ([2021](https://doi.org/10.1073/pnas.2105956118)) concluded that "there are currently no compelling Eocene records of either rodents or primates in the known fossil record of South America" – also see Arnal et al. ([2022](https://doi.org/10.1080/08912963.2021.2017916)). CTA-27 has been dated to the Late/Mid Eocene ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)) and to the Lower Oligocene (C[ampbell et al. 2021](https://doi.org/10.1073/pnas.2105956118)); this conflict in dates gives us reason to disfavour †_Cachiyacuy_ for use in calibration. Total-group ctenohystricids may still have early Paleogene records elsewhere (e.g., chapattimyids, †_Tamquammys_; see [Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)), but we tentatively refrain from using such records as calibrations pending a phylogenetic analysis broadly sampled for morphology and DNA across living and fossil species.
+**Discussion:** This fossil is the oldest-known stem chinchilloid and crown hystricomorphan that has been strongly supported (1.0 pp) in a recent total-evidence analysis ([Carrillo et al. 2026](https://doi.org/10.1098/rspb.2025.2586)). A potentially older stem caviomorph rodent, †_Cachiyacuy contamanensis_ (MUSM1871), is known from locality CTA-27 at the top of the Yahuarango Formation near Contamana, Peru, which has been dated to a minimum of 40.94Ma (Eocene: Lutetian or Bartonian) based on radioisotopy, vertebrate biochronology and palynostratigraphy ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)). Phillips ([2014](https://doi.org/10.26879/490)) used this fossil to calibrate the Caviomorphia + Phiomorpha split, but it could still function to provide a lower bound for Hystricomorpha. However, Campbell et al. ([2021](https://doi.org/10.1073/pnas.2105956118)) concluded that "there are currently no compelling Eocene records of either rodents or primates in the known fossil record of South America" – also see Arnal et al. ([2022](https://doi.org/10.1080/08912963.2021.2017916)). The CTA-27 locality has also been dated to the Late/Mid Eocene ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)) and to the Lower Oligocene (C[ampbell et al. 2021](https://doi.org/10.1073/pnas.2105956118)); this conflict in dates gives us reason to disfavour †_Cachiyacuy_ for use in calibration. Total-group ctenohystricids may still have early Paleogene records elsewhere (e.g., chapattimyids, †_Tamquammys_; see [Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)), but we tentatively refrain from using such records as calibrations pending a phylogenetic analysis broadly sampled for morphology and DNA across living and fossil species.
 
 ---
 
@@ -273,6 +273,8 @@ Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther,
 
 Bergqvist, L. P., Abrantes, E. A. L., & Avila, L. D. S. (2004). The Xenarthra (Mammalia) of São José de Itaboraí Basin (Upper Paleocene, Itaboraian), Rio de Janeiro, Brazil. Geodiversitas, 26, 323–337.
 
+Bertrand, O.C., Flynn, J.J., Croft, D.A. and Wyss, A.R., 2012. Two new taxa (Caviomorpha, Rodentia) from the early Oligocene Tinguiririca fauna (Chile). American Museum Novitates, 2012(3750), pp.1-36.
+
 Bi, S., Zheng, X., Wang, X., Cignetti, N.E., Yang, S. and Wible, J.R., 2018. An Early Cretaceous eutherian and the placental–marsupial dichotomy. Nature, 558(7710), pp.390-395.
 
 Bloch, J.I., Silcox, M.T., Boyer, D.M. and Sargis, E.J., 2007. New Paleocene skeletons and the relationship of plesiadapiforms to crown-clade primates. Proceedings of the National Academy of Sciences, 104(4), pp.1159-1164.
@@ -283,6 +285,8 @@ Budd, G.E. and Mann, R.P., 2024. Two notorious nodes: a critical examination of 
 
 Campbell Jr, K.E., O’Sullivan, P.B., Fleagle, J.G., de Vries, D. and Seiffert, E.R., 2021. An Early Oligocene age for the oldest known monkeys and rodents of South America. Proceedings of the National Academy of Sciences, 118(37), p.e2105956118.
 
+Carrillo, J.D., Torres Jimenez, M.F., Urrea-Barreto, F.J., Pino, K., Cooper, R.B., Antonelli, A., Bacon, C.D., Faurby, S. and Silvestro, D., 2026. Decoupled diversity and disparity after faunistic turnover in caviomorph rodents. Proceedings of the Royal Society B: Biological Sciences, 293(2066), p.20252586.
+
 Chester, S.G., Bloch, J.I., Boyer, D.M. and Clemens, W.A., 2015. Oldest known euarchontan tarsals and affinities of Paleocene Purgatorius to Primates. Proceedings of the National Academy of Sciences, 112(5), pp.1487-1492.
 
 Coster, P., Benammi, M., Mahboubi, M., Tabuce, R., Adaci, M., Marivaux, L., Bensalah, M., Mahboubi, S., Mahboubi, A., Mebrouk, F. and Maameri, C., 2012. Chronology of the Eocene continental deposits of Africa: Magnetostratigraphy and biostratigraphy of the El Kohol and Glib Zegdou Formations, Algeria. Bulletin, 124(9-10), pp.1590-1606.
@@ -290,6 +294,8 @@ Coster, P., Benammi, M., Mahboubi, M., Tabuce, R., Adaci, M., Marivaux, L., Bens
 de Vries, Dorien and Beck, Robin M.D. 2023. Twenty-five well-justified fossil calibrations for primate divergences. Palaeontologia Electronica, 26(1):a8. 
 
 Dragastan, O.N. and Herbig, H.G., 2007. Halimeda (green siphonous algae) from the Paleogene of (Morocco)–taxonomy, phylogeny and paleoenvironment. Micropaleontology, 53(1-2), pp.1-72.
+
+Dunn, R.E., Madden, R.H., Kohn, M.J., Schmitz, M.D., Strömberg, C.A., Carlini, A.A., Ré, G.H. and Crowley, J., 2013. A new chronology for middle Eocene–early Miocene South American land mammal ages. Bulletin, 125(3-4), pp.539-555.
 
 Flynn, L.J., Barry, J.C., Morgan, M.E., Pilbeam, D., Jacobs, L.L. and Lindsay, E.H., 1995. Neogene Siwalik mammalian lineages: species longevities, rates of change, and modes of speciation. Palaeogeography, Palaeoclimatology, Palaeoecology, 115(1-4), pp.249-264.
 
