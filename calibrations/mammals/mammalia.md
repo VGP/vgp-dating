@@ -49,7 +49,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 785:** Placentalia | 126.0-61.6Ma\
+**Node 785:** Placentalia | 125.8-61.6Ma\
 **Node calibrated:** The most recent common ancestor of Atlantogenata (_Dasypus novemcinctus_) and Boroeutheria (_Tupaia tana_)\
 **Fossil taxa:** †_Ravenictis krausei_ (UALVP 31175) from the Ravenscrag Formation of the early Puercan of Saskatchewan, Canada ([Fox & Youzwyshyn 1994](https://doi.org/10.1080/02724634.1994.10011566))\
 **Minimum age:** Early Paleocene (Danian), 61.6Ma\
@@ -60,7 +60,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 931:** Afrotheria | 126.0-59.2Ma\
+**Node 931:** Afrotheria | 125.8-59.2Ma\
 **Node calibrated:** The most recent common ancestor of Paenungulata (_Dugong dugon_) and Afroinsectiphilia (_Rhynchocyon petersi_)\
 **Fossil taxa:** †_Ocepia daouiensis_ (CPSGM MA1) from the Ouled Abdoun Basin (Paleocene), Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739))\
 **Minimum age:** Late Paleocene (Selandian), 59.24Ma\
@@ -71,7 +71,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 936:** Xenarthra | 126.0-47.6Ma\
+**Node 936:** Xenarthra | 125.8-47.6Ma\
 **Node calibrated:** The most recent common ancestor of Cingulata (_Dasypus novemcinctus_) and Folivora (_Choloepus didactylus_)\
 **Fossil taxa:** †_Riostegotherium yanei_ (MCN-PV 1774) from the Itaboraí Formation of the Itaboraian land-mammal age (middle Paleocene) of Rio de Janeiro, Brazil ([Oliveira and Bergqvuist 1998](https://peapaleontologica.org.ar/index.php/peapa/article/view/174))\
 **Minimum age:** Early Eocene (Ypresian), 47.6Ma\
@@ -121,8 +121,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Early Oligocene (Tinguirican) 31.6Ma\
 **Minimum justification:** The locality dates to the ?late Eocene–early Oligocene Tinguirican SALMA, with whole-rock K/Ar dates ranging in mean age from 31.3–35.6Ma (see [Bertrand et al. 2012](https://doi.org/10.1206/3750.2), [Dunn et al. 2013](https://doi.org/10.1130/B30660.1), with 31.65 ± 0.32Ma and 31.34 ± 0.17Ma in the type area)\
 **Maximum age:** Late Paleocene (Thanetian), 56.0Ma\
-**Maximum justification:** As noted by Phillips ([2014](https://doi.org/10.26879/490)): ""the absence of any hystricognaths from the better sampled Early Eocene faunas ([Marivaux et al. 2011](https://doi.org/10.1080/14772019.2011.562555), [Coster et al. 2012](https://doi.org/10.1130/B30565.1)) provides a more appropriate soft maximum of basal Ypresian age."\
-**Discussion:** This fossil is the oldest-known stem chinchilloid and crown hystricomorphan that has been strongly supported (1.0 pp) in a recent total-evidence analysis ([Carrillo et al. 2026](https://doi.org/10.1098/rspb.2025.2586)). A potentially older stem caviomorph rodent, †_Cachiyacuy contamanensis_ (MUSM1871), is known from locality CTA-27 at the top of the Yahuarango Formation near Contamana, Peru, which has been dated to a minimum of 40.94Ma (Eocene: Lutetian or Bartonian) based on radioisotopy, vertebrate biochronology and palynostratigraphy ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)). Phillips ([2014](https://doi.org/10.26879/490)) used this fossil to calibrate the Caviomorphia + Phiomorpha split, but it could still function to provide a lower bound for Hystricomorpha. However, Campbell et al. ([2021](https://doi.org/10.1073/pnas.2105956118)) concluded that "there are currently no compelling Eocene records of either rodents or primates in the known fossil record of South America" – also see Arnal et al. ([2022](https://doi.org/10.1080/08912963.2021.2017916)). The CTA-27 locality has also been dated to the Late/Mid Eocene ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)) and to the Lower Oligocene (C[ampbell et al. 2021](https://doi.org/10.1073/pnas.2105956118)); this conflict in dates gives us reason to disfavour †_Cachiyacuy_ for use in calibration. Total-group ctenohystricids may still have early Paleogene records elsewhere (e.g., chapattimyids, †_Tamquammys_; see [Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)), but we tentatively refrain from using such records as calibrations pending a phylogenetic analysis broadly sampled for morphology and DNA across living and fossil species.
+**Maximum justification:** As noted by Phillips ([2014](https://doi.org/10.26879/490)): "the absence of any hystricognaths from the better sampled Early Eocene faunas ([Marivaux et al. 2011](https://doi.org/10.1080/14772019.2011.562555), [Coster et al. 2012](https://doi.org/10.1130/B30565.1)) provides a more appropriate soft maximum of basal Ypresian age."\
+**Discussion:** This fossil is the oldest-known stem chinchilloid and crown hystricomorphan that has been strongly supported (1.0 pp) in a recent total-evidence analysis ([Carrillo et al. 2026](https://doi.org/10.1098/rspb.2025.2586)). A potentially older stem caviomorph rodent, †_Cachiyacuy contamanensis_ (MUSM1871), is known from locality CTA-27 at the top of the Yahuarango Formation near Contamana, Peru, which has been dated to a minimum of 40.94Ma (Eocene: Lutetian or Bartonian) based on radioisotopy, vertebrate biochronology and palynostratigraphy ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)). Phillips ([2014](https://doi.org/10.26879/490)) used this fossil to calibrate the Caviomorphia + Phiomorpha split, but it could still function to provide a lower bound for Hystricomorpha. However, Campbell et al. ([2021](https://doi.org/10.1073/pnas.2105956118)) concluded that "there are currently no compelling Eocene records of either rodents or primates in the known fossil record of South America" – also see Arnal et al. ([2022](https://doi.org/10.1080/08912963.2021.2017916)). The CTA-27 locality has also been dated to the Late/Mid Eocene ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)) and to the Lower Oligocene ([Campbell et al. 2021](https://doi.org/10.1073/pnas.2105956118)); this conflict in dates gives us reason to disfavour †_Cachiyacuy_ for use in calibration. Total-group ctenohystricids may still have early Paleogene records elsewhere (e.g., chapattimyids, †_Tamquammys_; see [Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)), but we tentatively refrain from using such records as calibrations pending a phylogenetic analysis broadly sampled for morphology and DNA across living and fossil species.
 
 ---
 
@@ -138,7 +138,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 ---
 
 **Node 896:** Stem Murinae | 18.3-16.0Ma\
-**Node calibrated:** The most recent common ancestory of Murinae (_Mus musculus_) and Deomyinae (_Acomys russatus_)\
+**Node calibrated:** The most recent common ancestor of Murinae (_Mus musculus_) and Deomyinae (_Acomys russatus_)\
 **Fossil taxa:** †_Potwarmus primitivus_ (YGSP 591) from the from lower and middle Siwalik deposits in the Potwar Plateau of Pakistan ([Wessels et al. 1982](https://ubbern.swisscovery.slsp.ch/permalink/41SLSP_UBE/ar3q4e/alma99118009708505511), [Lindsey 1988](https://doi.org/10.18563/pv.18.2.95-154))\
 **Minimum age:** Middle Miocene (Langhian), 15.98Ma\
 **Minimum justification:** From the upper age of the locality (Burdigalian Marine stage)\
@@ -159,8 +159,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 916:** Euarchonta | 126.0-61.6Ma\
-**Node calibrated:** The most recent common ancestor of Primata (_Homo sapiens_), Dermoptera (_Cynocephalus volans_), and Scandentia(_Tupaia tana_)\
+**Node 916:** Euarchonta | 125.8-61.6Ma\
+**Node calibrated:** The most recent common ancestor of Primata (_Homo sapiens_), Dermoptera (_Cynocephalus volans_), and Scandentia (_Tupaia tana_)\
 **Fossil taxa:** †_Purgatorius mckeeveri_ (UCMP 150021) from the Harley’s Point locality in the Tullock Member of the Fort Union Formation in Montana, USA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050))\
 **Minimum age:** Early Paleocene (Danian), 61.6Ma\
 **Minimum justification:** Specimen is from the Harley’s Point locality in the Tullock Member of the Fort Union Formation, Montana, and has been dated to the Puercan NALMA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050)), which corresponds to the Danian\
@@ -194,7 +194,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 **Node 919:** Anthropoidea | 66.0-33.9Ma\
 **Node calibrated:** The most recent common ancestor of Catarrhini (_Homo sapiens_) and Platyrrhini (_Callithrix jacchus_)\
-**Fossil taxa:** †_Catopithecus browni_ (DPC 8701) from the Fayum Depression of Egpyt ([Simons 1989](https://doi.org/10.1073/pnas.86.24.9956))\
+**Fossil taxa:** †_Catopithecus browni_ (DPC 8701) from the Fayum Depression of Egypt ([Simons 1989](https://doi.org/10.1073/pnas.86.24.9956))\
 **Minimum age:** Late Eocene (Priabonian), 33.9Ma\
 **Minimum justification:** Fayûm Quarry L-41 where †_Catopithecus_ was discovered has been dated to the Priabonian, with an upper bound of 33.9Ma ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
