@@ -165,14 +165,14 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **845:** Chiroptera: 45.0–58.9Ma\
 -Based on the oldest-known stem rhinolophoid and crown chiropteran †_Tanzanycteris mannardi_ from the Lutetian of the middle Eocene.
 
+**914:** Hystricomorpha: 31.6–56.0Ma
+-Based on the oldest-known stem chinchilloid and crown hystricomorph †_Eoviscaccia frassinetti_ from the Tinguirican of the early Eocene.
+
 **915:** Lagomorpha: 47.6–66.0Ma\
 -Based on the oldest-known stem leporid and crown lagomorph fossils (GU/RSR/VAS 711) from the Ypresian of the early Eocene.
 
 **892:** Rodentia: 41.0–66.0Ma\
 -Based on the oldest-known stem sciuromorph and crown rodent _Ischyromys_ sp. from the Lutetian of the middle Eocene.
-
-**891:** Glires: 62.3–66.0Ma\
--Based on the oldest-known crown gliran †_Heomys_ sp. from the Danian of the early Paleocene.
 
 **906:** Castorimorpha: 37.7–66.0Ma\
 -Based on the oldest-known crown castorimorphan †_Heliscomys walshi_ from the Bartonian of the middle Eocene.
