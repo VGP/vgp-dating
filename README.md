@@ -18,6 +18,7 @@ Delson Hays (dhhays@ucsd.edu) – UCSD\
 Jon Hughes (hughesjonjames@gmail.com) – ASU\
 Laura Mulvey (laura.mulvey@qmul.ac.uk) – QMUL\
 Tom Near (thomas.near@yale.edu) – Yale\
+Davide Pisani (Davide.Pisani@bristol.ac.uk) – Bristol\ 
 Mario dos Reis (m.dosreisbarros@qmul.ac.uk) – QMUL\
 Mark Scherz (mark.scherz@gmail.com) – SNM/UCPH\
 Tiago Simões (simoes@princeton.edu) – Princeton\
