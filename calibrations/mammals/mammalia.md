@@ -1,6 +1,7 @@
 # Mammal calibrations
 
-Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1371/journal.pbio.3000494)) and Álvarez-Carretero et al. ([2022](https://doi.org/10.1038/s41586-021-04341-1)), with recent updates and revisions therein. Many of the calibrations were originally derived from Benton et al. ([2015](https://doi.org/10.26879/424)) and Phillips ([2014](https://doi.org/10.26879/490)), which we indicate when appropriate.
+Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1371/journal.pbio.3000494)) and Álvarez-Carretero et al. ([2022](https://doi.org/10.1038/s41586-021-04341-1)), with recent updates and revisions therein. Many of the calibrations were originally derived from Benton et al. ([2015](https://doi.org/10.26879/424)) and Phillips ([2014](https://doi.org/10.26879/490)), which we indicate when appropriate. Minimum ages are hard cutoffs, while maximum ages are ‘soft maxima’ where the upper 95% of the age distribution is younger than the given age and the remaining 5% tapers off in accordance with the prior’s shape (e.g., skew–_t_; [Álvarez-Carretero et al. 2022](https://doi.org/10.1038/s41586-021-04341-1)).
+
 
 ## Calibrations:
 
