@@ -11,8 +11,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Middle Jurassic (Bathonian), 164.9Ma\
 **Minimum justification:** Specimen locality dated to Bathonian, top of which is 166.1 Ma, ± 1.2 Myr = 164.9 Ma ([Benton et al. 2015](https://doi.org/10.26879/424))\
 **Maximum age:** Jurassic-Triassic Boundary, 201.5Ma\
-**Maximum justification:** The closest known relative of crown mammals, †_Hadrocodium_, dates to early Jurassic Sinemurian ([Luo et al. 2001](https://doi.org/10.1126/science.1058476)), and other closely related mammaliaformes are known from Late Triassic ([Benton et al. 2015](https://doi.org/10.26879/424))\
-**Discussion:** The oldest-known member of the monotreme clade Australosphenida from the middle Jurassic (Bathonian) of Madagascar ([Benton et al. 2015](https://doi.org/10.26879/424), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Luo et al. 2002](https://www.app.pan.pl/article/pdf/41/item/app47-001.html), [Luo et al. 2011](https://doi.org/10.1038/nature10291)), and also the oldest-known credible crown mammalian.
+**Maximum justification:** The closest known relative of crown mammals, †_Hadrocodium_, dates to early Jurassic Sinemurian ([Luo et al. 2001](https://doi.org/10.1126/science.1058476)), and other closely related mammaliaformes are known from the Late Triassic ([Benton et al. 2015](https://doi.org/10.26879/424))\
+**Discussion:** This fossil is the oldest-known member of the monotreme clade Australosphenida from the middle Jurassic (Bathonian) of Madagascar ([Benton et al. 2015](https://doi.org/10.26879/424), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Luo et al. 2002](https://www.app.pan.pl/article/pdf/41/item/app47-001.html), [Luo et al. 2011](https://doi.org/10.1038/nature10291)), and the oldest-known credible crown mammalian.
 
 ---
 
@@ -22,8 +22,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Early Miocene, 15.97Ma\
 **Minimum justification:** Oldest specimens found in northwestern Queensland in Faunal Zone B sites, which date to the early Miocene ([Travouillon et al. 2006](https://doi.org/10.1080/03115510609506871))\
 **Maximum age:** Early Cretaceous, 113.0Ma\
-**Maximum justification:** Potential crown Monotremes are present in Argentina from ~61Ma, but the latest Australasian sites that lack any evidence of crown monotremes date to the Albian ([Phillips 2014](https://doi.org/10.26879/490))\
-**Discussion:** The oldest-known stem member of Ornithorhynchidae from the early Miocene (Burdigalian) of northwestern Queensland, Australia ([Phillips 2014](https://doi.org/10.26879/490), [Luo et al. 2007](https://doi.org/10.1038/nature05627), [Phillips et al. 2009](https://doi.org/10.1073/pnas.0904649106)), and also the oldest-known crown monotrematan.
+**Maximum justification:** Potential crown Monotremes are present in Argentina from ~61Ma, but the latest Australasian sites that lack any evidence of crown monotremes date to the Albian of the early Cretaceous ([Phillips 2014](https://doi.org/10.26879/490))\
+**Discussion:** This fossil is the oldest-known stem member of Ornithorhynchidae from the early Miocene (Burdigalian) of northwestern Queensland, Australia ([Phillips 2014](https://doi.org/10.26879/490), [Luo et al. 2007](https://doi.org/10.1038/nature05627), [Phillips et al. 2009](https://doi.org/10.1073/pnas.0904649106)), and the oldest-known crown monotrematan.
 
 ---
 
@@ -33,8 +33,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Early Eocene (Ypresian), 47.6Ma\
 **Minimum justification:** The Murgon locality is correlated with the Ypresian marine stage ([Beck 2012](https://doi.org/10.1007/s00114-012-0953-x))\
 **Maximum age:** Early Cretaceous (Barremian), 131.3Ma\
-**Maximum justification:**  Therians such as †_Sinodelphys szalayi_ date to the Barremian ([Luo et al. 2003](https://doi.org/10.1126/science.1090718), [Zhou et al. 2003](https://doi.org/10.1038/nature01420)) and are diverse, but evidently are not metatherian ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3), [Beck 2023](https://doi.org/10.1007/978-3-031-08419-5_35)). Diversity of therians and possible eutherians during the Barremian implies a similar antiquity for Metatheria to at least that time, but such taxa pre-date the radiation of crown Marsupialia.\
-**Discussion:** The oldest-known crown marsupial, from the early Eocene of Murgon, Australia ([Benton et al. 2015](https://doi.org/10.26879/424), Beck [2012](https://doi.org/10.1007/s00114-012-0953-x), [2023](https://doi.org/10.1007/978-3-031-08419-5_35)).
+**Maximum justification:**  Therians such as †_Sinodelphys szalayi_ date to the Barremian ([Luo et al. 2003](https://doi.org/10.1126/science.1090718), [Zhou et al. 2003](https://doi.org/10.1038/nature01420)) and are diverse, but they are evidently not metatherians ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3), [Beck 2023](https://doi.org/10.1007/978-3-031-08419-5_35)). The diversity of therians and possible eutherians during the Barremian implies a similar antiquity for Metatheria to at least that time, but such taxa pre-date the radiation of crown Marsupialia.\
+**Discussion:** This fossil is the oldest-known crown marsupial, from the early Eocene of Murgon, Australia ([Benton et al. 2015](https://doi.org/10.26879/424), Beck [2012](https://doi.org/10.1007/s00114-012-0953-x), [2023](https://doi.org/10.1007/978-3-031-08419-5_35)).
 
 ---
 
@@ -56,7 +56,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** The Ravenscrag Formation is from the early Puercan NALMA, corresponding to the Danian age of the Paleocene, the top of which corresponds to 61.7Ma ± 0.1 Myr, thus 61.6Ma ([Fox & Youzwyshyn 1994](https://doi.org/10.1080/02724634.1994.10011566))\
 **Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
 **Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members. A soft-maximum in the Jurassic for crown placental clades (cf. [Benton et al. 2015](https://doi.org/10.26879/424)) is arguably more conservative, as such soft constraints do not penalize truly ancient crown placental divergences as much. However, given methodological difficulties arising from broad prior distributions that can artifactually favor older ages ([Budd and Mann 2024](https://doi.org/10.1093/sysbio/syad057)), we instead use tighter soft maxima derived from the diversity of lower Cretaceous mammalian faunae (e.g., from the Jehol biota), which document a variety of therian species but no crown placentals. Given the nature of "soft" maxima, divergence estimates older than 126Ma are still possible, but 126Ma better reflects the negative information present in Lower Cretaceous localities. In the case of crown placentals, the fossil record suggests that, at this time, absence of evidence really does indicate evidence of absence.\
-**Discussion:** This fossil is a stem carnivoran from the early Paleocene (Danian) of Ravenscrag Formation in Saskatchewan, Canada ([Benton et al. 2015](https://doi.org/10.26879/424), [Fox et al. 2010](https://doi.org/10.1666/09-165.1)), and therefore the oldest-known crown placentalian.
+**Discussion:** This fossil is a stem carnivoran from the early Paleocene (Danian) of Ravenscrag Formation in Saskatchewan, Canada ([Benton et al. 2015](https://doi.org/10.26879/424), [Fox et al. 2010](https://doi.org/10.1666/09-165.1)), and the oldest-known crown placentalian.
 
 ---
 
@@ -67,7 +67,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) specify a Selandian age for this taxon, which is evidently the same locality as †_Eritherium azzouzorum,_ previously described as "early Thanetian (incl. Selandian)" ([Gheerbrant 2009](https://doi.org/10.1073/pnas.0900251106)). Here, we follow Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) who write "...The new material of this species confirms its Paleocene age. It comes from the same bone bed level located at the base of phosphorite Bed IIa that is dated Selandian … and that yields _Eritherium azzouzorum, Abdounodus hamdii,_ and _Lahimia selloumi_."\
 **Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
 **Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
-**Discussion:** This fossil is the oldest-known stem proboscidean from the Paleocene (Selandian) of Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739)), and also the oldest-known crown afrotherian.
+**Discussion:** This fossil is the oldest-known stem proboscidean from the Paleocene (Selandian) of Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739)), and the oldest-known crown afrotherian.
 
 ---
 
@@ -78,7 +78,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** The Itaboraí formation dates to the Ypresian of the early Eocene ([Woodburne et al. 2014](https://doi.org/10.1007/s10914-012-9222-1)), the top of which is 47.8Ma, ± 0.2 Myr, thus 47.6Ma ([Benton et al. 2015](https://doi.org/10.26879/424))\
 **Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
 **Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
-**Discussion:** This fossil is the oldest-known stem cingulate from the early Eocene (Ypresian) of Itaboraí, Brazil ([Benton et al. 2015](https://doi.org/10.26879/424), [Bergqvist et al. 2004](https://sciencepress.mnhn.fr/en/periodiques/geodiversitas/26/2/les-xenarthra-mammalia-du-bassin-de-sao-jose-de-itaborai-paleocene-superieur-age-itaboraiense-rio-de-janeiro-bresil)), and also the oldest-known crown xenarthran.
+**Discussion:** This fossil is the oldest-known stem cingulate from the early Eocene (Ypresian) of Itaboraí, Brazil ([Benton et al. 2015](https://doi.org/10.26879/424), [Bergqvist et al. 2004](https://sciencepress.mnhn.fr/en/periodiques/geodiversitas/26/2/les-xenarthra-mammalia-du-bassin-de-sao-jose-de-itaborai-paleocene-superieur-age-itaboraiense-rio-de-janeiro-bresil)), and the oldest-known crown xenarthran.
 
 ---
 
@@ -89,7 +89,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** Age estimates using 206Pb/238U dating and sedimentary rate analysis put the lacustrine Mahenge formation at 45.83Ma ± 1.1 Myr and the fossil itself at a lower bound of 45.0Ma ([Harrison et al. 2001](https://doi.org/10.1007/978-1-4615-1271-4_2))\
 **Maximum age:** Late Paleocene (Thanetian), 58.9Ma\
 **Maximum justification:** Following Phillips ([2014](https://doi.org/10.26879/490)), we use the base of the Thanetian as the upper bound to be conservative regarding stem bats that are from very close to the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0)).\
-**Discussion:** This fossil is the oldest-known stem member of Rhinolophoidea within Yinpterochiroptera (and therefore the oldest-known crown chiropteran), from the middle Eocene (Lutetian) of Tanzania in the Mahenge formation ([Phillips 2014](https://doi.org/10.26879/490), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Ypresian †_Archaeonycterus praecursor_ as the oldest crown bat, but only for majority-rule consensus approaches, and only for trees not rooted on _Sorex_. The oldest stem bat in their analyses, †_Tachypteron,_ is dated to the Lutetian ([Lenz et al. 2015](https://doi.org/10.1007/s00531-014-1126-2)), supporting a minimum age based on †_Tanzanycteris_. 
+**Discussion:** This fossil is the oldest-known stem member of Rhinolophoidea within Yinpterochiroptera (and therefore the oldest-known crown chiropteran), from the middle Eocene (Lutetian) of Tanzania in the Mahenge formation ([Phillips 2014](https://doi.org/10.26879/490), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Ypresian †_Archaeonycteris praecursor_ as the oldest crown bat, but only for majority-rule consensus approaches, and only for trees not rooted on _Sorex_. The oldest stem bat in their analyses, †_Tachypteron,_ is dated to the Lutetian ([Lenz et al. 2015](https://doi.org/10.1007/s00531-014-1126-2)), supporting a minimum age based on †_Tanzanycteris_. 
 
 ---
 
@@ -100,7 +100,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** The Cambay Shale are dated to the middle Ypresian ([Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)), the top of which dates to 47.8Ma ± 0.2 Myr, thus 47.6Ma\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Based on the occurrences of basal Glires, including †_Mimotona_ ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [de Vries & Beck, 2023](https://doi.org/10.26879/1249)) and †_Heomys_ ([Li & Ting, 1983](https://doi.org/10.5962/p.228600))\
-**Discussion:** The oldest-known crown lagomorphs, these unnamed stem leporid fossils are from the Vastan Mines (Cambay Shale) of West-Central India, dated to the early Eocene (Ypresian) ([Benton et al. 2015](https://doi.org/10.26879/424), [Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)). The oldest known stem Lagomorphs (e.g., †_Heomys_) are known from the lower Paleocene ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [de Vries & Beck, 2023](https://doi.org/10.26879/1249)).
+**Discussion:** These unnamed stem leporid fossils are the oldest-known crown lagomorphs, from the Vastan Mines (Cambay Shale) of West-Central India, dated to the early Eocene (Ypresian) ([Benton et al. 2015](https://doi.org/10.26879/424), [Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)). The oldest known stem Lagomorphs (e.g., †_Heomys_) are known from the lower Paleocene ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [de Vries & Beck, 2023](https://doi.org/10.26879/1249)).
 
 ---
 
@@ -115,14 +115,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 891:** Glires | 66.0-62.3Ma\
-**Node calibrated:** The most recent common ancestor of Rodentia (_Mus musculus_) and Lagomorpha (_Oryctolagus cuniculus_)\
-**Fossil taxa:** †_Heomys_ sp. (IVPP V4323) from the lower part of the Upper Member of the Wanghudun Formation, Anhui Province, China ([Li 1977](https://www.vertpala.ac.cn/EN/column/column1.shtml))\
-**Minimum age:** Early Paleocene (Danian), 62.278Ma\
-**Minimum justification:** Minimum age of Wanghudun Formation ([Wang et al. 2019](https://doi.org/10.1007/s11430-018-9305-y))\
-**Maximum age:** Early Paleocene (Danian), 66.0Ma\
-**Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries & Beck, 2023](https://doi.org/10.26879/1249))\
-**Discussion:** The oldest-known crown gliran †_Heomys_ is known from the lower part of the Upper Member of the Wanghudun Formation in Anhui Province, China, and is among the oldest members of Simplicidentata ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [Rankin et al. 2020](https://doi.org/10.26879/1049)), a group which includes Rodentia and is characterised by the presence of a single pair of gliriform upper incisors, a synapomorphic feature shared by all rodents ([Li et al. 2016](https://www.vertpala.ac.cn/EN/Y2016/V54/I2/121); [Fostowicz-Frelik, 2017](https://doi.org/10.1007/978-3-319-61569-1_11), [2020](https://doi.org/10.1007/978-3-030-57246-4_5)).
+**Node 914:** Hystricomorpha | 56.0-40.9Ma\
+**Node calibrated:** The most recent common ancestor of Ctenodactylomorphi (_Ctenodactylus gundi_) and Hystricognathi (_Erethizon dorsatum_)\
+**Fossil taxa:** †_Cachiyacuy contamanensis_ (MUSM1871) from the top of the Yahuarango Formation (latest Lutetian) near Contamana, Peru ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732))\
+**Minimum age:** Eocene (Bartonian), 40.94Ma\
+**Minimum justification:** The CTA–27 locality in Peru has been dated to a minimum of 40.94Ma based on radioisotopy, vertebrate biochronology and palynostratigraphy ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732))\
+**Maximum age:** Late Paleocene (Thanetian), 56.0Ma\
+**Maximum justification:** As noted by Phillips ([2014](https://doi.org/10.26879/490)): ""the absence of any hystricognaths from the better sampled Early Eocene faunas ([Marivaux et al. 2011](https://doi.org/10.1080/14772019.2011.562555), [Coster et al. 2012](https://doi.org/10.1130/B30565.1)) provides a more appropriate soft maximum of basal Ypresian age."\
+**Discussion:** Earliest-known stem caviomorph rodent from locality CTA-27 in Yahuarango, Peru ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)). Phillips ([2014](https://doi.org/10.26879/490)) used this fossil to calibrate the Caviomorphia + Phiomorpha split, but it could still function to provide a lower bound for Hystricomorpha. However, Campbell et al. ([2021](https://doi.org/10.1073/pnas.2105956118)) concluded that "there are currently no compelling Eocene records of either rodents or primates in the known fossil record of South America" – also see Arnal et al. ([2022](https://doi.org/10.1080/08912963.2021.2017916)). CTA-27 has been dated to the Late/Mid Eocene ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)) and to the Lower Oligocene (C[ampbell et al. 2021](https://doi.org/10.1073/pnas.2105956118)); this conflict in dates gives us reason to disfavour †_Cachiyacuy_ for use in calibration. Total-group ctenohystricids may still have early Paleogene records elsewhere (e.g., chapattimyids, †_Tamquammys_; see [Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)), but we tentatively refrain from using such records as calibrations pending a phylogenetic analysis broadly sampled for morphology and DNA across living and fossil species.
 
 ---
 
@@ -177,7 +177,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** This formation is dated to the Thanetian, 57.6 ± 1.6Ma, yielding 56.0Ma (reviewed in [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Putative stem primates such as plesiadapids, paromomyids, and carpolestids from the Danian without any crown taxa implies a soft maximum age at the base of the Paleocene ([McKenna and Bell 1997](https://cup.columbia.edu/book/classification-of-mammals/9780231110136/), [Kondrashov et al. 2004](https://www.researchgate.net/publication/281111353_REVISED_DISTRIBUTION_OF_CONDYLARTHS_MAMMALIA_EUTHERIA_IN_ASIA), [Benton et al. 2009](https://doi.org/10.1093/oso/9780199535033.001.0001), [Bloch et al. 2007](https://doi.org/10.1073/pnas.0610579104))\
-**Discussion:** The earliest-known haplorhine primate from the late Paleocene (Thanetian) of Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates), [Pattinson et al. 2015](https://doi.org/10.1093/sysbio/syu077)). An alternative would be †_Purgatorius,_ which is described from dental (e.g. UCMP 107406) and tarsal (e.g. UCMP 197509) remains and has a well-constrained age of 66.0-63.4Ma, but is not consistently recovered in crown Primates ([Chester et al. 2015](https://doi.org/10.1073/pnas.1421707112)).
+**Discussion:** This fossil is the earliest-known haplorhine primate from the late Paleocene (Thanetian) of Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates), [Pattinson et al. 2015](https://doi.org/10.1093/sysbio/syu077)). An alternative would be †_Purgatorius,_ which is described from dental (e.g. UCMP 107406) and tarsal (e.g. UCMP 197509) remains and has a well-constrained age of 66.0-63.4Ma, but is not consistently recovered in crown Primates ([Chester et al. 2015](https://doi.org/10.1073/pnas.1421707112)).
 
 ---
 
@@ -188,7 +188,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** The Birket Quaran Formation corresponds to upper Priabonian ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
 **Maximum age:** Late Paleocene (Thanetian), 56.0Ma\
 **Maximum justification:** Bounded by the first appearance of euprimates, represented by †_Altiatlasius koulchii_ (see **Node 918:** Primates), which dates to the late Paleocene at 56.0Ma ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates)), [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
-**Discussion:** The oldest-known stem lorisiform or crown strepsirrhine (of uncertain affinities) from the late Eocene (Priabonian) Birket Quaran Formation of Fayûm, Egypt ([Benton et al. 2015](https://doi.org/10.26879/424), [Seiffert et al. 2003](https://doi.org/10.1038/nature01489), [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))
+**Discussion:** This fossil is the oldest-known stem lorisiform or crown strepsirrhine (of uncertain affinities) from the late Eocene (Priabonian) Birket Quaran Formation of Fayûm, Egypt ([Benton et al. 2015](https://doi.org/10.26879/424), [Seiffert et al. 2003](https://doi.org/10.1038/nature01489), [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))
 
 ---
 
@@ -199,7 +199,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** Fayûm Quarry L-41 where †_Catopithecus_ was discovered has been dated to the Priabonian, with an upper bound of 33.9Ma ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), the Early Paleocene is set as the maximum age, as there are no definitive crown primates from the Danian and the split must predate the potential anthropoid sister-taxon †_Altiatlasius koulchii_ (see **Node 918:** Primates; [Seiffert et al. 2005](https://doi.org/10.1126/science.1116569)) of 56.0Ma.\
-**Discussion:** The oldest-known crown catarrhine from the late Eocene (Priabonian) of Fayûm, Egypt ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))
+**Discussion:** This fossil is the oldest-known crown catarrhine from the late Eocene (Priabonian) of Fayûm, Egypt ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))
 
 ---
 
@@ -210,7 +210,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** Radiometric dating constrains the Nsungwe Formation to 24.93 ± 0.49Ma ([Roberts et al. 2010](https://doi.org/10.1016/j.jafrearsci.2009.09.002))\
 **Maximum age:** Early Oligocene (Rupelian), 34.0Ma\
 **Maximum justification:** Fossils referred to the stem of Catarrhini that predate the Cercopithecoidea/Hominoidea split are found in the Fayûm beds in Egypt, with the oldest anthropoid primates dated to 33.9–28.4 ± 0.1Ma ([Seiffert et al. 2005](https://doi.org/10.1126/science.1116569), [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103), [Stevens et al. 2013](https://doi.org/10.1038/nature12161))\
-**Discussion:** The oldest-known stem hominoid and crown catarrhine, from the Nsungwe Formation, Rukwa Rift Basin, Tanzania ([Roberts et al. 2010](https://doi.org/10.1016/j.jafrearsci.2009.09.002), [Stevens et al. 2013](https://doi.org/10.1038/nature12161), [Benton et al. 2015](https://doi.org/10.26879/424))
+**Discussion:** This fossil is the oldest-known stem hominoid and crown catarrhine, from the Nsungwe Formation, Rukwa Rift Basin, Tanzania ([Roberts et al. 2010](https://doi.org/10.1016/j.jafrearsci.2009.09.002), [Stevens et al. 2013](https://doi.org/10.1038/nature12161), [Benton et al. 2015](https://doi.org/10.26879/424))
 
 ---
 
@@ -221,7 +221,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** Specimen found in Subathu Formation in Pakistan ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464)). As per Benton et al. ([2015](https://doi.org/10.26879/424)), it co-occurs with the foraminiferan †_Nummulites atacicus,_ which is distributed across nanoplankton zones 11-12 ([Martín-Martín et al. 2001](https://doi.org/10.1046%2Fj.0950-091x.2001.00158.x)), which permits setting the minimum age to 52.4Ma instead of using the top of the Ypresian stage (47.8Ma)\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), we use the lack of Paleocene crown cetartiodactyls to suggest a plausible soft maximum age of 66.04 ± 0.4Ma, thus 66.0Ma\
-**Discussion:** The oldest-known stem cetacean from the early Eocene (Ypresian) of India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464), [O’Leary and Uhen 1999](https://doi.org/10.1017/S0094837300020376), [Benton et al. 2015](https://doi.org/10.26879/424))
+**Discussion:** This fossil is the oldest-known stem cetacean from the early Eocene (Ypresian) of India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464), [O’Leary and Uhen 1999](https://doi.org/10.1017/S0094837300020376), [Benton et al. 2015](https://doi.org/10.26879/424))
 
 ---
 
@@ -232,18 +232,18 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** The oldest caniforms, including †_Hesperocyon,_ are known from the early Duchesnean NALMA ([Robinson et al. 2004](http://www.jstor.org/stable/10.7312/wood13040.10)), which corresponds to the Bartonian\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** The earliest known stem carnivorans date to the early Paleocene ([Fox et al. 2010](https://doi.org/10.1666/09-165.1)), which we use to set the maximum at 66.04Ma ± 0.4 Myr, thus 66.0Ma\
-**Discussion:** The oldest-known stem caniform from the middle Eocene (Bartonian) of Saskatchewan, Canada ([Wesley-Hunt and Flynn 2005](https://doi.org/10.1017/S1477201904001518), [Benton et al. 2015](https://doi.org/10.26879/424))
+**Discussion:** This fossil is the oldest-known stem caniform from the middle Eocene (Bartonian) of Saskatchewan, Canada ([Wesley-Hunt and Flynn 2005](https://doi.org/10.1017/S1477201904001518), [Benton et al. 2015](https://doi.org/10.26879/424))
 
 ## Considered but not included:
 
-**Node 914:** Hystricomorpha | 56.0-40.9Ma\
-**Node calibrated:** The most recent common ancestor of Ctenodactylomorphi (_Ctenodactylus gundi_) and Hystricognathi (_Erethizon dorsatum_)\
-**Fossil taxa:** †_Cachiyacuy contamanensis_ (MUSM1871) from the top of the Yahuarango Formation (latest Lutetian) near Contamana, Peru ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732))\
-**Minimum age:** Eocene (Bartonian), 40.94Ma\
-**Minimum justification:** The CTA–27 locality in Peru has been dated to a minimum of 40.94Ma based on radioisotopy, vertebrate biochronology and palynostratigraphy ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732))\
-**Maximum age:** Late Paleocene (Thanetian), 56.0Ma\
-**Maximum justification:** As noted by Phillips ([2014](https://doi.org/10.26879/490)): ""the absence of any hystricognaths from the better sampled Early Eocene faunas ([Marivaux et al. 2011](https://doi.org/10.1080/14772019.2011.562555), [Coster et al. 2012](https://doi.org/10.1130/B30565.1)) provides a more appropriate soft maximum of basal Ypresian age."\
-**Discussion:** Earliest-known stem caviomorph rodent from locality CTA-27 in Yahuarango, Peru ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)). Phillips ([2014](https://doi.org/10.26879/490)) used this fossil to calibrate the Caviomorphia + Phiomorpha split, but it could still function to provide a lower bound for Hystricomorpha. However, Campbell et al. ([2021](https://doi.org/10.1073/pnas.2105956118)) concluded that "there are currently no compelling Eocene records of either rodents or primates in the known fossil record of South America" – also see Arnal et al. ([2022](https://doi.org/10.1080/08912963.2021.2017916)). CTA-27 has been dated to the Late/Mid Eocene ([Antoine et al. 2012](https://doi.org/10.1098/rspb.2011.1732)) and to the Lower Oligocene (C[ampbell et al. 2021](https://doi.org/10.1073/pnas.2105956118)); this conflict in dates gives us reason to disfavour †_Cachiyacuy_ for use in calibration. Total-group ctenohystricids may still have early Paleogene records elsewhere (e.g., chapattimyids, †_Tamquammys_; see [Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)), but we tentatively refrain from using such records as calibrations pending a phylogenetic analysis broadly sampled for morphology and DNA across living and fossil species.
+**Node 891:** Glires | 66.0-62.3Ma\
+**Node calibrated:** The most recent common ancestor of Rodentia (_Mus musculus_) and Lagomorpha (_Oryctolagus cuniculus_)\
+**Fossil taxa:** †_Heomys_ sp. (IVPP V4323) from the lower part of the Upper Member of the Wanghudun Formation, Anhui Province, China ([Li 1977](https://www.vertpala.ac.cn/EN/column/column1.shtml))\
+**Minimum age:** Early Paleocene (Danian), 62.278Ma\
+**Minimum justification:** Minimum age of Wanghudun Formation ([Wang et al. 2019](https://doi.org/10.1007/s11430-018-9305-y))\
+**Maximum age:** Early Paleocene (Danian), 66.0Ma\
+**Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries & Beck, 2023](https://doi.org/10.26879/1249))\
+**Discussion:** The oldest-known crown gliran †_Heomys_ is known from the lower part of the Upper Member of the Wanghudun Formation in Anhui Province, China, and is among the oldest members of Simplicidentata ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [Rankin et al. 2020](https://doi.org/10.26879/1049)), a group which includes Rodentia and is characterised by the presence of a single pair of gliriform upper incisors, a synapomorphic feature shared by all rodents ([Li et al. 2016](https://www.vertpala.ac.cn/EN/Y2016/V54/I2/121); [Fostowicz-Frelik, 2017](https://doi.org/10.1007/978-3-319-61569-1_11), [2020](https://doi.org/10.1007/978-3-030-57246-4_5)).
 
 ## References
 
