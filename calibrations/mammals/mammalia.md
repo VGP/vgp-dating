@@ -16,6 +16,17 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
+**Node 784:** Theria | 169.6-156.3Ma\
+**Node calibrated:** The most recent common ancestor of marsupials (_Monodelphis domestica_) and placentals (_Dasypus novemcinctus_)\
+**Fossil taxa:** †_Juramaia sinensis_ (PM1143) from the Daxigou site in the Middle–Late Jurassic Tiaojishan formation, Jianchang County, Liaoning Province, China ([Luo et al. 2011](https://doi.org/10.1038/nature10291))\
+**Minimum age:** Late Jurassic (Oxfordian), 156.3Ma\
+**Minimum justification:** Radiometric dating sets the age of the Beipiao area at the Daxigou site at just over 160Ma, placing it within the Late Jurassic (Oxfordian), with a minimum bound of 157.3Ma ± 1.0 Myr, thus 156.3Ma ([Luo et al. 2011](https://doi.org/10.1038/nature10291))\
+**Maximum age:** Middle Jurassic (Bathonian), 169.6Ma\
+**Maximum justification:** Following the rationale of Benton et al. ([2015](https://doi.org/10.26879/424)), we set the maximum age at 169.6Ma to account for viewpoints that place taxa such as †_Ambondro_ (see **Node 783:** Mammalia) as stem therians ([Woodburne et al. 2003](https://doi.org/10.1016/S1055-7903(03)00113-1)), constraining the therian maximum within the Jurassic (Bathonian) at 168.6Ma ± 1.0 Myr, thus 169.6Ma.\
+**Discussion:** This fossil is the oldest-known stem eutherian ([Benton et al. 2015](https://doi.org/10.26879/424), [Luo et al. 2011](https://doi.org/10.1038/nature10291)), and also the oldest-known crown therian.
+
+---
+
 **Node 947:** Monotremata | 113.0-16.0Ma\
 **Node calibrated:** Most recent common ancestor of Tachyglossidae (_Tachyglossus aculeatus_) and Ornithorhynchidae (_Ornithorhynchus anatinus_)\
 **Fossil taxa:** †_Obdurodon dicksoni_ (QMF20568) from the Riversleigh World Heritage Area in Queensland, Australia ([Archer et al. 1992](https://catalogue.nla.gov.au/catalog/608888))\
@@ -35,17 +46,6 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Maximum age:** Early Cretaceous (Barremian), 131.3Ma\
 **Maximum justification:**  Therians such as †_Sinodelphys szalayi_ date to the Barremian ([Luo et al. 2003](https://doi.org/10.1126/science.1090718), [Zhou et al. 2003](https://doi.org/10.1038/nature01420)) and are diverse, but they are evidently not metatherians ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3), [Beck 2023](https://doi.org/10.1007/978-3-031-08419-5_35)). The diversity of therians and possible eutherians during the Barremian implies a similar antiquity for Metatheria to at least that time, but such taxa pre-date the radiation of crown Marsupialia.\
 **Discussion:** This fossil is the oldest-known crown marsupial, from the early Eocene of Murgon, Australia ([Benton et al. 2015](https://doi.org/10.26879/424), Beck [2012](https://doi.org/10.1007/s00114-012-0953-x), [2023](https://doi.org/10.1007/978-3-031-08419-5_35)).
-
----
-
-**Node 784:** Theria | 169.6-156.3Ma\
-**Node calibrated:** The most recent common ancestor of marsupials (_Monodelphis domestica_) and placentals (_Dasypus novemcinctus_)\
-**Fossil taxa:** †_Juramaia sinensis_ (PM1143) from the Daxigou site in the Middle–Late Jurassic Tiaojishan formation, Jianchang County, Liaoning Province, China ([Luo et al. 2011](https://doi.org/10.1038/nature10291))\
-**Minimum age:** Late Jurassic (Oxfordian), 156.3Ma\
-**Minimum justification:** Radiometric dating sets the age of the Beipiao area at the Daxigou site at just over 160Ma, placing it within the Late Jurassic (Oxfordian), with a minimum bound of 157.3Ma ± 1.0 Myr, thus 156.3Ma ([Luo et al. 2011](https://doi.org/10.1038/nature10291))\
-**Maximum age:** Middle Jurassic (Bathonian), 169.6Ma\
-**Maximum justification:** Following the rationale of Benton et al. ([2015](https://doi.org/10.26879/424)), we set the maximum age at 169.6Ma to account for viewpoints that place taxa such as †_Ambondro_ (see **Node 783:** Mammalia) as stem therians ([Woodburne et al. 2003](https://doi.org/10.1016/S1055-7903(03)00113-1)), constraining the therian maximum within the Jurassic (Bathonian) at 168.6Ma ± 1.0 Myr, thus 169.6Ma.\
-**Discussion:** This fossil is the oldest-known stem eutherian ([Benton et al. 2015](https://doi.org/10.26879/424), [Luo et al. 2011](https://doi.org/10.1038/nature10291)), and also the oldest-known crown therian.
 
 ---
 
@@ -79,6 +79,61 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
 **Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
 **Discussion:** This fossil is the oldest-known stem cingulate from the early Eocene (Ypresian) of Itaboraí, Brazil ([Benton et al. 2015](https://doi.org/10.26879/424), [Bergqvist et al. 2004](https://sciencepress.mnhn.fr/en/periodiques/geodiversitas/26/2/les-xenarthra-mammalia-du-bassin-de-sao-jose-de-itaborai-paleocene-superieur-age-itaboraiense-rio-de-janeiro-bresil)), and the oldest-known crown xenarthran.
+
+---
+
+**Node 916:** Euarchonta | 125.8-61.6Ma\
+**Node calibrated:** The most recent common ancestor of Primata (_Homo sapiens_), Dermoptera (_Cynocephalus volans_), and Scandentia (_Tupaia tana_)\
+**Fossil taxa:** †_Purgatorius mckeeveri_ (UCMP 150021) from the Harley’s Point locality in the Tullock Member of the Fort Union Formation in Montana, USA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050))\
+**Minimum age:** Early Paleocene (Danian), 61.6Ma\
+**Minimum justification:** Specimen is from the Harley’s Point locality in the Tullock Member of the Fort Union Formation, Montana, and has been dated to the Puercan NALMA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050)), which corresponds to the Danian\
+**Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
+**Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
+**Discussion:** As noted by de Vries and Beck ([2023](https://doi.org/10.26879/1249)): "recent phylogenetic analyses specifically intended to resolve euarchontan relationships consistently place _Purgatorius_ and other “plesiadapiforms” within crown Euarchonta, and specifically closer to Primates and Dermoptera than to Scandentia, although the precise affinities of “plesiadapiforms” vary in these analyses." See Chester et al. ([2015](https://doi.org/10.1073/pnas.1421707112)) for an example.
+
+---
+
+**Node 918:** Primates | 66.0-56.0Ma\
+**Node calibrated:** The most recent common ancestor of Strepsirrhini (_Lemur catta_) and Haplorhini (_Homo sapiens_)\
+**Fossil taxa:** †_Altiatlasius koulchii_ (THR 141) from the Adrar Mgorn 1 locality in the Jbel Guersif Formation of the Ouarzazate Basin, Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates))\
+**Minimum age:** Late Paleocene (Thanetian), 56.0Ma\
+**Minimum justification:** This formation is dated to the Thanetian, 57.6 ± 1.6Ma, yielding 56.0Ma (reviewed in [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
+**Maximum age:** Early Paleocene (Danian), 66.0Ma\
+**Maximum justification:** Putative stem primates such as plesiadapids, paromomyids, and carpolestids from the Danian without any crown taxa implies a soft maximum age at the base of the Paleocene ([McKenna and Bell 1997](https://cup.columbia.edu/book/classification-of-mammals/9780231110136/), [Kondrashov et al. 2004](https://www.researchgate.net/publication/281111353_REVISED_DISTRIBUTION_OF_CONDYLARTHS_MAMMALIA_EUTHERIA_IN_ASIA), [Benton et al. 2009](https://doi.org/10.1093/oso/9780199535033.001.0001), [Bloch et al. 2007](https://doi.org/10.1073/pnas.0610579104))\
+**Discussion:** This fossil is the earliest-known haplorhine primate from the late Paleocene (Thanetian) of Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates), [Pattinson et al. 2015](https://doi.org/10.1093/sysbio/syu077)). An alternative would be †_Purgatorius,_ which is described from dental (e.g. UCMP 107406) and tarsal (e.g. UCMP 197509) remains and has a well-constrained age of 66.0-63.4Ma, but is not consistently recovered in crown Primates ([Chester et al. 2015](https://doi.org/10.1073/pnas.1421707112)).
+
+---
+
+**Node 929:** Strepsirrhini | 56.0-33.9Ma\
+**Node calibrated:** The most recent common ancestor of Lorisoidea (_Nycticebus coucang_) and Lemuroidea (_Lemur catta_)\
+**Fossil taxa:** †_Karanisia clarki_ (CGM40265) from the Birket Quaran Formation (Eocene: Priabonian) of Fayûm, Egypt ([Seiffert et al. 2003](https://doi.org/10.1038/nature01489))\
+**Minimum age:** Late Eocene (Priabonian), 33.9Ma\
+**Minimum justification:** The Birket Quaran Formation corresponds to upper Priabonian ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
+**Maximum age:** Late Paleocene (Thanetian), 56.0Ma\
+**Maximum justification:** Bounded by the first appearance of euprimates, represented by †_Altiatlasius koulchii_ (see **Node 918:** Primates), which dates to the late Paleocene at 56.0Ma ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates)), [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
+**Discussion:** This fossil is the oldest-known stem lorisiform or crown strepsirrhine (of uncertain affinities) from the late Eocene (Priabonian) Birket Quaran Formation of Fayûm, Egypt ([Benton et al. 2015](https://doi.org/10.26879/424), [Seiffert et al. 2003](https://doi.org/10.1038/nature01489), [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))
+
+---
+
+**Node 919:** Anthropoidea | 66.0-33.9Ma\
+**Node calibrated:** The most recent common ancestor of Catarrhini (_Homo sapiens_) and Platyrrhini (_Callithrix jacchus_)\
+**Fossil taxa:** †_Catopithecus browni_ (DPC 8701) from the Fayum Depression of Egypt ([Simons 1989](https://doi.org/10.1073/pnas.86.24.9956))\
+**Minimum age:** Late Eocene (Priabonian), 33.9Ma\
+**Minimum justification:** Fayûm Quarry L-41 where †_Catopithecus_ was discovered has been dated to the Priabonian, with an upper bound of 33.9Ma ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
+**Maximum age:** Early Paleocene (Danian), 66.0Ma\
+**Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), the Early Paleocene is set as the maximum age, as there are no definitive crown primates from the Danian and the split must predate the potential anthropoid sister-taxon †_Altiatlasius koulchii_ (see **Node 918:** Primates; [Seiffert et al. 2005](https://doi.org/10.1126/science.1116569)) of 56.0Ma.\
+**Discussion:** This fossil is the oldest-known crown catarrhine from the late Eocene (Priabonian) of Fayûm, Egypt ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))
+
+---
+
+**Node 920:** Catarrhini | 34.0-24.4Ma\
+**Node calibrated:** The most recent common ancestor of Cercopithecoidea (_Macaca fascicularis_) and Hominoidea (_Homo sapiens_)\
+**Fossil taxa:** †_Rukwapithecus fleaglei_ (RRBP 12444A, Ohio University USA) from the Nsungwe Formation, Rukwa Rift Basin, Tanzania ([Stevens et al. 2013](https://doi.org/10.1038/nature12161))\
+**Minimum age:** Late Oligocene (Chattian), 24.44Ma\
+**Minimum justification:** Radiometric dating constrains the Nsungwe Formation to 24.93 ± 0.49Ma ([Roberts et al. 2010](https://doi.org/10.1016/j.jafrearsci.2009.09.002))\
+**Maximum age:** Early Oligocene (Rupelian), 34.0Ma\
+**Maximum justification:** Fossils referred to the stem of Catarrhini that predate the Cercopithecoidea/Hominoidea split are found in the Fayûm beds in Egypt, with the oldest anthropoid primates dated to 33.9–28.4 ± 0.1Ma ([Seiffert et al. 2005](https://doi.org/10.1126/science.1116569), [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103), [Stevens et al. 2013](https://doi.org/10.1038/nature12161))\
+**Discussion:** This fossil is the oldest-known stem hominoid and crown catarrhine, from the Nsungwe Formation, Rukwa Rift Basin, Tanzania ([Roberts et al. 2010](https://doi.org/10.1016/j.jafrearsci.2009.09.002), [Stevens et al. 2013](https://doi.org/10.1038/nature12161), [Benton et al. 2015](https://doi.org/10.26879/424))
 
 ---
 
@@ -159,58 +214,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 916:** Euarchonta | 125.8-61.6Ma\
-**Node calibrated:** The most recent common ancestor of Primata (_Homo sapiens_), Dermoptera (_Cynocephalus volans_), and Scandentia (_Tupaia tana_)\
-**Fossil taxa:** †_Purgatorius mckeeveri_ (UCMP 150021) from the Harley’s Point locality in the Tullock Member of the Fort Union Formation in Montana, USA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050))\
-**Minimum age:** Early Paleocene (Danian), 61.6Ma\
-**Minimum justification:** Specimen is from the Harley’s Point locality in the Tullock Member of the Fort Union Formation, Montana, and has been dated to the Puercan NALMA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050)), which corresponds to the Danian\
-**Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
-**Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
-**Discussion:** As noted by de Vries and Beck ([2023](https://doi.org/10.26879/1249)): "recent phylogenetic analyses specifically intended to resolve euarchontan relationships consistently place _Purgatorius_ and other “plesiadapiforms” within crown Euarchonta, and specifically closer to Primates and Dermoptera than to Scandentia, although the precise affinities of “plesiadapiforms” vary in these analyses." See Chester et al. ([2015](https://doi.org/10.1073/pnas.1421707112)) for an example.
-
----
-
-**Node 918:** Primates | 66.0-56.0Ma\
-**Node calibrated:** The most recent common ancestor of Strepsirrhini (_Lemur catta_) and Haplorhini (_Homo sapiens_)\
-**Fossil taxa:** †_Altiatlasius koulchii_ (THR 141) from the Adrar Mgorn 1 locality in the Jbel Guersif Formation of the Ouarzazate Basin, Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates))\
-**Minimum age:** Late Paleocene (Thanetian), 56.0Ma\
-**Minimum justification:** This formation is dated to the Thanetian, 57.6 ± 1.6Ma, yielding 56.0Ma (reviewed in [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
+**Node 827:** Carnivora | 66.0-37.3Ma\
+**Node calibrated:** The most recent common ancestor of Caniformia (_Vulpes vulpes_) and Feliformia (_Lynx canadensis_)\
+**Fossil taxa:** †_Hesperocyon gregarius_ (SMNH P1899.6) from the Lac Pelletier local fauna of the Cypress Hills Formation (Duchesnean NALMA), Saskatchewan, Canada ([Bryant 1992](https://doi.org/10.1017/S0022336000020850))\
+**Minimum age:** Middle Eocene (Bartonian), 37.3Ma\
+**Minimum justification:** The oldest caniforms, including †_Hesperocyon,_ are known from the early Duchesnean NALMA ([Robinson et al. 2004](http://www.jstor.org/stable/10.7312/wood13040.10)), which corresponds to the Bartonian\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
-**Maximum justification:** Putative stem primates such as plesiadapids, paromomyids, and carpolestids from the Danian without any crown taxa implies a soft maximum age at the base of the Paleocene ([McKenna and Bell 1997](https://cup.columbia.edu/book/classification-of-mammals/9780231110136/), [Kondrashov et al. 2004](https://www.researchgate.net/publication/281111353_REVISED_DISTRIBUTION_OF_CONDYLARTHS_MAMMALIA_EUTHERIA_IN_ASIA), [Benton et al. 2009](https://doi.org/10.1093/oso/9780199535033.001.0001), [Bloch et al. 2007](https://doi.org/10.1073/pnas.0610579104))\
-**Discussion:** This fossil is the earliest-known haplorhine primate from the late Paleocene (Thanetian) of Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates), [Pattinson et al. 2015](https://doi.org/10.1093/sysbio/syu077)). An alternative would be †_Purgatorius,_ which is described from dental (e.g. UCMP 107406) and tarsal (e.g. UCMP 197509) remains and has a well-constrained age of 66.0-63.4Ma, but is not consistently recovered in crown Primates ([Chester et al. 2015](https://doi.org/10.1073/pnas.1421707112)).
-
----
-
-**Node 929:** Strepsirrhini | 56.0-33.9Ma\
-**Node calibrated:** The most recent common ancestor of Lorisoidea (_Nycticebus coucang_) and Lemuroidea (_Lemur catta_)\
-**Fossil taxa:** †_Karanisia clarki_ (CGM40265) from the Birket Quaran Formation (Eocene: Priabonian) of Fayûm, Egypt ([Seiffert et al. 2003](https://doi.org/10.1038/nature01489))\
-**Minimum age:** Late Eocene (Priabonian), 33.9Ma\
-**Minimum justification:** The Birket Quaran Formation corresponds to upper Priabonian ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
-**Maximum age:** Late Paleocene (Thanetian), 56.0Ma\
-**Maximum justification:** Bounded by the first appearance of euprimates, represented by †_Altiatlasius koulchii_ (see **Node 918:** Primates), which dates to the late Paleocene at 56.0Ma ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates)), [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
-**Discussion:** This fossil is the oldest-known stem lorisiform or crown strepsirrhine (of uncertain affinities) from the late Eocene (Priabonian) Birket Quaran Formation of Fayûm, Egypt ([Benton et al. 2015](https://doi.org/10.26879/424), [Seiffert et al. 2003](https://doi.org/10.1038/nature01489), [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))
-
----
-
-**Node 919:** Anthropoidea | 66.0-33.9Ma\
-**Node calibrated:** The most recent common ancestor of Catarrhini (_Homo sapiens_) and Platyrrhini (_Callithrix jacchus_)\
-**Fossil taxa:** †_Catopithecus browni_ (DPC 8701) from the Fayum Depression of Egypt ([Simons 1989](https://doi.org/10.1073/pnas.86.24.9956))\
-**Minimum age:** Late Eocene (Priabonian), 33.9Ma\
-**Minimum justification:** Fayûm Quarry L-41 where †_Catopithecus_ was discovered has been dated to the Priabonian, with an upper bound of 33.9Ma ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
-**Maximum age:** Early Paleocene (Danian), 66.0Ma\
-**Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), the Early Paleocene is set as the maximum age, as there are no definitive crown primates from the Danian and the split must predate the potential anthropoid sister-taxon †_Altiatlasius koulchii_ (see **Node 918:** Primates; [Seiffert et al. 2005](https://doi.org/10.1126/science.1116569)) of 56.0Ma.\
-**Discussion:** This fossil is the oldest-known crown catarrhine from the late Eocene (Priabonian) of Fayûm, Egypt ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))
-
----
-
-**Node 920:** Catarrhini | 34.0-24.4Ma\
-**Node calibrated:** The most recent common ancestor of Cercopithecoidea (_Macaca fascicularis_) and Hominoidea (_Homo sapiens_)\
-**Fossil taxa:** †_Rukwapithecus fleaglei_ (RRBP 12444A, Ohio University USA) from the Nsungwe Formation, Rukwa Rift Basin, Tanzania ([Stevens et al. 2013](https://doi.org/10.1038/nature12161))\
-**Minimum age:** Late Oligocene (Chattian), 24.44Ma\
-**Minimum justification:** Radiometric dating constrains the Nsungwe Formation to 24.93 ± 0.49Ma ([Roberts et al. 2010](https://doi.org/10.1016/j.jafrearsci.2009.09.002))\
-**Maximum age:** Early Oligocene (Rupelian), 34.0Ma\
-**Maximum justification:** Fossils referred to the stem of Catarrhini that predate the Cercopithecoidea/Hominoidea split are found in the Fayûm beds in Egypt, with the oldest anthropoid primates dated to 33.9–28.4 ± 0.1Ma ([Seiffert et al. 2005](https://doi.org/10.1126/science.1116569), [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103), [Stevens et al. 2013](https://doi.org/10.1038/nature12161))\
-**Discussion:** This fossil is the oldest-known stem hominoid and crown catarrhine, from the Nsungwe Formation, Rukwa Rift Basin, Tanzania ([Roberts et al. 2010](https://doi.org/10.1016/j.jafrearsci.2009.09.002), [Stevens et al. 2013](https://doi.org/10.1038/nature12161), [Benton et al. 2015](https://doi.org/10.26879/424))
+**Maximum justification:** The earliest known stem carnivorans date to the early Paleocene ([Fox et al. 2010](https://doi.org/10.1666/09-165.1)), which we use to set the maximum at 66.04Ma ± 0.4 Myr, thus 66.0Ma\
+**Discussion:** This fossil is the oldest-known stem caniform from the middle Eocene (Bartonian) of Saskatchewan, Canada ([Wesley-Hunt and Flynn 2005](https://doi.org/10.1017/S1477201904001518), [Benton et al. 2015](https://doi.org/10.26879/424))
 
 ---
 
@@ -222,17 +233,6 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), we use the lack of Paleocene crown cetartiodactyls to suggest a plausible soft maximum age of 66.04 ± 0.4Ma, thus 66.0Ma\
 **Discussion:** This fossil is the oldest-known stem cetacean from the early Eocene (Ypresian) of India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464), [O’Leary and Uhen 1999](https://doi.org/10.1017/S0094837300020376), [Benton et al. 2015](https://doi.org/10.26879/424))
-
----
-
-**Node 827:** Carnivora | 66.0-37.3Ma\
-**Node calibrated:** The most recent common ancestor of Caniformia (_Vulpes vulpes_) and Feliformia (_Lynx canadensis_)\
-**Fossil taxa:** †_Hesperocyon gregarius_ (SMNH P1899.6) from the Lac Pelletier local fauna of the Cypress Hills Formation (Duchesnean NALMA), Saskatchewan, Canada ([Bryant 1992](https://doi.org/10.1017/S0022336000020850))\
-**Minimum age:** Middle Eocene (Bartonian), 37.3Ma\
-**Minimum justification:** The oldest caniforms, including †_Hesperocyon,_ are known from the early Duchesnean NALMA ([Robinson et al. 2004](http://www.jstor.org/stable/10.7312/wood13040.10)), which corresponds to the Bartonian\
-**Maximum age:** Early Paleocene (Danian), 66.0Ma\
-**Maximum justification:** The earliest known stem carnivorans date to the early Paleocene ([Fox et al. 2010](https://doi.org/10.1666/09-165.1)), which we use to set the maximum at 66.04Ma ± 0.4 Myr, thus 66.0Ma\
-**Discussion:** This fossil is the oldest-known stem caniform from the middle Eocene (Bartonian) of Saskatchewan, Canada ([Wesley-Hunt and Flynn 2005](https://doi.org/10.1017/S1477201904001518), [Benton et al. 2015](https://doi.org/10.26879/424))
 
 ## Considered but not included:
 
