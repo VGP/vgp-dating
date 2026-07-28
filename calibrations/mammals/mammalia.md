@@ -51,9 +51,9 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 **Node 785:** Placentalia | 125.8-61.6Ma\
 **Node calibrated:** The most recent common ancestor of Atlantogenata (_Dasypus novemcinctus_) and Boroeutheria (_Tupaia tana_)\
-**Fossil taxa:** †_Ravenictis krausei_ (UALVP 31175) from the Ravenscrag Formation of the early Puercan of Saskatchewan, Canada ([Fox & Youzwyshyn 1994](https://doi.org/10.1080/02724634.1994.10011566))\
+**Fossil taxa:** †_Ravenictis krausei_ (UALVP 31175) from the Ravenscrag Formation of the early Puercan of Saskatchewan, Canada ([Fox and Youzwyshyn 1994](https://doi.org/10.1080/02724634.1994.10011566))\
 **Minimum age:** Early Paleocene (Danian), 61.6Ma\
-**Minimum justification:** The Ravenscrag Formation is from the early Puercan NALMA, corresponding to the Danian age of the Paleocene, the top of which corresponds to 61.7Ma ± 0.1 Myr, thus 61.6Ma ([Fox & Youzwyshyn 1994](https://doi.org/10.1080/02724634.1994.10011566))\
+**Minimum justification:** The Ravenscrag Formation is from the early Puercan NALMA, corresponding to the Danian age of the Paleocene, the top of which corresponds to 61.7Ma ± 0.1 Myr, thus 61.6Ma ([Fox and Youzwyshyn 1994](https://doi.org/10.1080/02724634.1994.10011566))\
 **Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
 **Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members. A soft-maximum in the Jurassic for crown placental clades (cf. [Benton et al. 2015](https://doi.org/10.26879/424)) is arguably more conservative, as such soft constraints do not penalize truly ancient crown placental divergences as much. However, given methodological difficulties arising from broad prior distributions that can artifactually favor older ages ([Budd and Mann 2024](https://doi.org/10.1093/sysbio/syad057)), we instead use tighter soft maxima derived from the diversity of lower Cretaceous mammalian faunae (e.g., from the Jehol biota), which document a variety of therian species but no crown placentals. Given the nature of "soft" maxima, divergence estimates older than 126Ma are still possible, but 126Ma better reflects the negative information present in Lower Cretaceous localities. In the case of crown placentals, the fossil record suggests that, at this time, absence of evidence really does indicate evidence of absence.\
 **Discussion:** This fossil is a stem carnivoran from the early Paleocene (Danian) of Ravenscrag Formation in Saskatchewan, Canada ([Benton et al. 2015](https://doi.org/10.26879/424), [Fox et al. 2010](https://doi.org/10.1666/09-165.1)), and the oldest-known crown placentalian.
@@ -73,7 +73,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 **Node 936:** Xenarthra | 125.8-47.6Ma\
 **Node calibrated:** The most recent common ancestor of Cingulata (_Dasypus novemcinctus_) and Folivora (_Choloepus didactylus_)\
-**Fossil taxa:** †_Riostegotherium yanei_ (MCN-PV 1774) from the Itaboraí Formation of the Itaboraian land-mammal age (middle Paleocene) of Rio de Janeiro, Brazil ([Oliveira and Bergqvuist 1998](https://peapaleontologica.org.ar/index.php/peapa/article/view/174))\
+**Fossil taxa:** †_Riostegotherium yanei_ (MCN-PV 1774) from the Itaboraí Formation of the Itaboraian land-mammal age (middle Paleocene) of Rio de Janeiro, Brazil ([Oliveira and Bergqvist 1998](https://peapaleontologica.org.ar/index.php/peapa/article/view/174))\
 **Minimum age:** Early Eocene (Ypresian), 47.6Ma\
 **Minimum justification:** The Itaboraí formation dates to the Ypresian of the early Eocene ([Woodburne et al. 2014](https://doi.org/10.1007/s10914-012-9222-1)), the top of which is 47.8Ma, ± 0.2 Myr, thus 47.6Ma ([Benton et al. 2015](https://doi.org/10.26879/424))\
 **Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
@@ -97,10 +97,10 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Node calibrated:** The most recent common ancestor of Leporidae (_Oryctolagus cuniculus_) and Ochotonidae (_Ochotona princeps_).\
 **Fossil taxa:** Unnamed leporid fossils (GU/RSR/VAS 711) from the early Eocene Cambay Shales at the Vastan lignite mine, Gujarat, India ([Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661))\
 **Minimum age:** Early Eocene (Ypresian), 47.6Ma\
-**Minimum justification:** The Cambay Shale are dated to the middle Ypresian ([Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)), the top of which dates to 47.8Ma ± 0.2 Myr, thus 47.6Ma\
+**Minimum justification:** The Cambay Shales are dated to the middle Ypresian ([Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)), the top of which dates to 47.8Ma ± 0.2 Myr, thus 47.6Ma\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
-**Maximum justification:** Based on the occurrences of basal Glires, including †_Mimotona_ ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [de Vries & Beck, 2023](https://doi.org/10.26879/1249)) and †_Heomys_ ([Li & Ting, 1983](https://doi.org/10.5962/p.228600))\
-**Discussion:** These unnamed stem leporid fossils are the oldest-known crown lagomorphs, from the Vastan Mines (Cambay Shale) of West-Central India, dated to the early Eocene (Ypresian) ([Benton et al. 2015](https://doi.org/10.26879/424), [Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)). The oldest known stem Lagomorphs (e.g., †_Heomys_) are known from the lower Paleocene ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [de Vries & Beck, 2023](https://doi.org/10.26879/1249)).
+**Maximum justification:** Based on the occurrences of basal Glires, including †_Mimotona_ ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [de Vries and Beck, 2023](https://doi.org/10.26879/1249)) and †_Heomys_ ([Li and Ting, 1983](https://doi.org/10.5962/p.228600))\
+**Discussion:** These unnamed stem leporid fossils are the oldest-known crown lagomorphs, from the Vastan Mines (Cambay Shale) of West-Central India, dated to the early Eocene (Ypresian) ([Benton et al. 2015](https://doi.org/10.26879/424), [Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)). The oldest known stem Lagomorphs (e.g., †_Heomys_) are known from the lower Paleocene ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [de Vries and Beck, 2023](https://doi.org/10.26879/1249)).
 
 ---
 
@@ -110,8 +110,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Middle Eocene (Lutetian), 41.03Ma\
 **Minimum justification:** The taxon is known from Late Eocene deposits at West Canyon Creek, Wyoming, dated to the Duchesnean NALMA ([Heaton 1996](https://doi.org/10.1017/CBO9780511665431.019)), and Hough Draw, Montana, dated to the late Uintan (Ui3) NALMA, corresponding to the Lutetian ([Tabrum et al. 1996](https://doi.org/10.1017/CBO9780511665431.015))\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
-**Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries & Beck, 2023](https://doi.org/10.26879/1249))\
-**Discussion:** †_Ischyromys_ sp. is a stem member of Sciuromorpha nested well within crown Rodentia ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387)), with the oldest specimens known from the Uintan (Ui3) NALMA (Lutetian) of Montana, USA (Hough Draw, [Tabrum et al. 1996](https://doi.org/10.1017/CBO9780511665431.015)). Older minimum ages for crown Rodentia would be justified if future studies sampling both extant and fossil species support the placements of taxa such as †_Tamquammys_ close to Ctenohystrica ([Marivaux & Boivin 2019](https://doi.org/10.1093/zoolinnean/zlz048)) or †_Franimys_ close to Sciuridae ([Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)). Benton et al. ([2015](https://doi.org/10.26879/424)) advocated for using †_Paramys atavus_ (YPM-PU 14200) to calibrate crown Rodentia, citing several papers that placed †_Paramys_ in Sciuromorpha, within the crown group ([Korth 1984](https://doi.org/10.5962/p.228603), [McKenna and Bell 1997](https://cup.columbia.edu/book/classification-of-mammals/9780231110136/), [Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)). However, †_“Paramys” atavus_ is likely better assigned as †_Acritoparamys atavus_ ([Ivy 1990](https://hdl.handle.net/2027.42/48538)). More recent work that did not sample †_A. atavus_ but did code †_Paramys_ sp, †_P. delicatus,_ and †_P. copei,_ as well as †_Reithroparamys_ and older Asian Paleocene species such as †_Tribosphenomys,_ found that these taxa are stem rather than crown rodents ([Meng et al. 2003](https://doi.org/10.1206/0003-0090(2003)275%3C0001:TOORMG%3E2.0.CO;2), [Asher et al. 2005](https://doi.org/10.1126/science.1107808), [2019](https://doi.org/10.1098/rsos.190387)). While Vianey-Laud and Marivaux ([2021](https://dx.doi.org/10.18563/pv.44.2.e2)) reconstruct †_Acritoparamys_ as falling within crown Rodentia, the analysis includes no extant taxa. We therefore suggest †_Ischyromys_ as a younger and more conservative calibration for crown rodents at present.
+**Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries and Beck, 2023](https://doi.org/10.26879/1249))\
+**Discussion:** †_Ischyromys_ sp. is a stem member of Sciuromorpha nested well within crown Rodentia ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387)), with the oldest specimens known from the Uintan (Ui3) NALMA (Lutetian) of Montana, USA (Hough Draw, [Tabrum et al. 1996](https://doi.org/10.1017/CBO9780511665431.015)). Older minimum ages for crown Rodentia would be justified if future studies sampling both extant and fossil species support the placements of taxa such as †_Tamquammys_ close to Ctenohystrica ([Marivaux and Boivin 2019](https://doi.org/10.1093/zoolinnean/zlz048)) or †_Franimys_ close to Sciuridae ([Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)). Benton et al. ([2015](https://doi.org/10.26879/424)) advocated for using †_Paramys atavus_ (YPM-PU 14200) to calibrate crown Rodentia, citing several papers that placed †_Paramys_ in Sciuromorpha, within the crown group ([Korth 1984](https://doi.org/10.5962/p.228603), [McKenna and Bell 1997](https://cup.columbia.edu/book/classification-of-mammals/9780231110136/), [Marivaux et al. 2004](https://doi.org/10.1111/j.1096-3642.2004.00131.x)). However, †_“Paramys” atavus_ is likely better assigned as †_Acritoparamys atavus_ ([Ivy 1990](https://hdl.handle.net/2027.42/48538)). More recent work that did not sample †_A. atavus_ but did code †_Paramys_ sp, †_P. delicatus,_ and †_P. copei,_ as well as †_Reithroparamys_ and older Asian Paleocene species such as †_Tribosphenomys,_ found that these taxa are stem rather than crown rodents ([Meng et al. 2003](https://doi.org/10.1206/0003-0090(2003)275%3C0001:TOORMG%3E2.0.CO;2), [Asher et al. 2005](https://doi.org/10.1126/science.1107808), [2019](https://doi.org/10.1098/rsos.190387)). While Vianey-Liaud and Marivaux ([2021](https://doi.org/10.18563/pv.44.2.e2)) reconstruct †_Acritoparamys_ as falling within crown Rodentia, the analysis includes no extant taxa. We therefore suggest †_Ischyromys_ as a younger and more conservative calibration for crown rodents at present.
 
 ---
 
@@ -127,19 +127,19 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 ---
 
 **Node 906:** Castorimorpha | 66.0-37.7Ma\
-**Node calibrated:** The most recent common ancestor of Geomyoidea (_Thomomys bottae_) from Castoroidea (_Castor canadensis_)\
+**Node calibrated:** The most recent common ancestor of Geomyoidea (_Thomomys bottae_) and Castoroidea (_Castor canadensis_)\
 **Fossil taxa:** †_Heliscomys walshi_ (LACM 153717) from the Sespe Formation of California, USA ([Kelly 2009](https://rivp-paludicola.org/wp-content/uploads/2018/05/7-3-kelly-2009.pdf))\
 **Minimum age:** Middle Eocene (Bartonian), 37.71Ma\
 **Minimum justification:** Known from the Simi Valley Landfill Local Fauna, middle Eocene (Duchesnean NALMA, 38-37.8Ma), corresponding to the top of the Bartonian (37.71Ma)\
 **Maximum age:** Danian, 66.0Ma\
-**Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries & Beck, 2023](https://doi.org/10.26879/1249))\
+**Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries and Beck, 2023](https://doi.org/10.26879/1249))\
 **Discussion:** The oldest-known crown castorimorphan. More complete cranioskeletal material known from †_Heliscomys ostranderi_ (Chadronian) in an analysis with morphological and molecular data from fossil and living taxa supports an independent Eocene record for geomyoids ([Asher et al. 2019:fig. 4](https://doi.org/10.1098/rsos.190387)), with 0.95 pp support for †_Heliscomys_ + crown geomyoids to the exclusion of _Castor_, and weaker support (0.5 pp) for an older taxon (†_Paradjidaumo_ from the Uintan NALMA) with geomyoids.
 
 ---
 
 **Node 896:** Stem Murinae | 18.3-16.0Ma\
 **Node calibrated:** The most recent common ancestor of Murinae (_Mus musculus_) and Deomyinae (_Acomys russatus_)\
-**Fossil taxa:** †_Potwarmus primitivus_ (YGSP 591) from the from lower and middle Siwalik deposits in the Potwar Plateau of Pakistan ([Wessels et al. 1982](https://ubbern.swisscovery.slsp.ch/permalink/41SLSP_UBE/ar3q4e/alma99118009708505511), [Lindsey 1988](https://doi.org/10.18563/pv.18.2.95-154))\
+**Fossil taxa:** †_Potwarmus primitivus_ (YGSP 591) from the lower and middle Siwalik deposits in the Potwar Plateau of Pakistan ([Wessels et al. 1982](https://ubbern.swisscovery.slsp.ch/permalink/41SLSP_UBE/ar3q4e/alma99118009708505511), [Lindsay 1988](https://doi.org/10.18563/pv.18.2.95-154))\
 **Minimum age:** Middle Miocene (Langhian), 15.98Ma\
 **Minimum justification:** From the upper age of the locality (Burdigalian Marine stage)\
 **Maximum age:** Early Miocene (Burdigalian), 18.3Ma\
@@ -218,7 +218,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Node calibrated:** Last common ancestor of Tylopoda (_Camelus dromedarius_) and Ruminantia (_Muntiacus reevesi_)\
 **Fossil taxa:** †_Himalayacetus subathuensis_ (RUSB 2003) from the Subathu Formation (zone IIIc), India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464))\
 **Minimum age:** Early Eocene (Ypresian), 52.4Ma\
-**Minimum justification:** Specimen found in Subathu Formation in Pakistan ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464)). As per Benton et al. ([2015](https://doi.org/10.26879/424)), it co-occurs with the foraminiferan †_Nummulites atacicus,_ which is distributed across nanoplankton zones 11-12 ([Martín-Martín et al. 2001](https://doi.org/10.1046%2Fj.0950-091x.2001.00158.x)), which permits setting the minimum age to 52.4Ma instead of using the top of the Ypresian stage (47.8Ma)\
+**Minimum justification:** The specimen was found in the Subathu Formation in India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464)). As per Benton et al. ([2015](https://doi.org/10.26879/424)), it co-occurs with the foraminiferan †_Nummulites atacicus,_ which is distributed across nanoplankton zones 11-12 ([Martín-Martín et al. 2001](https://doi.org/10.1046%2Fj.0950-091x.2001.00158.x)), which permits setting the minimum age to 52.4Ma instead of using the top of the Ypresian stage (47.8Ma)\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), we use the lack of Paleocene crown cetartiodactyls to suggest a plausible soft maximum age of 66.04 ± 0.4Ma, thus 66.0Ma\
 **Discussion:** This fossil is the oldest-known stem cetacean from the early Eocene (Ypresian) of India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464), [O’Leary and Uhen 1999](https://doi.org/10.1017/S0094837300020376), [Benton et al. 2015](https://doi.org/10.26879/424))
@@ -242,7 +242,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Early Paleocene (Danian), 62.278Ma\
 **Minimum justification:** Minimum age of Wanghudun Formation ([Wang et al. 2019](https://doi.org/10.1007/s11430-018-9305-y))\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
-**Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries & Beck, 2023](https://doi.org/10.26879/1249))\
+**Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries and Beck, 2023](https://doi.org/10.26879/1249))\
 **Discussion:** The oldest-known crown gliran †_Heomys_ is known from the lower part of the Upper Member of the Wanghudun Formation in Anhui Province, China, and is among the oldest members of Simplicidentata ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [Rankin et al. 2020](https://doi.org/10.26879/1049)), a group which includes Rodentia and is characterised by the presence of a single pair of gliriform upper incisors, a synapomorphic feature shared by all rodents ([Li et al. 2016](https://www.vertpala.ac.cn/EN/Y2016/V54/I2/121); [Fostowicz-Frelik, 2017](https://doi.org/10.1007/978-3-319-61569-1_11), [2020](https://doi.org/10.1007/978-3-030-57246-4_5)).
 
 ## References
@@ -251,7 +251,7 @@ Aghová, T., Kimura, Y., Bryja, J., Dobigny, G., Granjon, L. and Kergoat, G.J., 
 
 Álvarez-Carretero, S., Tamuri, A.U., Battini, M., Nascimento, F.F., Carlisle, E., Asher, R.J., Yang, Z., Donoghue, P.C., and Dos Reis, M., 2022. A species-level timeline of mammal evolution integrating phylogenomic data. Nature, 602(7896), pp.263-267.
 
-Antoine, P.O., Marivaux, L., Croft, D.A., Billet, G., Ganerød, M., Jaramillo, C., Martin, T., Orliac, M.J., Tejada, J., Altamirano, A.J. and Duranthon, F., 2011. Middle Eocene rodents from Peruvian Amazonia reveal the pattern and timing of caviomorph origins and biogeography. Proceedings of the Royal Society B: Biological Sciences, 279(1732), p.1319.
+Antoine, P.O., Marivaux, L., Croft, D.A., Billet, G., Ganerød, M., Jaramillo, C., Martin, T., Orliac, M.J., Tejada, J., Altamirano, A.J. and Duranthon, F., 2012. Middle Eocene rodents from Peruvian Amazonia reveal the pattern and timing of caviomorph origins and biogeography. Proceedings of the Royal Society B: Biological Sciences, 279(1732), p.1319.
 
 Archer, M., Jenkins Jr, F.A., Hand, S.J., Murray, P. and Godthelp, H., 1992. Description of the skull and non-vestigial dentition of a Miocene platypus (Obdurodon dicksoni n. sp.) from Riversleigh, Australia, and the problem of monotreme origins. pp. 15–27 In: Platypus and echidnas, Royal Zoological Society of New South Wales, Sydney.
 
@@ -271,7 +271,7 @@ Benton, M.J., Donoghue, P.C. and Asher, R.J., 2009. Calibrating and constraining
 
 Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18.1.1FC; 1-106.
 
-Bergqvist, L. P., Abrantes, E. A. L., & Avila, L. D. S. (2004). The Xenarthra (Mammalia) of São José de Itaboraí Basin (Upper Paleocene, Itaboraian), Rio de Janeiro, Brazil. Geodiversitas, 26, 323–337.
+Bergqvist, L. P., Abrantes, E. A. L., and Avila, L. D. S. (2004). The Xenarthra (Mammalia) of São José de Itaboraí Basin (Upper Paleocene, Itaboraian), Rio de Janeiro, Brazil. Geodiversitas, 26, 323–337.
 
 Bertrand, O.C., Flynn, J.J., Croft, D.A. and Wyss, A.R., 2012. Two new taxa (Caviomorpha, Rodentia) from the early Oligocene Tinguiririca fauna (Chile). American Museum Novitates, 2012(3750), pp.1-36.
 
@@ -337,7 +337,7 @@ Kimura, Y., Jacobs, L.L., Cerling, T.E., Uno, K.T., Ferguson, K.M., Flynn, L.J. 
 
 Kimura, Y., Hawkins, M.T., McDonough, M.M., Jacobs, L.L. and Flynn, L.J., 2015. Corrected placement of Mus-Rattus fossil calibration forces precision in the molecular tree of rodents. Scientific Reports, 5(1), p.14444.
 
-Kondrashov, P.E. and Lucas, S.G.2004. Revised distribution of condylarths (Mammalia, Eutheria) in Asia. New Mexico Museum of Natural History and Science Bulletin, 26:209-214.
+Kondrashov, P.E. and Lucas, S.G. 2004. Revised distribution of condylarths (Mammalia, Eutheria) in Asia. New Mexico Museum of Natural History and Science Bulletin, 26:209-214.
 
 Korth, W.W., 1984. Earliest Tertiary evolution and radiation of rodents in North America. Bulletin of Carnegie Museum of Natural History, 24, pp.1-71.
 
@@ -349,9 +349,11 @@ Li, C.K., 1977. Paleocene eurymyloids (Anagalida, Mammalia) of Qianshan, Anhui. 
 
 Li, C.K., and Ting, S.Y. 1983. The paleogene mammals of china. Bulletin Carnegie Mus. Nat. Hist., 21, pp.1-93.
 
-Li C.K., Wang, Y.Q., Zhang, Z.Q., Mao, F.Y., and Meng, J. 2016 A new mimotonidan Mina hui (Mammalia, Glires) from the Middle Paleocene of Qianshan, Anhui, China. Vertebrata PalAsiatica. 2016;54(2): 121–136.
+Li C.K., Wang, Y.Q., Zhang, Z.Q., Mao, F.Y., and Meng, J. 2016. A new mimotonidan Mina hui (Mammalia, Glires) from the Middle Paleocene of Qianshan, Anhui, China. Vertebrata PalAsiatica. 2016;54(2): 121–136.
 
-Lindsey, E.H. 1988. Cricetid rodents from Siwalik deposits near Chinji village. Part I: Megacricetodontinae, Myocricetodontinae and Dendromurinae. PalaeoVertebrata 18 (2): 95-154.
+Lindsay, E.H. 1988. Cricetid rodents from Siwalik deposits near Chinji village. Part I: Megacricetodontinae, Myocricetodontinae and Dendromurinae. PalaeoVertebrata 18 (2): 95-154.
+
+López-Antoñanzas, R., Simões, T.R., Condamine, F.L., Dirnberger, M. and Peláez-Campomanes, P., 2024. Bayesian tip-dated timeline for diversification and major biogeographic events in Muroidea (Rodentia), the largest mammalian radiation. BMC Biology, 22(1), p.270.
 
 Luo, Z.X., Crompton, A.W. and Sun, A.L., 2001. A new mammaliaform from the early Jurassic and evolution of mammalian characteristics. Science, 292(5521), pp.1535-1540.
 
@@ -385,7 +387,7 @@ Phillips, M.J., Bennett, T.H. and Lee, M.S., 2009. Molecules, morphology, and ec
 
 Phillips, M.J. 2014. Four mammal fossil calibrations: balancing competing palaeontological and molecular considerations. Palaeontologia Electronica 18.1.5FC; 1-16.
 
-Rankin, A.H., Emry, R.J., and Asher, R.J. 2020. Anatomical sciuromorphy in "protrogomorph" rodents. Palaeontologica Electronica, 23(2):a25.
+Rankin, A.H., Emry, R.J., and Asher, R.J. 2020. Anatomical sciuromorphy in "protrogomorph" rodents. Palaeontologia Electronica, 23(2):a25.
 
 Ravel, A., Marivaux, L., Tabuce, R., Adaci, M., Mahboubi, M., Mebrouk, F. and Bensalah, M., 2011. The oldest African bat from the early Eocene of El Kohol (Algeria). Naturwissenschaften, 98(5), pp.397-405.
 
