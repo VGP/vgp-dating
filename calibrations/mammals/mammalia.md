@@ -104,7 +104,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 847:** Vespertilionoidea | \
+**Node 847:** Vespertilionoidea | 58.9–37.8Ma\
 **Node calibrated:** The most recent common ancestor of Molossidae (_Molossus nigricans_) and Miniopteridae (_Miniopterus schreibersii_)\
 **Fossil taxa:** †_Cuvierimops parisiensis_ (LEB1_CupprA.1.7, left M1/ [Plate 2f], from the collections of UM2) from the late Eocene Quercy phosphorites France ([Maitre 2014](https://doi.org/10.1007/s13358-014-0069-3))\
 **Minimum age:** Late Eocene (Priabonian), 37.8Ma\
@@ -116,7 +116,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 ---
 
 **Node 869:**  Stem Noctilionoidea | \
-**Node calibrated:** \
+**Node calibrated:** The most recent common ancestor of Emballonuroidea (_Rhynchonycteris naso_: Emballonuridae) and Phyllostomidae (_Phyllostomus discolor_: Phyllostomidae)\
 **Fossil taxa:** †_Koopmanycteris palaeomormoops_ \
 **Minimum age:** \
 **Minimum justification:** \
