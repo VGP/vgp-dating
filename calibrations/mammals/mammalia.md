@@ -82,14 +82,19 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 845:** Chiroptera | 58.9-45.0Ma\
+**Node 845:** Chiroptera | 58.9-46.3Ma\
 **Node calibrated:** The most recent common ancestor of Yinpterochiroptera (_Rousettus aegyptiacus_) and Yangochiroptera (_Rhynchonycteris naso_)\
-**Fossil taxa:** †_Tanzanycteris mannardi_ (TNM MP-207) from the middle Eocene lake sediments of the Mahenge formation, Tanzania ([Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm))\
-**Minimum age:** Middle Eocene (Lutetian), 45.0Ma\
-**Minimum justification:** Age estimates using 206Pb/238U dating and sedimentary rate analysis put the lacustrine Mahenge formation at 45.83Ma ± 1.1 Myr and the fossil itself at a lower bound of 45.0Ma ([Harrison et al. 2001](https://doi.org/10.1007/978-1-4615-1271-4_2))\
+**Fossil taxa:** †_Tachypteron franzeni_ (Institut Royal des Sciences Naturelles de Belgique, Bruxelles, specimen BE 4-119a+b) from the Grube Messel oil shale, near Darmstadt, Germany ([Storch et al. 2002](https://doi.org/10.1007/BF02989856))\
+**Minimum age:** Middle Eocene (Lutetian: MP11), 48.11Ma\
+**Minimum justification:** \
 **Maximum age:** Late Paleocene (Thanetian), 58.9Ma\
 **Maximum justification:** Following Phillips ([2014](https://doi.org/10.26879/490)), we use the base of the Thanetian as the upper bound to be conservative regarding stem bats that are from very close to the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0)).\
-**Discussion:** This fossil is the oldest-known stem member of Rhinolophoidea within Yinpterochiroptera (and therefore the oldest-known crown chiropteran), from the middle Eocene (Lutetian) of Tanzania in the Mahenge formation ([Phillips 2014](https://doi.org/10.26879/490), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Ypresian †_Archaeonycteris praecursor_ as the oldest crown bat, but only for majority-rule consensus approaches, and only for trees not rooted on _Sorex_. The oldest stem bat in their analyses, †_Tachypteron,_ is dated to the Lutetian ([Lenz et al. 2015](https://doi.org/10.1007/s00531-014-1126-2)), supporting a minimum age based on †_Tanzanycteris_. 
+**Discussion:** 
+
+
+Another candidate is †_Tanzanycteris mannardi_ (TNM MP-207) from the middle Eocene lake sediments of the Mahenge formation, Tanzania ([Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). This fossil has been considered the oldest-known stem member of Rhinolophoidea within Yinpterochiroptera, and therefore the oldest-known crown chiropteran ([Phillips 2014](https://doi.org/10.26879/490), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). Age estimates using 206Pb/238U dating and sedimentary rate analysis put the lacustrine Mahenge formation at 45.83Ma ± 1.1 Myr and the fossil itself at a lower bound of 45.0Ma ([Harrison et al. 2001](https://doi.org/10.1007/978-1-4615-1271-4_2)). 
+
+Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Ypresian †_Archaeonycteris praecursor_ as the oldest stem bat, but only for majority-rule consensus approaches, and only for trees not rooted on _Sorex_. The oldest crown bat in their analyses, †_Tachypteron,_ is dated to the Lutetian ([Lenz et al. 2015](https://doi.org/10.1007/s00531-014-1126-2)), supporting a minimum age based on †_Tanzanycteris_. 
 
 ---
 
@@ -408,6 +413,8 @@ Sigé, B., Jaeger, J.J., Sudre, J. and Vianey-Liaud, M., 1990. Altiatlasius koul
 Simons, E.L., 1989. Description of two genera and species of late Eocene Anthropoidea from Egypt. Proceedings of the National Academy of Sciences, 86(24), pp.9956-9960.
 
 Stevens, N.J., Seiffert, E.R., O'Connor, P.M., Roberts, E.M., Schmitz, M.D., Krause, C., Gorscak, E., Ngasala, S., Hieronymus, T.L. and Temu, J., 2013. Palaeontological evidence for an Oligocene divergence between Old World monkeys and apes. Nature, 497(7451), pp.611-615.
+
+Storch, G., Sigé, B. and Habersetzer, J., 2002. Tachypteron franzeni n. gen., n. sp., earliest emballonurid bat from the Middle Eocene of Messel (Mammalia, Chiroptera). Paläontologische Zeitschrift, 76(2), pp.189-199.
 
 Tabrum, A.R., Prothero, D.R., and Garcia, D. 1996. 14. Magnetostratigraphy and biostratigraphy of the Eocene-Oligocene transition, southwestern Montana. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-Oligocene Transition in North America. Cambridge University Press, pp. 278-311.
 
