@@ -162,7 +162,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **936:** Xenarthra: 47.6–126.0Ma\
 -Based on the oldest-known stem cingulate and crown xenarthran †_Riostegotherium yanei_ from the Ypresian of the early Eocene.
 
-**845:** Chiroptera: 47.9–58.9Ma\
+**845:** Chiroptera: 47.9–66.0Ma\
 -Based on the oldest-known crown chiropteran †_Tachypteron franzeni_ from the Lutetian of the middle Eocene.
 
 **916:** Euarchonta: 61.6–126.0Ma\
