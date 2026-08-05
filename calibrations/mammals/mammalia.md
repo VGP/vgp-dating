@@ -115,14 +115,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 869:**  Stem Noctilionoidea | \
-**Node calibrated:** The most recent common ancestor of Emballonuroidea (_Rhynchonycteris naso_: Emballonuridae) and Phyllostomidae (_Phyllostomus discolor_: Phyllostomidae)\
-**Fossil taxa:** †_Koopmanycteris palaeomormoops_ \
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node 869:**  Stem Noctilionoidea | 58.9–26.0Ma\
+**Node calibrated:** The most recent common ancestor of Emballonuroidea (_Rhynchonycteris naso_: Emballonuridae) and Noctilionoidea (_Phyllostomus discolor_: Phyllostomidae)\
+**Fossil taxa:** †_Koopmanycteris palaeomormoops_ (UF 157765) from Brooksville 2 LF, early Arikareean NALMA, Hernando County, Florida, USA ([Morgan et al. 2019](https://doi.org/10.1206/0003-0090.434.1.1))\
+**Minimum age:** Late Oligocene (Chattian stage: Arikareean NALMA), 26Ma\
+**Minimum justification:** As noted by Morgan et al. ([2019](https://doi.org/10.1206/0003-0090.434.1.1)): "similarity between the chiropteran faunas of the Whitneyan I-75 LF and the Brooksville 2 LF supports an early Arikareean age for Brooksville, between 26 and 28 Ma" (see also [Hayes 2000](https://doi.org/10.58782/flmnh.isca2513))\
+**Maximum age:** Late Paleocene (Thanetian), 58.9Ma\
+**Maximum justification:** We adapt the suggestion of Phillips ([2014](https://doi.org/10.26879/490)), using the base of the Thanetian (late Paleocene: 58.9Ma) as the upper bound to be conservative regarding numerous stem bats from the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0))\
+**Discussion:** As noted by Morgan et al. ([2019](https://doi.org/10.1206/0003-0090.434.1.1)), numerous characters appear to convincingly unite this taxon with Mormoopidae (Noctilionoidea), rendering it the oldest-known definitive total-group noctilionoid.
 
 ---
 
@@ -362,6 +362,8 @@ Hand, S.J., Maugoust, J., Beck, R.M. and Orliac, M.J., 2023. A 50-million-year-o
 
 Harrison, T., Msuya, C.P., Murray, A.M., Jacobs, B.F., Báez, A.M., Mundil, R. and Ludwig, K.R., 2001. Paleontological investigations at the Eocene locality of Mahenge in north-central Tanzania, East Africa. In Eocene biodiversity: unusual occurrences and rarely sampled habitats (pp. 39-74). Boston, MA: Springer US.
 
+Hayes, F.G., 2000. The Brooksville 2 Local Fauna (Arikareean, latest Oligocene): Hernando County, Florida (Vol. 43, No. 1). University of Florida.
+
 Heaton, T.H. 1996. 18. Ischyromyidae. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-Oligocene Transition in North America. Cambridge University Press, pp. 373-398.
 
 Ivy, L.D., 1990. Systematics of late Paleocene and early Eocene Rodentia (Mammalia) from the Clarks Fork Basin, Wyoming. Contributions from the Museum of Paleontology, The University of Michigan, 28(2):1–70.
@@ -421,6 +423,8 @@ Martín-Martín, M., Rey, J., Alcala‐Garcia, F.J., Tosquella, J., Deramond, J.
 McKenna, M.C. and Bell, S.K., 1997. Classification of mammals: above the species level. Columbia University Press.
 
 Meng, J., Hu, Y. and Li, C., 2003. The osteology of Rhombomylus (Mammalia, Glires): implications for phylogeny and evolution of Glires. Bulletin of the American Museum of Natural History, 2003(275), pp.1-247.
+
+Morgan, G.S., Czaplewski, N.J. and Simmons, N.B., 2019. A new mormoopid bat from the Oligocene (Whitneyan and early Arikareean) of Florida, and phylogenetic relationships of the major clades of Mormoopidae (Mammalia: Chiroptera). Bulletin of the American Museum of Natural History, 2019(434), pp.1-146.
 
 O'Leary, M.A. and Uhen, M.D., 1999. The time of origin of whales and the role of behavioral changes in the terrestrial-aquatic transition. Paleobiology, 25(4), pp.534-556.
 
