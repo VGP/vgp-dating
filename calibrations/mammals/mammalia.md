@@ -82,19 +82,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 845:** Chiroptera | 58.9-46.3Ma\
+**Node 845:** Chiroptera | 58.9-47.9Ma\
 **Node calibrated:** The most recent common ancestor of Yinpterochiroptera (_Rousettus aegyptiacus_) and Yangochiroptera (_Rhynchonycteris naso_)\
 **Fossil taxa:** †_Tachypteron franzeni_ (Institut Royal des Sciences Naturelles de Belgique, Bruxelles, specimen BE 4-119a+b) from the Grube Messel oil shale, near Darmstadt, Germany ([Storch et al. 2002](https://doi.org/10.1007/BF02989856))\
-**Minimum age:** Middle Eocene (Lutetian: MP11), 48.11Ma\
-**Minimum justification:** \
+**Minimum age:** Middle Eocene (Lutetian: MP11), 47.9Ma\
+**Minimum justification:** Recent data "based on the short eccentricity amplitude modulations of the regional pollen rain and their correlation to the astronomical La2010a/La2010d solutions in combination with a revised 40Ar/39Ar age of a basalt fragment from a lapilli tuff section below the first lacustrine sediments" update the Messel eruption and the MP11 stage to the Ypresian/Lutetian boundary with a minimum age of 48.11Ma ± 0.22 ([Lenz et al. 2015](https://doi.org/10.1007/s00531-014-1126-2))\
 **Maximum age:** Late Paleocene (Thanetian), 58.9Ma\
 **Maximum justification:** Following Phillips ([2014](https://doi.org/10.26879/490)), we use the base of the Thanetian as the upper bound to be conservative regarding stem bats that are from very close to the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0)).\
-**Discussion:** 
-
-
-Another candidate is †_Tanzanycteris mannardi_ (TNM MP-207) from the middle Eocene lake sediments of the Mahenge formation, Tanzania ([Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). This fossil has been considered the oldest-known stem member of Rhinolophoidea within Yinpterochiroptera, and therefore the oldest-known crown chiropteran ([Phillips 2014](https://doi.org/10.26879/490), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). Age estimates using 206Pb/238U dating and sedimentary rate analysis put the lacustrine Mahenge formation at 45.83Ma ± 1.1 Myr and the fossil itself at a lower bound of 45.0Ma ([Harrison et al. 2001](https://doi.org/10.1007/978-1-4615-1271-4_2)). 
-
-Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Ypresian †_Archaeonycteris praecursor_ as the oldest stem bat, but only for majority-rule consensus approaches, and only for trees not rooted on _Sorex_. The oldest crown bat in their analyses, †_Tachypteron,_ is dated to the Lutetian ([Lenz et al. 2015](https://doi.org/10.1007/s00531-014-1126-2)), supporting a minimum age based on †_Tanzanycteris_. 
+**Discussion:** Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Lutetian †_Tachypteron franzeni_ as the oldest-known definitive crown chiropteran and the Ypresian †_Archaeonycteris praecursor_ as the oldest stem taxon based on morphological phylogenetic analysis. They recover †_T. franzeni_ on the stem of Miniopteridae (Vespertilionoidea) in Yangochiroptera, but we avoid this level of crown-group precision pending an updated total-evidence analysis. They also estimate †_Microchiropteryx foliae_ as a stem vespertilionoid in crown Yangochiroptera, but other recent analyses have recovered this taxon as a stem bat ([Hand et al. 2023](https://doi.org/10.1016/j.cub.2023.09.043)). Another candidate is †_Tanzanycteris mannardi_ (TNM MP-207) from the middle Eocene lake sediments of the Mahenge formation, Tanzania ([Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). This fossil has been considered the oldest-known stem member of Rhinolophoidea within Yinpterochiroptera, and therefore the oldest-known crown chiropteran ([Phillips 2014](https://doi.org/10.26879/490), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). Age estimates using 206Pb/238U dating and sedimentary rate analysis put the lacustrine Mahenge formation at 45.83Ma ± 1.1 Myr and the fossil itself at a lower bound of 45.0Ma ([Harrison et al. 2001](https://doi.org/10.1007/978-1-4615-1271-4_2)). 
 
 ---
 
@@ -323,6 +318,8 @@ Gheerbrant, E., Amaghzaz, M., Bouya, B., Goussard, F. and Letenneur, C., 2014. O
 Godthelp, H., Wroe, S. and Archer, M., 1999. A new marsupial from the early Eocene Tingamarra Local Fauna of Murgon, southeastern Queensland: a prototypical Australian marsupial?. Journal of Mammalian Evolution, 6(3), pp.289-313.
 
 Gunnell, G.F., Jacobs, B.F., Herendeen, P.S., Head, J.J., Kowalski, E., Msuya, C.P., Mizambwa, F.A., Harrison, T., Habersetzer, J. and Storch, G., 2003. Oldest placental mammal from sub-Saharan Africa: Eocene microbat from Tanzania—evidence for early evolution of sophisticated echolocation. Palaeontologia Electronica, 5(2), pp.1-10.
+
+Hand, S.J., Maugoust, J., Beck, R.M. and Orliac, M.J., 2023. A 50-million-year-old, three-dimensionally preserved bat skull supports an early origin for modern echolocation. Current Biology, 33(21), pp.4624-4640.
 
 Harrison, T., Msuya, C.P., Murray, A.M., Jacobs, B.F., Báez, A.M., Mundil, R. and Ludwig, K.R., 2001. Paleontological investigations at the Eocene locality of Mahenge in north-central Tanzania, East Africa. In Eocene biodiversity: unusual occurrences and rarely sampled habitats (pp. 39-74). Boston, MA: Springer US.
 
