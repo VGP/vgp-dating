@@ -93,9 +93,38 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
----
+**Node 876:** Yinchiroptera | 58.9–33.9Ma\
+**Node calibrated:** The most recent common ancestor of Pteropodidae (_Rousettus aegyptiacus_) and Rhinolophidae (_Rhinolophus trifoliatus_)\
+**Fossil taxa:** †_Saharaderma pseudovampyrus_ (CGM 8367) from quarry L-41, lower sequence of the Jebel Qatrani formation, Fayûm depression, Egypt ([Gunnell et al. 2008](https://doi.org/10.1671/0272-4634(2008)28[1:NBMCFT]2.0.CO;2))\
+**Minimum age:** Latest Eocene (Priabonian), 33.9Ma\
+**Minimum justification:** Fayûm Quarry L-41 where †_Saharaderma_ was discovered has been dated to the Priabonian, with an upper bound of 33.9Ma ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
+**Maximum age:** Late Paleocene (Thanetian), 58.9Ma\
+**Maximum justification:** We adapt the suggestion of Phillips ([2014](https://doi.org/10.26879/490)) in using the base of the Thanetian (late Paleocene: 58.9Ma) as the upper bound to be conservative regarding numerous stem bats that are from very close to the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0)).\
+**Discussion:** Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Priabonian †_Saharaderma pseudovampyrus_ as a stem member of Megapteridae, and therefore the oldest-known definitive crown yinchiropteran. To our knowledge, no other placements have been suggested based on phylogenetic analysis. Other early possible yinpterochiropterans are more uncertain, such as †_Qarunycteris moerisae_ from Egypt ([Gunnell et al. 2008](https://doi.org/10.1671/0272-4634(2008)28[1:NBMCFT]2.0.CO;2)) and †_Brachipposideros tedfordi_ from Australia ([Hand 1997](https://search.informit.org/doi/10.3316/informit.T2025082200008990688579640)), which are younger (Oligocene) and more difficult to constrain adequately. The first convincing pteropodid fossils do not show up until the mid-Miocene (see discussion in [Almeida et al. 2021](https://doi.org/10.1007/s13127-021-00480-5
+
+)).
 
 ---
+
+**Node 847:** Vespertilionoidea | \
+**Node calibrated:** \
+**Fossil taxa:** †_Cuvierimops parisiensis_ \
+**Minimum age:** \
+**Minimum justification:** \
+**Maximum age:** \
+**Maximum justification:** \
+**Discussion:**
+
+---
+
+**Node 869:**  Stem Noctilionoidea | \
+**Node calibrated:** \
+**Fossil taxa:** †_Koopmanycteris palaeomormoops_ \
+**Minimum age:** \
+**Minimum justification:** \
+**Maximum age:** \
+**Maximum justification:** \
+**Discussion:**
 
 ---
 
@@ -255,6 +284,8 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 Aghová, T., Kimura, Y., Bryja, J., Dobigny, G., Granjon, L. and Kergoat, G.J., 2018. Fossils know it best: using a new set of fossil calibrations to improve the temporal phylogenetic framework of murid rodents (Rodentia: Muridae). Molecular Phylogenetics and Evolution, 128, pp.98-111.
 
+Almeida, F.C., Amador, L.I. and Giannini, N.P., 2021. Explosive radiation at the origin of Old World fruit bats (Chiroptera, Pteropodidae) Almeida FC et al. Organisms Diversity & Evolution, 21(1), pp.231-243.
+
 Álvarez-Carretero, S., Tamuri, A.U., Battini, M., Nascimento, F.F., Carlisle, E., Asher, R.J., Yang, Z., Donoghue, P.C., and Dos Reis, M., 2022. A species-level timeline of mammal evolution integrating phylogenomic data. Nature, 602(7896), pp.263-267.
 
 Antoine, P.O., Marivaux, L., Croft, D.A., Billet, G., Ganerød, M., Jaramillo, C., Martin, T., Orliac, M.J., Tejada, J., Altamirano, A.J. and Duranthon, F., 2012. Middle Eocene rodents from Peruvian Amazonia reveal the pattern and timing of caviomorph origins and biogeography. Proceedings of the Royal Society B: Biological Sciences, 279(1732), p.1319.
@@ -324,6 +355,10 @@ Gheerbrant, E., Amaghzaz, M., Bouya, B., Goussard, F. and Letenneur, C., 2014. O
 Godthelp, H., Wroe, S. and Archer, M., 1999. A new marsupial from the early Eocene Tingamarra Local Fauna of Murgon, southeastern Queensland: a prototypical Australian marsupial?. Journal of Mammalian Evolution, 6(3), pp.289-313.
 
 Gunnell, G.F., Jacobs, B.F., Herendeen, P.S., Head, J.J., Kowalski, E., Msuya, C.P., Mizambwa, F.A., Harrison, T., Habersetzer, J. and Storch, G., 2003. Oldest placental mammal from sub-Saharan Africa: Eocene microbat from Tanzania—evidence for early evolution of sophisticated echolocation. Palaeontologia Electronica, 5(2), pp.1-10.
+
+Gunnell, G.F., Simons, E.L. and Seiffert, E.R., 2008. New bats (Mammalia: Chiroptera) from the late Eocene and early Oligocene, Fayum depression, Egypt. Journal of Vertebrate Paleontology, 28(1), pp.1-11.
+
+Hand, S.J., 1997. New Miocene leaf-nosed bats (Microchiroptera: Hipposideridae) from Riversleigh, northwestern Queensland. Memoirs of the Queensland Museum, Nature, 41(2), pp.335-349.
 
 Hand, S.J., Maugoust, J., Beck, R.M. and Orliac, M.J., 2023. A 50-million-year-old, three-dimensionally preserved bat skull supports an early origin for modern echolocation. Current Biology, 33(21), pp.4624-4640.
 
