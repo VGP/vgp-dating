@@ -89,7 +89,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** Recent data "based on the short eccentricity amplitude modulations of the regional pollen rain and their correlation to the astronomical La2010a/La2010d solutions in combination with a revised 40Ar/39Ar age of a basalt fragment from a lapilli tuff section below the first lacustrine sediments" update the Messel eruption and the MP11 stage to the Ypresian/Lutetian boundary with a minimum age of 48.11Ma ± 0.22 ([Lenz et al. 2015](https://doi.org/10.1007/s00531-014-1126-2))\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Phillips ([2014](https://doi.org/10.26879/490)) suggested using the base of the Thanetian (late Paleocene: 58.9Ma) as the upper bound to be conservative regarding numerous stem bats that are from very close to the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0)). To harmonize our maximum age for bats with other crown placentals, we extend this to the base of the Danian (early Paleocene: 66.0Ma). Phillips [2014](https://doi.org/10.26879/490) reported that removing the maximum age for Chiroptera resulted in a Selandian age estimate, ~60.2Ma.\
-**Discussion:** Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Lutetian †_Tachypteron franzeni_ as the oldest-known definitive crown chiropteran and the Ypresian †_Archaeonycteris praecursor_ as the oldest stem taxon based on morphological phylogenetic analysis. They recover †_T. franzeni_ on the stem of Miniopteridae (Vespertilionoidea) in Yangochiroptera, but we avoid this level of crown-group precision pending an updated total-evidence analysis. They also estimate †_Microchiropteryx foliae_ as a stem vespertilionoid in crown Yangochiroptera, but other recent analyses have recovered this taxon as a stem bat ([Hand et al. 2023](https://doi.org/10.1016/j.cub.2023.09.043)). Another candidate is †_Tanzanycteris mannardi_ (TNM MP-207) from the middle Eocene lake sediments of the Mahenge formation, Tanzania ([Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). This fossil has been considered the oldest-known stem member of Rhinolophoidea within Yinpterochiroptera, and therefore the oldest-known crown chiropteran ([Phillips 2014](https://doi.org/10.26879/490), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). Age estimates using 206Pb/238U dating and sedimentary rate analysis put the lacustrine Mahenge formation at 45.83Ma ± 1.1 Myr and the fossil itself at a lower bound of 45.0Ma ([Harrison et al. 2001](https://doi.org/10.1007/978-1-4615-1271-4_2)). 
+**Discussion:** Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Lutetian †_Tachypteron franzeni_ as the oldest-known definitive crown chiropteran and the Ypresian †_Archaeonycteris praecursor_ as the oldest stem taxon based on morphological phylogenetic analysis. They recover †_T. franzeni_ on the stem of Miniopteridae (Vespertilionoidea) in Yangochiroptera, but we avoid this level of crown-group precision pending an updated total-evidence analysis. The original description placed it in total-group Emballonuridae ([Storch et al. 2002](https://doi.org/10.1007/BF02989856)). Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) also estimate †_Microchiropteryx foliae_ as a stem vespertilionoid in crown Yangochiroptera, but other recent analyses have recovered this taxon as a stem bat ([Hand et al. 2023](https://doi.org/10.1016/j.cub.2023.09.043)). Another candidate is †_Tanzanycteris mannardi_ (TNM MP-207) from the middle Eocene lake sediments of the Mahenge formation, Tanzania ([Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). This fossil has been considered the oldest-known stem member of Rhinolophoidea within Yinpterochiroptera, and therefore the oldest-known crown chiropteran ([Phillips 2014](https://doi.org/10.26879/490), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Gunnell et al. 2003](https://palaeo-electronica.org/2002_2/africa/issue2_02.htm)). Age estimates using 206Pb/238U dating and sedimentary rate analysis put the lacustrine Mahenge formation at 45.83Ma ± 1.1 Myr and the fossil itself at a lower bound of 45.0Ma ([Harrison et al. 2001](https://doi.org/10.1007/978-1-4615-1271-4_2)). 
 
 ---
 
@@ -99,19 +99,19 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Latest Eocene (Priabonian), 33.9Ma\
 **Minimum justification:** Fayûm Quarry L-41 where †_Saharaderma_ was discovered has been dated to the Priabonian, with an upper bound of 33.9Ma ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
 **Maximum age:** Late Paleocene (Thanetian), 58.9Ma\
-**Maximum justification:** We adapt the suggestion of Phillips ([2014](https://doi.org/10.26879/490)), using the base of the Thanetian (late Paleocene: 58.9Ma) as the upper bound to be conservative regarding numerous stem bats from the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0)).\
+**Maximum justification:** We adapt the suggestion of Phillips ([2014](https://doi.org/10.26879/490)), using the base of the Thanetian (late Paleocene: 58.9Ma) as the upper bound to be conservative regarding numerous stem bats from the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0))\
 **Discussion:** Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Priabonian †_Saharaderma pseudovampyrus_ as a stem member of Megapteridae, and therefore the oldest-known definitive crown yinchiropteran. To our knowledge, no other placements have been suggested based on phylogenetic analysis. Other early possible yinpterochiropterans are more uncertain, such as †_Qarunycteris moerisae_ from Egypt ([Gunnell et al. 2008](https://doi.org/10.1671/0272-4634(2008)28[1:NBMCFT]2.0.CO;2)) and †_Brachipposideros tedfordi_ from Australia ([Hand 1997](https://search.informit.org/doi/10.3316/informit.T2025082200008990688579640)), which are younger (Oligocene) and more difficult to constrain adequately. The first convincing pteropodid fossils do not show up until the mid-Miocene (see discussion in [Almeida et al. 2021](https://doi.org/10.1007/s13127-021-00480-5)).
 
 ---
 
 **Node 847:** Vespertilionoidea | \
-**Node calibrated:** \
-**Fossil taxa:** †_Cuvierimops parisiensis_ \
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:**
+**Node calibrated:** The most recent common ancestor of Molossidae (_Molossus nigricans_) and Miniopteridae (_Miniopterus schreibersii_)\
+**Fossil taxa:** †_Cuvierimops parisiensis_ (LEB1_CupprA.1.7, left M1/ [Plate 2f], from the collections of UM2) from the late Eocene Quercy phosphorites France ([Maitre 2014](https://doi.org/10.1007/s13358-014-0069-3))\
+**Minimum age:** Late Eocene (Priabonian), 37.8Ma\
+**Minimum justification:**  The earliest †_Cuvierimops parisiensis priscus_ material is from the Lébratières 1 site (MP 17a) in the Phosphorites du Quercy, which occur below a layer dated to 37.97Ma ± 0.22 ([Maitre 2014](https://doi.org/10.1007/s13358-014-0069-3))\
+**Maximum age:** Late Paleocene (Thanetian), 58.9Ma\
+**Maximum justification:** We adapt the suggestion of Phillips ([2014](https://doi.org/10.26879/490)), using the base of the Thanetian (late Paleocene: 58.9Ma) as the upper bound to be conservative regarding numerous stem bats from the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0))\
+**Discussion:** Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Priabonian †_Cuvierimops_ as a stem member of Molossidae, and therefore the oldest-known definitive crown member of Vespertilionoidea. Other material, including postcrania, strengthens this placement ([Losco and Martin 2026](https://doi.org/10.1007/s12542-025-00746-9)).
 
 ---
 
@@ -396,6 +396,8 @@ Lindsay, E.H. 1988. Cricetid rodents from Siwalik deposits near Chinji village. 
 
 López-Antoñanzas, R., Simões, T.R., Condamine, F.L., Dirnberger, M. and Peláez-Campomanes, P., 2024. Bayesian tip-dated timeline for diversification and major biogeographic events in Muroidea (Rodentia), the largest mammalian radiation. BMC Biology, 22(1), p.270.
 
+Losco, M.F. and Martin, T., 2026. A skeleton of Cuvierimops (Chiroptera: Molossidae) from the lower Oligocene (Rupelian) of Céreste, southern France: MF Losco, T. Martin. PalZ, 100(1), pp.131-144.
+
 Luo, Z.X., Crompton, A.W. and Sun, A.L., 2001. A new mammaliaform from the early Jurassic and evolution of mammalian characteristics. Science, 292(5521), pp.1535-1540.
 
 Luo, Z., Kielan-Jaworowska, Z., Cifelli, R.L. 2002. In quest for a phylogeny of Mesozoic mammals. Acta Palaeontologica Polonica, 47, 1–78.
@@ -405,6 +407,8 @@ Luo, Z.X., Ji, Q., Wible, J.R. and Yuan, C.X., 2003. An Early Cretaceous tribosp
 Luo, Z.X., Chen, P., Li, G. and Chen, M., 2007. A new eutriconodont mammal and evolutionary development in early mammals. Nature, 446(7133), pp.288-293.
 
 Luo, Z.X., Yuan, C.X., Meng, Q.J. and Ji, Q., 2011. A Jurassic eutherian mammal and divergence of marsupials and placentals. Nature, 476(7361), pp.442-445.
+
+Maitre, E., 2014. Western European middle Eocene to early Oligocene Chiroptera: systematics, phylogeny and palaeoecology based on new material from the Quercy (France). Swiss journal of Palaeontology, 133(2), pp.141-242.
 
 Marivaux, L., Vianey-Liaud, M. and Jaeger, J.J., 2004. High-level phylogeny of early Tertiary rodents: dental evidence. Zoological Journal of the Linnean society, 142(1), pp.105-134.
 
