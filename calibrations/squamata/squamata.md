@@ -105,6 +105,16 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Maximum age:** Albian–Cenomanian boundary, late Cretaceous, 100.5Ma.\
 **Maximum justification:** We base this maximum age on a broad upper bound for this stem-group age – which has been dated to 85.6Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 54.3Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 70.9Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 70.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)) – relative to the crown group Anguioidea within which it is nested. For comparison, the MRCA of the crown group Anguioidea dates to 90.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)) and 100.0Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)) in recent total-evidence analyses, leaving the early-late Cretaceous boundary as a conservative upper bound.
 
+---
+
+**Node $XXX:** Serpentes | 66.0–130.0Ma\
+**Node calibrated:** The most recent common ancestor of Typhlopidae (_Rhinotyphlops lalandei_) and Pythonidae (_Liasis olivaceus_)\
+**Fossil taxon:** †_Boipeba tayasuensis_ (MPMA 16-0008-08) from the Adamantina Formation (Bauru Basin), Brazil ([Fachini et al. 2020](https://doi.org/10.1016/j.isci.2020.101834))\
+**Minimum age:** Cretaceous–Paleogene boundary, 66.0Ma\
+**Minimum justification:** The oldest-known crown snake is a typhlopoid scolecophidian from the Late Cretaceous of the Adamantina Formation in Brazil. Although the maximum age of the Adamantina formation is well-established at 87.8Ma, the minimum age is debated and can only be confidently assigned to pre-dating the K-Pg boundary at 66Ma ([Fachini et al. 2020](https://doi.org/10.1016/j.isci.2020.101834)). Other records of scolecophidians are all from the Cenozoic, with oldest records from the Paleocene, along with booids ([Rage 2013](https://doi.org/10.1007/s12549-013-0124-x)). Their diversity expands considerably in the Eocene of Europe ([Augé & Rage 2006](https://doi.org/10.1016/j.annpal.2005.09.001)).\
+**Maximum age:** Early Cretaceous (Hauterivian), 130Ma\
+**Maximum justification:** The maximum age of crown Serpentes is highly debated, varying between 105–129Ma depending on the study, including phylogenomic and total evidence dating studies ([Burbrink et al. 2020](https://doi.org/10.1093/sysbio/syz062), [Pyron 2017](https://doi.org/10.1093/sysbio/syw068), [Simões et al. 2020](https://doi.org/10.1038/s41467-020-17190-9), [Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067), [Title et al. 2024](https://doi.org/10.1126/science.adh2449)). Therefore, we provide an additional arbitrary sampling buffer with non-zero probability for ages up to 130Ma in the Hauterivian.
+
 
 ### Likelihood checkpoints
 
@@ -116,6 +126,8 @@ A preliminary literature review yields 34 age estimates for crown-group Squamata
 ## References
 
 Agustí, J., Cabrera, L., Garcés, M., Krijgsman, W., Oms, O. and Parés, J.M. 2001. A calibrated mammal scale for the Neogene of Western Europe. State of the art. Earth-Science Reviews, 52:247-260.
+
+Augé, M. & Rage, J.C. 2006. Herpetofaunas from the upper Paleocene and lower Eocene of Morocco. Annales de Paleontologie, 92(3): 235-253.
 
 Benson, R.B.J., Walsh, S.A., Griffiths, E.F. et al. Mosaic anatomy in an early fossil squamate. Nature 647, 673–679 (2025).
 
@@ -173,6 +185,8 @@ Pyron, R. A. 2017. Novel approaches for phylogenetic inference from morphologica
 
 Rage, J. C., and Z. Szyndlar. 1986. Natrix longivertebrata from the European Neogene, a snake with one of the longest known stratigraphic ranges. Neues Jahrb. Geol. Paläontol., Monatsh. 1986, 56–64.
 
+Rage, J.C. 2013. Mesozoic and Cenozoic squamates of Europe. Palaeobiodiversity and Palaeoenvironments, 93(4): 517-534.
+
 Reeder, T. W., T. M. Townsend, D. G. Mulcahy, B. P. Noonan, P. L. Wood, Jr., J. W. Sites, Jr., and J. J. Wiens. 2015. Integrated analyses resolve conflicts over squamate reptile phylogeny and reveal unexpected placements for fossil taxa. PLoS ONE 10(3):e0118199.
 
 Scanferla, A., & Smith, K. T. (2020). Exquisitely Preserved Fossil Snakes of Messel: Insight into the Evolution, Biogeography, Habitat Preferences and Sensory Ecology of Early Boas. Diversity, 12(3), 100
@@ -194,6 +208,8 @@ Simões, T. R., M. W. Caldwell, R. L. Nydam, and P. Jiménez-Huidobro. 2017. Ost
 Simões, T. R., M. W. Caldwell, M. Tałanda, M. Bernardi, A. Palci, O. Vernygora, F. Bernardini, L. Mancini, and R. L. Nydam. 2018. The origin of squamates revealed by a Middle Triassic lizard from the Italian Alps. Nature 557(7707):706-709.
 
 Simões, T. R., O. V. Vernygora, M. W. Caldwell, and S. E. Pierce. 2020. Megaevolutionary dynamics and the timing of evolutionary innovation in reptiles. Nature Communications 11:3322.
+
+Simões, T.R., Brum, A.S. & Pierce, S.E. 2026. Evolutionary rate incongruences in squamates reveal contrasting patterns of evolutionary novelties and innovation. Systematic Biology, 75(3): 427–444.
 
 Smith, K. T. 2009. Eocene Lizards of the Clade Geiseltaliellus from Messel and Geiseltal, Germany, and the Early Radiation of Iguanidae (Reptilia: Squamata). Bulletin of the Peabody Museum of Natural History 50(2):219-306.
 
