@@ -4,11 +4,11 @@ The root node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, gene
 
 ### Calibrations:
 
-**Node 731:** Crocodylia | 113.2-76.5Ma\
+**Node 731:** Crocodylia | 113.2-74.4Ma\
 **Node calibrated:** The most recent common ancestor of Gavialoidea (_Gavialis gangeticus_: Gavialidae) and Alligatoroidea (_Alligator mississippiensis_: Alligatoridae).\
 **Fossil taxa:** †_Leidyosuchus canadensis_ (NMC 338, 1551) from the Dinosaur Park Formation, Alberta, Canada ([Lambe, 1907](https://www.biodiversitylibrary.org/page/10884799))\
-**Minimum age:** Late Cretaceous (Campanian), 76.5Ma.\
-**Minimum justification:** The oldest-known fossil confidently placed in crown Crocodylia is †_Leidyosuchus canadensis_ [Lambe, 1907](https://www.biodiversitylibrary.org/page/10884799) from the Dinosaur Park Formation (Cretaceous: Campanian, 76.5–74.4Ma), the uppermost member of the Belly or Judith River Group of Alberta, Canada. This taxon is supported as an early crown-group member of Crocodylia by numerous synapomorphies and morphological phylogenetic analyses ([Brochu 1997](https://www.tandfonline.com/doi/abs/10.1080/02724634.1997.10011017), [Wilberg et al. 2019](https://doi.org/10.1038/s41598-018-36795-1), [Rio and Mannion 2021](https://doi.org/10.7717/peerj.12094), [Groh et al. 2022](https://doi.org/10.1111/pala.12589); but see [Walter et al. 2025](https://doi.org/10.1038/s42003-025-07653-4) for a potential stem placement). This topology (†_Leidyosuchus_ in crown Crocodylia) is also supported by several time-calibrated and total-evidence analyses (see below), generally on the stem of Alligatoroidea ([Lee and Yates 2018](https://doi.org/10.1098/rspb.2018.1071), [Darlim et al. 2022](https://doi.org/10.1098/rsbl.2021.0603), [Zamora-Vega et al. 2025](https://doi.org/10.1098/rsbl.2025.0238)).\
+**Minimum age:** Late Cretaceous (Campanian), 74.4Ma.\
+**Minimum justification:** The oldest-known fossil confidently placed in crown Crocodylia is †_Leidyosuchus canadensis_ [Lambe, 1907](https://www.biodiversitylibrary.org/page/10884799) from the Dinosaur Park Formation (Cretaceous: Campanian, 76.5–74.4Ma), the uppermost member of the Belly or Judith River Group of Alberta, Canada ([Ramezani et al. 2022](https://doi.org/10.1038/s41598-022-19896-w), [Eberth et al. 2023](https://doi.org/10.1139/cjes-2023-0037)). This taxon is supported as an early crown-group member of Crocodylia by numerous synapomorphies and morphological phylogenetic analyses ([Brochu 1997](https://www.tandfonline.com/doi/abs/10.1080/02724634.1997.10011017), [Wilberg et al. 2019](https://doi.org/10.1038/s41598-018-36795-1), [Rio and Mannion 2021](https://doi.org/10.7717/peerj.12094), [Groh et al. 2022](https://doi.org/10.1111/pala.12589); but see [Walter et al. 2025](https://doi.org/10.1038/s42003-025-07653-4) for a potential stem placement). This topology (†_Leidyosuchus_ in crown Crocodylia) is also supported by several time-calibrated and total-evidence analyses (see below), generally on the stem of Alligatoroidea ([Lee and Yates 2018](https://doi.org/10.1098/rspb.2018.1071), [Darlim et al. 2022](https://doi.org/10.1098/rsbl.2021.0603), [Zamora-Vega et al. 2025](https://doi.org/10.1098/rsbl.2025.0238)).\
 **Maximum age:** Early Cretaceous (Aptian–Albian), 113.2Ma\
 **Maximum justification:** A conservative maximum bound is the Aptian-Albian boundary (113.2Ma), as the lower 95% CI of both timetrees and total-evidence estimates is 107Ma and 108Ma, respectively, congruent with the density of stem crocodylians and absence of any crown members in the early Cretaceous ([Rio and Mannion 2021](https://doi.org/10.7717/peerj.12094), [Walter et al. 2025](https://doi.org/10.1038/s42003-025-07653-4); but see [Groh et al. 2022](https://doi.org/10.1111/pala.12589) for a potentially older time-scale).\
 **Discussion:** Other time-scaled parsimony analyses such as [Salas-Gismondi et al. 2019](https://www.tandfonline.com/doi/full/10.1080/14772019.2018.1495275) also support a Late Cretaceous origin for Crocodylia and a crown placement of _Leidyosuchus_, but do not report their exact age estimates and were therefore not considered.
@@ -44,6 +44,8 @@ Buckland, W. (1836). Geology and Mineralogy Considered with Reference to Natural
 
 Darlim, G., Lee, M.S., Walter, J. and Rabi, M., 2022. The impact of molecular data on the phylogenetic position of the putative oldest crown crocodilian and the age of the clade. Biology Letters, 18(2), p.20210603.
 
+Eberth, D.A., Evans, D.C., Ramezani, J., Kamo, S.L., Brown, C.M., Currie, P.J. and Braman, D.R., 2023. Calibrating geologic strata, dinosaurs, and other fossils at Dinosaur Provincial Park (Alberta, Canada) using a new CA-ID-TIMS U–Pb geochronology. Canadian Journal of Earth Sciences, 60(12), pp.1627-1646.
+
 Groh, S.S., Upchurch, P., Barrett, P.M. and Day, J.J., 2022. How to date a crocodile: estimation of neosuchian clade ages and a comparison of four time‐scaling methods. Palaeontology, 65(2), p.e12589.
 
 Lambe, L. M. 1907. On a new crocodilian genus and species from the Judith River Formation of Alberta. Transactions of the Royal Society of Canada. Series 3. 1 (4): 219–235.
@@ -51,6 +53,8 @@ Lambe, L. M. 1907. On a new crocodilian genus and species from the Judith River 
 Lee, M.S. and Yates, A.M., 2018. Tip-dating and homoplasy: reconciling the shallow molecular divergences of modern gharials with their long fossil record. Proceedings of the Royal Society B: Biological Sciences, 285(1881), p.20181071.
 
 Payne, A.R., Mannion, P.D., Lloyd, G.T. and Davis, K.E., 2024. Decoupling speciation and extinction reveals both abiotic and biotic drivers shaped 250 million years of diversity in crocodile-line archosaurs. Nature Ecology & Evolution, 8(1), pp.121-132.
+
+Ramezani, J., Beveridge, T.L., Rogers, R.R., Eberth, D.A. and Roberts, E.M., 2022. Calibrating the zenith of dinosaur diversity in the Campanian of the Western Interior Basin by CA-ID-TIMS U–Pb geochronology. Scientific Reports, 12(1), p.16026.
 
 Rayner, David & Mitchell, Tony & Rayner, Martin & Clouter, Fred. (2009). London Clay Fossils of Kent and Essex. Medway Fossil and Mineral Society.
 
