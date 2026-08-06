@@ -15,14 +15,14 @@ One terminal node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, 
 
 ---
 
-**Node $XXX:** Longirostres | 113.2-72.2Ma\
-**Node calibrated:** The The most recent common ancestor of Gavialidae (_Gavialus gangeticus_) and Crocodylidae (_Crocodylus niloticus_).\
-**Fossil taxa:** †_Eothoracosaurus mississippiensis_ (MSU 3293) from the Ripley Formation, Mississippi, USA ([Brochu 2004](https://doi.org/10.1671/0272-4634(2004)024[0610:ANLCGC]2.0.CO;2))\
-**Minimum age:** Late Cretaceous (Campanian–Maastrichtian), 72.2Ma\
-**Minimum justification:** This taxon is known from the lower (early) Maastrichtian Ripley Formation and the Campanian–Maastrichtian Coon Creek Tongue Formation ([Brochu 2004](https://doi.org/10.1671/0272-4634(2004)024[0610:ANLCGC]2.0.CO;2)) \
+**Node $XXX:** Longirostres | 113.2-51.5Ma\
+**Node calibrated:** The most recent common ancestor of Gavialidae (_Gavialus gangeticus_) and Crocodylidae (_Crocodylus niloticus_).\
+**Fossil taxa:** †_Kentisuchus spenceri_ (NHM 19633) from the London Clay, Isle of Sheppey, England ([Buckland 1836](https://doi.org/10.5962/bhl.title.125523))\
+**Minimum age:** Early Eocene (Ypresian), 51.5\
+**Minimum justification:** The London Clay site is from the Ypresian of the Eocene, deposited no later than 51.5Ma ([Brochu 2007](https://doi.org/10.1111/j.1475-4983.2007.00679.x), [Rayner et al. 2009](https://www.researchgate.net/publication/289335539_London_Clay_Fossils_of_Kent_and_Essex)).\
 **Maximum age:** Early Cretaceous (Aptian–Albian), 113.2Ma\
-**Maximum justification:** A conservative maximum bound is the Aptian-Albian boundary (113.2Ma), as the lower 95% CI of both timetrees and total-evidence estiamtes is 107Ma and 108Ma, respectively, based on the density of stem crocodylians and absence of any crown members in the early Cretaceous ([Rio and Mannion 2021](https://doi.org/10.7717/peerj.12094), [Walter et al. 2025](https://doi.org/10.1038/s42003-025-07653-4); but see [Groh et al. 2022](https://doi.org/10.1111/pala.12589) for a potentially older time-scale).\
-**Discussion:** The original description and several subsequent morphological and total-evidence phylogenetic analyses place eothoracosaurs on the stem of Gavalidae ([Brochu 2004](https://doi.org/10.1671/0272-4634(2004)024[0610:ANLCGC]2.0.CO;2), [Rio and Mannion 2021](https://doi.org/10.7717/peerj.12094)).
+**Maximum justification:** We retain a conservative maximum bound at the Aptian-Albian boundary (113.2Ma), as the lower 95% CI of both timetrees and total-evidence estiamtes is 107Ma and 108Ma, respectively, based on the density of stem crocodylians and absence of any crown members in the early Cretaceous ([Rio and Mannion 2021](https://doi.org/10.7717/peerj.12094), [Walter et al. 2025](https://doi.org/10.1038/s42003-025-07653-4); but see [Groh et al. 2022](https://doi.org/10.1111/pala.12589) for a potentially older time-scale).\
+**Discussion:** The taxon †_Kentisuchus_ is recovered in crown Longirostres by numerous morphological ([Rio and Mannion 2021](https://doi.org/10.7717/peerj.12094), [Groh et al. 2022](https://doi.org/10.1111/pala.12589), [Walter et al. 2025](https://doi.org/10.1038/s42003-025-07653-4)) and total-evidence phylogenies ([Lee and Yates 2018](https://doi.org/10.1098/rspb.2018.1071), [Darlim et al. 2022](https://doi.org/10.1098/rsbl.2021.0603), [Zamora-Vega et al. 2025](https://doi.org/10.1098/rsbl.2025.0238)). An older possible candidate is †_Eothoracosaurus mississippiensis_ (MSU 3293) from the Cretaceous Ripley and Coon Creek Tongue Formations (Campanian–Maastrichtian, 72.2Ma), Mississippi and Tennessee, USA, for which the original description and several subsequent morphological and total-evidence phylogenetic analyses place eothoracosaurs on the stem of Gavalidae ([Brochu 2004](https://doi.org/10.1671/0272-4634(2004)024[0610:ANLCGC]2.0.CO;2), [Wilberg et al. 2019](https://doi.org/10.1038/s41598-018-36795-1), [Rio and Mannion 2021](https://doi.org/10.7717/peerj.12094), [Groh et al. 2022](https://doi.org/10.1111/pala.12589), [Walter et al. 2025](https://doi.org/10.1038/s42003-025-07653-4). However, several total-evidence analyses suggest that morphological similarity between thoracosaurs and gavialoids is convergent and that these topologies are driven by homoplasy, with thoracosaurs actually representing stem crocodylians ([Lee and Yates 2018](https://doi.org/10.1098/rspb.2018.1071), [Darlim et al. 2022](https://doi.org/10.1098/rsbl.2021.0603), [Zamora-Vega et al. 2025](https://doi.org/10.1098/rsbl.2025.0238)). Correspondingly, we prefer the more conservative minimum age based on †_Kentisuchus_ along with a more conservative maximum age in the early Cretaceous to allow for alternative resolutions and timescales regarding thoracosaurs.
 
 
 ### Likelihood checkpoints
@@ -38,6 +38,10 @@ Brochu, C.A., 1997. A review of “Leidyosuchus”(Crocodyliformes, Eusuchia) fr
 
 Brochu, C.A., 2004. A new Late Cretaceous gavialoid crocodylian from eastern North America and the phylogenetic relationships of thoracosaurs. Journal of Vertebrate Paleontology, 24(3), pp.610-633.
 
+Brochu, C.A., 2007. Systematics and taxonomy of Eocene tomistomine crocodylians from Britain and Northern Europe. Palaeontology, 50(4), pp.917-928.
+
+Buckland, W. (1836). Geology and Mineralogy Considered with Reference to Natural Theology. 618 pp. Pickering, London.
+
 Darlim, G., Lee, M.S., Walter, J. and Rabi, M., 2022. The impact of molecular data on the phylogenetic position of the putative oldest crown crocodilian and the age of the clade. Biology Letters, 18(2), p.20210603.
 
 Groh, S.S., Upchurch, P., Barrett, P.M. and Day, J.J., 2022. How to date a crocodile: estimation of neosuchian clade ages and a comparison of four time‐scaling methods. Palaeontology, 65(2), p.e12589.
@@ -47,6 +51,8 @@ Lambe, L. M. 1907. On a new crocodilian genus and species from the Judith River 
 Lee, M.S. and Yates, A.M., 2018. Tip-dating and homoplasy: reconciling the shallow molecular divergences of modern gharials with their long fossil record. Proceedings of the Royal Society B: Biological Sciences, 285(1881), p.20181071.
 
 Payne, A.R., Mannion, P.D., Lloyd, G.T. and Davis, K.E., 2024. Decoupling speciation and extinction reveals both abiotic and biotic drivers shaped 250 million years of diversity in crocodile-line archosaurs. Nature Ecology & Evolution, 8(1), pp.121-132.
+
+Rayner, David & Mitchell, Tony & Rayner, Martin & Clouter, Fred. (2009). London Clay Fossils of Kent and Essex. Medway Fossil and Mineral Society.
 
 Rio, J. and Mannion, P., 2021. Phylogenetic analysis of a new morphological dataset elucidates the evolutionary history of Crocodylia and resolves the long-standing gharial problem. PeerJ.
 
