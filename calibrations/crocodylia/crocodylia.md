@@ -1,14 +1,14 @@
 # Crocodylia calibrations
 
-One terminal node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, generally dates to the Late/Upper Cretaceous, ~90Ma. While there is an extensive crocodilian fossil record – both stem and crown – dating back to the Triassic, there are only a few well-constrained fossils in the vicinity of Crocodylia based on recent phylogenetic analyses.
+One terminal node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, generally dates to the Late/Upper Cretaceous, ~90Ma. While there is an extensive crocodilian fossil record – both stem and crown – dating back to the Triassic ([Stockdale and Benton 2021](https://doi.org/10.1038/s42003-020-01561-5), [Payne et al. 2024](https://doi.org/10.1038/s41559-023-02244-0)), there are only a few well-constrained fossils in the vicinity of crown Crocodylia based on recent total-evidence phylogenetic analyses ([Lee and Yates 2018](https://doi.org/10.1098/rspb.2018.1071), [Darlim et al. 2022](https://doi.org/10.1098/rsbl.2021.0603), [Zamora-Vega et al. 2025](https://doi.org/10.1098/rsbl.2025.0238)).
 
 ### Calibrations:
 
 **Node 731:** Crocodylia | 113.2-76.5Ma\
-**Node calibrated:** The most recent common ancestor of Gavialidae (_Gavialus gangeticus_) and Alligatoridae (_Alligator mississippiensis_).\
+**Node calibrated:** The most recent common ancestor of Gavialoidea (_Gavialis gangeticus_: Gavialidae) and Alligatoroidea (_Alligator mississippiensis_: Alligatoridae).\
 **Fossil taxa:** †_Leidyosuchus canadensis_ (NMC 338, 1551) from the Dinosaur Park Formation, Alberta, Canada ([Lambe, 1907](https://www.biodiversitylibrary.org/page/10884799))\
 **Minimum age:** Late Cretaceous (Campanian), at 76.5Ma.\
-**Minimum justification:** The closest calibration is _Leidyosuchus canadensis_ [Lambe, 1907](https://www.biodiversitylibrary.org/page/10884799) from the Dinosaur Park Formation (Cretaceous: Campanian, 76.5–74.4Ma), the uppermost member of the Belly or Judith River Group of Alberta, Canada, supported as an early crown-group member of Crocodylia by numerous synapomorphies and morphological phylogenetic analyses ([Brochu 1997](https://www.tandfonline.com/doi/abs/10.1080/02724634.1997.10011017), [Rio and Mannion 2021](https://doi.org/10.7717/peerj.12094)). This topology is supported by 8 total-evidence analyses (see below), generally on the stem of Alligatoroidea.\
+**Minimum justification:** The closest calibration is _Leidyosuchus canadensis_ [Lambe, 1907](https://www.biodiversitylibrary.org/page/10884799) from the Dinosaur Park Formation (Cretaceous: Campanian, 76.5–74.4Ma), the uppermost member of the Belly or Judith River Group of Alberta, Canada, supported as an early crown-group member of Crocodylia by numerous synapomorphies and morphological phylogenetic analyses ([Brochu 1997](https://www.tandfonline.com/doi/abs/10.1080/02724634.1997.10011017), [Wilberg et al. 2019](https://doi.org/10.1038/s41598-018-36795-1), [Rio and Mannion 2021](https://doi.org/10.7717/peerj.12094), [Groh et al. 2022](https://doi.org/10.1111/pala.12589); but see [Walter et al. 2025](https://doi.org/10.1038/s42003-025-07653-4)). This topology is also supported by 8 time-calibrated analyses (see below), generally on the stem of Alligatoroidea ([Lee and Yates 2018](https://doi.org/10.1098/rspb.2018.1071), [Darlim et al. 2022](https://doi.org/10.1098/rsbl.2021.0603), [Zamora-Vega et al. 2025](https://doi.org/10.1098/rsbl.2025.0238)).\
 **Maximum age:** Early Cretaceous (Aptian–Albian), 113.2Ma\
 **Maximum justification:** A conservative maximum bound is the Aptian-Albian boundary (113.2Ma), as the lower 95% CI of both times and ages is 107.2Ma and 107.9Ma, respectively, based on the density of stem crocodylians and absence of any crown members in the early Cretaceous ([Rio and Mannion 2021](https://doi.org/10.7717/peerj.12094)).\
 **Discussion:** Other time-scaled parsimony analyses such as [Salas-Gismondi et al. 2019](https://www.tandfonline.com/doi/full/10.1080/14772019.2018.1495275) also support a Late Cretaceous origin for Crocodylia and a crown placement of _Leidyosuchus_, but do not report their exact age estimates and were therefore not considered.
@@ -27,7 +27,7 @@ One terminal node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, 
 
 ### Likelihood checkpoints
 
-TimeTree.org estimates a median age of 87Ma (73-101Ma) from 18 studies between 2004 and 2018. To this, we added 5 additional studies from 2006–2021. Excluding outliers (1.5 * IQR; in red, below), this yields a median of 87.4Ma with a range from 70.9–110.2Ma. These data are given in crocodylia_timetree.csv. To this, we can compare 9 estimates from 8 total-evidence studies with fossil tips from 2017–2026 to estimate a range of 90–110Ma (Median 98Ma) based on the average ages and CIs. This excludes two outlier ages (as triangles, below), one from from Godoy et al. 2019 and the Groh et al. 2022 FBD analysis, which reports dramatically different topologies and timescales for Gavialoidea. These data are recorded in crocodylia_calibrations.csv.
+TimeTree.org estimates a median age of 87Ma (73-101Ma) from 18 studies between 2004 and 2018. To this, we added 5 additional studies from 2006–2021. Excluding outliers (1.5 * IQR; in red, below), this yields a median of 87.4Ma with a range from 70.9–110.2Ma. These data are given in crocodylia_timetree.csv. To this, we can compare 9 estimates from 8 time-calibrated studies with fossil tips from 2017–2026 to estimate a range of 90–110Ma (Median 98Ma) based on the average ages and CIs. This excludes two outlier ages (as triangles, below), one from from Godoy et al. 2019 and the Groh et al. 2022 FBD analysis, which reports dramatically different topologies and timescales for Gavialoidea. These data are recorded in crocodylia_calibrations.csv.
 
 ![crocodylia likelihood checkpoints](crocodylia_calibrations.png)
 
@@ -38,8 +38,24 @@ Brochu, C.A., 1997. A review of “Leidyosuchus”(Crocodyliformes, Eusuchia) fr
 
 Brochu, C.A., 2004. A new Late Cretaceous gavialoid crocodylian from eastern North America and the phylogenetic relationships of thoracosaurs. Journal of Vertebrate Paleontology, 24(3), pp.610-633.
 
+Darlim, G., Lee, M.S., Walter, J. and Rabi, M., 2022. The impact of molecular data on the phylogenetic position of the putative oldest crown crocodilian and the age of the clade. Biology Letters, 18(2), p.20210603.
+
+Groh, S.S., Upchurch, P., Barrett, P.M. and Day, J.J., 2022. How to date a crocodile: estimation of neosuchian clade ages and a comparison of four time‐scaling methods. Palaeontology, 65(2), p.e12589.
+
 Lambe, L. M. 1907. On a new crocodilian genus and species from the Judith River Formation of Alberta. Transactions of the Royal Society of Canada. Series 3. 1 (4): 219–235.
+
+Lee, M.S. and Yates, A.M., 2018. Tip-dating and homoplasy: reconciling the shallow molecular divergences of modern gharials with their long fossil record. Proceedings of the Royal Society B: Biological Sciences, 285(1881), p.20181071.
+
+Payne, A.R., Mannion, P.D., Lloyd, G.T. and Davis, K.E., 2024. Decoupling speciation and extinction reveals both abiotic and biotic drivers shaped 250 million years of diversity in crocodile-line archosaurs. Nature Ecology & Evolution, 8(1), pp.121-132.
 
 Rio, J. and Mannion, P., 2021. Phylogenetic analysis of a new morphological dataset elucidates the evolutionary history of Crocodylia and resolves the long-standing gharial problem. PeerJ.
 
 Salas-Gismondi, R., Moreno-Bernal, J.W., Scheyer, T.M., Sánchez-Villagra, M.R. and Jaramillo, C., 2019. New Miocene Caribbean gavialoids and patterns of longirostry in crocodylians. Journal of Systematic Palaeontology, 17(12), pp.1049-1075.
+
+Stockdale, M.T. and Benton, M.J., 2021. Environmental drivers of body size evolution in crocodile-line archosaurs. Communications Biology, 4(1), p.38.
+
+Walter, J.D., Massonne, T., Paiva, A.L.S., Martin, J.E., Delfino, M. and Rabi, M., 2025. Expanded phylogeny elucidates Deinosuchus relationships, crocodylian osmoregulation and body-size evolution. Communications Biology, 8(1), p.611.
+
+Wilberg, E.W., Turner, A.H. and Brochu, C.A., 2019. Evolutionary structure and timing of major habitat shifts in Crocodylomorpha. Scientific reports, 9(1), p.514.
+
+Zamora-Vega, C., Romero, P.E., Urbina, M., Carré, M., Ochoa, D. and Salas-Gismondi, R., 2025. Exceptional fossils from Peru and an integrative phylogeny reconcile the evolutionary timing and mode of Gavialis and its kin. Biology Letters, 21(8), p.20250238.
