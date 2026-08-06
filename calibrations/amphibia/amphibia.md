@@ -71,12 +71,12 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 ---
 
-**Node 974:** Pleurodelinae | 23.0–66.0Ma\
+**Node 974:** Pleurodelinae | 27.8–66.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Pleurodelini (_Pleurodeles_) and Molgini (_Lissotriton_).\
-**Fossil taxon:** Numerous specimens referrable to the extant genera _Lissotriton_ and _Triturus_ from the late Oligocene, and aff. _Tylototriton, Triturus, Ichthyosaura,_ and _Lissotriton_ from the early Miocene, from numerous Palearctic localities ([Macaluso et al. 2022](https://royalsocietypublishing.org/rsos/article/9/11/220935/96437/Biogeographic-history-of-Palearctic-caudates)).\
-**Minimum age:** 23.0Ma\
-**Minimum justification:** The presence of numerous fossil newt taxa with apparent affinities to extant genera within Pleurodelini and Molgini near the Oligocene–Miocene boundary supports this as a conservative hard minimum age on their divergence.\
-**Maximum age:** 66.0Ma\
+**Fossil taxon:** Numerous specimens referrable to the extant genera _Lissotriton_ and _Triturus_ from the late Oligocene, and aff. _Tylototriton, Triturus, Ichthyosaura,_ and _Lissotriton_ from the early Miocene, from numerous Palearctic localities ([Macaluso et al. 2022](https://royalsocietypublishing.org/rsos/article/9/11/220935/96437/Biogeographic-history-of-Palearctic-caudates)). In particular, Lissotriton rohrsi (SMF A 614) and Triturus sp. (SMF A 616) from Oberleichtersbach (Northern Bavaria, Germany), from the MP30 stage of the late Oligocene, dating to the Rupelian–Chattian boundary ([Böhme 2008](https://www.researchgate.net/publication/251832903_Ectotermic_vertebrates_Teleostei_Allocaudata_Urodela_Anura_Testudines_Choristodera_Crocodylia_Squamata_from_the_Upper_Oligocene_of_Oberleichtersbach_Northern_Bavaria_Germany)).\
+**Minimum age:** Late Oligocene (MP30: Rupelian–Chattian boundary), 27.82Ma\
+**Minimum justification:** The presence of numerous fossil newt taxa with apparent affinities to extant genera within Pleurodelini and Molgini near the Oligocene–Miocene boundary supports this as a conservative hard minimum age on their divergence ([Macaluso et al. 2026](https://doi.org/10.1038/s41598-026-44690-3)).\
+**Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Several early branching salamandrids (_Duffaudiella, Eotriton,_ and _Koaliella_) are known from the Eocene and Paleocene ([Macaluso et al. 2025](https://royalsocietypublishing.org/rspb/article/292/2052/20251333/234515)), supporting the K–Pg boundary as a conservative soft maximum age for Pleurodelinae.\
 **Discussion:** [Hime et al. (2021)](https://academic.oup.com/sysbio/article/70/1/49/5828236) estimated the age of this node at ~35Ma, consistent with the fossil evidence reviewed by [Macaluso et al. (2022)](https://royalsocietypublishing.org/rsos/article/9/11/220935/96437/Biogeographic-history-of-Palearctic-caudates) and the total-evidence analysis of [Macaluso et al. (2025)](https://royalsocietypublishing.org/rspb/article/292/2052/20251333/234515). In contrast, [Stewart and Wiens (2025)](https://www.sciencedirect.com/science/article/pii/S1055790324002641) liberally assigned Oligocene fossil material to the crown group of _Triturus_ and the early Eocene (Ypresian) _Eotriton weigelti_ to the crown group of Pleurodelini, yielding dramatically older Paleocene ages for Pleurodelinae. These assignments are not supported by the taxonomic review or phylogenetic analysis of Macaluso et al. ([2022](https://royalsocietypublishing.org/rsos/article/9/11/220935/96437/Biogeographic-history-of-Palearctic-caudates), [2025](https://royalsocietypublishing.org/rspb/article/292/2052/20251333/234515)), and we therefore do not follow them here.
 
@@ -88,8 +88,20 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 **Minimum age:** Cretaceous (upper Barremian), 125.0Ma\
 **Minimum justification:** This taxon is a crown urodelan based on a number of synapomorphies ([Evans and Milner 1996](https://doi.org/10.1098/rstb.1996.0061)), and was estimated on the stem of Meantes + Pseudosauria by Jones et al. ([2022](https://doi.org/10.1073/pnas.2114100119)), who referred to that node as “Salamandroidea.” Consequently, it represents a credible minimum age for Urodela.\
 **Maximum age:** Permian–Triassic boundary, 251.9Ma\
-**Maximum justification:** For a maximum age, Benton et al. ([2015](https://doi.org/10.26879/424)) suggested a middle Jurassic limit of 175.1Ma based on the bracketing ostensibly indicated by another putative stem “salamandroid” _Iridotriton hechti_ and the undescribed Kirtlington 'Salamander B' ([Evans et al. 2005](https://doi.org/10.1111/j.1096-3642.2005.00159.x)). However, there are numerous total-group salamanders from the Jurassic ([Jones et al. 2022](https://doi.org/10.1073/pnas.2114100119)), and both molecular and total-evidence estimates for the age of Urodela have ranged into the upper (i.e., late) Triassic ([Roelants et al. 2007](https://doi.org/10.1073/pnas.0608378104); [Pyron 2011](https://doi.org/10.1093/sysbio/syr047); [Jetz and Pyron 2018](https://doi.org/10.1038/s41559-018-0515-5)). In contrast, more recent studies have estimated a Jurassic origin ([Hime et al. 2021](https://doi.org/10.1093/sysbio/syaa034); Stewart and Wiens 2025). As a conservative compromise, we use a soft maximum age derived from the Permian–Triassic boundary, allowing crown Urodela to encompass essentially all previous age estimates.\
+**Maximum justification:** For a maximum age, Benton et al. ([2015](https://doi.org/10.26879/424)) suggested a middle Jurassic limit of 175.1Ma based on the bracketing ostensibly indicated by another putative stem “salamandroid” _Iridotriton hechti_ and the undescribed Kirtlington 'Salamander B' ([Evans et al. 2005](https://doi.org/10.1111/j.1096-3642.2005.00159.x)). However, there are numerous total-group salamanders from the Jurassic ([Jones et al. 2022](https://doi.org/10.1073/pnas.2114100119)), and both molecular and total-evidence estimates for the age of Urodela have ranged into the upper (i.e., late) Triassic ([Roelants et al. 2007](https://doi.org/10.1073/pnas.0608378104); [Pyron 2011](https://doi.org/10.1093/sysbio/syr047); [Jetz and Pyron 2018](https://doi.org/10.1038/s41559-018-0515-5)). In contrast, more recent studies have estimated a Jurassic origin ([Hime et al. 2021](https://doi.org/10.1093/sysbio/syaa034); Stewart and Wiens 2025). We conservatively use a soft maximum age derived from the Permian–Triassic boundary, allowing crown Urodela to encompass essentially all previous age estimates.\
 **Discussion:** This is constraint #10 from Stewart and Wiens ([2025](https://doi.org/10.1016/j.ympev.2024.108272)). The resolution of numerous fossil salamanders from the late Jurassic and early Cretaceous might provide more precise minimum ages in the future ([Jones et al. 2022](https://doi.org/10.1073/pnas.2114100119)).
+
+---
+
+**Node $XXX:** Urodela | 125.0–251.9Ma\
+**Node calibrated:** The most recent common ancestor of \
+**Fossil taxon:** \
+**Minimum age:** \
+**Minimum justification:** \
+**Maximum age:** \
+**Maximum justification:** \
+**Discussion:** 
+
 
 
 
@@ -118,6 +130,8 @@ Báez, A.M. and Gomez, R.O., 2016. Revision of the skeletal morphology of Eodisc
 Báez, A.M. and Gómez, R.O., 2019. Redescription of the overlooked basal frog Wealdenbatrachus reveals increased diversity among Early Cretaceous anurans. Cretaceous Research, 99, pp.14-29.
 
 Benton, M. J., P. C. Donoghue, R. J. Asher, M. Friedman, T. J. Near, and J. Vinther. 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18(1):1-106.
+
+Böhme, M., 2008. Ectothermic vertebrates (Teleostei, Allocaudata, Urodela, Anura, Testudines, Choristodera, Crocodylia, Squamata) from the Upper Oligocene of Oberleichtersbach (Northern Bavaria, Germany). Courier Forschungsinstitut Senckenberg, 260, pp.161-183.
 
 Borsuk-Bialynicka, M. 1978. Eopelobates leptocolaptus sp. n. - the first Upper Cretaceous pelobatid frog from Asia. Acta Palaeontol. Pol. 38, 57–63.
 
@@ -158,6 +172,8 @@ Lucas, S.G., Henderson, C., Barrick, J.E. and Krainer, K., 2022. Middle Kunguria
 Macaluso, L., Mannion, P.D., Evans, S.E., Carnevale, G., Monti, S., Marchitelli, D. and Delfino, M., 2022. Biogeographic history of Palearctic caudates revealed by a critical appraisal of their fossil record quality and spatio-temporal distribution. Royal Society Open Science, 9(11), p.220935.
 
 Macaluso, L., Villa, A., Rozzi, R., Fabre, A.C. and Mennecart, B., 2025. Time to grow up: the PETM climatic event favoured metamorphosing salamanders (Urodela, Salamandridae). Proceedings of the Royal Society B: Biological Sciences, 292(2052).
+
+Macaluso, L., Jansen, O., Valentin, X., Walter, J.D., Otero, O., Amiot, R. and Garcia, G., 2026. New fossil evidence from the Late Cretaceous of Europe (southern France) deepens the origin of Salamandridae (Urodela) and refines the biogeography of the family. Scientific Reports, 16(1), p.16567.
 
 Pérez-Ben, C.M., Lires, A.I. and Gómez, R.O., 2024. Frog limbs in deep time: is jumping locomotion at the roots of the anuran Bauplan?. Paleobiology, 50(1), pp.96-107.
 
