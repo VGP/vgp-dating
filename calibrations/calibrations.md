@@ -136,7 +136,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 -Based on the crown neobatrachian †_Kururubatrachus gondwanicus_ from the Aptian of the early Cretaceous.
 
 **974:** Pleurodelinae: 27.8–66.0Ma\
--Based on numerous pleurodelines from the total groups of _Lissotriton_ and _Triturus_ from the late Oligocene.
+-Based on crown pleurodelines from the stems of _Lissotriton_ and _Triturus_ from the Rupelian–Chattian of the late Oligocene.
 
 
 ## [Mammals](./mammals/mammalia.md):
