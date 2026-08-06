@@ -135,8 +135,8 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **954:** Aquipares: 113.0-143.1Ma\
 -Based on the crown neobatrachian †_Kururubatrachus gondwanicus_ from the Aptian of the early Cretaceous.
 
-**974:** Pleurodelinae: 23.0–66.0Ma\
--Based on numerous crown pleurodelines allied with the extant genera _Lissotriton_ and _Triturus_ from the late Oligocene and early Miocene.
+**974:** Pleurodelinae: 27.8–66.0Ma\
+-Based on numerous pleurodelines from the total groups of _Lissotriton_ and _Triturus_ from the late Oligocene.
 
 
 ## [Mammals](./mammals/mammalia.md):
