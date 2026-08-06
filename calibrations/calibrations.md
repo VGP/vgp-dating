@@ -279,7 +279,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 
 ## [Crocodilians:](./crocodylia/crocodylia.md) 
 
-**731:** Crocodylia: 76.5-113.2Ma\
+**731:** Crocodylia: 74.4-113.2Ma\
 -Based on the oldest-known crown crocodylian †_Leidyosuchus canadensis_, likely stem Alligatoroidea, from the Campanian of the Cretaceous.
 
 
