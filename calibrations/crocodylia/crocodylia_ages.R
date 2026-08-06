@@ -49,7 +49,7 @@ p <- ggplot() +
     fill = "lightblue", alpha = 0.5
   ) +
   geom_vline(
-    xintercept = c(77.9, 113.2),
+    xintercept = c(76.5, 113.2),
     linetype = "dashed",
     color = "darkgrey"
   ) +
