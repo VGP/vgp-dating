@@ -1,14 +1,16 @@
 #!/bin/bash
 
-# Run an already optimized, non-CV treePL configuration with multiple fixed
-# seeds. Retain only a summary, the lowest-objective tree, and its selection
+# Run an already optimized, non-CV treePL configuration with multiple seeds.
+# Retain only a summary, the lowest-objective tree, and its selection
 # record; per-replicate configurations, logs, and trees are temporary.
 #
 # Usage:
-#   ./treepl_replicate_select.sh CONFIG [RUNS] [START_SEED]
+#   ./treepl_replicate_select.sh CONFIG [RUNS] [random]
+#   ./treepl_replicate_select.sh CONFIG [RUNS] fixed [START_SEED]
 #
 # Example:
-#   ./treepl_replicate_select.sh roadies_v1.1.16b.config 10 1729
+#   ./treepl_replicate_select.sh roadies_v1.1.16b.config 10 random
+#   ./treepl_replicate_select.sh roadies_v1.1.16b.config 10 fixed 1729
 #
 # Results:
 #   ./treepl_replicate_runs/
@@ -16,15 +18,18 @@
 # This script deliberately runs replicates sequentially because each treePL
 # configuration may already use multiple OpenMP threads through nthreads.
 
-if [ "$#" -lt 1 ] || [ "$#" -gt 3 ]
+if [ "$#" -lt 1 ] || [ "$#" -gt 4 ]
 then
-	echo "Usage: $0 CONFIG [RUNS] [START_SEED]"
+	echo "Usage:"
+	echo "  $0 CONFIG [RUNS] [random]"
+	echo "  $0 CONFIG [RUNS] fixed [START_SEED]"
 	exit 1
 fi
 
 configuration_input=$1
 replicate_count=${2:-10}
-starting_seed=${3:-1729}
+seed_mode=${3:-random}
+starting_seed=${4:-1729}
 seed_increment=1009
 
 if [ ! -f "$configuration_input" ]
@@ -40,9 +45,24 @@ case "$replicate_count" in
 		;;
 esac
 
-case "$starting_seed" in
-	''|*[!0-9]*)
-		echo "Error: START_SEED must be a non-negative integer"
+case "$seed_mode" in
+	random)
+		if [ "$#" -eq 4 ]
+		then
+			echo "Error: START_SEED applies only to fixed seed mode"
+			exit 4
+		fi
+		;;
+	fixed)
+		case "$starting_seed" in
+			''|*[!0-9]*)
+				echo "Error: START_SEED must be a non-negative integer"
+				exit 4
+				;;
+		esac
+		;;
+	*)
+		echo "Error: seed mode must be random or fixed"
 		exit 4
 		;;
 esac
@@ -74,6 +94,7 @@ current_replicate_directory=""
 lowest_objective=""
 selected_replicate=""
 selected_seed=""
+used_seeds=()
 
 status_update() {
 	printf "[%s] %s\n" "$(date '+%Y-%m-%d %H:%M:%S')" "$*"
@@ -101,13 +122,40 @@ trap stop_active_process EXIT
 
 status_update "Replicate analysis initialized."
 status_update "Configuration: $configuration_file"
-status_update "Replicates: $replicate_count; starting seed: $starting_seed; seed increment: $seed_increment."
+if [ "$seed_mode" = "fixed" ]
+then
+	status_update "Replicates: $replicate_count; seed mode: fixed; starting seed: $starting_seed; seed increment: $seed_increment."
+else
+	status_update "Replicates: $replicate_count; seed mode: random; every generated seed will be recorded."
+fi
 status_update "Output directory: $run_root"
 
 replicate=1
 while [ "$replicate" -le "$replicate_count" ]
 do
-	seed=$((starting_seed + (replicate - 1) * seed_increment))
+	if [ "$seed_mode" = "fixed" ]
+	then
+		seed=$((starting_seed + (replicate - 1) * seed_increment))
+	else
+		while true
+		do
+			seed=$(od -An -N4 -tu4 /dev/urandom | tr -d '[:space:]')
+			seed=$((seed % 2147483646 + 1))
+			seed_already_used=0
+			for existing_seed in "${used_seeds[@]}"
+			do
+				if [ "$seed" -eq "$existing_seed" ]
+				then
+					seed_already_used=1
+				fi
+			done
+			if [ "$seed_already_used" -eq 0 ]
+			then
+				used_seeds+=("$seed")
+				break
+			fi
+		done
+	fi
 	replicate_name=$(printf "replicate_%03d_seed_%d" "$replicate" "$seed")
 	replicate_directory="$run_root/$replicate_name"
 	current_replicate_directory="$replicate_directory"
@@ -190,6 +238,7 @@ fi
 
 {
 	echo "status=complete"
+	echo "seed_mode=$seed_mode"
 	echo "selected_replicate=$selected_replicate"
 	echo "selected_seed=$selected_seed"
 	echo "lowest_objective=$lowest_objective"

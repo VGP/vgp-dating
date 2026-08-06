@@ -3,54 +3,71 @@
 # Benchmark treePL optimization settings without touching production outputs.
 #
 # Usage:
-#   ./treepl_parameter_benchmark.sh CONFIG TREE LABEL SMOOTHING [pl|cv|all]
-#   ./treepl_parameter_benchmark.sh CONFIG TREE LABEL [fixed|random] full
-#   ./treepl_parameter_benchmark.sh CONFIG TREE LABEL full [fixed|random]
+#   ./treepl_parameter_benchmark.sh CONFIG TREE full [fast|thorough] [fixed|random]
+#   ./treepl_parameter_benchmark.sh CONFIG TREE SMOOTHING [pl|cv|all] [fast|thorough] [fixed|random]
 #
 # Example:
 #   ./treepl_parameter_benchmark.sh \
 #     roadies_v1.1.16b_wrapper.config \
 #     roadies_v1.1.16b.nwk \
-#     roadies_v1.1.16b \
-#     0.001 \
-#     pl
+#     full \
+#     fast \
+#     fixed
 #
 # Results are written directly to:
 #   ./treepl_parameter_benchmark/
 #
 # Edit the search controls below if a smaller or larger experiment is desired.
 
-if [ "$#" -lt 4 ] || [ "$#" -gt 5 ]
+if [ "$#" -lt 3 ] || [ "$#" -gt 6 ]
 then
 	echo "Usage:"
-	echo "  $0 CONFIG TREE LABEL SMOOTHING [pl|cv|all]"
-	echo "  $0 CONFIG TREE LABEL [fixed|random] full"
-	echo "  $0 CONFIG TREE LABEL full [fixed|random]"
+	echo "  $0 CONFIG TREE full [fast|thorough] [fixed|random]"
+	echo "  $0 CONFIG TREE SMOOTHING [pl|cv|all] [fast|thorough] [fixed|random]"
 	exit 1
 fi
 
 configuration_input=$1
 tree_input=$2
-label=$3
+analysis_argument=$3
 seed_mode="fixed"
+workflow_profile="fast"
+benchmark_mode="all"
 
-if [ "$4" = "full" ]
+if [ "$analysis_argument" = "full" ]
 then
 	benchmark_mode="full"
-	seed_mode=${5:-fixed}
 	# Used only for the initial optimizer-convergence stage. Full mode later
 	# optimizes smoothing by CV and repeats PL convergence at that value.
 	fixed_smoothing=1
-elif [ "$#" -eq 5 ] && [ "$5" = "full" ] && \
-     { [ "$4" = "fixed" ] || [ "$4" = "random" ]; }
-then
-	benchmark_mode="full"
-	seed_mode=$4
-	fixed_smoothing=1
 else
-	fixed_smoothing=$4
-	benchmark_mode=${5:-all}
+	fixed_smoothing=$analysis_argument
 fi
+
+shift 3
+for option in "$@"
+do
+	case "$option" in
+		pl|cv|all)
+			if [ "$analysis_argument" = "full" ]
+			then
+				echo "Error: pl, cv, and all cannot be combined with full"
+				exit 1
+			fi
+			benchmark_mode=$option
+			;;
+		fast|thorough)
+			workflow_profile=$option
+			;;
+		fixed|random)
+			seed_mode=$option
+			;;
+		*)
+			echo "Error: unrecognized option: $option"
+			exit 1
+			;;
+	esac
+done
 
 if [ ! -f "$configuration_input" ] || [ ! -f "$tree_input" ]
 then
@@ -69,14 +86,14 @@ esac
 
 configuration_file="$(cd "$(dirname "$configuration_input")" && pwd)/$(basename "$configuration_input")"
 tree_file="$(cd "$(dirname "$tree_input")" && pwd)/$(basename "$tree_input")"
+script_directory="$(cd "$(dirname "$0")" && pwd)"
 
-benchmark_root="$(pwd)/treepl_parameter_benchmark"
+benchmark_root="$script_directory/treepl_parameter_benchmark"
 run_directory="$benchmark_root"
 work_directory="$run_directory/.work"
-mkdir -p "$run_directory" "$work_directory"
 
-# Use reproducible fixed seeds by default. Full mode accepts "random" directly
-# before or after "full" to generate and record three fresh independent seeds.
+# Use reproducible fixed seeds by default. Random mode generates and records
+# three fresh independent seeds when the script starts.
 case "$seed_mode" in
 	fixed)
 		seeds=(1729 2718 3141)
@@ -121,21 +138,25 @@ pl_max=500
 pl_scout_threshold_percent=1
 pl_scout_min_pliter=16
 pl_scout_consecutive_steps=2
-pl_confirmation_growth_percent=20
 pl_convergence_percent=0.1
 pl_consecutive_steps=2
 pl_buffer_percent=20
 pl_rounding=10
 
-# Cross-validation candidates used by the staged pilot search.
+# Cross-validation candidates used only by thorough mode. Fast mode uses one
+# broad pilot, the empirically supported minimum settings, and one refined CV.
+# A second seed is added only when the refined winner is within 5% of the
+# runner-up; a third is added only when the first two seeds disagree.
 cv_iterations=(3 5 10)
 cv_siman_iterations=(5000 7500 15000)
+fast_cviter=3
+fast_cvsimaniter=5000
+fine_refinement_threshold_percent=5
 random_cv_pliter_default=20
 random_cv_pliter_min=10
 random_cv_pliter_max=50
 cv_start=10000
 cv_stop=0.00001
-expected_cv_values=(10000 1000 100 10 1 0.1 0.01 0.001 0.0001 0.00001)
 
 # Optimizers selected by the production prime workflow.
 opt=5
@@ -162,6 +183,42 @@ case "$prime_jobs" in
 		exit 4
 		;;
 esac
+
+mkdir -p "$run_directory"
+if [ -e "$work_directory" ]
+then
+	echo "Error: $work_directory already exists; another benchmark may be active or a previous run may not have cleaned up"
+	exit 5
+fi
+mkdir "$work_directory"
+
+# Direct output filenames are reused deliberately. Remove only files owned by
+# this script so an interrupted rerun cannot leave stale later-stage results.
+owned_output_files=(
+	benchmark_seeds.txt
+	prime_recommendation.txt
+	plsiman_summary.tsv
+	plsiman_recommendation.txt
+	pl_summary.tsv
+	pl_convergence.tsv
+	pl_recommendation.txt
+	initial_pl_summary.tsv
+	initial_pl_convergence.tsv
+	initial_pl_recommendation.txt
+	cv_summary.tsv
+	cv_recommendation.txt
+	full_cv_summary.tsv
+	full_cv_scores.tsv
+	fine_cv_summary.tsv
+	final_recommendation.txt
+	final_pl_summary.tsv
+	final_pl_convergence.tsv
+	final_pl_recommendation.txt
+)
+for owned_output_file in "${owned_output_files[@]}"
+do
+	rm -f -- "$run_directory/$owned_output_file"
+done
 
 active_pid=""
 prime_pids=()
@@ -207,17 +264,28 @@ stop_active_process_and_exit() {
 trap stop_active_process_and_exit INT TERM
 trap stop_and_cleanup EXIT
 
+write_base_configuration() {
+	destination=$1
+
+	awk '
+		/^[[:space:]]*#/ {print; next}
+		/^[[:space:]]*(treefile|seed|outfile|smooth|opt|optad|optcvad|pliter|plsimaniter|cviter|cvsimaniter|cvstart|cvstop|cvmultstep|cvoutfile|randomcviter|randomcvsamp)[[:space:]]*=/ {next}
+		/^[[:space:]]*(thorough|prime|cv|randomcv)[[:space:]]*$/ {next}
+		{print}
+	' "$configuration_file" > "$destination"
+}
+
 write_common_configuration() {
 	destination=$1
 
+	write_base_configuration "$destination"
 	{
 		echo "treefile = $tree_file"
-		cat "$configuration_file"
 		echo "thorough"
 		echo "opt = $opt"
 		echo "optad = $optad"
 		echo "optcvad = $optcvad"
-	} > "$destination"
+	} >> "$destination"
 }
 
 cv_value_is_present() {
@@ -234,20 +302,6 @@ cv_value_is_present() {
 		}
 		END { exit(found ? 0 : 1) }
 	' "$result_file"
-}
-
-cv_results_are_complete() {
-	result_file=$1
-
-	for expected_value in "${expected_cv_values[@]}"
-	do
-		if ! cv_value_is_present "$result_file" "$expected_value"
-		then
-			return 1
-		fi
-	done
-
-	return 0
 }
 
 extract_best_cv_result() {
@@ -272,6 +326,102 @@ extract_best_cv_result() {
 	' "$result_file"
 }
 
+extract_cv_score_for_value() {
+	result_file=$1
+	target_value=$2
+
+	awk -v target="$target_value" '
+		$1 == "chisq:" {
+			value = $2
+			gsub(/[()]/, "", value)
+			difference = value - target
+			if (difference < 0) difference = -difference
+			tolerance = target
+			if (tolerance < 0) tolerance = -tolerance
+			tolerance = tolerance * 0.00001 + 1e-12
+			if (difference <= tolerance) score = $3
+		}
+		END {if(score != "") print score}
+	' "$result_file"
+}
+
+run_targeted_cv_case() {
+	target_stage=$1
+	target_seed=$2
+	target_start=$3
+	target_stop=$4
+	target_step=$5
+	target_score_count=$6
+
+	target_case_name="${target_stage}_seed-${target_seed}"
+	target_case_directory="$work_directory/fine_cv/$target_case_name"
+	mkdir -p "$target_case_directory"
+	target_config_name="$target_case_name.config"
+	target_log_name="$target_case_name.log"
+	target_results_name="$target_case_name.results.tsv"
+	target_config_path="$target_case_directory/$target_config_name"
+	target_log_path="$target_case_directory/$target_log_name"
+	target_results_path="$target_case_directory/$target_results_name"
+
+	write_common_configuration "$target_config_path"
+	{
+		echo "seed = $target_seed"
+		if [ -n "$recommended_pliter" ] && [ "$recommended_pliter" != "not_determined" ]
+		then
+			echo "pliter = $recommended_pliter"
+		fi
+		if [ -n "$recommended_plsimaniter" ]
+		then
+			echo "plsimaniter = $recommended_plsimaniter"
+		fi
+		echo "cv"
+		echo "cvoutfile = $target_results_name"
+		echo "cvstart = $target_start"
+		echo "cvstop = $target_stop"
+		echo "cvmultstep = $target_step"
+		echo "cviter = $recommended_cviter"
+		echo "cvsimaniter = $recommended_cvsimaniter"
+	} >> "$target_config_path"
+
+	: > "$target_results_path"
+	status_update "Adaptive CV $target_stage starting: seed=$target_seed, range=$target_start to $target_stop, expected scores=$target_score_count."
+	target_start_time=$(date +%s)
+	(
+		cd "$target_case_directory" || exit 1
+		exec treePL "$target_config_name"
+	) > "$target_log_path" 2>&1 &
+	active_pid=$!
+
+	while true
+	do
+		target_completed_count=$(awk '$1 == "chisq:" {count++} END {print count + 0}' "$target_results_path")
+		if [ "$target_completed_count" -ge "$target_score_count" ]
+		then
+			kill "$active_pid" 2>/dev/null
+			wait "$active_pid" 2>/dev/null
+			break
+		fi
+		if ! kill -0 "$active_pid" 2>/dev/null
+		then
+			wait "$active_pid" 2>/dev/null
+			break
+		fi
+		sleep 1
+	done
+
+	active_pid=""
+	target_end_time=$(date +%s)
+	target_runtime_seconds=$((target_end_time - target_start_time))
+	target_completed_count=$(awk '$1 == "chisq:" {count++} END {print count + 0}' "$target_results_path")
+	if [ "$target_completed_count" -ge "$target_score_count" ]
+	then
+		target_status="complete"
+	else
+		target_status="incomplete"
+	fi
+	status_update "Adaptive CV $target_stage $target_status: seed=$target_seed, runtime=${target_runtime_seconds}s, scores=$target_completed_count/$target_score_count."
+}
+
 run_prime_selection() {
 	prime_directory="$work_directory/prime"
 	prime_config="$prime_directory/prime.config"
@@ -280,12 +430,12 @@ run_prime_selection() {
 	mkdir -p "$prime_directory"
 	: > "$prime_results"
 
+	write_base_configuration "$prime_config"
 	{
 		echo "treefile = $tree_file"
-		cat "$configuration_file"
 		echo "thorough"
 		echo "prime"
-	} > "$prime_config"
+	} >> "$prime_config"
 
 	status_update "Starting adaptive prime selection with up to $prime_jobs concurrent processes; minimum=$prime_min_trials, maximum=$prime_max_trials."
 	prime_number=1
@@ -530,7 +680,8 @@ run_pl_benchmarks() {
 
 	while [ "$pliter" -le "$pl_max" ]
 	do
-		if [ "$pl_phase" = "scout" ]
+		if [ "$pl_phase" = "scout" ] || \
+		   { [ "$workflow_profile" = "fast" ] && [ "$pl_stage" = "initial_pl" ]; }
 		then
 			round_seeds=("${seeds[0]}")
 		else
@@ -771,6 +922,9 @@ run_pl_benchmarks() {
 
 		{
 			echo "status=converged"
+			echo "workflow_profile=$workflow_profile"
+			echo "pl_stage=$pl_stage"
+			echo "seeds_used=$(awk -F '\t' 'NR>1 && $8=="complete" {seen[$2]=1} END {for(seed in seen) printf "%s%s", separator, seed; separator=" "}' "$pl_summary")"
 			echo "converged_pliter=$converged_pliter"
 			echo "convergence_threshold_percent=$pl_convergence_percent"
 			echo "required_consecutive_steps=$pl_consecutive_steps"
@@ -906,25 +1060,30 @@ run_cv_benchmarks() {
 	if [ "$random_cv_pliter" -gt "$random_cv_pliter_max" ]; then random_cv_pliter=$random_cv_pliter_max; fi
 	status_update "Random-CV screening uses pliter=$random_cv_pliter and plsimaniter=$pl_simaniter."
 
-	# Two broad pilot seeds locate the order of magnitude.
+	# Fast mode uses one broad pilot. Thorough mode replicates the pilot and
+	# adds the third seed if the first two differ by more than one decade.
 	run_random_cv_case "pilot" "${seeds[0]}" 3 5000 "$cv_start" "$cv_stop" 0.1
-	run_random_cv_case "pilot" "${seeds[1]}" 3 5000 "$cv_start" "$cv_stop" 0.1
-
-	pilot_ratio=$(awk -F '\t' '$1=="pilot" && $11=="complete" {v[++n]=$9+0} END {
-		if(n<2 || v[1]==0 || v[2]==0) print 999999;
-		else {r=v[1]/v[2]; if(r<1) r=1/r; print r}
-	}' "$cv_summary")
-	pilot_disagreement=$(awk -v ratio="$pilot_ratio" 'BEGIN {print(ratio>10.000001 ? 1 : 0)}')
-	if [ "$pilot_disagreement" -eq 1 ]
+	minimum_completed_pilots=1
+	if [ "$workflow_profile" = "thorough" ]
 	then
-		status_update "Pilot seeds disagree by more than one decade; adding the third seed."
-		run_random_cv_case "pilot" "${seeds[2]}" 3 5000 "$cv_start" "$cv_stop" 0.1
+		minimum_completed_pilots=2
+		run_random_cv_case "pilot" "${seeds[1]}" 3 5000 "$cv_start" "$cv_stop" 0.1
+		pilot_ratio=$(awk -F '\t' '$1=="pilot" && $11=="complete" {v[++n]=$9+0} END {
+			if(n<2 || v[1]==0 || v[2]==0) print 999999;
+			else {r=v[1]/v[2]; if(r<1) r=1/r; print r}
+		}' "$cv_summary")
+		pilot_disagreement=$(awk -v ratio="$pilot_ratio" 'BEGIN {print(ratio>10.000001 ? 1 : 0)}')
+		if [ "$pilot_disagreement" -eq 1 ]
+		then
+			status_update "Pilot seeds disagree by more than one decade; adding the third seed."
+			run_random_cv_case "pilot" "${seeds[2]}" 3 5000 "$cv_start" "$cv_stop" 0.1
+		fi
 	fi
 
 	completed_pilots=$(awk -F '\t' '$1=="pilot" && $11=="complete" {n++} END {print n+0}' "$cv_summary")
-	if [ "$completed_pilots" -lt 2 ]
+	if [ "$completed_pilots" -lt "$minimum_completed_pilots" ]
 	then
-		status_update "ERROR: fewer than two broad random-CV pilots completed; local tuning cannot continue."
+		status_update "ERROR: only $completed_pilots/$minimum_completed_pilots required broad random-CV pilots completed; local tuning cannot continue."
 		return 1
 	fi
 	pilot_bounds=$(awk -F '\t' '$1=="pilot" && $11=="complete" {
@@ -938,6 +1097,39 @@ run_cv_benchmarks() {
 		'BEGIN {print(local<full ? full : local)}')
 	status_update "Pilot neighborhood selected: $local_cv_start to $local_cv_stop."
 
+	if [ "$workflow_profile" = "fast" ]
+	then
+		recommended_cviter=$fast_cviter
+		recommended_cvsimaniter=$fast_cvsimaniter
+		screening_smoothing=$(awk -F '\t' '$1=="pilot" && $11=="complete" {
+			value=$9+0
+			if(!n || value<minimum) minimum=value
+			if(!n || value>maximum) maximum=value
+			n++
+		} END {if(n) printf "%.10g", exp((log(minimum)+log(maximum))/2)}' "$cv_summary")
+		if [ -z "$screening_smoothing" ]
+		then
+			status_update "ERROR: fast random CV did not identify a screening center."
+			return 1
+		fi
+		{
+			echo "status=complete"
+			echo "workflow_profile=$workflow_profile"
+			echo "randomcviter=10"
+			echo "randomcvsamp=0.1"
+			echo "randomcv_pliter=$random_cv_pliter"
+			echo "randomcv_plsimaniter=$pl_simaniter"
+			echo "recommended_cviter=$recommended_cviter"
+			echo "recommended_cvsimaniter=$recommended_cvsimaniter"
+			echo "screening_smoothing=$screening_smoothing"
+			echo "pilot_local_start=$local_cv_start"
+			echo "pilot_local_stop=$local_cv_stop"
+			echo "requires_full_cv_validation=yes"
+		} > "$cv_recommendation"
+		status_update "Fast random-CV screening complete: cviter=$recommended_cviter, cvsimaniter=$recommended_cvsimaniter, geometric pilot center=$screening_smoothing."
+		return 0
+	fi
+
 	# Test simulated-annealing effort locally first.
 	for candidate_cvsimaniter in "${cv_siman_iterations[@]}"
 	do
@@ -945,6 +1137,11 @@ run_cv_benchmarks() {
 	done
 	highest_siman_best=$(awk -F '\t' -v highest="${cv_siman_iterations[${#cv_siman_iterations[@]}-1]}" \
 		'$1=="cvsiman" && $5==highest && $11=="complete" {print $9}' "$cv_summary")
+	if [ -z "$highest_siman_best" ]
+	then
+		status_update "ERROR: the highest cvsimaniter reference run did not complete; cvsimaniter cannot be selected safely."
+		return 1
+	fi
 	recommended_cvsimaniter=$(awk -F '\t' -v target="$highest_siman_best" '
 		$1=="cvsiman" && $11=="complete" && $9==target {
 			if(!found || $5+0<best+0){best=$5; found=1}
@@ -958,6 +1155,11 @@ run_cv_benchmarks() {
 	done
 	highest_cviter_best=$(awk -F '\t' -v highest="${cv_iterations[${#cv_iterations[@]}-1]}" \
 		'$1=="cviter" && $4==highest && $11=="complete" {print $9}' "$cv_summary")
+	if [ -z "$highest_cviter_best" ]
+	then
+		status_update "ERROR: the highest cviter reference run did not complete; cviter cannot be selected safely."
+		return 1
+	fi
 	recommended_cviter=$(awk -F '\t' -v target="$highest_cviter_best" '
 		$1=="cviter" && $11=="complete" && $9==target {
 			if(!found || $4+0<best+0){best=$4; found=1}
@@ -967,6 +1169,16 @@ run_cv_benchmarks() {
 	# Confirm only the selected pair with the remaining seeds.
 	run_random_cv_case "confirm" "${seeds[1]}" "$recommended_cviter" "$recommended_cvsimaniter" "$local_cv_start" "$local_cv_stop" 0.1
 	run_random_cv_case "confirm" "${seeds[2]}" "$recommended_cviter" "$recommended_cvsimaniter" "$local_cv_start" "$local_cv_stop" 0.1
+	selected_pair_completed=$(awk -F '\t' \
+		-v selected_iter="$recommended_cviter" -v selected_siman="$recommended_cvsimaniter" '
+		$11=="complete" && $4==selected_iter && $5==selected_siman &&
+		($1=="cviter" || $1=="confirm") {count++}
+		END {print count+0}' "$cv_summary")
+	if [ "$selected_pair_completed" -lt 3 ]
+	then
+		status_update "ERROR: selected random-CV settings were not completed successfully across all three seeds."
+		return 1
+	fi
 
 	screening_smoothing=$(awk -F '\t' \
 		-v selected_iter="$recommended_cviter" -v selected_siman="$recommended_cvsimaniter" '
@@ -987,6 +1199,11 @@ run_cv_benchmarks() {
 			if(selected!="") print selected
 		}' "$cv_summary")
 	screening_smoothing=${screening_smoothing:-$highest_cviter_best}
+	if [ -z "$screening_smoothing" ]
+	then
+		status_update "ERROR: random CV did not produce a screening smoothing value."
+		return 1
+	fi
 
 	{
 		echo "status=complete"
@@ -1028,9 +1245,17 @@ run_full_cv_validation() {
 	recommended_plsimaniter=$(awk -F '=' '$1 == "recommended_plsimaniter" {print $2}' "$run_directory/initial_pl_recommendation.txt" 2>/dev/null)
 
 	printf "case\tseed\tcviter\tcvsimaniter\tcvstart\tcvstop\tcvmultstep\truntime_seconds\tbest_smoothing\tbest_score\tstatus\n" > "$full_cv_summary"
+	full_cv_scores="$run_directory/full_cv_scores.tsv"
+	printf "seed\tsmoothing\tscore\n" > "$full_cv_scores"
+	if [ "$workflow_profile" = "fast" ]
+	then
+		full_cv_seeds=("${seeds[0]}")
+	else
+		full_cv_seeds=("${seeds[@]}")
+	fi
 	status_update "Starting refined full leave-one-out CV: center=$screening_smoothing, range=$refined_cv_start to $refined_cv_stop, multiplier=$refined_cv_step."
 
-	for seed in "${seeds[@]}"
+	for seed in "${full_cv_seeds[@]}"
 	do
 		case_name="fullcv_seed-${seed}_cviter-${recommended_cviter}_cvsimaniter-${recommended_cvsimaniter}"
 		case_directory="$work_directory/full_cv/$case_name"
@@ -1115,27 +1340,288 @@ run_full_cv_validation() {
 			"$case_name" "$seed" "$recommended_cviter" "$recommended_cvsimaniter" \
 			"$refined_cv_start" "$refined_cv_stop" "$refined_cv_step" \
 			"$runtime_seconds" "$best_smoothing" "$best_score" "$status" >> "$full_cv_summary"
+		if [ "$status" = "complete" ]
+		then
+			awk -v score_seed="$seed" '$1 == "chisq:" {
+				smoothing=$2; gsub(/[()]/, "", smoothing)
+				printf "%s\t%.8g\t%s\n", score_seed, smoothing+0, $3
+			}' "$results_path" >> "$full_cv_scores"
+		fi
 	done
 
-	final_smoothing=$(awk -F '\t' '
-		NR > 1 && $11 == "complete" {count[$9]++}
+	if [ "$workflow_profile" = "fast" ]
+	then
+		fast_coarse_winner=$(awk -F '\t' 'NR>1 {if(!found || $3+0<best){best=$3+0; selected=$2; found=1}} END {if(found) print selected}' "$full_cv_scores")
+		if [ -z "$fast_coarse_winner" ]
+		then
+			status_update "ERROR: fast full CV did not produce a coarse winner."
+			return 1
+		fi
+		fast_winner_is_interior=$(awk -v winner="$fast_coarse_winner" -v upper="$refined_cv_start" -v lower="$refined_cv_stop" 'BEGIN {
+			tolerance=winner*0.00001+1e-12
+			du=winner-upper; if(du<0) du=-du
+			dl=winner-lower; if(dl<0) dl=-dl
+			print(du>tolerance && dl>tolerance ? 1 : 0)
+		}')
+		if [ "$fast_winner_is_interior" -ne 1 ]
+		then
+			status_update "ERROR: fast full-CV winner $fast_coarse_winner is on the tested boundary; the optimum is not bracketed."
+			return 1
+		fi
+		fast_confirm_start=$(awk -v winner="$fast_coarse_winner" -v step="$refined_cv_step" 'BEGIN {printf "%.10g", winner/step}')
+		fast_confirm_stop=$(awk -v winner="$fast_coarse_winner" -v step="$refined_cv_step" 'BEGIN {printf "%.10g", winner*step}')
+		fast_coarse_gap_percent=$(awk -F '\t' 'NR>1 {
+			score=$3+0
+			if(!found || score<best) {second=best; best=score; found=1}
+			else if(second==0 || score<second) second=score
+		} END {if(found && second>0) printf "%.10g", 100*(second-best)/best}' "$full_cv_scores")
+		required_full_cv_runs=1
+		if awk -v gap="${fast_coarse_gap_percent:-999}" -v threshold="$fine_refinement_threshold_percent" 'BEGIN {exit(gap<=threshold ? 0 : 1)}'
+		then
+			status_update "Fast full-CV winner is close to the runner-up (gap=${fast_coarse_gap_percent}%); adding one confirmation seed."
+			confirm_seed=${seeds[1]}
+			run_targeted_cv_case "coarse_confirm" "$confirm_seed" "$fast_confirm_start" "$fast_confirm_stop" "$refined_cv_step" 3
+			if [ "$target_status" = "complete" ]
+			then
+				confirm_best=$(extract_best_cv_result "$target_results_path")
+				confirm_best_smoothing=$(printf "%s\n" "$confirm_best" | awk '{print $1}')
+				confirm_best_score=$(printf "%s\n" "$confirm_best" | awk '{print $2}')
+				awk -v score_seed="$confirm_seed" '$1 == "chisq:" {
+					smoothing=$2; gsub(/[()]/, "", smoothing)
+					printf "%s\t%.8g\t%s\n", score_seed, smoothing+0, $3
+				}' "$target_results_path" >> "$full_cv_scores"
+				required_full_cv_runs=2
+			fi
+			printf "fast_confirm_seed-%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n" \
+				"$confirm_seed" "$confirm_seed" "$recommended_cviter" "$recommended_cvsimaniter" \
+				"$fast_confirm_start" "$fast_confirm_stop" "$refined_cv_step" "$target_runtime_seconds" \
+				"${confirm_best_smoothing:-}" "${confirm_best_score:-}" "$target_status" >> "$full_cv_summary"
+			if [ "$target_status" != "complete" ]
+			then
+				status_update "ERROR: the required fast confirmation seed did not complete."
+				return 1
+			fi
+			values_agree=$(awk -v first="$fast_coarse_winner" -v second="$confirm_best_smoothing" 'BEGIN {
+				difference=first-second; if(difference<0) difference=-difference
+				tolerance=first*0.00001+1e-12
+				print(difference<=tolerance ? 1 : 0)
+			}')
+			confirm_best_smoothing=""
+			confirm_best_score=""
+			if [ "$values_agree" -ne 1 ]
+			then
+				status_update "The first two refined-CV seeds disagree; adding the third and final seed."
+				confirm_seed=${seeds[2]}
+				run_targeted_cv_case "coarse_confirm" "$confirm_seed" "$fast_confirm_start" "$fast_confirm_stop" "$refined_cv_step" 3
+				if [ "$target_status" = "complete" ]
+				then
+					confirm_best=$(extract_best_cv_result "$target_results_path")
+					confirm_best_smoothing=$(printf "%s\n" "$confirm_best" | awk '{print $1}')
+					confirm_best_score=$(printf "%s\n" "$confirm_best" | awk '{print $2}')
+					awk -v score_seed="$confirm_seed" '$1 == "chisq:" {
+						smoothing=$2; gsub(/[()]/, "", smoothing)
+						printf "%s\t%.8g\t%s\n", score_seed, smoothing+0, $3
+					}' "$target_results_path" >> "$full_cv_scores"
+					required_full_cv_runs=3
+				fi
+				printf "fast_confirm_seed-%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n" \
+					"$confirm_seed" "$confirm_seed" "$recommended_cviter" "$recommended_cvsimaniter" \
+					"$fast_confirm_start" "$fast_confirm_stop" "$refined_cv_step" "$target_runtime_seconds" \
+					"${confirm_best_smoothing:-}" "${confirm_best_score:-}" "$target_status" >> "$full_cv_summary"
+				if [ "$target_status" != "complete" ]
+				then
+					status_update "ERROR: the tie-breaking fast confirmation seed did not complete."
+					return 1
+				fi
+			fi
+		else
+			status_update "Fast full-CV winner is well separated (runner-up gap=${fast_coarse_gap_percent}%); seed confirmation skipped."
+		fi
+	else
+		required_full_cv_runs=${#seeds[@]}
+	fi
+
+	completed_full_cv_runs=$(awk -F '\t' 'NR>1 && $11=="complete" {count++} END {print count+0}' "$full_cv_summary")
+	if [ "$completed_full_cv_runs" -ne "$required_full_cv_runs" ]
+	then
+		{
+			echo "status=incomplete"
+			echo "reason=full_cv_seed_failure"
+			echo "completed_full_cv_runs=$completed_full_cv_runs"
+			echo "required_full_cv_runs=$required_full_cv_runs"
+		} > "$final_recommendation"
+		status_update "ERROR: full CV completed for $completed_full_cv_runs/$required_full_cv_runs required seeds; no final smoothing will be selected."
+		return 1
+	fi
+
+	seed_count=$required_full_cv_runs
+	final_smoothing=$(awk -F '\t' -v required="$seed_count" '
+		NR > 1 {sum[$2]+=$3; count[$2]++}
 		END {
-			for (value in count) {
-				if (count[value] > best_count) {
-					best_count = count[value]
-					best_value = value
+			for(value in sum) {
+				if(count[value] == required) {
+					mean=sum[value]/count[value]
+					if(!found || mean<best_mean) {
+						best_mean=mean
+						best_value=value
+						found=1
+					}
 				}
 			}
-			if (best_value != "") {
-				print best_value
-			}
+			if(found) print best_value
 		}
-	' "$full_cv_summary")
+	' "$full_cv_scores")
+	coarse_final_smoothing=$final_smoothing
+	adaptive_refinement_status="not_attempted"
+	fine_cv_summary="$run_directory/fine_cv_summary.tsv"
+	printf "stage\tseed\toriginal_smoothing\toriginal_score\tcandidate_smoothing\tcandidate_score\tpreferred\truntime_seconds\tstatus\n" > "$fine_cv_summary"
+
+	if [ -n "$final_smoothing" ]
+	then
+		consensus_bracket_start=$refined_cv_start
+		consensus_bracket_stop=$refined_cv_stop
+		if [ "$workflow_profile" = "fast" ]
+		then
+			consensus_bracket_start=$fast_confirm_start
+			consensus_bracket_stop=$fast_confirm_stop
+		fi
+		winner_is_interior=$(awk -v winner="$final_smoothing" -v upper="$consensus_bracket_start" -v lower="$consensus_bracket_stop" 'BEGIN {
+			tolerance = winner * 0.00001 + 1e-12
+			upper_difference = winner - upper; if(upper_difference < 0) upper_difference = -upper_difference
+			lower_difference = winner - lower; if(lower_difference < 0) lower_difference = -lower_difference
+			print(upper_difference > tolerance && lower_difference > tolerance ? 1 : 0)
+		}')
+		fine_gap_percent=$(awk -F '\t' -v required="$seed_count" '
+			NR>1 {sum[$2]+=$3; count[$2]++}
+			END {
+				for(value in sum) if(count[value]==required) {
+					mean=sum[value]/count[value]
+					if(!found || mean<best) {second=best; best=mean; found=1}
+					else if(second==0 || mean<second) second=mean
+				}
+				if(found && second>0) printf "%.10g", 100*(second-best)/best
+			}' "$full_cv_scores")
+		fine_refinement_needed=$(awk -v gap="${fine_gap_percent:-999}" -v threshold="$fine_refinement_threshold_percent" \
+			'BEGIN {print(gap<=threshold ? 1 : 0)}')
+
+		if [ "$workflow_profile" = "thorough" ] && [ "$winner_is_interior" -eq 1 ] && [ "$fine_refinement_needed" -eq 1 ]
+		then
+			fine_factor=1.7782794100389228
+			fine_step=0.5623413251903491
+			fine_start=$(awk -v value="$final_smoothing" -v factor="$fine_factor" 'BEGIN {printf "%.10g", value * factor}')
+			fine_stop=$(awk -v value="$final_smoothing" -v factor="$fine_factor" 'BEGIN {printf "%.10g", value / factor}')
+			pilot_seed=${seeds[0]}
+			adaptive_refinement_status="pilot_incomplete"
+			status_update "Coarse full-CV winner $final_smoothing is interior; testing quarter-decade neighbors $fine_start and $fine_stop with seed=$pilot_seed."
+			run_targeted_cv_case "fine_pilot" "$pilot_seed" "$fine_start" "$fine_stop" "$fine_step" 3
+
+			if [ "$target_status" = "complete" ]
+			then
+				fine_best_result=$(extract_best_cv_result "$target_results_path")
+				fine_candidate=$(printf "%s\n" "$fine_best_result" | awk '{print $1}')
+				pilot_original_score=$(extract_cv_score_for_value "$target_results_path" "$final_smoothing")
+				pilot_candidate_score=$(extract_cv_score_for_value "$target_results_path" "$fine_candidate")
+				if [ -n "$fine_candidate" ] && [ -n "$pilot_original_score" ] && [ -n "$pilot_candidate_score" ]
+				then
+					candidate_differs=$(awk -v candidate="$fine_candidate" -v original="$final_smoothing" 'BEGIN {
+						difference=candidate-original; if(difference<0) difference=-difference
+						tolerance=original*0.00001+1e-12
+						print(difference>tolerance ? 1 : 0)
+					}')
+					if [ "$candidate_differs" -eq 0 ]
+					then
+						printf "pilot\t%s\t%s\t%s\t%s\t%s\toriginal\t%s\tcomplete\n" \
+							"$pilot_seed" "$final_smoothing" "$pilot_original_score" "$fine_candidate" "$pilot_candidate_score" "$target_runtime_seconds" >> "$fine_cv_summary"
+						adaptive_refinement_status="original_retained_by_pilot"
+						status_update "Fine CV pilot retained the coarse winner $final_smoothing; no confirmation runs are needed."
+					else
+						candidate_votes=0
+						original_votes=0
+						if awk -v candidate="$pilot_candidate_score" -v original="$pilot_original_score" 'BEGIN {exit(candidate<original ? 0 : 1)}'
+						then
+							pilot_preferred="candidate"
+							candidate_votes=$((candidate_votes + 1))
+						else
+							pilot_preferred="original"
+							original_votes=$((original_votes + 1))
+						fi
+						printf "pilot\t%s\t%s\t%s\t%s\t%s\t%s\t%s\tcomplete\n" \
+							"$pilot_seed" "$final_smoothing" "$pilot_original_score" "$fine_candidate" "$pilot_candidate_score" "$pilot_preferred" "$target_runtime_seconds" >> "$fine_cv_summary"
+
+						for confirm_seed in "${seeds[@]:1}"
+						do
+							pair_values=$(awk -v candidate="$fine_candidate" -v original="$final_smoothing" 'BEGIN {
+								if(candidate>original) {upper=candidate; lower=original} else {upper=original; lower=candidate}
+								printf "%.10g\t%.10g\t%.17g", upper, lower, lower/upper
+							}')
+							pair_start=$(printf "%s\n" "$pair_values" | awk '{print $1}')
+							pair_stop=$(printf "%s\n" "$pair_values" | awk '{print $2}')
+							pair_step=$(printf "%s\n" "$pair_values" | awk '{print $3}')
+							run_targeted_cv_case "fine_confirm" "$confirm_seed" "$pair_start" "$pair_stop" "$pair_step" 2
+							confirm_original_score=$(extract_cv_score_for_value "$target_results_path" "$final_smoothing")
+							confirm_candidate_score=$(extract_cv_score_for_value "$target_results_path" "$fine_candidate")
+							if [ "$target_status" = "complete" ] && [ -n "$confirm_original_score" ] && [ -n "$confirm_candidate_score" ]
+							then
+								if awk -v candidate="$confirm_candidate_score" -v original="$confirm_original_score" 'BEGIN {exit(candidate<original ? 0 : 1)}'
+								then
+									confirm_preferred="candidate"
+									candidate_votes=$((candidate_votes + 1))
+								else
+									confirm_preferred="original"
+									original_votes=$((original_votes + 1))
+								fi
+								printf "confirm\t%s\t%s\t%s\t%s\t%s\t%s\t%s\tcomplete\n" \
+									"$confirm_seed" "$final_smoothing" "$confirm_original_score" "$fine_candidate" "$confirm_candidate_score" "$confirm_preferred" "$target_runtime_seconds" >> "$fine_cv_summary"
+							else
+								printf "confirm\t%s\t%s\t%s\t%s\t%s\tunavailable\t%s\tincomplete\n" \
+									"$confirm_seed" "$final_smoothing" "$confirm_original_score" "$fine_candidate" "$confirm_candidate_score" "$target_runtime_seconds" >> "$fine_cv_summary"
+							fi
+						done
+
+						if [ "$candidate_votes" -ge 2 ]
+						then
+							final_smoothing=$fine_candidate
+							adaptive_refinement_status="candidate_selected"
+							status_update "Adaptive fine CV selected $fine_candidate by $candidate_votes candidate vote(s) to $original_votes original vote(s)."
+						else
+							adaptive_refinement_status="original_retained_after_confirmation"
+							status_update "Adaptive fine CV retained $final_smoothing by $original_votes original vote(s) to $candidate_votes candidate vote(s)."
+						fi
+					fi
+				else
+					adaptive_refinement_status="pilot_unusable"
+					status_update "Fine CV pilot did not yield comparable original and candidate scores; retaining $final_smoothing."
+				fi
+			fi
+		elif [ "$workflow_profile" = "fast" ] && [ "$winner_is_interior" -eq 1 ]
+		then
+			adaptive_refinement_status="skipped_in_fast_profile"
+			status_update "Fine quarter-decade CV refinement skipped in fast mode."
+		elif [ "$winner_is_interior" -eq 1 ]
+		then
+			adaptive_refinement_status="skipped_well_separated_curve"
+			status_update "Fine CV refinement skipped: the next-best cross-seed mean score is ${fine_gap_percent}% above the winner, exceeding the ${fine_refinement_threshold_percent}% threshold."
+		else
+			adaptive_refinement_status="coarse_winner_unbracketed"
+			{
+				echo "status=incomplete"
+				echo "reason=coarse_cv_winner_on_boundary"
+				echo "seed_mode=$seed_mode"
+				echo "seeds=${seeds[*]}"
+				echo "coarse_smooth=$coarse_final_smoothing"
+				echo "tested_cv_start=$consensus_bracket_start"
+				echo "tested_cv_stop=$consensus_bracket_stop"
+			} > "$final_recommendation"
+			status_update "ERROR: coarse full-CV winner $final_smoothing lies on the tested boundary, so the optimum is not bracketed."
+			return 1
+		fi
+	fi
 
 	if [ -n "$final_smoothing" ]
 	then
 		{
 			echo "status=complete"
+			echo "workflow_profile=$workflow_profile"
 			echo "seed_mode=$seed_mode"
 			echo "seeds=${seeds[*]}"
 			echo "opt=$opt"
@@ -1149,15 +1635,19 @@ run_full_cv_validation() {
 			echo "randomcvsamp=0.1"
 			echo "randomcv_pliter=$random_cv_pliter"
 			echo "randomcv_plsimaniter=$pl_simaniter"
+			echo "coarse_smooth=$coarse_final_smoothing"
+			echo "adaptive_refinement_status=$adaptive_refinement_status"
 			echo "smooth=$final_smoothing"
 		} > "$final_recommendation"
-		status_update "Full CV validation finished. Final modal smoothing=$final_smoothing."
+		status_update "Full CV validation finished. Final cross-seed consensus smoothing=$final_smoothing."
 	else
 		echo "status=incomplete" > "$final_recommendation"
 		status_update "ERROR: full CV validation did not produce a final smoothing recommendation."
+		return 1
 	fi
 
 	status_update "Full workflow recommendation: $final_recommendation"
+	return 0
 }
 
 update_final_pl_recommendation() {
@@ -1186,9 +1676,10 @@ update_final_pl_recommendation() {
 
 status_update "Benchmark initialized."
 status_update "Output directory: $run_directory"
-status_update "Mode: $benchmark_mode; tree: $tree_file; configuration: $configuration_file; smoothing: $fixed_smoothing."
+status_update "Mode: $benchmark_mode; profile: $workflow_profile; tree: $tree_file; configuration: $configuration_file; smoothing: $fixed_smoothing."
 status_update "Seed mode: $seed_mode; seeds: ${seeds[*]}."
 {
+	echo "workflow_profile=$workflow_profile"
 	echo "seed_mode=$seed_mode"
 	echo "seeds=${seeds[*]}"
 } > "$run_directory/benchmark_seeds.txt"
@@ -1200,13 +1691,29 @@ fi
 
 if [ "$benchmark_mode" = "cv" ] || [ "$benchmark_mode" = "all" ] || [ "$benchmark_mode" = "full" ]
 then
-	status_update "Random-CV staged search: two broad pilots (third only if they differ by more than one decade), then local cvsimaniter and cviter tests, followed by selected-pair confirmation across three seeds; candidates cviter=${cv_iterations[*]}; cvsimaniter=${cv_siman_iterations[*]}; range=$cv_start to $cv_stop; fixed randomcviter=10; fixed randomcvsamp=0.1."
+	if [ "$workflow_profile" = "fast" ]
+	then
+		status_update "Fast random-CV search: one broad pilot, fixed cviter=$fast_cviter and cvsimaniter=$fast_cvsimaniter, then one refined full CV. A second seed runs only for a close result; a third only if the first two disagree."
+	else
+		status_update "Thorough random-CV search: broad pilots, local cvsimaniter and cviter tests, then selected-pair confirmation across three seeds; candidates cviter=${cv_iterations[*]}; cvsimaniter=${cv_siman_iterations[*]}."
+	fi
 fi
 
 if [ "$benchmark_mode" = "full" ]
 then
 	run_prime_selection || exit 7
-	run_plsiman_screen || exit 8
+	if [ "$workflow_profile" = "thorough" ]
+	then
+		run_plsiman_screen || exit 8
+	else
+		pl_simaniter=5000
+		{
+			echo "workflow_profile=$workflow_profile"
+			echo "recommended_plsimaniter=$pl_simaniter"
+			echo "basis=previous empirical equivalence tests"
+		} > "$run_directory/plsiman_recommendation.txt"
+		status_update "Fast mode uses empirically supported plsimaniter=$pl_simaniter without repeating the equivalence screen."
+	fi
 	run_pl_benchmarks "initial_pl" || exit 9
 fi
 
@@ -1227,8 +1734,19 @@ then
 	then
 		status_update "Repeating adaptive PL convergence at optimized smoothing=$final_smoothing."
 		fixed_smoothing=$final_smoothing
-		run_pl_benchmarks "final_pl" || exit 11
-		update_final_pl_recommendation
+		if ! run_pl_benchmarks "final_pl"
+		then
+			failed_recommendation="$run_directory/final_recommendation.failed.tmp"
+			{
+				echo "status=incomplete"
+				awk -F '=' '$1 != "status"' "$run_directory/final_recommendation.txt"
+				echo "failure_reason=final_pl_convergence_failed"
+			} > "$failed_recommendation"
+			mv "$failed_recommendation" "$run_directory/final_recommendation.txt"
+			status_update "ERROR: final PL convergence failed; final recommendation marked incomplete."
+			exit 11
+		fi
+		update_final_pl_recommendation || exit 12
 	fi
 fi
 

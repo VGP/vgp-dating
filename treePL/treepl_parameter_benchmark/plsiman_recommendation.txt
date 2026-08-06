@@ -1,4 +1,3 @@
-seed=409004166
-pliter=5
-equivalence_threshold_percent=0.01
+workflow_profile=fast
 recommended_plsimaniter=5000
+basis=previous empirical equivalence tests
