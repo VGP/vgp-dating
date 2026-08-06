@@ -1,0 +1,2 @@
+seed_mode=fixed
+seeds=1729 2718 3141

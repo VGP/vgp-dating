@@ -1,0 +1,12 @@
+phase	pliter	previous_pliter	raw_objective_change_percent	change_percent_per_10_iterations	consecutive_converged_steps
+scout	2				0
+scout	4	2	9.66283409	48.31417045	0
+scout	8	4	9.380753463	23.45188366	0
+scout	16	8	7.199054186	8.998817733	0
+scout	32	16	4.722801719	2.951751074	0
+scout	64	32	2.844825326	0.8890079144	0
+scout	128	64	1.826718789	0.2854248108	0
+confirmation	128				0
+confirmation	198	128	1.121166485	0.1601666407	0
+confirmation	238	198	0.3667480838	0.09168702096	1
+confirmation	288	238	0.3597055041	0.07194110083	2

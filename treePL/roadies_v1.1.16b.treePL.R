@@ -117,7 +117,7 @@ bt <- branching.times(roadies_v1.1.16b.treePL.tre)
 mrca_df$estimated_age_Ma <- bt[as.character(mrca_df$node)]
 
 # plot tree
-plotTree(roadies_v1.1.16b.treePL.tre,color="white",type="arc",lwd=1,ftype="off",
+plotTree(roadies_v1.1.16b.treePL.tre,color="white",type="arc",lwd=2,ftype="off",
          arc_height=arc_height,ylim=c(-0.1*h,1.1*(1+arc_height)*h))
 
 op <- par(mgp = c(3, 0.5, 0))  # 2nd value = tick-label distance
@@ -133,7 +133,7 @@ par(op)
 draw.arc(0,0,radius=h-labs[2:length(labs)]+arc_height*h,
          angle1=,angle2=pi,col=make.transparent("black",0.4),
          lty="dotted")
-plot(painted,colors,type="arc",lwd=1,ftype="off",
+plot(painted,colors,type="arc",lwd=2,ftype="off",
      arc_height=arc_height,ylim=c(-0.1*h,1.1*(1+arc_height)*h),add=T)
 nodelabels(node = mrca_df$node,pch = 21,bg  = "black",col = "black",cex = 0.6)
 legend(x="topleft",legend=names(colors)[-1],

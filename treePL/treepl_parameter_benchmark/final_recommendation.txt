@@ -1,0 +1,15 @@
+status=complete
+seed_mode=fixed
+seeds=1729 2718 3141
+opt=5
+optad=5
+optcvad=3
+cviter=3
+cvsimaniter=5000
+randomcviter=10
+randomcvsamp=0.1
+randomcv_pliter=50
+randomcv_plsimaniter=5000
+smooth=0.00316228
+pliter=350
+plsimaniter=5000
