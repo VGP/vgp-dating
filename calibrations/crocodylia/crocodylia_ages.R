@@ -42,33 +42,34 @@ ymax <- max(d$y)
 ages$y_pos <- seq(from = 0.05 * ymax, to = 0.95 * ymax, length.out = nrow(ages))
 
 ## --- Plot ---
-ggplot() +
+p <- ggplot() +
   geom_density(
     data = times_no_outliers,
     aes(x = Time, y = after_stat(density)),
     fill = "lightblue", alpha = 0.5
   ) +
-  geom_vline(xintercept = c(77.9,113.2), linetype = "dashed", color = "darkgrey") + 
-  ## rug: non-outliers (black)
+  geom_vline(
+    xintercept = c(77.9, 113.2),
+    linetype = "dashed",
+    color = "darkgrey"
+  ) +
   geom_rug(
     data = filter(times, !is_outlier),
     aes(x = Time),
     sides = "b", color = "black", alpha = 0.6
   ) +
-  ## rug: outliers (red)
   geom_rug(
     data = filter(times, is_outlier),
     aes(x = Time),
     sides = "b", color = "red", alpha = 0.9
   ) +
-  ## calibration ranges (overlaid on density)
   geom_errorbarh(
     data = ages,
     aes(y = y_pos, xmin = Min, xmax = Max),
     inherit.aes = FALSE,
-    height = 0.02 * ymax, linewidth = 0.8
+    height = 0.02 * ymax,
+    linewidth = 0.8
   ) +
-  ## calibration points
   geom_point(
     data = ages,
     aes(x = Point, y = y_pos, shape = is_outlier),
@@ -92,26 +93,38 @@ ggplot() +
     legend.background = element_rect(fill = "white", color = "white"),
     axis.ticks = element_line(color = "black"),
     axis.ticks.length = unit(0.2, "cm")
-  ) + 
+  ) +
   annotate(
     "text",
-    x = 22.5, y = 0.028,   # <-- adjust as needed
+    x = 22.5, y = 0.028,
     label = "Leidysuchus canadensis",
     hjust = 0, vjust = 1,
     size = 3.5,
     color = "black",
     fontface = "italic"
-  ) + 
+  ) +
   add_phylopic(
     uuid = "a796420f-5158-4e96-acbe-e30ef36b26d6",
-    x=170,
-    y=0.01,
-    height=0.0065
-  ) + 
+    x = 170,
+    y = 0.01,
+    height = 0.0065
+  ) +
   add_phylopic(
     uuid = "9ae2be6e-95fa-4514-955e-130236fc07b7",
-    x=50,
-    y=0.025,
-    height=0.0035,
+    x = 50,
+    y = 0.025,
+    height = 0.0035,
     fill = "lightgrey"
   )
+
+print(p)
+
+ggsave(
+  filename = "crocodylia_calibrations.png",
+  plot = p,
+  width = 8,
+  height = 5,
+  units = "in",
+  dpi = 300,
+  bg = "white"
+)
