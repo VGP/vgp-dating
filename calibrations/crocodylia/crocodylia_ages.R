@@ -97,7 +97,7 @@ p <- ggplot() +
   annotate(
     "text",
     x = 22.5, y = 0.028,
-    label = "Leidysuchus canadensis",
+    label = "Leidyosuchus canadensis",
     hjust = 0, vjust = 1,
     size = 3.5,
     color = "black",
