@@ -104,18 +104,14 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 ---
 
-**Node $XXX:** Urodela | 125.0–251.9Ma\
-**Node calibrated:** The most recent common ancestor of \
-**Fossil taxon:** \
-**Minimum age:** \
-**Minimum justification:** \
-**Maximum age:** \
-**Maximum justification:** \
-**Discussion:** 
-
-
-
-
+**Node $XXX:** Pseudosauria | 83.6–143.1Ma\
+**Node calibrated:** The most recent common ancestor of Ambystomatidae (_Ambystoma mexicanum_) and Plethodontidae (_Thorius spilogaster_)\
+**Fossil taxon:** †_Bishara backa_ (originally CCMGE 240/12177, with a neotype ZIN PH 2/172 and other associated material) from the Shakh-Shakh locality of the Bostobe Formation (Cretaceous: Santonian–Campanian), in the northeastern Aral Sea area of the Kyzylorda Region, Kazakhstan ([Skutschas et al. 2025](https://doi.org/10.1080/08912963.2024.2384108)).\
+**Minimum age:** Cretaceous (Santonian–Campanian), 83.6Ma\
+**Minimum justification:** The Bostobe Formation is Santonian–Campanian in age ([Skutschas 2013](https://doi.org/10.1007/s12549-013-0126-8)).\
+**Maximum age:** Jurassic–Cretaceous boundary, 143.1Ma\
+**Maximum justification:** We use a conservative soft maximum age corresponding to the Jurassic–Cretaceous boundary, as numerous stem but no unambiguous crown salamanders are known from the Jurassic ([Jones et al. 2022](https://doi.org/10.1073/pnas.2114100119)).\
+**Discussion:** Newly described synapomorphies and a phylogenetic analysis place this taxon in crown Proteidae, sister to _Proteus_ to the exclusion of _Necturus_ relative to the extant taxa ([Skutschas et al. 2025](https://doi.org/10.1080/08912963.2024.2384108)). Even if treated as a total-group proteid (i.e., potentially a stem member), it nonetheless provides a credible minimum boundary for Pseudosauria. 
 
 ### Likelihood checkpoints:
 
@@ -201,6 +197,10 @@ Roček, Z., 2008. The Late Cretaceous frog Gobiates from Central Asia: its evolu
 Roelants, K., Gower, D.J., Wilkinson, M., Loader, S.P., Biju, S.D., Guillaume, K., Moriau, L. and Bossuyt, F., 2007. Global patterns of diversification in the history of modern amphibians. Proceedings of the National Academy of Sciences, 104(3), pp.887-892.
 
 Ruta, M. and Coates, M.I., 2007. Dates, nodes and character conflict: addressing the lissamphibian origin problem. Journal of systematic Palaeontology, 5(1), pp.69-122.
+
+Skutschas, P.P., 2013. Mesozoic salamanders and albanerpetontids of Middle Asia, Kazakhstan, and Siberia. Palaeobiodiversity and Palaeoenvironments, 93(4), pp.441-457.
+
+Skutschas, P.P., Malakhov, D.V., Parakhin, I.A. and Kolchanov, V.V., 2025. New data on the crown proteid Bishara backa from the Upper Cretaceous (Bostobe Formation) of Kazakhstan: implications for early evolution and palaeobiogeography of proteidae. Historical Biology, 37(7), pp.1706-1714.
 
 Spinar, Z. V. & Tatarinov, L. P. 1986. A new genus and species of discoglossid frog from the Upper Cretaceous of the Gobi Desert. J. Vert. Paleontol. 6, 113–122.
 
