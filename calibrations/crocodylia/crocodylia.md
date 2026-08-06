@@ -18,7 +18,7 @@ One terminal node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, 
 **Node $XXX:** Longirostres | 113.2-51.5Ma\
 **Node calibrated:** The most recent common ancestor of Gavialidae (_Gavialus gangeticus_) and Crocodylidae (_Crocodylus niloticus_).\
 **Fossil taxa:** †_Kentisuchus spenceri_ (NHM 19633) from the London Clay, Isle of Sheppey, England ([Buckland 1836](https://doi.org/10.5962/bhl.title.125523))\
-**Minimum age:** Early Eocene (Ypresian), 51.5\
+**Minimum age:** Early Eocene (Ypresian), 51.5Ma\
 **Minimum justification:** The London Clay site is from the Eocene (Ypresian), deposited no later than 51.5Ma ([Brochu 2007](https://doi.org/10.1111/j.1475-4983.2007.00679.x), [Rayner et al. 2009](https://www.researchgate.net/publication/289335539_London_Clay_Fossils_of_Kent_and_Essex)).\
 **Maximum age:** Early Cretaceous (Aptian–Albian), 113.2Ma\
 **Maximum justification:** We retain a conservative maximum bound at the Aptian-Albian boundary (113.2Ma), as the lower 95% CI of both timetrees and total-evidence estimates is 107Ma and 108Ma, respectively, based on the density of stem crocodylians and absence of any crown members in the early Cretaceous ([Rio and Mannion 2021](https://doi.org/10.7717/peerj.12094), [Walter et al. 2025](https://doi.org/10.1038/s42003-025-07653-4); but see [Groh et al. 2022](https://doi.org/10.1111/pala.12589) for a potentially older time-scale).\
