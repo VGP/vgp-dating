@@ -1,9 +1,9 @@
 status=converged
-converged_pliter=164
+converged_pliter=136
 convergence_threshold_percent=0.1
 required_consecutive_steps=2
-scout_transition_pliter=64
+scout_transition_pliter=16
 buffer_percent=20
 rounding=10
-recommended_pliter=200
+recommended_pliter=170
 recommended_plsimaniter=5000

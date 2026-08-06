@@ -1,2 +1,2 @@
-seed_mode=fixed
-seeds=1729 2718 3141
+seed_mode=random
+seeds=409004166 960833840 1170241174

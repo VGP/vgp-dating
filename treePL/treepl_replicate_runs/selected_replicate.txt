@@ -1,6 +1,6 @@
 status=complete
-selected_replicate=148
-selected_seed=150052
-lowest_objective=2.1435438e+08
-selected_tree=/Users/rapyron/Desktop/treePL/treepl_replicate_runs/roadies_v1.1.16b.lowest_objective.tre
-summary=/Users/rapyron/Desktop/treePL/treepl_replicate_runs/replicate_summary.tsv
+selected_replicate=55
+selected_seed=56215
+lowest_objective=2.1441969e+08
+selected_tree=/Users/rapyron/Documents/GitHub/vgp-dating/treePL/treepl_replicate_runs/roadies_v1.1.16b.lowest_objective.tre
+summary=/Users/rapyron/Documents/GitHub/vgp-dating/treePL/treepl_replicate_runs/replicate_summary.tsv

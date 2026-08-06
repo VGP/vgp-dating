@@ -1,4 +1,4 @@
-seed=1729
+seed=409004166
 pliter=5
 equivalence_threshold_percent=0.01
 recommended_plsimaniter=5000
