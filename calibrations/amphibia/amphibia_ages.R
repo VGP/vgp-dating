@@ -94,6 +94,15 @@ p <- ggplot(dens_df, aes(x = x, y = y, fill = Clade, color = Clade)) +
 
 p
 
+ggsave(
+  filename = "amphibia_likelihood_checkpoints.png",
+  plot = p,
+  width = 8,
+  height = 5,
+  units = "in",
+  dpi = 300
+)
+
 # Summary Stats
 age_summary <- amphibia_flagged %>%
   filter(!is_outlier) %>%

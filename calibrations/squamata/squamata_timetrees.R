@@ -94,6 +94,14 @@ ggplot() +
     plot.title = element_text(face = "bold", hjust = 0.5)
   )
 
+ggsave(
+  filename = "squamata_likelihood_checkpoints.png",
+  width = 8,
+  height = 5,
+  units = "in",
+  dpi = 300
+)
+
 # Estimates
 ages_clean <- squamata$Age[!squamata$outlier]
 
