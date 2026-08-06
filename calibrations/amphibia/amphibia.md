@@ -80,6 +80,19 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 **Maximum justification:** Several early branching salamandrids (_Duffaudiella, Eotriton,_ and _Koaliella_) are known from the Eocene and Paleocene ([Macaluso et al. 2025](https://royalsocietypublishing.org/rspb/article/292/2052/20251333/234515)), supporting the K–Pg boundary as a conservative soft maximum age for Pleurodelinae.\
 **Discussion:** [Hime et al. (2021)](https://academic.oup.com/sysbio/article/70/1/49/5828236) estimated the age of this node at ~35Ma, consistent with the fossil evidence reviewed by [Macaluso et al. (2022)](https://royalsocietypublishing.org/rsos/article/9/11/220935/96437/Biogeographic-history-of-Palearctic-caudates) and the total-evidence analysis of [Macaluso et al. (2025)](https://royalsocietypublishing.org/rspb/article/292/2052/20251333/234515). In contrast, [Stewart and Wiens (2025)](https://www.sciencedirect.com/science/article/pii/S1055790324002641) liberally assigned Oligocene fossil material to the crown group of _Triturus_ and the early Eocene (Ypresian) _Eotriton weigelti_ to the crown group of Pleurodelini, yielding dramatically older Paleocene ages for Pleurodelinae. These assignments are not supported by the taxonomic review or phylogenetic analysis of Macaluso et al. ([2022](https://royalsocietypublishing.org/rsos/article/9/11/220935/96437/Biogeographic-history-of-Palearctic-caudates), [2025](https://royalsocietypublishing.org/rspb/article/292/2052/20251333/234515)), and we therefore do not follow them here.
 
+### New calibrations
+
+**Node $XXX:** Urodela | 125.0–251.9Ma\
+**Node calibrated:** The most recent common ancestor of Cryptobranchidea (_Cryptobranchus alleganiensis_) and Plethodontidae (_Thorius spilogaster_)\
+**Fossil taxon:** _Valdotriton gracilis_ (LH 928061a–b and numerous paratypes) from the La Huérguina Formation (Cretaceous: upper Barremian) at the Las Hoyas fossil site, Cuenca Province, Spain ([Evans and Milner 1996](https://doi.org/10.1098/rstb.1996.0061))\
+**Minimum age:** Cretaceous (upper Barremian), 125.0Ma\
+**Minimum justification:** This taxon is a crown urodelan based on a number of synapomorphies ([Evans and Milner 1996](https://doi.org/10.1098/rstb.1996.0061)), and was estimated on the stem of Meantes + Pseudosauria by Jones et al. ([2022](https://doi.org/10.1073/pnas.2114100119)), who referred to that node as “Salamandroidea.” Consequently, it represents a credible minimum age for Urodela.\
+**Maximum age:** Permian–Triassic boundary, 251.9Ma\
+**Maximum justification:** For a maximum age, Benton et al. ([2015](https://doi.org/10.26879/424)) suggested a middle Jurassic limit of 175.1Ma based on another putative stem “salamandroid” _Iridotriton hechti_ ([Evans et al. 2005](https://doi.org/10.1111/j.1096-3642.2005.00159.x)). However, there are numerous total-group salamanders from the Jurassic ([Jones et al. 2022](https://doi.org/10.1073/pnas.2114100119)), and both molecular and total-evidence estimates have ranged into the upper (i.e., late) Triassic ([Roelants et al. 2007](https://doi.org/10.1073/pnas.0608378104); [Pyron 2011](https://doi.org/10.1093/sysbio/syr047); [Jetz and Pyron 2018](https://doi.org/10.1038/s41559-018-0515-5)). In contrast, more recent studies have estimated a Jurassic origin ([Hime et al. 2021](https://doi.org/10.1093/sysbio/syaa034); Stewart and Wiens 2025). As a conservative compromise, we use a soft maximum age derived from the Permian–Triassic boundary, allowing crown Urodela to encompass essentially all previous age estimates.\
+**Discussion:** This is constraint #10 from Stewart and Wiens ([2025](https://doi.org/10.1016/j.ympev.2024.108272)). The resolution of numerous fossil salamanders from the late Jurassic and early Cretaceous might provide more precise minimum ages in the future ([Jones et al. 2022](https://doi.org/10.1073/pnas.2114100119)).
+
+
+
 
 ### Likelihood checkpoints:
 
@@ -116,7 +129,11 @@ Chen, J., Bever, G.S., Yi, H.Y. and Norell, M.A., 2016. A burrowing frog from th
 
 Dubois, A., Ohler, A. and Pyron, R.A., 2021. New concepts and methods for phylogenetic taxonomy and nomenclature in zoology, exemplified by a new ranked cladonomy of recent amphibians (Lissamphibia). Megataxa, 5(1), pp.1-738.
 
+Evans, S.E. and Milner, A.R., 1996. A metamorphosed salamander from the Early Cretaceous of Las Hoyas, Spain. Philosophical Transactions: Biological Sciences, pp.627-646.
+
 Evans, S.E., Milner, A.R. and Mussett, F., 1990. A discoglossid frog from the Middle Jurassic of England. Palaeontology, 33(2), pp.299-311.
+
+Evans, S.E., Lally, C., Chure, D.C., Elder, A. and Maisano, J.A., 2005. A late Jurassic salamander (Amphibia: Caudata) from the Morrison formation of North America. Zoological Journal of the Linnean Society, 143(4), pp.599-616.
 
 Evans, S.E., Groenke, J.R., Jones, M.E., Turner, A.H. and Krause, D.W., 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One, 9(1), p.e87236.
 
@@ -129,6 +146,10 @@ Gómez, R.O. and Lires, A.I., 2019. High ecomorphological diversity among Early 
 Henrici, A. C. (1998). A new pipoid anuran from the Late Jurassic Morrison Formation at Dinosaur National Monument, Utah. Journal of Vertebrate Paleontology, 18(2), 321–332.
 
 Hime, P.M., Lemmon, A.R., Lemmon, E.C.M., Prendini, E., Brown, J.M., Thomson, R.C., Kratovil, J.D., Noonan, B.P., Pyron, R.A., Peloso, P.L. and Kortyna, M.L., 2021. Phylogenomics reveals ancient gene tree discordance in the amphibian tree of life. Systematic biology, 70(1), pp.49-66.
+
+Jetz, W. and Pyron, R.A., 2018. The interplay of past diversification and evolutionary isolation with present imperilment across the amphibian tree of life. Nature ecology & evolution, 2(5), pp.850-858.
+
+Jones, M.E., Benson, R.B., Skutschas, P., Hill, L., Panciroli, E., Schmitt, A.D., Walsh, S.A. and Evans, S.E., 2022. Middle Jurassic fossils document an early stage in salamander evolution. Proceedings of the National Academy of Sciences, 119(30), p.e2114100119.
 
 Kligman, B.T., Gee, B.M., Marsh, A.D., Nesbitt, S.J., Smith, M.E., Parker, W.G. and Stocker, M.R., 2023. Triassic stem caecilian supports dissorophoid origin of living amphibians. Nature, 614(7946), pp.102-107.
 
@@ -143,6 +164,8 @@ Pérez-Ben, C.M., Lires, A.I. and Gómez, R.O., 2024. Frog limbs in deep time: i
 Pyron, R.A., 2011. Divergence time estimation using fossils as terminal taxa and the origins of Lissamphibia. Systematic biology, 60(4), pp.466-481.
 
 Roček, Z., 2008. The Late Cretaceous frog Gobiates from Central Asia: its evolutionary status and possible phylogenetic relationships. Cretaceous Research, 29(4), pp.577-591.
+
+Roelants, K., Gower, D.J., Wilkinson, M., Loader, S.P., Biju, S.D., Guillaume, K., Moriau, L. and Bossuyt, F., 2007. Global patterns of diversification in the history of modern amphibians. Proceedings of the National Academy of Sciences, 104(3), pp.887-892.
 
 Ruta, M. and Coates, M.I., 2007. Dates, nodes and character conflict: addressing the lissamphibian origin problem. Journal of systematic Palaeontology, 5(1), pp.69-122.
 
