@@ -107,7 +107,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 
 ---
 
-**Node $XXX:** Serpentes | 66.0–130.0Ma\
+**Node $XXX:** Serpentes | 130.0–66.0Ma\
 **Node calibrated:** The most recent common ancestor of Typhlopidae (_Rhinotyphlops lalandei_) and Pythonidae (_Liasis olivaceus_)\
 **Fossil taxon:** †_Boipeba tayasuensis_ (MPMA 16-0008-08) from the Adamantina Formation (Bauru Basin), Brazil ([Fachini et al. 2020](https://doi.org/10.1016/j.isci.2020.101834))\
 **Minimum age:** Cretaceous–Paleogene boundary, 66.0Ma\
