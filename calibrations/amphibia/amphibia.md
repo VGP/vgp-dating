@@ -1,6 +1,6 @@
 # Amphibia calibrations
 
-There are relatively few amphibians sampled in our tree, and relatively few amphibian fossils that have been robustly estimated in total-evidence analyses. Consequently, we rely primarily on a few well-constrained fossil taxa that appear to share robustly diagnostic synapomorphies with major crown groups. Reassuringly, molecular divergence-time estimates for lissamphibians have been relatively consistent across most recent studies, such that variability in estimated ages is not a major area of uncertainty for this group. In particular, we refer to the results of [Feng et al. (2017)](https://www.pnas.org/doi/abs/10.1073/pnas.1704632114) for frogs, [Hime et al. (2021)](https://academic.oup.com/sysbio/article/70/1/49/5828236) for all amphibians, and [Stewart and Wiens (2025)](https://www.sciencedirect.com/science/article/pii/S1055790324002641) for salamanders as the most recent comprehensive studies with detailed discussion of fossil calibrations and age estimates. Note that we follow the revised nomenclature of [Dubois et al. (2021)](https://www.mapress.com/mt/article/view/38637), which may differ from some of the more familiar names known to many readers from recent publications.
+There are relatively few amphibians sampled in our tree, and relatively few amphibian fossils that have been robustly estimated in total-evidence analyses. Consequently, we rely primarily on a few well-constrained fossil taxa that appear to share robustly diagnostic synapomorphies with major crown groups. Reassuringly, molecular divergence-time estimates for lissamphibians have been relatively consistent across most recent studies, such that variability in estimated ages is not a major area of uncertainty for this group. In particular, we refer to the results of [Feng et al. (2017)](https://www.pnas.org/doi/abs/10.1073/pnas.1704632114) for frogs, [Hime et al. (2021)](https://academic.oup.com/sysbio/article/70/1/49/5828236) for all amphibians, and [Stewart and Wiens (2025)](https://www.sciencedirect.com/science/article/pii/S1055790324002641) for salamanders as the most recent comprehensive studies with detailed discussion of fossil calibrations and age estimates. While some groups such as salamanders have a rich Cenozoic record ([Holman 2006](https://iupress.org/9780253347329/fossil-salamanders-of-north-america/)), many of these are not applicable at the phylogenetic scale analyzed here. Note that we follow the revised nomenclature of [Dubois et al. (2021)](https://www.mapress.com/mt/article/view/38637), which may differ from some of the more familiar names known to many readers from recent publications.
 
 ### Calibrations:
 
@@ -68,6 +68,17 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 **Maximum age:** 143.1Ma\
 **Maximum justification:** Given the relative scarcity of crown anurans from the late Jurassic while stem forms are prevalent (see [Benton et al. 2015](https://palaeo-electronica.org/content/fc-1)), we place a conservative soft maximum age on this clade corresponding to the Jurassic–Cretaceous boundary.\
 **Discussion:** Other taxa of similar ages from the Crato formation such as _Eurycephalella alcinae_ have also been estimated as members of crown Aquipares based on parsimony analyses of morphology ([Evans et al. 2014](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0087236)). The age of Ranomorpha (Helanura + Aquipares) typically dates to the early Cretaceous ([Feng et al. 2017](https://www.pnas.org/doi/abs/10.1073/pnas.1704632114), [Hime et al. 2021](https://academic.oup.com/sysbio/article/70/1/49/5828236)). Consequently, the Jurassic–Cretaceous boundary is a conservative soft maximum age for Aquipares. [Báez (2013)](https://www.sciencedirect.com/science/article/pii/S0195667112001607) and [Agnolin et al. (2020)](https://www.sciencedirect.com/science/article/pii/S0895981120301462) also estimated _Wealdenbatrachus_ from the early Cretaceous of Spain as a member of crown Aquipares using parsimony analyses of morphology, which would push the minimum age for this clade back to ~125Ma. However, this topology was not supported by [Báez and Gómez (2019)](https://www.sciencedirect.com/science/article/pii/S0195667118304099) or [Gómez and Lires (2019)](https://www.sciencedirect.com/science/article/pii/S1631068319301320), who recovered a much earlier-branching position in crown Anura. Consequently, we do not employ _Wealdenbatrachus_ as a constraint here for Aquipares, although a date of ~125–130Ma is consistent with recent estimates for the age of this node ([Feng et al. 2017](https://www.pnas.org/doi/abs/10.1073/pnas.1704632114), [Hime et al. 2021](https://academic.oup.com/sysbio/article/70/1/49/5828236)).
+
+---
+
+**Node 973:** Salamandroidea | 62.0–143.1Ma\
+**Node calibrated:** The most recent common ancestor of Ambystomatidae (_Ambystoma mexicanum_) and Salamandridae (_Triturus cristatus_)\
+**Fossil taxon:** _Dicamptodon antiquus_ (UALVP 32387) from the Paskapoo Formation (Paleocene) of Alberta, Canada ([Naylor and Fox 1993](https://doi.org/10.1139/e93-067))\
+**Minimum age:** Early Paleocene (Danian), 62.0Ma\
+**Minimum justification:** This taxon bears numerous synapomorphies uniting it with the stem of extant species of _Dicamptodon,_ providing a credible minimum age for the crown of Ambystomatidae, and therefore Salamandroidea by extension. It originated from Location 1 from ([Wilson 1980](https://doi.org/10.1139/e80-030)), which was previously dated to ~62Ma ([Christophel 1976](https://www.schweizerbart.de/papers/palb/detail/157/72190/Fossil_floras_of_the_Smoky_Tower_locality_Alberta_)).\
+**Maximum age:** Jurassic–Cretaceous boundary, 143.1Ma\
+**Maximum justification:** We use a conservative soft maximum age corresponding to the Jurassic–Cretaceous boundary, as numerous stem but no unambiguous crown salamanders are known from the Jurassic ([Jones et al. 2022](https://doi.org/10.1073/pnas.2114100119)).\
+**Discussion:** This is a revision of constraint #19 from Stewart and Wiens ([2025](https://doi.org/10.1016/j.ympev.2024.108272)). They assigned this specimen to the Tiffanian, ~56.8-60.2Ma, but a more precise radiometric date was available from volcanic ash at the site.
 
 ---
 
@@ -141,6 +152,8 @@ Carvalho, I.S., Agnolin, F., Rolando, M.A.A., Novas, F.E., Xavier-Neto, J., Frei
 
 Chen, J., Bever, G.S., Yi, H.Y. and Norell, M.A., 2016. A burrowing frog from the late Paleocene of Mongolia uncovers a deep history of spadefoot toads (Pelobatoidea) in East Asia. Scientific Reports, 6(1), p.19209.
 
+Christophel, D.C., 1976. Fossil floras of the Smoky Tower locality, Alberta, Canada. Palaeontographica Abteilung B, pp.1-43.
+
 Dubois, A., Ohler, A. and Pyron, R.A., 2021. New concepts and methods for phylogenetic taxonomy and nomenclature in zoology, exemplified by a new ranked cladonomy of recent amphibians (Lissamphibia). Megataxa, 5(1), pp.1-738.
 
 Evans, S.E. and Milner, A.R., 1996. A metamorphosed salamander from the Early Cretaceous of Las Hoyas, Spain. Philosophical Transactions: Biological Sciences, pp.627-646.
@@ -161,6 +174,8 @@ Henrici, A. C. (1998). A new pipoid anuran from the Late Jurassic Morrison Forma
 
 Hime, P.M., Lemmon, A.R., Lemmon, E.C.M., Prendini, E., Brown, J.M., Thomson, R.C., Kratovil, J.D., Noonan, B.P., Pyron, R.A., Peloso, P.L. and Kortyna, M.L., 2021. Phylogenomics reveals ancient gene tree discordance in the amphibian tree of life. Systematic biology, 70(1), pp.49-66.
 
+Holman, J.A., 2006. Fossil salamanders of North America. Indiana University Press.
+
 Jetz, W. and Pyron, R.A., 2018. The interplay of past diversification and evolutionary isolation with present imperilment across the amphibian tree of life. Nature ecology & evolution, 2(5), pp.850-858.
 
 Jones, M.E., Benson, R.B., Skutschas, P., Hill, L., Panciroli, E., Schmitt, A.D., Walsh, S.A. and Evans, S.E., 2022. Middle Jurassic fossils document an early stage in salamander evolution. Proceedings of the National Academy of Sciences, 119(30), p.e2114100119.
@@ -175,6 +190,8 @@ Macaluso, L., Villa, A., Rozzi, R., Fabre, A.C. and Mennecart, B., 2025. Time to
 
 Macaluso, L., Jansen, O., Valentin, X., Walter, J.D., Otero, O., Amiot, R. and Garcia, G., 2026. New fossil evidence from the Late Cretaceous of Europe (southern France) deepens the origin of Salamandridae (Urodela) and refines the biogeography of the family. Scientific Reports, 16(1), p.16567.
 
+Naylor, B.G. and Fox, R.C., 1993. A new ambystomatid salamander, Dicamptodon antiquus n. sp., from the Paleocene of Alberta, Canada. Canadian Journal of Earth Sciences, 30(4), pp.814-818.
+
 Pérez-Ben, C.M., Lires, A.I. and Gómez, R.O., 2024. Frog limbs in deep time: is jumping locomotion at the roots of the anuran Bauplan?. Paleobiology, 50(1), pp.96-107.
 
 Pyron, R.A., 2011. Divergence time estimation using fossils as terminal taxa and the origins of Lissamphibia. Systematic biology, 60(4), pp.466-481.
@@ -188,3 +205,5 @@ Ruta, M. and Coates, M.I., 2007. Dates, nodes and character conflict: addressing
 Spinar, Z. V. & Tatarinov, L. P. 1986. A new genus and species of discoglossid frog from the Upper Cretaceous of the Gobi Desert. J. Vert. Paleontol. 6, 113–122.
 
 Stewart, A.A. and Wiens, J.J., 2025. A time-calibrated salamander phylogeny including 765 species and 503 genes. Molecular Phylogenetics and Evolution, 204, p.108272.
+
+Wilson, M.V., 1980. Oldest known Esox (Pisces: Esocidae), part of a new Paleocene teleost fauna from western Canada. Canadian Journal of Earth Sciences, 17(3), pp.307-312.
