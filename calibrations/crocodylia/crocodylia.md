@@ -15,7 +15,7 @@ One terminal node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, 
 
 ### Likelihood checkpoints
 
-TimeTree.org estimates a median age of 87Ma (72.9-101.0Ma) from 18 studies between 2004 and 2018. To this, we added 5 additional studies from 2006–2021. Excluding outliers (1.5 * IQR; in red, below), this yields a median of 87.4Ma with a range from 70.9–110.2Ma. These data are given in crocodylia_timetree.csv. To this, we can compare 9 estimates from 8 total-evidence studies with fossil tips from 2017–2026 to estimate a range of 90–110Ma (Median 98Ma) based on the average ages and CIs. This excludes two outlier ages (as triangles, below), one from from Godoy et al. 2019 and the Groh et al. 2022 FBD analysis, which reports dramatically different topologies and timescales for Gavialoidea. These data are recorded in crocodylia_calibrations.csv.
+TimeTree.org estimates a median age of 87Ma (73-101Ma) from 18 studies between 2004 and 2018. To this, we added 5 additional studies from 2006–2021. Excluding outliers (1.5 * IQR; in red, below), this yields a median of 87.4Ma with a range from 70.9–110.2Ma. These data are given in crocodylia_timetree.csv. To this, we can compare 9 estimates from 8 total-evidence studies with fossil tips from 2017–2026 to estimate a range of 90–110Ma (Median 98Ma) based on the average ages and CIs. This excludes two outlier ages (as triangles, below), one from from Godoy et al. 2019 and the Groh et al. 2022 FBD analysis, which reports dramatically different topologies and timescales for Gavialoidea. These data are recorded in crocodylia_calibrations.csv.
 
 ![crocodylia likelihood checkpoints](crocodylia_calibrations.png)
 
