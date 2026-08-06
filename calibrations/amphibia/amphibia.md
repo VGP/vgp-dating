@@ -122,7 +122,7 @@ There are well-documented times for likelihood checkpoints at the base of Amphib
 **950:** Anura (26): 175–265Ma (Median 217Ma)\
 **977:** Gymnophiona (19): 92–258Ma (Median 213Ma)
 
-<img width="2180" height="1414" alt="image" src="https://github.com/user-attachments/assets/7f2bc2c7-94e8-42d1-829d-31bd74e54779" />
+![amphibia likelihood checkpoints](amphibia_likelihood_checkpoints.png)
 
 ## References
 
