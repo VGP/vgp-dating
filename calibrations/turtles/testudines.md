@@ -16,7 +16,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 ---
 
 **Node 747:** Pleurodira | 125.0–157.3Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant pleurodiran turtles: Chelidae (_Myuchelys georgesi_) + Podocnemidae (_Podocnemis expansa_)\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant pleurodirans: Chelidae (_Myuchelys georgesi_) + Podocnemidae (_Podocnemis expansa_)\
 **Fossil taxa:** _Atolchelys lepida_ (UERJ.MC 2)\
 **Minimum age:** 125.0Ma\
 **Minimum justification:** Based the oldest crown pleurodiran ([Romano et al. 2014](https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2014.0290)) from the Morro do Chaves Formation, Sergipe-Alagoas Basin, Brazil from the Barremian of the Cretaceous (121.4–125.77Ma).\
@@ -27,7 +27,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **$XXX UPDATE TO PELOMEDUSOIDES**
 
 **Node $XXX:** Pelomedusoides | 125.0–157.3Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant pelomedusoid turtles: Podocnemidae (_Podocnemis expansa_) + Pelomedusidae (_Pelomedusa somalica_)\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant pelomedusoids: Podocnemidae (_Podocnemis expansa_) + Pelomedusidae (_Pelomedusa somalica_)\
 **Fossil taxa:** _Atolchelys lepida_ (UERJ.MC 2)\
 **Minimum age:** 125.0Ma\
 **Minimum justification:** Based the oldest-known crown pelomedusoid ([Romano et al. 2014](https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2014.0290)) from the Morro do Chaves Formation, Sergipe-Alagoas Basin, Brazil from the Barremian of the Cretaceous (121.4–125.77Ma).\
@@ -38,7 +38,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 ---
 
 **Node 733:** Cryptodira | 157.3–201.4Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant cryptodiran turtles: Carettochelyidae (_Carettochelys insculpta_) + Cheloniidae (_Lepidochelys kempii_)\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant cryptodirans: Carettochelyidae (_Carettochelys insculpta_) + Cheloniidae (_Lepidochelys kempii_)\
 **Fossil taxa:** _Yehguia tatsuensis_ (IVPP-V996)\
 **Minimum age:** 157.3Ma\
 **Minimum justification:** Based on the oldest crown cryptodiran from the Oxfordian of the Jurassic (154.8–161.5Ma), from Chongqing, Sichuan Province, China, probably in the Upper Jurassic Shaximiao Formation ([Danilov and Parham 2006](https://doi.org/10.1671/0272-4634(2006)26[573:aroptf]2.0.co;2), [Tong et al. 2014](https://www.cambridge.org/core/journals/geological-magazine/article/revision-of-sinaspideretes-wimani-young-chow-1953-testudines-cryptodira-trionychoidae-from-the-jurassic-of-the-sichuan-basin-china/69FA3F1252476D48D9B9F171B5993E21)).\
@@ -49,7 +49,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 ---
 
 **Node 734:** Durocryptodira | 88.6–157.3Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant durocrpytodiran turtles: Emydidae (_Malaclemys terrapin_) + Cheloniidae (_Lepidochelys kempii_)\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant durocrpytodirans: Emydidae (_Malaclemys terrapin_) + Cheloniidae (_Lepidochelys kempii_)\
 **Fossil taxa:** _Lindholmemys elegans_ (CCMGE 34/12175)\
 **Minimum age:** 88.6\
 **Minimum justification:** Based on the oldest crown durocryptodiran, likely stem Testudinoidea ([Danilov and Parham 2005](https://www.tandfonline.com/doi/abs/10.1671/0272-4634(2005)025%5B0784%3AAROTRO%5D2.0.CO%3B2)), from the Turonian Bissekty Formation of Uzbekistan of the Cretaceous (89.8–93.9Ma).\
@@ -60,7 +60,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 ---
 
 **Node 744:** Testuguria | 50.3–157.3Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant species of Testudinidae (_Gopherus flavomarginatus_) and Geoemydidae (_Pangshura tecta_)\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant testugurians: Testudinidae (_Gopherus flavomarginatus_) + Geoemydidae (_Pangshura tecta_)\
 **Fossil taxa:** _Hadrianus majusculus_ (YPM 2793)\
 **Minimum age:** 50.3Ma\
 **Minimum justification:** Based on the oldest crown testugurian, likely stem Testudinidae ([Lichtig et al. 2021](https://books.google.com/books?hl=en&lr=&id=DLoxEAAAQBAJ&oi=fnd&pg=PA161&dq=hadrianus+majusculus&ots=a0qnHakZEK&sig=0ee2WuL1HwUwKPRxiE6z7lKv8ns)), from the Eocene Wasatchian badlands of New Mexico (50.3–55.4Ma).\
@@ -82,7 +82,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 ---
 
 **Node 735:** Americhelydia | 70.0–157.3Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant Chelydroidea (_Macrochelys suwanniensis_: Chelydridae) and Chelonioidea (_Lepidochelys kempii_: Cheloniidae)\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant americhelyids: Chelydroidea (_Macrochelys suwanniensis_: Chelydridae) + Chelonioidea (_Lepidochelys kempii_: Cheloniidae)\
 **Fossil taxa:** _Toxochelys latiremys_ (ROM 28563)\
 **Minimum age:** 70.0Ma\
 **Minimum justification:** Based on the oldest crown americhelyid, likely stem Chelonioidea ([Nicholls 1988](https://www.tandfonline.com/doi/abs/10.1080/02724634.1988.10011696)), from the Niobrara Chalk Formation of the Campanian, upper Cretaceous (72.2–83.6Ma) of Kansas.\
@@ -93,7 +93,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 ---
 
 **Node 742:** Chelydroidea | 70.0–157.3Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant chelydroids: Chelydridae (_Macrochelys suwanniensis_) + Dermatemydidae (_Dermatemys mawii_) + Kinosternidae (_Sternotherus odoratus_)\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant chelydroids: Chelydridae (_Macrochelys suwanniensis_) + Kinosternidae (_Sternotherus odoratus_)\
 **Fossil taxa:** Chelydridae indet. (SEPCP 9/493)\
 **Minimum age:** 70.0Ma\
 **Minimum justification:** Based on the oldest crown chelydroid material, likely stem Chelydridae ([Brinkman and de la Rosa 2006](https://www.researchgate.net/publication/237805222_Nonmarine_turtles_from_the_Cerro_del_Pueblo_Formation_Campanian_Coahuila_State_Mexico)), from the Cerro del Pueblo Formation of the Campanian (72.2–83.6Ma), upper Cretaceous of Mexico.\
@@ -104,7 +104,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 ---
 
 **Node 736:** Chelonioidea | 48.4–157.3Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant sea turtles: Dermochelyidae (_Dermochelys coriacea_) + Cheloniidae (_Lepidochelys kempii_)\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant chelonioids: Dermochelyidae (_Dermochelys coriacea_) + Cheloniidae (_Lepidochelys kempii_)\
 **Fossil taxa:** _Eosphargis breineri_ (FM uncat.)\
 **Minimum age:** 48.4Ma\
 **Minimum justification:** Based on the oldest known chelonioid, likely stem Dermochelyidae ([Hirayama 1994](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1440-1738.1994.tb00116.x), [Wood et al. 1996](https://chelonian.org/wp-content/uploads/file/CCB%20Vol%202%20No%202%20(1996)/Wood_etal_1996.pdf)), from the Ypresian Fur Formation of the Eocene (48.07–56.0Ma) of Denmark.\
