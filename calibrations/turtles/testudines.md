@@ -6,40 +6,40 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 **Node 732:** Testudines | 157.3–252.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles: Chelidae (_Myuchelys georgesi_) + Cheloniidae (_Lepidochelys kempii_)\
-**Fossil taxa:** _Notoemys oxfordiensis_ (MNHNCu P 3209)\
+**Fossil taxa:** †_Notoemys oxfordiensis_ (MNHNCu P 3209)\
 **Minimum age:** 157.3Ma\
 **Minimum justification:** As per [Cadena and Joyce (2015)](https://doi.org/10.3374/014.056.0101), the oldest crown testudine from the Viñales locality, Pinar del Río Province, Cuba; Jagua Vieja Member, Jagua Formation, Oxfordian (154.8–161.5Ma), Late Jurassic ([de la Fuente and Iturralde-Vinent 2001](https://www.cambridge.org/core/journals/journal-of-paleontology/article/new-pleurodiran-turtle-from-the-jagua-formation-oxfordian-of-western-cuba/33E57BAE07B114094E5C322E1D4F190F)).\
 **Maximum age:** 252.0Ma\
 **Maximum justification:** Maximum age based on the lower boundary of the Triassic.\
-**Discussion:** The minimum age of 157.3Ma for crown Testudines is generally used as a maximum age for other calibrations in the absence of more precise constraints. As noted by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773): "_Yehguia tatsuensis_ stems from the same age (Oxfordian) and also serves as a prior for this node."
+**Discussion:** The minimum age of 157.3Ma for crown Testudines is generally used as a maximum age for other calibrations in the absence of more precise constraints. As noted by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), †_Yehguia tatsuensis_ originates from the same strata (Oxfordian), representing a similar prior age for this node.
 
 ---
 
 **Node 747:** Pleurodira | 125.0–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant pleurodirans: Chelidae (_Myuchelys georgesi_) + Podocnemidae (_Podocnemis expansa_)\
-**Fossil taxa:** _Atolchelys lepida_ (UERJ.MC 2)\
+**Fossil taxa:** †_Atolchelys lepida_ (UERJ.MC 2)\
 **Minimum age:** 125.0Ma\
 **Minimum justification:** Based the oldest crown pleurodiran ([Romano et al. 2014](https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2014.0290)) from the Morro do Chaves Formation, Sergipe-Alagoas Basin, Brazil from the Barremian of the Cretaceous (121.4–125.77Ma).\
 **Maximum age:** 157.3Ma\
-**Maximum justification:** Maximum age based on the oldest pan-pleurodiran _Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).\
+**Maximum justification:** Maximum age based on the oldest pan-pleurodiran †_Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).\
 **Discussion:** [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773) assign this fossil to the less-inclusive clade Pelumedusoides, but our taxon sampling is not detailed enough to capture this crown group. As result, we calibrate its stem age instead, which is equivalent to the crown group Pleurodira.
 
 **$XXX UPDATE TO PELOMEDUSOIDES**
 
 **Node $XXX:** Pelomedusoides | 125.0–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant pelomedusoids: Podocnemidae (_Podocnemis expansa_) + Pelomedusidae (_Pelomedusa somalica_)\
-**Fossil taxa:** _Atolchelys lepida_ (UERJ.MC 2)\
+**Fossil taxa:** †_Atolchelys lepida_ (UERJ.MC 2)\
 **Minimum age:** 125.0Ma\
 **Minimum justification:** Based the oldest-known crown pelomedusoid ([Romano et al. 2014](https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2014.0290)) from the Morro do Chaves Formation, Sergipe-Alagoas Basin, Brazil from the Barremian of the Cretaceous (121.4–125.77Ma).\
 **Maximum age:** 157.3Ma\
-**Maximum justification:** Maximum age based on the oldest pan-pleurodiran _Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).\
-**Discussion:** As per [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), _Atolchelys_ exhibits "the typical 11 plastron bones of most pleurodires, a reduced pair of mesoplastra, and no fontanelles, as well as exclusive cranial characteristics diagnostic to the Pan-Podocnemididae clade."
+**Maximum justification:** Maximum age based on the oldest pan-pleurodiran †_Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).\
+**Discussion:** As per [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), †_Atolchelys_ exhibits "the typical 11 plastron bones of most pleurodires, a reduced pair of mesoplastra, and no fontanelles, as well as exclusive cranial characteristics diagnostic to the Pan-Podocnemididae clade."
 
 ---
 
 **Node 733:** Cryptodira | 157.3–201.4Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant cryptodirans: Carettochelyidae (_Carettochelys insculpta_) + Cheloniidae (_Lepidochelys kempii_)\
-**Fossil taxa:** _Yehguia tatsuensis_ (IVPP-V996)\
+**Fossil taxa:** †_Yehguia tatsuensis_ (IVPP-V996)\
 **Minimum age:** 157.3Ma\
 **Minimum justification:** Based on the oldest crown cryptodiran from the Oxfordian of the Jurassic (154.8–161.5Ma), from Chongqing, Sichuan Province, China, probably in the Upper Jurassic Shaximiao Formation ([Danilov and Parham 2006](https://doi.org/10.1671/0272-4634(2006)26[573:aroptf]2.0.co;2), [Tong et al. 2014](https://www.cambridge.org/core/journals/geological-magazine/article/revision-of-sinaspideretes-wimani-young-chow-1953-testudines-cryptodira-trionychoidae-from-the-jurassic-of-the-sichuan-basin-china/69FA3F1252476D48D9B9F171B5993E21)).\
 **Maximum age:** 201.4Ma\
@@ -61,18 +61,18 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 **Node 734:** Durocryptodira | 88.6–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant durocrpytodirans: Emydidae (_Malaclemys terrapin_) + Cheloniidae (_Lepidochelys kempii_)\
-**Fossil taxa:** _Lindholmemys elegans_ (CCMGE 34/12175)\
+**Fossil taxa:** †_Lindholmemys elegans_ (CCMGE 34/12175)\
 **Minimum age:** 88.6\
 **Minimum justification:** Based on the oldest crown durocryptodiran, likely stem Testudinoidea ([Danilov and Parham 2005](https://www.tandfonline.com/doi/abs/10.1671/0272-4634(2005)025%5B0784%3AAROTRO%5D2.0.CO%3B2)), from the Turonian Bissekty Formation of Uzbekistan of the Cretaceous (89.8–93.9Ma).\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
-**Discussion:** Previous phylogenetic analyses used chimaeric specimens ([Shaffer et al. 1997](https://academic.oup.com/sysbio/article-abstract/46/2/235/1712833)), but the referenced material was placed on the testudinoid stem ([Danilov and Parham 2005](https://www.tandfonline.com/doi/abs/10.1671/0272-4634(2005)025%5B0784%3AAROTRO%5D2.0.CO%3B2)).
+**Discussion:** Previous phylogenetic analyses used chimeric specimens ([Shaffer et al. 1997](https://academic.oup.com/sysbio/article-abstract/46/2/235/1712833)), but the referenced material was placed on the testudinoid stem when coded directly ([Danilov and Parham 2005](https://www.tandfonline.com/doi/abs/10.1671/0272-4634(2005)025%5B0784%3AAROTRO%5D2.0.CO%3B2)).
 
 ---
 
 **Node 744:** Testuguria | 50.3–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant testugurians: Testudinidae (_Gopherus flavomarginatus_) + Geoemydidae (_Pangshura tecta_)\
-**Fossil taxa:** _Hadrianus majusculus_ (YPM 2793)\
+**Fossil taxa:** †_Hadrianus majusculus_ (YPM 2793)\
 **Minimum age:** 50.3Ma\
 **Minimum justification:** Based on the oldest crown testugurian, likely stem Testudinidae ([Lichtig et al. 2021](https://books.google.com/books?hl=en&lr=&id=DLoxEAAAQBAJ&oi=fnd&pg=PA161&dq=hadrianus+majusculus&ots=a0qnHakZEK&sig=0ee2WuL1HwUwKPRxiE6z7lKv8ns)), from the Eocene Wasatchian badlands of New Mexico (50.3–55.4Ma).\
 **Maximum age:** 157.3Ma\
@@ -83,7 +83,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 **Node 746:** Emydidae | 32.0–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant emydids: _Malaclemys terrapin_ + _Emys orbicularis_\
-**Fossil taxa:** _Chrysemys antiqua_ (SDSM 2754)\
+**Fossil taxa:** †_Chrysemys antiqua_ (SDSM 2754)\
 **Minimum age:** 32.0\
 **Minimum justification:** Based on the oldest crown emydid [(Joyce et al. 2013)](https://doi.org/10.1666/12-149) from SDSM locality V271 within the Orellan Protoceras channels of the Oligocene White River Group (32.0–33.7Ma) of South Dakota.\
 **Maximum age:** 157.3Ma\
@@ -94,7 +94,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 **Node 735:** Americhelydia | 70.0–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant americhelyids: Chelydroidea (_Macrochelys suwanniensis_: Chelydridae) + Chelonioidea (_Lepidochelys kempii_: Cheloniidae)\
-**Fossil taxa:** _Toxochelys latiremys_ (ROM 28563)\
+**Fossil taxa:** †_Toxochelys latiremys_ (ROM 28563)\
 **Minimum age:** 70.0Ma\
 **Minimum justification:** Based on the oldest crown americhelyid, likely stem Chelonioidea ([Nicholls 1988](https://www.tandfonline.com/doi/abs/10.1080/02724634.1988.10011696)), from the Niobrara Chalk Formation of the Campanian, upper Cretaceous (72.2–83.6Ma) of Kansas.\
 **Maximum age:** 157.3Ma\
@@ -116,12 +116,12 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 **Node 736:** Chelonioidea | 48.4–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant chelonioids: Dermochelyidae (_Dermochelys coriacea_) + Cheloniidae (_Lepidochelys kempii_)\
-**Fossil taxa:** _Eosphargis breineri_ (FM uncat.)\
+**Fossil taxa:** †_Eosphargis breineri_ (FM uncat.)\
 **Minimum age:** 48.4Ma\
 **Minimum justification:** Based on the oldest known chelonioid, likely stem Dermochelyidae ([Hirayama 1994](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1440-1738.1994.tb00116.x), [Wood et al. 1996](https://chelonian.org/wp-content/uploads/file/CCB%20Vol%202%20No%202%20(1996)/Wood_etal_1996.pdf)), from the Ypresian Fur Formation of the Eocene (48.07–56.0Ma) of Denmark.\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
-**Discussion:** A range of material likely assignable to the stem of Dermochelyidae exists from the Paleocene and Eocene along with a number of other _Eosphargis_ specimens (summarized by [Joyce et al. 2013](https://doi.org/10.1666/12-149)), but they remain to be properly characterized phylogenetically and stratigraphically.
+**Discussion:** A range of material likely assignable to the stem of Dermochelyidae exists from the Paleocene and Eocene along with a number of other †_Eosphargis_ specimens (summarized by [Joyce et al. 2013](https://doi.org/10.1666/12-149)), but they remain to be properly characterized phylogenetically and stratigraphically.
 
 ### Likelihood Checkpoints:
 
