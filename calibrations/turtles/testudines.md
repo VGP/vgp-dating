@@ -10,7 +10,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Minimum age:** 157.3Ma\
 **Minimum justification:** As per [Cadena and Joyce (2015)](https://doi.org/10.3374/014.056.0101), the oldest crown testudine from the Viñales locality, Pinar del Río Province, Cuba; Jagua Vieja Member, Jagua Formation, Oxfordian (154.8–161.5Ma), Late Jurassic ([de la Fuente and Iturralde-Vinent 2001](https://www.cambridge.org/core/journals/journal-of-paleontology/article/new-pleurodiran-turtle-from-the-jagua-formation-oxfordian-of-western-cuba/33E57BAE07B114094E5C322E1D4F190F)).\
 **Maximum age:** 252.0Ma\
-**Maximum justification:** Maximum age based on the lower boundary of the Triassic.\
+**Maximum justification:** Maximum age based on the lower boundary of the Triassic, a conservative boundary based on the lack of any putative crown turtles from the Permian.\
 **Discussion:** The minimum age of 157.3Ma for crown Testudines is generally used as a maximum age for other calibrations in the absence of more precise constraints. As noted by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), †_Yehguia tatsuensis_ originates from the same strata (Oxfordian), representing a similar prior age for this node.
 
 ---
@@ -43,19 +43,19 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Minimum age:** 157.3Ma\
 **Minimum justification:** Based on the oldest crown cryptodiran from the Oxfordian of the Jurassic (154.8–161.5Ma), from Chongqing, Sichuan Province, China, probably in the Upper Jurassic Shaximiao Formation ([Danilov and Parham 2006](https://doi.org/10.1671/0272-4634(2006)26[573:aroptf]2.0.co;2), [Tong et al. 2014](https://www.cambridge.org/core/journals/geological-magazine/article/revision-of-sinaspideretes-wimani-young-chow-1953-testudines-cryptodira-trionychoidae-from-the-jurassic-of-the-sichuan-basin-china/69FA3F1252476D48D9B9F171B5993E21)).\
 **Maximum age:** 201.4Ma\
-**Maximum justification:** Maximum age based on the minimum age of the Triassic.\
+**Maximum justification:** Maximum age based on the minimum age of the Triassic, a conservative boundary based on the lack of any putative crown cryptodirans from the Triassic.\
 **Discussion:** Also serves as a minimum age for Testudines.
 
 ---
 
 **Node $XXX:** Trionychia | 124.0–177.6Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant trionychians: Carettochelyidae (_Carettochelys insculpta_) + Trionychidae (_Chitra chitra_)\
-**Fossil taxa:** Pantrionychidae indet. (FPDM V-127)\
+**Fossil taxa:** Pan-Trionychidae indet. (FPDM V-127)\
 **Minimum age:** 124.0Ma\
 **Minimum justification:** A stem trionychid diagnosed by fibrous layers integrated into the shell bones, from the Cretaceous (Barremian) Kitadani Formation (Tetori Group) of Japan (see [Joyce et al. (2013)](https://doi.org/10.1666/12-149)). As noted by Joyce et al. ([2013](https://doi.org/10.1666/12-149)), unambiguous carettochelyid fossils from the "pre-Aptian" Sao Khua Formation of Thailand also support a Barremian minimum age for this clade.\
 **Maximum age:** 177.6Ma\
-**Maximum justification:** As per [Joyce et al. (2013)](https://doi.org/10.1666/12-149), the late Jurassic or early Cretaceous †_Sinaspideretes wimani_ also represents a possible crown trionychian, though not one that can reliably be used to constrain the minimum age. As a result, given the abundance of middle Jurassic turtles without any putative trionychians, a soft maximum age at the early–middle Jurassic boundary is a conservative compromise. They note that other authors reject this placement and assigned a much younger early Cretaceous (Hauterivian) maximum age of 131.5Ma ([Lourenço et al. 2012](https://doi.org/10.1016/j.ympev.2011.10.022))\
-**Discussion:** This calibration was considered congruent and not modified between [Joyce et al. (2013)](https://doi.org/10.1666/12-149) and [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773).
+**Maximum justification:** As per [Joyce et al. (2013)](https://doi.org/10.1666/12-149), the late Jurassic or early Cretaceous †_Sinaspideretes wimani_ also represents a possible crown trionychian, though not one that can reliably be used to constrain the minimum age. As a result, given the abundance of middle Jurassic turtles without any putative trionychians, a soft maximum age at the early–middle Jurassic boundary is a conservative compromise. They note that other authors reject this placement and assigned a much younger early Cretaceous (Hauterivian) maximum age of 131.5Ma ([Lourenço et al. 2012](https://doi.org/10.1016/j.ympev.2011.10.022)), though this has not been supported by recent estimates such as Selvatti et al. ([2023](https://doi.org/10.1016/j.ympev.2023.107773)).\
+**Discussion:** This calibration was considered congruent and not modified between Joyce et al. ([2013](https://doi.org/10.1666/12-149)) and Selvatti et al. ([2023](https://doi.org/10.1016/j.ympev.2023.107773)).
 
 ---
 
