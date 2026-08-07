@@ -11,7 +11,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Minimum justification:** As per [Cadena and Joyce (2015)](https://doi.org/10.3374/014.056.0101), the oldest crown testudine from the Viñales locality, Pinar del Río Province, Cuba; Jagua Vieja Member, Jagua Formation, Oxfordian (154.8–161.5Ma), Late Jurassic ([de la Fuente and Iturralde-Vinent 2001](https://www.cambridge.org/core/journals/journal-of-paleontology/article/new-pleurodiran-turtle-from-the-jagua-formation-oxfordian-of-western-cuba/33E57BAE07B114094E5C322E1D4F190F)).\
 **Maximum age:** 252.0Ma\
 **Maximum justification:** Maximum age based on the lower boundary of the Triassic, a conservative boundary based on the lack of any putative crown turtles from the Permian.\
-**Discussion:** The minimum age of 157.3Ma for crown Testudines is generally used as a maximum age for other calibrations in the absence of more precise constraints. As noted by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), †_Yehguia tatsuensis_ originates from the same strata (Oxfordian), representing a similar prior age for this node.
+**Discussion:** The minimum age of 157.3Ma for crown Testudines is generally used as a maximum age for other calibrations in the absence of more precise constraints. As noted by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), †_Yehguia tatsuensis_ originates from the same horizon (Oxfordian), representing a similar prior age for this node.
 
 ---
 
