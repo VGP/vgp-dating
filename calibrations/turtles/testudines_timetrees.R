@@ -55,7 +55,7 @@ median_time_ox <- median(ages_cleanO)
 # ----------------------------
 # Plot (outliers highlighted)
 # ----------------------------
-ggplot() +
+p <- ggplot() +
   
   # Vertical dashed constraint lines
   geom_vline(
@@ -149,6 +149,17 @@ ggplot() +
     height=0.005,
     fill = "lightgrey"
   )
+
+ggsave(
+  filename = "testudines_timetree_estimates.png",
+  plot = p,
+  width = 8,
+  height = 5,
+  units = "in",
+  dpi = 300
+)
+
+print(p)
 
 # ----------------------------
 # Print results
