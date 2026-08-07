@@ -49,14 +49,13 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 ---
 
 **Node $XXX:** Trionychia | 124.0–177.6Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant cryptodirans: Carettochelyidae (_Carettochelys insculpta_) + Cheloniidae (_Lepidochelys kempii_)\
-**Fossil taxa:** Pantrionychidae indet. (FPDM V-127), a stem trionychid diagnosed by fibrous layers integrated into the shell bones, from the Barremian Kitadani Formation (Tetori Group) of Japan (Fujita, 2003, Nakajima et al. 2009)\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant trionychians: Carettochelyidae (_Carettochelys insculpta_) + Trionychidae (_Chitra chitra_)\
+**Fossil taxa:** Pantrionychidae indet. (FPDM V-127)\
 **Minimum age:** 124.0Ma\
-**Minimum justification:** \
+**Minimum justification:** A stem trionychid diagnosed by fibrous layers integrated into the shell bones, from the Cretaceous (Barremian) Kitadani Formation (Tetori Group) of Japan (see [Joyce et al. (2013)](https://doi.org/10.1666/12-149)). As noted by Joyce et al. ([2013](https://doi.org/10.1666/12-149)), unambiguous carettochelyid fossils from the "pre-Aptian" Sao Khua Formation of Thailand also support a Barremian minimum age for this clade.\
 **Maximum age:** 177.6Ma\
-**Maximum justification:** \
-**Discussion:** Calibration was considered congruent and not modified between [Joyce et al. (2013)](https://doi.org/10.1666/12-149) and [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773). As noted by Joyce et al. ([2013](https://doi.org/10.1666/12-149)): "Unambiguous carettochelyid material from the ‘pre-Aptian’ Sao Khua Formation of Thailand (Tong et al., 2009a) also supports a Barremian minimum age of this clade (Lourenço et al., 2012), though with less stratigraphic confidence."
-
+**Maximum justification:** As per [Joyce et al. (2013)](https://doi.org/10.1666/12-149), the late Jurassic or early Cretaceous †_Sinaspideretes wimani_ also represents a possible crown trionychian, though not one that can reliably be used to constrain the minimum age. As a result, given the abundance of middle Jurassic turtles without any putative trionychians, a soft maximum age at the early–middle Jurassic boundary is a conservative compromise. They note that other authors reject this placement and assigned a much younger early Cretaceous (Hauterivian) maximum age of 131.5Ma ([Lourenço et al. 2012](https://doi.org/10.1016/j.ympev.2011.10.022))\
+**Discussion:** This calibration was considered congruent and not modified between [Joyce et al. (2013)](https://doi.org/10.1666/12-149) and [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773).
 
 ---
 
@@ -143,6 +142,8 @@ Danilov, I.G., Parham, J.F., 2006. A redescription of ‘Plesiochelys’ tatsuen
 
 de la Fuente, M, & Iturralde-Vinent, M. 2001. A new pleurodiran turtle from the Jagua Formation (Oxfordian) of western Cuba. Journal of Paleontology, 75(4), 860-869.
 
+Fujita, M. 2003. Geological age and correlation of the vertebrate-bearing horizons in the Tetori Group. Memoir of the Fukui Prefectural Dinosaur Museum, 2:3–14
+
 Hirayama, R., 1994. Phylogenetic systematics of chelonioid sea turtles. Island Arc, 3(4), pp.270-284.
 
 Hutchison JH. Testudines. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-Oligocene Transition in North America. Cambridge University Press; 1996:337-353.
@@ -150,6 +151,10 @@ Hutchison JH. Testudines. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-
 Joyce, W.G., Parham, J.F., Lyson, T.R., Warnock, R.C. and Donoghue, P.C., 2013. A divergence dating analysis of turtles using fossil calibrations: an example of best practices. Journal of Paleontology, 87(4), pp.612-634.
 
 Lichtig, A.J., Lucas, S.G. and Jasinski, S.E., 2021. Complete specimens of the Eocene testudinoid turtles Echmatemys and Hadrianus and the North American origin of tortoises. New Mexico Museum of Natural History and Science Bulletin, 82, pp.161-176.
+
+Lourenço, J.M., Claude, J., Galtier, N. and Chiari, Y., 2012. Dating cryptodiran nodes: origin and diversification of the turtle superfamily Testudinoidea. Molecular Phylogenetics and Evolution, 62(1), pp.496-507.
+
+Nakajima, Y., I. G. Danilov, and R. Hirayama. 2009. Plywood-like structures in costal bones of mid- to late Cretaceous trionychids from Asia, p. 128. In Gaffney Turtle Symposium, Abstract Volume. Royal Tyrrell Museum of Palaeontology, Drumheller.
 
 Nicholls, E.L., 1988. New material of Toxochelys latiremis Cope, and a revision of the genus Toxochelys (Testvoines, Chelonioidea). Journal of Vertebrate Paleontology, 8(2), pp.181-187.
 
