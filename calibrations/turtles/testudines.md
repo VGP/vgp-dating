@@ -48,6 +48,18 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ---
 
+**Node $XXX:** Trionychia | 124.0–177.6Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant cryptodirans: Carettochelyidae (_Carettochelys insculpta_) + Cheloniidae (_Lepidochelys kempii_)\
+**Fossil taxa:** Pantrionychidae indet. (FPDM V-127), a stem trionychid diagnosed by fibrous layers integrated into the shell bones, from the Barremian Kitadani Formation (Tetori Group) of Japan (Fujita, 2003, Nakajima et al. 2009)\
+**Minimum age:** 124.0Ma\
+**Minimum justification:** \
+**Maximum age:** 177.6Ma\
+**Maximum justification:** \
+**Discussion:** Calibration was considered congruent and not modified between [Joyce et al. (2013)](https://doi.org/10.1666/12-149) and [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773). As noted by Joyce et al. ([2013](https://doi.org/10.1666/12-149)): "Unambiguous carettochelyid material from the ‘pre-Aptian’ Sao Khua Formation of Thailand (Tong et al., 2009a) also supports a Barremian minimum age of this clade (Lourenço et al., 2012), though with less stratigraphic confidence."
+
+
+---
+
 **Node 734:** Durocryptodira | 88.6–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant durocrpytodirans: Emydidae (_Malaclemys terrapin_) + Cheloniidae (_Lepidochelys kempii_)\
 **Fossil taxa:** _Lindholmemys elegans_ (CCMGE 34/12175)\
