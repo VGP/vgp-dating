@@ -16,6 +16,7 @@ Daniel Field (djf70@cam.ac.uk) – Cambridge\
 Lucas Freitas (lucas.freitas@bristol.ac.uk) – Bristol\
 Delson Hays (dhhays@ucsd.edu) – UCSD\
 Jon Hughes (hughesjonjames@gmail.com) – ASU\
+Matt Jones (Matthew.F.Jones@asu.edu) – ASU\
 Laura Mulvey (laura.mulvey@qmul.ac.uk) – QMUL\
 Tom Near (thomas.near@yale.edu) – Yale\
 Davide Pisani (Davide.Pisani@bristol.ac.uk) – Bristol\
