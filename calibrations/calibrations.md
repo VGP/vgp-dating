@@ -168,8 +168,8 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **845:** Chiroptera: 47.9–66.0Ma\
 -Based on the oldest-known crown chiropteran †_Tachypteron franzeni_ from the Lutetian of the middle Eocene.
 
-**876:** Yinchiroptera: 33.9–58.9Ma\
--Based on the oldest-known crown yinchiropteran †_Saharaderma pseudovampyrus_ from the Priabonian of the middle Eocene.
+**876:** Yinpterochiroptera: 33.9–58.9Ma\
+-Based on the oldest-known crown yinpterochiropteran †_Saharaderma pseudovampyrus_ from the Priabonian of the middle Eocene.
 
 **847:** Vespertilionoidea: 37.8–58.9Ma\
 -Based on the oldest-known crown vespertilionoid †_Cuvierimops parisiensis_ from the Priabonian of the middle Eocene.
