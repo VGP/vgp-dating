@@ -200,7 +200,7 @@ Ruta, M. and Coates, M.I., 2007. Dates, nodes and character conflict: addressing
 
 Skutschas, P.P., 2013. Mesozoic salamanders and albanerpetontids of Middle Asia, Kazakhstan, and Siberia. Palaeobiodiversity and Palaeoenvironments, 93(4), pp.441-457.
 
-Skutschas, P.P., Malakhov, D.V., Parakhin, I.A. and Kolchanov, V.V., 2025. New data on the crown proteid Bishara backa from the Upper Cretaceous (Bostobe Formation) of Kazakhstan: implications for early evolution and palaeobiogeography of proteidae. Historical Biology, 37(7), pp.1706-1714.
+Skutschas, P.P., Malakhov, D.V., Parakhin, I.A. and Kolchanov, V.V., 2025. New data on the crown proteid Bishara backa from the Upper Cretaceous (Bostobe Formation) of Kazakhstan: implications for early evolution and palaeobiogeography of Proteidae. Historical Biology, 37(7), pp.1706-1714.
 
 Spinar, Z. V. & Tatarinov, L. P. 1986. A new genus and species of discoglossid frog from the Upper Cretaceous of the Gobi Desert. J. Vert. Paleontol. 6, 113–122.
 
