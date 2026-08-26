@@ -144,7 +144,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** This formation is dated to the Thanetian, 57.6 ± 1.6Ma, yielding 56.0Ma (reviewed in [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Putative stem primates such as plesiadapids, paromomyids, and carpolestids from the Danian without any crown taxa implies a soft maximum age at the base of the Paleocene ([McKenna and Bell 1997](https://cup.columbia.edu/book/classification-of-mammals/9780231110136/), [Kondrashov et al. 2004](https://www.researchgate.net/publication/281111353_REVISED_DISTRIBUTION_OF_CONDYLARTHS_MAMMALIA_EUTHERIA_IN_ASIA), [Benton et al. 2009](https://doi.org/10.1093/oso/9780199535033.001.0001), [Bloch et al. 2007](https://doi.org/10.1073/pnas.0610579104))\
-**Discussion:** This fossil is the earliest-known haplorhine primate from the late Paleocene (Thanetian) of Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates), [Pattinson et al. 2015](https://doi.org/10.1093/sysbio/syu077)). An alternative would be †_Purgatorius,_ which is described from dental (e.g. UCMP 107406) and tarsal (e.g. UCMP 197509) remains and has a well-constrained age of 66.0-63.4Ma, but is not consistently recovered in crown Primates ([Chester et al. 2015](https://doi.org/10.1073/pnas.1421707112)).
+**Discussion:** This fossil is the earliest-known primate and putative stem haplorhine from the late Paleocene (Thanetian) of Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates); see reviews and references in [Williams et al. 2010](https://doi.org/10.1073/pnas.0908320107), [Benton et al. 2015](https://palaeo-electronica.org/content/fc-1), [Pattinson et al. 2015](https://doi.org/10.1093/sysbio/syu077), and [dos Reis et al. 2018](https://doi.org/10.1093/sysbio/syy001)). An alternative would be †_Purgatorius,_ which is described from dental (e.g. UCMP 107406) and tarsal (e.g. UCMP 197509) remains and has a well-constrained age of 66.0-63.4Ma, but is not consistently recovered in crown Primates ([Chester et al. 2015](https://doi.org/10.1073/pnas.1421707112)).
 
 ---
 
@@ -440,6 +440,8 @@ Rankin, A.H., Emry, R.J., and Asher, R.J. 2020. Anatomical sciuromorphy in "prot
 
 Ravel, A., Marivaux, L., Tabuce, R., Adaci, M., Mahboubi, M., Mebrouk, F. and Bensalah, M., 2011. The oldest African bat from the early Eocene of El Kohol (Algeria). Naturwissenschaften, 98(5), pp.397-405.
 
+Reis, M.D., Gunnell, G.F., Barba-Montoya, J., Wilkins, A., Yang, Z. and Yoder, A.D., 2018. Using phylogenomic data to explore the effects of relaxed clocks and calibration strategies on divergence time estimation: primates as a test case. Systematic biology, 67(4), pp.594-615.
+
 Roberts, E.M., O’Connor, P.M., Stevens, N.J., Gottfried, M.D., Jinnah, Z.A., Ngasala, S., Choh, A.M. and Armstrong, R.A., 2010. Sedimentology and depositional environments of the Red Sandstone Group, Rukwa Rift Basin, southwestern Tanzania: New insight into Cretaceous and Paleogene terrestrial ecosystems and tectonics in sub-equatorial Africa. Journal of African Earth Sciences, 57(3), pp.179-212.
 
 Robinson, P., Gunnell, G.F., Walsh, S.L., Clyde, W.C., Storer, J.E., Stucky, R.K., Froehlich, D.J., Ferrusquia-Villafranca, I., McKenna, M.C. and Woodburne, M.O., 2004. Wasatchian through Duchesnean biochronology. Late Cretaceous and Cenozoic Mammals of North America. Columbia University Press, New York, pp.106-155.
@@ -473,6 +475,8 @@ Wang, Y., Li, Q., Bai, B., Jin, X., Mao, F. and Meng, J., 2019. Paleogene integr
 Wesley‐Hunt, G.D. and Flynn, J.J., 2005. Phylogeny of the Carnivora: basal relationships among the carnivoramorphans, and assessment of the position of ‘Miacoidea’relative to Carnivora. Journal of Systematic Palaeontology, 3(1), pp.1-28.
 
 Wessels, W., de Bruijn, H., Hussain, S.T., Leinders, J.J.M. 1982. Fossil rodents from the Chinji Formation, Banda Daud Shah, Pakistan. Proc Konink Nederl Akad Weten. B85:337–364.
+
+Williams, B.A., Kay, R.F. and Kirk, E.C., 2010. New perspectives on anthropoid origins. Proceedings of the National Academy of Sciences, 107(11), pp.4797-4804.
 
 Wilson Mantilla, G.P., Chester, S.G., Clemens, W.A., Moore, J.R., Sprain, C.J., Hovatter, B.T., Mitchell, W.S., Mans, W.W., Mundil, R. and Renne, P.R., 2021. Earliest Palaeocene purgatoriids and the initial radiation of stem primates. Royal Society Open Science, 8(2), p.210050.
 
