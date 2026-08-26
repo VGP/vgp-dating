@@ -126,11 +126,11 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 916:** Euarchonta | 125.8-61.6Ma\
+**Node 916:** Euarchonta | 125.8-65.8Ma\
 **Node calibrated:** The most recent common ancestor of Primata (_Homo sapiens_), Dermoptera (_Cynocephalus volans_), and Scandentia (_Tupaia tana_)\
 **Fossil taxa:** †_Purgatorius mckeeveri_ (UCMP 150021) from the Harley’s Point locality in the Tullock Member of the Fort Union Formation in Montana, USA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050))\
-**Minimum age:** Early Paleocene (Danian), 61.6Ma\
-**Minimum justification:** Specimen is from the Harley’s Point locality in the Tullock Member of the Fort Union Formation, Montana, and has been dated to the Puercan NALMA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050)), which corresponds to the Danian\
+**Minimum age:** Early Paleocene (Danian), 65.79Ma\
+**Minimum justification:** Specimen is from the Harley’s Point locality in the Tullock Member of the Fort Union Formation, Montana, and has been dated to the early Danian magnetochron C29R ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050)), which corresponds to the early Puercan NALMA\
 **Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
 **Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
 **Discussion:** As noted by de Vries and Beck ([2023](https://doi.org/10.26879/1249)): "recent phylogenetic analyses specifically intended to resolve euarchontan relationships consistently place _Purgatorius_ and other “plesiadapiforms” within crown Euarchonta, and specifically closer to Primates and Dermoptera than to Scandentia, although the precise affinities of “plesiadapiforms” vary in these analyses." See Chester et al. ([2015](https://doi.org/10.1073/pnas.1421707112)) for an example.
