@@ -177,7 +177,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **869:** Stem Noctilionoidea: 26.0–58.9Ma\
 -Based on the oldest-known crown total-group noctilionoid †_Koopmanycteris palaeomormoops_ from the Chattian of the late Oligocene.
 
-**916:** Euarchonta: 61.6–126.0Ma\
+**916:** Euarchonta: 65.8–126.0Ma\
 -Based on the oldest-known crown euarchontan †_Purgatorius mckeeveri_ from the Danian of the early Paleocene.
 
 **918:** Primates: 56.0–66.0Ma\
