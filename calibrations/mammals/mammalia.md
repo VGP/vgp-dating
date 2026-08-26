@@ -144,7 +144,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum justification:** This formation is dated to the Thanetian, 57.6 ± 1.6Ma, yielding 56.0Ma (reviewed in [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Putative stem primates such as plesiadapids, paromomyids, and carpolestids from the Danian without any crown taxa implies a soft maximum age at the base of the Paleocene ([McKenna and Bell 1997](https://cup.columbia.edu/book/classification-of-mammals/9780231110136/), [Kondrashov et al. 2004](https://www.researchgate.net/publication/281111353_REVISED_DISTRIBUTION_OF_CONDYLARTHS_MAMMALIA_EUTHERIA_IN_ASIA), [Benton et al. 2009](https://doi.org/10.1093/oso/9780199535033.001.0001), [Bloch et al. 2007](https://doi.org/10.1073/pnas.0610579104))\
-**Discussion:** This fossil is the earliest-known primate and putative stem haplorhine from the late Paleocene (Thanetian) of Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates); see reviews and references in [Williams et al. 2010](https://doi.org/10.1073/pnas.0908320107), [Benton et al. 2015](https://palaeo-electronica.org/content/fc-1), [Pattinson et al. 2015](https://doi.org/10.1093/sysbio/syu077), and [dos Reis et al. 2018](https://doi.org/10.1093/sysbio/syy001)). An alternative would be †_Purgatorius,_ which is described from dental (e.g. UCMP 107406) and tarsal (e.g. UCMP 197509) remains and has a well-constrained age of 66.0-63.4Ma, but is not consistently recovered in crown Primates ([Chester et al. 2015](https://doi.org/10.1073/pnas.1421707112)).
+**Discussion:** This fossil is the earliest-known primate and putative stem haplorhine from the late Paleocene (Thanetian) of Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates); see reviews and references in [Williams et al. 2010](https://doi.org/10.1073/pnas.0908320107), [Benton et al. 2015](https://palaeo-electronica.org/content/fc-1), [Pattinson et al. 2015](https://doi.org/10.1093/sysbio/syu077), and [dos Reis et al. 2018](https://doi.org/10.1093/sysbio/syy001)). An alternative would be †_Purgatorius,_ which is described from dental (e.g. UCMP 107406) and tarsal (e.g. UCMP 197509) remains and has a well-constrained age of 66.0-63.4Ma, but is not consistently recovered in crown Primates ([Chester et al. 2015](https://doi.org/10.1073/pnas.1421707112)). Within crown Primates, another similarly aged alternative is _Teilhardina brandti_, a well-constrained euprimate (Omomyidae) with material known from the Paleocene-Eocene Thermal Maximum, ~56Ma ([Rose et al. 2011](https://doi.org/10.1002/ajpa.21579), [Morse et al. 2019](https://doi.org/10.1016/j.jhevol.2018.08.005), [de Vries and Beck 2023](https://doi.org/10.26879/1249)).
 
 ---
 
@@ -426,6 +426,8 @@ Meng, J., Hu, Y. and Li, C., 2003. The osteology of Rhombomylus (Mammalia, Glire
 
 Morgan, G.S., Czaplewski, N.J. and Simmons, N.B., 2019. A new mormoopid bat from the Oligocene (Whitneyan and early Arikareean) of Florida, and phylogenetic relationships of the major clades of Mormoopidae (Mammalia: Chiroptera). Bulletin of the American Museum of Natural History, 2019(434), pp.1-146.
 
+Morse, P.E., Chester, S.G., Boyer, D.M., Smith, T., Smith, R., Gigase, P. and Bloch, J.I., 2019. New fossils, systematics, and biogeography of the oldest known crown primate Teilhardina from the earliest Eocene of Asia, Europe, and North America. Journal of Human Evolution, 128, pp.103-131.
+
 O'Leary, M.A. and Uhen, M.D., 1999. The time of origin of whales and the role of behavioral changes in the terrestrial-aquatic transition. Paleobiology, 25(4), pp.534-556.
 
 Oliveira, É.V. and Bergqvist, L.P., 1998. A new Paleocene armadillo (Mammalia, Dasypodoidea) from the Itaboraí basin, Brazil. Publicación Electrónica de la Asociación Paleontológica Argentina, 5(1): 35–40.
@@ -447,6 +449,8 @@ Roberts, E.M., O’Connor, P.M., Stevens, N.J., Gottfried, M.D., Jinnah, Z.A., N
 Robinson, P., Gunnell, G.F., Walsh, S.L., Clyde, W.C., Storer, J.E., Stucky, R.K., Froehlich, D.J., Ferrusquia-Villafranca, I., McKenna, M.C. and Woodburne, M.O., 2004. Wasatchian through Duchesnean biochronology. Late Cretaceous and Cenozoic Mammals of North America. Columbia University Press, New York, pp.106-155.
 
 Rose, K.D., DeLeon, V.B., Missiaen, P., Rana, R.S., Sahni, A., Singh, L. and Smith, T., 2008. Early Eocene lagomorph (Mammalia) from Western India and the early diversification of Lagomorpha. Proceedings of the Royal Society B: Biological Sciences, 275(1639), p.1203.
+
+Rose, K.D., Chester, S.G., Dunn, R.H., Boyer, D.M. and Bloch, J.I., 2011. New fossils of the oldest North American euprimate Teilhardina brandti (Omomyidae) from the Paleocene–Eocene thermal maximum. American Journal of Physical Anthropology, 146(2), pp.281-305.
 
 Seiffert, E.R., Simons, E.L. and Attia, Y., 2003. Fossil evidence for an ancient divergence of lorises and galagos. Nature, 422(6930), pp.421-424.
 
