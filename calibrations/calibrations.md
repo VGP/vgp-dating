@@ -41,7 +41,7 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 -Based on †_Atolvorator,_ from the Coqueiro Seco Formation (Cretaceous: Barremian), Alagoas, Brazil.
 
 **1015:** Labridae | 48.7–83.6Ma\
--Based on Phyllopharyngodon, from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy.
+-Based on †_Phyllopharyngodon_, from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy.
 
 **1025:** Scorpaenidae + Triglidae + Cottoidea + Gasterosteidae + Zoarcoidea | 48.7–83.6Ma\
 -Based on the "Monte Bolca scorpaenoid," from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy.
