@@ -16,7 +16,7 @@ The root node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, gene
 ---
 
 **Node $XXX:** Longirostres | 51.5–113.2Ma\
-**Node calibrated:** The most recent common ancestor of Gavialidae (_Gavialus gangeticus_) and Crocodylidae (_Crocodylus niloticus_)\
+**Node calibrated:** The most recent common ancestor of Gavialidae (_Gavialis gangeticus_) and Crocodylidae (_Crocodylus niloticus_)\
 **Fossil taxa:** †_Kentisuchus spenceri_ (NHM 19633) from the London Clay, Isle of Sheppey, England ([Buckland 1836](https://doi.org/10.5962/bhl.title.125523))\
 **Minimum age:** Early Eocene (Ypresian), 51.5Ma\
 **Minimum justification:** The London Clay (Eocene: Ypresian) was deposited no later than 51.5Ma ([Brochu 2007](https://doi.org/10.1111/j.1475-4983.2007.00679.x), [Rayner et al. 2009](https://www.researchgate.net/publication/289335539_London_Clay_Fossils_of_Kent_and_Essex))\

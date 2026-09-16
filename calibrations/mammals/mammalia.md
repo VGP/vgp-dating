@@ -62,7 +62,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 **Node 931:** Afrotheria | 59.2–125.8Ma\
 **Node calibrated:** The most recent common ancestor of Paenungulata (_Dugong dugon_) and Afroinsectiphilia (_Rhynchocyon petersi_)\
-**Fossil taxa:** †_Ocepia daouiensis_ (CPSGM MA1) from the Ouled Abdoun Basin (Paleocene), Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739))\
+**Fossil taxa:** †_Ocepeia daouiensis_ (CPSGM MA1) from the Ouled Abdoun Basin (Paleocene), Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739))\
 **Minimum age:** Late Paleocene (Selandian), 59.24Ma\
 **Minimum justification:** Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) specify a Selandian age for this taxon, which is evidently the same locality as †_Eritherium azzouzorum_, previously described as "early Thanetian (incl. Selandian)" ([Gheerbrant 2009](https://doi.org/10.1073/pnas.0900251106)). Here, we follow Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) who write "...The new material of this species confirms its Paleocene age. It comes from the same bone bed level located at the base of phosphorite Bed IIa that is dated Selandian … and that yields _Eritherium azzouzorum_, _Abdounodus hamdii_, and _Lahimia selloumi_."\
 **Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\

@@ -160,7 +160,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 -Based on the oldest-known stem carnivore and crown placental †_Ravenictis krausei_ from the Danian of the early Paleocene.
 
 **931:** Afrotheria: 59.2–126.0Ma\
--Based on the oldest-known stem proboscidean and crown afrotherian †_Ocepia daouiensis_ from the Selandian of the late Paleocene.
+-Based on the oldest-known stem proboscidean and crown afrotherian †_Ocepeia daouiensis_ from the Selandian of the late Paleocene.
 
 **936:** Xenarthra: 47.6–126.0Ma\
 -Based on the oldest-known stem cingulate and crown xenarthran †_Riostegotherium yanei_ from the Ypresian of the early Eocene.
