@@ -102,16 +102,16 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 
 ## [Tetrapods](./tetrapods/tetrapoda.md):
 
-**590:** Tetrapoda: 337.0-351.0Ma\
+**590:** Tetrapoda: 337.0–351.0Ma\
 -Based on the crown tetrapod †_Lethiscus stocki_ from the Holkerian of the Carboniferous.
 
-**591:** Amniota: 315.0-335.0Ma\
+**591:** Amniota: 315.0–335.0Ma\
 -Based on the stem amniote †_Hylonomus lyelli_ from the Bashkirian of the Carboniferous.
 
-**592:** Sauria: 255.9-295.9Ma\
+**592:** Sauria: 255.9–295.9Ma\
 -Based on the stem archosauromorph †_Protorosaurus speneri_ from the Lopingian of the Permian.
 
-**594:** Archosauria: 247.2-256.0Ma\
+**594:** Archosauria: 247.2–256.0Ma\
 -Based on the stem pseudosuchian †_Xilousuchus sapingensis_ from the Olenekian of the Triassic.
 
 
@@ -129,10 +129,10 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **970:** Dorsipares: 148.1–201.5Ma\
 -Based on the crown rhinophrynid †_Rhadinosteus parvus_ from the Kimmeridgian of the late Jurassic.
 
-**969:** Pelobatoidea: 85.7-143.1Ma\
+**969:** Pelobatoidea: 85.7–143.1Ma\
 -Based on the crown pelobatoid †_Gobiates spinari_ from the Coniacian of the late Cretaceous.
 
-**954:** Aquipares: 113.0-143.1Ma\
+**954:** Aquipares: 113.0–143.1Ma\
 -Based on the crown neobatrachian †_Kururubatrachus gondwanicus_ from the Aptian of the early Cretaceous.
 
 **973:** Salamandroidea: 62.0–143.1Ma\
@@ -282,52 +282,52 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 
 ## [Crocodilians:](./crocodylia/crocodylia.md) 
 
-**731:** Crocodylia: 74.4-113.2Ma\
+**731:** Crocodylia: 74.4–113.2Ma\
 -Based on the oldest-known crown crocodylian †_Leidyosuchus canadensis_, likely stem Alligatoroidea, from the Campanian of the Cretaceous.
 
 
 ## [Birds](./birds/aves.md):
 
-**709:** Galloanserae | 92.73–65.65Ma\
+**709:** Galloanserae | 65.7–92.7Ma\
 –based on †_Conflicto antarcticus_ from the KPg boundary (earliest Paleocene) of Antarctica.
 
-**710:** Anatidae | 38–24Ma\
+**710:** Anatidae | 24.0–38.0Ma\
 –based on †_Pinpanetta tedfordi_ from the Oligocene of Australia.
 
-**699:** Otidimorphae | 80.39–51.81Ma\
+**699:** Otidimorphae | 51.8–80.4Ma\
 –based on †_Foro panarium_ from the Eocene of Wyoming, USA.
 
-**704:** Daedalornithes | 95.7-54.6Ma\
+**704:** Daedalornithes | 54.6–95.7Ma\
 –based on †_Eocypselus vincenti_ from the Eocene of Denmark.
 
-**708:** Apodi | 103.40-50.3Ma\
+**708:** Apodi | 50.3–103.4Ma\
 –based on †_Scaniacypselus wardi_ from the Eocene of Denmark.
 
-**675:** Gruiformes | 80.4-55.6Ma\
+**675:** Gruiformes | 55.6–80.4Ma\
 –based on †_Pellornis mikkelseni_ from the Eocene of Denmark.
 
-**666:** Charadriiformes | 78.61-54.97Ma\
+**666:** Charadriiformes | 55.0–78.6Ma\
 –based on an unnamed charadriiform (IGM 100/1435) from the Eocene of Mongolia.
 
-**690:** Phaethontimorphae | 62.3-55.8Ma\
+**690:** Phaethontimorphae | 55.8–62.3Ma\
 –based on †_Lithoptila abounensis_ from the Paleocene of Morocco.
 
-**689:** Procellariimorphae | 84.70-60.5Ma\
+**689:** Procellariimorphae | 60.5–84.7Ma\
 –based on †_Waimanu manneringi_ from the Paleocene of New Zealand.
 
-**653:** Accipitrimorphae + Strigiformes | 74.4-58.8Ma\
+**653:** Accipitrimorphae + Strigiformes | 58.8–74.4Ma\
 –based on †_Ogygoptynx wetmorei_ from the Paleocene of Colorado, USA.
 
-**600:** Coraciimorphae | 91.89-62.2Ma\
+**600:** Coraciimorphae | 62.2–91.9Ma\
 –based on †_Tsidiiyazhi abini_ from the Paleocene of New Mexico, USA.
 
-**603:** stem Psittacopasseres | 81.04-54.6Ma\
+**603:** stem Psittacopasseres | 54.6–81.0Ma\
 –based on †_Morsoravis sedilis_ from the Eocene of Denmark.
 
-**605:** Eupasseres | 45.7-30.2Ma\
+**605:** Eupasseres | 30.2–45.7Ma\
 –based on †_Wieslochia weissi_ from the Oligocene of Germany.
 
-**612:** Passerellidae and allies | 32.9-7.5Ma\
+**612:** Passerellidae and allies | 7.5–32.9Ma\
 -Based on †_Palaeostruthus hatcheri_ from the Miocene of Kansas, USA.
 
 ## References

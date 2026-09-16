@@ -4,7 +4,7 @@ The root node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, gene
 
 ### Calibrations:
 
-**Node 731:** Crocodylia | 113.2-74.4Ma\
+**Node 731:** Crocodylia | 74.4–113.2Ma\
 **Node calibrated:** The most recent common ancestor of Gavialoidea (_Gavialis gangeticus_: Gavialidae) and Alligatoroidea (_Alligator mississippiensis_: Alligatoridae)\
 **Fossil taxa:** †_Leidyosuchus canadensis_ (NMC 338, 1551) from the Dinosaur Park Formation, Alberta, Canada ([Lambe, 1907](https://www.biodiversitylibrary.org/page/10884799))\
 **Minimum age:** Late Cretaceous (Campanian), 74.4Ma\
@@ -15,7 +15,7 @@ The root node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, gene
 
 ---
 
-**Node $XXX:** Longirostres | 113.2-51.5Ma\
+**Node $XXX:** Longirostres | 51.5–113.2Ma\
 **Node calibrated:** The most recent common ancestor of Gavialidae (_Gavialus gangeticus_) and Crocodylidae (_Crocodylus niloticus_)\
 **Fossil taxa:** †_Kentisuchus spenceri_ (NHM 19633) from the London Clay, Isle of Sheppey, England ([Buckland 1836](https://doi.org/10.5962/bhl.title.125523))\
 **Minimum age:** Early Eocene (Ypresian), 51.5Ma\
@@ -27,7 +27,7 @@ The root node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, gene
 
 ### Likelihood checkpoints
 
-TimeTree.org estimates a median age of 87Ma (73-101Ma) from 18 studies between 2004 and 2018. To this, we added 5 additional studies from 2006–2021. Excluding outliers (1.5 * IQR; in red, below), this yields a median of 87Ma with a range from 71–110Ma. These data are given in crocodylia_timetree.csv. To this, we can compare 9 estimates from 8 time-calibrated studies with fossil tips from 2017–2026 to estimate a range of 90–110Ma (Median 98Ma) based on the average ages and CIs. This excludes two outlier ages (as triangles, below), one from from Godoy et al. 2019 and the Groh et al. 2022 FBD analysis, which reports dramatically different topologies and timescales for Gavialoidea. These data are recorded in crocodylia_calibrations.csv.
+TimeTree.org estimates a median age of 87Ma (73–101Ma) from 18 studies between 2004 and 2018. To this, we added 5 additional studies from 2006–2021. Excluding outliers (1.5 * IQR; in red, below), this yields a median of 87Ma with a range from 71–110Ma. These data are given in crocodylia_timetree.csv. To this, we can compare 9 estimates from 8 time-calibrated studies with fossil tips from 2017–2026 to estimate a range of 90–110Ma (Median 98Ma) based on the average ages and CIs. This excludes two outlier ages (as triangles, below), one from from Godoy et al. 2019 and the Groh et al. 2022 FBD analysis, which reports dramatically different topologies and timescales for Gavialoidea. These data are recorded in crocodylia_calibrations.csv.
 
 ![crocodylia likelihood checkpoints](crocodylia_calibrations.png)
 

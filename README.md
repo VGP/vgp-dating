@@ -48,10 +48,9 @@ This resulted in a harmonized collection of min & max ages scattered and spaced 
 
 ## Syntax
 
-Our [reference tree](./trees/roadies_v1.1.16b.numbersScientific.nwk.pdf) is the VGP Phase I guide phylogeny, based on [roadies_v1.1.16b.nwk](https://github.com/VGP/vgp-trees/blob/main/phase-1/roadies_v1.1.16b.nwk) with APE-style [node numbers](https://github.com/VGP/vgp-trees/blob/main/phase-1/roadies_v1.1.16b.numbers.nwk) from R to facilitate objective reference to [nodes](./trees). Minimal documentation for each constraint is:
+Our [reference tree](./trees/roadies_v1.1.16b.numbers.scientific.nwk.pdf) is the VGP Phase I guide phylogeny, based on [roadies_v1.1.16b.nwk](https://github.com/VGP/vgp-trees/blob/main/phase-1/roadies_v1.1.16b.nwk) with APE-style [node numbers](https://github.com/VGP/vgp-trees/blob/main/phase-1/roadies_v1.1.16b.numbers.nwk) from R to facilitate objective reference to [nodes](./trees). Minimal documentation for each constraint is:
 
 	-Node number and lineage
-	-Type of calibration: I–IV
 	-Minimum and maximum ages in Ma: e.g., 234.5,456.2
 	-Associated fossil material and rationale
 	-Citations and references
@@ -73,6 +72,6 @@ Finally, the ideal type of calibration will derive from a recent total-evidence 
 
 ## Robustness
 
-For a small number of fossils, controversy and disagreement over their phylogenetic placement precluded unambiguous assignment to crown groups in our analyses. Consequently, we assessed the robustness of our anayses by conducting additional runs with and without these constraints to evaluate their impact on estimated node-ages. Since the primary [mcmctree](https://github.com/dosreislab/mcmctree) analyses use independent clock rates across branches, we hypothesize that the impacts of these controversial calibrations should be locally restricted.
+For a small number of fossils, controversy and disagreement over their phylogenetic placement precluded unambiguous assignment to crown groups in our analyses. Consequently, we assessed the robustness of our analyses by conducting additional runs with and without these constraints to evaluate their impact on estimated node-ages. Since the primary [mcmctree](https://github.com/dosreislab/mcmctree) analyses use independent clock rates across branches, we hypothesize that the impacts of these controversial calibrations should be locally restricted.
 
 Additionally, we derived the empirical distribution of dates and ages for a set of clades (perhaps all Superorders and subtending nodes) from [timetree.org](http://timetree.org) and additional surveys of the recent literature, giving a broadly sampled prior distribution from combined previous studies. This empirical prior was used to generate [likelihood checkpoints](https://pubmed.ncbi.nlm.nih.gov/20525629/), employed as post-hoc probabilistic calibration checks. This allowed us to quantify congruence with and deviation from existing estimates on a per-node basis.

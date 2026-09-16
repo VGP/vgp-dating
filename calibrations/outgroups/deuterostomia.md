@@ -4,7 +4,7 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 
 ### Calibrations:
 
-**Node 582:** Crown Deuterostomia | 590.8 - 517.32Ma\
+**Node 582:** Crown Deuterostomia | 517.3–590.8Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing chordates, echinoderms and hemichordates (when monophyletic)\
 **Fossil taxon:** Chengjiang fossils such as _Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China) ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646)).\
 **Minimum age:** The age of the Chengjiang biota has been determined through CA-ID-TIMS U-Pb dating, yielding an age of 518.03Ma ± 0.69/0.71 Myr and a minimum calibration age of 517.32Ma ([Yang et al. 2018](https://doi.org/10.1144/jgs2017-103)).\
@@ -15,7 +15,7 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 
 ---
 
-**Node 1161:** Crown Ambulacraria | 590.8 - 515.5Ma\
+**Node 1161:** Crown Ambulacraria | 515.5–590.8Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Hemichordata and Echinodermata.\
 **Fossil taxon:** Isolated pelmatozoan columnals (BMNH EE6828-EE6846, Natural History Museum, London, UK).\
 **Minimum age:** 515.5Ma, from the Micmacca Breccia, which encompasses the upper part of the _Cephalopyge notabilis_ Biozone, the _Ornamentaspis frequens_ Biozone and the lower part of the _Kymataspis arenosa_ Biozone, which has been dated to the latest Atdabanian of 517.0Ma ± 1.5 Myr, or 515.5 ma ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)).\
@@ -25,7 +25,7 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 
 ---
 
-**Node 583:** Crown Chordata | 590.8 - 517.32Ma\
+**Node 583:** Crown Chordata | 517.3–590.8Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing vertebrates, tunicates, and cephalochordates.\
 **Fossil taxon:** Chengjiang fossils such as _Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China) ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646)).\
 **Minimum age:** The age of the Chengjiang biota has been determined through CA-ID-TIMS U-Pb dating, yielding an age of 518.03Ma ± 0.69/0.71 Myr and a minimum calibration age of 517.32Ma ([Yang et al. 2018](https://www.lyellcollection.org/doi/abs/10.1144/jgs2017-103)).\
@@ -36,7 +36,7 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 
 ---
 
-**Node 584:** Crown Olfactores | 590.8 - 517.32Ma\
+**Node 584:** Crown Olfactores | 517.3–590.8Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing tunicates and Vertebrata-Craniata.\
 **Fossil taxon:** Chengjiang fossils such as _Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China; [Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646).\
 **Minimum age:** The age of the Chengjiang biota has been determined through CA-ID-TIMS U-Pb dating, yielding an age of 518.03Ma ± 0.69/0.71 Myr and a minimum calibration age of 517.32Ma ([Yang et al. 2018](https://www.lyellcollection.org/doi/abs/10.1144/jgs2017-103)).\

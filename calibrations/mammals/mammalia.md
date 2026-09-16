@@ -5,18 +5,18 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ## Calibrations:
 
-**Node 783:** Mammalia | 201.5-164.9Ma\
+**Node 783:** Mammalia | 164.9–201.5Ma\
 **Node calibrated:** Most recent common ancestor of monotremes (_Ornithorhynchus anatinus_), marsupials (_Monodelphis domestica_), and placentals (_Dasypus novemcinctus_)\
 **Fossil taxa:** †_Ambondro mahabo_ (UA 10602) from the Isalo III Formation of the Mahajanga Basin in northwestern Madagascar ([Flynn et al. 1999](https://doi.org/10.1038/43420))\
 **Minimum age:** Middle Jurassic (Bathonian), 164.9Ma\
-**Minimum justification:** Specimen locality dated to Bathonian, top of which is 166.1 Ma, ± 1.2 Myr = 164.9 Ma ([Benton et al. 2015](https://doi.org/10.26879/424))\
+**Minimum justification:** Specimen locality dated to Bathonian, top of which is 166.1Ma, ± 1.2 Myr = 164.9Ma ([Benton et al. 2015](https://doi.org/10.26879/424))\
 **Maximum age:** Jurassic-Triassic Boundary, 201.5Ma\
 **Maximum justification:** The closest known relative of crown mammals, †_Hadrocodium_, dates to early Jurassic Sinemurian ([Luo et al. 2001](https://doi.org/10.1126/science.1058476)), and other closely related mammaliaformes are known from the Late Triassic ([Benton et al. 2015](https://doi.org/10.26879/424))\
 **Discussion:** This fossil is the oldest-known member of the monotreme clade Australosphenida from the middle Jurassic (Bathonian) of Madagascar ([Benton et al. 2015](https://doi.org/10.26879/424), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Luo et al. 2002](https://www.app.pan.pl/article/pdf/41/item/app47-001.html), [Luo et al. 2011](https://doi.org/10.1038/nature10291)), and the oldest-known credible crown mammalian.
 
 ---
 
-**Node 784:** Theria | 169.6-156.3Ma\
+**Node 784:** Theria | 156.3–169.6Ma\
 **Node calibrated:** The most recent common ancestor of marsupials (_Monodelphis domestica_) and placentals (_Dasypus novemcinctus_)\
 **Fossil taxa:** †_Juramaia sinensis_ (PM1143) from the Daxigou site in the Middle–Late Jurassic Tiaojishan formation, Jianchang County, Liaoning Province, China ([Luo et al. 2011](https://doi.org/10.1038/nature10291))\
 **Minimum age:** Late Jurassic (Oxfordian), 156.3Ma\
@@ -27,7 +27,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 947:** Monotremata | 113.0-16.0Ma\
+**Node 947:** Monotremata | 16.0–113.0Ma\
 **Node calibrated:** Most recent common ancestor of Tachyglossidae (_Tachyglossus aculeatus_) and Ornithorhynchidae (_Ornithorhynchus anatinus_)\
 **Fossil taxa:** †_Obdurodon dicksoni_ (QMF20568) from the Riversleigh World Heritage Area in Queensland, Australia ([Archer et al. 1992](https://catalogue.nla.gov.au/catalog/608888))\
 **Minimum age:** Early Miocene, 15.97Ma\
@@ -38,7 +38,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 938:** Marsupialia | 131.3-47.6Ma\
+**Node 938:** Marsupialia | 47.6–131.3Ma\
 **Node calibrated:** Most recent common ancestor of Paucituberculata (_Lestoros inca_), Didelphimorphia (_Monodelphis domestica_) and Australidelphia (_Dromiciops gliroides_)\
 **Fossil taxa:** †_Djarthia murgonensis_ (QMF52748) from the Eocene Tingamarra Local Fauna at the Murgon fossil site in southeastern Queensland, Australia ([Godthelp et al. 1999](https://doi.org/10.1023%2FA%3A1020517808869))\
 **Minimum age:** Early Eocene (Ypresian), 47.6Ma\
@@ -49,7 +49,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 785:** Placentalia | 125.8-61.6Ma\
+**Node 785:** Placentalia | 61.6–125.8Ma\
 **Node calibrated:** The most recent common ancestor of Atlantogenata (_Dasypus novemcinctus_) and Boroeutheria (_Tupaia tana_)\
 **Fossil taxa:** †_Ravenictis krausei_ (UALVP 31175) from the Ravenscrag Formation of the early Puercan of Saskatchewan, Canada ([Fox and Youzwyshyn 1994](https://doi.org/10.1080/02724634.1994.10011566))\
 **Minimum age:** Early Paleocene (Danian), 61.6Ma\
@@ -60,7 +60,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 931:** Afrotheria | 125.8-59.2Ma\
+**Node 931:** Afrotheria | 59.2–125.8Ma\
 **Node calibrated:** The most recent common ancestor of Paenungulata (_Dugong dugon_) and Afroinsectiphilia (_Rhynchocyon petersi_)\
 **Fossil taxa:** †_Ocepia daouiensis_ (CPSGM MA1) from the Ouled Abdoun Basin (Paleocene), Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739))\
 **Minimum age:** Late Paleocene (Selandian), 59.24Ma\
@@ -71,7 +71,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 936:** Xenarthra | 125.8-47.6Ma\
+**Node 936:** Xenarthra | 47.6–125.8Ma\
 **Node calibrated:** The most recent common ancestor of Cingulata (_Dasypus novemcinctus_) and Folivora (_Choloepus didactylus_)\
 **Fossil taxa:** †_Riostegotherium yanei_ (MCN-PV 1774) from the Itaboraí Formation of the Itaboraian land-mammal age (middle Paleocene) of Rio de Janeiro, Brazil ([Oliveira and Bergqvist 1998](https://peapaleontologica.org.ar/index.php/peapa/article/view/174))\
 **Minimum age:** Early Eocene (Ypresian), 47.6Ma\
@@ -82,7 +82,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 845:** Chiroptera | 66.0-47.9Ma\
+**Node 845:** Chiroptera | 47.9–66.0Ma\
 **Node calibrated:** The most recent common ancestor of Yinpterochiroptera (_Rousettus aegyptiacus_) and Yangochiroptera (_Rhynchonycteris naso_)\
 **Fossil taxa:** †_Tachypteron franzeni_ (Institut Royal des Sciences Naturelles de Belgique, Bruxelles, specimen BE 4-119a+b) from the Grube Messel oil shale, near Darmstadt, Germany ([Storch et al. 2002](https://doi.org/10.1007/BF02989856))\
 **Minimum age:** Middle Eocene (Lutetian: MP11), 47.9Ma\
@@ -93,7 +93,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 876:** Yinpterochiroptera | 58.9–33.9Ma\
+**Node 876:** Yinpterochiroptera | 33.9–58.9Ma\
 **Node calibrated:** The most recent common ancestor of Pteropodidae (_Rousettus aegyptiacus_) and Rhinolophidae (_Rhinolophus trifoliatus_)\
 **Fossil taxa:** †_Saharaderma pseudovampyrus_ (CGM 8367) from quarry L-41, lower sequence of the Jebel Qatrani formation, Fayûm depression, Egypt ([Gunnell et al. 2008](https://doi.org/10.1671/0272-4634(2008)28[1:NBMCFT]2.0.CO;2))\
 **Minimum age:** Latest Eocene (Priabonian), 33.9Ma\
@@ -104,7 +104,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 847:** Vespertilionoidea | 58.9–37.8Ma\
+**Node 847:** Vespertilionoidea | 37.8–58.9Ma\
 **Node calibrated:** The most recent common ancestor of Molossidae (_Molossus nigricans_) and Miniopteridae (_Miniopterus schreibersii_)\
 **Fossil taxa:** †_Cuvierimops parisiensis_ (LEB1_CupprA.1.7, left M1/ [Plate 2f], from the collections of UM2) from the late Eocene Quercy phosphorites France ([Maitre 2014](https://doi.org/10.1007/s13358-014-0069-3))\
 **Minimum age:** Late Eocene (Priabonian), 37.8Ma\
@@ -115,18 +115,18 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 869:**  Stem Noctilionoidea | 58.9–26.0Ma\
+**Node 869:**  Stem Noctilionoidea | 26.0–58.9Ma\
 **Node calibrated:** The most recent common ancestor of Emballonuroidea (_Rhynchonycteris naso_: Emballonuridae) and Noctilionoidea (_Phyllostomus discolor_: Phyllostomidae)\
 **Fossil taxa:** †_Koopmanycteris palaeomormoops_ (UF 157765) from Brooksville 2 LF, early Arikareean NALMA, Hernando County, Florida, USA ([Morgan et al. 2019](https://doi.org/10.1206/0003-0090.434.1.1))\
 **Minimum age:** Late Oligocene (Chattian stage: Arikareean NALMA), 26Ma\
-**Minimum justification:** As noted by Morgan et al. ([2019](https://doi.org/10.1206/0003-0090.434.1.1)): "similarity between the chiropteran faunas of the Whitneyan I-75 LF and the Brooksville 2 LF supports an early Arikareean age for Brooksville, between 26 and 28 Ma" (see also [Hayes 2000](https://doi.org/10.58782/flmnh.isca2513))\
+**Minimum justification:** As noted by Morgan et al. ([2019](https://doi.org/10.1206/0003-0090.434.1.1)): "similarity between the chiropteran faunas of the Whitneyan I-75 LF and the Brooksville 2 LF supports an early Arikareean age for Brooksville, between 26 and 28Ma" (see also [Hayes 2000](https://doi.org/10.58782/flmnh.isca2513))\
 **Maximum age:** Late Paleocene (Thanetian), 58.9Ma\
 **Maximum justification:** We adapt the suggestion of Phillips ([2014](https://doi.org/10.26879/490)), using the base of the Thanetian (late Paleocene: 58.9Ma) as the upper bound to be conservative regarding numerous stem bats from the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0))\
 **Discussion:** As noted by Morgan et al. ([2019](https://doi.org/10.1206/0003-0090.434.1.1)), numerous characters appear to convincingly unite this taxon with Mormoopidae (Noctilionoidea), rendering it the oldest-known definitive total-group noctilionoid.
 
 ---
 
-**Node 916:** Euarchonta | 125.8-65.8Ma\
+**Node 916:** Euarchonta | 65.8–125.8Ma\
 **Node calibrated:** The most recent common ancestor of Primata (_Homo sapiens_), Dermoptera (_Cynocephalus volans_), and Scandentia (_Tupaia tana_)\
 **Fossil taxa:** †_Purgatorius mckeeveri_ (UCMP 150021) from the Harley’s Point locality in the Tullock Member of the Fort Union Formation in Montana, USA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050))\
 **Minimum age:** Early Paleocene (Danian), 65.79Ma\
@@ -137,18 +137,18 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 918:** Primates | 66.0-56.0Ma\
+**Node 918:** Primates | 56.0–66.0Ma\
 **Node calibrated:** The most recent common ancestor of Strepsirrhini (_Lemur catta_) and Haplorhini (_Homo sapiens_)\
 **Fossil taxa:** †_Altiatlasius koulchii_ (THR 141) from the Adrar Mgorn 1 locality in the Jbel Guersif Formation of the Ouarzazate Basin, Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates))\
 **Minimum age:** Late Paleocene (Thanetian), 56.0Ma\
 **Minimum justification:** This formation is dated to the Thanetian, 57.6 ± 1.6Ma, yielding 56.0Ma (reviewed in [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Putative stem primates such as plesiadapids, paromomyids, and carpolestids from the Danian without any crown taxa implies a soft maximum age at the base of the Paleocene ([McKenna and Bell 1997](https://cup.columbia.edu/book/classification-of-mammals/9780231110136/), [Kondrashov et al. 2004](https://www.researchgate.net/publication/281111353_REVISED_DISTRIBUTION_OF_CONDYLARTHS_MAMMALIA_EUTHERIA_IN_ASIA), [Benton et al. 2009](https://doi.org/10.1093/oso/9780199535033.001.0001), [Bloch et al. 2007](https://doi.org/10.1073/pnas.0610579104))\
-**Discussion:** This fossil is the earliest-known primate and putative stem haplorhine from the late Paleocene (Thanetian) of Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates); see reviews and references in [Williams et al. 2010](https://doi.org/10.1073/pnas.0908320107), [Benton et al. 2015](https://palaeo-electronica.org/content/fc-1), [Pattinson et al. 2015](https://doi.org/10.1093/sysbio/syu077), and [dos Reis et al. 2018](https://doi.org/10.1093/sysbio/syy001)). An alternative would be †_Purgatorius,_ which is described from dental (e.g. UCMP 107406) and tarsal (e.g. UCMP 197509) remains and has a well-constrained age of 66.0-63.4Ma, but is not consistently recovered in crown Primates ([Chester et al. 2015](https://doi.org/10.1073/pnas.1421707112)). Within crown Primates, another similarly aged alternative is _Teilhardina brandti_, a well-constrained euprimate (Omomyidae) with material known from the Paleocene-Eocene Thermal Maximum, ~56Ma ([Rose et al. 2011](https://doi.org/10.1002/ajpa.21579), [Morse et al. 2019](https://doi.org/10.1016/j.jhevol.2018.08.005), [de Vries and Beck 2023](https://doi.org/10.26879/1249)).
+**Discussion:** This fossil is the earliest-known primate and putative stem haplorhine from the late Paleocene (Thanetian) of Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates); see reviews and references in [Williams et al. 2010](https://doi.org/10.1073/pnas.0908320107), [Benton et al. 2015](https://palaeo-electronica.org/content/fc-1), [Pattinson et al. 2015](https://doi.org/10.1093/sysbio/syu077), and [dos Reis et al. 2018](https://doi.org/10.1093/sysbio/syy001)). An alternative would be †_Purgatorius,_ which is described from dental (e.g. UCMP 107406) and tarsal (e.g. UCMP 197509) remains and has a well-constrained age of 66.0–63.4Ma, but is not consistently recovered in crown Primates ([Chester et al. 2015](https://doi.org/10.1073/pnas.1421707112)). Within crown Primates, another similarly aged alternative is _Teilhardina brandti_, a well-constrained euprimate (Omomyidae) with material known from the Paleocene-Eocene Thermal Maximum, ~56Ma ([Rose et al. 2011](https://doi.org/10.1002/ajpa.21579), [Morse et al. 2019](https://doi.org/10.1016/j.jhevol.2018.08.005), [de Vries and Beck 2023](https://doi.org/10.26879/1249)).
 
 ---
 
-**Node 929:** Strepsirrhini | 56.0-33.9Ma\
+**Node 929:** Strepsirrhini | 33.9–56.0Ma\
 **Node calibrated:** The most recent common ancestor of Lorisoidea (_Nycticebus coucang_) and Lemuroidea (_Lemur catta_)\
 **Fossil taxa:** †_Karanisia clarki_ (CGM40265) from the Birket Quaran Formation (Eocene: Priabonian) of Fayûm, Egypt ([Seiffert et al. 2003](https://doi.org/10.1038/nature01489))\
 **Minimum age:** Late Eocene (Priabonian), 33.9Ma\
@@ -159,7 +159,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 919:** Anthropoidea | 66.0-33.9Ma\
+**Node 919:** Anthropoidea | 33.9–66.0Ma\
 **Node calibrated:** The most recent common ancestor of Catarrhini (_Homo sapiens_) and Platyrrhini (_Callithrix jacchus_)\
 **Fossil taxa:** †_Catopithecus browni_ (DPC 8701) from the Fayum Depression of Egypt ([Simons 1989](https://doi.org/10.1073/pnas.86.24.9956))\
 **Minimum age:** Late Eocene (Priabonian), 33.9Ma\
@@ -170,7 +170,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 920:** Catarrhini | 34.0-24.4Ma\
+**Node 920:** Catarrhini | 24.4–34.0Ma\
 **Node calibrated:** The most recent common ancestor of Cercopithecoidea (_Macaca fascicularis_) and Hominoidea (_Homo sapiens_)\
 **Fossil taxa:** †_Rukwapithecus fleaglei_ (RRBP 12444A, Ohio University USA) from the Nsungwe Formation, Rukwa Rift Basin, Tanzania ([Stevens et al. 2013](https://doi.org/10.1038/nature12161))\
 **Minimum age:** Late Oligocene (Chattian), 24.44Ma\
@@ -181,7 +181,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 915:** Lagomorpha | 66.0-47.6Ma\
+**Node 915:** Lagomorpha | 47.6–66.0Ma\
 **Node calibrated:** The most recent common ancestor of Leporidae (_Oryctolagus cuniculus_) and Ochotonidae (_Ochotona princeps_).\
 **Fossil taxa:** Unnamed leporid fossils (GU/RSR/VAS 711) from the early Eocene Cambay Shales at the Vastan lignite mine, Gujarat, India ([Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661))\
 **Minimum age:** Early Eocene (Ypresian), 47.6Ma\
@@ -192,7 +192,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 892:** Rodentia | 66.0-41.0Ma\
+**Node 892:** Rodentia | 41.0–66.0Ma\
 **Node calibrated:** The most recent common ancestor of Muroidea (_Mus musculus_), Sciuromorpha (_Sciurus vulgaris_), and Hystricomorpha (_Erethizon dorsatum_)\
 **Fossil taxa:** _Ischyromys_ sp. (USNM PAL 617532) from West Canyon Creek, Wyoming, USA ([Heaton 1996](https://doi.org/10.1017/CBO9780511665431.019))\
 **Minimum age:** Middle Eocene (Lutetian), 41.03Ma\
@@ -203,7 +203,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 914:** Hystricomorpha | 56.0-31.6Ma\
+**Node 914:** Hystricomorpha | 31.6–56.0Ma\
 **Node calibrated:** The most recent common ancestor of Ctenodactylomorphi (_Ctenodactylus gundi_) and Hystricognathi (_Erethizon dorsatum_)\
 **Fossil taxa:** †_Eoviscaccia frassinetti_ (SGOPV 2935) from the Tinguiririca River valley, Termas del Flaco, Chile ([Bertrand et al. 2012](https://doi.org/10.1206/3750.2))\
 **Minimum age:** Early Oligocene (Tinguirican) 31.6Ma\
@@ -214,18 +214,18 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 906:** Castorimorpha | 66.0-37.7Ma\
+**Node 906:** Castorimorpha | 37.7–66.0Ma\
 **Node calibrated:** The most recent common ancestor of Geomyoidea (_Thomomys bottae_) and Castoroidea (_Castor canadensis_)\
 **Fossil taxa:** †_Heliscomys walshi_ (LACM 153717) from the Sespe Formation of California, USA ([Kelly 2009](https://rivp-paludicola.org/wp-content/uploads/2018/05/7-3-kelly-2009.pdf))\
 **Minimum age:** Middle Eocene (Bartonian), 37.71Ma\
-**Minimum justification:** Known from the Simi Valley Landfill Local Fauna, middle Eocene (Duchesnean NALMA, 38-37.8Ma), corresponding to the top of the Bartonian (37.71Ma)\
+**Minimum justification:** Known from the Simi Valley Landfill Local Fauna, middle Eocene (Duchesnean NALMA, 38–37.8Ma), corresponding to the top of the Bartonian (37.71Ma)\
 **Maximum age:** Danian, 66.0Ma\
 **Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries and Beck, 2023](https://doi.org/10.26879/1249))\
 **Discussion:** The oldest-known crown castorimorphan. More complete cranioskeletal material known from †_Heliscomys ostranderi_ (Chadronian) in an analysis with morphological and molecular data from fossil and living taxa supports an independent Eocene record for geomyoids ([Asher et al. 2019:fig. 4](https://doi.org/10.1098/rsos.190387)), with 0.95 pp support for †_Heliscomys_ + crown geomyoids to the exclusion of _Castor_, and weaker support (0.5 pp) for an older taxon (†_Paradjidaumo_ from the Uintan NALMA) with geomyoids.
 
 ---
 
-**Node 896:** Stem Murinae | 18.3-16.0Ma\
+**Node 896:** Stem Murinae | 16.0–18.3Ma\
 **Node calibrated:** The most recent common ancestor of Murinae (_Mus musculus_) and Deomyinae (_Acomys russatus_)\
 **Fossil taxa:** †_Potwarmus primitivus_ (YGSP 591) from the lower and middle Siwalik deposits in the Potwar Plateau of Pakistan ([Wessels et al. 1982](https://ubbern.swisscovery.slsp.ch/permalink/41SLSP_UBE/ar3q4e/alma99118009708505511), [Lindsay 1988](https://doi.org/10.18563/pv.18.2.95-154))\
 **Minimum age:** Middle Miocene (Langhian), 15.98Ma\
@@ -236,7 +236,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 898:** Murinae (part: Murini + Arvicanthini) | 12.3-11.1Ma\
+**Node 898:** Murinae (part: Murini + Arvicanthini) | 11.1–12.3Ma\
 **Node calibrated:** The most recent common ancestor of Murini (_Mus musculus_) and Arvicanthini (_Arvicanthis niloticus_)\
 **Fossil taxa:** †_Karnimata_ sp. (YGSP 791)\
 **Minimum age:** Middle Miocene (Tortonian), 11.1Ma\
@@ -247,7 +247,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 827:** Carnivora | 66.0-37.3Ma\
+**Node 827:** Carnivora | 37.3–66.0Ma\
 **Node calibrated:** The most recent common ancestor of Caniformia (_Vulpes vulpes_) and Feliformia (_Lynx canadensis_)\
 **Fossil taxa:** †_Hesperocyon gregarius_ (SMNH P1899.6) from the Lac Pelletier local fauna of the Cypress Hills Formation (Duchesnean NALMA), Saskatchewan, Canada ([Bryant 1992](https://doi.org/10.1017/S0022336000020850))\
 **Minimum age:** Middle Eocene (Bartonian), 37.3Ma\
@@ -258,7 +258,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ---
 
-**Node 791:** Artiodactyla | 66.0-52.4Ma\
+**Node 791:** Artiodactyla | 52.4–66.0Ma\
 **Node calibrated:** Last common ancestor of Tylopoda (_Camelus dromedarius_) and Ruminantia (_Muntiacus reevesi_)\
 **Fossil taxa:** †_Himalayacetus subathuensis_ (RUSB 2003) from the Subathu Formation (zone IIIc), India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464))\
 **Minimum age:** Early Eocene (Ypresian), 52.4Ma\
@@ -269,7 +269,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 
 ## Considered but not included:
 
-**Node 891:** Glires | 66.0-62.3Ma\
+**Node 891:** Glires | 62.3–66.0Ma\
 **Node calibrated:** The most recent common ancestor of Rodentia (_Mus musculus_) and Lagomorpha (_Oryctolagus cuniculus_)\
 **Fossil taxa:** †_Heomys_ sp. (IVPP V4323) from the lower part of the Upper Member of the Wanghudun Formation, Anhui Province, China ([Li 1977](https://www.vertpala.ac.cn/EN/column/column1.shtml))\
 **Minimum age:** Early Paleocene (Danian), 62.278Ma\

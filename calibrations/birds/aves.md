@@ -4,7 +4,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ### Calibrations:
 
-**Node 709:** Galloanserae | 92.73–65.65Ma\
+**Node 709:** Galloanserae | 65.7–92.7Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Galliformes (_Gallus gallus_) and Anseriformes (_Anser anser_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -32,7 +32,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 710:** Anatidae | 38–24Ma\
+**Node 710:** Anatidae | 24.0–38.0Ma\
 **Node calibrated:** Last common ancestor of Anatinae (_Anas platyrhynchos)_ and Anserinae (_Anser anser_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -60,7 +60,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 699:** Otidimorphae | 80.39–51.81Ma\
+**Node 699:** Otidimorphae | 51.8–80.4Ma\
 **Node calibrated:** Last common ancestor of Otidiformes (_Chlamydotis macqueenii_), Musophagiformes (_Tauraco erythrolophus_), and Cuculiformes (_Cuculus canorus_), sensu Braun et al. ([2019](https://link.springer.com/chapter/10.1007/978-3-030-16477-5_6))\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -72,7 +72,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - Otididae indet. from the Oligocene (33.9–23.0Ma) of Tchelkar Nura, Kazakhstan ([Kurochkin 1976](https://www.biodiversitylibrary.org/part/352126)). This material is not referenced to the specimen level, nor are explicit synapomorphies or phylogenetic analyses provided, but it is included here by reference for the sake of completeness.
 
-- _Centropus bairdi_ [Shute, Prideaux, & Worthy, 2016](https://doi.org/10.1111/zoj.12387) – long bones (WAM 09.3.277–282) from Leaena’s Breath Cave, Nullarbor Plain, Western, Australia ([Shute et al. 2016](https://doi.org/10.1111/zoj.12387)). Magnetostratigraphy and faunistic correlates suggest an early Pleistocene age within the Naracoortean land mammal age (2.58-0.78Ma; [Shute et al. 2016](https://doi.org/10.1111/zoj.12387)).
+- _Centropus bairdi_ [Shute, Prideaux, & Worthy, 2016](https://doi.org/10.1111/zoj.12387) – long bones (WAM 09.3.277–282) from Leaena’s Breath Cave, Nullarbor Plain, Western, Australia ([Shute et al. 2016](https://doi.org/10.1111/zoj.12387)). Magnetostratigraphy and faunistic correlates suggest an early Pleistocene age within the Naracoortean land mammal age (2.58–0.78Ma; [Shute et al. 2016](https://doi.org/10.1111/zoj.12387)).
 
 - _Crotophaga ani_ [Linnaeus, 1758](https://www.biodiversitylibrary.org/bibliography/542) – humeri and partial mandible, likely uncatalogued in the Natural History Museum of Denmark (formerly the University of Copenhagen Zoological Museum), from Lapa da Escrivania level 5, Lagoa Santa, Minas Gerais, Brazil ([Winge 1887](https://www.biodiversitylibrary.org/bibliography/13380), [Nascimento & Silveira 2020](https://doi.org/10.11646/zootaxa.4743.4.2)). This formation contains remains deposited during the Pleistocene-Holocene transition, about 0.012–0.010Ma ([Nascimento & Silveira 2020](https://doi.org/10.11646/zootaxa.4743.4.2)).
 
@@ -86,7 +86,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 704:** Daedalornithes | 95.7-54.6Ma\
+**Node 704:** Daedalornithes | 54.6–95.7Ma\
 **Node calibrated:** Last common ancestor of Aegothelidae (_Aegotheles albertisi_) and Apodiformes (_Apus apus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -112,7 +112,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 708:** Apodi | 103.40-50.3Ma\
+**Node 708:** Apodi | 50.3–103.4Ma\
 **Node calibrated:** Last common ancestor of Apodidae (_Apus apus_) and Hemiprocnidae (_Hemiprocne comata_)
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -138,7 +138,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 675:** Gruiformes | 80.4-55.6Ma\
+**Node 675:** Gruiformes | 55.6–80.4Ma\
 **Node calibrated:** Last common ancestor of Gruoidea (_Grus grus_) and Ralloidea (_Gallinula chloropus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -166,17 +166,17 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 666:** Charadriiformes | 78.61-54.97Ma\
+**Node 666:** Charadriiformes | 55.0–78.6Ma\
 **Node calibrated:** Last common ancestor of Charadrii (_Pluvialis apricaria_) and Scolopaci (_Numenius arquata_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
-- Unnamed taxon represented by the distal end of left humerus (IGM 100/1435) from Tsagaan Khushuu, Quarry 2, Mongolia, Bumban Member of the Naranbulag Formation of the early Eocene (Ypresian: 55.7-54.97Ma; [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)). Phylogenetic analysis placed this fragmentary bone as sister to _Chionis,_ within crown Charadrii ([Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929), [Heingård et al. 2021](https://doi.org/10.3390/d13120651)).
+- Unnamed taxon represented by the distal end of left humerus (IGM 100/1435) from Tsagaan Khushuu, Quarry 2, Mongolia, Bumban Member of the Naranbulag Formation of the early Eocene (Ypresian: 55.7–54.97Ma; [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)). Phylogenetic analysis placed this fragmentary bone as sister to _Chionis,_ within crown Charadrii ([Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929), [Heingård et al. 2021](https://doi.org/10.3390/d13120651)).
 
 - _Charadriisimilis essexensis_ [Mayr & Kitchener 2023](https://doi.org/10.1017/jpa.2023.51) – incomplete skeleton (NMS.Z.2021.40.93) from Walton-on-the-Naze, Essex, United Kingdom, Walton Member of the Eocene London Clay Formation, early Ypresian (54.6–55Ma). Character comparisons and a cladistic analysis placed _Charadriisimilis_ on the stem of the suborder Charadrii ([Mayr & Kitchener 2023](https://doi.org/10.1017/jpa.2023.51)).
 
 - Unnamed taxon represented by the distal end of right humerus (SMF AV 619) from the Nanjemoy Formation at the Fisher/Sullivan site, Virginia, USA ([Mayr 2016](https://doi.org/10.1007/s12542-016-0330-8)). The bone shows apomorphic features of Charadriiformes ([Mayr 2016](https://doi.org/10.1007/s12542-016-0330-8)) and a cladistic analysis placed it within crown Charadriiformes ([Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929), [Heingård et al. 2021](https://doi.org/10.3390/d13120651)). The Nanjemoy Formation is ~54–53Ma ([Berggren et al. 1995](https://doi.org/10.7916/D8XD1B1H)).
 
-- _Nupharanassa bulotorum_ [Rasmussen, Olson, & Simons, 1987](http://dx.doi.org/10.5479/si.00810266.62.1) – distal tarsometatarsi (DPC 3848, 5327-8) the Jebel Qatrani Formation at Quarry M (30.2-29.5Ma; [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103)), Fayum Province, Egypt ([Rasmussen et al. 1987](http://dx.doi.org/10.5479/si.00810266.62.1)).
+- _Nupharanassa bulotorum_ [Rasmussen, Olson, & Simons, 1987](http://dx.doi.org/10.5479/si.00810266.62.1) – distal tarsometatarsi (DPC 3848, 5327-8) the Jebel Qatrani Formation at Quarry M (30.2–29.5Ma; [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103)), Fayum Province, Egypt ([Rasmussen et al. 1987](http://dx.doi.org/10.5479/si.00810266.62.1)).
 
 - _Oligonomus milleri_ [De Pietri, Camens, & Worthy 2015](https://doi.org/10.1111/ibi.12215) – left coracoid (SAMA P27976) from member 7 of the Etadunna Formation at Lake Palankarinna (Faunal Zone B, 26–24Ma; [Woodburne et al. 1994](https://doi.org/10.1080/02724634.1994.10011527)), South Australia, Australia. Affinities with Pedionomidae based on combination of similarities ([De Pietri et al. 2015](https://doi.org/10.1111/ibi.12215)).
 
@@ -185,14 +185,14 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 - Thinocoridae indet. – distal end of right tarsometatarsus (INGEO-PV 032) from upper portion of the Limolita La Colmena Member of the Loma de Las Tapias Formation at Loma de Las Tapias, San Juan Province, Argentina ([Agnolin et al. 2015](https://doi.org/10.1016/j.annpal.2015.11.002)). The fossil is estimated to be early Chasicoan (10–9Ma), with affinities based on presumed derived characters of the family ([Agnolin et al. 2015](https://doi.org/10.1016/j.annpal.2015.11.002)).
 
 **Minimum age:** 54.97Ma\
-**Minimum justification:** The oldest fossil is Charadrii indet., for which the estimated top of the Bumban Member of the Naranbulag Formation of Mongolia dates to the early Eocene (Ypresian: 55.7-54.97Ma; [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)).\
+**Minimum justification:** The oldest fossil is Charadrii indet., for which the estimated top of the Bumban Member of the Naranbulag Formation of Mongolia dates to the early Eocene (Ypresian: 55.7–54.97Ma; [Hood et al. 2019](http://digitallibrary.amnh.org/handle/2246/6956)).\
 **Maximum age:** 78.61Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Charadriiformes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Notes:** This is a new calibration for this analysis, not present in Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in a skewStudent distribution with xi=55.15, omega=7.283, alpha=9.888e+05, and nu=2.875.
 
 ---
 
-**Node 690:** Phaethontimorphae | 62.3-55.8Ma\
+**Node 690:** Phaethontimorphae | 55.8–62.3Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Phaethontiformes (_Phaethon aethereus_) and Eurypygiformes (_Rhynochetos jubatus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -212,7 +212,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 689:** Procellariimorphae | 84.70-60.5Ma\
+**Node 689:** Procellariimorphae | 60.5–84.7Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Sphenisciformes (_Spheniscus humboldti_) and Procellariiformes (_Calonectris borealis_).\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -242,53 +242,53 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 653:** Accipitrimorphae + Strigiformes | 74.4-58.8Ma\
+**Node 653:** Accipitrimorphae + Strigiformes | 58.8–74.4Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Strigiformes (_Athene noctua_) and Accipitriformes (_Buteo buteo_).\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
-- _Ogygoptynx wetmorei_ [Rich & Bohaska, 1976](https://doi.org/10.5479/si.00810266.27.87) – tarsometatarsus (AMNH 2653) from the Late Paleocene of Mason Pocket (Ti-4a, Tiffanian NALMA, 58.8-59.5Ma; [Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)), Colorado, USA ([Rich & Bohaska 1976](https://doi.org/10.5479/si.00810266.27.87)).
+- _Ogygoptynx wetmorei_ [Rich & Bohaska, 1976](https://doi.org/10.5479/si.00810266.27.87) – tarsometatarsus (AMNH 2653) from the Late Paleocene of Mason Pocket (Ti-4a, Tiffanian NALMA, 58.8–59.5Ma; [Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)), Colorado, USA ([Rich & Bohaska 1976](https://doi.org/10.5479/si.00810266.27.87)).
 
-- _Berruornis halbedeli_ [Mayr, 2007](https://doi.org/10.1671/0272-4634(2007)27[394:TBFTPF]2.0.CO;2) – Right tarsometatarsus lacking articular ends (WAL01.2001) from Walbeck near Helmstedt, Germany (middle Paleocene, MP5: 61.7-58.7Ma; Mayr [2007](https://doi.org/10.1671/0272-4634(2007)27[394:TBFTPF]2.0.CO;2), [2009](https://doi.org/10.1007/978-3-540-89628-9)).
+- _Berruornis halbedeli_ [Mayr, 2007](https://doi.org/10.1671/0272-4634(2007)27[394:TBFTPF]2.0.CO;2) – Right tarsometatarsus lacking articular ends (WAL01.2001) from Walbeck near Helmstedt, Germany (middle Paleocene, MP5: 61.7–58.7Ma; Mayr [2007](https://doi.org/10.1671/0272-4634(2007)27[394:TBFTPF]2.0.CO;2), [2009](https://doi.org/10.1007/978-3-540-89628-9)).
 
-- _Eostrix tsaganica_ [Kurochkin & Dyke 2011](https://doi.org/10.1134/S003103011104006X) – distal tarsometatarsus (PIN 3104/129) from the Bumban member of the Naranbulag Formation at Tsagaan Khushuu (55.7-54.97Ma) Mongolia, assigned to Protostrigidae ([Kurochkin & Dyke 2011](https://doi.org/10.1134/S003103011104006X)).
+- _Eostrix tsaganica_ [Kurochkin & Dyke 2011](https://doi.org/10.1134/S003103011104006X) – distal tarsometatarsus (PIN 3104/129) from the Bumban member of the Naranbulag Formation at Tsagaan Khushuu (55.7–54.97Ma) Mongolia, assigned to Protostrigidae ([Kurochkin & Dyke 2011](https://doi.org/10.1134/S003103011104006X)).
 
-- cf. Selenornithidae – distal left tibiotarsus (DPC 24780) from the Jebel Qatrani Formation (Oligocene: 30.2-29.5Ma), Fayum, Egypt ([Smith et al. 2020](https://doi.org/10.3390/d12040163)).
+- cf. Selenornithidae – distal left tibiotarsus (DPC 24780) from the Jebel Qatrani Formation (Oligocene: 30.2–29.5Ma), Fayum, Egypt ([Smith et al. 2020](https://doi.org/10.3390/d12040163)).
 
-- _Archaehierax sylvestris_ [Mather, Lee, Camens, & Worthy, 2022](https://doi.org/10.1080/08912963.2021.1966777) – multiple bones (SAMA P.54998) from Site 12a, Lake Pinpa, Frome Downs Station, Callabonna Sub-Basin, S.A. Dolomite bed of Namba Formation, Pinpa LF, late Oligocene (26-24Ma), assigned to Accipitridae ([Mather et al. 2022](https://doi.org/10.1080/08912963.2021.1966777)).
+- _Archaehierax sylvestris_ [Mather, Lee, Camens, & Worthy, 2022](https://doi.org/10.1080/08912963.2021.1966777) – multiple bones (SAMA P.54998) from Site 12a, Lake Pinpa, Frome Downs Station, Callabonna Sub-Basin, S.A. Dolomite bed of Namba Formation, Pinpa LF, late Oligocene (26–24Ma), assigned to Accipitridae ([Mather et al. 2022](https://doi.org/10.1080/08912963.2021.1966777)).
 
-- Accipitridae indet. – tibiotarsus (MNZ S4281) and ulna (MNZS42490) from Bannockburn Formation, St Bathans Fauna (18.26-15.97Ma), Otago, New Zealand ([Worthy et al. 2007](https://doi.org/10.1017/S1477201906001957)).
+- Accipitridae indet. – tibiotarsus (MNZ S4281) and ulna (MNZS42490) from Bannockburn Formation, St Bathans Fauna (18.26–15.97Ma), Otago, New Zealand ([Worthy et al. 2007](https://doi.org/10.1017/S1477201906001957)).
 
-- Strigidae indet. – unspecified material, presumably in the MACN, from the Pinturas Formation (19-14Ma), Santa Cruz, Argentina ([Chiappe 1991](https://doi.org/10.1080/02724634.1991.10011425)).
+- Strigidae indet. – unspecified material, presumably in the MACN, from the Pinturas Formation (19–14Ma), Santa Cruz, Argentina ([Chiappe 1991](https://doi.org/10.1080/02724634.1991.10011425)).
 
-- Remains of _Asio madagascariensis_ ([Smith, 1834](https://www.doi.org/10.21504/saqj.s2n4p1.2852)) including DLC 17170, 17255, 17300, 18043, 18100, 18103, 18888, 18973; _Otus rutilus_ ([Pucheran, 1849](https://www.biodiversitylibrary.org/item/19604#page/35/mode/1up)) including DLC 18042, 18945, 18973; and _Ninox superciliaris_ ([Vieillot, 1817](https://www.biodiversitylibrary.org/item/60105#page/41/mode/1up)) including DLC 18103, 18946; from Ankilitelo Cave (0.013-0.005Ma), Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
+- Remains of _Asio madagascariensis_ ([Smith, 1834](https://www.doi.org/10.21504/saqj.s2n4p1.2852)) including DLC 17170, 17255, 17300, 18043, 18100, 18103, 18888, 18973; _Otus rutilus_ ([Pucheran, 1849](https://www.biodiversitylibrary.org/item/19604#page/35/mode/1up)) including DLC 18042, 18945, 18973; and _Ninox superciliaris_ ([Vieillot, 1817](https://www.biodiversitylibrary.org/item/60105#page/41/mode/1up)) including DLC 18103, 18946; from Ankilitelo Cave (0.013–0.005Ma), Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
 **Minimum age:** 58.8Ma\
-**Minimum justification:** The oldest taxon, _Ogygoptynx wetmorei,_ is from the _Plesiadapis churchilli_ biozone, Chron C26r: 58.8-59.5Ma ([Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)).\
+**Minimum justification:** The oldest taxon, _Ogygoptynx wetmorei,_ is from the _Plesiadapis churchilli_ biozone, Chron C26r: 58.8–59.5Ma ([Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)).\
 **Maximum age:** 74.43Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of taxa from Accipitrimorphae + Strigiformes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in an offset skewStudent distribution with offset=50.540, xi=51.049, omega=6.467, alpha=24.212, and nu=2.615.
 
 ---
 
-**Node 600:** Coraciimorphae | 91.89-62.2Ma\
+**Node 600:** Coraciimorphae | 62.2–91.9Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Coliiformes (_Colius striatus_) and Coraciiformes (_Merops nubicus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
-- _Tsidiiyazhi abini_ [Ksepka, Stidham, & Williamson, 2017](https://doi.org/10.1073/pnas.1700188114) – associated partial skeleton (NMMNH P-54128) from NMMNH locality L-6898 in the Ojo Encino Member of the Nacimiento Formation (62.52-62.22Ma), New Mexico, USA ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)). 
+- _Tsidiiyazhi abini_ [Ksepka, Stidham, & Williamson, 2017](https://doi.org/10.1073/pnas.1700188114) – associated partial skeleton (NMMNH P-54128) from NMMNH locality L-6898 in the Ojo Encino Member of the Nacimiento Formation (62.52–62.22Ma), New Mexico, USA ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)).
 
 - _Septentrogon madseni_ [Kristoffersen, 2002](https://doi.org/10.1671/0272-4634(2001)022[0661:AEPTAT]2.0.CO;2) – fragmentary cranium without rostrum or palatines (MGUH VP 3496) from levels containing ash layers +25 through +30 in the Silstrup Mb. (55.4Ma; see [Westerhold et al. 2009](https://doi.org/10.1016/j.epsl.2009.08.027) and [Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250), along with discussion in [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1)), Fur Formation, Denmark ([Kristoffersen 2002](https://doi.org/10.1671/0272-4634(2001)022[0661:AEPTAT]2.0.CO;2)).
 
 - _Ueekenkcoracias tambussiae_ [Degrange, Pol, Puerta, & Wilf, 2021](https://doi.org/10.1038/s41598-020-80479-8) – incomplete right hind limb, preserved in two slabs as part and counterpart (MPEF-PV 10991) from the Huitrera Formation at Laguna del Hunco, quarry LH27 (52.2Ma) Chubut province, Argentina ([Degrange et al. 2021](https://doi.org/10.1038/s41598-020-80479-8)).
 
-- _Foshanornis songi_ [Zhao, Mayr, Wang, & Wang, 2015](https://doi.org/10.1080/03115518.2015.994160) – semiarticulated nearly complete skeleton (IVPP V18855a,b) from the Buxin Formation (55.8-48.6Ma), China ([Zhao et al. 2015](https://doi.org/10.1080/03115518.2015.994160)).
+- _Foshanornis songi_ [Zhao, Mayr, Wang, & Wang, 2015](https://doi.org/10.1080/03115518.2015.994160) – semiarticulated nearly complete skeleton (IVPP V18855a,b) from the Buxin Formation (55.8–48.6Ma), China ([Zhao et al. 2015](https://doi.org/10.1080/03115518.2015.994160)).
 
 - Coliidae indet. – fragmented distal tarsometatarsus (GT 120’06) from Grillental (20Ma), Northern Sperrgebiet, Namibia ([Mourer-Chauviré 2008](https://www.researchgate.net/publication/285787143_Birds_Aves_from_the_Early_Miocene_of_the_Northern_Sperrgebiet_Namibia)). 
 
-- Halcyonidae indet. – complete carpometacarpus (QMF 29719) from Last Minute Site, Faunal Zone C (16-11.6Ma), Riversleigh, Australia, differing from all modern halcyonid genera examined including _Halcyon_ ([Boles 1997](https://publications.australian.museum/a-kingfisher-halcyonidae-from-the-miocene-of-riversleigh-northwestern-queensland-with-comments-on-the-evolution-of-kingfishers-in-australo-papua/)).
+- Halcyonidae indet. – complete carpometacarpus (QMF 29719) from Last Minute Site, Faunal Zone C (16–11.6Ma), Riversleigh, Australia, differing from all modern halcyonid genera examined including _Halcyon_ ([Boles 1997](https://publications.australian.museum/a-kingfisher-halcyonidae-from-the-miocene-of-riversleigh-northwestern-queensland-with-comments-on-the-evolution-of-kingfishers-in-australo-papua/)).
 
-- _Leptosomus discolor_ ([Hermann, 1783](https://www.biodiversitylibrary.org/item/120418#page/206/mode/1up)) – remains (DLC 18042) from Ankilitelo Cave (0.013-0.005Ma), Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
+- _Leptosomus discolor_ ([Hermann, 1783](https://www.biodiversitylibrary.org/item/120418#page/206/mode/1up)) – remains (DLC 18042) from Ankilitelo Cave (0.013–0.005Ma), Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
-- _Halcyon sancta_ [Vigors & Horsfield, 1827](https://www.biodiversitylibrary.org/item/13694#page/212/mode/1up) – two right humeri (accessions not specified) from the Holocene of Gilles Cave (0.0036-0.0032Ma), New Caledonia ([Balouet & Olson 1989](http://dx.doi.org/10.5479/si.00810282.469)) 
+- _Halcyon sancta_ [Vigors & Horsfield, 1827](https://www.biodiversitylibrary.org/item/13694#page/212/mode/1up) – two right humeri (accessions not specified) from the Holocene of Gilles Cave (0.0036–0.0032Ma), New Caledonia ([Balouet & Olson 1989](http://dx.doi.org/10.5479/si.00810282.469))
 
 **Minimum age:** 62.2Ma\
 **Minimum justification:** The oldest of these taxa, _Tsidiiyazhi abini,_ is from NMMNH locality L-6898, which was located within magnetochron C27N, constraining the absolute age to between 62.221 and 62.517Ma ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)).\
@@ -299,25 +299,25 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 603:** stem Psittacopasseres | 81.04-54.6Ma\
+**Node 603:** stem Psittacopasseres | 54.6–81.0Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Psittaciformes (_Ara ararauna_) and Passeriformes (_Passer domesticus_).\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
-- _Morsoravis sedilis_ [Bertelli, Lindow, Dyke, & Chiappe, 2010](https://doi.org/10.1111/j.1475-4983.2010.00950.x) – articulated skeleton including the skull, vertebral column, pelvic girdle and hind limbs (Geological Museum, University of Copenhagen 28930) from the Fur Formation (55.8-54.6Ma), Denmark. Initial cladistic analysis placed _Morsoravis_ in Charadriiformes ([Bertelli et al. 2010](https://doi.org/10.1111/j.1475-4983.2010.00950.x)), but a reexamination of the specimen and a more complete matrix placed it on the stem of Passeriformes ([Mayr 2015c](https://doi.org/10.1111/zsc.12128)). This result was replicated by a second matrix (modified from [Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)) of 34 species representing major clades of Telluraves, 28 fossil taxa and 146 morphological characters ([Ksepka et al. 2019](https://doi.org/10.1016/j.cub.2018.12.040)).
+- _Morsoravis sedilis_ [Bertelli, Lindow, Dyke, & Chiappe, 2010](https://doi.org/10.1111/j.1475-4983.2010.00950.x) – articulated skeleton including the skull, vertebral column, pelvic girdle and hind limbs (Geological Museum, University of Copenhagen 28930) from the Fur Formation (55.8–54.6Ma), Denmark. Initial cladistic analysis placed _Morsoravis_ in Charadriiformes ([Bertelli et al. 2010](https://doi.org/10.1111/j.1475-4983.2010.00950.x)), but a reexamination of the specimen and a more complete matrix placed it on the stem of Passeriformes ([Mayr 2015c](https://doi.org/10.1111/zsc.12128)). This result was replicated by a second matrix (modified from [Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)) of 34 species representing major clades of Telluraves, 28 fossil taxa and 146 morphological characters ([Ksepka et al. 2019](https://doi.org/10.1016/j.cub.2018.12.040)).
 
 - _Eozygodactylus americanus_ [Weidig, 2010](https://doi.org/10.3853/j.0067-1975.62.2010.1544) – two partial articulated skeletons (USNM 299821, WDC-CGR-014) from the Fossil Butte Member of the Green River Formation (early Eocene: 52Ma). Attributed to Zygodactylidae, showing derived characters shared with _Zygodactylus_ and _Primozygodactylus_ ([Weidig 2010](https://doi.org/10.3853/j.0067-1975.62.2010.1544)). Cladistic analysis did not support monophyly of Zygodactylidae _per se,_ but placed these zygodactyl genera on the stem lineage of Passeriformes ([Ksepka et al. 2019](https://doi.org/10.1016/j.cub.2018.12.040)).
 
 - _Namapsitta praeruptorum_ [Mourer-Chauviré, Pickford, & Senut, 2015](https://doi.org/10.1007%2Fs10336-014-1124-y) – distal tarsometatarsus and ulna (GSN EC 8-01′13, 8-02′13) from Eocliff (middle Eocene: 40.4–37.2Ma), Namibia, attributed to Psittaciformes _incertae sedis_ ([Mourer-Chauvire et al. 2015](https://doi.org/10.1007%2Fs10336-014-1124-y)).
 
-- _Nelepsittacus minimus_ [Worthy, Tennyson, & Scofield, 2011b](https://doi.org/10.1080/02724634.2011.595857) – isolated long bones (NMNZ S.42671, S.43916, S.43993–4, S.43997, S.50171, S.50870, S.51690, S.51801, S.52115, S.52163, S.52223, S.52404, S.52484, S.52683) from the Bannockburn Formation, St Bathans Fauna (early Miocene: 19-16Ma), Otago, New Zealand. Family assignment (Nestoridae) based on putative apomorphies ([Worthy et al. 2011b](https://doi.org/10.1080/02724634.2011.595857)).
+- _Nelepsittacus minimus_ [Worthy, Tennyson, & Scofield, 2011b](https://doi.org/10.1080/02724634.2011.595857) – isolated long bones (NMNZ S.42671, S.43916, S.43993–4, S.43997, S.50171, S.50870, S.51690, S.51801, S.52115, S.52163, S.52223, S.52404, S.52484, S.52683) from the Bannockburn Formation, St Bathans Fauna (early Miocene: 19–16Ma), Otago, New Zealand. Family assignment (Nestoridae) based on putative apomorphies ([Worthy et al. 2011b](https://doi.org/10.1080/02724634.2011.595857)).
 
 - _Orthonyx kaldowinyeri_ [Boles, 1993](https://doi.org/10.1071/MU9930044) – distal right tarsometatarsus (QM F30244) from Neville’s Garden Site, Faunal Zones A at Hiatus Site (18.5–17.5Ma; [Woodhead et al. 2016](https://doi.org/10.1016/j.gr.2014.10.004)), Riversleigh, Australia ([Nguyen et al. 2014](https://doi.org/10.1080/03115518.2014.861732)).
 
 - cf. Tyrannidae – distal humerus (MACN-SC-1411) from the middle levels of the Pinturas Formation at “Portezuelo Sumich Sur,” Santa Cruz, Argentina ([Noriega & Chiappe 1993](https://doi.org/10.2307/4088653)). Portezuelo Sumich Sur has not been dated but sits on top of tephra samples that were dated at 16.8Ma at Portezuelo Sumich North, which exposes deeper levels of the formation ([Kramarz & Bellosi 2005](https://doi.org/10.1016/j.jsames.2004.10.005), [Fleagel et al. 2012](https://doi.org/10.1017/CBO9780511667381.003)), thus we use that date as a maximum bound for the fossil. 40Ar/39Ar dates obtained from the top of the middle level yielded an age of 16.5Ma ([Kramarz & Bellosi 2005](https://doi.org/10.1016/j.jsames.2004.10.005)), providing a minimum bound as well.
 
-- Corvoidea indet. – partial skeleton impression (TRPM 667-011) from the Fuganji member of the Iwami formation (16.0-17.6Ma; [Hirao et al. 2005](https://www.researchgate.net/publication/257922534_Stratigraphy_and_fossil_fishes_of_the_Fuganji_Formation_at_Miyanoshita_Kokufu-cho_Tottori_Japan)) Japan ([Kakegawa & Hirao 2003](https://gbank.gsj.jp/geolis/geolis_link/200424147/en)).
+- Corvoidea indet. – partial skeleton impression (TRPM 667-011) from the Fuganji member of the Iwami formation (16.0–17.6Ma; [Hirao et al. 2005](https://www.researchgate.net/publication/257922534_Stratigraphy_and_fossil_fishes_of_the_Fuganji_Formation_at_Miyanoshita_Kokufu-cho_Tottori_Japan)) Japan ([Kakegawa & Hirao 2003](https://gbank.gsj.jp/geolis/geolis_link/200424147/en)).
 
-- Remains of _Phedina borbonica_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/523/mode/1up)) including DLC 18103; _Corvus albus_ [Müller, 1776](https://www.biodiversitylibrary.org/item/218386#page/105/mode/1up) including DLC 17187D, 17189, 17216, 17246, 17265, 17268, 17272, 17298, 17300, 18099, 18102, 18103, 18105, 18157, 18758, 18876, 18906, 18909, 18921, 18944, 18946; and unspecified _Ploceus sakalava_ [Hartlaub, 1861](https://www.biodiversitylibrary.org/page/15140643#page/70/mode/1up) specimens from Ankilitelo Cave (0.0112-0.005Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
+- Remains of _Phedina borbonica_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/523/mode/1up)) including DLC 18103; _Corvus albus_ [Müller, 1776](https://www.biodiversitylibrary.org/item/218386#page/105/mode/1up) including DLC 17187D, 17189, 17216, 17246, 17265, 17268, 17272, 17298, 17300, 18099, 18102, 18103, 18105, 18157, 18758, 18876, 18906, 18909, 18921, 18944, 18946; and unspecified _Ploceus sakalava_ [Hartlaub, 1861](https://www.biodiversitylibrary.org/page/15140643#page/70/mode/1up) specimens from Ankilitelo Cave (0.0112–0.005Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
 **Minimum age:** 54.6Ma\
 **Minimum justification:** Based on the oldest taxon _Morsoravis sedilis_ from the bottom of the Fur Formation, which was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation suggesting a minimum age of 54.6Ma ([Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)).\
@@ -327,7 +327,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 605:** Eupasseres | 45.7-30.2Ma\
+**Node 605:** Eupasseres | 30.2–45.7Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Tyranni (_Willisornis vidua_) and Passeri (_Passer domesticus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -339,13 +339,13 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 - Corvides indet. – partial skeleton impression from the Fuganji Member of the Iwami Formation (17.6–16.0Ma; [Micklich et al. 2017](https://doi.org/10.1007/s12542-017-0340-1)), Miyanoshita, Japan ([Kakegawa & Hirao 2003](https://gbank.gsj.jp/geolis/geolis_link/200424147/en)).
 
-- Passeriformes indet. – fragmentary distal humerus (Kenyan National Museum-SO 5466) from the Early Miocene (23.04-15.99Ma) of Songhor, Kenya ([Mayr 2014](https://doi.org/10.1016/j.geobios.2014.03.001)).
+- Passeriformes indet. – fragmentary distal humerus (Kenyan National Museum-SO 5466) from the Early Miocene (23.04–15.99Ma) of Songhor, Kenya ([Mayr 2014](https://doi.org/10.1016/j.geobios.2014.03.001)).
 
 - _Miocitta galbreathi_ [Brodkorb, 1972](https://doi.org/10.2307/1366596) – humerus (SIU P198) from the middle Miocene (Barstovian: 14.78–14.07Ma) Pawnee Creek Formation in Logan County, Colorado, USA.
 
 - cf. Tyrannidae – distal humerus (MACN-SC-1411) from the middle levels of the Pinturas Formation at “Portezuelo Sumich Sur,” Santa Cruz, Argentina ([Noriega & Chiappe 1993](https://doi.org/10.2307/4088653)).  Argon radiometric dates and tephrochronology suggest an age bounded between 16.8–16.5Ma for the middle levels of the Formation ([Kramarz & Bellosi 2005](https://doi.org/10.1016/j.jsames.2004.10.005), [Fleagel et al. 2012](https://doi.org/10.1017/CBO9780511667381.003)). 
 
-- Remains of _Phedina borbonica_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/523/mode/1up)) including DLC 18103; _Corvus albus_ [Müller, 1776](https://www.biodiversitylibrary.org/item/218386#page/105/mode/1up) including DLC 17187D, 17189, 17216, 17246, 17265, 17268, 17272, 17298, 17300, 18099, 18102, 18103, 18105, 18157, 18758, 18876, 18906, 18909, 18921, 18944, 18946; and unspecified _Ploceus sakalava_ [Hartlaub, 1861](https://www.biodiversitylibrary.org/page/15140643#page/70/mode/1up) specimens from Ankilitelo Cave (0.0112-0.005Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
+- Remains of _Phedina borbonica_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/523/mode/1up)) including DLC 18103; _Corvus albus_ [Müller, 1776](https://www.biodiversitylibrary.org/item/218386#page/105/mode/1up) including DLC 17187D, 17189, 17216, 17246, 17265, 17268, 17272, 17298, 17300, 18099, 18102, 18103, 18105, 18157, 18758, 18876, 18906, 18909, 18921, 18944, 18946; and unspecified _Ploceus sakalava_ [Hartlaub, 1861](https://www.biodiversitylibrary.org/page/15140643#page/70/mode/1up) specimens from Ankilitelo Cave (0.0112–0.005Ma) Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
 **Minimum age:** 30.2Ma\
 **Minimum justification:** Based on the oldest taxon _Wieslochia_. Biostratigraphic correlations of calcareous nannofossils and  dinoflagellate cysts place the youngest Hochberg Member present in Rauenberg in the intersection of NP23 and Subzone D14a ([Maxwell et al. 2016](https://doi.org/10.1016/j.palaeo.2016.10.002)), indicating an age of 30.2–32.0Ma ([Speijer et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00028-0)).\
@@ -355,7 +355,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 612:** Passerellidae and allies | 32.9-7.5Ma\
+**Node 612:** Passerellidae and allies | 7.5–32.9Ma\
 **Node calibrated:** Last common ancestor of clade encompassing Passerellidae (_Zonotrichia albicollis_) and Icteridae (_Agelaius phoeniceus_) + Parulidae (_Geothlypis trichas_)\
 **Fossil taxon:** We surveyed the following specimens to calibrate this node:
 

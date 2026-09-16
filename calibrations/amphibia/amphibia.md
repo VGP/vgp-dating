@@ -49,7 +49,7 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 ---
 
-**Node 969:** Pelobatoidea | 85.7-143.1Ma\
+**Node 969:** Pelobatoidea | 85.7–143.1Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Pelobates_ (Pelobatidae) and _Pelodytes_ (Pelodytidae).\
 **Fossil taxon:** †_Gobiates spinari_ (ZIN, LU-N 5/137)\
 **Minimum age:** 85.7Ma\
@@ -60,7 +60,7 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 ---
 
-**Node 954:** Aquipares | 113.0-143.1Ma\
+**Node 954:** Aquipares | 113.0–143.1Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Hyla_ (Hyloidea) and _Rana_ (Ranoidea).\
 **Fossil taxon:** †_Kururubatrachus gondwanicus_ (UFRJ-DG 08 A)\
 **Minimum age:** 113.0Ma\
@@ -78,7 +78,7 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 **Minimum justification:** This taxon bears numerous synapomorphies uniting it with the stem of extant species of _Dicamptodon,_ providing a credible minimum age for the crown of Ambystomatidae, and therefore Salamandroidea by extension. It originated from Location 1 from the Paskapoo Formation ([Wilson 1980](https://doi.org/10.1139/e80-030)), which was previously radiometrically dated to ~62Ma ([Christophel 1976](https://www.schweizerbart.de/papers/palb/detail/157/72190/Fossil_floras_of_the_Smoky_Tower_locality_Alberta_)).\
 **Maximum age:** Jurassic–Cretaceous boundary, 143.1Ma\
 **Maximum justification:** We use a conservative soft maximum age corresponding to the Jurassic–Cretaceous boundary, as numerous stem but no unambiguous crown salamanders are known from the Jurassic ([Jones et al. 2022](https://doi.org/10.1073/pnas.2114100119)).\
-**Discussion:** This is a revision of constraint #19 from Stewart and Wiens ([2025](https://doi.org/10.1016/j.ympev.2024.108272)). They assigned this specimen to the Tiffanian, ~56.8-60.2Ma, but a more precise radiometric date was available from volcanic ash at the site.
+**Discussion:** This is a revision of constraint #19 from Stewart and Wiens ([2025](https://doi.org/10.1016/j.ympev.2024.108272)). They assigned this specimen to the Tiffanian, ~56.8–60.2Ma, but a more precise radiometric date was available from volcanic ash at the site.
 
 ---
 
@@ -117,10 +117,10 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 There are well-documented times for likelihood checkpoints at the base of Amphibia from 53 studies. Previous estimates for Lissamphibia (Gymnophiona + Batrachia) with and without _Gerobatrachus_ (depending on its placement as a stem batrachian) were previously compiled by [Kligman et al. (2023)](https://www.nature.com/articles/s41586-022-05646-5). We summarize those here to obtain a 95% CI from the quantiles. Those authors also summarized the published evidence for Batrachia (Salientia + Urodela) and Gymnophiona (Rhinatrematidae + Stegokrotaphia, which is Plesiophiona + Pseudophiona in the nomenclature of [Dubois et al. 2021](https://www.mapress.com/mt/article/view/38637)), to which we added Anura and analyzed in the same manner:
 
-**948:** Lissamphibia (29): 279–360Ma (Median 318Ma)\
-**949:** Batrachia (32): 244–347Ma (Median 292Ma)\
-**950:** Anura (26): 175–265Ma (Median 217Ma)\
-**977:** Gymnophiona (19): 92–258Ma (Median 213Ma)
+**948:** Lissamphibia (29): 279.0–360.0Ma (Median 318Ma)\
+**949:** Batrachia (32): 244.0–347.0Ma (Median 292Ma)\
+**950:** Anura (26): 175.0–265.0Ma (Median 217Ma)\
+**977:** Gymnophiona (19): 92.0–258.0Ma (Median 213Ma)
 
 ![amphibia likelihood checkpoints](amphibia_likelihood_checkpoints.png)
 
