@@ -20,25 +20,25 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 ## [Early vertebrates](./vertebrates/vertebrata.md):
 
 **585:** Vertebrata: 497.0–590.8Ma\
--Based on †_Furnishina,_ from the middle Cambrian Huaqiao Formation.
+-Based on †_Furnishina_, from the middle Cambrian Huaqiao Formation.
 
 **1150:** Cyclostomata: 358.5–590.8Ma\
--Based on †_Priscomyzon,_ from the Famennian of the Devonian-Carboniferous boundary.
+-Based on †_Priscomyzon_, from the Famennian of the Devonian-Carboniferous boundary.
 
 **586:** Gnathostomata: 431.7–468.4Ma\
--Based on †_Shenacanthus,_ from the early Silurian (Telychian) Huixingshao Formation.
+-Based on †_Shenacanthus_, from the early Silurian (Telychian) Huixingshao Formation.
 
 **587:** Osteichthyes: 420.7–444.9Ma\
--Based on †_Guiyu,_ from the Kuanti Formation near the Ludlow-Pridoli boundary of the Silurian.
+-Based on †_Guiyu_, from the Kuanti Formation near the Ludlow-Pridoli boundary of the Silurian.
 
 
 ## [Fishes](./fishes/fishes.md):
 
 **982:** Teleostei | 145.5–298.9Ma\
--Based on †_Orthogonikleithrus,_ from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.
+-Based on †_Orthogonikleithrus_, from the Solnhofen Limestones (Jurassic: Tithonian), Bavaria, Germany.
 
 **987:** Eurypterygia | 121.4–201.5Ma\
--Based on †_Atolvorator,_ from the Coqueiro Seco Formation (Cretaceous: Barremian), Alagoas, Brazil.
+-Based on †_Atolvorator_, from the Coqueiro Seco Formation (Cretaceous: Barremian), Alagoas, Brazil.
 
 **1015:** Labridae | 48.7–83.6Ma\
 -Based on †_Phyllopharyngodon_, from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy.
@@ -47,57 +47,57 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 -Based on the "Monte Bolca scorpaenoid," from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy.
 
 **1071:** Scombriformes | 54.2–83.6Ma\
--Based on †_Eocoelopoma,_ from the Danata formation (Eocene: Ypresian), Balkan region, Turkmenistan.
+-Based on †_Eocoelopoma_, from the Danata formation (Eocene: Ypresian), Balkan region, Turkmenistan.
 
 **1076:** Syngnathiformes | 72.2–100.5Ma\
--Based on †_Gasterorhamphosus,_ from the Calcari de Melissano formation (Cretaceous: Campanian), Lecce, Italy.
+-Based on †_Gasterorhamphosus_, from the Calcari de Melissano formation (Cretaceous: Campanian), Lecce, Italy.
 
 **1084:** Lampriformes + Polymixiiformes | 93.9–145.0Ma\
--Based on †_Aipichthys,_ from the Komen Limestone (Cretaceous: Cenomanian), Komen Municipality, Slovenia.
+-Based on †_Aipichthys_, from the Komen Limestone (Cretaceous: Cenomanian), Komen Municipality, Slovenia.
 
 **1087:** Zeogadaria | 72.2–145.0Ma\
--Based on †_Cretazeus,_ from the Nardò formation (Cretaceous: Campanian), Lecce, Italy.
+-Based on †_Cretazeus_, from the Nardò formation (Cretaceous: Campanian), Lecce, Italy.
 
 **1099:** Esociformes + Salmoniformes | 76.2–201.5Ma\
--Based on †_Oldmanesox,_ from the Oldman formation (Cretaceous: Campanian), Alberta, Canada.
+-Based on †_Oldmanesox_, from the Oldman formation (Cretaceous: Campanian), Alberta, Canada.
 
 **1109:** Gobionidae + Leuciscidae | 27.3–66.0Ma\
--Based on †_Palaeotinca,_ from the Wolfsheim formation (Oligocene: Rupelian), Hesse, Germany.
+-Based on †_Palaeotinca_, from the Wolfsheim formation (Oligocene: Rupelian), Hesse, Germany.
 
 **1110:** Leuciscidae | 23.0–33.9Ma\
--Based on †_Palaeorutilus,_ from the Enspel formation (Oligocene: Chattian), Rhineland-Palatinate, Germany.
+-Based on †_Palaeorutilus_, from the Enspel formation (Oligocene: Chattian), Rhineland-Palatinate, Germany.
 
 **1117:** Barbinae + Cyprininae | 38.0–66.0Ma\
--Based on †_Eoprocypris,_ from the Youganwo formation (Eocene: Priabonian), Guangdong, PR China.
+-Based on †_Eoprocypris_, from the Youganwo formation (Eocene: Priabonian), Guangdong, PR China.
 
 **1123:** Ariidae + Pangasiidae | 33.9–125.0Ma\
--Based on †_Qarmoutus,_ from the Birket Qarun Formation (Eocene: Priabonian), Faiyum Governorate, Egypt.
+-Based on †_Qarmoutus_, from the Birket Qarun Formation (Eocene: Priabonian), Faiyum Governorate, Egypt.
 
 **1124:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | 72.2–125.0Ma\
--Based on †_Eotexachara,_ from the Aguja formation (Cretaceous: Campanian), Texas, United States.
+-Based on †_Eotexachara_, from the Aguja formation (Cretaceous: Campanian), Texas, United States.
 
 **1132:** Elopomorpha | 149.2–201.5Ma\
--Based on †_Anaethalion,_ from the Torleite formation (Jurassic Kimmeridgian), Bavaria, Germany.
+-Based on †_Anaethalion_, from the Torleite formation (Jurassic Kimmeridgian), Bavaria, Germany.
 
 **1134:** Holostei | 251.2–298.9Ma\
--Based on †_Watsonulus,_ from the Sakamena formation (Triassic: Induan), Anosy, Madagascar.
+-Based on †_Watsonulus_, from the Sakamena formation (Triassic: Induan), Anosy, Madagascar.
 
 **1135:** Chondrichthyes | 382.3–443.1Ma\
--Based on †_Phoebodus,_ from the Cedar Valley Limestone formation (Devonian: Givetian), Iowa, United States.
+-Based on †_Phoebodus_, from the Cedar Valley Limestone formation (Devonian: Givetian), Iowa, United States.
 
 **1140:** Carcharhiniformes + Lamniformes | 165.3–251.2Ma\
--Based on †_Palaeoscyllium,_ from the Forest Marble formation (Jurassic: Bathonian), England, United Kingdom.
+-Based on †_Palaeoscyllium_, from the Forest Marble formation (Jurassic: Bathonian), England, United Kingdom.
 
 **1145:** Batomorpha | 184.2–251.2Ma\
--Based on †_Antiquaobatis,_ from the Komorowo formation (Jurassic: Pliensbachian), Mecklenburg-Vorpommern, Germany.
+-Based on †_Antiquaobatis_, from the Komorowo formation (Jurassic: Pliensbachian), Mecklenburg-Vorpommern, Germany.
 
 _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placement
 
 **980:** Actinopteri | 330.3–419.6Ma\
--†_Platysomus,_ from the Glencartholm Volcanic Beds (Carboniferous: Viséan), Scotland, United Kingdom.
+-†_Platysomus_, from the Glencartholm Volcanic Beds (Carboniferous: Viséan), Scotland, United Kingdom.
 
 **1012:** Lophiiformes + Tetraodontiformes | 93.9–145.0Ma\
--†_Plectocretacicus,_ from the Sannine Formation (Cretaceous: Cenomanian), Keserwan-Jbeil Governorate, Lebanon.
+-†_Plectocretacicus_, from the Sannine Formation (Cretaceous: Cenomanian), Keserwan-Jbeil Governorate, Lebanon.
 
 
 ## [Tetrapods](./tetrapods/tetrapoda.md):
@@ -220,7 +220,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 ## [Squamates](./squamata/squamata.md):
 
 **748:** Squamata: 166.0–215.0Ma\
--Based on the earliest crown squamates †_Eichstaettisaurus,_ †_Helioscopus,_ and †_Paramacellodus_ sp., from the middle Jurassic.
+-Based on the earliest crown squamates †_Eichstaettisaurus_, †_Helioscopus_, and †_Paramacellodus_ sp., from the middle Jurassic.
 
 **749:** Unidentata: 166.0–205.0Ma\
 -Based on the earliest stem Scincoidea (Paramacellodidae: †_Paramacellodus_ sp.), from the middle Jurassic..
