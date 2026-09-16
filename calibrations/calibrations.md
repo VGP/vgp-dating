@@ -196,7 +196,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 -Based on the oldest-known stem leporid and crown lagomorph fossils (GU/RSR/VAS 711) from the Ypresian of the early Eocene.
 
 **892:** Rodentia: 41.0–66.0Ma\
--Based on the oldest-known stem sciuromorph and crown rodent _Ischyromys_ sp. from the Lutetian of the middle Eocene.
+-Based on the oldest-known stem sciuromorph and crown rodent †_Ischyromys_ sp. from the Lutetian of the middle Eocene.
 
 **914:** Hystricomorpha: 31.6–56.0Ma
 -Based on the oldest-known stem chinchilloid and crown hystricomorph †_Eoviscaccia frassinetti_ from the Tinguirican of the early Eocene.
