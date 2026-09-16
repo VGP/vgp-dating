@@ -229,7 +229,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 -Based on the earliest known snake †_Eophis_ and earliest putative crown toxicoferan †_Breugnathair_, from the middle Jurassic.
 
 **769:** Endoglyptodonta: 20.0–66.0Ma\
--Based on †_Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene.
+-Based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene.
 
 **771:** Natricidae: 13.8–33.9Ma\
 -Based on †_Natrix_ aff. _longivertebrata_, the oldest crown Natricinae.
@@ -247,7 +247,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 -Based on the oldest crown anguimorph †_Aiolosaurus_, from the late Cretaceous.
 
 **780:** Anguidae: 33.9–100.5Ma\
--Based on †_Ophisaurus_ sp., the oldest crown anguid from the early Oligocene.
+-Based on _Ophisaurus_ sp., the oldest crown anguid from the early Oligocene.
 
 
 ## [Turtles](./turtles/testudines.md):
