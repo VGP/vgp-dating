@@ -20,7 +20,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 **Fossil taxon:** †_Paramacellodus_ sp. (e.g., DINO 13861; [Evans 1998](https://doi.org/10.1127/pala/250/1998/123))\
 **Minimum age:** Middle Jurassic, at 166Ma.\
 **Minimum justification:** As discussed above (**Node 748:** Crown Squamata), paramacellodids have been consistently inferred to be part of Total Group Scincoidea, and therefore part of crown Unidentata. This places the youngest possible age for Unidentata to be at least in the Middle Jurassic, at 166Ma.\
-**Maximum age:** Triassic-Jurassic boundary, at 200Ma.\
+**Maximum age:** Latest Triassic, near Jurassic boundary, 205Ma.\
 **Maximum justification:** Divergence time for crown Unidentata has a broad range among recent genomic and total evidence based studies: 189.5Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 183.4Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 178Ma ([Simões et al. 2020](https://www.nature.com/articles/s41467-020-17190-9)), 200Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 203.7Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)). Therefore, we place a wide prior on this node, with a soft maximum age reasonably older than the oldest estimate, at 205Ma.
 
 ---

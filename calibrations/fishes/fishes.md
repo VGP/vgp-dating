@@ -128,7 +128,7 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Node 1117:** Barbinae + Cyprininae | 38.0–66.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Barbus barbus_ (Barbinae) and _Carassius carassius_ (Cyprininae).\
 **Fossil taxon:** †_Eoprocypris maomingensis_ (IVPP V.855)\
-**Minimum age:** Ma\
+**Minimum age:** 38.0Ma\
 **Minimum justification:** Based on the oldest-known crown cyprinine from the Youganwo formation (Eocene: Priabonian), Guangdong, PR China ([Chen et al. 2015](https://link.springer.com/article/10.1007/s11430-015-5085-7)).\
 **Maximum age:** 66.0Ma\
 **Maximum justification:** Based on the K-Pg boundary, as no crown cypriniform fossils are known prior to the Paleogene.\
