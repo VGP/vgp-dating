@@ -223,7 +223,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 -Based on the earliest crown squamates †_Eichstaettisaurus_, †_Helioscopus_, and †_Paramacellodus_ sp., from the middle Jurassic.
 
 **749:** Unidentata: 166.0–205.0Ma\
--Based on the earliest stem Scincoidea (Paramacellodidae: †_Paramacellodus_ sp.), from the middle Jurassic..
+-Based on the earliest stem Scincoidea (†Paramacellodidae: †_Paramacellodus_ sp.), from the middle Jurassic..
 
 **767:** Toxicofera: 166.0–190.0Ma\
 -Based on the earliest known snake †_Eophis_ and earliest putative crown toxicoferan †_Breugnathair_, from the middle Jurassic.
