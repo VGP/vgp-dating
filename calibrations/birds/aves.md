@@ -90,7 +90,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Node calibrated:** Last common ancestor of Aegothelidae (_Aegotheles albertisi_) and Apodiformes (_Apus apus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
--  †_Eocypselus vincenti_ [Harrison 1984](https://natuurtijdschriften.nl/pub/521070) – referred material, a nearly complete skeleton (MGUH 29278) and two incomplete postcranial skeletons (MGUH 26729–30) from the early Eocene (55.8–54.6Ma) Fur Formation, Denmark. A cladistic analysis ([Ksepka et al. 2013](https://doi.org/10.1098/rspb.2013.0580)) and Bayesian analyses with topological constraints ([Chen et al. 2019](https://doi.org/10.3390/d11090143)) found †_E. vincenti_ on the stem of Apodiformes, but a total evidence Bayesian analysis indicated a position on the stem of Aegothelidae instead ([Chen et al. 2019](https://doi.org/10.3390/d11090143)). Either way, †_Eocypselus_ is confirmed as a basal crown Daedalornithes.
+-  †_Eocypselus vincenti_ [Harrison 1984](https://natuurtijdschriften.nl/pub/521070) – referred material, a nearly complete skeleton (MGUH 29278) and two incomplete postcranial skeletons (MGUH 26729–30) from the early Eocene (55.8–54.6Ma) Fur Formation, Denmark (see [Mayr 2010](https://doi.org/10.1007/s12549-010-0043-z) and [Mayr & Kitchener 2024](https://doi.org/10.1111/ibi.13323) – though MGUH 29278 is also occupied by †_Pellornis mikkelseni_ [Bertelli, Chiappe, & Mayr 2011](https://doi.org/10.1080/14772019.2010.538730)). A cladistic analysis ([Ksepka et al. 2013](https://doi.org/10.1098/rspb.2013.0580)) and Bayesian analyses with topological constraints ([Chen et al. 2019](https://doi.org/10.3390/d11090143)) found †_E. vincenti_ on the stem of Apodiformes, but a total evidence Bayesian analysis indicated a position on the stem of Aegothelidae instead ([Chen et al. 2019](https://doi.org/10.3390/d11090143)). Either way, †_Eocypselus_ is confirmed as a basal crown Daedalornithes.
 
 - †_Eocypselus rowei_ [Ksepka, Kulp, Nesbitt, Clarke, & Grande, 2013](https://doi.org/10.1098/rspb.2013.0580) – a complete skeleton (WDC CGR-109) from the Fossil Butte Member of the Green River Formation (Early Eocene, 51.97±0.16Ma), Wyoming, USA ([Ksepka et. al. 2013](https://doi.org/10.1098/rspb.2013.0580)).         
 
@@ -521,6 +521,8 @@ Mayr, G. 2007. The birds from the Paleocene fissure filling of Walbeck (Germany)
 
 Mayr, G. 2009. Paleogene Fossil Birds. Berlin, Heidelberg: Springer, 262 pp.
 
+Mayr, G., 2010. Reappraisal of Eocypselus—A stem group apodiform from the early Eocene of Northern Europe. Palaeobiodiversity and Palaeoenvironments, 90(4), pp.395-403.
+
 Mayr, G. 2014. On the middle Miocene avifauna of Maboko Island, Kenya. Geobios, 47(3), 133-146.
 
 Mayr, G. 2015a. New remains of the Eocene Prophaethon and the early evolution of tropicbirds (Phaethontiformes). Ibis 157(1):54-67.
@@ -538,6 +540,8 @@ Mayr, G., & T. Smith. 2012. Phylogenetic affinities and taxonomy of the Oligocen
 Mayr, G. & R. P. Scofield. 2016. New avian remains from the Paleocene of New Zealand: the first early Cenozoic Phaethontiformes (tropicbirds) from the Southern Hemisphere. J. Vert. Paleontol.: e1031343.
 
 Mayr, G., & Kitchener, A. C. 2023. Early Eocene fossils elucidate the evolutionary history of the Charadriiformes (shorebirds and allies). Journal of Paleontology, 97(4), 941-955.
+
+Mayr, G. and Kitchener, A.C., 2024. New fossils of Eocypselus and Primapus from the British London Clay reveal a high taxonomic and ecological diversity of early Eocene swift‐like apodiform birds. Ibis, 166(4), pp.1199-1217.
 
 Mayr, G., & Kitchener, A. C. 2025. Leg bones of the anseriform taxon Nettapterornis from the London Clay of Walton-on-the-Naze and notes on the bony-toothed birds from this locality. PalZ, 99(3), 355-369.
 
