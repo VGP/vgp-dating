@@ -246,15 +246,15 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Node calibrated:** Last common ancestor of clade encompassing Strigiformes (_Athene noctua_) and Accipitriformes (_Buteo buteo_).\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
-- _Ogygoptynx wetmorei_ [Rich & Bohaska, 1976](https://doi.org/10.5479/si.00810266.27.87) – tarsometatarsus (AMNH 2653) from the Late Paleocene of Mason Pocket (Ti-4a, Tiffanian NALMA, 58.8–59.5Ma; [Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)), Colorado, USA ([Rich & Bohaska 1976](https://doi.org/10.5479/si.00810266.27.87)).
+- †_Ogygoptynx wetmorei_ [Rich & Bohaska, 1976](https://doi.org/10.5479/si.00810266.27.87) – tarsometatarsus (AMNH 2653) from the Late Paleocene of Mason Pocket (Ti-4a, Tiffanian NALMA, 58.8–59.5Ma; [Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)), Colorado, USA ([Rich & Bohaska 1976](https://doi.org/10.5479/si.00810266.27.87)).
 
-- _Berruornis halbedeli_ [Mayr, 2007](https://doi.org/10.1671/0272-4634(2007)27[394:TBFTPF]2.0.CO;2) – Right tarsometatarsus lacking articular ends (WAL01.2001) from Walbeck near Helmstedt, Germany (middle Paleocene, MP5: 61.7–58.7Ma; Mayr [2007](https://doi.org/10.1671/0272-4634(2007)27[394:TBFTPF]2.0.CO;2), [2009](https://doi.org/10.1007/978-3-540-89628-9)).
+- †_Berruornis halbedeli_ [Mayr, 2007](https://doi.org/10.1671/0272-4634(2007)27[394:TBFTPF]2.0.CO;2) – Right tarsometatarsus lacking articular ends (WAL01.2001) from Walbeck near Helmstedt, Germany (middle Paleocene, MP5: 61.7–58.7Ma; Mayr [2007](https://doi.org/10.1671/0272-4634(2007)27[394:TBFTPF]2.0.CO;2), [2009](https://doi.org/10.1007/978-3-540-89628-9)).
 
-- _Eostrix tsaganica_ [Kurochkin & Dyke 2011](https://doi.org/10.1134/S003103011104006X) – distal tarsometatarsus (PIN 3104/129) from the Bumban member of the Naranbulag Formation at Tsagaan Khushuu (55.7–54.97Ma) Mongolia, assigned to Protostrigidae ([Kurochkin & Dyke 2011](https://doi.org/10.1134/S003103011104006X)).
+- †_Eostrix tsaganica_ [Kurochkin & Dyke 2011](https://doi.org/10.1134/S003103011104006X) – distal tarsometatarsus (PIN 3104/129) from the Bumban member of the Naranbulag Formation at Tsagaan Khushuu (55.7–54.97Ma) Mongolia, assigned to Protostrigidae ([Kurochkin & Dyke 2011](https://doi.org/10.1134/S003103011104006X)).
 
 - cf. Selenornithidae – distal left tibiotarsus (DPC 24780) from the Jebel Qatrani Formation (Oligocene: 30.2–29.5Ma), Fayum, Egypt ([Smith et al. 2020](https://doi.org/10.3390/d12040163)).
 
-- _Archaehierax sylvestris_ [Mather, Lee, Camens, & Worthy, 2022](https://doi.org/10.1080/08912963.2021.1966777) – multiple bones (SAMA P.54998) from Site 12a, Lake Pinpa, Frome Downs Station, Callabonna Sub-Basin, S.A. Dolomite bed of Namba Formation, Pinpa LF, late Oligocene (26–24Ma), assigned to Accipitridae ([Mather et al. 2022](https://doi.org/10.1080/08912963.2021.1966777)).
+- †_Archaehierax sylvestris_ [Mather, Lee, Camens, & Worthy, 2022](https://doi.org/10.1080/08912963.2021.1966777) – multiple bones (SAMA P.54998) from Site 12a, Lake Pinpa, Frome Downs Station, Callabonna Sub-Basin, S.A. Dolomite bed of Namba Formation, Pinpa LF, late Oligocene (26–24Ma), assigned to Accipitridae ([Mather et al. 2022](https://doi.org/10.1080/08912963.2021.1966777)).
 
 - Accipitridae indet. – tibiotarsus (MNZ S4281) and ulna (MNZS42490) from Bannockburn Formation, St Bathans Fauna (18.26–15.97Ma), Otago, New Zealand ([Worthy et al. 2007](https://doi.org/10.1017/S1477201906001957)).
 
@@ -263,7 +263,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 - Remains of _Asio madagascariensis_ ([Smith, 1834](https://www.doi.org/10.21504/saqj.s2n4p1.2852)) including DLC 17170, 17255, 17300, 18043, 18100, 18103, 18888, 18973; _Otus rutilus_ ([Pucheran, 1849](https://www.biodiversitylibrary.org/item/19604#page/35/mode/1up)) including DLC 18042, 18945, 18973; and _Ninox superciliaris_ ([Vieillot, 1817](https://www.biodiversitylibrary.org/item/60105#page/41/mode/1up)) including DLC 18103, 18946; from Ankilitelo Cave (0.013–0.005Ma), Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
 **Minimum age:** 58.8Ma\
-**Minimum justification:** The oldest taxon, _Ogygoptynx wetmorei_, is from the _Plesiadapis churchilli_ biozone, Chron C26r: 58.8–59.5Ma ([Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)).\
+**Minimum justification:** The oldest taxon, †_Ogygoptynx wetmorei_, is from the _Plesiadapis churchilli_ biozone, Chron C26r: 58.8–59.5Ma ([Secord et al. 2006](https://doi.org/10.2475/ajs.306.4.211)).\
 **Maximum age:** 74.43Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of taxa from Accipitrimorphae + Strigiformes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in an offset skewStudent distribution with offset=50.540, xi=51.049, omega=6.467, alpha=24.212, and nu=2.615.
@@ -274,13 +274,13 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Node calibrated:** Last common ancestor of clade encompassing Coliiformes (_Colius striatus_) and Coraciiformes (_Merops nubicus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
-- _Tsidiiyazhi abini_ [Ksepka, Stidham, & Williamson, 2017](https://doi.org/10.1073/pnas.1700188114) – associated partial skeleton (NMMNH P-54128) from NMMNH locality L-6898 in the Ojo Encino Member of the Nacimiento Formation (62.52–62.22Ma), New Mexico, USA ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)).
+- †_Tsidiiyazhi abini_ [Ksepka, Stidham, & Williamson, 2017](https://doi.org/10.1073/pnas.1700188114) – associated partial skeleton (NMMNH P-54128) from NMMNH locality L-6898 in the Ojo Encino Member of the Nacimiento Formation (62.52–62.22Ma), New Mexico, USA ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)).
 
-- _Septentrogon madseni_ [Kristoffersen, 2002](https://doi.org/10.1671/0272-4634(2001)022[0661:AEPTAT]2.0.CO;2) – fragmentary cranium without rostrum or palatines (MGUH VP 3496) from levels containing ash layers +25 through +30 in the Silstrup Mb. (55.4Ma; see [Westerhold et al. 2009](https://doi.org/10.1016/j.epsl.2009.08.027) and [Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250), along with discussion in [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1)), Fur Formation, Denmark ([Kristoffersen 2002](https://doi.org/10.1671/0272-4634(2001)022[0661:AEPTAT]2.0.CO;2)).
+- †_Septentrogon madseni_ [Kristoffersen, 2002](https://doi.org/10.1671/0272-4634(2001)022[0661:AEPTAT]2.0.CO;2) – fragmentary cranium without rostrum or palatines (MGUH VP 3496) from levels containing ash layers +25 through +30 in the Silstrup Mb. (55.4Ma; see [Westerhold et al. 2009](https://doi.org/10.1016/j.epsl.2009.08.027) and [Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250), along with discussion in [Stiller et al. 2024](https://www.nature.com/articles/s41586-024-07323-1)), Fur Formation, Denmark ([Kristoffersen 2002](https://doi.org/10.1671/0272-4634(2001)022[0661:AEPTAT]2.0.CO;2)).
 
-- _Ueekenkcoracias tambussiae_ [Degrange, Pol, Puerta, & Wilf, 2021](https://doi.org/10.1038/s41598-020-80479-8) – incomplete right hind limb, preserved in two slabs as part and counterpart (MPEF-PV 10991) from the Huitrera Formation at Laguna del Hunco, quarry LH27 (52.2Ma) Chubut province, Argentina ([Degrange et al. 2021](https://doi.org/10.1038/s41598-020-80479-8)).
+- †_Ueekenkcoracias tambussiae_ [Degrange, Pol, Puerta, & Wilf, 2021](https://doi.org/10.1038/s41598-020-80479-8) – incomplete right hind limb, preserved in two slabs as part and counterpart (MPEF-PV 10991) from the Huitrera Formation at Laguna del Hunco, quarry LH27 (52.2Ma) Chubut province, Argentina ([Degrange et al. 2021](https://doi.org/10.1038/s41598-020-80479-8)).
 
-- _Foshanornis songi_ [Zhao, Mayr, Wang, & Wang, 2015](https://doi.org/10.1080/03115518.2015.994160) – semiarticulated nearly complete skeleton (IVPP V18855a,b) from the Buxin Formation (55.8–48.6Ma), China ([Zhao et al. 2015](https://doi.org/10.1080/03115518.2015.994160)).
+- †_Foshanornis songi_ [Zhao, Mayr, Wang, & Wang, 2015](https://doi.org/10.1080/03115518.2015.994160) – semiarticulated nearly complete skeleton (IVPP V18855a,b) from the Buxin Formation (55.8–48.6Ma), China ([Zhao et al. 2015](https://doi.org/10.1080/03115518.2015.994160)).
 
 - Coliidae indet. – fragmented distal tarsometatarsus (GT 120’06) from Grillental (20Ma), Northern Sperrgebiet, Namibia ([Mourer-Chauviré 2008](https://www.researchgate.net/publication/285787143_Birds_Aves_from_the_Early_Miocene_of_the_Northern_Sperrgebiet_Namibia)). 
 
@@ -291,7 +291,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 - _Halcyon sancta_ [Vigors & Horsfield, 1827](https://www.biodiversitylibrary.org/item/13694#page/212/mode/1up) – two right humeri (accessions not specified) from the Holocene of Gilles Cave (0.0036–0.0032Ma), New Caledonia ([Balouet & Olson 1989](http://dx.doi.org/10.5479/si.00810282.469))
 
 **Minimum age:** 62.2Ma\
-**Minimum justification:** The oldest of these taxa, _Tsidiiyazhi abini_, is from NMMNH locality L-6898, which was located within magnetochron C27N, constraining the absolute age to between 62.221 and 62.517Ma ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)).\
+**Minimum justification:** The oldest of these taxa, †_Tsidiiyazhi abini_, is from NMMNH locality L-6898, which was located within magnetochron C27N, constraining the absolute age to between 62.221 and 62.517Ma ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)).\
 **Maximum age:** 91.89Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Coraciimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in an offset skewStudent distribution with offset=62.240, xi=62.334, omega=7.442, alpha=137.954, and nu=2.258.\
