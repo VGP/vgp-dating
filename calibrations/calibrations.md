@@ -199,7 +199,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 -Based on the oldest-known stem sciuromorph and crown rodent †_Ischyromys_ sp. from the Lutetian of the middle Eocene.
 
 **914:** Hystricomorpha: 31.6–56.0Ma
--Based on the oldest-known stem chinchilloid and crown hystricomorph †_Eoviscaccia frassinetti_ from the Tinguirican of the early Eocene.
+-Based on the oldest-known stem chinchilloid and crown hystricomorph †_Eoviscaccia frassinetti_ from the Tinguirican of the early Oligocene.
 
 **906:** Castorimorpha: 37.7–66.0Ma\
 -Based on the oldest-known crown castorimorph †_Heliscomys walshi_ from the Bartonian of the middle Eocene.
