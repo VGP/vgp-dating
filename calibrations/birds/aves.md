@@ -4,7 +4,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ### Calibrations:
 
-**Node 709:** Galloanserae | 65.7–92.7Ma\
+**Node 709:** Galloanserae | 65.7–91.9Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing Galliformes (_Gallus gallus_) and Anseriformes (_Anser anser_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -86,7 +86,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 704:** Daedalornithes | 54.6–95.7Ma\
+**Node 704:** Daedalornithes | 54.6–84.2Ma\
 **Node calibrated:** Last common ancestor of Aegothelidae (_Aegotheles albertisi_) and Apodiformes (_Apus apus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -106,7 +106,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 **Minimum age:** 54.6Ma\
 **Minimum justification:** The oldest of these fossils is †_Eocypselus vincenti_, for which the bottom of the Fur Formation was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation, suggesting a minimum age of 54.6Ma ([King 2016](https://doi.org/10.1144/SR27), [Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)).\
-**Maximum age:** 83.85Ma\
+**Maximum age:** 84.22Ma\
 **Maximum justification:** based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Daedalornithes on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in a skewStudent distribution with xi=54.649, omega=7.722, alpha=37.041, and nu=2.233.
 

@@ -288,7 +288,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 
 ## [Birds](./birds/aves.md):
 
-**709:** Galloanserae | 65.7–92.7Ma\
+**709:** Galloanserae | 65.7–91.9Ma\
 –based on †_Conflicto antarcticus_ from the KPg boundary (earliest Paleocene) of Antarctica.
 
 **710:** Anatidae | 24.0–38.0Ma\
@@ -297,7 +297,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **699:** Otidimorphae | 51.8–80.4Ma\
 –based on †_Foro panarium_ from the Eocene of Wyoming, USA.
 
-**704:** Daedalornithes | 54.6–95.7Ma\
+**704:** Daedalornithes | 54.6–84.2Ma\
 –based on †_Eocypselus vincenti_ from the Eocene of Denmark.
 
 **708:** Apodi | 50.3–103.4Ma\
