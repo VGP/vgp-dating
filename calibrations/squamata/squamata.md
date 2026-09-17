@@ -66,7 +66,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 ---
 
 **Node 777:** Pleurodonta | 48.0–120.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant pleurodontan iguanians, here represented by Iguanidae (_Iguana_) and Dactyloidae (_Anolis_).\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant pleurodontan iguanians, here represented by Iguanidae (_Cyclura pinguis_) and Dactyloidae (_Anolis sagrei_).\
 **Fossil taxa:** †_Geiseltaliellus_ (various material; see [Smith 2009](https://doi.org/10.3374/014.050.0201)) and †_Babibasiliscus alxi_ (UWBM 89090)\
 **Minimum age:** Early Eocene, Paleogene, at 48Ma.\
 **Minimum justification:** The oldest undisputed crown Pleurodontans include the phylogenetically inferred corytophanids †_Babibasiliscus alxi_ from the Blacks Fork Member of Bridger Formation (Bridger B), Green River Basin in Wyoming (USA), late Early Eocene ([Conrad 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127900), [Scarpetta 2024](https://royalsocietypublishing.org/rsos/article/11/1/221139/92805/A-Palaeogene-stem-crotaphytid-Aciprion-formosum)), and †_Geiseltaliellus_ from the middle Eocene fossil Lagerstätte of Messel, Germany ([Scarpetta 2024](https://royalsocietypublishing.org/rsos/article/11/1/221139/92805/A-Palaeogene-stem-crotaphytid-Aciprion-formosum), [Smith 2009](https://doi.org/10.3374/014.050.0201)) at ~48Ma.\
