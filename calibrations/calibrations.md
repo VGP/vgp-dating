@@ -156,13 +156,13 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **938:** Marsupialia: 47.6–131.3Ma\
 -Based on the oldest-known crown marsupial †_Djarthia murgonensis_ from the Ypresian of the early Eocene.
 
-**785:** Placentalia: 61.6–126.0Ma\
+**785:** Placentalia: 61.6–125.8Ma\
 -Based on the oldest-known stem carnivore and crown placental †_Ravenictis krausei_ from the Danian of the early Paleocene.
 
-**931:** Afrotheria: 59.2–126.0Ma\
+**931:** Afrotheria: 59.2–125.8Ma\
 -Based on the oldest-known stem proboscidean and crown afrotherian †_Ocepeia daouiensis_ from the Selandian of the late Paleocene.
 
-**936:** Xenarthra: 47.6–126.0Ma\
+**936:** Xenarthra: 47.6–125.8Ma\
 -Based on the oldest-known stem cingulate and crown xenarthran †_Riostegotherium yanei_ from the Ypresian of the early Eocene.
 
 **845:** Chiroptera: 47.9–66.0Ma\
@@ -177,7 +177,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **869:** Stem Noctilionoidea: 26.0–58.9Ma\
 -Based on the oldest-known crown total-group noctilionoid †_Koopmanycteris palaeomormoops_ from the Chattian of the late Oligocene.
 
-**916:** Euarchonta: 65.8–126.0Ma\
+**916:** Euarchonta: 65.8–125.8Ma\
 -Based on the oldest-known crown euarchontan †_Purgatorius mckeeveri_ from the Danian of the early Paleocene.
 
 **918:** Primates: 56.0–66.0Ma\
@@ -291,7 +291,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **709:** Galloanserae | 65.7–91.9Ma\
 –based on †_Conflicto antarcticus_ from the KPg boundary (earliest Paleocene) of Antarctica.
 
-**710:** Anatidae | 24.0–38.0Ma\
+**710:** Anatidae | 24.0–38.1Ma\
 –based on †_Pinpanetta tedfordi_ from the Oligocene of Australia.
 
 **699:** Otidimorphae | 51.8–80.4Ma\

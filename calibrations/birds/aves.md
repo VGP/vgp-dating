@@ -32,7 +32,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 710:** Anatidae | 24.0–38.0Ma\
+**Node 710:** Anatidae | 24.0–38.1Ma\
 **Node calibrated:** Last common ancestor of Anatinae (_Anas platyrhynchos)_ and Anserinae (_Anser anser_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
