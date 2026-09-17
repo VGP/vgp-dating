@@ -61,7 +61,7 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 ---
 
 **Node 954:** Aquipares | 113.0–143.1Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Hyla_ (Hyloidea) and _Rana_ (Ranoidea).\
+**Node calibrated:** Last common ancestor of the clade encompassing _Hyla sarda_ (Hyloidea) and _Rana temporaria_ (Ranoidea).\
 **Fossil taxon:** †_Kururubatrachus gondwanicus_ (UFRJ-DG 08 A)\
 **Minimum age:** 113.0Ma\
 **Minimum justification:** A member of the crown group Aquipares based on several synapomorphies, from the Pedra Branca Mine, Nova Olinda County, Ceará State, Brazil, part of the early Cretaceous Crato Formation from the Aptian ([Carvalho et al. 2019](https://www.sciencedirect.com/science/article/abs/pii/S0895981118305285), [Agnolin et al. 2020](https://www.sciencedirect.com/science/article/pii/S0895981120301462)).\
