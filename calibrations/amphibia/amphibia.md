@@ -6,7 +6,7 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 
 **Node 948:** Lissamphibia | 274.4–358.9Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing caecilians (Gymnophiona), frogs (Anura), and salamanders (Urodela).\
+**Node calibrated:** Last common ancestor of the clade encompassing caecilians (Gymnophiona), frogs (Anura), and salamanders (Urodela). The selected species are _Rhinatrema bivittatum_ (Gymnophiona: Rhinatrematidae) and _Engystomops pustulosus_ (Anura: Leptodactylidae).\
 **Fossil taxon:** †_Gerobatrachus hottoni_ (USNM 489135)\
 **Minimum age:** 274.4Ma\
 **Minimum justification:** From the Leonardian (~270–280Ma) of the early Permian, locality number USNM 40971: ‘Don's Dump Fish Quarry’ in the Clear Fork Group from Baylor County, Texas, USGS Soap Creek 7.5' quad ([Anderson et al. 2008](https://www.nature.com/articles/nature06865)). The age of this formation is roughly contemporaneous with the Kungurian (274.4–283.3Ma; [Lucas et al. 2022](https://www.researchgate.net/publication/357993752_Middle_Kungurian_Early_Permian_seaways_in_the_southwestern_USA)). †_Gerobatrachus_ exhibits a number of features suggesting that it is a stem batrachian ([Anderson et al. 2008](https://www.nature.com/articles/nature06865)), while other recent analyses suggest it is a stem lissamphibian and caution its use to calibrate crown Lissamphibia ([Kligman et al. 2023](https://www.nature.com/articles/s41586-022-05646-5)). However, much of this uncertainty relates to a separate debate over the fossil ancestry of Lissamphibia (e.g., origins in Lepospondyli or Temnospondyli), which does not necessarily affect constraints for the extant lineages. Either way, essentially all recent estimates for Lissamphibia predate this taxon, including those that did not use it as a calibration. Consequently, we follow [Anderson et al. (2008)](https://www.nature.com/articles/nature06865) in treating it as a stem batrachian, providing a credible minimum bound for the age of Lissamphibia.\
@@ -17,7 +17,7 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 ---
 
 **Node 949:** Batrachia | 250.0–272.8Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing frogs (Anura), and salamanders (Urodela).\
+**Node calibrated:** Last common ancestor of the clade encompassing frogs (Anura), and salamanders (Urodela). The selected species are _Ambystoma mexicanum_ (Urodela: Ambystomatidae) and _Engystomops pustulosus_ (Anura: Leptodactylidae).\
 **Fossil taxon:** †_Triadobatrachus massinoti_ (MNHN.F.MAE 126)\
 **Minimum age:** 250.0Ma\
 **Minimum justification:** The earliest unambiguous stem anuran based on a number of synapomorphies ([Ruta and Coates 2007](https://www.tandfonline.com/doi/abs/10.1017/S1477201906002008)), from the base of the middle part of the Sakamena Group in northern Madagascar dated imprecisely to the earliest Triassic for which we use 250.0Ma ([Benton et al. 2015](https://palaeo-electronica.org/content/fc-1)).\
@@ -28,7 +28,7 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 ---
 
 **Node 950:** Anura | 165.3–250.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant frogs.\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant frogs. The selected species are _Ascaphus truei_ (Anura: Ascaphidae) and _Engystomops pustulosus_ (Anura: Leptodactylidae).\
 **Fossil taxon:** †_Eodiscoglossus oxoniensis_ (NHMUK R11700)\
 **Minimum age:** 165.3Ma\
 **Minimum justification:** The earliest unambiguous crown anuran based on a number of synapomorphies ([Evans et al. 1990](https://palass.org/sites/default/files/media/publications/palaeontology/volume_33/vol33_part2_pp299-311.pdf), [Ruta and Coates 2007](https://www.tandfonline.com/doi/abs/10.1017/S1477201906002008)), from the middle Jurassic Forest Marble Formation, upper Bathonian of Oxfordshire, England ([Benton et al. 2015](https://palaeo-electronica.org/content/fc-1)). \
@@ -39,7 +39,7 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 ---
 
 **Node 970:** Dorsipares | 148.1–201.5Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Rhinophrynus_ (Rhinophrynidae) and _Xenopus_ (Pipidae).\
+**Node calibrated:** Last common ancestor of the clade encompassing _Rhinophrynus dorsalis_ (Rhinophrynidae) and _Xenopus petersii_ (Pipidae).\
 **Fossil taxon:** †_Rhadinosteus parvus_ (DINO 14693)\
 **Minimum age:** 148.1Ma\
 **Minimum justification:** From the Brushy Basin Member of the Morrison Formation, from the Kimmeridgian of the late Jurassic, in Dinosaur National Monument, Utah, USA. The sister group to _Rhinophrynus_ (Rhinophrynidae) based on a number of synapomorphies ([Henrici 1998](https://www.tandfonline.com/doi/abs/10.1080/02724634.1998.10011060)) and parsimony-based morphological phylogenetic analyses by [Báez (2013)](https://www.sciencedirect.com/science/article/abs/pii/S0195667112001607), [Agnolin et al. (2020)](https://www.sciencedirect.com/science/article/pii/S0895981120301462), and the supertree analysis of [Perez-Ben et al. (2024)](https://www.cambridge.org/core/journals/paleobiology/article/frog-limbs-in-deep-time-is-jumping-locomotion-at-the-roots-of-the-anuran-bauplan/AC8EC495E05D51667CAAE5B18FAD1E67).\
@@ -50,7 +50,7 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 ---
 
 **Node 969:** Pelobatoidea | 85.7–143.1Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Pelobates_ (Pelobatidae) and _Pelodytes_ (Pelodytidae).\
+**Node calibrated:** Last common ancestor of the clade encompassing _Pelobates fuscus_ (Pelobatidae) and _Pelodytes ibericus_ (Pelodytidae).\
 **Fossil taxon:** †_Gobiates spinari_ (ZIN, LU-N 5/137)\
 **Minimum age:** 85.7Ma\
 **Minimum justification:** From the middle part of the Bissekty Formation, Coniacian of the late Cretaceous, at the Dzhyrakuduk (CBI-4b) locality in the central Kizylkum Desert, Uzbekistan (see [Roček 2008](https://www.sciencedirect.com/science/article/pii/S0195667108000098)).\
@@ -83,7 +83,7 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 ---
 
 **Node 974:** Pleurodelinae | 27.8–66.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing Pleurodelini (_Pleurodeles_) and Molgini (_Lissotriton_).\
+**Node calibrated:** Last common ancestor of the clade encompassing Pleurodelini (_Pleurodeles waltl_) and Molgini (_Lissotriton helveticus_).\
 **Fossil taxon:** Numerous specimens referrable to the extant genera _Lissotriton_ and _Triturus_ from the late Oligocene, and aff. _Tylototriton_, _Triturus_, _Ichthyosaura_, and _Lissotriton_ from the early Miocene, from numerous Palearctic localities ([Macaluso et al. 2022](https://royalsocietypublishing.org/rsos/article/9/11/220935/96437/Biogeographic-history-of-Palearctic-caudates)). In particular, †_Lissotriton rohrsi_ (SMF A 614) and _Triturus_ sp. (SMF A 616) from Oberleichtersbach (Northern Bavaria, Germany), from the MP30 stage of the late Oligocene, dating to the Rupelian–Chattian boundary ([Böhme 2008](https://www.researchgate.net/publication/251832903_Ectotermic_vertebrates_Teleostei_Allocaudata_Urodela_Anura_Testudines_Choristodera_Crocodylia_Squamata_from_the_Upper_Oligocene_of_Oberleichtersbach_Northern_Bavaria_Germany)).\
 **Minimum age:** Late Oligocene (MP30: Rupelian–Chattian boundary), 27.82Ma\
 **Minimum justification:** The presence of numerous fossil newt taxa with apparent affinities to extant genera within Pleurodelini and Molgini near the Oligocene–Miocene boundary supports this as a conservative hard minimum age on their divergence ([Macaluso et al. 2026](https://doi.org/10.1038/s41598-026-44690-3)).\

@@ -5,7 +5,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 ### Calibrations:
 
 **Node 748:** Squamata | 166.0–215.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant squamates.\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant squamates (_Dibamus smithi_ and _Podarcis erhardii_).\
 **Fossil taxa:** †_Eichstaettisaurus schroederi_ (BSPG 1937), †_Helioscopus dickersonae_ (DINO 15914), †_Eoscincus ornatus_ (DINO 14864), and †_Paramacellodus_ sp. (DINO 13861)\
 **Minimum age:** Middle Jurassic, at 166Ma.\
 **Minimum justification:** There has been substantial debate on the minimum age of crown squamates. Several fragmentary fossils have been labeled as “crown squamates” without testing this by including them in phylogenetic analyses ([Evans 1998](https://doi.org/10.1127/pala/250/1998/123)). Also, until recently no stem fossil squamate had been identified, making it harder to identify what fossils belong to the crown group. This situation has changed recently (e.g., [Simões et al. 2018](https://www.nature.com/articles/s41586-018-0093-3), [Tałanda et al. 2022](https://www.nature.com/articles/s41586-022-05332-6)), and some fossils have been consistently placed within the squamate crown (as stem groups of crown squamate subclades), such as the extremely well-preserved stem gekkotan †_Eichstaettisaurus schroederi_ ([Broili, 1938](https://catalog.nlm.nih.gov/permalink/01NLM_INST/m5fc0v/alma9917568313406676); see [Simões et al. 2017](https://academic.oup.com/zoolinnean/article-abstract/180/1/216/3799577)) from the Solnhofen Plattenkalk, in Bavaria, Germany, aged as Latest Kimmeridgian-early Tithonian (155–150Ma), Late Jurassic ([Schweigert 2007](https://www.schweizerbart.de/papers/njgpa/detail/245/59141/Ammonite_biostratigraphy_as_a_tool_for_dating_Uppe)), and the North American stem gekkotan †_Helioscopus dickersonae_ and paramacellodid †_Eoscincus ornatus_ from the Brushy Basin Member, Morrison Formation, Tithonian (150–149Ma), Late Jurassic ([Brownstein et al. 2022](https://www.nature.com/articles/s41467-022-34217-5), [Meyer et al. 2023](https://royalsocietypublishing.org/rspb/article/290/2011/20232284/104268/A-Morrison-stem-gekkotan-reveals-gecko-evolution)). Additionally, more fragmentary fossils representing several species of paramacellodids — part of Total Group Scincoidea ([Bittencourt et al. 2020](https://www.nature.com/articles/s42003-020-0926-0), [Brownstein et al. 2022](https://www.nature.com/articles/s41467-022-34217-5), [Gauthier et al. 2012](https://bioone.org/journals/bulletin-of-the-peabody-museum-of-natural-history/volume-53/issue-1/014.053.0101/Assembling-the-Squamate-Tree-of-Life--Perspectives-from-the/10.3374/014.053.0101.full), [Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090), [Reeder et al. 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118199), [Simões et al. 2018](https://www.nature.com/articles/s41586-018-0093-3)) — come from the Middle Jurassic (~166Ma) of Scotland ([Evans and Waldman 1996](https://www.researchgate.net/publication/284761296_Small_reptiles_and_amphibians_from_the_Middle_Jurassic_of_Skye_Scotland), [Panciroli et al. 2020](https://ui.adsabs.harvard.edu/link_gateway/2020EESTR.111..135P/doi:10.1017/S1755691020000055), [Waldman and Evans 1994](https://doi.org/10.1006/zjls.1994.1037)), and Kimmeridgian, Late Jurassic (157-152 ma) of Portugal and the US, including †_Paramacellodus_, †_Saurillus_, and †_Lisboasaurus_ ([Brownstein et al. 2022](https://www.nature.com/articles/s41467-022-34217-5), [Evans 2003](https://www.cambridge.org/core/journals/biological-reviews/article/at-the-feet-of-the-dinosaurs-the-early-history-and-radiation-of-lizards/50B3C94F6F6F30D46FB909C9D84FECC6), [Meyer et al. 2023](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2023.2284), [Seiffert 1973](https://hdl.handle.net/2027/coo.31924004800219)). Snakes are also crown squamates that have been reported from Middle (~166Ma) and Late Jurassic sites in the UK, US, and Portugal ([Caldwell et al. 2015](https://www.nature.com/articles/ncomms6996), [LeBlanc et al. 2023](https://www.nature.com/articles/s41467-023-36422-2)).\
@@ -16,7 +16,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 ---
 
 **Node 749:** Unidentata | 166.0–205.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing Scincoidea and Toxicofera.\
+**Node calibrated:** Last common ancestor of the clade encompassing Scincoidea (_Tiliqua scincoides_) and Lacertoidea (_Podarcis erhardii_).\
 **Fossil taxon:** †_Paramacellodus_ sp. (e.g., DINO 13861; [Evans 1998](https://doi.org/10.1127/pala/250/1998/123))\
 **Minimum age:** Middle Jurassic, at 166Ma.\
 **Minimum justification:** As discussed above (**Node 748:** Crown Squamata), paramacellodids have been consistently inferred to be part of Total Group Scincoidea, and therefore part of crown Unidentata. This places the youngest possible age for Unidentata to be at least in the Middle Jurassic, at 166Ma.\
@@ -26,7 +26,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 ---
 
 **Node 767:** Toxicofera | 166.0–190.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing Serpentes, Iguania, and Anguimorpha.\
+**Node calibrated:** Last common ancestor of the clade encompassing Serpentes (_Natrix helvetica_), Iguania, and Anguimorpha (_Shinisaurus crocodilurus_).\
 **Fossil taxa:** †_Eophis underwoodi_ (NHMUK PV R 12355), †_Breugnathair elgolensis_ (NMS G.2023.7.1)\
 **Minimum age:** Bathonian, Middle Jurassic, at 166Ma.\
 **Minimum justification:** This calibration is based on the earliest known snake †_Eophis underwoodi_ from the Kirtlington Cement Works Quarry, Oxfordshire, UK—Bathonian, Middle Jurassic ([Caldwell et al. 2015](https://www.nature.com/articles/ncomms6996)): 168.3–166.1Ma. Further, the potential crown toxicoferan †_Breugnathair elgolensis_ from the Bathonian of the middle Jurassic (165.3–168.2Ma; [Benson et al. 2025](https://www.nature.com/articles/s41586-025-09566-y) – their Datasets 2 and 3). The placement of †_Breugnathair_ is ambiguous across analyses in [Benson et al. (2025)](https://www.nature.com/articles/s41586-025-09566-y), but the timescale is highly congruent with most recent estimates, including [Title et al. (2024)](https://www.science.org/doi/abs/10.1126/science.adh2449) and [Simões et al. (2026)](https://doi.org/10.1093/sysbio/syaf067).\
@@ -36,7 +36,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 ---
 
 **Node 769:** Endoglyptodonta | 20.0–66.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing Viperidae + Colubroides (e.g., _Erythrolamprus reginae_ and _Vipera berus_).\
+**Node calibrated:** Last common ancestor of the clade encompassing Viperidae (_Vipera berus_) and Colubroides (_Erythrolamprus reginae_).\
 **Fossil taxon:** _Vipera_ cf. _aspis_ (MNHN SG 13732–3)\
 **Minimum age:** 20.0Ma\
 **Minimum justification:** This calibration is based on the oldest crown Viperinae ([Szyndlar and Rage, 1999](https://www.zobodat.at/publikation_volumes.php?id=58079)) from the St-Gérand-le-Puy complex of the early Miocene (16.0–20.5Ma) of France. Synapomorphies listed and assigned by [Head et al. (2016)](https://doi.org/10.26879/625) at 20.0Ma, the youngest age for the MN2 stage ([Agustí et al. 2001](https://doi.org/10.1016/S0012-8252(00)00025-8)).\
@@ -46,7 +46,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 ---
 
 **Node 771:** Natricidae | 13.8–33.9Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Natrix_ and _Thamnophis_.\
+**Node calibrated:** Last common ancestor of the clade encompassing _Natrix helvetica_ and _Thamnophis elegans_.\
 **Fossil taxon:** _Natrix_ aff. _longivertebrata_ (UCBL 285075–6, 285452, 285077, 285078–285451, 285453)\
 **Minimum age:** 13.8Ma\
 **Minimum justification:** This calibration is based on the oldest crown Natricinae from the La-Grive-Saint-Alban complex (MN 8–7) of the middle Miocene (11.6–16.0Ma) of France ([Rage and Szyndlar 1986](https://doi.org/10.1127/njgpm/1986/1986/56)). The oldest of the material is from La Grive L7 (MN7) – following [Zaher et al. (2019)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216148), we use the lower bound of MN6 at 13.8Ma as a minimum age ([Agustí et al. 2001](https://doi.org/10.1016/S0012-8252(00)00025-8)).\
@@ -56,7 +56,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 ---
 
 **Node 774:** Constrictores | 48.0–100.5Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing Pythonidae (_Liasis_) and Boidae (_Candoia_).\
+**Node calibrated:** Last common ancestor of the clade encompassing Pythonidae (_Liasis olivaceus_) and Boidae (_Candoia aspera_).\
 **Fossil taxon:** †_Eoconstrictor fischeri_ (SMF-ME 929) and †_Rageryx schmidi_ (HLMD-Me 9723)\
 **Minimum age:** Middle Eocene, Palaeogene, at 48Ma.\
 **Minimum justification:** †_Eoconstrictor fischeri_ ([Scanferla et al. 2020](https://doi.org/10.3390%2Fd12030100)) and †_Rageryx schmidi_ ([Smith and Scanferla 2021](https://doi.org/10.5252/geodiversitas2021v43a1)), from the Middle Messel Formation, Germany, dated as latest early to earliest middle Eocene (48.4–47.9Ma; [Lenz et al. 2015](https://link.springer.com/article/10.1007/s00531-014-1126-2)), currently stand as the oldest known booids ([Onary et al. 2021](https://www.tandfonline.com/doi/full/10.1080/14772019.2022.2068386), [Smith and Scanferla 2021](https://doi.org/10.5252/geodiversitas2021v43a1)), providing a minimum age for the split between boas and pythons.\
@@ -77,7 +77,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 ---
 
 **Node 778:** Chamaeleoninae | 20.0–66.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Bradypodion_ and _Furcifer_, which is within the crown group Chamaeleoninae.\
+**Node calibrated:** Last common ancestor of the clade encompassing _Bradypodion pumilum_ and _Furcifer pardalis_, which is within the crown group Chamaeleoninae.\
 **Fossil taxon:** †_Calumma benovskyi_ (KNM-RU 18340)\
 **Minimum age:** 20.0Ma\
 **Minimum justification:** This calibration is based on the oldest crown chameleonine ([Čerňanský et al. 2020](https://doi.org/10.1038%2Fs41598-019-57014-5)), from the early Miocene at the base of the Hiwegi formation, dated to ~17–20Ma ([Maxbauer et al. 2013](https://doi.org/10.26879/342)).\
@@ -87,7 +87,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 ---
 
 **Node 779:** Anguimorpha | 70.0–150.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing Anguidae and Xenosauridae.\
+**Node calibrated:** Last common ancestor of the clade encompassing Shinisauridae (_Shinisaurus crocodilurus_) and Anniellidae (_Anniella stebbinsi_).\
 **Fossil taxon:** †_Aiolosaurus oriens_ (IGM 3/171; MAE 283/93-108)\
 **Minimum age:** Maastrichtian, Late Cretaceous, at 70Ma.\
 **Minimum justification:** The oldest undisputed early diverging member of Paleoanguimorpha (and crown anguimorphs in general) is represented by †_Aiolosaurus oriens_ [Gao & Norell 2000](https://doi.org/10.1206/0003-0090(2000)249%3C0001:TCASOL%3E2.0.CO;2), based on total evidence analyses of squamate phylogeny using different morphological datasets ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090), [Reeder et al. 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118199)). †_Aiolosaurus_ comes from the Djadokhta Formation, Nemegt Basin, in Mongolia, aged as Campanian-earliest Maastrichtian, Late Cretaceous (84.2–70Ma; [Dashzeveg et al. 2005](https://doi.org/10.1206/0003-0082(2005)498[0001:NSSDEA]2.0.CO;2), [Dingus et al. 2008](https://doi.org/10.1206/442.1)), where it is found along with other Neoanguimorpha, such as †_Gobiderma_, †_Estesia_, and †_Cherminotus_ ([Gao & Norell 2000](https://doi.org/10.1206/0003-0090(2000)249%3C0001:TCASOL%3E2.0.CO;2)), although the phylogenetic placement of the latter within anguimorphs has been less stable compared to †_Aiolosaurus_.\
@@ -98,7 +98,7 @@ Squamates have a high density of well-preserved fossils, reviewed by [Simões an
 ---
 
 **Node 780:** Stem Anguidae | 33.9–100.5Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing Anniellidae (_Anniella_) and Anguidae (_Elgaria_).\
+**Node calibrated:** Last common ancestor of the clade encompassing Anniellidae (_Anniella stebbinsi_) and Anguidae (_Elgaria multicarinata_).\
 **Fossil taxon:** _Ophisaurus_ sp. (IWCMS.2006.35)\
 **Minimum age:** Eocene-Oligocene boundary, 33.9Ma\
 **Minimum justification:** This material represents the oldest crown anguine from the Newtown Bone Bed, Osborne Member, Headon Hill Formation, dated to the Priabonian of the late Eocene ([Klembara and Green 2010](https://doi.org/10.1080/14772011003603531)), for which we take the Eocene–Oligocene boundary (33.9Ma) as the minimum age.\

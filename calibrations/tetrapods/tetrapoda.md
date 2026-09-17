@@ -5,7 +5,7 @@ We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](htt
 ### Calibrations:
 
 **Node 590:** Tetrapoda | 337.0–351.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing amphibians, reptiles, birds and mammals.\
+**Node calibrated:** Last common ancestor of the clade encompassing amphibians (_Rhinatrema bivittatum_), reptiles, birds (_Ammospiza nelsoni_) and mammals.\
 **Fossil taxon:** †_Lethiscus stocki_ (MCZ 2185, Museum of Comparative Zoology, Harvard).\
 **Minimum age:** †_Lethiscus_ has been found in the Wardie Shales of the Wardie shore, near Edinburgh, Scotland. The Wardie Shales have been assigned to the Holkerian regional stage based on fossil fishes and palynomorphs, resulting in an age of 343.5–337Ma ([Gradstein et al. 2012](https://shop.elsevier.com/books/the-geologic-time-scale-2012/gradstein/978-0-444-59425-9)). This gives a minimum age estimate of 337Ma.\
 **Minimum justification:** †_Lethiscus_ is either a Lepospondyli (within Batrachomorpha) or a Reptilimorpha, but since both are crown Tetrapoda it can be safely interpreted as a crown tetrapod ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1), [Ruta et al. 2003](https://www.cambridge.org/core/journals/biological-reviews/article/early-tetrapod-relationships-revisited/EF6EE684156F334264F0A58CBB40D415)).\
@@ -16,7 +16,7 @@ We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](htt
 ---
 
 **Node 591:** Amniota | 315.0–335.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing lizards, turtles, birds and mammals.\
+**Node calibrated:** Last common ancestor of the clade encompassing lizards, turtles, birds (_Ammospiza nelsoni_) and mammals (_Ornithorhynchus anatinus_).\
 **Fossil taxon:** †_Hylonomus lyelli_ (NHMUK R4168, Natural History Museum, London).\
 **Minimum age:** Bashkirian, Early Pennsylvanian, Carboniferous, at 315Ma.\
 **Minimum justification:** †_Hylonomus_ was recovered from division 4, section XV, coal group 15 of the Joggins Formation of Nova Scotia, Canada ([Carroll and Baird 1972](https://www.biodiversitylibrary.org/part/16917)). There is no absolute dating for this unit; Chronostratigraphically at Westphalian A, Carboniferous ([Calder 1998](https://www.lyellcollection.org/doi/abs/10.1144/GSL.SP.1998.143.01.19)), equivalent to late Bashkirian (~315.2–318Ma), early Pennsylvanian, Carboniferous ([Ogg et al. 2008](https://www.cambridge.org/us/universitypress/subjects/earth-and-environmental-science/sedimentology-and-stratigraphy/concise-geologic-time-scale)). Despite considerable uncertainty regarding the placement of †_Hylonomus_, and recent debates on the composition of early amniotes ([Benton et al. 2015](https://palaeo-electronica.org/content/fc-1), [Ford and Benson 2020](https://www.nature.com/articles/s41559-019-1047-3), [Jenkins et al. 2026](https://academic.oup.com/sysbio/advance-article-abstract/doi/10.1093/sysbio/syaf087/8379424), [Jenkins et al. 2025](https://peercommunityjournal.org/articles/10.24072/pcjournal.620/), [Simões et al. 2022](https://www.science.org/doi/abs/10.1126/sciadv.abq1898)), its identification as early amniote (most likely stem sauropsid) remains relatively unambiguous and forms the basis for most minimum age calibrations for crown Amniota (e.g., [Benton et al. 2015](https://palaeo-electronica.org/content/fc-1), [Simões et al. 2022](https://www.science.org/doi/abs/10.1126/sciadv.abq1898)).\
@@ -26,7 +26,7 @@ We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](htt
 ---
 
 **Node 592:** Sauria | 255.9–295.9Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant lizards (Squamata) and crocodilians (Crocodylia).\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant squamates (Squamata: _Dibamus smithi_) and birds (Aves: _Ammospiza nelsoni_).\
 **Fossil taxon:** †_Protorosaurus speneri_ (NMK S 180)\
 **Minimum age:** 255.9Ma\
 **Minimum justification:** Based on the oldest stem archosauromorph from the Lopingian (251.9–259.5Ma) of the Permian of Germany and England ([Ezcurra et al. 2014](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089165)).\
@@ -36,7 +36,7 @@ We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](htt
 ---
 
 **Node 594:** Archosauria | 247.2–256.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant birds (Aves) and crocodilians (Crocodylia).\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant birds (Aves: _Ammospiza nelsoni_) and crocodilians (Crocodylia: _Alligator mississippiensis_).\
 **Fossil taxon:** †_Xilousuchus sapingensis_ (IVPP V 6026)\
 **Minimum age:** 247.2Ma\
 **Minimum justification:** Based on the stem pseudosuchian from the Triassic Olenekian (246.7–249.9Ma) Heshanggou Formation, Hazhen Commune, Fugu County, northeast Shaanxi Province of China ([Nesbitt 2011](https://www.cambridge.org/core/journals/earth-and-environmental-science-transactions-of-royal-society-of-edinburgh/article/sailbacked-suchian-from-the-heshanggou-formation-early-triassic-olenekian-of-china/E3644E8FF8F923D86FA08813311B49E5), [Parham et al. 2012](https://academic.oup.com/sysbio/article/61/2/346/1647963)).\

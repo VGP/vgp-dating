@@ -5,7 +5,7 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 ### Calibrations:
 
 **Node 585:** Vertebrata | 497.0–590.8Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing Cyclostomata and Gnathostomata.\
+**Node calibrated:** Last common ancestor of the clade encompassing Cyclostomata (_Myxine glutinosa_) and Gnathostomata (_Ammospiza nelsoni_).\
 **Fossil taxon:** †_Furnishina bigeminata_ (GMPKU2589; Geological Museum, Peking University, Beijing, China).\
 **Minimum age:** †_Furnishina_ is found in the middle Cambrian Huaqiao Formation at Wangcun Section, northern Hunan Province, China, dated to 497Ma ([Dong and Zhang 2017](https://www.cambridge.org/core/journals/journal-of-paleontology/article/middle-cambrian-through-lowermost-ordovician-conodonts-from-hunan-south-china/3DEF85E92A72769822D58F28473FDB5F)).\
 **Minimum justification:** Conodonts are tooth-like ‘elements’ that have been interpreted as coming from vertebrates, possibly stem gnathostomes ([Donoghue and Keating 2014](https://onlinelibrary.wiley.com/doi/abs/10.1111/pala.12125)). Soft tissue fossils show notochords, segmental trunk musculature, a caudal fin, paired sensory organs, and gill pouches, all of which support a vertebrate affinity. The oldest conodont is †_Furnishina_, a paraconodont in the euconodont lineage ([Murdock et al. 2013](https://www.nature.com/articles/nature12645)).\
@@ -27,7 +27,7 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 ---
 
 **Node 586:** Gnathostomata | 431.7–468.4Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing Osteichthyes and Chondrichthyes.\
+**Node calibrated:** Last common ancestor of the clade encompassing Osteichthyes (_Ammospiza nelsoni_) and Chondrichthyes (_Hydrolagus colliei_).\
 **Fossil taxon:** †_Shenacanthus vermiformis_ (V300000; Institute of Vertebrate Palaeontology and Palaeoanthropology; [Zhu et al. 2022](https://www.nature.com/articles/s41586-022-05136-8)).\
 **Minimum age:** †_Shenacanthus_ is found in the early Silurian (Telychian) Huixingshao Formation of Chongqing, South China ([Zhu et al. 2022](https://www.nature.com/articles/s41586-022-05136-8)). This has been established as Llandovery in age, and so a minimum age constraint can be established based on the Llandovery-Wenlock boundary. This has been dated to 432.9Ma ± 1.2 Myr ([Melchin et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00021-8)), yielding a minimum age of 431.7Ma.\
 **Minimum justification:** †_Shenacanthus_ is resolved as a derived stem-chondrichthyan in a phylogenetic analysis by [Zhu et al. (2022)](https://www.nature.com/articles/s41586-022-05136-8).\
@@ -38,7 +38,7 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 ---
 
 **Node 587:** Osteichthyes | 420.7–444.9Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing Actinopterygii and Sarcopterygii.\
+**Node calibrated:** Last common ancestor of the clade encompassing Actinopterygii (_Erpetoichthys calabaricus_) and Sarcopterygii (_Ammospiza nelsoni_).\
 **Fossil taxon:** †_Guiyu oneiros_ (IVPP V15541, Institute of Vertebrate Paleontology and Paleoanthropology, Beijing)\
 **Minimum age:** †_Guiyu_ is found in the Kuanti Formation, Xiaoxiang Reservoir, Quijing, Yunnan, China. Based on conodont index fossils, the formation has been correlated with the Ludlow-Pridoli boundary, which has been dated to 423Ma ± 2.3 Myr, yielding a minimum age of 420.7Ma ([Melchin et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00021-8)).\
 **Minimum justification:** †_Guiyu_ has lobe-finned fish synapomorphies which identify it as a stem sarcopterygian and therefore crown Osteichthyes ([Zhu et al. 2009](https://www.nature.com/articles/nature07855); [Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)).\

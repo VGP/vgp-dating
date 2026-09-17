@@ -5,7 +5,7 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 ### Calibrations:
 
 **Node 582:** Crown Deuterostomia | 517.3–590.8Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing chordates, echinoderms and hemichordates (when monophyletic)\
+**Node calibrated:** Last common ancestor of the clade encompassing chordates (_Ammospiza nelsoni_), echinoderms (_Asterias rubens_) and hemichordates (when monophyletic).\
 **Fossil taxon:** Chengjiang fossils such as †_Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China) ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646)).\
 **Minimum age:** The age of the Chengjiang biota has been determined through CA-ID-TIMS U-Pb dating, yielding an age of 518.03Ma ± 0.69/0.71 Myr and a minimum calibration age of 517.32Ma ([Yang et al. 2018](https://doi.org/10.1144/jgs2017-103)).\
 **Minimum justification:** †_Haikouichthys_ is widely accepted as at least a crown-chordate and possibly a crown-vertebrate, on the basis of its branchial structures, myomeres, and a notochord ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646); [Gabbott et al. 2016](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2016.1151)).\
@@ -16,7 +16,7 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 ---
 
 **Node 1161:** Crown Ambulacraria | 515.5–590.8Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing Hemichordata and Echinodermata.\
+**Node calibrated:** Last common ancestor of the clade encompassing Hemichordata (_Balanoglossus misakiensis_) and Echinodermata (_Asterias rubens_).\
 **Fossil taxon:** Isolated pelmatozoan columnals (BMNH EE6828-EE6846, Natural History Museum, London, UK).\
 **Minimum age:** 515.5Ma, from the Micmacca Breccia, which encompasses the upper part of the _Cephalopyge notabilis_ Biozone, the _Ornamentaspis frequens_ Biozone and the lower part of the _Kymataspis arenosa_ Biozone, which has been dated to the latest Atdabanian of 517.0Ma ± 1.5 Myr, or 515.5 ma ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)).\
 **Maximum age:** Weng’an Biota, 590.8Ma ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)). Yang et al. date the biota based on Re-Os data to 587.2Ma ±3.6 Myr, yielding a maximum age constraint of 590.8Ma.\
@@ -26,7 +26,7 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 ---
 
 **Node 583:** Crown Chordata | 517.3–590.8Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing vertebrates, tunicates, and cephalochordates.\
+**Node calibrated:** Last common ancestor of the clade encompassing vertebrates (_Ammospiza nelsoni_), tunicates, and cephalochordates (_Branchiostoma belcheri_).\
 **Fossil taxon:** Chengjiang fossils such as †_Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China) ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646)).\
 **Minimum age:** The age of the Chengjiang biota has been determined through CA-ID-TIMS U-Pb dating, yielding an age of 518.03Ma ± 0.69/0.71 Myr and a minimum calibration age of 517.32Ma ([Yang et al. 2018](https://www.lyellcollection.org/doi/abs/10.1144/jgs2017-103)).\
 **Minimum justification:** †_Haikouichthys_ is widely accepted as at least a crown-chordate and possibly a crown-vertebrate, on the basis of its branchial structures, myomeres, and a notochord ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646); [Gabbott et al. 2016](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2016.1151)).\
@@ -37,7 +37,7 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 ---
 
 **Node 584:** Crown Olfactores | 517.3–590.8Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing tunicates and Vertebrata-Craniata.\
+**Node calibrated:** Last common ancestor of the clade encompassing tunicates (_Thalia democratica_) and Vertebrata-Craniata (_Ammospiza nelsoni_).\
 **Fossil taxon:** Chengjiang fossils such as †_Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China; [Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646).\
 **Minimum age:** The age of the Chengjiang biota has been determined through CA-ID-TIMS U-Pb dating, yielding an age of 518.03Ma ± 0.69/0.71 Myr and a minimum calibration age of 517.32Ma ([Yang et al. 2018](https://www.lyellcollection.org/doi/abs/10.1144/jgs2017-103)).\
 **Minimum justification:** †_Haikouichthys_ is widely accepted as at least a crown-chordate and possibly a crown-vertebrate, on the basis of its branchial structures, myomeres, and a notochord ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646); [Gabbott et al. 2016](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2016.1151)).\
