@@ -1,9 +1,0 @@
-trials=60
-stopped_early=yes
-minimum_mode_percent=25
-minimum_margin_percent=10
-stable_checkpoints_required=3
-opt=5
-optad=5
-optcvad=3
-modal_result=5 5 3 

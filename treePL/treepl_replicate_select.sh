@@ -87,6 +87,10 @@ selection_file="$run_root/selected_replicate.txt"
 selected_tree="$run_root/${configuration_label}.lowest_objective.tre"
 
 mkdir -p "$run_root"
+# Clear selection artifacts so a failed rerun cannot expose an older winner.
+rm -f -- "$selection_file" "$selected_tree"
+successful_replicates=0
+failed_replicates=0
 printf "replicate\tseed\truntime_seconds\tfinal_objective\tstatus\n" > "$summary_file"
 
 active_pid=""
@@ -199,11 +203,17 @@ do
 		END {if(value!="") print value}
 	' "$replicate_log")
 
-	if [ "$exit_status" -eq 0 ] && [ -s "$replicate_tree" ] && [ -n "$final_objective" ]
+	if [ "$exit_status" -eq 0 ] && [ -s "$replicate_tree" ] && awk -v value="$final_objective" 'BEGIN {
+		valid=(value ~ /^[-+]?([0-9]+([.][0-9]*)?|[.][0-9]+)([eE][-+]?[0-9]+)?$/)
+		finite=(tolower(sprintf("%g",value+0)) !~ /inf|nan/)
+		exit(valid && finite ? 0 : 1)
+	}'
 	then
 		status="complete"
+		successful_replicates=$((successful_replicates + 1))
 	else
 		status="incomplete"
+		failed_replicates=$((failed_replicates + 1))
 	fi
 
 	printf "%s\t%s\t%s\t%s\t%s\n" \
@@ -217,7 +227,7 @@ do
 			'BEGIN {print(current=="" || candidate+0<current+0 ? 1 : 0)}')
 		if [ "$is_new_best" -eq 1 ]
 		then
-			cp "$replicate_tree" "$selected_tree"
+			cp "$replicate_tree" "$selected_tree" || exit 7
 			lowest_objective=$final_objective
 			selected_replicate=$replicate
 			selected_seed=$seed
@@ -230,6 +240,13 @@ do
 	replicate=$((replicate + 1))
 done
 
+status_update "Replicate attempts finished: $successful_replicates succeeded, $failed_replicates failed, $replicate_count attempted."
+{
+	echo "attempted=$replicate_count"
+	echo "successful=$successful_replicates"
+	echo "failed=$failed_replicates"
+} > "$run_root/replicate_counts.txt"
+
 if [ -z "$lowest_objective" ] || [ ! -s "$selected_tree" ]
 then
 	status_update "ERROR: no replicate produced both a tree and a final objective."
@@ -238,6 +255,9 @@ fi
 
 {
 	echo "status=complete"
+	echo "attempted=$replicate_count"
+	echo "successful=$successful_replicates"
+	echo "failed=$failed_replicates"
 	echo "seed_mode=$seed_mode"
 	echo "selected_replicate=$selected_replicate"
 	echo "selected_seed=$selected_seed"

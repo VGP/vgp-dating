@@ -1,7 +1,0 @@
-status=complete
-seed_mode=random
-selected_replicate=50
-selected_seed=1528380225
-lowest_objective=2.1343409e+08
-selected_tree=/Users/rapyron/Documents/GitHub/vgp-dating/treePL/treepl_replicate_runs/roadies_v1.1.16b.lowest_objective.tre
-summary=/Users/rapyron/Documents/GitHub/vgp-dating/treePL/treepl_replicate_runs/replicate_summary.tsv
