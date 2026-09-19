@@ -113,7 +113,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 ---
 
 **Node 708:** Apodi | 50.3–103.4Ma\
-**Node calibrated:** Last common ancestor of Apodidae (_Apus apus_) and Hemiprocnidae (_Hemiprocne comata_)
+**Node calibrated:** Last common ancestor of Apodidae (_Apus apus_) and Hemiprocnidae (_Hemiprocne comata_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - †_Scaniacypselus wardi_ [Harrison, 1984](https://natuurtijdschriften.nl/pub/521070) – articulated pectoral girdle and forelimbs (BMNH A5430) from Bed R6 (50.3–51.5Ma) of the Røsnæs Clay Formation in Ølst, Denmark. Cladistic analyses ([Mayr 2003](https://doi.org/10.1642/0004-8038(2003)120[0145:POETSA]2.0.CO;2), [Ksepka et al. 2013](https://doi.org/10.1098/rspb.2013.0580)) and Bayesian analyses with topological constraints ([Chen et al. 2019](https://doi.org/10.3390/d11090143)) placed it on the stem of Apodidae.
