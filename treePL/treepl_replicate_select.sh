@@ -9,11 +9,11 @@
 #   ./treepl_replicate_select.sh CONFIG [RUNS] fixed [START_SEED]
 #
 # Example:
-#   ./treepl_replicate_select.sh roadies_v1.1.16b.config 10 random
-#   ./treepl_replicate_select.sh roadies_v1.1.16b.config 10 fixed 1729
+#   ./treepl_replicate_select.sh roadies_v1.1.16b/roadies_v1.1.16b.config 10 random
+#   ./treepl_replicate_select.sh roadies_v1.1.16b/roadies_v1.1.16b.config 10 fixed 1729
 #
 # Results:
-#   ./treepl_replicate_runs/
+#   <configuration directory>/generated/treepl_replicate_runs/
 #
 # This script deliberately runs replicates sequentially because each treePL
 # configuration may already use multiple OpenMP threads through nthreads.
@@ -81,7 +81,7 @@ configuration_file="$(cd "$(dirname "$configuration_input")" && pwd)/$(basename 
 configuration_directory=$(dirname "$configuration_file")
 configuration_basename=$(basename "$configuration_file")
 configuration_label=${configuration_basename%.config}
-run_root="$configuration_directory/treepl_replicate_runs"
+run_root="$configuration_directory/generated/treepl_replicate_runs"
 summary_file="$run_root/replicate_summary.tsv"
 selection_file="$run_root/selected_replicate.txt"
 selected_tree="$run_root/${configuration_label}.lowest_objective.tre"

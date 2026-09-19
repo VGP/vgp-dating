@@ -8,14 +8,14 @@
 #
 # Example:
 #   ./treepl_parameter_benchmark.sh \
-#     roadies_v1.1.16b_wrapper.config \
-#     roadies_v1.1.16b.nwk \
+#     roadies_v1.1.16b/roadies_v1.1.16b_wrapper.config \
+#     ../trees/roadies_v1.1.16b.nwk \
 #     full \
 #     fast \
 #     fixed
 #
 # Results are written directly to:
-#   ./treepl_parameter_benchmark/
+#   <configuration directory>/generated/treepl_parameter_benchmark/
 #
 # Edit the search controls below if a smaller or larger experiment is desired.
 
@@ -86,9 +86,9 @@ esac
 
 configuration_file="$(cd "$(dirname "$configuration_input")" && pwd)/$(basename "$configuration_input")"
 tree_file="$(cd "$(dirname "$tree_input")" && pwd)/$(basename "$tree_input")"
-script_directory="$(cd "$(dirname "$0")" && pwd)"
+configuration_directory="$(dirname "$configuration_file")"
 
-benchmark_root="$script_directory/treepl_parameter_benchmark"
+benchmark_root="$configuration_directory/generated/treepl_parameter_benchmark"
 run_directory="$benchmark_root"
 work_directory="$run_directory/.work"
 

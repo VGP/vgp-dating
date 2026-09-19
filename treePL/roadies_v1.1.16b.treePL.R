@@ -5,11 +5,11 @@ library(plotrix)
 library(png)
 
 # read in tree
-roadies_v1.1.16b.treePL.tre<-read.tree(file="roadies_v1.1.16b.treePL.tre")
+roadies_v1.1.16b.treePL.tre<-read.tree(file="roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.tre")
 roadies_v1.1.16b.treePL.tre$node.label <- (Ntip(roadies_v1.1.16b.treePL.tre) + 1):(Ntip(roadies_v1.1.16b.treePL.tre) + roadies_v1.1.16b.treePL.tre$Nnode)
 
 # read in constraints
-cfg <- readLines("roadies_v1.1.16b.config")
+cfg <- readLines("roadies_v1.1.16b/roadies_v1.1.16b.config")
 
 mrca_df <- do.call(
   rbind,
@@ -35,7 +35,7 @@ mrca_df$node <- apply(
 
 
 # read in data
-annotations <- read.delim("annotations.tsv", header = TRUE, comment.char = "", stringsAsFactors = FALSE)
+annotations <- read.delim("../trees/annotations.tsv", header = TRUE, comment.char = "", stringsAsFactors = FALSE)
 names(annotations)[1] <- "accession"
 
 # add coherent taxonomy
@@ -54,7 +54,7 @@ mrca_df
 # write scientific dates
 roadies_v1.1.16b.scientific.treePL.tre <- roadies_v1.1.16b.treePL.tre
 roadies_v1.1.16b.scientific.treePL.tre$tip.label <- gsub(" ","_",annotations$ScientificName[match(roadies_v1.1.16b.scientific.treePL.tre$tip.label,annotations$accession)])
-write.tree(roadies_v1.1.16b.scientific.treePL.tre, "roadies_v1.1.16b.scientific.treePL.tre")
+write.tree(roadies_v1.1.16b.scientific.treePL.tre, "roadies_v1.1.16b/generated/roadies_v1.1.16b.scientific.treePL.tre")
 
 # paint subtrees
 painted <- paintSubTree(roadies_v1.1.16b.treePL.tre,582,"Root","0")
@@ -99,7 +99,7 @@ names(colors) <- c("Root","Amphibians","Birds","Crocs","Fishes","Mammals","Shark
 
 # save as PNG
 png(
-  filename = "roadies_v1.1.16b.treePL.png",
+  filename = "roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.png",
   width = 12,
   height = 8,
   units = "in",
@@ -220,7 +220,7 @@ print(mrca_df)
 
 write.table(
   mrca_df,
-  file = "roadies_v1.1.16b.calibrated_node_ages.tsv",
+  file = "roadies_v1.1.16b/generated/roadies_v1.1.16b.calibrated_node_ages.tsv",
   sep = "\t",
   row.names = FALSE,
   quote = FALSE
