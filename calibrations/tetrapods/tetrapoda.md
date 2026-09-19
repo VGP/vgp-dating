@@ -32,6 +32,7 @@ We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](htt
 **Minimum justification:** Based on the oldest stem archosauromorph from the Lopingian (251.9–259.5Ma) of the Permian of Germany and England ([Ezcurra et al. 2014](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089165)).\
 **Maximum age:** 295.9Ma\
 **Maximum justification:** The maximum age calibration is based on a proposed hard upper bound for the crocodile-lizard split constrained by †_Apsisaurus witteri_ from the Archer City Formation of Texas ([Benton and Donoghue 2007](https://doi.org/10.1093/molbev/msl150)), dated to the Asselian (298.9–295.5Ma) of the early Permian.
+**Notes:** Placement of †_Protorosaurus speneri_ in total-group Archosauromorpha has been supported by several recent morphological phylogenetic studies. In their revision of the phylogenetic placement of the Permian reptile †_Eunotosaurus,_ Jenkins et al. ([2026](https://doi.org/10.1016/j.cub.2026.04.070)) estimated that †_P. spleneri_ falls outside of crown Archelosauria, on the archosauromorph stem. It has also been estimated in crown-group Archelosauria (turtles + archosaurs) by Simões et al. ([2022](https://doi.org/10.1126/sciadv.abq1898)) and Ezcurra et al. ([2016](https://doi.org/10.7717/peerj.1778)). Finally, we wish to highlight that many other archosauriform archelosaurs, including †_Archosaurus rossicus_ ([Ezcurra et al. 2014](https://doi.org/10.1371/journal.pone.0089165)), †_Vigilosaurus gaochangensis_ ([Chen and Liu 2023](https://doi.org/10.1007/s00114-022-01823-8)), and an indeterminate form from the Rio do Rasto Formation of Brazil ([Martinelli et al. 2017](https://doi.org/10.1080/08912963.2015.1125897)). These fossils are Changhsingian to Wuchiapingian in age, implying at minimum an age of 254.14 Ma for Archelosauria ([Gradstein et al., 2020](https://doi.org/10.1016/C2020-1-02369-3)), and by extension, our minimum age for Sauria of 255.9Ma based on †_Protorosaurus_.
 
 ---
 
@@ -60,13 +61,21 @@ Carlisle E et al. 2024, Ediacaran origin and Ediacaran-Cambrian diversification 
 
 Carroll, R. L., and D. Baird. 1972. Carboniferous stem-reptiles of the family Romeriidae. Bulletin of the Museum of Comparative Zoology 143(5):321-363.
 
+Chen, J. and Liu, J., 2023. A late Permian archosauriform from Xinjiang shows evidence of parasagittal posture. The Science of Nature, 110(1), p.1.
+
 Ezcurra, M.D., Scheyer, T.M. and Butler, R.J., 2014. The origin and early evolution of Sauria: reassessing the Permian saurian fossil record and the timing of the crocodile-lizard divergence. PloS one, 9(2), p.e89165.
+
+Ezcurra, M.D., 2016. The phylogenetic relationships of basal archosauromorphs, with an emphasis on the systematics of proterosuchian archosauriforms. PeerJ, 4, p.e1778.
 
 Ford, D. P., and R. B. Benson. 2020. The phylogeny of early amniotes and the affinities of Parareptilia and Varanopidae. Nature Ecology & Evolution 4(1):57-65.
 
 Gower DJ, Sennikov AG.Benton MJ, Kurochkin EN, Shishkin MA, Unwin DM., Early archosaurs from Russia, The age of dinosaurs in Russia and Mongolia, 2000Cambridge, UKCambridge University Press(pg. 140-159)
 
 Gradstein, F., Ogg, J.G., Schmitz, M.D. and Ogg, G.M. eds., 2012. The Geologic Time Scale 2012. Elsevier.
+
+Jenkins, X.A., Peecook, B.R., Choiniere, J.N., Buffa, V., Benoit, J., Browning, C., Fernandez, V., Dollman, K., Gomes, T.W., McGaughey, G.A. and Marchant, C.J., 2026. The phylogenetic origin of turtles. Current Biology, 36(11), pp.2907-2917.
+
+Martinelli, A.G., Francischini, H., Dentzien-Dias, P.C., Soares, M.B. and Schultz, C.L., 2017. The oldest archosauromorph from South America: postcranial remains from the Guadalupian (mid-Permian) Rio do Rasto Formation (Paraná basin), southern Brazil. Historical Biology, 29(1), pp.76-84.
 
 Nesbitt SJ, Liu J, Li C., A sail-backed suchian from the Heshanggou Formation (Early Triassic: Olenekian) of China, Earth Environ. Sci. Trans. R. Soc. Edinburgh, 2011, vol. 101 (pg. 271-284)
 
