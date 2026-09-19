@@ -62,7 +62,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Node 734:** Durocryptodira | 88.6–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant durocrpytodirans: Emydidae (_Malaclemys terrapin_) + Cheloniidae (_Lepidochelys kempii_)\
 **Fossil taxa:** †_Lindholmemys elegans_ (CCMGE 34/12175)\
-**Minimum age:** 88.6\
+**Minimum age:** 88.6Ma\
 **Minimum justification:** Based on the oldest crown durocryptodiran, likely stem Testudinoidea ([Danilov and Parham 2005](https://www.tandfonline.com/doi/abs/10.1671/0272-4634(2005)025%5B0784%3AAROTRO%5D2.0.CO%3B2)), from the Turonian Bissekty Formation of Uzbekistan of the Cretaceous (89.8–93.9Ma).\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
@@ -84,7 +84,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Node 746:** Emydidae | 32.0–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant emydids: _Malaclemys terrapin_ + _Emys orbicularis_\
 **Fossil taxa:** †_Chrysemys antiqua_ (SDSM 2754)\
-**Minimum age:** 32.0\
+**Minimum age:** 32.0Ma\
 **Minimum justification:** Based on the oldest crown emydid [(Joyce et al. 2013)](https://doi.org/10.1666/12-149) from SDSM locality V271 within the Orellan Protoceras channels of the Oligocene White River Group (32.0–33.7Ma) of South Dakota.\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
