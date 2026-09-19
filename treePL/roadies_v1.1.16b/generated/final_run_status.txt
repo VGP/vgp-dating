@@ -1,0 +1,12 @@
+status=complete
+config_updated=yes
+config_snapshot=generated/roadies_v1.1.16b.final.config
+final_objective=422781.46
+selected_replicate_objective=422781.46
+replicates_attempted=33
+replicates_successful=32
+replicates_failed=1
+replicates_stopped_early=yes
+replicates_planned=200
+replicates_interrupted=1
+stop_reason=user_requested_final_optimization

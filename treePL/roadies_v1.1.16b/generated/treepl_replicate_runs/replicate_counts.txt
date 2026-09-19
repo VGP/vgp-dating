@@ -1,0 +1,7 @@
+attempted=33
+successful=32
+failed=1
+interrupted=1
+planned=200
+stopped_early=yes
+stop_reason=user_requested_final_optimization

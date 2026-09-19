@@ -1,0 +1,7 @@
+case	seed	pliter	plsimaniter	smoothing	runtime_seconds	final_objective	status
+pl_seed-1729_pliter-2_plsimaniter-5000	1729	2	5000	1.7782794100389228	6	422791	complete
+pl_seed-1729_pliter-4_plsimaniter-5000	1729	4	5000	1.7782794100389228	10	422781.46	complete
+pl_seed-1729_pliter-8_plsimaniter-5000	1729	8	5000	1.7782794100389228	10	422781.46	complete
+pl_seed-1729_pliter-16_plsimaniter-5000	1729	16	5000	1.7782794100389228	10	422781.46	complete
+pl_seed-1729_pliter-26_plsimaniter-5000	1729	26	5000	1.7782794100389228	10	422781.46	complete
+pl_seed-1729_pliter-36_plsimaniter-5000	1729	36	5000	1.7782794100389228	9	422781.46	complete

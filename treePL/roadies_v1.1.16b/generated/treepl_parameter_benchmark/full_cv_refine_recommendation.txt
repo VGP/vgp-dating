@@ -1,0 +1,8 @@
+status=complete
+recommended_cviter=3
+recommended_cvsimaniter=5000
+grid_index_units=quarter_decades
+grid_upper_index=4
+screening_index=2
+screening_smoothing=3.1622776601683795
+attempts=/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/treepl_parameter_benchmark/refine_cv_attempts_DZesQ5

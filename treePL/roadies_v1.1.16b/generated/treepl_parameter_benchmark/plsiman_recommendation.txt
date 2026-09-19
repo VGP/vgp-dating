@@ -1,0 +1,3 @@
+workflow_profile=fast
+recommended_plsimaniter=5000
+basis=previous empirical equivalence tests

@@ -114,11 +114,26 @@ if not objectives or not math.isfinite(float(objectives[-1])):
 selection = dict(line.split('=', 1) for line in
                  Path('generated/treepl_replicate_runs/selected_replicate.txt').read_text().splitlines())
 Path('generated/final_run_status.txt').write_text(
-    'status=complete\nconfig_updated=yes\n'
+    'status=running\nstage=plotting\nconfig_updated=yes\n'
     'config_snapshot=generated/roadies_v1.1.16b.final.config\n'
     f"final_objective={objectives[-1]}\nselected_replicate_objective={selection['lowest_objective']}\n"
     f"replicates_attempted={selection['attempted']}\nreplicates_successful={selection['successful']}\n"
     f"replicates_failed={selection['failed']}\n")
-print('Final analysis completed: tree validated; objective =', objectives[-1])
+print('Final tree validated; objective =', objectives[-1])
 print('Selected replicate objective =', selection['lowest_objective'])
 PY
+
+# Plotting uses paths relative to treePL/, not this analysis directory.
+stage=plotting
+(
+  cd ..
+  Rscript roadies_v1.1.16b.treePL.R
+) 2>&1 | tee generated/plotting.log
+
+python3 - <<'PY'
+from pathlib import Path
+status = Path('generated/final_run_status.txt')
+status.write_text(status.read_text().replace(
+    'status=running\nstage=plotting\n', 'status=complete\nplotting=complete\n', 1))
+PY
+echo "Analysis completed: final tree validated, plot and age table generated."

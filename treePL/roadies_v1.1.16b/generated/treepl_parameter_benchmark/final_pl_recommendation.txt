@@ -1,0 +1,12 @@
+status=converged
+workflow_profile=fast
+pl_stage=final_pl
+seeds_used=1729
+converged_pliter=36
+convergence_threshold_percent=0.1
+required_consecutive_steps=2
+scout_transition_pliter=16
+buffer_percent=20
+rounding=10
+recommended_pliter=50
+recommended_plsimaniter=5000

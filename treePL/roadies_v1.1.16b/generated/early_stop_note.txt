@@ -1,0 +1,9 @@
+User requested stopping the 200-replicate stage and proceeding to final optimization.
+attempted=33
+successful=32
+failed=1
+interrupted=1
+planned=200
+stopped_early=yes
+stop_reason=user_requested_final_optimization
+Interrupted attempts are excluded from selection and included in the unsuccessful count.

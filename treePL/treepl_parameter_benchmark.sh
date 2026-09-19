@@ -93,14 +93,17 @@ run_directory="$benchmark_root"
 work_directory="$run_directory/.work"
 
 # Use reproducible fixed seeds by default. Random mode generates and records
-# three fresh independent seeds when the script starts.
+# one seed in fast mode or three independent seeds in thorough mode.
+seed_count=3
+if [ "$workflow_profile" = "fast" ]; then seed_count=1; fi
 case "$seed_mode" in
 	fixed)
 		seeds=(1729 2718 3141)
+		if [ "$seed_count" -eq 1 ]; then seeds=(1729); fi
 		;;
 	random)
 		seeds=()
-		while [ "${#seeds[@]}" -lt 3 ]
+		while [ "${#seeds[@]}" -lt "$seed_count" ]
 		do
 			candidate_seed=$(od -An -N4 -tu4 /dev/urandom | tr -d '[:space:]')
 			candidate_seed=$((candidate_seed % 2147483646 + 1))
@@ -143,14 +146,14 @@ pl_consecutive_steps=2
 pl_buffer_percent=20
 pl_rounding=10
 
-# Thorough mode tunes CV effort and uses full CV. Fast mode uses only random
-# CV: three-seed screening/refinement, then nine-seed confirmation.
+# Thorough mode tunes CV effort across multiple seeds. Fast mode uses
+# single-seed full CV with fixed effort and three progressively narrower grids.
 cv_iterations=(3 5 10)
 cv_siman_iterations=(5000 7500 15000)
 fast_cviter=3
 fast_cvsimaniter=5000
 fine_refinement_threshold_percent=5
-cv_progress_seconds=30
+cv_progress_seconds=120
 random_cv_pliter_default=20
 random_cv_pliter_min=10
 random_cv_pliter_max=50
@@ -166,7 +169,7 @@ moredetailad=0
 moredetailcvad=0
 
 # Prime trials are independent, but treePL also contains internal OpenMP work.
-# Override at launch with PRIME_JOBS=N after checking available CPU capacity.
+# Override with PRIME_JOBS=N after checking CPU capacity.
 prime_jobs=${PRIME_JOBS:-2}
 prime_min_trials=40
 prime_max_trials=200
@@ -211,9 +214,18 @@ owned_output_files=(
 	cv_recommendation.txt
 	full_cv_summary.tsv
 	full_cv_scores.tsv
+	full_cv_screen_scores.tsv
+	full_cv_refine_scores.tsv
+	full_cv_refine_summary.tsv
+	full_cv_refine_recommendation.txt
+	full_cv_fine_scores.tsv
+	full_cv_fine_summary.tsv
+	full_cv_refine_overlap.tsv
+	full_cv_fine_overlap.tsv
 	random_cv_scores.tsv
 	random_cv_screen_scores.tsv
 	random_cv_refine_scores.tsv
+	random_cv_refine_summary.tsv
 	random_cv_confirm_scores.tsv
 	random_cv_confirm_summary.tsv
 	random_cv_refinement.txt
@@ -286,11 +298,12 @@ write_base_configuration() {
 
 write_common_configuration() {
 	destination=$1
+	include_thorough=${2:-yes}
 
 	write_base_configuration "$destination"
 	{
 		echo "treefile = $tree_file"
-		echo "thorough"
+		if [ "$include_thorough" = "yes" ]; then echo "thorough"; fi
 		echo "opt = $opt"
 		echo "optad = $optad"
 		echo "optcvad = $optcvad"
@@ -357,6 +370,24 @@ extract_cv_score_for_value() {
 	' "$result_file"
 }
 
+# Progress only: parallel output can lose/interleave records, so counts are approximate.
+full_cv_leaveout_progress() {
+	awk -v total="$2" '
+		/^smoothing:/ {smooth=$0; sub(/^smoothing:[[:space:]]*/, "", smooth); count=0; active=0}
+		/^curcv:/ {smooth=$2; count=0; active=1}
+		active && $2=="rate" && $4=="expe" && $6=="dur" && $8=="len" && $10=="sq" && $12=="chisq" && NF==13 {count++}
+		END {
+			if (active && total>0) {
+				if(count>total) count=total
+				printf "smoothing=%s: approximately %d/%d leave-outs completed (%.1f%%)", smooth, count, total, 100*count/total
+			} else if(active) {
+				printf "smoothing=%s: approximately %d leave-outs completed (total unavailable)", smooth, count
+			} else if(smooth!="") {
+				printf "smoothing=%s: initial optimization in progress", smooth
+			} else print "initial optimization in progress"
+		}' "$1"
+}
+
 run_targeted_cv_case() {
 	target_stage=$1
 	target_seed=$2
@@ -376,7 +407,12 @@ run_targeted_cv_case() {
 	target_log_path="$target_case_directory/$target_log_name"
 	target_results_path="$target_case_directory/$target_results_name"
 
-	write_common_configuration "$target_config_path"
+	if [ "$workflow_profile" = "fast" ]
+	then
+		write_common_configuration "$target_config_path" no
+	else
+		write_common_configuration "$target_config_path"
+	fi
 	{
 		echo "seed = $target_seed"
 		if [ "$target_type" = "random" ]
@@ -393,8 +429,7 @@ run_targeted_cv_case() {
 		fi
 		if [ "$target_type" != "full" ]
 		then
-			# treePL uses its built-in random holdout sampling; extra independent
-			# runs, not unsupported config keys, increase final sampling effort.
+			# treePL uses its built-in random holdout sampling.
 			echo "randomcv"
 		else
 			echo "cv"
@@ -410,7 +445,14 @@ run_targeted_cv_case() {
 
 	: > "$target_results_path"
 	status_update "Adaptive CV $target_stage starting: seed=$target_seed, range=$target_start to $target_stop, expected scores=$target_score_count."
-	status_update "CV details: type=$target_type, cviter=$recommended_cviter, cvsimaniter=$recommended_cvsimaniter; log=$target_log_path."
+	status_update "CV details: type=$target_type, thorough=$include_thorough, cviter=$recommended_cviter, cvsimaniter=$recommended_cvsimaniter; log=$target_log_path."
+	# Parse the input tree once per full-CV case; reporting must not fail the analysis.
+	target_leaveout_total=""
+	if [ "$target_type" = "full" ]
+	then
+		target_leaveout_total=$(Rscript -e 'suppressPackageStartupMessages(library(ape)); t <- read.tree(commandArgs(TRUE)[1]); if (!inherits(t, "phylo")) quit(status=1); cat(Ntip(t))' "$tree_file" 2>/dev/null) || target_leaveout_total=""
+		case "$target_leaveout_total" in ''|*[!0-9]*) target_leaveout_total="";; esac
+	fi
 	target_start_time=$(date +%s)
 	target_last_report=$target_start_time
 	target_reported_count=0
@@ -433,10 +475,15 @@ run_targeted_cv_case() {
 			done
 			target_reported_count=$target_completed_count
 			target_last_report=$target_now
-		elif [ $((target_now-target_last_report)) -ge "${cv_progress_seconds:-30}" ]
+		elif [ $((target_now-target_last_report)) -ge "${cv_progress_seconds:-120}" ]
 		then
-			# Tail the active log rather than repeatedly scanning a potentially large file.
-			target_activity=$(tail -n 100 "$target_log_path" | awk '/curcv:|sampling |^cv:|smoothing:|after opt calc/ {last=$0} END {print last}')
+			if [ "$target_type" = "full" ]
+			then
+				# Scan only at heartbeat intervals, not on every one-second poll.
+				target_activity=$(full_cv_leaveout_progress "$target_log_path" "$target_leaveout_total")
+			else
+				target_activity=$(tail -n 100 "$target_log_path" | awk '/curcv:|sampling |^cv:|smoothing:|after opt calc/ {last=$0} END {print last}')
+			fi
 			status_update "CV seed=$target_seed running: $target_completed_count/$target_score_count values complete, elapsed=$((target_now-target_start_time))s; ${target_activity:-initial optimization in progress}."
 			target_last_report=$target_now
 		fi
@@ -630,6 +677,7 @@ run_prime_selection() {
 
 	{
 		echo "trials=$completed_prime_count"
+		echo "basis=modal_combination"
 		echo "stopped_early=$prime_stopped_early"
 		echo "minimum_mode_percent=$prime_min_mode_percent"
 		echo "minimum_margin_percent=$prime_min_margin_percent"
@@ -689,7 +737,12 @@ run_plsiman_screen() {
 		runtime_seconds=$((end_time - start_time))
 		final_objective=$(awk '/after opt calc:/ {value=$NF} END {print value}' "$log_path")
 
-		if [ "$exit_status" -eq 0 ] && [ -s "$tree_path" ] && [ -n "$final_objective" ]
+		if [ "$exit_status" -eq 0 ] && [ -s "$tree_path" ] &&
+		   printf '%s\n' "$final_objective" | awk '
+			/^-?[0-9]+([.][0-9]*)?([eE][-+]?[0-9]+)?$/ {
+				if (tolower(sprintf("%g", $0+0)) !~ /inf|nan/) valid=1
+			}
+			END {exit(valid ? 0 : 1)}'
 		then
 			status="complete"
 		else
@@ -824,7 +877,12 @@ run_pl_benchmarks() {
 
 			final_objective=$(awk '/after opt calc:/ {value=$NF} END {print value}' "$log_path")
 
-			if [ "$exit_status" -eq 0 ] && [ -s "$tree_path" ] && [ -n "$final_objective" ]
+			if [ "$exit_status" -eq 0 ] && [ -s "$tree_path" ] &&
+			   printf '%s\n' "$final_objective" | awk '
+				/^-?[0-9]+([.][0-9]*)?([eE][-+]?[0-9]+)?$/ {
+					if (tolower(sprintf("%g", $0+0)) !~ /inf|nan/) valid=1
+				}
+				END {exit(valid ? 0 : 1)}'
 			then
 				status="complete"
 			else
@@ -1130,13 +1188,14 @@ run_random_cv_case() {
 	status_update "Random CV $stage $case_status: seed=$seed, runtime=${runtime_seconds}s, best=${case_best_smoothing:-unavailable}, score=${case_best_score:-unavailable}."
 }
 
-# Fast CV uses integer half-decade positions, never rounded treePL output,
+# Fast CV uses integer quarter-decade positions, never rounded treePL output,
 # to define candidate grids. Each attempt compares identical grids and settings.
 run_fast_cv_search() {
 	search_type=$1
 	search_recommendation="$run_directory/cv_recommendation.txt"
-	if [ "$search_type" = "refine" ]; then search_recommendation="$run_directory/random_cv_refinement.txt"; fi
-	if [ "$search_type" = "confirm" ]; then search_recommendation="$run_directory/final_recommendation.txt"; fi
+	if [ "$search_type" = "refine" ]; then search_recommendation="$run_directory/full_cv_refine_recommendation.txt"; fi
+	if [ "$search_type" = "fine" ]; then search_recommendation="$run_directory/final_recommendation.txt"; fi
+	previous_scores=""
 	printf 'status=incomplete\n' > "$search_recommendation"
 	search_archive=$(mktemp -d "$run_directory/${search_type}_cv_attempts_XXXXXX")
 	recommended_cviter=$fast_cviter
@@ -1144,153 +1203,147 @@ run_fast_cv_search() {
 	if [ "$search_type" = "screen" ]
 	then
 		grid_upper=8
-		grid_lower=-10
-		grid_stride=2
+		grid_lower=-20
+		grid_stride=4
 	else
 		center_file="$run_directory/cv_recommendation.txt"
-		grid_radius=2
-		if [ "$search_type" = "confirm" ]; then center_file="$run_directory/random_cv_refinement.txt"; grid_radius=1; fi
+		previous_scores="$run_directory/full_cv_screen_scores.tsv"
+		grid_radius=4
+		grid_stride=2
+		if [ "$search_type" = "fine" ]
+		then
+			center_file="$run_directory/full_cv_refine_recommendation.txt"
+			previous_scores="$run_directory/full_cv_refine_scores.tsv"
+			grid_radius=2
+			grid_stride=1
+		fi
 		screening_index=$(awk -F '=' '$1=="screening_index" {print $2}' "$center_file")
-		if [ -z "$screening_index" ]; then status_update "ERROR: missing screening grid position."; return 1; fi
+		if [ -z "$screening_index" ]; then status_update "ERROR: missing preceding grid position."; return 1; fi
+		# Five points between the preceding winner's immediate neighbors.
 		grid_upper=$((screening_index + grid_radius))
 		grid_lower=$((screening_index - grid_radius))
-		grid_stride=1
 	fi
 	search_extension=0
-	search_seeds=("${seeds[@]}")
-	if [ "$search_type" = "confirm" ]
-	then
-		# Three independent sampling batches per base seed: nine runs total.
-		for batch in 1 2
-		do
-			for base_seed in "${seeds[@]}"
-			do
-				extra_seed=$(( (base_seed + batch * 1000003) % 2147483646 + 1 ))
-				while true
-				do
-					collision=0
-					for used_seed in "${search_seeds[@]}"; do if [ "$used_seed" -eq "$extra_seed" ]; then collision=1; fi; done
-					if [ "$collision" -eq 0 ]; then break; fi
-					extra_seed=$((extra_seed % 2147483646 + 1))
-				done
-				search_seeds+=("$extra_seed")
-			done
-		done
-	fi
-	printf '%s\n' "${search_seeds[@]}" > "$search_archive/seeds.txt"
+	search_seed=${seeds[0]}
+	printf '%s\n' "$search_seed" > "$search_archive/seeds.txt"
 	while true
 	do
 		attempt_directory="$search_archive/attempt_$search_extension"
 		mkdir -p "$attempt_directory"
 		grid_file="$attempt_directory/grid.tsv"
 		awk -v hi="$grid_upper" -v lo="$grid_lower" -v stride="$grid_stride" 'BEGIN {
-			for(i=hi;i>=lo;i-=stride) printf "%d\t%.17g\n", i, 10^(i/2)
+			for(i=hi;i>=lo;i-=stride) printf "%d\t%.17g\n", i, 10^(i/4)
 		}' > "$grid_file"
 		grid_start=$(awk 'NR==1 {print $2}' "$grid_file")
 		grid_stop=$(awk 'END {print $2}' "$grid_file")
-		grid_step=$(awk -v stride="$grid_stride" 'BEGIN {printf "%.17g", 10^(-stride/2)}')
+		grid_step=$(awk -v stride="$grid_stride" 'BEGIN {printf "%.17g", 10^(-stride/4)}')
 		grid_count=$(((grid_upper-grid_lower)/grid_stride + 1))
 		attempt_scores="$attempt_directory/scores.tsv"
 		printf 'seed\tsmoothing\tscore\tgrid_index\n' > "$attempt_scores"
 		printf 'seed\truntime_seconds\tstatus\n' > "$attempt_directory/runs.tsv"
-		search_seed_count=${#search_seeds[@]}
-		search_seed_number=0
-		status_update "$search_type CV attempt $search_extension: $grid_count shared values from $grid_start to $grid_stop."
-		while [ "$search_seed_number" -lt "$search_seed_count" ]
-		do
-			search_seed=${search_seeds[$search_seed_number]}
-			search_cv_type=random
-			if [ "$search_type" = "confirm" ]; then search_cv_type=random_final; fi
-			status_update "$search_type random CV: seed $((search_seed_number+1))/$search_seed_count ($search_seed), attempt $search_extension."
-			run_targeted_cv_case "${search_type}_attempt_$search_extension" "$search_seed" "$grid_start" "$grid_stop" "$grid_step" "$grid_count" "$search_cv_type"
-			# Preserve every attempt, including failures, outside temporary work.
-			cp "$target_config_path" "$target_log_path" "$target_results_path" "$attempt_directory/"
-			printf '%s\t%s\t%s\n' "$search_seed" "$target_runtime_seconds" "$target_status" >> "$attempt_directory/runs.tsv"
-			if [ "$target_status" != "complete" ]
-			then
-				status_update "ERROR: incomplete $search_type CV; diagnostics retained in $attempt_directory."
-				return 1
-			fi
-			# Validate one finite, nonnegative score per requested candidate;
-			# map rounded output back to the original grid, with a small tolerance.
-			if ! awk -v seed="$search_seed" '
-				NR==FNR {indices[++n]=$1; values[n]=$2; next}
-				$1=="chisq:" {
-					v=$2; gsub(/[()]/,"",v)
-					if(v !~ /^[0-9]+([.][0-9]*)?([eE][-+]?[0-9]+)?$/ || $3 !~ /^[0-9]+([.][0-9]*)?([eE][-+]?[0-9]+)?$/) {bad=1; next}
-					if(tolower(sprintf("%g",$3+0)) ~ /inf|nan/) {bad=1; next}
-					matched=0
-					for(j=1;j<=n;j++) {
-						delta=v-values[j]; if(delta<0) delta=-delta
-						if(delta<=values[j]*0.00001) {
-							matched++; seen[j]++; score[j]=$3
-						}
+		status_update "$search_type CV attempt $search_extension: $grid_count values from $grid_start to $grid_stop; seed=$search_seed."
+		search_cv_type=full
+		run_targeted_cv_case "${search_type}_attempt_$search_extension" "$search_seed" "$grid_start" "$grid_stop" "$grid_step" "$grid_count" "$search_cv_type"
+		# Preserve every attempt, including failures, outside temporary work.
+		cp "$target_config_path" "$target_log_path" "$target_results_path" "$attempt_directory/"
+		printf '%s\t%s\t%s\n' "$search_seed" "$target_runtime_seconds" "$target_status" >> "$attempt_directory/runs.tsv"
+		if [ "$target_status" != "complete" ]
+		then
+			status_update "ERROR: incomplete $search_type CV; diagnostics retained in $attempt_directory."
+			return 1
+		fi
+		# Validate one finite, nonnegative score per requested candidate;
+		# map rounded output back to the original grid, with a small tolerance.
+		if ! awk -v seed="$search_seed" '
+			NR==FNR {indices[++n]=$1; values[n]=$2; next}
+			$1=="chisq:" {
+				v=$2; gsub(/[()]/,"",v)
+				if(v !~ /^[0-9]+([.][0-9]*)?([eE][-+]?[0-9]+)?$/ || $3 !~ /^[0-9]+([.][0-9]*)?([eE][-+]?[0-9]+)?$/) {bad=1; next}
+				if(tolower(sprintf("%g",$3+0)) ~ /inf|nan/) {bad=1; next}
+				matched=0
+				for(j=1;j<=n;j++) {
+					delta=v-values[j]; if(delta<0) delta=-delta
+					if(delta<=values[j]*0.00001) {
+						matched++; seen[j]++; score[j]=$3
 					}
-					if(matched!=1) bad=1
 				}
-				END {
-					for(j=1;j<=n;j++) if(seen[j]!=1) bad=1
-					if(bad) exit 1
-					for(j=1;j<=n;j++) printf "%s\t%s\t%s\t%d\n",seed,values[j],score[j],indices[j]
-				}' "$grid_file" "$target_results_path" >> "$attempt_scores"
-			then
-				status_update "ERROR: invalid or missing CV scores; see $attempt_directory."
-				return 1
-			fi
-			search_seed_number=$((search_seed_number+1))
-			# Use the same mean-score decision for confirmation and expansion.
-			awk -F '\t' -v required="$search_seed_number" 'NR>1 {
-				sum[$4]+=$3/required; count[$4]++
-				if(!($1 in best) || $3<best[$1] || ($3==best[$1] && $4>winner[$1])) {best[$1]=$3; winner[$1]=$4}
-			} END {
-				for(i in sum) if(count[i]==required && (!found || sum[i]<first || (sum[i]==first && i+0>chosen+0))) {
-					first=sum[i]; chosen=i; found=1
-				}
-				for(i in sum) if(count[i]==required && i!=chosen && (!have_second || sum[i]<second)) {
-					second=sum[i]; have_second=1
-				}
-				for(s in winner) {if(!have_seed) {initial=winner[s]; have_seed=1} else if(winner[s]!=initial) disagree=1}
-				gap=0; if(first>0) gap=100*(second-first)/first; else if(second>0) gap=1e99
-				printf "%d\t%.17g\t%d\n",chosen,gap,disagree
-			}' "$attempt_scores" > "$attempt_directory/decision.tsv"
-			read -r search_winner search_gap search_disagree < "$attempt_directory/decision.tsv"
-
-		done
-		status_update "$search_type CV combined winner: grid index=$search_winner, seeds=$search_seed_count, mean-score gap=${search_gap}%."
+				if(matched!=1) bad=1
+			}
+			END {
+				for(j=1;j<=n;j++) if(seen[j]!=1) bad=1
+				if(bad) exit 1
+				for(j=1;j<=n;j++) printf "%s\t%s\t%s\t%d\n",seed,values[j],score[j],indices[j]
+			}' "$grid_file" "$target_results_path" >> "$attempt_scores"
+		then
+			status_update "ERROR: invalid or missing CV scores; see $attempt_directory."
+			return 1
+		fi
+		awk -F '\t' 'NR>1 {
+			if(!found || $3<first || ($3==first && $4>chosen)) {
+				if(found) {second=first; have_second=1}
+				first=$3; chosen=$4; found=1
+			} else if(!have_second || $3<second) {second=$3; have_second=1}
+		} END {
+			gap=0; if(first>0) gap=100*(second-first)/first; else if(second>0) gap=1e99
+			printf "%d\t%.17g\n",chosen,gap
+		}' "$attempt_scores" > "$attempt_directory/decision.tsv"
+		read -r search_winner search_gap < "$attempt_directory/decision.tsv"
+		status_update "$search_type CV winner: grid index=$search_winner, score gap=${search_gap}%."
 		if [ "$search_winner" -ne "$grid_upper" ] && [ "$search_winner" -ne "$grid_lower" ]; then break; fi
 		if [ "$search_extension" -ge 6 ]
 		then
-			status_update "ERROR: $search_type CV mean winner is still on a boundary after six extensions; see $search_archive."
+			status_update "ERROR: $search_type CV winner is still on a boundary after six extensions; see $search_archive."
 			return 1
 		fi
-		if [ "$search_winner" -eq "$grid_upper" ]; then grid_upper=$((grid_upper+grid_stride)); else grid_lower=$((grid_lower-grid_stride)); fi
+		# Rerun the expanded grid; never pool scores from separate attempts.
+		if [ "$search_winner" -eq "$grid_upper" ]
+		then
+			grid_upper=$((grid_upper+2*grid_stride))
+		else
+			grid_lower=$((grid_lower-2*grid_stride))
+		fi
 		search_extension=$((search_extension+1))
-		status_update "Extending shared $search_type CV grid; all participating seeds will rerun the expanded grid."
+		status_update "Extending $search_type full-CV grid by two values; rerunning the continuous descending grid with seed=$search_seed."
 	done
-	search_smoothing=$(awk -v i="$search_winner" 'BEGIN {printf "%.17g",10^(i/2)}')
-	if [ "$search_type" != "confirm" ]
+	search_smoothing=$(awk -v i="$search_winner" 'BEGIN {printf "%.17g",10^(i/4)}')
+	cp "$attempt_scores" "$run_directory/full_cv_${search_type}_scores.tsv"
+	if [ "$search_type" != "screen" ]
 	then
-		cp "$attempt_scores" "$run_directory/random_cv_${search_type}_scores.tsv"
+		cp "$attempt_directory/runs.tsv" "$run_directory/full_cv_${search_type}_summary.tsv"
+		# Report restart sensitivity without changing selection or pooling scores.
+		awk -F '\t' 'BEGIN {OFS="\t"; print "smoothing", "previous_score", "current_score", "change_percent"}
+			NR==FNR {if(FNR>1) prior[$4]=$3; next}
+			FNR>1 && ($4 in prior) {
+				change="NA"
+				if(prior[$4]!=0) change=sprintf("%.10g",100*($3-prior[$4])/prior[$4])
+				else if($3==0) change="0"
+				print $2, prior[$4], $3, change
+			}' "$previous_scores" "$attempt_scores" > "$run_directory/full_cv_${search_type}_overlap.tsv"
+		status_update "$search_type CV overlap scores: $run_directory/full_cv_${search_type}_overlap.tsv (diagnostic only)."
+	fi
+	if [ "$search_type" != "fine" ]
+	then
 		{
 			echo "status=complete"
 			echo "recommended_cviter=$recommended_cviter"
 			echo "recommended_cvsimaniter=$recommended_cvsimaniter"
+			echo "grid_index_units=quarter_decades"
+			echo "grid_upper_index=$grid_upper"
 			echo "screening_index=$search_winner"
 			echo "screening_smoothing=$search_smoothing"
 			echo "attempts=$search_archive"
 		} > "$search_recommendation"
 	else
 		final_smoothing=$search_smoothing
-		cp "$attempt_scores" "$run_directory/random_cv_confirm_scores.tsv"
-		cp "$attempt_directory/runs.tsv" "$run_directory/random_cv_confirm_summary.tsv"
 		{
 			echo "status=complete"
 			echo "workflow_profile=fast"
 			echo "seed_mode=$seed_mode"
-			echo "seeds=${search_seeds[*]}"
-			echo "cv_method=random"
-			echo "confirmation_runs=$search_seed_count"
-			echo "randomcv_sampling=treePL_default"
+			echo "seeds=$search_seed"
+			echo "cv_method=full"
+			echo "cv_sweeps=3"
+			echo "grid_index_units=quarter_decades"
+			echo "cv_seed_check=not_performed"
 			echo "opt=$opt"
 			echo "optad=$optad"
 			echo "optcvad=$optcvad"
@@ -1313,6 +1366,28 @@ run_cv_benchmarks() {
 	cv_recommendation="$run_directory/cv_recommendation.txt"
 	printf "stage\tcase\tseed\tcviter\tcvsimaniter\tcvstart\tcvstop\truntime_seconds\tbest_smoothing\tbest_score\tstatus\n" > "$cv_summary"
 
+	if [ "$workflow_profile" = "fast" ]
+	then
+		pl_recommendation_file="$run_directory/initial_pl_recommendation.txt"
+		if [ "$benchmark_mode" = "all" ]; then pl_recommendation_file="$run_directory/pl_recommendation.txt"; fi
+		if [ "$benchmark_mode" = "cv" ]
+		then
+			# Standalone CV has no preceding PL benchmark: use its supplied config.
+			recommended_pliter=$(awk '$1=="pliter" && $2=="=" {print $3}' "$configuration_file")
+			recommended_plsimaniter=$(awk '$1=="plsimaniter" && $2=="=" {print $3}' "$configuration_file")
+		else
+			recommended_pliter=$(awk -F '=' '$1=="recommended_pliter" {print $2}' "$pl_recommendation_file")
+			recommended_plsimaniter=$(awk -F '=' '$1=="recommended_plsimaniter" {print $2}' "$pl_recommendation_file")
+		fi
+		for pl_setting in "$recommended_pliter" "$recommended_plsimaniter"
+		do
+			case "$pl_setting" in ''|*[!0-9]*|0) status_update "ERROR: full CV requires positive PL iteration settings."; return 1;; esac
+		done
+		status_update "Fast full CV uses pliter=$recommended_pliter, plsimaniter=$recommended_plsimaniter, cviter=$fast_cviter, and no thorough."
+		run_fast_cv_search screen
+		return $?
+	fi
+
 	if [ -z "$pl_scout_transition_pliter" ]
 	then
 		pl_scout_transition_pliter=$(awk -F '=' '$1 == "scout_transition_pliter" {print $2}' "$run_directory/initial_pl_recommendation.txt" 2>/dev/null)
@@ -1322,7 +1397,6 @@ run_cv_benchmarks() {
 	if [ "$random_cv_pliter" -lt "$random_cv_pliter_min" ]; then random_cv_pliter=$random_cv_pliter_min; fi
 	if [ "$random_cv_pliter" -gt "$random_cv_pliter_max" ]; then random_cv_pliter=$random_cv_pliter_max; fi
 	status_update "Random-CV screening uses pliter=$random_cv_pliter and plsimaniter=$pl_simaniter."
-	if [ "$workflow_profile" = "fast" ]; then run_fast_cv_search screen; return $?; fi
 
 	# Thorough mode replicates the pilot and
 	# adds the third seed if the first two differ by more than one decade.
@@ -1454,13 +1528,13 @@ run_cv_benchmarks() {
 	status_update "Random-CV tuning complete: cviter=$recommended_cviter, cvsimaniter=$recommended_cvsimaniter, screening smoothing=$screening_smoothing."
 }
 
-run_full_cv_validation() {
+run_cv_validation() {
 	if [ "$workflow_profile" = "fast" ]
 	then
 		recommended_pliter=$(awk -F '=' '$1=="recommended_pliter" {print $2}' "$run_directory/initial_pl_recommendation.txt")
 		recommended_plsimaniter=$(awk -F '=' '$1=="recommended_plsimaniter" {print $2}' "$run_directory/initial_pl_recommendation.txt")
 		run_fast_cv_search refine || return 1
-		run_fast_cv_search confirm
+		run_fast_cv_search fine
 		return $?
 	fi
 	cv_recommendation="$run_directory/cv_recommendation.txt"
@@ -1841,7 +1915,7 @@ if [ "$benchmark_mode" = "cv" ] || [ "$benchmark_mode" = "all" ] || [ "$benchmar
 then
 	if [ "$workflow_profile" = "fast" ]
 	then
-		status_update "Fast CV uses random holdouts only: three-seed broad screening, three-seed five-value refinement, and nine-seed three-value confirmation. Shared grids expand on combined boundary winners. Per-value reports and 30-second heartbeats show progress."
+		status_update "Fast full CV uses one recorded seed: eight decade-spaced screening values from 100 to 0.00001, followed by five half-decade and five quarter-decade values between each preceding winner's neighbors. All use recommended PL effort without thorough. Boundary extensions rerun the continuous grid; no independent seed check. Per-value reports and two-minute heartbeats show progress."
 	else
 		status_update "Thorough random-CV search: broad pilots, local cvsimaniter and cviter tests, then selected-pair confirmation across three seeds; candidates cviter=${cv_iterations[*]}; cvsimaniter=${cv_siman_iterations[*]}."
 	fi
@@ -1877,7 +1951,7 @@ fi
 
 if [ "$benchmark_mode" = "full" ]
 then
-	run_full_cv_validation || exit 10
+	run_cv_validation || exit 10
 	if [ -n "$final_smoothing" ]
 	then
 		status_update "Repeating adaptive PL convergence at optimized smoothing=$final_smoothing."
