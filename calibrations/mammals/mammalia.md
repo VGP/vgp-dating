@@ -44,7 +44,7 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Minimum age:** Early Eocene (Ypresian), 47.6Ma\
 **Minimum justification:** The Murgon locality is correlated with the Ypresian marine stage ([Beck 2012](https://doi.org/10.1007/s00114-012-0953-x))\
 **Maximum age:** Early Cretaceous (Barremian), 131.3Ma\
-**Maximum justification:**  Therians such as †_Sinodelphys szalayi_ date to the Barremian ([Luo et al. 2003](https://doi.org/10.1126/science.1090718), [Zhou et al. 2003](https://doi.org/10.1038/nature01420)) and are diverse, but they are evidently not metatherians ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3), [Beck 2023](https://doi.org/10.1007/978-3-031-08419-5_35)). The diversity of therians and possible eutherians during the Barremian implies a similar antiquity for Metatheria to at least that time, but such taxa pre-date the radiation of crown Marsupialia.\
+**Maximum justification:** Therians such as †_Sinodelphys szalayi_ date to the Barremian ([Luo et al. 2003](https://doi.org/10.1126/science.1090718), [Zhou et al. 2003](https://doi.org/10.1038/nature01420)) and are diverse, but they are evidently not metatherians ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3), [Beck 2023](https://doi.org/10.1007/978-3-031-08419-5_35)). The diversity of therians and possible eutherians during the Barremian implies a similar antiquity for Metatheria to at least that time, but such taxa pre-date the radiation of crown Marsupialia.\
 **Discussion:** This fossil is the oldest-known crown marsupial, from the early Eocene of Murgon, Australia ([Benton et al. 2015](https://doi.org/10.26879/424), Beck [2012](https://doi.org/10.1007/s00114-012-0953-x), [2023](https://doi.org/10.1007/978-3-031-08419-5_35)).
 
 ---
@@ -108,14 +108,14 @@ Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1
 **Node calibrated:** The most recent common ancestor of Molossidae (_Molossus nigricans_) and Miniopteridae (_Miniopterus schreibersii_)\
 **Fossil taxa:** †_Cuvierimops parisiensis_ (LEB1_CupprA.1.7, left M1/ [Plate 2f], from the collections of UM2) from the late Eocene Quercy phosphorites France ([Maitre 2014](https://doi.org/10.1007/s13358-014-0069-3))\
 **Minimum age:** Late Eocene (Priabonian), 37.8Ma\
-**Minimum justification:**  The earliest †_Cuvierimops parisiensis priscus_ material is from the Lébratières 1 site (MP 17a) in the Phosphorites du Quercy, which occur below a layer dated to 37.97Ma ± 0.22 ([Maitre 2014](https://doi.org/10.1007/s13358-014-0069-3))\
+**Minimum justification:** The earliest †_Cuvierimops parisiensis priscus_ material is from the Lébratières 1 site (MP 17a) in the Phosphorites du Quercy, which occur below a layer dated to 37.97Ma ± 0.22 ([Maitre 2014](https://doi.org/10.1007/s13358-014-0069-3))\
 **Maximum age:** Late Paleocene (Thanetian), 58.9Ma\
 **Maximum justification:** We adapt the suggestion of Phillips ([2014](https://doi.org/10.26879/490)), using the base of the Thanetian (late Paleocene: 58.9Ma) as the upper bound to be conservative regarding numerous stem bats from the Thanetian-Ypresian boundary ([Ravel et al. 2011](https://doi.org/10.1007/s00114-011-0785-0))\
 **Discussion:** Jones et al. ([2024](https://doi.org/10.1007/s10914-024-09705-8)) identify the Priabonian †_Cuvierimops_ as a stem member of Molossidae, and therefore the oldest-known definitive crown member of Vespertilionoidea. Other material, including postcrania, strengthens this placement ([Losco and Martin 2026](https://doi.org/10.1007/s12542-025-00746-9)).
 
 ---
 
-**Node 869:**  Stem Noctilionoidea | 26.0–58.9Ma\
+**Node 869:** Stem Noctilionoidea | 26.0–58.9Ma\
 **Node calibrated:** The most recent common ancestor of Emballonuroidea (_Rhynchonycteris naso_: Emballonuridae) and Noctilionoidea (_Phyllostomus discolor_: Phyllostomidae)\
 **Fossil taxa:** †_Koopmanycteris palaeomormoops_ (UF 157765) from Brooksville 2 LF, early Arikareean NALMA, Hernando County, Florida, USA ([Morgan et al. 2019](https://doi.org/10.1206/0003-0090.434.1.1))\
 **Minimum age:** Late Oligocene (Chattian stage: Arikareean NALMA), 26Ma\
