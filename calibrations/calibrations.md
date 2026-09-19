@@ -4,31 +4,31 @@ This is the final set of **$XXX** calibrations. Detailed justifications followin
 
 ## [Outgroups & root](./outgroups/deuterostomia.md):
 
-**582:** Deuterostomia: 517.3–590.8Ma\
+**582:** Deuterostomia | 517.3–590.8Ma\
 -Based on Chengjiang fossils such as †_Haikouichthys_ from the Chengjiang biota of the Cambrian.
 
-**1161:** Ambulacraria: 515.5–590.8Ma\
+**1161:** Ambulacraria | 515.5–590.8Ma\
 -Based on isolated pelmatozoan columnals from the Micmacca Breccia, latest Atdabanian of the Cambrian.
 
-**583:** Chordata: 517.3–590.8Ma\
+**583:** Chordata | 517.3–590.8Ma\
 -Based on Chengjiang fossils such as †_Haikouichthys_ from the Chengjiang biota of the Cambrian.
 
-**584:** Olfactores: 517.3–590.8Ma\
+**584:** Olfactores | 517.3–590.8Ma\
 -Based on Chengjiang fossils such as †_Haikouichthys_ from the Chengjiang biota of the Cambrian.
 
 
 ## [Early vertebrates](./vertebrates/vertebrata.md):
 
-**585:** Vertebrata: 497.0–590.8Ma\
+**585:** Vertebrata | 497.0–590.8Ma\
 -Based on †_Furnishina_, from the middle Cambrian Huaqiao Formation.
 
-**1150:** Cyclostomata: 358.5–590.8Ma\
+**1150:** Cyclostomata | 358.5–590.8Ma\
 -Based on †_Priscomyzon_, from the Famennian of the Devonian-Carboniferous boundary.
 
-**586:** Gnathostomata: 431.7–468.4Ma\
+**586:** Gnathostomata | 431.7–468.4Ma\
 -Based on †_Shenacanthus_, from the early Silurian (Telychian) Huixingshao Formation.
 
-**587:** Osteichthyes: 420.7–444.9Ma\
+**587:** Osteichthyes | 420.7–444.9Ma\
 -Based on †_Guiyu_, from the Kuanti Formation near the Ludlow-Pridoli boundary of the Silurian.
 
 
@@ -102,187 +102,187 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 
 ## [Tetrapods](./tetrapods/tetrapoda.md):
 
-**590:** Tetrapoda: 337.0–351.0Ma\
+**590:** Tetrapoda | 337.0–351.0Ma\
 -Based on the crown tetrapod †_Lethiscus stocki_ from the Holkerian of the Carboniferous.
 
-**591:** Amniota: 315.0–335.0Ma\
+**591:** Amniota | 315.0–335.0Ma\
 -Based on the stem amniote †_Hylonomus lyelli_ from the Bashkirian of the Carboniferous.
 
-**592:** Sauria: 255.9–295.9Ma\
+**592:** Sauria | 255.9–295.9Ma\
 -Based on the stem archosauromorph †_Protorosaurus speneri_ from the Lopingian of the Permian.
 
-**594:** Archosauria: 247.2–256.0Ma\
+**594:** Archosauria | 247.2–256.0Ma\
 -Based on the stem pseudosuchian †_Xilousuchus sapingensis_ from the Olenekian of the Triassic.
 
 
 ## [Amphibians](./amphibia/amphibia.md):
 
-**948:** Lissamphibia: 274.4–358.9Ma\
+**948:** Lissamphibia | 274.4–358.9Ma\
 -Based on the stem batrachian †_Gerobatrachus hottoni_ from the Leonardian of the early Permian.
 
-**949:** Batrachia: 250.0–272.8Ma\
+**949:** Batrachia | 250.0–272.8Ma\
 -Based on the stem anuran †_Triadobatrachus massinoti_ from the earliest Triassic.
 
-**950:** Anura: 165.3–250.0Ma\
+**950:** Anura | 165.3–250.0Ma\
 -Based on the crown anuran †_Eodiscoglossus oxoniensis_ from the Bathonian of the middle Jurassic.
 
-**970:** Dorsipares: 148.1–201.5Ma\
+**970:** Dorsipares | 148.1–201.5Ma\
 -Based on the crown rhinophrynid †_Rhadinosteus parvus_ from the Kimmeridgian of the late Jurassic.
 
-**969:** Pelobatoidea: 85.7–143.1Ma\
+**969:** Pelobatoidea | 85.7–143.1Ma\
 -Based on the crown pelobatoid †_Gobiates spinari_ from the Coniacian of the late Cretaceous.
 
-**954:** Aquipares: 113.0–143.1Ma\
+**954:** Aquipares | 113.0–143.1Ma\
 -Based on the crown neobatrachian †_Kururubatrachus gondwanicus_ from the Aptian of the early Cretaceous.
 
-**973:** Salamandroidea: 62.0–143.1Ma\
+**973:** Salamandroidea | 62.0–143.1Ma\
 -Based on the crown ambystomatid †_Dicamptodon antiquus_ from the early Paleocene.
 
-**974:** Pleurodelinae: 27.8–66.0Ma\
+**974:** Pleurodelinae | 27.8–66.0Ma\
 -Based on crown pleurodelines from the stems of _Lissotriton_ and _Triturus_ from the late Oligocene.
 
 
 ## [Mammals](./mammals/mammalia.md):
 
-**783:** Mammalia: 164.9–201.5Ma\
+**783:** Mammalia | 164.9–201.5Ma\
 -Based on the oldest-known stem monotreme and crown mammal †_Ambondro mahabo_ from the Bathonian of the middle Jurassic.
 
-**784:** Theria: 156.3–169.6Ma\
+**784:** Theria | 156.3–169.6Ma\
 –Based on the oldest-known stem eutherian and crown therian †_Juramaia sinensis_ from the Oxfordian of the late Jurassic.
 
-**947:** Monotremata: 16.0–113.0Ma\
+**947:** Monotremata | 16.0–113.0Ma\
 -Based on the oldest-known stem ornithorhynchid and crown monotreme †_Obdurodon dicksoni_ from the early Miocene.
 
-**938:** Marsupialia: 47.6–131.3Ma\
+**938:** Marsupialia | 47.6–131.3Ma\
 -Based on the oldest-known crown marsupial †_Djarthia murgonensis_ from the Ypresian of the early Eocene.
 
-**785:** Placentalia: 61.6–125.8Ma\
+**785:** Placentalia | 61.6–125.8Ma\
 -Based on the oldest-known stem carnivore and crown placental †_Ravenictis krausei_ from the Danian of the early Paleocene.
 
-**931:** Afrotheria: 59.2–125.8Ma\
+**931:** Afrotheria | 59.2–125.8Ma\
 -Based on the oldest-known stem proboscidean and crown afrotherian †_Ocepeia daouiensis_ from the Selandian of the late Paleocene.
 
-**936:** Xenarthra: 47.6–125.8Ma\
+**936:** Xenarthra | 47.6–125.8Ma\
 -Based on the oldest-known stem cingulate and crown xenarthran †_Riostegotherium yanei_ from the Ypresian of the early Eocene.
 
-**845:** Chiroptera: 47.9–66.0Ma\
+**845:** Chiroptera | 47.9–66.0Ma\
 -Based on the oldest-known crown chiropteran †_Tachypteron franzeni_ from the Lutetian of the middle Eocene.
 
-**876:** Yinpterochiroptera: 33.9–58.9Ma\
+**876:** Yinpterochiroptera | 33.9–58.9Ma\
 -Based on the oldest-known crown yinpterochiropteran †_Saharaderma pseudovampyrus_ from the Priabonian of the middle Eocene.
 
-**847:** Vespertilionoidea: 37.8–58.9Ma\
+**847:** Vespertilionoidea | 37.8–58.9Ma\
 -Based on the oldest-known crown vespertilionoid †_Cuvierimops parisiensis_ from the Priabonian of the middle Eocene.
 
-**869:** Stem Noctilionoidea: 26.0–58.9Ma\
+**869:** Stem Noctilionoidea | 26.0–58.9Ma\
 -Based on the oldest-known crown total-group noctilionoid †_Koopmanycteris palaeomormoops_ from the Chattian of the late Oligocene.
 
-**916:** Euarchonta: 65.8–125.8Ma\
+**916:** Euarchonta | 65.8–125.8Ma\
 -Based on the oldest-known crown euarchontan †_Purgatorius mckeeveri_ from the Danian of the early Paleocene.
 
-**918:** Primates: 56.0–66.0Ma\
+**918:** Primates | 56.0–66.0Ma\
 -Based on the oldest-known haplorhine †_Altiatlasius koulchii_ from the Thanetian of the late Paleocene.
 
-**929:** Strepsirrhini: 33.9–56.0Ma\
+**929:** Strepsirrhini | 33.9–56.0Ma\
 -Based on the oldest-known crown strepsirrhine †_Karanisia clarki_ from the Priabonian of the late Eocene.
 
-**919:** Anthropoidea: 33.9–66.0Ma\
+**919:** Anthropoidea | 33.9–66.0Ma\
 -Based on the oldest-known crown catarrhine †_Catopithecus browni_ from the Priabonian of the late Eocene.
 
-**920:** Catarrhini: 24.4–34.0Ma\
+**920:** Catarrhini | 24.4–34.0Ma\
 -Based on the oldest-known stem hominoid and crown catarrhine †_Rukwapithecus fleaglei_ from the Chattian of the late Oligocene.
 
-**915:** Lagomorpha: 47.6–66.0Ma\
+**915:** Lagomorpha | 47.6–66.0Ma\
 -Based on the oldest-known stem leporid and crown lagomorph fossils (GU/RSR/VAS 711) from the Ypresian of the early Eocene.
 
-**892:** Rodentia: 41.0–66.0Ma\
+**892:** Rodentia | 41.0–66.0Ma\
 -Based on the oldest-known stem sciuromorph and crown rodent †_Ischyromys_ sp. from the Lutetian of the middle Eocene.
 
-**914:** Hystricomorpha: 31.6–56.0Ma
+**914:** Hystricomorpha | 31.6–56.0Ma
 -Based on the oldest-known stem chinchilloid and crown hystricomorph †_Eoviscaccia frassinetti_ from the Tinguirican of the early Oligocene.
 
-**906:** Castorimorpha: 37.7–66.0Ma\
+**906:** Castorimorpha | 37.7–66.0Ma\
 -Based on the oldest-known crown castorimorph †_Heliscomys walshi_ from the Bartonian of the middle Eocene.
 
-**896:** Stem Murinae: 16.0–18.3Ma\
+**896:** Stem Murinae | 16.0–18.3Ma\
 -Based on the oldest-known stem murine †_Potwarmus primitivus_ from the Langhian of the middle Miocene.
 
-**898:** Murinae (part: Murini + Arvicanthini): 11.1–12.3Ma\
+**898:** Murinae (part: Murini + Arvicanthini) | 11.1–12.3Ma\
 -Based on the oldest-known stem member of Arvicanthini + Millardini + Otomyini †_Karnimata_ sp. from the Tortonian of the middle Miocene.
 
-**791:** Artiodactyla: 52.4–66.0Ma\
+**791:** Artiodactyla | 52.4–66.0Ma\
 -Based on the oldest-known stem cetacean and crown artiodactyl †_Himalayacetus subathuensis_ from the Ypresian of the early Eocene.
 
-**827:** Carnivora: 37.3–66.0Ma\
+**827:** Carnivora | 37.3–66.0Ma\
 -Based on the oldest-known stem caniform and crown carnivoran †_Hesperocyon gregarius_ from the Bartonian of the middle Eocene.
 
 
 ## [Squamates](./squamata/squamata.md):
 
-**748:** Squamata: 166.0–215.0Ma\
+**748:** Squamata | 166.0–215.0Ma\
 -Based on the earliest crown squamates †_Eichstaettisaurus_, †_Helioscopus_, and †_Paramacellodus_ sp., from the middle Jurassic.
 
-**749:** Unidentata: 166.0–205.0Ma\
+**749:** Unidentata | 166.0–205.0Ma\
 -Based on the earliest stem Scincoidea (†Paramacellodidae: †_Paramacellodus_ sp.), from the middle Jurassic..
 
-**767:** Toxicofera: 166.0–190.0Ma\
+**767:** Toxicofera | 166.0–190.0Ma\
 -Based on the earliest known snake †_Eophis_ and earliest putative crown toxicoferan †_Breugnathair_, from the middle Jurassic.
 
-**769:** Endoglyptodonta: 20.0–66.0Ma\
+**769:** Endoglyptodonta | 20.0–66.0Ma\
 -Based on _Vipera_ cf. _aspis_, the oldest crown Viperinae from the early Miocene.
 
-**771:** Natricidae: 13.8–33.9Ma\
+**771:** Natricidae | 13.8–33.9Ma\
 -Based on †_Natrix_ aff. _longivertebrata_, the oldest crown Natricinae.
 
-**774:** Constrictores: 48.0–100.5Ma\
+**774:** Constrictores | 48.0–100.5Ma\
 -Based on †_Eoconstrictor_ and †_Rageryx_, the earliest stem booids from the middle Eocene.
 
-**777:** Pleurodonta: 48.0–120.0Ma\
+**777:** Pleurodonta | 48.0–120.0Ma\
 -Based on †_Geiseltaliellus_ and †_Babibasiliscus_, the oldest crown pleurodontans from the early Eocene.  
 
-**778:** Chamaeleonidae: 20.0–66.0Ma\
+**778:** Chamaeleonidae | 20.0–66.0Ma\
 -Based on the oldest crown chameleonid †_Calumma benovskyi_, from the early Miocene.
 
-**779:** Anguimorpha: 70.0–150.0Ma\
+**779:** Anguimorpha | 70.0–150.0Ma\
 -Based on the oldest crown anguimorph †_Aiolosaurus_, from the late Cretaceous.
 
-**780:** Anguidae: 33.9–100.5Ma\
+**780:** Anguidae | 33.9–100.5Ma\
 -Based on _Ophisaurus_ sp., the oldest crown anguid from the early Oligocene.
 
 
 ## [Turtles](./turtles/testudines.md):
 
-**732:** Testudines: 157.3–252.0Ma\
+**732:** Testudines | 157.3–252.0Ma\
 -Based on the oldest crown testudine †_Notoemys oxfordiensis_ from the Oxfordian of the Jurassic.
 
-**747:** Pleurodira: 125.0–157.3Ma\
+**747:** Pleurodira | 125.0–157.3Ma\
 -Based the oldest crown pleurodiran †_Atolchelys lepida_ from the Barremian of the Cretaceous.
 
-**733:** Cryptodira: 157.3–201.4Ma\
+**733:** Cryptodira | 157.3–201.4Ma\
 -Based on the oldest crown cryptodiran †_Yehguia tatsuensis_ from the Oxfordian of the Jurassic.
 
-**734:** Durocryptodira: 88.6–157.3Ma\
+**734:** Durocryptodira | 88.6–157.3Ma\
 -Based on the oldest crown durocryptodiran †_Lindholmemys elegans_, likely stem Testudinoidea, from the Turonian of the Cretaceous.
 
-**744:** Testuguria: 50.3–157.3Ma\
+**744:** Testuguria | 50.3–157.3Ma\
 -Based on the oldest crown testgurian †_Hadrianus majusculus_, likely stem Testudinidae, from the Wasatchian of the Eocene.
 
-**746:** Emydidae: 32.0–157.3Ma\
+**746:** Emydidae | 32.0–157.3Ma\
 -Based on the oldest crown emydid †_Chrysemys antiqua_ from the Orellan of the Oligocene.
 
-**735:** Americhelydia: 70.0–157.3Ma\
+**735:** Americhelydia | 70.0–157.3Ma\
 -Based on the oldest crown americhelyid †_Toxochelys latiremys_, likely stem Chelonioidea, from the Campanian of the Cretaceous.
 
-**742:** Chelydroidea: 70.0–157.3Ma\
+**742:** Chelydroidea | 70.0–157.3Ma\
 -Based on the oldest crown chelydroid SEPCP 9/493, likely stem Chelydridae, from the Campanian of the Cretaceous.
 
-**736:** Chelonioidea: 48.4–157.3Ma\
+**736:** Chelonioidea | 48.4–157.3Ma\
 -Based on the oldest known chelonioid †_Eosphargis breineri_, likely stem Dermochelyidae, from the Ypresian of the Eocene.
 
 
 ## [Crocodilians:](./crocodylia/crocodylia.md) 
 
-**731:** Crocodylia: 74.4–113.2Ma\
+**731:** Crocodylia | 74.4–113.2Ma\
 -Based on the oldest-known crown crocodylian †_Leidyosuchus canadensis_, likely stem Alligatoroidea, from the Campanian of the Cretaceous.
 
 
