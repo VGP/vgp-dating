@@ -6,7 +6,7 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 
 **Node 582:** Crown Deuterostomia | 517.3–590.8Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing chordates (_Ammospiza nelsoni_), echinoderms (_Asterias rubens_) and hemichordates (when monophyletic).\
-**Fossil taxon:** Chengjiang fossils such as †_Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China) ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646)).\
+**Fossil taxon:** Chengjiang fossils such as †_Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China; [Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646)).\
 **Minimum age:** The age of the Chengjiang biota has been determined through CA-ID-TIMS U-Pb dating, yielding an age of 518.03Ma ± 0.69/0.71 Myr and a minimum calibration age of 517.32Ma ([Yang et al. 2018](https://doi.org/10.1144/jgs2017-103)).\
 **Minimum justification:** †_Haikouichthys_ is widely accepted as at least a crown-chordate and possibly a crown-vertebrate, on the basis of its branchial structures, myomeres, and a notochord ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646); [Gabbott et al. 2016](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2016.1151)).\
 **Maximum age:** Weng’an Biota, 590.8Ma ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)). Yang et al. date the biota based on Re-Os data to 587.2Ma ±3.6 Myr, yielding a maximum age constraint of 590.8Ma.\
@@ -21,13 +21,14 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 **Minimum age:** 515.5Ma, from the Micmacca Breccia, which encompasses the upper part of the _Cephalopyge notabilis_ Biozone, the _Ornamentaspis frequens_ Biozone and the lower part of the _Kymataspis arenosa_ Biozone, which has been dated to the latest Atdabanian of 517.0Ma ± 1.5 Myr, or 515.5 ma ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)).\
 **Maximum age:** Weng’an Biota, 590.8Ma ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)). Yang et al. date the biota based on Re-Os data to 587.2Ma ±3.6 Myr, yielding a maximum age constraint of 590.8Ma.\
 **Minimum justification:** The isolated pelmatzoan columnals have characteristic morphology and stereom structure of the Echinodermata total group ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1); [Swalla and Smith 2008](https://royalsocietypublishing.org/doi/abs/10.1098/rstb.2007.2246); [Clausen and Smith 2008](https://www.cambridge.org/core/journals/journal-of-paleontology/article/abs/stem-structure-and-evolution-in-the-earliest-pelmatozoan-echinoderms/2F53133C923A5FC745C94E99C98503F4)).\
-**Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).
+**Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
+**Discussion:** The recent publication of a possible crown bilaterian assemblage from the latest Ediacaran deserves mention ([Li et al. 2026](https://doi.org/10.1126/science.adu2291)), since it includes fossils that appear similar to the cambroernid †_Herpetogaster,_ which may represent a Cambrian stem-ambulacrarian ([Li et al. 2023](https://doi.org/10.1016/j.cub.2023.04.048)). However, owing to (1) uncertainties about the phylogenetic position of †_Cambroernida_ and (2) about whether these latest Ediacaran fossils are indeed of a †_Herpetogaster_-like organism, we conservatively do not use these data to update our fossil calibration.
 
 ---
 
 **Node 583:** Crown Chordata | 517.3–590.8Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing vertebrates (_Ammospiza nelsoni_), tunicates, and cephalochordates (_Branchiostoma belcheri_).\
-**Fossil taxon:** Chengjiang fossils such as †_Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China) ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646)).\
+**Fossil taxon:** Chengjiang fossils such as †_Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China; [Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646)).\
 **Minimum age:** The age of the Chengjiang biota has been determined through CA-ID-TIMS U-Pb dating, yielding an age of 518.03Ma ± 0.69/0.71 Myr and a minimum calibration age of 517.32Ma ([Yang et al. 2018](https://www.lyellcollection.org/doi/abs/10.1144/jgs2017-103)).\
 **Minimum justification:** †_Haikouichthys_ is widely accepted as at least a crown-chordate and possibly a crown-vertebrate, on the basis of its branchial structures, myomeres, and a notochord ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646); [Gabbott et al. 2016](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2016.1151)).\
 **Maximum age:** Weng’an Biota, 590.8Ma ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)). Yang et al. date the biota based on Re-Os data to 587.2Ma ±3.6 Myr, yielding a maximum age constraint of 590.8Ma.\
@@ -64,6 +65,10 @@ Cunningham, J.A., Liu, A.G., Bengtson, S. and Donoghue, P.C.J. (2017), The origi
 Gabbott, S.E., Donoghue, P.C., Sansom, R.S., Vinther, J., Dolocan, A. and Purnell, M.A., 2016. Pigmented anatomy in Carboniferous cyclostomes and the evolution of the vertebrate eye. Proceedings of the Royal Society B: Biological Sciences, 283(1836), p.20161151.
 
 Huldtgren, T., Cunningham, J.A., Yin, C., Stampanoni, M., Marone, F., Donoghue, P.C. and Bengtson, S., 2011. Fossilized nuclei and germination structures identify Ediacaran “animal embryos” as encysting protists. Science, 334(6063), pp.1696-1699.
+
+Li, Y., Dunn, F.S., Murdock, D.J., Guo, J., Rahman, I.A. and Cong, P., 2023. Cambrian stem-group ambulacrarians and the nature of the ancestral deuterostome. Current Biology, 33(12), pp.2359-2366.
+
+Li, G., Wei, F., Wen, W., Wang, X., Lei, X., Anderson, R.P., Zhao, Y., Dunn, F.S., Parry, L.A. and Cong, P., 2026. The dawn of the Phanerozoic: A transitional fauna from the late Ediacaran of Southwest China. Science, 392(6793), pp.63-68.
 
 Shu, D.G., Conway Morris, S., Zhang, Z.F. and Han, J., 2010. The earliest history of the deuterostomes: the importance of the Chengjiang Fossil-Lagerstätte. Proceedings of the Royal Society B: Biological Sciences, 277(1679), pp.165-174.
 
