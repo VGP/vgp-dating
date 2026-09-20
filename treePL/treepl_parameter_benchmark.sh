@@ -147,11 +147,14 @@ pl_buffer_percent=20
 pl_rounding=10
 
 # Thorough mode tunes CV effort across multiple seeds. Fast mode uses
-# single-seed full CV with fixed effort and three progressively narrower grids.
+# single-seed full CV with fixed effort and up to five progressively narrower grids.
 cv_iterations=(3 5 10)
 cv_siman_iterations=(5000 7500 15000)
 fast_cviter=3
 fast_cvsimaniter=5000
+fast_cv_max_rounds=5
+fast_cv_improvement_percent=0.5
+fast_cv_stable_rounds=2
 fine_refinement_threshold_percent=5
 cv_progress_seconds=120
 random_cv_pliter_default=20
@@ -222,6 +225,16 @@ owned_output_files=(
 	full_cv_fine_summary.tsv
 	full_cv_refine_overlap.tsv
 	full_cv_fine_overlap.tsv
+	full_cv_rounds.tsv
+	full_cv_fine_recommendation.txt
+	full_cv_round4_scores.tsv
+	full_cv_round4_summary.tsv
+	full_cv_round4_overlap.tsv
+	full_cv_round4_recommendation.txt
+	full_cv_round5_scores.tsv
+	full_cv_round5_summary.tsv
+	full_cv_round5_overlap.tsv
+	full_cv_round5_recommendation.txt
 	random_cv_scores.tsv
 	random_cv_screen_scores.tsv
 	random_cv_refine_scores.tsv
@@ -1188,13 +1201,12 @@ run_random_cv_case() {
 	status_update "Random CV $stage $case_status: seed=$seed, runtime=${runtime_seconds}s, best=${case_best_smoothing:-unavailable}, score=${case_best_score:-unavailable}."
 }
 
-# Fast CV uses integer quarter-decade positions, never rounded treePL output,
+# Fast CV uses integer sixteenth-decade positions, never rounded treePL output,
 # to define candidate grids. Each attempt compares identical grids and settings.
 run_fast_cv_search() {
 	search_type=$1
 	search_recommendation="$run_directory/cv_recommendation.txt"
-	if [ "$search_type" = "refine" ]; then search_recommendation="$run_directory/full_cv_refine_recommendation.txt"; fi
-	if [ "$search_type" = "fine" ]; then search_recommendation="$run_directory/final_recommendation.txt"; fi
+	if [ "$search_type" != "screen" ]; then search_recommendation="$run_directory/full_cv_${search_type}_recommendation.txt"; fi
 	previous_scores=""
 	printf 'status=incomplete\n' > "$search_recommendation"
 	search_archive=$(mktemp -d "$run_directory/${search_type}_cv_attempts_XXXXXX")
@@ -1202,21 +1214,14 @@ run_fast_cv_search() {
 	recommended_cvsimaniter=$fast_cvsimaniter
 	if [ "$search_type" = "screen" ]
 	then
-		grid_upper=8
-		grid_lower=-20
-		grid_stride=4
+		grid_upper=32
+		grid_lower=-80
+		grid_stride=16
 	else
-		center_file="$run_directory/cv_recommendation.txt"
-		previous_scores="$run_directory/full_cv_screen_scores.tsv"
-		grid_radius=4
-		grid_stride=2
-		if [ "$search_type" = "fine" ]
-		then
-			center_file="$run_directory/full_cv_refine_recommendation.txt"
-			previous_scores="$run_directory/full_cv_refine_scores.tsv"
-			grid_radius=2
-			grid_stride=1
-		fi
+		center_file="$fast_previous_recommendation"
+		previous_scores="$fast_previous_scores"
+		grid_radius=$fast_previous_stride
+		grid_stride=$((fast_previous_stride / 2))
 		screening_index=$(awk -F '=' '$1=="screening_index" {print $2}' "$center_file")
 		if [ -z "$screening_index" ]; then status_update "ERROR: missing preceding grid position."; return 1; fi
 		# Five points between the preceding winner's immediate neighbors.
@@ -1232,11 +1237,11 @@ run_fast_cv_search() {
 		mkdir -p "$attempt_directory"
 		grid_file="$attempt_directory/grid.tsv"
 		awk -v hi="$grid_upper" -v lo="$grid_lower" -v stride="$grid_stride" 'BEGIN {
-			for(i=hi;i>=lo;i-=stride) printf "%d\t%.17g\n", i, 10^(i/4)
+			for(i=hi;i>=lo;i-=stride) printf "%d\t%.17g\n", i, 10^(i/16)
 		}' > "$grid_file"
 		grid_start=$(awk 'NR==1 {print $2}' "$grid_file")
 		grid_stop=$(awk 'END {print $2}' "$grid_file")
-		grid_step=$(awk -v stride="$grid_stride" 'BEGIN {printf "%.17g", 10^(-stride/4)}')
+		grid_step=$(awk -v stride="$grid_stride" 'BEGIN {printf "%.17g", 10^(-stride/16)}')
 		grid_count=$(((grid_upper-grid_lower)/grid_stride + 1))
 		attempt_scores="$attempt_directory/scores.tsv"
 		printf 'seed\tsmoothing\tscore\tgrid_index\n' > "$attempt_scores"
@@ -1305,7 +1310,7 @@ run_fast_cv_search() {
 		search_extension=$((search_extension+1))
 		status_update "Extending $search_type full-CV grid by two values; rerunning the continuous descending grid with seed=$search_seed."
 	done
-	search_smoothing=$(awk -v i="$search_winner" 'BEGIN {printf "%.17g",10^(i/4)}')
+	search_smoothing=$(awk -v i="$search_winner" 'BEGIN {printf "%.17g",10^(i/16)}')
 	cp "$attempt_scores" "$run_directory/full_cv_${search_type}_scores.tsv"
 	if [ "$search_type" != "screen" ]
 	then
@@ -1321,43 +1326,18 @@ run_fast_cv_search() {
 			}' "$previous_scores" "$attempt_scores" > "$run_directory/full_cv_${search_type}_overlap.tsv"
 		status_update "$search_type CV overlap scores: $run_directory/full_cv_${search_type}_overlap.tsv (diagnostic only)."
 	fi
-	if [ "$search_type" != "fine" ]
-	then
-		{
-			echo "status=complete"
-			echo "recommended_cviter=$recommended_cviter"
-			echo "recommended_cvsimaniter=$recommended_cvsimaniter"
-			echo "grid_index_units=quarter_decades"
-			echo "grid_upper_index=$grid_upper"
-			echo "screening_index=$search_winner"
-			echo "screening_smoothing=$search_smoothing"
-			echo "attempts=$search_archive"
-		} > "$search_recommendation"
-	else
-		final_smoothing=$search_smoothing
-		{
-			echo "status=complete"
-			echo "workflow_profile=fast"
-			echo "seed_mode=$seed_mode"
-			echo "seeds=$search_seed"
-			echo "cv_method=full"
-			echo "cv_sweeps=3"
-			echo "grid_index_units=quarter_decades"
-			echo "cv_seed_check=not_performed"
-			echo "opt=$opt"
-			echo "optad=$optad"
-			echo "optcvad=$optcvad"
-			echo "moredetail=$moredetail"
-			echo "moredetailad=$moredetailad"
-			echo "moredetailcvad=$moredetailcvad"
-			echo "pliter=$recommended_pliter"
-			echo "plsimaniter=$recommended_plsimaniter"
-			echo "cviter=$recommended_cviter"
-			echo "cvsimaniter=$recommended_cvsimaniter"
-			echo "smooth=$final_smoothing"
-			echo "attempts=$search_archive"
-		} > "$search_recommendation"
-	fi
+	search_best_score=$(awk -F '\t' -v winner="$search_winner" 'NR>1 && $4==winner {print $3}' "$attempt_scores")
+	{
+		echo "status=complete"
+		echo "recommended_cviter=$recommended_cviter"
+		echo "recommended_cvsimaniter=$recommended_cvsimaniter"
+		echo "grid_index_units=sixteenth_decades"
+		echo "grid_stride=$grid_stride"
+		echo "screening_index=$search_winner"
+		echo "screening_smoothing=$search_smoothing"
+		echo "best_score=$search_best_score"
+		echo "attempts=$search_archive"
+	} > "$search_recommendation"
 	status_update "$search_type CV complete: smoothing=$search_smoothing; attempts retained in $search_archive."
 }
 
@@ -1533,9 +1513,64 @@ run_cv_validation() {
 	then
 		recommended_pliter=$(awk -F '=' '$1=="recommended_pliter" {print $2}' "$run_directory/initial_pl_recommendation.txt")
 		recommended_plsimaniter=$(awk -F '=' '$1=="recommended_plsimaniter" {print $2}' "$run_directory/initial_pl_recommendation.txt")
-		run_fast_cv_search refine || return 1
-		run_fast_cv_search fine
-		return $?
+		printf 'status=incomplete\n' > "$run_directory/final_recommendation.txt"
+		fast_previous_recommendation="$run_directory/cv_recommendation.txt"
+		fast_previous_scores="$run_directory/full_cv_screen_scores.tsv"
+		fast_previous_stride=16
+		fast_previous_best=$(awk -F '=' '$1=="best_score" {print $2}' "$fast_previous_recommendation")
+		fast_streak=0
+		fast_stop_reason=max_rounds
+		printf 'round\tstage\tsmoothing\tbest_score\timprovement_percent\tstreak\n' > "$run_directory/full_cv_rounds.tsv"
+		printf '1\tscreen\t%s\t%s\tNA\t0\n' "$search_smoothing" "$fast_previous_best" >> "$run_directory/full_cv_rounds.tsv"
+		fast_round=2
+		while [ "$fast_round" -le "$fast_cv_max_rounds" ]
+		do
+			case "$fast_round" in 2) fast_stage=refine;; 3) fast_stage=fine;; *) fast_stage=round$fast_round;; esac
+			run_fast_cv_search "$fast_stage" || return 1
+			# Worsening scores reset the streak; they are not evidence of convergence.
+			fast_improvement=$(awk -v old="$fast_previous_best" -v new="$search_best_score" 'BEGIN {
+				if(old>0) printf "%.12g",100*(old-new)/old; else if(new==0) print 0; else print "NA"
+			}')
+			if awk -v change="$fast_improvement" -v threshold="$fast_cv_improvement_percent" 'BEGIN {exit !(change!="NA" && change>=0 && change<threshold)}'
+			then fast_streak=$((fast_streak+1)); else fast_streak=0; fi
+			printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$fast_round" "$fast_stage" "$search_smoothing" "$search_best_score" "$fast_improvement" "$fast_streak" >> "$run_directory/full_cv_rounds.tsv"
+			status_update "CV round $fast_round/$fast_cv_max_rounds: improvement=${fast_improvement}%, small-improvement streak=$fast_streak/$fast_cv_stable_rounds."
+			if [ "$fast_streak" -ge "$fast_cv_stable_rounds" ]; then fast_stop_reason=small_improvement; break; fi
+			if [ "$fast_round" -eq "$fast_cv_max_rounds" ]; then break; fi
+			fast_previous_recommendation="$search_recommendation"
+			fast_previous_scores="$run_directory/full_cv_${fast_stage}_scores.tsv"
+			fast_previous_stride=$grid_stride
+			fast_previous_best=$search_best_score
+			fast_round=$((fast_round+1))
+		done
+		final_smoothing=$search_smoothing
+		{
+			echo "status=complete"
+			echo "workflow_profile=fast"
+			echo "seed_mode=$seed_mode"
+			echo "seeds=$search_seed"
+			echo "cv_method=full"
+			echo "cv_seed_check=not_performed"
+			echo "cv_sweeps=$fast_round"
+			echo "cv_stop_reason=$fast_stop_reason"
+			echo "cv_improvement_threshold_percent=$fast_cv_improvement_percent"
+			echo "cv_small_improvement_streak=$fast_streak"
+			echo "grid_index_units=sixteenth_decades"
+			echo "opt=$opt"
+			echo "optad=$optad"
+			echo "optcvad=$optcvad"
+			echo "moredetail=$moredetail"
+			echo "moredetailad=$moredetailad"
+			echo "moredetailcvad=$moredetailcvad"
+			echo "pliter=$recommended_pliter"
+			echo "plsimaniter=$recommended_plsimaniter"
+			echo "cviter=$recommended_cviter"
+			echo "cvsimaniter=$recommended_cvsimaniter"
+			echo "smooth=$final_smoothing"
+			echo "attempts=$search_archive"
+		} > "$run_directory/final_recommendation.txt"
+		status_update "Full CV stopped after $fast_round rounds: $fast_stop_reason; smoothing=$final_smoothing."
+		return 0
 	fi
 	cv_recommendation="$run_directory/cv_recommendation.txt"
 	full_cv_summary="$run_directory/full_cv_summary.tsv"
@@ -1915,7 +1950,7 @@ if [ "$benchmark_mode" = "cv" ] || [ "$benchmark_mode" = "all" ] || [ "$benchmar
 then
 	if [ "$workflow_profile" = "fast" ]
 	then
-		status_update "Fast full CV uses one recorded seed: eight decade-spaced screening values from 100 to 0.00001, followed by five half-decade and five quarter-decade values between each preceding winner's neighbors. All use recommended PL effort without thorough. Boundary extensions rerun the continuous grid; no independent seed check. Per-value reports and two-minute heartbeats show progress."
+		status_update "Fast full CV uses one recorded seed: eight decade-spaced screening values from 100 to 0.00001, followed by up to four five-point refinements between each preceding winner's neighbors, halving log-spacing each round. Stop after two successive improvements below 0.5%, or five total rounds. All use recommended PL effort without thorough. Boundary extensions rerun the continuous grid; no independent seed check. Per-value reports and two-minute heartbeats show progress."
 	else
 		status_update "Thorough random-CV search: broad pilots, local cvsimaniter and cviter tests, then selected-pair confirmation across three seeds; candidates cviter=${cv_iterations[*]}; cvsimaniter=${cv_siman_iterations[*]}."
 	fi

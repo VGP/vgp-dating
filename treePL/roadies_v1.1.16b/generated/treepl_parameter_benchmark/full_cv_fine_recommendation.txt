@@ -1,0 +1,9 @@
+status=complete
+recommended_cviter=3
+recommended_cvsimaniter=5000
+grid_index_units=sixteenth_decades
+grid_stride=4
+screening_index=4
+screening_smoothing=1.7782794100389228
+best_score=727694
+attempts=/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/treepl_parameter_benchmark/fine_cv_attempts_y9XdgR

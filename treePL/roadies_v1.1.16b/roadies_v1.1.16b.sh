@@ -51,7 +51,7 @@ temporary.replace(config)
 print('Applied benchmark settings to', config)
 PY
 
-# Select the lowest-objective result from 200 replicates with random seeds.
+# Select the lowest-objective result from up to 200 replicates with random seeds.
 stage=replicates
 ../treepl_replicate_select.sh roadies_v1.1.16b.config 200 random 2>&1 | tee generated/replicates.log
 
@@ -118,17 +118,17 @@ Path('generated/final_run_status.txt').write_text(
     'config_snapshot=generated/roadies_v1.1.16b.final.config\n'
     f"final_objective={objectives[-1]}\nselected_replicate_objective={selection['lowest_objective']}\n"
     f"replicates_attempted={selection['attempted']}\nreplicates_successful={selection['successful']}\n"
-    f"replicates_failed={selection['failed']}\n")
+    f"replicates_failed={selection['failed']}\n"
+    f"replicates_planned={selection['planned']}\n"
+    f"replicate_stop_reason={selection['stop_reason']}\n"
+    f"best_objective_matches={selection['best_objective_matches']}\n")
 print('Final tree validated; objective =', objectives[-1])
 print('Selected replicate objective =', selection['lowest_objective'])
 PY
 
-# Plotting uses paths relative to treePL/, not this analysis directory.
+# Plot from this topology's analysis directory.
 stage=plotting
-(
-  cd ..
-  Rscript roadies_v1.1.16b.treePL.R
-) 2>&1 | tee generated/plotting.log
+Rscript roadies_v1.1.16b.treePL.R 2>&1 | tee generated/plotting.log
 
 python3 - <<'PY'
 from pathlib import Path

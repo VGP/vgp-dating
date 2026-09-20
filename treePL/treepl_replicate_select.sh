@@ -89,6 +89,11 @@ selected_tree="$run_root/${configuration_label}.lowest_objective.tre"
 mkdir -p "$run_root"
 # Clear selection artifacts so a failed rerun cannot expose an older winner.
 rm -f -- "$selection_file" "$selected_tree"
+minimum_successful_replicates=20
+required_best_matches=10
+best_matches=0
+stop_reason=max_replicates
+attempted_replicates=0
 successful_replicates=0
 failed_replicates=0
 printf "replicate\tseed\truntime_seconds\tfinal_objective\tstatus\n" > "$summary_file"
@@ -133,6 +138,8 @@ else
 	status_update "Replicates: $replicate_count; seed mode: random; every generated seed will be recorded."
 fi
 status_update "Output directory: $run_root"
+
+status_update "Early stopping: at least $minimum_successful_replicates successes and $required_best_matches matches to the current best printed objective, in any order."
 
 replicate=1
 while [ "$replicate" -le "$replicate_count" ]
@@ -221,6 +228,7 @@ do
 
 	status_update "Replicate $replicate $status: seed=$seed, runtime=${runtime_seconds}s, objective=${final_objective:-unavailable}."
 
+	attempted_replicates=$replicate
 	if [ "$status" = "complete" ]
 	then
 		is_new_best=$(awk -v candidate="$final_objective" -v current="$lowest_objective" \
@@ -228,21 +236,33 @@ do
 		if [ "$is_new_best" -eq 1 ]
 		then
 			cp "$replicate_tree" "$selected_tree" || exit 7
+			best_matches=0
 			lowest_objective=$final_objective
 			selected_replicate=$replicate
 			selected_seed=$seed
 			status_update "New lowest objective retained: replicate=$replicate, seed=$seed, objective=$final_objective."
 		fi
+		if awk -v candidate="$final_objective" -v best="$lowest_objective" 'BEGIN {exit !(candidate+0==best+0)}'
+		then best_matches=$((best_matches+1)); fi
 	fi
 
 	rm -rf -- "$replicate_directory"
 	current_replicate_directory=""
+	if [ "$successful_replicates" -ge "$minimum_successful_replicates" ] && [ "$best_matches" -ge "$required_best_matches" ]
+	then
+		stop_reason=repeated_best_objective
+		status_update "Stopping replicates: $best_matches/$successful_replicates successful runs match the current best printed objective."
+		break
+	fi
 	replicate=$((replicate + 1))
 done
 
-status_update "Replicate attempts finished: $successful_replicates succeeded, $failed_replicates failed, $replicate_count attempted."
+status_update "Replicate attempts finished: $successful_replicates succeeded, $failed_replicates failed, $attempted_replicates attempted (maximum $replicate_count)."
 {
-	echo "attempted=$replicate_count"
+	echo "attempted=$attempted_replicates"
+	echo "planned=$replicate_count"
+	echo "stop_reason=$stop_reason"
+	echo "best_objective_matches=$best_matches"
 	echo "successful=$successful_replicates"
 	echo "failed=$failed_replicates"
 } > "$run_root/replicate_counts.txt"
@@ -255,7 +275,10 @@ fi
 
 {
 	echo "status=complete"
-	echo "attempted=$replicate_count"
+	echo "attempted=$attempted_replicates"
+	echo "planned=$replicate_count"
+	echo "stop_reason=$stop_reason"
+	echo "best_objective_matches=$best_matches"
 	echo "successful=$successful_replicates"
 	echo "failed=$failed_replicates"
 	echo "seed_mode=$seed_mode"
