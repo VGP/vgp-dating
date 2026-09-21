@@ -1,0 +1,10 @@
+{
+  "pl": {
+    "jobs": 10,
+    "threads": 1
+  },
+  "cv": {
+    "jobs": 5,
+    "threads": 2
+  }
+}

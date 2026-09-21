@@ -1,6 +1,0 @@
-attempted=20
-planned=200
-stop_reason=repeated_best_objective
-best_objective_matches=20
-successful=20
-failed=0

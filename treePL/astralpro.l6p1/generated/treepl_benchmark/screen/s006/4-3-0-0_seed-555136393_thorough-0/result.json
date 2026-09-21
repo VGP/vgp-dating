@@ -1,0 +1,30 @@
+{
+  "stage": "screen",
+  "index": 6,
+  "smooth": 0.001,
+  "candidate": [
+    4,
+    3,
+    0,
+    0
+  ],
+  "seed": 555136393,
+  "pliter": 50,
+  "threads": 1,
+  "thorough": false,
+  "status": "complete",
+  "assessment": "pending",
+  "objective": 9037.1989,
+  "score": null,
+  "seconds": 157.644,
+  "negative_returns": 1,
+  "reason": "",
+  "fit_id": "screen/s006/4-3-0-0_seed-555136393_thorough-0",
+  "raw_objective": "9037.1989",
+  "artifacts": {
+    "result.tre": "b1b6b799561f12965d88ab250cb6ad9872b00bf2e87e81744942ba8692b4b464",
+    "ages.tsv": "4e4556dcd06513374a7370ad2da41b7d8d53876275a46be9ad710a8ee4709aaa",
+    "fit.config": "21fdff26d3fcba87a0977937ae3507142f938680d9b0598c02d92868ebfdc787",
+    "run.log": "798eedce7756ae970232ced19331fa1b39d114a5e6a3c6c063436068b91b3ea2"
+  }
+}

@@ -580,3 +580,6 @@ GCF_963930625.1	Mammals	Laurasiatheria	Cetartiodactyla (Ruminantia)	Cervidae	Gir
 GCF_963930695.1	Fishes	Actinopterygii (Ray-finned Fishes)	Labriformes sensu stricto	Labridae	Wrasses	64	Labrus bergylta	ballan wrasse	56723	fLabBer1	GCF_963930695.1_fLabBer1.1	Labrus bergylta	ballan wrasse (primary hap 2024 refseq)	fish
 GCF_963932015.1	Birds	GalloAnserformes	Anseriformes	Anatidae	Waterfowl	68.95	Anas acuta	northern pintail	28680	bAnaAcu1	GCF_963932015.1_bAnaAcu1.1	Anas acuta	northern pintail (primary hap 2024 refseq)	birds
 GCF_964237555.1	Mammals	Supraprimates (Euarchontoglires)	Lagomorpha (Leporidae)	Leporidae	"Rabbits, Hares"	49	Oryctolagus cuniculus	European rabbit	9986	mOryCun1	GCF_964237555.1_mOryCun1.1	Oryctolagus cuniculus	rabbit (primary hap 2024 refseq)	mammals
+GCA_000001405.5	Mammals	Supraprimates (Euarchontoglires)	Primates (Catarrhines)	Hominidae	Apes & Old World monkeys	30	Homo sapiens	human	9606	GRCh37.p4		Homo sapiens		primates
+GCA_000001635.9	Mammals	Supraprimates (Euarchontoglires)	Rodentia (Muridae)	Muridae	Mice, Rats	50	Mus musculus	house mouse	10090	GRCm39		Mus musculus		mammals
+GCF_037038585.1	Birds	Columbea	Columbiformes	Columbidae	Doves	66.72	Patagioenas fasciata	band-tailed pigeon	372321	bPatFas1.hap1		Patagioenas fasciata		birds

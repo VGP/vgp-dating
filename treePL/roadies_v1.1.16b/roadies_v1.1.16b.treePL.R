@@ -38,9 +38,12 @@ mrca_df$node <- apply(
 # read in data
 annotations <- read.delim("../../trees/annotations.tsv", header = TRUE, comment.char = "", stringsAsFactors = FALSE)
 names(annotations)[1] <- "accession"
+annotations <- annotations[annotations$accession %in% roadies_v1.1.16b.treePL.tre$tip.label, ]
+if (!all(roadies_v1.1.16b.treePL.tre$tip.label %in% annotations$accession)) stop("Missing tip annotations.")
 
 # add coherent taxonomy
 annotations$TAXON <- annotations$VGPLineage
+annotations$TAXON[which(annotations$Lineage == "Mammals")] <- "mammals"
 annotations$TAXON[which(annotations$Superorder=="Actinopterygii (Ray-finned Fishes)")] <- "fishes"
 annotations$TAXON[which(annotations$Superorder=="Testudines (Cryptodira)")] <- "turtles"
 annotations$TAXON[which(annotations$Superorder=="Testudines (Pleurodira)")] <- "turtles"
@@ -55,10 +58,15 @@ mrca_df
 # write scientific dates
 roadies_v1.1.16b.scientific.treePL.tre <- roadies_v1.1.16b.treePL.tre
 roadies_v1.1.16b.scientific.treePL.tre$tip.label <- gsub(" ","_",annotations$ScientificName[match(roadies_v1.1.16b.scientific.treePL.tre$tip.label,annotations$accession)])
-write.tree(roadies_v1.1.16b.scientific.treePL.tre, "generated/roadies_v1.1.16b.scientific.treePL.tre")
+duplicated_names <- duplicated(roadies_v1.1.16b.scientific.treePL.tre$tip.label) |
+    duplicated(roadies_v1.1.16b.scientific.treePL.tre$tip.label, fromLast = TRUE)
+roadies_v1.1.16b.scientific.treePL.tre$tip.label[duplicated_names] <- paste(
+    roadies_v1.1.16b.scientific.treePL.tre$tip.label[duplicated_names],
+    roadies_v1.1.16b.treePL.tre$tip.label[duplicated_names], sep = "_")
+write.tree(roadies_v1.1.16b.scientific.treePL.tre, "generated/roadies_v1.1.16b.scientific.treePL.tre", digits = 17)
 
 # paint subtrees
-painted <- paintSubTree(roadies_v1.1.16b.treePL.tre,582,"Root","0")
+painted <- paintSubTree(roadies_v1.1.16b.treePL.tre,Ntip(roadies_v1.1.16b.treePL.tre)+1,"Root","0")
 painted <- paintSubTree(painted,
                         getMRCA(roadies_v1.1.16b.treePL.tre,annotations[which(annotations$TAXON=="birds"),1]),
                         "Birds")
@@ -159,6 +167,8 @@ rasterImage(
   ytop    =  y_bottom + img_height
 )
 
+# Online silhouettes are decorative; network failure must not discard the dated-tree outputs.
+tryCatch({
 # dunkleosteus
 dunkleosteus <- get_phylopic("ac582db2-b8b7-45c1-a266-e33f0480addc")
 add_phylopic_base(
@@ -213,6 +223,8 @@ add_phylopic_base(
   col    = "lightgrey",
   fill   = "lightgrey"
   )
+
+}, error = function(e) message("Optional silhouettes unavailable: ", conditionMessage(e)))
 
 dev.off()
 

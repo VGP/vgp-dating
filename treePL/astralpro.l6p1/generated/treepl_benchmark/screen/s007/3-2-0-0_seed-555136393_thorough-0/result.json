@@ -1,0 +1,23 @@
+{
+  "stage": "screen",
+  "index": 7,
+  "smooth": 0.0001,
+  "candidate": [
+    3,
+    2,
+    0,
+    0
+  ],
+  "seed": 555136393,
+  "pliter": 50,
+  "threads": 1,
+  "thorough": false,
+  "status": "running",
+  "assessment": "pending",
+  "objective": null,
+  "score": null,
+  "seconds": null,
+  "negative_returns": 0,
+  "reason": "",
+  "fit_id": "screen/s007/3-2-0-0_seed-555136393_thorough-0"
+}

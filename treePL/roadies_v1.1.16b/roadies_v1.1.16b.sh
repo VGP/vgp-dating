@@ -1,139 +1,70 @@
 #!/bin/bash
-set -eo pipefail
-
-# Run from this analysis directory, regardless of the caller's working directory.
+set -euo pipefail
 cd "$(dirname "$0")"
-mkdir -p generated
+script_path="$PWD/$(basename "$0")"
+config=roadies_v1.1.16b.config
+# Benchmark options are passed through unchanged; --help describes all options.
+dry_run=false
+for arg in "$@"; do
+  case "$arg" in
+    --help|-h) exec python3 ../treepl_benchmark.py "$config" "$@" ;;
+    --dry-run) dry_run=true ;;
+  esac
+done
+# Hold a kernel lock across cleanup, benchmarking, and plotting. It releases on exit.
+if [ -z "${VGP_TREEPL_LOCK_FD:-}" ]; then
+  exec python3 - "$script_path" "$@" <<'PYLOCK'
+import fcntl, os, pathlib, signal, subprocess, sys
+script = pathlib.Path(sys.argv[1]).resolve()
+with (script.parent/'.treepl.lock').open('w') as lock:
+    try:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        sys.exit('Another ROADIES run is active; its outputs were not deleted.')
+    env = dict(os.environ, VGP_TREEPL_LOCK_FD=str(lock.fileno()))
+    child = subprocess.Popen(['/bin/bash', str(script), *sys.argv[2:]],
+                             env=env, pass_fds=(lock.fileno(),), start_new_session=True)
+    def forward(signum, frame):
+        try:
+            os.killpg(child.pid, signum)
+        except ProcessLookupError:
+            pass
+    signal.signal(signal.SIGTERM, forward)
+    signal.signal(signal.SIGINT, forward)
+    code = child.wait()
+    sys.exit(code)
+PYLOCK
+fi
+# The benchmark audits this config against the master before deleting old outputs.
+Rscript -e 'p<-c("ape","rphylopic","phytools","plotrix","png"); missing<-p[!vapply(p,requireNamespace,logical(1),quietly=TRUE)]; if(length(missing)) stop("Missing R packages: ",paste(missing,collapse=", "))'
+if [ "$dry_run" = true ]; then
+  exec python3 ../treepl_benchmark.py "$config" "$@"
+fi
+status_file=generated/final_run_status.txt
 stage=benchmark
-printf 'status=running\nstage=%s\n' "$stage" > generated/final_run_status.txt
-trap 'run_exit=$?; if [ "$run_exit" -ne 0 ]; then printf "status=failed\nstage=%s\nexit_status=%s\n" "$stage" "$run_exit" > generated/final_run_status.txt; echo "Analysis incomplete: $stage failed (exit $run_exit)." >&2; fi' EXIT
-
-# Benchmark optimization settings.
-../treepl_parameter_benchmark.sh \
-  roadies_v1.1.16b_wrapper.config \
-  ../../trees/roadies_v1.1.16b.nwk \
-  full 2>&1 | tee generated/benchmark.log
-
-# Apply the numeric settings and complete prime flag combination.
-stage=config_update
-python3 - <<'PY'
-from pathlib import Path
-import re
-
-recommendation = Path('generated/treepl_parameter_benchmark/final_recommendation.txt')
-values = dict(line.split('=', 1) for line in recommendation.read_text().splitlines() if '=' in line)
-if values.get('status') != 'complete':
-    raise SystemExit('Benchmark recommendation is incomplete; stopping.')
-config = Path('roadies_v1.1.16b.config')
-text = config.read_text()
-for key in ('smooth', 'opt', 'optad', 'optcvad', 'pliter', 'plsimaniter'):
-    value = values.get(key, '')
-    pattern = r'\d+(?:\.\d+)?(?:[eE][+-]?\d+)?' if key == 'smooth' else r'\d+'
-    if not re.fullmatch(pattern, value) or (key == 'smooth' and float(value) <= 0):
-        raise SystemExit(f'Invalid or missing benchmark setting: {key}')
-    text, count = re.subn(rf'(?m)^[ \t]*{key}[ \t]*=[^\n]*$', f'{key} = {value}', text)
-    if count != 1:
-        raise SystemExit(f'Expected exactly one active {key} setting in the config.')
-# Absence in prime output is recorded explicitly as 0, so old flags cannot persist.
-for option, flag in (('opt', 'moredetail'), ('optad', 'moredetailad'), ('optcvad', 'moredetailcvad')):
-    value = values.get(flag)
-    if value not in ('0', '1'):
-        raise SystemExit(f'Missing or invalid prime flag: {flag}')
-    text = re.sub(rf'(?m)^[ \t]*#?[ \t]*{flag}[ \t]*(?:#.*)?(?:\n|$)', '', text)
-    flag_line = flag if value == '1' else '#' + flag
-    text, count = re.subn(rf'(?m)^({option}[ \t]*=[^\n]*)(?:\n[ \t]*#[ \t]*)?$',
-                          lambda match: match[1] + '\n' + flag_line, text)
-    if count != 1:
-        raise SystemExit(f'Expected exactly one {option} setting for {flag}.')
-temporary = config.with_suffix('.config.tmp')
-temporary.write_text(text)
-temporary.replace(config)
-print('Applied benchmark settings to', config)
-PY
-
-# Select the lowest-objective result from up to 200 replicates with random seeds.
-stage=replicates
-../treepl_replicate_select.sh roadies_v1.1.16b.config 200 random 2>&1 | tee generated/replicates.log
-
-# Record the selected seed in the final configuration.
-stage=seed_update
-python3 - <<'PY'
-from pathlib import Path
-import re
-
-selection = Path('generated/treepl_replicate_runs/selected_replicate.txt')
-values = dict(line.split('=', 1) for line in selection.read_text().splitlines() if '=' in line)
-seed = values.get('selected_seed', '')
-if values.get('status') != 'complete' or not re.fullmatch(r'\d+', seed) or not 1 <= int(seed) <= 2147483646:
-    raise SystemExit('Missing or invalid completed replicate selection; stopping.')
-config = Path('roadies_v1.1.16b.config')
-text, count = re.subn(r'(?m)^[ \t]*seed[ \t]*=[^\n]*$', f'seed = {seed}', config.read_text())
-if count != 1:
-    raise SystemExit('Expected exactly one active seed setting in the config.')
-temporary = config.with_suffix('.config.tmp')
-temporary.write_text(text)
-temporary.replace(config)
-print('Recorded selected seed', seed, 'in', config)
-print('Replicate counts:', values['successful'], 'succeeded,', values['failed'], 'failed,', values['attempted'], 'attempted.')
-PY
-
-# Save and run the exact final configuration from this analysis directory.
-stage=config_snapshot
-cp roadies_v1.1.16b.config generated/roadies_v1.1.16b.final.config
-printf 'status=running\nstage=final_run\nconfig_updated=yes\n' > generated/final_run_status.txt
-echo "Config updated and snapshot saved; final analysis has not yet completed."
-stage=final_run
-# Remove only the previous final tree so it cannot pass validation after a failed run.
-rm -f generated/roadies_v1.1.16b.treePL.tre
-treePL generated/roadies_v1.1.16b.final.config 2>&1 | tee generated/roadies_v1.1.16b.config.log
-
-stage=final_validation
-Rscript - generated/roadies_v1.1.16b.treePL.tre ../../trees/roadies_v1.1.16b.nwk <<'RS'
-suppressPackageStartupMessages(library(ape))
-args <- commandArgs(trailingOnly = TRUE)
-result <- withCallingHandlers(read.tree(args[1]), warning = function(w) stop(w))
-input <- read.tree(args[2])
-if (!inherits(result, "phylo") || is.null(result$edge.length) ||
-    length(result$edge.length) != nrow(result$edge) ||
-    any(!is.finite(result$edge.length)) || any(result$edge.length < 0) ||
-    anyDuplicated(result$tip.label) ||
-    !identical(sort(result$tip.label), sort(input$tip.label))) {
-    stop("Final tree is invalid or does not contain the input tree's taxa.")
+set_status() {
+  printf 'status=%s\nstage=%s\nconfig=%s\n' "$1" "$stage" "$config" > "$status_file.tmp"
+  mv "$status_file.tmp" "$status_file"
 }
-RS
-
-python3 - <<'PY'
-from pathlib import Path
-import math
-
-log = Path('generated/roadies_v1.1.16b.config.log').read_text()
-objectives = [line.split()[3] for line in log.splitlines()
-              if len(line.split()) >= 4 and line.split()[:3] == ['after', 'opt', 'calc:']]
-if not objectives or not math.isfinite(float(objectives[-1])):
-    raise SystemExit('Final run did not report a finite objective.')
-selection = dict(line.split('=', 1) for line in
-                 Path('generated/treepl_replicate_runs/selected_replicate.txt').read_text().splitlines())
-Path('generated/final_run_status.txt').write_text(
-    'status=running\nstage=plotting\nconfig_updated=yes\n'
-    'config_snapshot=generated/roadies_v1.1.16b.final.config\n'
-    f"final_objective={objectives[-1]}\nselected_replicate_objective={selection['lowest_objective']}\n"
-    f"replicates_attempted={selection['attempted']}\nreplicates_successful={selection['successful']}\n"
-    f"replicates_failed={selection['failed']}\n"
-    f"replicates_planned={selection['planned']}\n"
-    f"replicate_stop_reason={selection['stop_reason']}\n"
-    f"best_objective_matches={selection['best_objective_matches']}\n")
-print('Final tree validated; objective =', objectives[-1])
-print('Selected replicate objective =', selection['lowest_objective'])
-PY
-
-# Plot from this topology's analysis directory.
-stage=plotting
-Rscript roadies_v1.1.16b.treePL.R 2>&1 | tee generated/plotting.log
-
-python3 - <<'PY'
-from pathlib import Path
-status = Path('generated/final_run_status.txt')
-status.write_text(status.read_text().replace(
-    'status=running\nstage=plotting\n', 'status=complete\nplotting=complete\n', 1))
-PY
-echo "Analysis completed: final tree validated, plot and age table generated."
+# The benchmark clears generated/ after preflight and records its own console log.
+python3 ../treepl_benchmark.py "$config" "$@"
+trap 'code=$?; if [ "$code" -ne 0 ]; then if [ -d generated ]; then set_status failed; fi; echo "ROADIES workflow stopped at $stage (exit $code)." >&2; fi' EXIT
+stage=calibration_plot_input
+set_status running
+# The benchmark exports this subset from the same master it validated.
+test -s generated/roadies_v1.1.16b.calibrations.csv
+stage=tree_plotting
+set_status running
+Rscript roadies_v1.1.16b.treePL.R 2>&1 | tee generated/tree_plotting.log
+stage=dated_plotting
+set_status running
+Rscript ../plot_dated_tree.R \
+  --tree generated/roadies_v1.1.16b.scientific.treePL.tre \
+  --accession-tree generated/roadies_v1.1.16b.treePL.tre \
+  --calibrations generated/roadies_v1.1.16b.calibrations.csv \
+  --output generated/roadies_v1.1.16b.dated.pdf \
+  --title 'ROADIES v1.1.16b' 2>&1 | tee generated/dated_plotting.log
+stage=complete
+set_status complete
+printf 'dated_pdf=complete\n' >> "$status_file"
+echo 'ROADIES benchmark, dated trees, PNG, calibration ages, and dated-tree PDF complete.'
