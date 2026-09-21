@@ -550,3 +550,6 @@ screen	7	0.0001	3-5-0-0	555136393	50	False	1	complete	6440.635		18.244	0		screen
 screen	7	0.0001	3-2-0-0	1729	50	False	1	complete	5683.7063		37.575	7		screen/s007/3-2-0-0_seed-1729_thorough-0
 screen	7	0.0001	3-1-0-0	555136393	50	False	1	complete	5936.7332		46.455	2		screen/s007/3-1-0-0_seed-555136393_thorough-0
 screen	7	0.0001	3-1-0-0	1729	50	False	1	complete	5929.3024		58.918	0		screen/s007/3-1-0-0_seed-1729_thorough-0
+screen	7	0.0001	4-1-0-0	555136393	50	False	1	complete	9275.5524		20.137	100		screen/s007/4-1-0-0_seed-555136393_thorough-0
+screen	7	0.0001	4-2-0-0	555136393	50	False	1	complete	6792.9039		23.227	101		screen/s007/4-2-0-0_seed-555136393_thorough-0
+screen	7	0.0001	3-2-0-0	555136393	50	False	1	complete	5677.072		56.079	4		screen/s007/3-2-0-0_seed-555136393_thorough-0
