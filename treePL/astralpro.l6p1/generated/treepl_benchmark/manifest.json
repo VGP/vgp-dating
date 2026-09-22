@@ -917,5 +917,58 @@
     }
   },
   "original_config_sha256": "dfe90ff0c4969cf0c8d103edd260567dc2916ff9ba1f64145c52cb7760cd9612",
-  "status": "running"
+  "status": "complete",
+  "published_config_sha256": "757e5864717e5ec874610918260d8954c4ef6e0cee26581c393c0a2db0310a85",
+  "selection": {
+    "stage": "final_check",
+    "index": 10,
+    "smooth": 1e-07,
+    "candidate": [
+      2,
+      3,
+      1,
+      1
+    ],
+    "seed": 1729,
+    "pliter": 200,
+    "threads": 1,
+    "thorough": false,
+    "status": "complete",
+    "assessment": "retained",
+    "objective": 5237.3495,
+    "score": null,
+    "seconds": 112.465,
+    "negative_returns": 67,
+    "reason": "",
+    "fit_id": "final_check/s010/2-3-1-1_seed-1729_thorough-0",
+    "raw_objective": "5237.3495",
+    "artifacts": {
+      "result.tre": "233596b3b9f092319e36c1b0ab0eaca8b701c202accded299398b93af099b895",
+      "ages.tsv": "c41c9c3133637e38be3d561c450fad25d5aa868149759cb5f089feeaaf61b386",
+      "fit.config": "d2f54867896ceb97fe6067cd8ede618b4c4e65f385e8f000f2d185dc211ec225",
+      "run.log": "6dc682f80aefd3f5a3ea85df311acddf2316a85ff57316ee9944522a7536dab2"
+    }
+  },
+  "thorough_requested": false,
+  "selected_thorough": false,
+  "parallelism": {
+    "pl": {
+      "jobs": 10,
+      "threads": 1
+    },
+    "cv": {
+      "jobs": 5,
+      "threads": 2
+    }
+  },
+  "output_sha256": "233596b3b9f092319e36c1b0ab0eaca8b701c202accded299398b93af099b895",
+  "retention": {
+    "evaluations": 1740,
+    "age_vectors": 1685,
+    "internal_nodes": 564,
+    "evaluations_sha256": "6f20b80693735684e90d9e0093ef51546508d453b8a560bdb70f3692e3b043d7",
+    "node_ages_sha256": "b24f053319c83043bd023647ccc6654389ba3a757fbd51ea916c1dc776c96d5a",
+    "keep_work": false,
+    "status": "cleaned"
+  }
 }

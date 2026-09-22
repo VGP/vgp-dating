@@ -1,0 +1,13 @@
+stage	seed	pliter	thorough	objective	status	selected	fit_id
+screen	104729	50	False	5237.3668	complete	False	screen/s010/2-3-1-1_seed-104729_thorough-0
+final_check	1587025888	200	True	5237.5342	complete	False	final_check/s010/2-3-1-1_seed-1587025888_thorough-1
+final_check	130363	200	True	5237.4741	complete	False	final_check/s010/2-3-1-1_seed-130363_thorough-1
+final_check	555136393	200	True	5237.4955	complete	False	final_check/s010/2-3-1-1_seed-555136393_thorough-1
+final_check	104729	200	True	5237.3854	complete	False	final_check/s010/2-3-1-1_seed-104729_thorough-1
+final_check	1729	200	True	5237.4384	complete	False	final_check/s010/2-3-1-1_seed-1729_thorough-1
+final_check	104729	200	False	5237.3509	complete	False	final_check/s010/2-3-1-1_seed-104729_thorough-0
+final_check	130363	200	False	5237.3524	complete	False	final_check/s010/2-3-1-1_seed-130363_thorough-0
+final_check	1729	200	False	5237.3495	complete	True	final_check/s010/2-3-1-1_seed-1729_thorough-0
+final_check	1587025888	200	False	5237.3512	complete	False	final_check/s010/2-3-1-1_seed-1587025888_thorough-0
+final_check	555136393	200	False	5237.3523	complete	False	final_check/s010/2-3-1-1_seed-555136393_thorough-0
+standalone	1729	200	False	5237.3495	complete	False	standalone/s010/2-3-1-1_seed-1729_thorough-0

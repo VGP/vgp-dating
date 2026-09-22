@@ -1,0 +1,9 @@
+{
+  "evaluations": 1740,
+  "age_vectors": 1685,
+  "internal_nodes": 564,
+  "evaluations_sha256": "6f20b80693735684e90d9e0093ef51546508d453b8a560bdb70f3692e3b043d7",
+  "node_ages_sha256": "b24f053319c83043bd023647ccc6654389ba3a757fbd51ea916c1dc776c96d5a",
+  "keep_work": false,
+  "status": "cleaned"
+}

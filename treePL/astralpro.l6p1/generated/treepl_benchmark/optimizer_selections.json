@@ -1,0 +1,420 @@
+{
+  "0": {
+    "candidate": [
+      2,
+      4,
+      0,
+      0
+    ],
+    "best_fit": {
+      "stage": "screen",
+      "index": 0,
+      "smooth": 1000.0,
+      "candidate": [
+        2,
+        4,
+        0,
+        0
+      ],
+      "seed": 1729,
+      "pliter": 50,
+      "threads": 1,
+      "thorough": false,
+      "status": "complete",
+      "assessment": "retained",
+      "objective": 1073590.4,
+      "score": null,
+      "seconds": 14.871,
+      "negative_returns": 0,
+      "reason": "",
+      "fit_id": "screen/s000/2-4-0-0_seed-1729_thorough-0",
+      "raw_objective": "1073590.4",
+      "artifacts": {
+        "result.tre": "6bfd4caaaf0fb588c2230efa55b89506ba381da3a7f8829721d583ec148f1a3a",
+        "ages.tsv": "41495b2bc8d0ce2639190a2a80274b2bb387219c396b19ec18a0e4986773e08b",
+        "fit.config": "8cd11df5310d4beb00739de1643732ca5236ca256dd7fa94a9c20c2766fdc680",
+        "run.log": "e390527b7d275bba56e9ab649f98ffdb2ca5662792fe37c71875fe6d4b1eb728"
+      }
+    }
+  },
+  "1": {
+    "candidate": [
+      2,
+      1,
+      0,
+      0
+    ],
+    "best_fit": {
+      "stage": "screen",
+      "index": 1,
+      "smooth": 100.0,
+      "candidate": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "seed": 1729,
+      "pliter": 50,
+      "threads": 1,
+      "thorough": false,
+      "status": "complete",
+      "assessment": "retained",
+      "objective": 1023933.8,
+      "score": null,
+      "seconds": 12.068,
+      "negative_returns": 0,
+      "reason": "",
+      "fit_id": "screen/s001/2-1-0-0_seed-1729_thorough-0",
+      "raw_objective": "1023933.8",
+      "artifacts": {
+        "result.tre": "113779809e49a3b83520da359d0e35a9d9bc1d6f9d5df628ebf331db27283691",
+        "ages.tsv": "8a941ef56a7bc56546823326b397015ecd040a52cc84d9417855f2e380bc0125",
+        "fit.config": "7f6484bb63d041c6ccd76398379b6c317f92d5eba0834ada7d857887bc0a32ac",
+        "run.log": "cdfb6a10f86584a368b64c5b4be4709ee6f98b0363f25bf394d3f273e83c21ce"
+      }
+    }
+  },
+  "2": {
+    "candidate": [
+      2,
+      4,
+      0,
+      0
+    ],
+    "best_fit": {
+      "stage": "screen",
+      "index": 2,
+      "smooth": 10.0,
+      "candidate": [
+        2,
+        4,
+        0,
+        0
+      ],
+      "seed": 1729,
+      "pliter": 50,
+      "threads": 1,
+      "thorough": false,
+      "status": "complete",
+      "assessment": "retained",
+      "objective": 848524.9,
+      "score": null,
+      "seconds": 12.299,
+      "negative_returns": 0,
+      "reason": "",
+      "fit_id": "screen/s002/2-4-0-0_seed-1729_thorough-0",
+      "raw_objective": "848524.9",
+      "artifacts": {
+        "result.tre": "0687d7eb01a64efd93f76a7b6058da092105f4fbcda5e8a4b615276d21c6345e",
+        "ages.tsv": "15b6c6c0818540cc180fed813085b4df23021f0bea9e921a66a603432564c739",
+        "fit.config": "72631a938f97673cd47b978f7ea43e2c1be885e3cb4c49ac2e65ad878acc61f9",
+        "run.log": "f24ef162eb68f0421109902297d77fa3e0dd4d7a977a0a29385968563d3c06f9"
+      }
+    }
+  },
+  "3": {
+    "candidate": [
+      2,
+      4,
+      0,
+      0
+    ],
+    "best_fit": {
+      "stage": "screen",
+      "index": 3,
+      "smooth": 1.0,
+      "candidate": [
+        2,
+        4,
+        0,
+        0
+      ],
+      "seed": 1729,
+      "pliter": 50,
+      "threads": 1,
+      "thorough": false,
+      "status": "complete",
+      "assessment": "retained",
+      "objective": 519283.96,
+      "score": null,
+      "seconds": 17.26,
+      "negative_returns": 0,
+      "reason": "",
+      "fit_id": "screen/s003/2-4-0-0_seed-1729_thorough-0",
+      "raw_objective": "519283.96",
+      "artifacts": {
+        "result.tre": "4969d521c3e7b58feb84ae5eee4e65bba05e7b4809a8def697059dc28a02cf30",
+        "ages.tsv": "0d059f92980ea20acb41bd083714c010249250aac749ad861b120b9772b5f3d6",
+        "fit.config": "a98bb67823465242af978bca5ce010c0e8a42aac16e37387b6a9a85e2bfc5cd4",
+        "run.log": "bfd29872e84b4d49fcb48ef525ec09fa5bee6c4600cf653cc977b59553d21718"
+      }
+    }
+  },
+  "4": {
+    "candidate": [
+      1,
+      3,
+      0,
+      0
+    ],
+    "best_fit": {
+      "stage": "screen",
+      "index": 4,
+      "smooth": 0.1,
+      "candidate": [
+        1,
+        3,
+        0,
+        0
+      ],
+      "seed": 1729,
+      "pliter": 50,
+      "threads": 1,
+      "thorough": false,
+      "status": "complete",
+      "assessment": "retained",
+      "objective": 184355.72,
+      "score": null,
+      "seconds": 21.552,
+      "negative_returns": 1,
+      "reason": "",
+      "fit_id": "screen/s004/1-3-0-0_seed-1729_thorough-0",
+      "raw_objective": "184355.72",
+      "artifacts": {
+        "result.tre": "1f10585e2f1d0e785fb6f443ee0f9aa7599ef7ceeb875496b4df8de92e18b44b",
+        "ages.tsv": "2c531d14f42f00f2c7ddebeccc2394fc64527935bff108a8b413db1fba7bc83d",
+        "fit.config": "a5355304e1df2bd6462d9de17865340cada3a60e8a46409970a330735288e445",
+        "run.log": "84b8ee2160888b847c2cf5ace5ef561961e1dddf5859af4a5bbf432b6e1f4af3"
+      }
+    }
+  },
+  "5": {
+    "candidate": [
+      1,
+      3,
+      0,
+      0
+    ],
+    "best_fit": {
+      "stage": "screen",
+      "index": 5,
+      "smooth": 0.01,
+      "candidate": [
+        1,
+        3,
+        0,
+        0
+      ],
+      "seed": 104729,
+      "pliter": 50,
+      "threads": 1,
+      "thorough": false,
+      "status": "complete",
+      "assessment": "retained",
+      "objective": 37948.355,
+      "score": null,
+      "seconds": 36.147,
+      "negative_returns": 4,
+      "reason": "",
+      "fit_id": "screen/s005/1-3-0-0_seed-104729_thorough-0",
+      "raw_objective": "37948.355",
+      "artifacts": {
+        "result.tre": "721c4e9ba2dc3bb7b06bf4578dc14ec74f9ffb8338b4ae5620bb9fbd8c176a79",
+        "ages.tsv": "9f0475dfb3b1d8c8cd86cb7a57c4cd46ecf9bc2ca27293011cd05537e1aa4024",
+        "fit.config": "8338467faded3cc18bce526356f0aeec118b3eb7ecfccec04cb80720d132590a",
+        "run.log": "040a33bd16e3082fb81841efebc32b0e779aba96f4e547c36f59fc6fa598218b"
+      }
+    }
+  },
+  "6": {
+    "candidate": [
+      1,
+      3,
+      0,
+      0
+    ],
+    "best_fit": {
+      "stage": "screen",
+      "index": 6,
+      "smooth": 0.001,
+      "candidate": [
+        1,
+        3,
+        0,
+        0
+      ],
+      "seed": 104729,
+      "pliter": 50,
+      "threads": 1,
+      "thorough": false,
+      "status": "complete",
+      "assessment": "retained",
+      "objective": 9027.1044,
+      "score": null,
+      "seconds": 44.091,
+      "negative_returns": 2,
+      "reason": "",
+      "fit_id": "screen/s006/1-3-0-0_seed-104729_thorough-0",
+      "raw_objective": "9027.1044",
+      "artifacts": {
+        "result.tre": "b7b55fbd5b455d84eb923cf89fbe9ece3836c84eda44536d46f6c735ae21c681",
+        "ages.tsv": "2270218e733107965c143377a95a3e62ba53a9c3c6967688c45a9bc4fec01ec6",
+        "fit.config": "d4dfdfa46cbdec6b166b5a69f9512b65ce5cec6c83ace8de062a89f7b87286e3",
+        "run.log": "a06b89b521d70f99d086e7131f6f0d727f6e025bb0ec201a0c1542737d79b6bf"
+      }
+    }
+  },
+  "7": {
+    "candidate": [
+      1,
+      3,
+      0,
+      0
+    ],
+    "best_fit": {
+      "stage": "screen",
+      "index": 7,
+      "smooth": 0.0001,
+      "candidate": [
+        1,
+        3,
+        0,
+        0
+      ],
+      "seed": 130363,
+      "pliter": 50,
+      "threads": 1,
+      "thorough": false,
+      "status": "complete",
+      "assessment": "retained",
+      "objective": 5624.6062,
+      "score": null,
+      "seconds": 92.007,
+      "negative_returns": 2,
+      "reason": "",
+      "fit_id": "screen/s007/1-3-0-0_seed-130363_thorough-0",
+      "raw_objective": "5624.6062",
+      "artifacts": {
+        "result.tre": "c2489dd5f8cf03f89a53472fad4fa5f861355049b445b849a624e1c02ef69e2d",
+        "ages.tsv": "401cad391859304843ec3d09bcfdcb9974d4998d2bf75c8e13f987c800674a26",
+        "fit.config": "1d320da585d9afe687ffbef05af880d821aadaf08bac4f351ed90e467a1a9db5",
+        "run.log": "133efd7a2dde4b05bb6901c89b52ae420d111f60218779fc2c834596d4a74325"
+      }
+    }
+  },
+  "8": {
+    "candidate": [
+      2,
+      3,
+      0,
+      0
+    ],
+    "best_fit": {
+      "stage": "screen",
+      "index": 8,
+      "smooth": 1e-05,
+      "candidate": [
+        2,
+        3,
+        0,
+        0
+      ],
+      "seed": 1729,
+      "pliter": 50,
+      "threads": 1,
+      "thorough": false,
+      "status": "complete",
+      "assessment": "retained",
+      "objective": 5275.8203,
+      "score": null,
+      "seconds": 49.739,
+      "negative_returns": 4,
+      "reason": "",
+      "fit_id": "screen/s008/2-3-0-0_seed-1729_thorough-0",
+      "raw_objective": "5275.8203",
+      "artifacts": {
+        "result.tre": "adbc9317f93be2fcda7d4d6df084b0c4f36eb84b299381a08c685fb30707418b",
+        "ages.tsv": "b84cd32d97538eb494e47cc7c4349dee9a68d0ca74be833d10390e8ab73d7a8f",
+        "fit.config": "bc1ea44bdff80381bba37d530e54db66434fe4c075fb97016082b65c2f94a717",
+        "run.log": "5d68740ffe78d138a006c67696fd61bd0e1e9e407be3f3c831a40e35fd749f9e"
+      }
+    }
+  },
+  "9": {
+    "candidate": [
+      2,
+      3,
+      1,
+      1
+    ],
+    "best_fit": {
+      "stage": "screen",
+      "index": 9,
+      "smooth": 1e-06,
+      "candidate": [
+        2,
+        3,
+        1,
+        1
+      ],
+      "seed": 130363,
+      "pliter": 50,
+      "threads": 1,
+      "thorough": false,
+      "status": "complete",
+      "assessment": "retained",
+      "objective": 5240.8479,
+      "score": null,
+      "seconds": 49.078,
+      "negative_returns": 6,
+      "reason": "",
+      "fit_id": "screen/s009/2-3-1-1_seed-130363_thorough-0",
+      "raw_objective": "5240.8479",
+      "artifacts": {
+        "result.tre": "ccb9b5084770042e1ef854578ea940190853c079fb58d7e14a7d683d27674d81",
+        "ages.tsv": "41bc7d3ddc1d01587c988cfb5022d2be89be0b08e5cae5e337f78f4a9d1b45b6",
+        "fit.config": "a20568ec498a645ccbdefc8426a6ad0288916c8bb05ae10e57803ba7204d7830",
+        "run.log": "e3ef7a79b0c30d4a832580a923a4825249a08a06fd494986a6c683822ad917a7"
+      }
+    }
+  },
+  "10": {
+    "candidate": [
+      2,
+      3,
+      1,
+      1
+    ],
+    "best_fit": {
+      "stage": "screen",
+      "index": 10,
+      "smooth": 1e-07,
+      "candidate": [
+        2,
+        3,
+        1,
+        1
+      ],
+      "seed": 104729,
+      "pliter": 50,
+      "threads": 1,
+      "thorough": false,
+      "status": "complete",
+      "assessment": "retained",
+      "objective": 5237.3668,
+      "score": null,
+      "seconds": 51.767,
+      "negative_returns": 6,
+      "reason": "",
+      "fit_id": "screen/s010/2-3-1-1_seed-104729_thorough-0",
+      "raw_objective": "5237.3668",
+      "artifacts": {
+        "result.tre": "256b72255d2e20d3a52cffef092494b4eddaafb1f71bfe59f1aca82a94b6678f",
+        "ages.tsv": "da12f1967b0a787a49d0bd9497f627cc42042cefe561ad689c8e1b08688b43b0",
+        "fit.config": "7d87b901fd2bd0e6976fae1508ca7d2771b19393eae7062030c58347df089979",
+        "run.log": "f307a9b1a47358374e821b161c0a6f34075313cd8e79428ea66526a4540db9d3"
+      }
+    }
+  }
+}
