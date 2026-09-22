@@ -1,4 +1,0 @@
-status=complete
-stage=complete
-config=astralpro.l6p1.config
-dated_pdf=complete

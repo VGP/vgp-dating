@@ -1,9 +1,0 @@
-{
-  "before_objective": 5237.3668,
-  "after_objective": 5237.3523,
-  "objective_improvement_percent": 0.0002768566830229564,
-  "median_age_change_ma": 0.8202250000000908,
-  "max_age_change_ma": 47.69999899999996,
-  "before_fit_id": "screen/s010/2-3-1-1_seed-104729_thorough-0",
-  "after_fit_id": "final_check/s010/2-3-1-1_seed-555136393_thorough-0"
-}
