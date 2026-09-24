@@ -1,6 +1,7 @@
 # Optional read-only audit after intentional calibration/config/tree updates.
 # Run from any directory: Rscript /path/to/treePL/calibration_config.R
-# Launchers use --configs-only TOPOLOGY to check pairs and ages without trees.
+# Optional manual --configs-only TOPOLOGY checks pairs and ages without trees.
+# Launchers perform their config check in treepl_benchmark.py.
 # Neither mode modifies files.
 script <- sub('^--file=', '', grep('^--file=',commandArgs(),value=TRUE)[1])
 root <- dirname(dirname(normalizePath(script)))

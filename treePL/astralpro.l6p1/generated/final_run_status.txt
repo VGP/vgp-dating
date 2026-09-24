@@ -1,0 +1,4 @@
+status=complete
+stage=complete
+config=astralpro.l6p1.config
+published=true

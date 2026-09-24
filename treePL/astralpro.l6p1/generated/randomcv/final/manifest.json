@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "published": true,
+  "stage": "complete",
+  "selected_source": "deep_seed_search",
+  "objective": 5237.3491,
+  "confirmation_valid": true,
+  "published_hashes": {
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.treePL.tre": "3d8038b12cef9f3468e8b4a6136f4594e9f647ebddf2475f2ad2afd4288d6077",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.calibrations.csv": "776cc193fe243df5728ef1d294ddc6ec94fd37c8e519e78de87e187b8d2dde3a",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/astralpro.l6p1.config": "5dafaa1b33df2058f09b978e7844c98b6d0b434dfdc9d8798d9854852e5345e7"
+  },
+  "plot_hashes": {
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.scientific.treePL.tre": "84301b0fda9432f45512380e3ffc57bd09e205b0f7017a2ce3546d1361513160",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.dated.pdf": "66ac29211aab4692b76591f50acfee6a64de84dd47d8eeedd189066dd49fb2f4",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.treePL.png": "822e0eef9ad39a948085ebe89cca4bacf5d941aa876523b0e6af5149659e183e",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.calibrated_node_ages.tsv": "453789fb9d9cd61d6be02139a79161dbdda27249165b2787e79df8025ca7fcad"
+  }
+}

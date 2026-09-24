@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "smoothing": 1e-07,
+  "best_fit": {
+    "smoothing": 1e-07,
+    "seed": 693100386,
+    "candidate": "2-3-1-0",
+    "stage": "deep_seed_search",
+    "status": "complete",
+    "pliter": 5000,
+    "threads": 2,
+    "thorough": false,
+    "objective": 5237.3491,
+    "score": null,
+    "seconds": 1641.801,
+    "groups": 0,
+    "threshold": null,
+    "max_partial_score": null,
+    "reason": "",
+    "fit_id": "deep_seed_search/s11/2-3-1-0_seed-693100386"
+  },
+  "attempted_fits": 150,
+  "valid_fits": 150,
+  "winning_fit_stage": "deep_seed_search",
+  "production_config_updated": false,
+  "standalone_validation_pending": true
+}

@@ -35,11 +35,13 @@ annotation_rows <- function(labels) {
 tr <- read.tree(opts$tree)
 if (!inherits(tr,'phylo') || !is.rooted(tr) || is.null(tr$edge.length) ||
     any(!is.finite(tr$edge.length)) || any(tr$edge.length < 0) ||
-    anyDuplicated(tr$tip.label) || !is.ultrametric(tr)) {
+    anyDuplicated(tr$tip.label)) {
     stop('Input must be a rooted, ultrametric tree with unique tips and finite nonnegative branch lengths (Ma).')
 }
 n <- Ntip(tr); nodes <- seq.int(n+1L,n+tr$Nnode)
+age_tolerance <- 0.001
 depths <- node.depth.edgelength(tr)
+if(diff(range(depths[seq_len(n)]))>age_tolerance) stop('Tip ages differ by more than the pipeline tolerance of 0.001 Ma.')
 ages <- max(depths[seq_len(n)]) - depths
 ages[seq_len(n)] <- 0
 height <- max(ages)
@@ -114,7 +116,7 @@ if (!is.null(opts$calibrations)) {
     cal$node_id <- node_id[cal$ape_node]; cal$estimated_age_ma <- ages[cal$ape_node]
     cal$group <- group[cal$ape_node]
     cal$position <- ifelse(cal$max_ma>cal$min_ma,(cal$estimated_age_ma-cal$min_ma)/(cal$max_ma-cal$min_ma),NA_real_)
-    cal$status <- ifelse(cal$estimated_age_ma < cal$min_ma-1e-5 | cal$estimated_age_ma > cal$max_ma+1e-5,'outside','within')
+    cal$status <- ifelse(cal$estimated_age_ma < cal$min_ma-age_tolerance | cal$estimated_age_ma > cal$max_ma+age_tolerance,'outside','within')
     if (any(cal$status=='outside')) warning('Ages outside constraints: ',paste(cal$calibration_id[cal$status=='outside'],collapse=', '))
 }
 # ICS 2024/12 boundaries (Ma); CGMW colors from official ICS chart data.
@@ -128,7 +130,8 @@ geology <- data.frame(name=c('Quaternary','Neogene','Paleogene','Cretaceous','Ju
 max_age <- max(height,if(nrow(cal)) cal$max_ma else 0)*1.02
 if (max_age>1000) geology <- rbind(geology,data.frame(name='Older',short='Older',young=1000,old=max_age,color='#DFE2E5'))
 width <- if(is.null(opts$width)) 24 else as.numeric(opts$width)
-page_height <- if(is.null(opts$height)) max(18,n*0.15+4) else as.numeric(opts$height)
+minimum_panel_height <- max(3,1.4+nrow(cal)*.12)+4.3+5.6+2+.75+4
+page_height <- if(is.null(opts$height)) max(20,n*0.15+4,minimum_panel_height) else as.numeric(opts$height)
 if (any(!is.finite(c(width,page_height))) || width<12 || page_height<12) stop('PDF dimensions must be at least 12 inches.')
 tree_name <- sub('\\.(nwk|tre|tree)$','',basename(opts$tree),ignore.case=TRUE)
 tree_name <- sub('(\\.scientific)?\\.treePL$','',tree_name,ignore.case=TRUE)
@@ -248,11 +251,21 @@ find_panel <- function(name,inches) {
     }
     stop('No clear space for ',name,' panel. Increase --height or use a less dense tree.')
 }
-cal_box<-find_panel('calibrations',max(3,1.4+nrow(cal)*.12))
-ltt_box<-find_panel('ltt',4.3)
-terminal_box<-find_panel('terminal',5.6)
-# A compact legend occupies another independently checked empty rectangle.
-legend_box<-find_panel('legend',2.0)
+# Place the diagnostics and their shared legend as one aligned block.
+# Reserve the entire block against the tree before dividing it into panels.
+panel_heights<-c(calibrations=max(3,1.4+nrow(cal)*.12),ltt=4.3,terminal=5.6,legend=2)
+panel_gap<-.25
+block<-find_panel('diagnostics',sum(panel_heights)+panel_gap*(length(panel_heights)-1))
+panel_locations<-list();top<-block[4]
+for(name in names(panel_heights)) {
+    bottom<-top-panel_heights[[name]]*uy_per_inch
+    panel_locations[[name]]<-c(block[1],bottom,block[3],top)
+    top<-bottom-panel_gap*uy_per_inch
+}
+cal_box<-panel_locations$calibrations
+ltt_box<-panel_locations$ltt
+terminal_box<-panel_locations$terminal
+legend_box<-panel_locations$legend
 for (b in panel_locations) rect(b[1],b[2],b[3],b[4],col='white',border='#DEE5E9',lwd=.8)
 figure_for <- function(b) {
     px<-main_plt[1]+(b[c(1,3)]-main_usr[1])/diff(main_usr[1:2])*diff(main_plt[1:2])

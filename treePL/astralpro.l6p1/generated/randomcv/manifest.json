@@ -1,0 +1,86 @@
+{
+  "engine": "vgp-randomcv-v1",
+  "status": "complete",
+  "stage": "complete",
+  "config": "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/astralpro.l6p1.config",
+  "input_hashes": {
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/astralpro.l6p1.config": "03176b5165d0626c717edceb3c58baa3849f584b2326f0e5e4b5b2d121f76dbe",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/trees/astralpro.l6p1.tre": "14a8c383bdd811e836cff32fe716c1e0ab00b9629e9dd9c467cf355ecaa319cd",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/calibrations/master_calibrations.csv": "aae8692c64ca48b9a3ca1965cc24b169af7c3e0e743ac8eead0a94b49ae3f9cb",
+    "/opt/homebrew/bin/treePL": "2b58f491d00278efeecc63db68e2deb69ce96976250795ea7e15f99a01629f08"
+  },
+  "script_sha256": "cce48e88b84f9ad623eb2dcd5c721d05c58b306348312ded3775427fc05d9007",
+  "options": {
+    "config": "astralpro.l6p1.config",
+    "smoothing_values": null,
+    "smoothing_range": null,
+    "seed_count": 64,
+    "screen_seeds": 3,
+    "seed": 20260922,
+    "jobs": 8,
+    "threads": 2,
+    "pliter": 50,
+    "cviter": 3,
+    "optimizer_seeds": 3,
+    "optimizer_pliter": 200,
+    "shortlist_size": 5,
+    "deep_seeds": 50,
+    "deep_pliter": 5000,
+    "deep_configurations": 3,
+    "fallback_ceiling": 1000000000000.0,
+    "outlier_factor": 100,
+    "master": "/Users/rapyron/Documents/GitHub/vgp-dating/calibrations/master_calibrations.csv",
+    "output": null,
+    "keep_work": false,
+    "dry_run": false,
+    "smoothing": [
+      10000.0,
+      1000.0,
+      100.0,
+      10.0,
+      1.0,
+      0.1,
+      0.01,
+      0.001,
+      0.0001,
+      1e-05,
+      1e-06,
+      1e-07,
+      1e-08,
+      1e-09,
+      1e-10
+    ]
+  },
+  "candidates": [
+    [
+      1,
+      3,
+      0,
+      0
+    ],
+    [
+      2,
+      3,
+      1,
+      1
+    ],
+    [
+      2,
+      3,
+      0,
+      0
+    ]
+  ],
+  "cpu_count": 10,
+  "randomcv": "Installed treePL uses 10 groups of 10% tips. Scores are not on the full-CV scale.",
+  "caveats": [
+    "Rejection is heuristic and cannot detect a bad majority; replacements condition the sampled distribution.",
+    "Thread scheduling can affect random draws even with recorded seeds."
+  ],
+  "seconds": 87849.48,
+  "production_unchanged": false,
+  "cv_status": "complete",
+  "optimizer_screen_status": "complete",
+  "published": true,
+  "final_selection": "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/randomcv/final/selection.json"
+}
