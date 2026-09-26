@@ -241,9 +241,31 @@ The phylogenetic analysis of [Stack (2026)](https://doi.org/10.1002/ar.70090) wa
 
 Even though earlier papers found a significant effect of †_Plectocretacicus_ on percomorph ages (see [Arcila et al. 2015](https://www.sciencedirect.com/science/article/pii/S1055790314003625) and [Miller et al. 2024](https://www.nature.com/articles/s41559-024-02586-3) versus [Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109), [Dornburg et al. 2014](https://link.springer.com/article/10.1186/s12862-014-0169-0), [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3), and [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115)), a recent study with denser taxon and fossil calibration sampling (Santos et al, _in review_) support more ancient timelines of diversification, organically recovering node ages comparable to those in analyses including †_Plectocretacicus_. The remaining controversy concerns two related points: **(i)** the morphological matrices arising from [Santini & Tyler (2003)](https://academic.oup.com/zoolinnean/article-abstract/139/4/565/2624208) have sampled at most one outgroup from Caproiformes (Caproidae: _Antigonia capros_) and the more distant Zeiformes (Cyttidae: _Cyttus novaezealandiae_), limiting possibility of other topological resolutions with respect to the closely-related Priacanthiformes, Scatophagidae, or Siganidae (the latter two being order-level _incertae sedis_ after [Betancur-R. et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3)), and **(ii)** as a result of the limited taxon sampling, character sampling is also limited and does not appear to provide any unambiguous synapomorphies or character states that are diagnostic in combination which can discriminate between the placement of †_Plectocretacicus_ on the stem of Tetraodontiformes (**Node 1012**), the stem of Lophiiformes + Tetraodontiformes (**Node 1011**), or the stem of Scatophagidae + (Lophiiformes + Tetraodontiformes) represented by **Node 1001**.
 
+
+### New calibrations for ASTRAL (v0.1.1)
+
+**Node 641:** Lampriformes + Polymixiiformes + Percopsiformes + Zeiformes + Stylephoriformes + Gadiformes | 97.4–145.0Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Lampris incognitus_ (Lampriformes: Lampridae) and _Gadus morhua_ (Gadiformes: Gadidae).\
+**Fossil taxon:** †_Xenyllion stewarti_ (FHPR 701) from the Mowry Formation (Cretaceous: Cenomanian), Utah, United States ([Newbrey et al. 2013](https://www.pfeil-verlag.de/wp-content/uploads/2015/05/4_59d14.pdf)).\
+**Minimum age:** 97.4Ma\
+**Minimum justification:** Based on the oldest-known unequivocal crown paracanthopterygian, †_Xenyllion stewarti,_ from the Cenomanian of the Cretaceous. Argon mass spectroscopy of the Mowry formation indicates an age of 98.7-97.4Ma ([Singer et al 2021](https://doi.org/10.1130/B35794.1)). Maximum Parsimony and Bayesian analyses of this and the other sphenocephaliform taxa using 46-78 characters resolve †_Xenyllion_ in the crown of Paracanthopterygii ([Davesne et al. 2016](https://doi.org/10.3389/fevo.2016.00129), [Murray et al. 2019](https://doi.org/10.1017/S0016756819001328), [Cantalice et al. 2021](https://doi.org/10.1002/spp2.1359)).\
+**Maximum age:** 145.0Ma\
+**Maximum justification:** Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2018](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3); [Brownstein and Near, 2024](https://academic.oup.com/zoolinnean/article-abstract/201/2/422/7319343); [Brownstein et al. 2025](https://academic.oup.com/evolut/article-abstract/79/6/922/8051721); [Melendez-Vasquez et al. 2025](https://www.science.org/doi/abs/10.1126/sciadv.ads8488)) but far precedes the oldest acanthomorph body fossils, which are Albian in age.
+**Notes:** Extends and replaces the calibration on **Node 1084** from the ROADIES v0.0.0 tree listed above.
+
+Node 642:   Polymixiiformes + Percopsiformes + Zeiformes + Stylephoriformes + Gadiformes
+Node calibrated:   Last common ancestor of the clade encompassing Polymixia lowei and Gadus morhua.
+Fossil taxon:   †Boreiohydrias dayi (UALVP 54046)
+Minimum age:   89.8Ma
+Minimum justification:   Based on the oldest known polymixiiform fossil, †Boreiohydrias dayi, from the Lac des Bois locality (Cretaceous: Turonian), Northwest Territories, Canada (Murray & Cumbaa 2013). This fossil has been resolved in the polymixiiform stem by Maximum Parsimony analyses of 46 characters (Murray et al. 2019).
+Maximum age: 145.0Ma
+Maximum justification: Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data (Near et al. 2012; Near et al. 2013; Betancur-R et al. 2013; Betancur-R et al. 2017; Musilova et al. 2018; Hughes et al. 2018; Ghezelayagh et al. 2022; Brownstein and Near, 2024; Brownstein et al. 2025; Melendez-Vasquez et al. 2025) but far precedes the oldest acanthomorph body fossils, which are Albian in age.
+
+
 ### Likelihood checkpoints
 
 TBD
+
 
 ## References
 
@@ -289,6 +311,8 @@ Brownstein, C.D., Dornburg, A. and Near, T.J., 2025. Cenozoic evolutionary histo
 
 Cantalice, K.M. and Alvarado-Ortega, J., 2016. Eekaulostomus cuevasae gen. and sp. nov., an ancient armored trumpetfish (Aulostomoidea) from Danian (Paleocene) marine deposits of Belisario Domínguez, Chiapas, southeastern Mexico. Palaeontologia Electronica 19.3.53A: 1-24
 
+Cantalice, K.M., Than‐Marchese, B.A. and Villalobos‐Segura, E., 2021. A new Cenomanian acanthomorph fish from the El Chango quarry (Chiapas, south‐eastern Mexico) and its implications for the early diversification and evolutionary trends of acanthopterygians. Papers in Palaeontology, 7(3), pp.1699-1726.
+
 Capobianco, A. and Friedman, M., 2019. Vicariance and dispersal in southern hemisphere freshwater fish clades: a palaeontological perspective. Biological Reviews, 94(2), pp.662-699.
 
 Chellouche, P., Fürsich, F.T. & Mäuser, M. 2012. Taphonomy of neopterygian fishes from the Upper Kimmeridgian Wattendorf Plattenkalk of Southern Germany. Palaeobio Palaeoenv 92, 99–117.
@@ -298,6 +322,8 @@ Chen, G., Chang, MM. & Liu, H. 2015. Revision of Cyprinus maomingensis Liu 1957 
 Choo, B., 2015. A new species of the Devonian actinopterygian Moythomasia from Bergisch Gladbach, Germany, and fresh observations on M. durgaringa from the Gogo Formation of Western Australia. Journal of Vertebrate Paleontology, 35(4), p.e952817.
 
 Davesne, D., Friedman, M., Barriel, V., Lecointre, G., Janvier, P., Gallut, C. and Otero, O., 2014. Early fossils illuminate character evolution and interrelationships of Lampridiformes (Teleostei, Acanthomorpha). Zoological Journal of the Linnean Society, 172(2), pp.475-498.
+
+Davesne, D., Gallut, C., Barriel, V., Janvier, P., Lecointre, G. and Otero, O., 2016. The phylogenetic intrarelationships of spiny-rayed fishes (Acanthomorpha, Teleostei, Actinopterygii): fossil taxa increase the congruence of morphology with molecular data. Frontiers in Ecology and Evolution, 4, p.129.
 
 Davesne, D., Carnevale, G. and Friedman, M., 2017. Bajaichthys elegans from the Eocene of Bolca (Italy) and the overlooked morphological diversity of Zeiformes (Teleostei, Acanthomorpha). Palaeontology, 60(2), pp.255-268.
 
@@ -351,6 +377,8 @@ Miyashita, T., Gess, R.W., Tietjen, K. and Coates, M.I., 2021. Non-ammocoete lar
 
 Monsch, K.A. and Bannikov, A.F., 2011. New taxonomic synopses and revision of the scombroid fishes (Scombroidei, Perciformes), including billfishes, from the Cenozoic of territories of the former USSR. Earth and Environmental Science Transactions of the Royal Society of Edinburgh, 102(4), pp.253-300.
 
+Murray, A.M., Brinkman, D.B., Newbrey, M.G. and Neuman, A.G., 2020. Earliest north American articulated freshwater acanthomorph fish (teleostei: percopsiformes) from upper cretaceous deposits of Alberta, Canada. Geological Magazine, 157(7), pp.1087-1096.
+
 Musilova, Z., Cortesi, F., Matschiner, M., Davies, W.I., Patel, J.S., Stieb, S.M., de Busserolles, F., Malmstrøm, M., Tørresen, O.K., Brown, C.J. and Mountford, J.K., 2019. Vision using multiple distinct rod opsins in deep-sea fishes. Science, 364(6440), pp.588-592.
 
 Mussini, G., Smith, M.P., Vinther, J., Rahman, I.A., Murdock, D.J., Harper, D.A. and Dunn, F.S., 2024. A new interpretation of Pikaia reveals the origins of the chordate body plan. Current Biology, 34(13), pp.2980-2989.
@@ -362,6 +390,8 @@ Near, T.J., Eytan, R.I., Dornburg, A., Kuhn, K.L., Moore, J.A., Davis, M.P., Wai
 Near, T.J., Dornburg, A., Eytan, R.I., Keck, B.P., Smith, W.L., Kuhn, K.L., Moore, J.A., Price, S.A., Burbrink, F.T., Friedman, M. and Wainwright, P.C., 2013. Phylogeny and tempo of diversification in the superradiation of spiny-rayed fishes. Proceedings of the national Academy of sciences, 110(31), pp.12738-12743.
 
 Near, T.J. and Thacker, C.E., 2024. Phylogenetic classification of living and fossil ray-finned fishes (Actinopterygii). Bulletin of the Peabody Museum of Natural History, 65(1), pp.3-302.
+
+Newbrey, M.G., Murray, A.M., Wilson, M.V., Brinkman, D.B. and Neuman, A.G., 2013. A new species of the paracanthopterygian Xenyllion (Sphenocephaliformes) from the Mowry Formation (Cenomanian) of Utah, USA. Mesozoic fishes, 5, pp.363-384.
 
 Newbrey, M.G. and Konishi, T., 2015. A new lizardfish (Teleostei, Aulopiformes) from the Late Cretaceous Bearpaw Formation of Alberta, Canada, with a revised diagnosis of Apateodus (Aulopiformes, Ichthyotringoidei). Journal of Vertebrate Paleontology, 35(3), p.e918042.
 
@@ -384,6 +414,8 @@ Shen, C., 2025. A new early actinopterygian from the Mid-Pennsylvanian Logan Qua
 Shu, D.G., Luo, H.L., Conway Morris, S., Zhang, X.L., Hu, S.X., Chen, L., Han, J.I.A.N., Zhu, M., Li, Y. and Chen, L.Z., 1999. Lower Cambrian vertebrates from south China. Nature, 402(6757), pp.42-46.
 
 Silva, H. M. A., and V. Gallo. 2011. Taxonomic review and phylogenetic analysis of Enchodontoidei (Teleostei: Aulopiformes). Anais da Academia Brasileira de Ciências [Annals of the Brazilian Academy of Sciences] 83:483–511.
+
+Singer, B.S., Jicha, B.R., Sawyer, D., Walaszczyk, I., Buchwaldt, R. and Mutterlose, J., 2021. Geochronology of late Albian–Cenomanian strata in the US Western Interior. Bulletin, 133(7-8), pp.1665-1678.
 
 Smith, W.L., Everman, E. and Richardson, C., 2018. Phylogeny and taxonomy of flatheads, scorpionfishes, sea robins, and stonefishes (Percomorpha: Scorpaeniformes) and the evolution of the lachrymal saber. Ichthyology & Herpetology, 106(1), pp.94-119.
 
