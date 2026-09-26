@@ -253,13 +253,14 @@ Even though earlier papers found a significant effect of †_Plectocretacicus_ o
 **Maximum justification:** Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2018](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3); [Brownstein and Near, 2024](https://academic.oup.com/zoolinnean/article-abstract/201/2/422/7319343); [Brownstein et al. 2025](https://academic.oup.com/evolut/article-abstract/79/6/922/8051721); [Melendez-Vasquez et al. 2025](https://www.science.org/doi/abs/10.1126/sciadv.ads8488)) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
 **Notes:** Extends and replaces the calibration on **Node 1084** from the ROADIES v0.0.0 tree listed above.
 
-Node 642:   Polymixiiformes + Percopsiformes + Zeiformes + Stylephoriformes + Gadiformes
-Node calibrated:   Last common ancestor of the clade encompassing Polymixia lowei and Gadus morhua.
-Fossil taxon:   †Boreiohydrias dayi (UALVP 54046)
-Minimum age:   89.8Ma
-Minimum justification:   Based on the oldest known polymixiiform fossil, †Boreiohydrias dayi, from the Lac des Bois locality (Cretaceous: Turonian), Northwest Territories, Canada (Murray & Cumbaa 2013). This fossil has been resolved in the polymixiiform stem by Maximum Parsimony analyses of 46 characters (Murray et al. 2019).
-Maximum age: 145.0Ma
-Maximum justification: Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data (Near et al. 2012; Near et al. 2013; Betancur-R et al. 2013; Betancur-R et al. 2017; Musilova et al. 2018; Hughes et al. 2018; Ghezelayagh et al. 2022; Brownstein and Near, 2024; Brownstein et al. 2025; Melendez-Vasquez et al. 2025) but far precedes the oldest acanthomorph body fossils, which are Albian in age.
+**Node 642:** Polymixiiformes + Percopsiformes + Zeiformes + Stylephoriformes + Gadiformes | 89.8–145.0Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing _Polymixia lowei_ (Polymixiiformes: Polymixiidae) and _Gadus morhua_ (Gadiformes: Gadidae).\
+**Fossil taxon:** †_Boreiohydrias dayi_ (UALVP 54046) from the Lac des Bois locality (Cretaceous: Turonian), Northwest Territories, Canada ([Murray & Cumbaa 2013](https://doi.org/10.1080/02724634.2013.722574))\
+**Minimum age:** 89.8Ma\
+**Minimum justification:** Based on the oldest known polymixiiform fossil, †_Boreiohydrias dayi,_ from the Turonian of the Cretaceous. This fossil has been resolved in the polymixiiform stem by Maximum Parsimony analyses of 46 characters ([Murray et al. 2019](https://doi.org/10.1017/S0016756819001328)).\
+**Maximum age:** 145.0Ma\
+**Maximum justification:** Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2018](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3); [Brownstein and Near, 2024](https://academic.oup.com/zoolinnean/article-abstract/201/2/422/7319343); [Brownstein et al. 2025](https://academic.oup.com/evolut/article-abstract/79/6/922/8051721); [Melendez-Vasquez et al. 2025](https://www.science.org/doi/abs/10.1126/sciadv.ads8488)) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
+**Notes:** Extends and replaces the calibration on **Node 1084** from the ROADIES v0.0.0 tree listed above.
 
 
 ### Likelihood checkpoints
@@ -376,6 +377,8 @@ Miller, E.C., Faucher, R., Hart, P.B., Rincón-Sandoval, M., Santaquiteria, A., 
 Miyashita, T., Gess, R.W., Tietjen, K. and Coates, M.I., 2021. Non-ammocoete larvae of Palaeozoic stem lampreys. Nature, 591(7850), pp.408-412.
 
 Monsch, K.A. and Bannikov, A.F., 2011. New taxonomic synopses and revision of the scombroid fishes (Scombroidei, Perciformes), including billfishes, from the Cenozoic of territories of the former USSR. Earth and Environmental Science Transactions of the Royal Society of Edinburgh, 102(4), pp.253-300.
+
+Murray, A.M. and Cumbaa, S.L., 2013. Early Turonian acanthomorphs from Lac des Bois, Northwest Territories, Canada. Journal of Vertebrate Paleontology, 33(2), pp.293-300.
 
 Murray, A.M., Brinkman, D.B., Newbrey, M.G. and Neuman, A.G., 2020. Earliest north American articulated freshwater acanthomorph fish (teleostei: percopsiformes) from upper cretaceous deposits of Alberta, Canada. Geological Magazine, 157(7), pp.1087-1096.
 
