@@ -295,7 +295,7 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 **Maximum age:** 91.89Ma\
 **Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Coraciimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in an offset skewStudent distribution with offset=62.240, xi=62.334, omega=7.442, alpha=137.954, and nu=2.258.\
-**{Not a clade in the ROADIES tree but recovered in the newer analyses}**
+**Notes:** This group does not form a clade in the ROADIES v0.0.0 tree (instead, it resolves to **Node 599**), but is recovered in the newer analyses such as ASTRAL v0.1.1**
 
 ---
 
