@@ -1,6 +1,6 @@
 # Crocodylia calibrations
 
-The root node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, generally dates to the Late/Upper Cretaceous, ~90Ma, based on fossil and molecular estimates (see below). While there is an extensive crocodilian fossil record – both stem and crown – dating back to the Triassic ([Stockdale and Benton 2021](https://doi.org/10.1038/s42003-020-01561-5), [Payne et al. 2024](https://doi.org/10.1038/s41559-023-02244-0)), there are only a few well-constrained fossils in the vicinity of crown Crocodylia based on recent total-evidence phylogenetic analyses ([Lee and Yates 2018](https://doi.org/10.1098/rspb.2018.1071), [Darlim et al. 2022](https://doi.org/10.1098/rsbl.2021.0603), [Zamora-Vega et al. 2025](https://doi.org/10.1098/rsbl.2025.0238)). We are also able to calibrate **$XXX:** Longirostres based on consensus between these different phylogenetic estimates.
+The root node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, generally dates to the Late/Upper Cretaceous, ~90Ma, based on fossil and molecular estimates (see below). While there is an extensive crocodilian fossil record – both stem and crown – dating back to the Triassic ([Stockdale and Benton 2021](https://doi.org/10.1038/s42003-020-01561-5), [Payne et al. 2024](https://doi.org/10.1038/s41559-023-02244-0)), there are only a few well-constrained fossils in the vicinity of crown Crocodylia based on recent total-evidence phylogenetic analyses ([Lee and Yates 2018](https://doi.org/10.1098/rspb.2018.1071), [Darlim et al. 2022](https://doi.org/10.1098/rsbl.2021.0603), [Zamora-Vega et al. 2025](https://doi.org/10.1098/rsbl.2025.0238)). We are also able to calibrate **$XXX:** Longirostres based on consensus between these different phylogenetic estimates regarding the oldest-known crown longirostran †_Kentisuchus_.
 
 ### Calibrations:
 
@@ -13,7 +13,8 @@ The root node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, gene
 **Maximum justification:** A conservative maximum bound is the Aptian-Albian boundary (113.2Ma), as the lower 95% CI of both timetrees and total-evidence estimates is 107Ma and 108Ma, respectively, congruent with the density of stem crocodylians and absence of any crown members in the early Cretaceous ([Rio and Mannion 2021](https://doi.org/10.7717/peerj.12094), [Walter et al. 2025](https://doi.org/10.1038/s42003-025-07653-4); but see [Groh et al. 2022](https://doi.org/10.1111/pala.12589) for a potentially older time-scale)\
 **Discussion:** Other time-scaled parsimony analyses such as [Salas-Gismondi et al. 2019](https://www.tandfonline.com/doi/full/10.1080/14772019.2018.1495275) also support a Late Cretaceous origin for Crocodylia and a crown placement of †_Leidyosuchus_, but do not report their exact age estimates and were therefore not considered
 
----
+
+### New calibrations for ASTRAL
 
 **Node $XXX:** Longirostres | 51.5–113.2Ma\
 **Node calibrated:** The most recent common ancestor of Gavialidae (_Gavialis gangeticus_) and Crocodylidae (_Crocodylus niloticus_)\
