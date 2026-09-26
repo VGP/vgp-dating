@@ -255,7 +255,7 @@ Even though earlier papers found a significant effect of †_Plectocretacicus_ o
 
 **Node 642:** Polymixiiformes + Percopsiformes + Zeiformes + Stylephoriformes + Gadiformes | 89.8–145.0Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Polymixia lowei_ (Polymixiiformes: Polymixiidae) and _Gadus morhua_ (Gadiformes: Gadidae).\
-**Fossil taxon:** †_Boreiohydrias dayi_ (UALVP 54046) from the Lac des Bois locality (Cretaceous: Turonian), Northwest Territories, Canada ([Murray & Cumbaa 2013](https://doi.org/10.1080/02724634.2013.722574))\
+**Fossil taxon:** †_Boreiohydrias dayi_ (UALVP 54046) from the Lac des Bois locality (Cretaceous: Turonian), Northwest Territories, Canada ([Murray & Cumbaa 2013](https://doi.org/10.1080/02724634.2013.722574)).\
 **Minimum age:** 89.8Ma\
 **Minimum justification:** Based on the oldest known polymixiiform fossil, †_Boreiohydrias dayi,_ from the Turonian of the Cretaceous. This fossil has been resolved in the polymixiiform stem by Maximum Parsimony analyses of 46 characters ([Murray et al. 2019](https://doi.org/10.1017/S0016756819001328)).\
 **Maximum age:** 145.0Ma\
