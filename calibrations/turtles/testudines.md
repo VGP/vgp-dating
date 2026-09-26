@@ -23,17 +23,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Maximum age:** 157.3Ma\
 **Maximum justification:** Maximum age based on the oldest pan-pleurodiran †_Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).\
 **Discussion:** [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773) assign this fossil to the less-inclusive clade Pelumedusoides, but our taxon sampling is not detailed enough to capture this crown group. As a result, we calibrate its stem age instead, which is equivalent to the crown group Pleurodira.
-
-**$XXX UPDATE TO PELOMEDUSOIDES**
-
-**Node $XXX:** Pelomedusoides | 125.0–157.3Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant pelomedusoids: Podocnemidae (_Podocnemis expansa_) + Pelomedusidae (_Pelomedusa somalica_)\
-**Fossil taxa:** †_Atolchelys lepida_ (UERJ.MC 2)\
-**Minimum age:** 125.0Ma\
-**Minimum justification:** Based on the oldest-known crown pelomedusoid ([Romano et al. 2014](https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2014.0290)) from the Morro do Chaves Formation, Sergipe-Alagoas Basin, Brazil from the Barremian of the Cretaceous (121.4–125.77Ma).\
-**Maximum age:** 157.3Ma\
-**Maximum justification:** Maximum age based on the oldest pan-pleurodiran †_Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).\
-**Discussion:** As per [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), †_Atolchelys_ exhibits "the typical 11 plastron bones of most pleurodires, a reduced pair of mesoplastra, and no fontanelles, as well as exclusive cranial characteristics diagnostic to the Pan-Podocnemididae clade."
+**[Updated in the ASTRAL tree – see below]**
 
 ---
 
@@ -45,17 +35,6 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Maximum age:** 201.4Ma\
 **Maximum justification:** Maximum age based on the minimum age of the Triassic, a conservative boundary based on the lack of any putative crown cryptodirans from the Triassic.\
 **Discussion:** Also serves as a minimum age for Testudines.
-
----
-
-**Node $XXX:** Trionychia | 124.0–177.6Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing all extant trionychians: Carettochelyidae (_Carettochelys insculpta_) + Trionychidae (_Chitra chitra_)\
-**Fossil taxa:** Pan-Trionychidae indet. (FPDM V-127)\
-**Minimum age:** 124.0Ma\
-**Minimum justification:** A stem trionychid diagnosed by fibrous layers integrated into the shell bones, from the Cretaceous (Barremian) Kitadani Formation (Tetori Group) of Japan (see [Joyce et al. (2013)](https://doi.org/10.1666/12-149)). As noted by Joyce et al. ([2013](https://doi.org/10.1666/12-149)), unambiguous carettochelyid fossils from the "pre-Aptian" Sao Khua Formation of Thailand also support a Barremian minimum age for this clade.\
-**Maximum age:** 177.6Ma\
-**Maximum justification:** As per [Joyce et al. (2013)](https://doi.org/10.1666/12-149), the late Jurassic or early Cretaceous †_Sinaspideretes wimani_ also represents a possible crown trionychian, though not one that can reliably be used to constrain the minimum age. As a result, given the abundance of middle Jurassic turtles without any putative trionychians, a soft maximum age at the early–middle Jurassic boundary is a conservative compromise. They note that other authors reject this placement and assigned a much younger early Cretaceous (Hauterivian) maximum age of 131.5Ma ([Lourenço et al. 2012](https://doi.org/10.1016/j.ympev.2011.10.022)), though this has not been supported by recent estimates such as Selvatti et al. ([2023](https://doi.org/10.1016/j.ympev.2023.107773)).\
-**Discussion:** This calibration was considered congruent and not modified between Joyce et al. ([2013](https://doi.org/10.1666/12-149)) and Selvatti et al. ([2023](https://doi.org/10.1016/j.ympev.2023.107773)).
 
 ---
 
@@ -122,6 +101,30 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Maximum age:** 157.3Ma\
 **Maximum justification:** As with several remaining calibrations, based on the minimum age of crown Testudines.\
 **Discussion:** A range of material likely assignable to the stem of Dermochelyidae exists from the Paleocene and Eocene along with a number of other †_Eosphargis_ specimens (summarized by [Joyce et al. 2013](https://doi.org/10.1666/12-149)), but they remain to be properly characterized phylogenetically and stratigraphically.
+
+
+### New calibrations for ASTRAL
+
+**Node $XXX:** Pelomedusoides | 125.0–157.3Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant pelomedusoids: Podocnemidae (_Podocnemis expansa_) + Pelomedusidae (_Pelomedusa somalica_)\
+**Fossil taxa:** †_Atolchelys lepida_ (UERJ.MC 2)\
+**Minimum age:** 125.0Ma\
+**Minimum justification:** Based on the oldest-known crown pelomedusoid ([Romano et al. 2014](https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2014.0290)) from the Morro do Chaves Formation, Sergipe-Alagoas Basin, Brazil from the Barremian of the Cretaceous (121.4–125.77Ma).\
+**Maximum age:** 157.3Ma\
+**Maximum justification:** Maximum age based on the oldest pan-pleurodiran †_Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).\
+**Discussion:** As per [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), †_Atolchelys_ exhibits "the typical 11 plastron bones of most pleurodires, a reduced pair of mesoplastra, and no fontanelles, as well as exclusive cranial characteristics diagnostic to the Pan-Podocnemididae clade."
+
+---
+
+**Node $XXX:** Trionychia | 124.0–177.6Ma\
+**Node calibrated:** Last common ancestor of the clade encompassing all extant trionychians: Carettochelyidae (_Carettochelys insculpta_) + Trionychidae (_Chitra chitra_)\
+**Fossil taxa:** Pan-Trionychidae indet. (FPDM V-127)\
+**Minimum age:** 124.0Ma\
+**Minimum justification:** A stem trionychid diagnosed by fibrous layers integrated into the shell bones, from the Cretaceous (Barremian) Kitadani Formation (Tetori Group) of Japan (see [Joyce et al. (2013)](https://doi.org/10.1666/12-149)). As noted by Joyce et al. ([2013](https://doi.org/10.1666/12-149)), unambiguous carettochelyid fossils from the "pre-Aptian" Sao Khua Formation of Thailand also support a Barremian minimum age for this clade.\
+**Maximum age:** 177.6Ma\
+**Maximum justification:** As per [Joyce et al. (2013)](https://doi.org/10.1666/12-149), the late Jurassic or early Cretaceous †_Sinaspideretes wimani_ also represents a possible crown trionychian, though not one that can reliably be used to constrain the minimum age. As a result, given the abundance of middle Jurassic turtles without any putative trionychians, a soft maximum age at the early–middle Jurassic boundary is a conservative compromise. They note that other authors reject this placement and assigned a much younger early Cretaceous (Hauterivian) maximum age of 131.5Ma ([Lourenço et al. 2012](https://doi.org/10.1016/j.ympev.2011.10.022)), though this has not been supported by recent estimates such as Selvatti et al. ([2023](https://doi.org/10.1016/j.ympev.2023.107773)).\
+**Discussion:** This calibration was considered congruent and not modified between Joyce et al. ([2013](https://doi.org/10.1666/12-149)) and Selvatti et al. ([2023](https://doi.org/10.1016/j.ympev.2023.107773)).
+
 
 ### Likelihood Checkpoints:
 
