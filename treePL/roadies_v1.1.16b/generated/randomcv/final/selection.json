@@ -1,0 +1,13 @@
+{
+  "source": "optimizer_search",
+  "candidate": "0-1-0-0",
+  "smoothing": 1.0,
+  "seed": 565341842,
+  "pliter": 200,
+  "threads": 2,
+  "thorough": false,
+  "objective": 353728.77,
+  "winning_fit_stage": "optimizer_search",
+  "confirmation_valid": true,
+  "tree_sha256": "af34d255526f83ef1f6bb640ee8de7e76ef068c14950ddc8616a0d122fd7dc76"
+}

@@ -1,0 +1,19 @@
+{
+  "smoothing": 1.0,
+  "seed": 565341842,
+  "candidate": "0-1-0-0",
+  "stage": "optimizer_search",
+  "status": "complete",
+  "pliter": 200,
+  "threads": 2,
+  "thorough": false,
+  "objective": 353728.77,
+  "score": null,
+  "seconds": 54.55,
+  "groups": 0,
+  "threshold": null,
+  "max_partial_score": null,
+  "reason": "",
+  "fit_id": "optimizer_search/s04/0-1-0-0_seed-565341842",
+  "negative_returns": 0
+}

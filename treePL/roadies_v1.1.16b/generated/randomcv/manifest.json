@@ -1,0 +1,85 @@
+{
+  "engine": "vgp-randomcv-v1",
+  "status": "complete",
+  "stage": "complete",
+  "config": "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/roadies_v1.1.16b.config",
+  "input_hashes": {
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/roadies_v1.1.16b.config": "f45c43c6e950a3bdc548e67d50249e41afb28182eb41fb56aa145665b0a948e5",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/trees/roadies_v1.1.16b.nwk": "1cc0563d09e3caa40d59b7b61c78f88e5dc5185a6629eba9e81eebc9e05578fa",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/calibrations/master_calibrations.csv": "3a293d5d59b4f2a2d16130d0d233ecec01b6633c5dfb8ec5580694fdfc23174a",
+    "/opt/homebrew/bin/treePL": "2b58f491d00278efeecc63db68e2deb69ce96976250795ea7e15f99a01629f08"
+  },
+  "script_sha256": "e81684d97387f9a22e8f1b8df3bde8ff56d6245ce2019347fa320e5ec2b52e7e",
+  "options": {
+    "config": "roadies_v1.1.16b.config",
+    "smoothing_values": null,
+    "smoothing_range": null,
+    "seed_count": 64,
+    "screen_seeds": 3,
+    "seed": 20260922,
+    "jobs": 8,
+    "threads": 2,
+    "pliter": 50,
+    "cviter": 3,
+    "optimizer_seeds": 3,
+    "optimizer_pliter": 200,
+    "deep_seeds": 50,
+    "deep_pliter": 2500,
+    "deep_configurations": 2,
+    "fallback_ceiling": 1000000000000.0,
+    "outlier_factor": 100,
+    "master": "/Users/rapyron/Documents/GitHub/vgp-dating/calibrations/master_calibrations.csv",
+    "output": null,
+    "keep_work": false,
+    "dry_run": false,
+    "smoothing": [
+      10000.0,
+      1000.0,
+      100.0,
+      10.0,
+      1.0,
+      0.1,
+      0.01,
+      0.001,
+      0.0001,
+      1e-05,
+      1e-06,
+      1e-07,
+      1e-08,
+      1e-09,
+      1e-10
+    ]
+  },
+  "candidates": [
+    [
+      1,
+      3,
+      0,
+      0
+    ],
+    [
+      2,
+      3,
+      1,
+      1
+    ],
+    [
+      2,
+      3,
+      0,
+      0
+    ]
+  ],
+  "cpu_count": 10,
+  "randomcv": "Installed treePL uses 10 groups of 10% tips. Scores are not on the full-CV scale.",
+  "caveats": [
+    "Rejection is heuristic and cannot detect a bad majority; replacements condition the sampled distribution.",
+    "Thread scheduling can affect random draws even with recorded seeds."
+  ],
+  "seconds": 39215.78,
+  "production_unchanged": false,
+  "cv_status": "complete",
+  "optimizer_screen_status": "complete",
+  "published": true,
+  "final_selection": "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/randomcv/final/selection.json"
+}

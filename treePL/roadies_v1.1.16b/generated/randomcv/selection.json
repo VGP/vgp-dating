@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "smoothing": 1.0,
+  "median_cv": 13782.6065,
+  "candidate": "2-3-0-0",
+  "boundary": false,
+  "raw_minimum_smoothing": 1.0,
+  "raw_minimum_median": 13782.6065,
+  "rule": "Lowest median accepted CV score; exact ties favor higher smoothing.",
+  "notch_rule": "median +/- 1.58 IQR/sqrt(n), using Tukey hinges",
+  "statistical_caveat": "Notches are visual diagnostics only and do not affect selection.",
+  "provisional": false,
+  "production_config_updated": false
+}

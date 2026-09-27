@@ -1,0 +1,51 @@
+{
+  "status": "complete",
+  "smoothing": 1.0,
+  "seeds": [
+    565341842,
+    1161523586,
+    781929729
+  ],
+  "pliter": 200,
+  "thorough": false,
+  "requested_fits": 432,
+  "completed_fits": 432,
+  "valid_fits": 432,
+  "eligible_configurations": 144,
+  "deep_candidates": [
+    {
+      "candidate": "2-2-0-0",
+      "smoothing": 1.0,
+      "requested": 3,
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "usable": true,
+      "median": 353728.77,
+      "worst": 353728.77,
+      "best": 353728.77,
+      "seconds": 132.736,
+      "rank": 1,
+      "selected_for_deep": true,
+      "selected_for": "best median/worst ranking"
+    },
+    {
+      "candidate": "2-1-0-0",
+      "smoothing": 1.0,
+      "requested": 3,
+      "completed": 3,
+      "valid": 3,
+      "failed": 0,
+      "usable": true,
+      "median": 353728.77,
+      "worst": 353728.77,
+      "best": 353728.77,
+      "seconds": 134.525,
+      "rank": 2,
+      "selected_for_deep": true,
+      "selected_for": "next-ranked configuration"
+    }
+  ],
+  "rule": "Require all shared seeds to yield valid trees; rank median, worst, best objective, then runtime and identifier. Select the best-ranked and lowest-individual-objective configurations, then fill in rank order up to the deep-search cap.",
+  "production_config_updated": false
+}

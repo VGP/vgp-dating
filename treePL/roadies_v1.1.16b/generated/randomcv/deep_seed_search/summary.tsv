@@ -1,0 +1,3 @@
+candidate	attempted	requested	valid	failed	best	median	worst
+2-2-0-0	50	50	50	0	353728.77	353728.77	353728.77
+2-1-0-0	50	50	50	0	353728.77	353728.77	381643.5

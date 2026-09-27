@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "published": true,
+  "stage": "complete",
+  "selected_source": "optimizer_search",
+  "objective": 353728.77,
+  "confirmation_valid": true,
+  "published_hashes": {
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.tre": "af34d255526f83ef1f6bb640ee8de7e76ef068c14950ddc8616a0d122fd7dc76",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.calibrations.csv": "dbf966db8b632c46cc3cba38abc47682378a31a873e576dedd87de4f590cd87f",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/roadies_v1.1.16b.config": "deb4a6371c8ba0c1fcf69816d6b1fa4f49ea2524ff75c7d569ac7b8d8126a18d"
+  },
+  "plot_hashes": {
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.scientific.treePL.tre": "18d565cec837cfb723e140707c5ab7c0ff6e65daa3679e24fdfcf166f9540b69",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.dated.pdf": "9bf114ca5fd5225a8eae46030c1a878175add6cd827928a4e6d40410387267d9",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.png": "7b90ff44aaa8b34c015db4ea2f24df93a103731e89c0a2c3a6ba689e152de739",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.calibrated_node_ages.tsv": "c00cb83ac7e87ecc269b3404a346cc9e24121abcebe824a4fe510b00c0c3a0d2"
+  }
+}
