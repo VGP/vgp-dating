@@ -4,6 +4,7 @@ import argparse
 import concurrent.futures as futures
 import csv
 import fcntl
+import gzip
 import hashlib
 import io
 import itertools
@@ -179,6 +180,30 @@ def atomic(path, text):
 
 def save(path, data):
     atomic(path, json.dumps(data, indent=2, allow_nan=False) + '\n')
+
+
+def write_evaluations(path, records):
+    """Atomically publish a lossless, compressed evaluation archive."""
+    path = Path(path)
+    tmp = path.with_name(path.name + '.tmp')
+    try:
+        with gzip.open(tmp, 'wt', encoding='utf-8', compresslevel=6) as handle:
+            for record in records:
+                handle.write(json.dumps(record, allow_nan=False) + '\n')
+        os.replace(tmp, path)
+    finally:
+        tmp.unlink(missing_ok=True)
+
+
+def read_evaluations(path):
+    """Read a compressed archive, falling back to its legacy .jsonl file."""
+    path = Path(path)
+    if not path.exists() and path.suffix == '.gz':
+        path = path.with_suffix('')
+    opener = gzip.open if path.suffix == '.gz' else open
+    with opener(path, 'rt', encoding='utf-8') as handle:
+        for line in handle:
+            yield json.loads(line)
 
 
 def table(path, rows):
@@ -734,13 +759,13 @@ class RandomCV:
         self.reports()
 
     def consolidate(self, rows=None, destination=None):
-        records = []
-        for row in (self.optimizer_fits+self.attempts if rows is None else rows):
-            directory = self.root/'.work'/row['fit_id']
-            record = json.loads((directory/'result.json').read_text())
-            record.update(row)  # Includes retrospective outlier decisions.
-            records.append(record)
-        atomic(destination or self.root/'evaluations.jsonl', ''.join(json.dumps(r,allow_nan=False)+'\n' for r in records))
+        def records():
+            for row in (self.optimizer_fits+self.attempts if rows is None else rows):
+                directory = self.root/'.work'/row['fit_id']
+                record = json.loads((directory/'result.json').read_text())
+                record.update(row)  # Includes retrospective outlier decisions.
+                yield record
+        write_evaluations(destination or self.root/'evaluations.jsonl.gz', records())
         if not self.a.keep_work and (self.root/'.work').exists():
             shutil.rmtree(self.root/'.work')
 
@@ -908,7 +933,7 @@ class OptimizerScreen:
                                   'Select the best-ranked and lowest-individual-objective configurations, then fill in rank order up to the deep-search cap.',
                              production_config_updated=False)
             save(self.root/'selection.json',selection)
-            b.consolidate(self.rows,self.root/'evaluations.jsonl')
+            b.consolidate(self.rows,self.root/'evaluations.jsonl.gz')
             manifest.update(status=selection['status'],seconds=round(time.monotonic()-started,2),retained=len(retained))
             save(self.root/'manifest.json',manifest)
             b.manifest.update(status=selection['status'],stage='optimizer_screen',
@@ -1025,15 +1050,13 @@ class DeepSeedSearch:
         """Carry the best validated full-tree fit at this smoothing across stages."""
         b = self.b
         best = None
-        for path in (b.root/'evaluations.jsonl', b.root/'optimizer_screen/evaluations.jsonl'):
-            with path.open() as handle:
-                for line in handle:
-                    record = json.loads(line)
-                    if record['status']!='complete' or record['smoothing']!=self.screen['smoothing']:
-                        continue
-                    key = lambda r: (r['objective'],r['candidate'],r['seed'],r['fit_id'])
-                    if best is None or key(record)<key(best):
-                        best = record
+        for path in (b.root/'evaluations.jsonl.gz', b.root/'optimizer_screen/evaluations.jsonl.gz'):
+            for record in read_evaluations(path):
+                if record['status']!='complete' or record['smoothing']!=self.screen['smoothing']:
+                    continue
+                key = lambda r: (r['objective'],r['candidate'],r['seed'],r['fit_id'])
+                if best is None or key(record)<key(best):
+                    best = record
         if best is None:
             raise RuntimeError('No validated screening fit available at the selected smoothing')
         (self.root/'earlier_best.tre').write_text(best['dated_tree'])
@@ -1121,7 +1144,7 @@ class DeepSeedSearch:
                 table(self.root/'best_node_ages.tsv',[dict(node=n,age_ma=v) for n,v in record['node_ages'].items()])
                 save(self.root/'best.json',record)
             save(self.root/'selection.json',selection)
-            b.consolidate(self.rows,self.root/'evaluations.jsonl')
+            b.consolidate(self.rows,self.root/'evaluations.jsonl.gz')
             manifest.update(status=selection['status'],seconds=round(time.monotonic()-started,2),valid_fits=selection['valid_fits'])
             save(self.root/'manifest.json',manifest)
             b.manifest.update(status=selection['status'],stage='deep_seed_search',seconds=round(time.monotonic()-b.started,2),production_unchanged=True)
@@ -1257,7 +1280,7 @@ class FinalPublication:
             if any(digest(Path(p))!=h for p,h in b.hashes.items()):
                 raise RuntimeError('Source input or executable changed before publication')
             # Save confirmation records before removing their working files.
-            b.consolidate([repeat],self.root/'evaluations.jsonl')
+            b.consolidate([repeat],self.root/'evaluations.jsonl.gz')
             save(self.root/'selection.json',dict(source=comparison['selected_source'],candidate=selected['candidate'],
                                                smoothing=selected['smoothing'],seed=selected['seed'],pliter=selected['pliter'],
                                                threads=selected['threads'],thorough=False,objective=selected['objective'],
