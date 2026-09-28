@@ -29,7 +29,7 @@ SCORE = re.compile(r'^chisq: \(([^)]+)\)\s*(\S+)')
 OBJECTIVE = re.compile(r'^after opt calc:\s*(\S+)')
 PARTIAL = re.compile(r'^\(chisq\):\s*([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?|[+-]?(?:inf(?:inity)?|nan))\s*$', re.I)
 
-# Embedded helpers keep this module independent of the retired benchmark/test code.
+# Embedded R helpers for validation and plotting.
 PLOT_INPUTS_R = r'''
 suppressPackageStartupMessages(library(ape))
 a <- commandArgs(TRUE)
@@ -685,7 +685,7 @@ class RandomCV:
                                   median=statistics.median(values) if values else None, worst=max(values) if values else None,
                                   seconds=sum(r['seconds'] for r in fits), selected=False))
         eligible = [r for r in summaries if r['usable']]
-        # Preserve the diagnostic's printed-precision tie handling.
+        # Treat objectives within tolerance as tied, then prefer the faster configuration.
         for field in ('median','worst'):
             if eligible:
                 best = min(r[field] for r in eligible)
