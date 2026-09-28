@@ -1,14 +1,14 @@
 {
   "status": "complete",
   "smoothing": 1e-07,
-  "median_cv": 25403.7545,
+  "median_cv": 26268.11,
   "candidate": "2-3-1-1",
   "boundary": false,
   "raw_minimum_smoothing": 1e-07,
-  "raw_minimum_median": 25403.7545,
-  "rule": "Highest smoothing whose boxplot notch overlaps the lowest-median notch.",
+  "raw_minimum_median": 26268.11,
+  "rule": "Lowest median accepted CV score; exact ties favor higher smoothing.",
   "notch_rule": "median +/- 1.58 IQR/sqrt(n), using Tukey hinges",
-  "statistical_caveat": "Notch overlap is a selection heuristic, not proof of equivalent performance.",
+  "statistical_caveat": "Notches are visual diagnostics only and do not affect selection.",
   "provisional": false,
   "production_config_updated": false
 }

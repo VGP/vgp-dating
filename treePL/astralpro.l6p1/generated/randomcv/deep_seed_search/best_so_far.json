@@ -1,18 +1,18 @@
 {
   "smoothing": 1e-07,
-  "seed": 693100386,
+  "seed": 915693844,
   "candidate": "2-3-1-0",
   "stage": "deep_seed_search",
   "status": "complete",
-  "pliter": 5000,
+  "pliter": 2500,
   "threads": 2,
   "thorough": false,
   "objective": 5237.3491,
   "score": null,
-  "seconds": 1641.801,
+  "seconds": 895.426,
   "groups": 0,
   "threshold": null,
   "max_partial_score": null,
   "reason": "",
-  "fit_id": "deep_seed_search/s11/2-3-1-0_seed-693100386"
+  "fit_id": "deep_seed_search/s11/2-3-1-0_seed-915693844"
 }

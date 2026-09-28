@@ -2,12 +2,12 @@
   "source": "deep_seed_search",
   "candidate": "2-3-1-0",
   "smoothing": 1e-07,
-  "seed": 693100386,
-  "pliter": 5000,
+  "seed": 915693844,
+  "pliter": 2500,
   "threads": 2,
   "thorough": false,
   "objective": 5237.3491,
   "winning_fit_stage": "deep_seed_search",
   "confirmation_valid": true,
-  "tree_sha256": "3d8038b12cef9f3468e8b4a6136f4594e9f647ebddf2475f2ad2afd4288d6077"
+  "tree_sha256": "64c46618499e0b757288fb3ad18697952398f5e089e262465b266e8d068fb06b"
 }

@@ -9,7 +9,6 @@ CAL011,LABRIDAE,1015,725,48.7,83.6,GCA_047301625.1,Choerodon schoenleinii,GCF_96
 CAL012,SCORPAENIDAE,1025,708,48.7,83.6,GCA_043250625.1,Sebastes fasciatus,GCA_910591455.2,Pholis gunnellus,fishes,
 CAL013,SCOMBRIFORMES,1071,663,54.2,83.6,GCA_042242135.1,Arripis georgiana,GCF_963691925.1,Scomber scombrus,fishes,
 CAL014,SYNGNATHIFORMES,1076,659,72.2,100.5,GCA_048301465.1,Aulostomus maculatus,GCF_901709675.1,Syngnathus acus,fishes,
-CAL015,LAMPRIFORMES,1084,641,93.9,145.0,GCF_029633865.1,Lampris incognitus,GCA_047511565.1,Polymixia lowei,fishes,
 CAL016,ZEOGADARIA,1087,645,72.2,145.0,GCA_960531495.1,Zeus faber,GCF_902167405.1,Gadus morhua,fishes,
 CAL017,ESOCIFORMES,1099,626,76.2,201.5,GCF_011004845.1,Esox lucius,GCA_901001165.2,Salmo trutta,fishes,
 CAL018,GOBIONIDAE,1109,615,27.3,66.0,GCA_949357685.1,Gobio gobio,GCA_949152265.1,Phoxinus phoxinus,fishes,
@@ -89,3 +88,5 @@ CAL094,CORACIIMORPHAE,600,1077,62.2,91.9,GCF_028858725.1,Colius striatus,GCA_009
 CAL095,STEM_PSITTACOPASSERES,603,1090,54.6,81.0,GCA_028858755.1,Ara ararauna,GCF_036417665.1,Passer domesticus,aves,
 CAL096,EUPASSERES,605,1098,30.2,45.7,GCA_045364795.1,Willisornis vidua,GCF_036417665.1,Passer domesticus,aves,
 CAL097,PASSERELLIDAE,612,1122,7.5,32.9,GCA_047830755.1,Zonotrichia albicollis,GCA_009764595.1,Geothlypis trichas,aves,
+CAL098,LAMPRIFORMES_GADIFORMES,,641,97.4,145.0,GCF_029633865.1,Lampris incognitus,GCF_902167405.1,Gadus morhua,fishes,ASTRAL-only replacement for CAL015 at node 641; Xenyllion stewarti (FHPR 701); defining pair and bounds from fishes.md: New calibrations for ASTRAL.
+CAL099,POLYMIXIIFORMES_GADIFORMES,,642,89.8,145.0,GCA_047511565.1,Polymixia lowei,GCF_902167405.1,Gadus morhua,fishes,ASTRAL-only additional calibration at node 642; Boreiohydrias dayi (UALVP 54046); defining pair and bounds from fishes.md: New calibrations for ASTRAL.

@@ -4,12 +4,12 @@
   "stage": "complete",
   "config": "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/astralpro.l6p1.config",
   "input_hashes": {
-    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/astralpro.l6p1.config": "03176b5165d0626c717edceb3c58baa3849f584b2326f0e5e4b5b2d121f76dbe",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/astralpro.l6p1.config": "442a38bdda966bbb99280bf603a1b27220f72ceadf236126a3b5b9860daf492c",
     "/Users/rapyron/Documents/GitHub/vgp-dating/trees/astralpro.l6p1.tre": "14a8c383bdd811e836cff32fe716c1e0ab00b9629e9dd9c467cf355ecaa319cd",
-    "/Users/rapyron/Documents/GitHub/vgp-dating/calibrations/master_calibrations.csv": "aae8692c64ca48b9a3ca1965cc24b169af7c3e0e743ac8eead0a94b49ae3f9cb",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/calibrations/master_calibrations.csv": "3a293d5d59b4f2a2d16130d0d233ecec01b6633c5dfb8ec5580694fdfc23174a",
     "/opt/homebrew/bin/treePL": "2b58f491d00278efeecc63db68e2deb69ce96976250795ea7e15f99a01629f08"
   },
-  "script_sha256": "cce48e88b84f9ad623eb2dcd5c721d05c58b306348312ded3775427fc05d9007",
+  "script_sha256": "148784b324cbbf1a4925bd13a1713d311eb1b069c4dc9ed888065722d3087dae",
   "options": {
     "config": "astralpro.l6p1.config",
     "smoothing_values": null,
@@ -23,10 +23,9 @@
     "cviter": 3,
     "optimizer_seeds": 3,
     "optimizer_pliter": 200,
-    "shortlist_size": 5,
     "deep_seeds": 50,
-    "deep_pliter": 5000,
-    "deep_configurations": 3,
+    "deep_pliter": 2500,
+    "deep_configurations": 2,
     "fallback_ceiling": 1000000000000.0,
     "outlier_factor": 100,
     "master": "/Users/rapyron/Documents/GitHub/vgp-dating/calibrations/master_calibrations.csv",
@@ -77,7 +76,7 @@
     "Rejection is heuristic and cannot detect a bad majority; replacements condition the sampled distribution.",
     "Thread scheduling can affect random draws even with recorded seeds."
   ],
-  "seconds": 87849.48,
+  "seconds": 33729.92,
   "production_unchanged": false,
   "cv_status": "complete",
   "optimizer_screen_status": "complete",

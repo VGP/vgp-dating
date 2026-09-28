@@ -1,6 +1,7 @@
 
 suppressPackageStartupMessages(library(ape))
 a <- commandArgs(TRUE)
+age_tolerance <- 0.001
 check <- function(t) {
   if(!inherits(t,'phylo') || !is.rooted(t) || anyDuplicated(t$tip.label) ||
      is.null(t$edge.length) || any(!is.finite(t$edge.length)) || any(t$edge.length<0))
@@ -31,13 +32,13 @@ if(a[3]=='-') {cat('Input valid:',Ntip(ref),'tips;',length(pairs),'calibrations\
 t <- read.tree(a[3]); check(t)
 if(!isTRUE(all.equal.phylo(ref,t,use.edge.length=FALSE,use.tip.label=TRUE))) stop('Topology or taxa changed.')
 d <- node.depth.edgelength(t); h <- max(d[seq_len(Ntip(t))]); ages <- h-d
-if(h<=0 || diff(range(d[seq_len(Ntip(t))]))>0.001) stop('Non-ultrametric dated tree.')
+if(h<=0 || diff(range(d[seq_len(Ntip(t))]))>age_tolerance) stop('Non-ultrametric dated tree.')
 for(p in pairs) {
   node <- getMRCA(t,p[3:4])
   for(k in c('min','max')) {
     v <- Filter(function(x) length(x)>1 && x[1]==k && x[2]==p[2],entries)
     b <- as.numeric(v[[1]][3])
-    if((k=='min' && ages[node]<b-0.001) || (k=='max' && ages[node]>b+0.001)) stop('Calibration violation.')
+    if((k=='min' && ages[node]<b-age_tolerance) || (k=='max' && ages[node]>b+age_tolerance)) stop('Calibration violation.')
   }
 }
 cat('Dated tree valid: topology, ages, and calibration bounds.\n')

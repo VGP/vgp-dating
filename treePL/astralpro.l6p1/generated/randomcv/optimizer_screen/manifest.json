@@ -877,6 +877,6 @@
   "jobs": 8,
   "threads": 2,
   "requested_fits": 432,
-  "seconds": 5760.63,
-  "retained": 5
+  "seconds": 5530.59,
+  "retained": 2
 }
