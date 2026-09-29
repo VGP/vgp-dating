@@ -65,13 +65,13 @@
       "median": 353728.77,
       "worst": 353728.77,
       "best": 353728.77,
-      "seconds": 132.736,
+      "seconds": 149.845,
       "rank": 1,
       "selected_for_deep": true,
       "selected_for": "best median/worst ranking"
     },
     {
-      "candidate": "2-1-0-0",
+      "candidate": "3-1-0-0",
       "smoothing": 1.0,
       "requested": 3,
       "completed": 3,
@@ -81,7 +81,7 @@
       "median": 353728.77,
       "worst": 353728.77,
       "best": 353728.77,
-      "seconds": 134.525,
+      "seconds": 158.352,
       "rank": 2,
       "selected_for_deep": true,
       "selected_for": "next-ranked configuration"
@@ -93,6 +93,6 @@
   "threads": 2,
   "requested_fits": 100,
   "selection_rule": "Lowest valid objective across earlier fits at this smoothing and deep fits; exact printed ties use candidate identifier then seed. No early stopping or seed replacement.",
-  "seconds": 6787.81,
+  "seconds": 7864.87,
   "valid_fits": 100
 }
