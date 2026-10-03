@@ -103,7 +103,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Discussion:** A range of material likely assignable to the stem of Dermochelyidae exists from the Paleocene and Eocene along with a number of other †_Eosphargis_ specimens (summarized by [Joyce et al. 2013](https://doi.org/10.1666/12-149)), but they remain to be properly characterized phylogenetically and stratigraphically.
 
 
-### New calibrations for ASTRAL
+### Future calibrations for larger tree
 
 **Node $XXX:** Pelomedusoides | 125.0–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant pelomedusoids: Podocnemidae (_Podocnemis expansa_) + Pelomedusidae (_Pelomedusa somalica_)\
