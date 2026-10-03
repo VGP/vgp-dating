@@ -167,7 +167,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Node calibrated:** The most recent common ancestor of Lorisoidea (_Nycticebus coucang_) and Lemuroidea (_Lemur catta_)\
 **Fossil taxa:** †_Karanisia clarki_ (CGM40265) from the Birket Qarun Formation (Eocene: Priabonian) of Fayûm, Egypt ([Seiffert et al. 2003](https://doi.org/10.1038/nature01489))\
 **Minimum age:** Late Eocene (Priabonian), 33.9Ma\
-**Minimum justification:** The Birket Qarun Formation corresponds to upper Priabonian ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
+**Minimum justification:** Locality BQ-2 in the Birket Qarun Formation dates to the earliest Priabonian (~37Ma; [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103)); we conservatively use the end of the Priabonian, 33.9Ma, as the minimum.\
 **Maximum age:** Late Paleocene (Thanetian), 56.0Ma\
 **Maximum justification:** Bounded by the first appearance of euprimates, represented by †_Altiatlasius koulchii_ (see **CAL052:** Primates), which dates to the late Paleocene at 56.0Ma ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates), [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
 **Discussion:** This fossil is the oldest-known stem lorisiform or crown strepsirrhine (of uncertain affinities) from the late Eocene (Priabonian) Birket Qarun Formation of Fayûm, Egypt ([Benton et al. 2015](https://doi.org/10.26879/424), [Seiffert et al. 2003](https://doi.org/10.1038/nature01489), [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))
