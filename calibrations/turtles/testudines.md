@@ -2,6 +2,8 @@
 
 Turtles have a dense and detailed fossil record that has made them particularly amenable to time-calibrated phylogenetic analyses using taxonomically-justified fossil constraints, which were reviewed in detail for the group by [Joyce et al. (2013)](https://doi.org/10.1666/12-149). That study provided 22 well-constrained node ages to date the turtle tree, which were corroborated and partially updated by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773). Given our modest sampling of turtles, only 9 of the 22 constraints are applicable here, which we list below as our primary calibrations. For all ages, material, and taxa referenced below, the synapomorphies, stratigraphy, and material are summarized by [Joyce et al. (2013)](https://doi.org/10.1666/12-149) and [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), from which all data are derived unless otherwise stated. [Joyce et al. (2013)](https://doi.org/10.1666/12-149) note the presence of a great deal of additional material that may be better characterized phylogenetically and stratigraphically in the future, yielding older and more precise estimates for many nodes.
 
+CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in ROADIES v0.0.0 (`roadies_v1.1.16b`) and ASTRAL v0.1.1 (`astralpro.l6p1`).
+
 ### Calibrations:
 
 **CAL074:** Testudines | 157.3–252.0Ma\
@@ -24,8 +26,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Minimum justification:** Based on the oldest crown pleurodiran ([Romano et al. 2014](https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2014.0290)) from the Morro do Chaves Formation, Sergipe-Alagoas Basin, Brazil from the Barremian of the Cretaceous (121.4–125.77Ma).\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** Maximum age based on the oldest pan-pleurodiran †_Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).\
-**Discussion:** [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773) assign this fossil to the less-inclusive clade Pelumedusoides, but our taxon sampling is not detailed enough to capture this crown group. As a result, we calibrate its stem age instead, which is equivalent to the crown group Pleurodira.
-**[Updated in the ASTRAL tree – see below]**
+**Discussion:** [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773) assign this fossil to the less-inclusive clade Pelomedusoides, but our taxon sampling is not detailed enough to capture this crown group. As a result, we calibrate its stem age instead, which is equivalent to the crown group Pleurodira.
+**[For a future constraint implemented under expanded taxon sampling, see the Pelomedusoides calibration below.]**
 
 ---
 
@@ -36,7 +38,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 **Minimum age:** 157.3Ma\
 **Minimum justification:** Based on the oldest crown cryptodiran from the Oxfordian of the Jurassic (154.8–161.5Ma), from Chongqing, Sichuan Province, China, probably in the Upper Jurassic Shaximiao Formation ([Danilov and Parham 2006](https://doi.org/10.1671/0272-4634(2006)26[573:aroptf]2.0.co;2), [Tong et al. 2014](https://www.cambridge.org/core/journals/geological-magazine/article/revision-of-sinaspideretes-wimani-young-chow-1953-testudines-cryptodira-trionychoidae-from-the-jurassic-of-the-sichuan-basin-china/69FA3F1252476D48D9B9F171B5993E21)).\
 **Maximum age:** 201.4Ma\
-**Maximum justification:** Maximum age based on the minimum age of the Triassic, a conservative boundary based on the lack of any putative crown cryptodirans from the Triassic.\
+**Maximum justification:** Maximum age based on the end of the Triassic, a conservative boundary based on the lack of any putative crown cryptodirans from the Triassic.\
 **Discussion:** Also serves as a minimum age for Testudines.
 
 ---
@@ -114,7 +116,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ### Future calibrations for larger tree
 
-**Node $XXX:** Pelomedusoides | 125.0–157.3Ma\
+**CAL $X:** Pelomedusoides | 125.0–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant pelomedusoids: Podocnemidae (_Podocnemis expansa_) + Pelomedusidae (_Pelomedusa somalica_)\
 **Fossil taxa:** †_Atolchelys lepida_ (UERJ.MC 2)\
 **Minimum age:** 125.0Ma\
@@ -125,7 +127,7 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ---
 
-**Node $XXX:** Trionychia | 124.0–177.6Ma\
+**CAL $X:** Trionychia | 124.0–177.6Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant trionychians: Carettochelyidae (_Carettochelys insculpta_) + Trionychidae (_Chitra chitra_)\
 **Fossil taxa:** Pan-Trionychidae indet. (FPDM V-127)\
 **Minimum age:** 124.0Ma\
