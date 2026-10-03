@@ -62,7 +62,7 @@ age_labels <- setNames(sprintf("%s · %.1f Ma", estimates$method, estimates$age)
 line_labels <- c(
   age_labels,
   Constraint = sprintf("Calibration bounds · %.1f–%.1f Ma", cal$min_ma, cal$max_ma),
-  Published = "Published ages; red IQR outliers"
+  Published = "Published ages; IQR outliers"
 )
 
 # One paired tick key explains both rug colors.
