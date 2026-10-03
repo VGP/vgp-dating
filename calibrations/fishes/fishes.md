@@ -2,9 +2,12 @@
 
 Here, we summarize existing calibrations and previous timescales from several recent studies ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2019](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3)). Our primary references for phylogenetic classification, taxonomy, and nomenclature for clades are [Betancur-R et al. (2017)](https://link.springer.com/article/10.1186/s12862-017-0958-3) and [Near and Thacker (2024)](https://bioone.org/journals/bulletin-of-the-peabody-museum-of-natural-history/volume-65/issue-1/014.065.0101/Phylogenetic-Classification-of-Living-and-Fossil-Ray-Finned-Fishes-Actinopterygii/10.3374/014.065.0101.pdf). These references do not always agree on clade names, so we provide notes for resolving discordance when necessary.
 
+CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.numbers.nwk) (`astralpro.l6p1`).
+
 ### Calibrations:
 
-**Node 982:** Teleostei | 145.5–298.9Ma\
+**CAL009:** Teleostei | 145.5–298.9Ma\
+**Tree mappings:** ROADIES node 982; ASTRAL node 590.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Conger conger_ (Anguilliformes: Congridae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
 **Fossil taxon:** †_Orthogonikleithrus leichi_ (Eichstӓtt 2301)\
 **Minimum age:** 145.5Ma\
@@ -15,7 +18,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 987:** Eurypterygia | 121.4–201.5Ma\
+**CAL010:** Eurypterygia | 121.4–201.5Ma\
+**Tree mappings:** ROADIES node 987; ASTRAL node 633.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Notolepis coatsi_ (Aulopiformes: Paralepididae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
 **Fossil taxon:** †_Atolvorator longipectoralis_ (Pz. UERJ 486–487; 496a,e,b; 508a,e,b; 509–510)\
 **Minimum age:** 121.4Ma\
@@ -26,7 +30,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1015:** Labridae | 48.7–83.6Ma\
+**CAL011:** Labridae | 48.7–83.6Ma\
+**Tree mappings:** ROADIES node 1015; ASTRAL node 725.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Choerodon schoenleinii_ (Labridae: Hypsigenyinae) and _Labrus mixtus_ (Labridae: Labrinae).\
 **Fossil taxon:** †_Phyllopharyngodon longipinnis_ (T.149–150; Museo Civico de Storia Naturale di Verona)\
 **Minimum age:** 48.7Ma\
@@ -37,29 +42,32 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1025:** Scorpaenidae + Triglidae + Cottoidea + Gasterosteidae + Zoarcoidea | 48.7–83.6Ma\
+**CAL012:** Scorpaenidae + Triglidae + Cottoidea + Gasterosteidae + Zoarcoidea | 48.7–83.6Ma\
+**Tree mappings:** ROADIES node 1025; ASTRAL node 708.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Sebastes fasciatus_ (Scorpaenidae) and _Pholis gunnellus_ (Pholidae).\
 **Fossil taxon:** †"Monte Bolca scorpaenoid" (MCSNV IG.VR.66957)\
 **Minimum age:** 48.7Ma\
 **Minimum justification:** The oldest-known taxon from this group based on a number of synapomorphies, from the Monte Bolca Formation (Eocene: Ypresian), Veneto, Italy ([Marramà et al. 2020](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf)).\
 **Maximum age:** 83.6Ma\
-**Maximum justification:** As with the calibration for Labridae (**Node 1015**) above, based on the age of †_Gasterorhamphosus_ and the oldest percomorph faunas, Percomorpha must have diversified at some point during this interval, but no putative eupercarians are known from earlier in the Cretaceous ([Friedman et al. 2023](https://doi.org/10.20341/gb.2023.002)).\
-**Discussion:** [Marramà et al. (2020)](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf) assigned this taxon to “Scorpaenoidei” _sensu_ [Smith et al. (2018)](https://asih.kglmeridian.com/view/journals/cope/106/1/article-p94.xml), which is not monophyletic, as it includes scorpaenids and triglids but not cottoids, gasterosteoids, or zoarcoids. Node 1025 represents the MRCA of this grouping as well as the aforementioned groups.
+**Maximum justification:** As with the calibration for Labridae (**CAL011**) above, based on the age of †_Gasterorhamphosus_ and the oldest percomorph faunas, Percomorpha must have diversified at some point during this interval, but no putative eupercarians are known from earlier in the Cretaceous ([Friedman et al. 2023](https://doi.org/10.20341/gb.2023.002)).\
+**Discussion:** [Marramà et al. (2020)](https://www.paleoitalia.it/wp-content/uploads/2021/07/02_Maramma_et_al_2020_BSPI_592.pdf) assigned this taxon to “Scorpaenoidei” _sensu_ [Smith et al. (2018)](https://asih.kglmeridian.com/view/journals/cope/106/1/article-p94.xml), which is not monophyletic, as it includes scorpaenids and triglids but not cottoids, gasterosteoids, or zoarcoids. ROADIES node 1025 represents the MRCA of this grouping as well as the aforementioned groups.
 
 ---
 
-**Node 1071:** Scombriformes | 54.2–83.6Ma\
+**CAL013:** Scombriformes | 54.2–83.6Ma\
+**Tree mappings:** ROADIES node 1071; ASTRAL node 663.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Arripis georgiana_ (Arripidae) and _Scomber scombrus_ (Scombridae).\
 **Fossil taxon:** †_Eocoelopoma portentosum_ (PIN 1762/85)\
 **Minimum age:** 54.2Ma\
 **Minimum justification:** The oldest-known crown pelagiarian from the Danata formation (Eocene: Ypresian), Balkan region, Turkmenistan, associated with the layers just after the Paleocene-Eocene Thermal Maximum providing the more specific earlier minimum age ([Bannikov & Erebakan 2023](https://link.springer.com/article/10.1134/S0031030123050015)).\
 **Maximum age:** 83.6Ma\
-**Maximum justification:** As with the calibrations for **Nodes 1015** and **1025** above, based on the age of †_Gasterorhamphosus_ and the oldest percomorph faunas, as Percomorpha must have diversified at some point during this interval, but no putative scombriforms are known from earlier in the Cretaceous ([Friedman et al. 2023](https://doi.org/10.20341/gb.2023.002)).\
+**Maximum justification:** As with the calibrations for **CAL011** and **CAL012** above, based on the age of †_Gasterorhamphosus_ and the oldest percomorph faunas, as Percomorpha must have diversified at some point during this interval, but no putative scombriforms are known from earlier in the Cretaceous ([Friedman et al. 2023](https://doi.org/10.20341/gb.2023.002)).\
 **Discussion:** Eocoelopomins are considered total-group scombrids and therefore unequivocal crown pelagiarians ([Monsch & Bannikov 2012](https://www.cambridge.org/core/journals/earth-and-environmental-science-transactions-of-royal-society-of-edinburgh/article/new-taxonomic-synopses-and-revision-of-the-scombroid-fishes-scombroidei-perciformes-including-billfishes-from-the-cenozoic-of-territories-of-the-former-ussr/37C191646AD6ECED0B473DE94B6971EC); [Beckett & Friedman 2016](https://pubs.geoscienceworld.org/books/edited-volume/2011/chapter/16307715)).
 
 ---
 
-**Node 1076:** Syngnathiformes | 72.2–100.5Ma\
+**CAL014:** Syngnathiformes | 72.2–100.5Ma\
+**Tree mappings:** ROADIES node 1076; ASTRAL node 659.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Aulostomus maculatus_ (Aulostomidae) and _Syngnathus acus_ (Syngnathidae).\
 **Fossil taxon:** †_Gasterorhamphosus zuppichini_ (MCSNV 877)\
 **Minimum age:** 72.2Ma\
@@ -70,7 +78,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1084:** Lampriformes + Polymixiiformes | 93.9–145.0Ma\
+**CAL015:** Lampriformes + Polymixiiformes | 93.9–145.0Ma\
+**Tree mappings:** ROADIES node 1084; replaced in ASTRAL by CAL098 and CAL099.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Polymixia lowei_ (Polymixiidae) and _Lampris incognitus_ (Lampridae).\
 **Fossil taxon:** †_Aipichthys pretiosus_ (NHMW 1857.XXXVIII.7)\
 **Minimum age:** 93.9Ma\
@@ -81,7 +90,32 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1087:** Zeogadaria | 72.2–145.0Ma\
+**CAL098:** Lampriformes + Polymixiiformes + Percopsiformes + Zeiformes + Stylephoriformes + Gadiformes | 97.4–145.0Ma\
+**Tree mappings:** ASTRAL node 641; not implemented in ROADIES.\
+**Node calibrated:** Last common ancestor of the clade encompassing _Lampris incognitus_ (Lampriformes: Lampridae) and _Gadus morhua_ (Gadiformes: Gadidae).\
+**Fossil taxon:** †_Xenyllion stewarti_ (FHPR 701) from the Mowry Formation (Cretaceous: Cenomanian), Utah, United States ([Newbrey et al. 2013](https://www.pfeil-verlag.de/wp-content/uploads/2015/05/4_59d14.pdf)).\
+**Minimum age:** 97.4Ma\
+**Minimum justification:** Based on the oldest-known unequivocal crown paracanthopterygian, †_Xenyllion stewarti,_ from the Cenomanian of the Cretaceous. Argon mass spectroscopy of the Mowry formation indicates an age of 98.7-97.4Ma ([Singer et al 2021](https://doi.org/10.1130/B35794.1)). Maximum Parsimony and Bayesian analyses of this and the other sphenocephaliform taxa using 46-78 morphological characters resolve †_Xenyllion_ in the crown of Paracanthopterygii ([Davesne et al. 2016](https://doi.org/10.3389/fevo.2016.00129), [Murray et al. 2020](https://doi.org/10.1017/S0016756819001328), [Cantalice et al. 2021](https://doi.org/10.1002/spp2.1359)).\
+**Maximum age:** 145.0Ma\
+**Maximum justification:** Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2019](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3); [Brownstein and Near, 2024](https://academic.oup.com/zoolinnean/article-abstract/201/2/422/7319343); [Brownstein et al. 2025](https://academic.oup.com/evolut/article-abstract/79/6/922/8051721); [Melendez-Vasquez et al. 2025](https://www.science.org/doi/abs/10.1126/sciadv.ads8488)) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
+**Notes:** Extends and replaces **CAL015** from the ROADIES v0.0.0 tree listed above.
+
+---
+
+**CAL099:** Polymixiiformes + Percopsiformes + Zeiformes + Stylephoriformes + Gadiformes | 89.8–145.0Ma\
+**Tree mappings:** ASTRAL node 642; not implemented in ROADIES.\
+**Node calibrated:** Last common ancestor of the clade encompassing _Polymixia lowei_ (Polymixiiformes: Polymixiidae) and _Gadus morhua_ (Gadiformes: Gadidae).\
+**Fossil taxon:** †_Boreiohydrias dayi_ (UALVP 54046) from the Lac des Bois locality (Cretaceous: Turonian), Northwest Territories, Canada ([Murray & Cumbaa 2013](https://doi.org/10.1080/02724634.2013.722574)).\
+**Minimum age:** 89.8Ma\
+**Minimum justification:** Based on the oldest known polymixiiform fossil, †_Boreiohydrias dayi,_ from the Turonian of the Cretaceous. This fossil has been resolved in the polymixiiform stem by Maximum Parsimony analyses of 46 characters ([Murray et al. 2020](https://doi.org/10.1017/S0016756819001328)).\
+**Maximum age:** 145.0Ma\
+**Maximum justification:** Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2019](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3); [Brownstein and Near, 2024](https://academic.oup.com/zoolinnean/article-abstract/201/2/422/7319343); [Brownstein et al. 2025](https://academic.oup.com/evolut/article-abstract/79/6/922/8051721); [Melendez-Vasquez et al. 2025](https://www.science.org/doi/abs/10.1126/sciadv.ads8488)) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
+**Notes:** Extends and replaces **CAL015** from the ROADIES v0.0.0 tree listed above.
+
+---
+
+**CAL016:** Zeogadaria | 72.2–145.0Ma\
+**Tree mappings:** ROADIES node 1087; ASTRAL node 645.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Zeus faber_ (Zeiformes: Zeidae) and _Gadus morhua_ (Gadiformes: Gadidae).\
 **Fossil taxon:** †_Cretazeus rinaldii_ (CCN 6659C)\
 **Minimum age:** 72.2Ma\
@@ -92,7 +126,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1099:** Esociformes + Salmoniformes | 76.2–201.5Ma\
+**CAL017:** Esociformes + Salmoniformes | 76.2–201.5Ma\
+**Tree mappings:** ROADIES node 1099; ASTRAL node 626.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Esox lucius_ (Esociformes: Esocidae) and _Salmo trutta_ (Salmoniformes: Salmonidae).\
 **Fossil taxon:** †_Oldmanesox canadensis_ (TMP 86.23.51)\
 **Minimum age:** 76.2Ma\
@@ -103,7 +138,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1109:** Gobionidae + Leuciscidae | 27.3–66.0Ma\
+**CAL018:** Gobionidae + Leuciscidae | 27.3–66.0Ma\
+**Tree mappings:** ROADIES node 1109; ASTRAL node 615.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Gobio gobio_ (Gobionidae) and _Phoxinus phoxinus_ (Leuciscidae).\
 **Fossil taxon:** †_Palaeotinca moeddeni_ (BSPG 2003 XVIII 51)\
 **Minimum age:** 27.3Ma\
@@ -114,7 +150,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1110:** Leuciscidae | 23.0–33.9Ma\
+**CAL019:** Leuciscidae | 23.0–33.9Ma\
+**Tree mappings:** ROADIES node 1110; ASTRAL node 617.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Cyprinella venusta_ (Pogonichthyinae) and _Phoxinus phoxinus_ (Phoxininae).\
 **Fossil taxon:** †_Palaeorutilus papyraceus_ (University of Leipzig Ro-6)\
 **Minimum age:** 23.0Ma\
@@ -125,7 +162,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1117:** Barbinae + Cyprininae | 38.0–66.0Ma\
+**CAL020:** Barbinae + Cyprininae | 38.0–66.0Ma\
+**Tree mappings:** ROADIES node 1117; ASTRAL node 614.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Barbus barbus_ (Barbinae) and _Carassius carassius_ (Cyprininae).\
 **Fossil taxon:** †_Eoprocypris maomingensis_ (IVPP V.855)\
 **Minimum age:** 38.0Ma\
@@ -136,7 +174,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1123:** Ariidae + Pangasiidae | 33.9–125.0Ma\
+**CAL021:** Ariidae + Pangasiidae | 33.9–125.0Ma\
+**Tree mappings:** ROADIES node 1123; ASTRAL node 610.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Pangasianodon hypophthalmus_ (Pangasiidae) and _Neoarius graeffei_ (Ariidae).\
 **Fossil taxon:** †_Qarmoutus hitanensis_ (MUVP 58)\
 **Minimum age:** 33.9Ma\
@@ -147,7 +186,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1124:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | 72.2–125.0Ma\
+**CAL022:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | 72.2–125.0Ma\
+**Tree mappings:** ROADIES node 1124; ASTRAL node 604.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Pygocentrus nattereri_ (Characidae) and _Astyanax mexicanus_ (Acestrorhamphidae).\
 **Fossil taxon:** †_Eotexachara malateres_ (TMM 45947-640)\
 **Minimum age:** 72.2Ma\
@@ -158,7 +198,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1132:** Elopomorpha | 149.2–201.5Ma\
+**CAL023:** Elopomorpha | 149.2–201.5Ma\
+**Tree mappings:** ROADIES node 1132; ASTRAL node 592.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Megalops cyprinoides_ (Megalopidae) and _Anguilla anguilla_ (Anguillidae).\
 **Fossil taxon:** †_Anaethalion knorri_ (Eichstӓtt 2267)\
 **Minimum age:** 149.2Ma\
@@ -169,7 +210,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1134:** Holostei | 251.2–298.9Ma\
+**CAL024:** Holostei | 251.2–298.9Ma\
+**Tree mappings:** ROADIES node 1134; ASTRAL node 589.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Amia calva_ (Amiiformes: Amiidae) and _Lepisosteus oculatus_ (Lepisosteiformes: Lepisosteidae).\
 **Fossil taxon:** †_Watsonulus eugnathoides_ (MCZ 13871–13878)\
 **Minimum age:** 251.2Ma\
@@ -180,7 +222,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1135:** Chondrichthyes | 382.3–443.1Ma\
+**CAL025:** Chondrichthyes | 382.3–443.1Ma\
+**Tree mappings:** ROADIES node 1135; ASTRAL node 570.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Hydrolagus colliei_ (Chimaeriformes: Chimaeridae) and _Mustelus asterias_ (Carchariniformes: Triakidae).\
 **Fossil taxon:** †_Phoebodus sophiae_ (DMF 5296)\
 **Minimum age:** 382.3Ma\
@@ -191,7 +234,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1140:** Carcharhiniformes + Lamniformes | 165.3–251.2Ma\
+**CAL026:** Carcharhiniformes + Lamniformes | 165.3–251.2Ma\
+**Tree mappings:** ROADIES node 1140; ASTRAL node 582.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Carcharodon carcharias_ (Lamniformes: Lamnidae) and _Mustelus asterias_ (Carchariniformes: Triakidae).\
 **Fossil taxon:** †_Palaeoscyllium tenuidens_ (BMNH P. 66045)\
 **Minimum age:** 165.3Ma\
@@ -202,7 +246,8 @@ Here, we summarize existing calibrations and previous timescales from several re
 
 ---
 
-**Node 1145:** Batomorpha | 184.2–251.2Ma\
+**CAL027:** Batomorpha | 184.2–251.2Ma\
+**Tree mappings:** ROADIES node 1145; ASTRAL node 573.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Raja brachyura_ (Rajiformes: Rajidae) and _Hypanus sabinus_ (Myliobatiformes: Dasyatidae).\
 **Fossil taxon:** †_Antiquaobatis grimmenensis_ (GG 438/57)\
 **Minimum age:** 184.2Ma\
@@ -211,7 +256,7 @@ Here, we summarize existing calibrations and previous timescales from several re
 **Maximum justification:** Conservatively, based on the Permian-Triassic boundary, as no potential stem or crown group batoids are known until the Jurassic.\
 **Discussion:** Described from a tooth only and considered a stem rajiform ([Stumpf & Kriwet 2019](https://link.springer.com/article/10.1007/s12542-019-00451-4)) and therefore the oldest decisive batomorph fossil.
 
-### Controversies
+### Considered but not included:
 
 **Node 980:** Actinopteri | 330.3–419.6Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing _Acipenser ruthenus_ (Acipenseriformes: Acipenseridae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
@@ -240,27 +285,6 @@ The phylogenetic analysis of [Stack (2026)](https://doi.org/10.1002/ar.70090) wa
 **Discussion:** Though its placement has historically been contentious ([Dornburg et al. 2014](https://link.springer.com/article/10.1186/s12862-014-0169-0)), this and related genera are now widely considered stem tetraodontiforms following [Arcila et al. (2015)](https://www.sciencedirect.com/science/article/pii/S1055790314003625), a total-evidence analysis based on the morphological matrix of [Santini & Tyler (2003)](https://academic.oup.com/zoolinnean/article-abstract/139/4/565/2624208). This placement was corroborated by the inclusion of lophiiform terminals by [Arcila & Tyler (2017)](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2017.1771) and [Troyer et al. 2022](https://www.pnas.org/doi/abs/10.1073/pnas.2122486119). In that matrix, †_Plectocretacicus_ is united with tetraodontiforms relative to caproiforms by twelve character transformations recovered consistently under both parsimony and likelihood (characters 13, 25, 26, 32, 34, 66, 81, 82, 95, 97, 100, and 101). Additional support comes from three further characters recovered under parsimony alone (12, 20, 46) and two recovered under likelihood alone (24, 35). An independent and larger set of axial-skeletal and dorsal-fin support characters (146, 147, 158, 162, 163, 164, 166, 167, 182, 187, 190, 195, 196, 204, 206–209) consistently unites tetraodontiforms and lophiiforms to the exclusion of caproiforms.
 
 Even though earlier papers found a significant effect of †_Plectocretacicus_ on percomorph ages (see [Arcila et al. 2015](https://www.sciencedirect.com/science/article/pii/S1055790314003625) and [Miller et al. 2024](https://www.nature.com/articles/s41559-024-02586-3) versus [Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109), [Dornburg et al. 2014](https://link.springer.com/article/10.1186/s12862-014-0169-0), [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3), and [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115)), a recent study with denser taxon and fossil calibration sampling (Santos et al, _in review_) support more ancient timelines of diversification, organically recovering node ages comparable to those in analyses including †_Plectocretacicus_. The remaining controversy concerns two related points: **(i)** the morphological matrices arising from [Santini & Tyler (2003)](https://academic.oup.com/zoolinnean/article-abstract/139/4/565/2624208) have sampled at most one outgroup from Caproiformes (Caproidae: _Antigonia capros_) and the more distant Zeiformes (Cyttidae: _Cyttus novaezealandiae_), limiting possibility of other topological resolutions with respect to the closely-related Priacanthiformes, Scatophagidae, or Siganidae (the latter two being order-level _incertae sedis_ after [Betancur-R. et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3)), and **(ii)** as a result of the limited taxon sampling, character sampling is also limited and does not appear to provide any unambiguous synapomorphies or character states that are diagnostic in combination which can discriminate between the placement of †_Plectocretacicus_ on the stem of Tetraodontiformes (**Node 1012**), the stem of Lophiiformes + Tetraodontiformes (**Node 1011**), or the stem of Scatophagidae + (Lophiiformes + Tetraodontiformes) represented by **Node 1001**.
-
-
-### New calibrations for ASTRAL (v0.1.1)
-
-**Node 641:** Lampriformes + Polymixiiformes + Percopsiformes + Zeiformes + Stylephoriformes + Gadiformes | 97.4–145.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Lampris incognitus_ (Lampriformes: Lampridae) and _Gadus morhua_ (Gadiformes: Gadidae).\
-**Fossil taxon:** †_Xenyllion stewarti_ (FHPR 701) from the Mowry Formation (Cretaceous: Cenomanian), Utah, United States ([Newbrey et al. 2013](https://www.pfeil-verlag.de/wp-content/uploads/2015/05/4_59d14.pdf)).\
-**Minimum age:** 97.4Ma\
-**Minimum justification:** Based on the oldest-known unequivocal crown paracanthopterygian, †_Xenyllion stewarti,_ from the Cenomanian of the Cretaceous. Argon mass spectroscopy of the Mowry formation indicates an age of 98.7-97.4Ma ([Singer et al 2021](https://doi.org/10.1130/B35794.1)). Maximum Parsimony and Bayesian analyses of this and the other sphenocephaliform taxa using 46-78 morphological characters resolve †_Xenyllion_ in the crown of Paracanthopterygii ([Davesne et al. 2016](https://doi.org/10.3389/fevo.2016.00129), [Murray et al. 2020](https://doi.org/10.1017/S0016756819001328), [Cantalice et al. 2021](https://doi.org/10.1002/spp2.1359)).\
-**Maximum age:** 145.0Ma\
-**Maximum justification:** Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2019](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3); [Brownstein and Near, 2024](https://academic.oup.com/zoolinnean/article-abstract/201/2/422/7319343); [Brownstein et al. 2025](https://academic.oup.com/evolut/article-abstract/79/6/922/8051721); [Melendez-Vasquez et al. 2025](https://www.science.org/doi/abs/10.1126/sciadv.ads8488)) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
-**Notes:** Extends and replaces the calibration on **Node 1084** from the ROADIES v0.0.0 tree listed above.
-
-**Node 642:** Polymixiiformes + Percopsiformes + Zeiformes + Stylephoriformes + Gadiformes | 89.8–145.0Ma\
-**Node calibrated:** Last common ancestor of the clade encompassing _Polymixia lowei_ (Polymixiiformes: Polymixiidae) and _Gadus morhua_ (Gadiformes: Gadidae).\
-**Fossil taxon:** †_Boreiohydrias dayi_ (UALVP 54046) from the Lac des Bois locality (Cretaceous: Turonian), Northwest Territories, Canada ([Murray & Cumbaa 2013](https://doi.org/10.1080/02724634.2013.722574)).\
-**Minimum age:** 89.8Ma\
-**Minimum justification:** Based on the oldest known polymixiiform fossil, †_Boreiohydrias dayi,_ from the Turonian of the Cretaceous. This fossil has been resolved in the polymixiiform stem by Maximum Parsimony analyses of 46 characters ([Murray et al. 2020](https://doi.org/10.1017/S0016756819001328)).\
-**Maximum age:** 145.0Ma\
-**Maximum justification:** Based on the Jurassic-Cretaceous boundary, which is the approximate mean or upper bound age for Acanthomorpha in several analyses of molecular data ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2019](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3); [Brownstein and Near, 2024](https://academic.oup.com/zoolinnean/article-abstract/201/2/422/7319343); [Brownstein et al. 2025](https://academic.oup.com/evolut/article-abstract/79/6/922/8051721); [Melendez-Vasquez et al. 2025](https://www.science.org/doi/abs/10.1126/sciadv.ads8488)) but far precedes the oldest acanthomorph body fossils, which are Albian in age.\
-**Notes:** Extends and replaces the calibration on **Node 1084** from the ROADIES v0.0.0 tree listed above.
 
 
 ### Likelihood checkpoints
