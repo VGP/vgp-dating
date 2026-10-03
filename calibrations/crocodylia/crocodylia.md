@@ -28,7 +28,7 @@ The root node (**731:** Crocodylia), separating _Alligator_ and _Gavialis_, gene
 
 ### Likelihood checkpoints
 
-TimeTree.org estimates a median age of 87Ma (73–101Ma) from 18 studies between 2004 and 2018. To this, we added 5 additional studies from 2006–2021. Excluding outliers (1.5 * IQR; in red, below), this yields a median of 87Ma with a range from 71–110Ma. These data are given in crocodylia_timetree.csv. To this, we can compare 9 estimates from 8 time-calibrated studies with fossil tips from 2017–2026 to estimate a range of 90–110Ma (Median 98Ma) based on the average ages and CIs. This excludes two outlier ages (as triangles, below), one from Godoy et al. 2019 and the Groh et al. 2022 FBD analysis, which reports dramatically different topologies and timescales for Gavialoidea. These data are recorded in crocodylia_calibrations.csv.
+TimeTree.org estimates a median age of 87Ma (73–101Ma) from 18 studies between 2004 and 2018. To this, we added 5 additional studies from 2006–2021. Excluding outliers (1.5 * IQR; in red, below), this yields a median of 87Ma with a range from 71–110Ma. These data are given in crocodylia_timetree.csv. To this, we can compare 9 estimates from 8 time-calibrated studies with fossil tips from 2017–2026 to estimate a range of 90–110Ma (Median 98Ma) based on the average ages and CIs. This excludes two outlier ages (as triangles, below), one from Godoy et al. [2019](https://doi.org/10.1186/s12862-019-1466-4) and the Groh et al. [(2022)](https://doi.org/10.1111/pala.12589) FBD analysis, which reports dramatically different topologies and timescales for Gavialoidea. These data are recorded in crocodylia_calibrations.csv.
 
 ![crocodylia likelihood checkpoints](crocodylia_calibrations.png)
 
@@ -46,6 +46,8 @@ Buckland, W. (1836). Geology and Mineralogy Considered with Reference to Natural
 Darlim, G., Lee, M.S., Walter, J. and Rabi, M., 2022. The impact of molecular data on the phylogenetic position of the putative oldest crown crocodilian and the age of the clade. Biology Letters, 18(2), p.20210603.
 
 Eberth, D.A., Evans, D.C., Ramezani, J., Kamo, S.L., Brown, C.M., Currie, P.J. and Braman, D.R., 2023. Calibrating geologic strata, dinosaurs, and other fossils at Dinosaur Provincial Park (Alberta, Canada) using a new CA-ID-TIMS U–Pb geochronology. Canadian Journal of Earth Sciences, 60(12), pp.1627-1646.
+
+Godoy, P.L., Benson, R.B., Bronzati, M. and Butler, R.J., 2019. The multi-peak adaptive landscape of crocodylomorph body size evolution. BMC evolutionary biology, 19(1), p.167.
 
 Groh, S.S., Upchurch, P., Barrett, P.M. and Day, J.J., 2022. How to date a crocodile: estimation of neosuchian clade ages and a comparison of four time‐scaling methods. Palaeontology, 65(2), p.e12589.
 
