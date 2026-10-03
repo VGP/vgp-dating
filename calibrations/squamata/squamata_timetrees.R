@@ -1,5 +1,6 @@
 ### Squamata: Likelihood Checkpoints
 library(ape)
+library(rphylopic)
 library(dplyr)
 library(ggplot2)
 
@@ -54,6 +55,17 @@ rug_key <- function(data, params, size) {
   )
 }
 
+# Point and horizontal interval key, matching the fossil-tip estimates.
+interval_key <- function(data, params, size) {
+  grid::grobTree(
+    grid::segmentsGrob(x0 = c(0.1, 0.1, 0.9), x1 = c(0.9, 0.1, 0.9),
+                       y0 = c(0.5, 0.3, 0.3), y1 = c(0.5, 0.7, 0.7),
+                       gp = grid::gpar(col = "#444444", lwd = 1)),
+    grid::pointsGrob(x = 0.5, y = 0.5, pch = 21, size = unit(2, "mm"),
+                     gp = grid::gpar(col = "#444444", fill = "white"))
+  )
+}
+
 # Preserve the published-age distributions and fossil-tip intervals.
 p <- ggplot() +
   geom_density(data = filter(squamata, !outlier), aes(x = Age),
@@ -69,9 +81,9 @@ p <- ggplot() +
   geom_errorbar(data = squamate_tips, aes(y = y, xmin = Min, xmax = Max),
                 orientation = "y", width = 0.0005, linewidth = 0.6, color = "#444444") +
   geom_point(data = squamate_tips, aes(x = Point, y = y, shape = "Estimate"),
-             size = 2.2, color = "#444444", fill = "white") +
-  scale_shape_manual(name = "Fossil-tip ages; bars: reported intervals",
-                     values = c(Estimate = 21)) +
+             size = 2.2, color = "#444444", fill = "white", key_glyph = interval_key) +
+  scale_shape_manual(name = NULL, values = c(Estimate = 21),
+                     labels = c(Estimate = "Fossil-tip ages and intervals")) +
   scale_color_manual(name = NULL,
                      values = c(ROADIES = "#246B83", ASTRAL = "#B7653D",
                                 Constraint = "#8A8A8A", Published = "#555555"),
@@ -80,10 +92,10 @@ p <- ggplot() +
                         values = c(ROADIES = "solid", ASTRAL = "longdash",
                                    Constraint = "dotted", Published = "solid"),
                         breaks = names(line_labels), labels = line_labels) +
-  scale_x_continuous(breaks = seq(0, 350, 50)) +
-  scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
+  scale_x_continuous(limits = c(0, 359), breaks = seq(0, 350, 50)) +
+  scale_y_continuous(expand = expansion(mult = c(0.05, 0.05))) +
   coord_cartesian(xlim = c(0, 359)) +
-  labs(title = "Age estimates for Squamata", x = "Age (Ma)", y = "Density") +
+  labs(title = "Published age estimates for Squamata", x = "Age (Ma)", y = "Density") +
   guides(color = guide_legend(order = 1), linetype = guide_legend(order = 1),
          shape = guide_legend(order = 2)) +
   theme_classic(base_size = 12) +
@@ -99,6 +111,24 @@ p <- ggplot() +
         legend.key.width = unit(18, "pt"), legend.key.height = unit(14, "pt"),
         legend.spacing.y = unit(0, "pt"),
         plot.margin = margin(16, 18, 8, 12))
+
+# PhyloPic sources, checked 2026-10-03. Public-domain silhouettes.
+# Snake: Liotyphlops beui, creator unknown; contributed by T. Michael Keesey. CC0 1.0.
+# https://www.phylopic.org/images/3ae24c5c-e831-4704-a30c-eab42fb6b246
+# https://creativecommons.org/publicdomain/zero/1.0/
+# Lizard: Lacerta, Gustav Mützel; contributed by Tomasz Skawiński. Public Domain Mark 1.0.
+# https://www.phylopic.org/images/18af6753-2f5b-49d2-a28d-4cc1b7deaf6f
+# https://creativecommons.org/publicdomain/mark/1.0/
+# Amphisbaenian: creator unknown; contributed by Guillaume Dera. CC0 1.0.
+# https://www.phylopic.org/images/5e053800-41a4-4e2f-bba6-d53c7ce0d0b2
+# https://creativecommons.org/publicdomain/zero/1.0/
+p <- p +
+  add_phylopic(uuid = "3ae24c5c-e831-4704-a30c-eab42fb6b246",
+               x = 302, y = 0.017, height = 0.0045, fill = "lightgrey") +
+  add_phylopic(uuid = "18af6753-2f5b-49d2-a28d-4cc1b7deaf6f",
+               x = 302, y = 0.011, width = 75, fill = "lightgrey") +
+  add_phylopic(uuid = "5e053800-41a4-4e2f-bba6-d53c7ce0d0b2",
+               x = 302, y = 0.005, width = 75, angle = 90, fill = "lightgrey")
 
 ggsave("squamata_likelihood_checkpoints.png", p, width = 8, height = 5,
        units = "in", dpi = 300, bg = "white")
