@@ -98,6 +98,8 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 **Maximum justification:** Several early branching salamandrids (†_Duffaudiella_, †_Eotriton_, and †_Koaliella_) are known from the Eocene and Paleocene ([Macaluso et al. 2025](https://royalsocietypublishing.org/rspb/article/292/2052/20251333/234515)), supporting the K–Pg boundary as a conservative soft maximum age for Pleurodelinae.\
 **Discussion:** [Hime et al. (2021)](https://academic.oup.com/sysbio/article/70/1/49/5828236) estimated the age of this node at ~35Ma, consistent with the fossil evidence reviewed by [Macaluso et al. (2022)](https://royalsocietypublishing.org/rsos/article/9/11/220935/96437/Biogeographic-history-of-Palearctic-caudates) and the total-evidence analysis of [Macaluso et al. (2025)](https://royalsocietypublishing.org/rspb/article/292/2052/20251333/234515). In contrast, [Stewart and Wiens (2025)](https://www.sciencedirect.com/science/article/pii/S1055790324002641) liberally assigned Oligocene fossil material to the crown group of _Triturus_ and the early Eocene (Ypresian) †_Eotriton weigelti_ to the crown group of Pleurodelini, yielding dramatically older Paleocene ages for Pleurodelinae. These assignments are not supported by the taxonomic review or phylogenetic analysis of Macaluso et al. ([2022](https://royalsocietypublishing.org/rsos/article/9/11/220935/96437/Biogeographic-history-of-Palearctic-caudates), [2025](https://royalsocietypublishing.org/rspb/article/292/2052/20251333/234515)), and we therefore do not follow them here.
 
+---
+
 ### New calibrations for ASTRAL
 
 **Node $XXX:** Urodela | 125.0–251.9Ma\
@@ -119,6 +121,8 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 **Maximum age:** Jurassic–Cretaceous boundary, 143.1Ma\
 **Maximum justification:** We use a conservative soft maximum age corresponding to the Jurassic–Cretaceous boundary, as numerous stem but no unambiguous crown salamanders are known from the Jurassic ([Jones et al. 2022](https://doi.org/10.1073/pnas.2114100119)).\
 **Discussion:** Newly described synapomorphies and a phylogenetic analysis place this taxon in crown Proteidae, sister to _Proteus_ to the exclusion of _Necturus_ relative to the extant taxa ([Skutschas et al. 2025](https://doi.org/10.1080/08912963.2024.2384108)). Even if treated as a total-group proteid (i.e., potentially a stem member), it nonetheless provides a credible minimum boundary for Pseudosauria. 
+
+---
 
 ### Likelihood checkpoints:
 
