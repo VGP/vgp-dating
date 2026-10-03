@@ -2,9 +2,12 @@
 
 Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). Calibration parameters were derived from the fossil record using the CladeDate method ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)). The set of fossil ages represent the first fossil occurrence of a taxon in each continent. The minimum age is the minimum possible age (upper stratigraphic bound) of the oldest fossil. The maximum age was obtained from the 95% quantile of the empirical distribution obtained from CladeDate. The parameters of a skew-Student distribution fitted to the empirical distribution are also provided. In general, we attempt to ensure that the oldest fossil constraining the minimum bound on each node age satisfies the criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)).
 
+CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.numbers.nwk) (`astralpro.l6p1`).
+
 ### Calibrations:
 
-**Node 709:** Galloanserae | 65.7–91.9Ma\
+**CAL084:** Galloanserae | 65.7–91.9Ma\
+**Tree mapping:** ROADIES node 709; ASTRAL node 1000\
 **Node calibrated:** Last common ancestor of the clade encompassing Galliformes (_Gallus gallus_) and Anseriformes (_Anser anser_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -32,7 +35,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 710:** Anatidae | 24.0–38.1Ma\
+**CAL085:** Anatidae | 24.0–38.1Ma\
+**Tree mapping:** ROADIES node 710; ASTRAL node 1004\
 **Node calibrated:** Last common ancestor of Anatinae (_Anas platyrhynchos)_ and Anserinae (_Anser anser_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -60,7 +64,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 699:** Otidimorphae | 51.8–80.4Ma\
+**CAL086:** Otidimorphae | 51.8–80.4Ma\
+**Tree mapping:** ROADIES node 699; ASTRAL node 1022\
 **Node calibrated:** Last common ancestor of Otidiformes (_Chlamydotis macqueenii_), Musophagiformes (_Tauraco erythrolophus_), and Cuculiformes (_Cuculus canorus_), sensu Braun et al. ([2019](https://link.springer.com/chapter/10.1007/978-3-030-16477-5_6))\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -86,7 +91,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 704:** Daedalornithes | 54.6–84.2Ma\
+**CAL087:** Daedalornithes | 54.6–84.2Ma\
+**Tree mapping:** ROADIES node 704; ASTRAL node 1034\
 **Node calibrated:** Last common ancestor of Aegothelidae (_Aegotheles albertisi_) and Apodiformes (_Apus apus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -112,7 +118,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 708:** Apodi | 50.3–103.4Ma\
+**CAL088:** Apodi | 50.3–103.4Ma\
+**Tree mapping:** ROADIES node 708; ASTRAL node 1036\
 **Node calibrated:** Last common ancestor of Apodidae (_Apus apus_) and Hemiprocnidae (_Hemiprocne comata_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -138,7 +145,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 675:** Gruiformes | 55.6–80.4Ma\
+**CAL089:** Gruiformes | 55.6–80.4Ma\
+**Tree mapping:** ROADIES node 675; ASTRAL node 1053\
 **Node calibrated:** Last common ancestor of Gruoidea (_Grus grus_) and Ralloidea (_Gallinula chloropus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -166,7 +174,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 666:** Charadriiformes | 55.0–78.6Ma\
+**CAL090:** Charadriiformes | 55.0–78.6Ma\
+**Tree mapping:** ROADIES node 666; ASTRAL node 1057\
 **Node calibrated:** Last common ancestor of Charadrii (_Pluvialis apricaria_) and Scolopaci (_Numenius arquata_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -192,7 +201,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 690:** Phaethontimorphae | 55.8–62.3Ma\
+**CAL091:** Phaethontimorphae | 55.8–62.3Ma\
+**Tree mapping:** ROADIES node 690; ASTRAL node 1041\
 **Node calibrated:** Last common ancestor of clade encompassing Phaethontiformes (_Phaethon aethereus_) and Eurypygiformes (_Rhynochetos jubatus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -212,7 +222,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 689:** Procellariimorphae | 60.5–84.7Ma\
+**CAL092:** Procellariimorphae | 60.5–84.7Ma\
+**Tree mapping:** ROADIES node 689; ASTRAL node 1044\
 **Node calibrated:** Last common ancestor of clade encompassing Sphenisciformes (_Spheniscus humboldti_) and Procellariiformes (_Calonectris borealis_).\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -242,7 +253,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 653:** Accipitrimorphae + Strigiformes | 58.8–74.4Ma\
+**CAL093:** Accipitrimorphae + Strigiformes | 58.8–74.4Ma\
+**Tree mapping:** ROADIES node 653; ASTRAL node 1067\
 **Node calibrated:** Last common ancestor of clade encompassing Strigiformes (_Athene noctua_) and Accipitriformes (_Buteo buteo_).\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -270,7 +282,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 603:** stem Psittacopasseres | 54.6–81.0Ma\
+**CAL095:** stem Psittacopasseres | 54.6–81.0Ma\
+**Tree mapping:** ROADIES node 603; ASTRAL node 1090\
 **Node calibrated:** Last common ancestor of clade encompassing Psittaciformes (_Ara ararauna_) and Passeriformes (_Passer domesticus_).\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -298,7 +311,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 605:** Eupasseres | 30.2–45.7Ma\
+**CAL096:** Eupasseres | 30.2–45.7Ma\
+**Tree mapping:** ROADIES node 605; ASTRAL node 1098\
 **Node calibrated:** Last common ancestor of clade encompassing Tyranni (_Willisornis vidua_) and Passeri (_Passer domesticus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
@@ -326,7 +340,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ---
 
-**Node 612:** Passerellidae and allies | 7.5–32.9Ma\
+**CAL097:** Passerellidae and allies | 7.5–32.9Ma\
+**Tree mapping:** ROADIES node 612; ASTRAL node 1122\
 **Node calibrated:** Last common ancestor of clade encompassing Passerellidae (_Zonotrichia albicollis_) and Icteridae (_Agelaius phoeniceus_) + Parulidae (_Geothlypis trichas_)\
 **Fossil taxon:** We surveyed the following specimens to calibrate this node:
 
@@ -344,7 +359,8 @@ Our bird calibrations are primarily adapted from Stiller et al. ([2024](https://
 
 ### New calibrations for ASTRAL v0.1.1
 
-**Node 1077:** Coraciimorphae | 62.2–91.9Ma\
+**CAL094:** Coraciimorphae | 62.2–91.9Ma\
+**Tree mapping:** ROADIES: not applied; ASTRAL node 1077\
 **Node calibrated:** Last common ancestor of clade encompassing Coliiformes (_Colius striatus_) and Coraciiformes (_Merops nubicus_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
