@@ -61,7 +61,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Minimum age:** Early Paleocene (Danian), 61.6Ma\
 **Minimum justification:** The Ravenscrag Formation is from the early Puercan NALMA, corresponding to the Danian age of the Paleocene, the top of which corresponds to 61.7Ma ± 0.1 Myr, thus 61.6Ma ([Fox and Youzwyshyn 1994](https://doi.org/10.1080/02724634.1994.10011566))\
 **Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
-**Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members. A soft-maximum in the Jurassic for crown placental clades (cf. [Benton et al. 2015](https://doi.org/10.26879/424)) is arguably more conservative, as such soft constraints do not penalize truly ancient crown placental divergences as much. However, given methodological difficulties arising from broad prior distributions that can artifactually favor older ages ([Budd and Mann 2024](https://doi.org/10.1093/sysbio/syad057)), we instead use tighter soft maxima derived from the diversity of lower Cretaceous mammalian faunae (e.g., from the Jehol biota), which document a variety of therian species but no crown placentals. Given the nature of "soft" maxima, divergence estimates older than 126Ma are still possible, but 126Ma better reflects the negative information present in Lower Cretaceous localities. In the case of crown placentals, the fossil record suggests that, at this time, absence of evidence really does indicate evidence of absence.\
+**Maximum justification:** Maximum bound based on the Jehol biota of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members. A soft-maximum in the Jurassic for crown placental clades (cf. [Benton et al. 2015](https://doi.org/10.26879/424)) is arguably more conservative, as such soft constraints do not penalize truly ancient crown placental divergences as much. However, given methodological difficulties arising from broad prior distributions that can artifactually favor older ages ([Budd and Mann 2024](https://doi.org/10.1093/sysbio/syad057)), we instead use tighter soft maxima derived from the diversity of lower Cretaceous mammalian faunae (e.g., from the Jehol biota), which document a variety of therian species but no crown placentals. Given the nature of "soft" maxima, divergence estimates older than 126Ma are still possible, but 126Ma better reflects the negative information present in Lower Cretaceous localities. In the case of crown placentals, the fossil record suggests that, at this time, absence of evidence really does indicate evidence of absence.\
 **Discussion:** This fossil is a stem carnivoran from the early Paleocene (Danian) of Ravenscrag Formation in Saskatchewan, Canada ([Benton et al. 2015](https://doi.org/10.26879/424), [Fox et al. 2010](https://doi.org/10.1666/09-165.1)), and the oldest-known crown placentalian.
 
 ---
@@ -70,10 +70,10 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Tree mapping:** ROADIES node 931; ASTRAL node 788\
 **Node calibrated:** The most recent common ancestor of Paenungulata (_Dugong dugon_) and Afroinsectiphilia (_Rhynchocyon petersi_)\
 **Fossil taxa:** †_Ocepeia daouiensis_ (CPSGM MA1) from the Ouled Abdoun Basin (Paleocene), Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739))\
-**Minimum age:** Late Paleocene (Selandian), 59.24Ma\
+**Minimum age:** Middle Paleocene (Selandian), 59.24Ma\
 **Minimum justification:** Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) specify a Selandian age for this taxon, which is evidently the same locality as †_Eritherium azzouzorum_, previously described as "early Thanetian (incl. Selandian)" ([Gheerbrant 2009](https://doi.org/10.1073/pnas.0900251106)). Here, we follow Gheerbrant et al. ([2014](https://doi.org/10.1371/journal.pone.0089739)) who write "...The new material of this species confirms its Paleocene age. It comes from the same bone bed level located at the base of phosphorite Bed IIa that is dated Selandian … and that yields _Eritherium azzouzorum_, _Abdounodus hamdii_, and _Lahimia selloumi_."\
 **Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
-**Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
+**Maximum justification:** Maximum bound based on the Jehol biota of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
 **Discussion:** This fossil is the oldest-known stem proboscidean from the Paleocene (Selandian) of Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739)), and the oldest-known crown afrotherian.
 
 ---
@@ -81,11 +81,11 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **CAL046:** Xenarthra | 47.6–125.8Ma\
 **Tree mapping:** ROADIES node 936; ASTRAL node 786\
 **Node calibrated:** The most recent common ancestor of Cingulata (_Dasypus novemcinctus_) and Folivora (_Choloepus didactylus_)\
-**Fossil taxa:** †_Riostegotherium yanei_ (MCN-PV 1774) from the Itaboraí Formation of the Itaboraian land-mammal age (middle Paleocene) of Rio de Janeiro, Brazil ([Oliveira and Bergqvist 1998](https://peapaleontologica.org.ar/index.php/peapa/article/view/174))\
+**Fossil taxa:** †_Riostegotherium yanei_ (MCN-PV 1774) from the Itaboraí Formation of the Itaboraian land-mammal age (middle Paleocene to early Eocene) of Rio de Janeiro, Brazil ([Oliveira and Bergqvist 1998](https://peapaleontologica.org.ar/index.php/peapa/article/view/174))\
 **Minimum age:** Early Eocene (Ypresian), 47.6Ma\
 **Minimum justification:** The Itaboraí formation dates to the Ypresian of the early Eocene ([Woodburne et al. 2014](https://doi.org/10.1007/s10914-012-9222-1)), the top of which is 47.8Ma, ± 0.2 Myr, thus 47.6Ma ([Benton et al. 2015](https://doi.org/10.26879/424))\
 **Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
-**Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
+**Maximum justification:** Maximum bound based on the Jehol biota of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
 **Discussion:** This fossil is the oldest-known stem cingulate from the early Eocene (Ypresian) of Itaboraí, Brazil ([Benton et al. 2015](https://doi.org/10.26879/424), [Bergqvist et al. 2004](https://sciencepress.mnhn.fr/en/periodiques/geodiversitas/26/2/les-xenarthra-mammalia-du-bassin-de-sao-jose-de-itaborai-paleocene-superieur-age-itaboraiense-rio-de-janeiro-bresil)), and the oldest-known crown xenarthran.
 
 ---
@@ -145,7 +145,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Minimum age:** Early Paleocene (Danian), 65.79Ma\
 **Minimum justification:** Specimen is from the Harley’s Point locality in the Tullock Member of the Fort Union Formation, Montana, and has been dated to the early Danian magnetochron C29R ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050)), which corresponds to the early Puercan NALMA\
 **Maximum age:** Early Cretaceous (Barremian/Aptian), 125.77Ma\
-**Maximum justification:** Maximum bound based on the Jehol Formation of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
+**Maximum justification:** Maximum bound based on the Jehol biota of the Early Cretaceous ([Zhou 2014](https://doi.org/10.1093/nsr/nwu055), [Yang et al. 2020](https://doi.org/10.1073/pnas.1918272117)), a well-sampled fauna including stem placentals such as †_Ambolestes_ and †_Sinodelphys_ ([Bi et al. 2018](https://doi.org/10.1038/s41586-018-0210-3)) but no putative crown members\
 **Discussion:** As noted by de Vries and Beck ([2023](https://doi.org/10.26879/1249)): "recent phylogenetic analyses specifically intended to resolve euarchontan relationships consistently place _Purgatorius_ and other “plesiadapiforms” within crown Euarchonta, and specifically closer to Primates and Dermoptera than to Scandentia, although the precise affinities of “plesiadapiforms” vary in these analyses." See Chester et al. ([2015](https://doi.org/10.1073/pnas.1421707112)) for an example.
 
 ---
@@ -206,7 +206,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Minimum justification:** The Cambay Shales are dated to the middle Ypresian ([Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)), the top of which dates to 47.8Ma ± 0.2 Myr, thus 47.6Ma\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Based on the occurrences of basal Glires, including †_Mimotona_ ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [de Vries and Beck, 2023](https://doi.org/10.26879/1249)) and †_Heomys_ ([Li and Ting, 1983](https://doi.org/10.5962/p.228600))\
-**Discussion:** These unnamed stem leporid fossils are the oldest-known crown lagomorphs, from the Vastan Mines (Cambay Shale) of West-Central India, dated to the early Eocene (Ypresian) ([Benton et al. 2015](https://doi.org/10.26879/424), [Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)). The oldest known stem Lagomorphs (e.g., †_Heomys_) are known from the lower Paleocene ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [de Vries and Beck, 2023](https://doi.org/10.26879/1249)).
+**Discussion:** These unnamed stem leporid fossils are the oldest-known crown lagomorphs, from the Vastan Mines (Cambay Shale) of West-Central India, dated to the early Eocene (Ypresian) ([Benton et al. 2015](https://doi.org/10.26879/424), [Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661)). The oldest known stem Lagomorphs (e.g., †_Mimotona_) are known from the lower Paleocene ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [de Vries and Beck, 2023](https://doi.org/10.26879/1249)).
 
 ---
 
@@ -261,8 +261,8 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **CAL061:** Murinae (part: Murini + Arvicanthini) | 11.1–12.3Ma\
 **Tree mapping:** ROADIES node 898; ASTRAL node 833\
 **Node calibrated:** The most recent common ancestor of Murini (_Mus musculus_) and Arvicanthini (_Arvicanthis niloticus_)\
-**Fossil taxa:** †_Karnimata_ sp. (YGSP 791)\
-**Minimum age:** Middle Miocene (Tortonian), 11.1Ma\
+**Fossil taxa:** †_Karnimata_ sp., M1 specimens from YGSP localities Y791 and Y797, Pakistan ([Kimura et al. 2015](https://doi.org/10.1038/srep14444))\
+**Minimum age:** Late Miocene (Tortonian), 11.1Ma\
 **Minimum justification:** From the upper age of localities associated with the first appearance of the taxon ([Jacobs and Flynn 2005](https://doi.org/10.1163/9789047416616_011))\
 **Maximum age:** Middle Miocene (Serravallian), 12.3Ma\
 **Maximum justification:** Lower age of locality associated with appearance of the _Progonomys_ clade, which contains _Mus_ ([Jacobs 1978](https://search.worldcat.org/title/Fossil-rodents-(Rhizomyidae-and-Muridae)-:-from-Neogene-Siwalik-deposits-Pakistan/oclc/4611477), [Jacobs and Flynn 2005](https://doi.org/10.1163/9789047416616_011))\

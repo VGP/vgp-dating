@@ -160,7 +160,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 – Based on the oldest-known stem carnivore and crown placental †_Ravenictis krausei_ from the Danian of the early Paleocene.
 
 **931:** Afrotheria | 59.2–125.8Ma\
-– Based on the oldest-known stem proboscidean and crown afrotherian †_Ocepeia daouiensis_ from the Selandian of the late Paleocene.
+– Based on the oldest-known stem proboscidean and crown afrotherian †_Ocepeia daouiensis_ from the Selandian of the middle Paleocene.
 
 **936:** Xenarthra | 47.6–125.8Ma\
 – Based on the oldest-known stem cingulate and crown xenarthran †_Riostegotherium yanei_ from the Ypresian of the early Eocene.
@@ -169,10 +169,10 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 – Based on the oldest-known crown chiropteran †_Tachypteron franzeni_ from the Lutetian of the middle Eocene.
 
 **876:** Yinpterochiroptera | 33.9–58.9Ma\
-– Based on the oldest-known crown yinpterochiropteran †_Saharaderma pseudovampyrus_ from the Priabonian of the middle Eocene.
+– Based on the oldest-known crown yinpterochiropteran †_Saharaderma pseudovampyrus_ from the Priabonian of the late Eocene.
 
 **847:** Vespertilionoidea | 37.8–58.9Ma\
-– Based on the oldest-known crown vespertilionoid †_Cuvierimops parisiensis_ from the Priabonian of the middle Eocene.
+– Based on the oldest-known crown vespertilionoid †_Cuvierimops parisiensis_ from the Priabonian of the late Eocene.
 
 **869:** Stem Noctilionoidea | 26.0–58.9Ma\
 – Based on the oldest-known crown total-group noctilionoid †_Koopmanycteris palaeomormoops_ from the Chattian of the late Oligocene.
@@ -208,7 +208,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 – Based on the oldest-known stem murine †_Potwarmus primitivus_ from the Langhian of the middle Miocene.
 
 **898:** Murinae (part: Murini + Arvicanthini) | 11.1–12.3Ma\
-– Based on the oldest-known stem member of Arvicanthini + Millardini + Otomyini †_Karnimata_ sp. from the Tortonian of the middle Miocene.
+– Based on the oldest-known stem member of Arvicanthini + Millardini + Otomyini †_Karnimata_ sp. from the Tortonian of the late Miocene.
 
 **791:** Artiodactyla | 52.4–66.0Ma\
 – Based on the oldest-known stem cetacean and crown artiodactyl †_Himalayacetus subathuensis_ from the Ypresian of the early Eocene.
