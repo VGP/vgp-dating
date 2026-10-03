@@ -2,7 +2,7 @@
 
 Turtles have a dense and detailed fossil record that has made them particularly amenable to time-calibrated phylogenetic analyses using taxonomically-justified fossil constraints, which were reviewed in detail for the group by [Joyce et al. (2013)](https://doi.org/10.1666/12-149). That study provided 22 well-constrained node ages to date the turtle tree, which were corroborated and partially updated by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773). Given our modest sampling of turtles, only 9 of the 22 constraints are applicable here, which we list below as our primary calibrations. For all ages, material, and taxa referenced below, the synapomorphies, stratigraphy, and material are summarized by [Joyce et al. (2013)](https://doi.org/10.1666/12-149) and [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), from which all data are derived unless otherwise stated. [Joyce et al. (2013)](https://doi.org/10.1666/12-149) note the presence of a great deal of additional material that may be better characterized phylogenetically and stratigraphically in the future, yielding older and more precise estimates for many nodes.
 
-CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in ROADIES v0.0.0 (`roadies_v1.1.16b`) and ASTRAL v0.1.1 (`astralpro.l6p1`).
+CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.numbers.nwk) (`astralpro.l6p1`).
 
 ### Calibrations:
 
