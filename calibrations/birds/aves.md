@@ -388,16 +388,6 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
-### Possible additions
-
-**DJF:** Crown Columbimorphae? Santiago and Josefin, since the Pteroclidae + Columbidae split is represented in the tree, should we calibrate that node? I think †_Leptoganga sepultus_ provides a good calibration for that node. Since it is thought to be a stem-sandgrouse, it would calibrate the sandgrouse-pigeon divergence at 23.9Ma based on the age of the Quercy fissure fillings. **SC:** Is there a phylogenetic analysis of †_Leptoganga_?
-
-**DJF:** Deeper within Strisores it could be possible to calibrate some of the divergences within 'Caprimulgiformes'. For instance, since †_Prefica_ looks like a stem-Oilbird (and we assume monophyly of Sedentaves, i.e. _Steatornis_ + Nyctibiidae), then †_Prefica_ would provide a calibration for the MRCA of _Nyctibius_ and its sister taxon in the tree at 51.8Ma.
-
-**DJF:** The sampling in the tree would allow calibration of crown Gruidae (MRCA of _Balearica_ and _Grus_) at 10.3Ma using †_Balearica exigua_ (although I think it would be interesting to revisit this taxon). **SC:** a potentially good addition, but there is no phylogenetic analysis of †_B. exigua_.
-
----
-
 ## References
 
 Agnolin, F.L., Tomassini, R.L. and Contreras, V.H., 2016, January. Oldest record of thinocoridae (aves, Charadriiformes) from south America. In Annales de paleontologie (Vol. 102, No. 1, pp. 1-6). Elsevier Masson.
