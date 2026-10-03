@@ -46,7 +46,7 @@ CAL044,PLACENTALIA,785,784,61.6,125.8,GCF_030445035.2,Dasypus novemcinctus,GCA_0
 CAL045,AFROTHERIA,931,788,59.2,125.8,GCA_030035585.1,Dugong dugon,GCA_043290085.1,Rhynchocyon petersi,mammalia,
 CAL046,XENARTHRA,936,786,47.6,125.8,GCF_030445035.2,Dasypus novemcinctus,GCF_015220235.1,Choloepus didactylus,mammalia,
 CAL047,CHIROPTERA,845,841,47.9,66.0,GCF_014176215.1,Rousettus aegyptiacus,GCA_037038545.1,Rhynchonycteris naso,mammalia,
-CAL048,YINCHIROPTERA,876,842,33.9,58.9,GCF_014176215.1,Rousettus aegyptiacus,GCA_043728145.1,Rhinolophus trifoliatus,mammalia,
+CAL048,YINPTEROCHIROPTERA,876,842,33.9,58.9,GCF_014176215.1,Rousettus aegyptiacus,GCA_043728145.1,Rhinolophus trifoliatus,mammalia,
 CAL049,VESPERTILIONOIDEA,847,861,37.8,58.9,GCA_039880945.1,Molossus nigricans,GCA_964146895.2,Miniopterus schreibersii,mammalia,
 CAL050,STEM_NOCTILIONOIDEA,869,854,26.0,58.9,GCA_037038545.1,Rhynchonycteris naso,GCF_004126475.2,Phyllostomus discolor,mammalia,
 CAL051,EUARCHONTA,916,795,65.8,125.8,GCA_009914755.4,Homo sapiens,GCA_026018925.1,Tupaia tana,mammalia,

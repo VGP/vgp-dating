@@ -140,7 +140,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 **CAL051:** Euarchonta | 65.8–125.8Ma\
 **Tree mapping:** ROADIES node 916; ASTRAL node 795\
-**Node calibrated:** The most recent common ancestor of Primata (_Homo sapiens_), Dermoptera (_Cynocephalus volans_), and Scandentia (_Tupaia tana_)\
+**Node calibrated:** The most recent common ancestor of Primates (_Homo sapiens_), Dermoptera (_Cynocephalus volans_), and Scandentia (_Tupaia tana_)\
 **Fossil taxa:** †_Purgatorius mckeeveri_ (UCMP 150021) from the Harley’s Point locality in the Tullock Member of the Fort Union Formation in Montana, USA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050))\
 **Minimum age:** Early Paleocene (Danian), 65.79Ma\
 **Minimum justification:** Specimen is from the Harley’s Point locality in the Tullock Member of the Fort Union Formation, Montana, and has been dated to the early Danian magnetochron C29R ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050)), which corresponds to the early Puercan NALMA\
@@ -169,7 +169,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Minimum age:** Late Eocene (Priabonian), 33.9Ma\
 **Minimum justification:** The Birket Qarun Formation corresponds to upper Priabonian ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
 **Maximum age:** Late Paleocene (Thanetian), 56.0Ma\
-**Maximum justification:** Bounded by the first appearance of euprimates, represented by †_Altiatlasius koulchii_ (see **CAL052:** Primates), which dates to the late Paleocene at 56.0Ma ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates)), [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
+**Maximum justification:** Bounded by the first appearance of euprimates, represented by †_Altiatlasius koulchii_ (see **CAL052:** Primates), which dates to the late Paleocene at 56.0Ma ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates), [Dragastan and Herbig 2007](https://doi.org/10.2113/gsmicropal.53.1-2.1))\
 **Discussion:** This fossil is the oldest-known stem lorisiform or crown strepsirrhine (of uncertain affinities) from the late Eocene (Priabonian) Birket Qarun Formation of Fayûm, Egypt ([Benton et al. 2015](https://doi.org/10.26879/424), [Seiffert et al. 2003](https://doi.org/10.1038/nature01489), [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))
 
 ---
@@ -287,7 +287,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Node calibrated:** Last common ancestor of Tylopoda (_Camelus dromedarius_) and Ruminantia (_Muntiacus reevesi_)\
 **Fossil taxa:** †_Himalayacetus subathuensis_ (RUSB 2003) from the Subathu Formation (zone IIIc), India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464))\
 **Minimum age:** Early Eocene (Ypresian), 52.4Ma\
-**Minimum justification:** The specimen was found in the Subathu Formation in India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464)). As per Benton et al. ([2015](https://doi.org/10.26879/424)), it co-occurs with the foraminiferan †_Nummulites atacicus_, which is distributed across nanoplankton zones 11-12 ([Martín-Martín et al. 2001](https://doi.org/10.1046%2Fj.0950-091x.2001.00158.x)), which permits setting the minimum age to 52.4Ma instead of using the top of the Ypresian stage (47.8Ma)\
+**Minimum justification:** The specimen was found in the Subathu Formation in India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464)). As per Benton et al. ([2015](https://doi.org/10.26879/424)), it co-occurs with the foraminiferan †_Nummulites atacicus_, which is distributed across nannoplankton zones 11–12 ([Martín-Martín et al. 2001](https://doi.org/10.1046%2Fj.0950-091x.2001.00158.x)), which permits setting the minimum age to 52.4Ma instead of using the top of the Ypresian stage (47.8Ma)\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), we use the lack of Paleocene crown cetartiodactyls to suggest a plausible soft maximum age of 66.04 ± 0.4Ma, thus 66.0Ma\
 **Discussion:** This fossil is the oldest-known stem cetacean from the early Eocene (Ypresian) of India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464), [O’Leary and Uhen 1999](https://doi.org/10.1017/S0094837300020376), [Benton et al. 2015](https://doi.org/10.26879/424))

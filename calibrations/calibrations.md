@@ -175,7 +175,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 – Based on the oldest-known crown vespertilionoid †_Cuvierimops parisiensis_ from the Priabonian of the late Eocene.
 
 **869:** Stem Noctilionoidea | 26.0–58.9Ma\
-– Based on the oldest-known crown total-group noctilionoid †_Koopmanycteris palaeomormoops_ from the Chattian of the late Oligocene.
+– Based on the oldest-known total-group noctilionoid †_Koopmanycteris palaeomormoops_ from the Chattian of the late Oligocene.
 
 **916:** Euarchonta | 65.8–125.8Ma\
 – Based on the oldest-known crown euarchontan †_Purgatorius mckeeveri_ from the Danian of the early Paleocene.
