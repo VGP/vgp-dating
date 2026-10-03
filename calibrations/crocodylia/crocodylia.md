@@ -64,7 +64,7 @@ Ramezani, J., Beveridge, T.L., Rogers, R.R., Eberth, D.A. and Roberts, E.M., 202
 
 Rayner, David & Mitchell, Tony & Rayner, Martin & Clouter, Fred. (2009). London Clay Fossils of Kent and Essex. Medway Fossil and Mineral Society.
 
-Rio, J. and Mannion, P., 2021. Phylogenetic analysis of a new morphological dataset elucidates the evolutionary history of Crocodylia and resolves the long-standing gharial problem. PeerJ.
+Rio, J. and Mannion, P., 2021. Phylogenetic analysis of a new morphological dataset elucidates the evolutionary history of Crocodylia and resolves the long-standing gharial problem. PeerJ 9:e12094.
 
 Salas-Gismondi, R., Moreno-Bernal, J.W., Scheyer, T.M., Sánchez-Villagra, M.R. and Jaramillo, C., 2019. New Miocene Caribbean gavialoids and patterns of longirostry in crocodylians. Journal of Systematic Palaeontology, 17(12), pp.1049-1075.
 
