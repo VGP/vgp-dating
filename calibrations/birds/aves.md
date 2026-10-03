@@ -13,7 +13,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 - †_Conflicto antarcticus_ [Tambussi, Degrange, de Mendoza, Sferco, & Santillana, 2019](https://doi.org/10.1093/zoolinnean/zly085) – a nearly complete skeleton (MLP 07-III-1-1) from Level 10 of the López de Bertodano Formation at Seymour Island, Antarctica. A cladistic analysis including a variety of extant and extinct galloanserines placed the holotype of †_Conflicto antarcticus_ as a stem Anseriformes ([Tambussi et al. 2019](https://doi.org/10.1093/zoolinnean/zly085)), a result further supported by subsequent cladistic and Bayesian analyses ([Field et al. 2020](https://www.nature.com/articles/s41586-020-2096-0), [Musser & Clarke 2024](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278737)).
 
-- †_Presbyornis mongoliensis_ [Kurochkin & Dyke, 2009](https://doi.org/10.1002/gj.1177) – tarsometatarsals (PIN 3104-6, 3104-24) from the Naran and Zhygden members of Tsagaan Khushuu, southern Gobi Desert, Ömnögovi Aimag, Mongolia (Paleocene, 58.7–55.8Ma), Mongolia ([Kurochkin & Dyke 2009](https://doi.org/10.1002/gj.1177)).
+- †_Presbyornis mongoliensis_ [Kurochkin & Dyke, 2009](https://doi.org/10.1002/gj.1177) – tarsometatarsals (PIN 3104-6, 3104-24) from the Naran and Zhygden members of Tsagaan Khushuu, southern Gobi Desert, Ömnögovi Aimag, Mongolia (Paleocene, 58.7–55.8Ma) ([Kurochkin & Dyke 2009](https://doi.org/10.1002/gj.1177)).
 
 - †_Anachronornis anhimops_ [Houde, Dickson, & Camerena, 2023](https://doi.org/10.3390/d15020233) – nearly complete skeleton including the skull (USNM 496700) from site T56N R101W, Clark Quadrangle, Park County, Wyoming. Dated as latest Thanetian (56.22–55.80Ma). Phylogenetic analyses recovered †_Anachronornis_ as a stem Anseriformes ([Houde et al. 2023](https://doi.org/10.3390/d15020233)).
 
@@ -37,7 +37,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 **CAL085:** Anatidae | 24.0–38.1Ma\
 **Tree mapping:** ROADIES node 710; ASTRAL node 1004\
-**Node calibrated:** Last common ancestor of Anatinae (_Anas platyrhynchos)_ and Anserinae (_Anser anser_)\
+**Node calibrated:** Last common ancestor of Anatinae (_Anas platyrhynchos_) and Anserinae (_Anser anser_)\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
 
 - †_Pinpanetta tedfordi_ [Worthy, 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x) – complete right humerus (SAMA P.41257) from the Etadunna Formation at Young Bucks Quarry, Lake Palankarinna, South Australia, Australia. This locality is shared with three other contemporaneous fossil ducks: †_P. vickersrichae_ and †_P. fromensis_, and †_Australotadorna alecwilsoni_ ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)). A cladistic analysis of †_Pinpanetta_ (including †_P. tedfordi_) placed it as a stem member of Erismaturinae ([Worthy 2009](https://doi.org/10.1111/j.1096-3642.2008.00483.x)).
@@ -106,7 +106,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 - _Tachymarptis_ sp. – a single humerus, currently undescribed, first reported by Rich ([1980](https://hdl.handle.net/10520/AJA00382353_1817)) from the upper Varswater Formation at Langebaanweg (Early Pliocene 5.33–3.6Ma), Cape Province, South Africa ([Manegold et al. 2013](https://www.researchgate.net/publication/259272396_The_Early_Pliocene_avifauna_of_Langebaanweg_South_Africa_a_review_and_update)).
 
-- _Apus_ sp. – material representing a left coracoid (NSMT PV 24548), left carpometacarpus (24549), and proximal phalanx major digit (24550) from fissure-filling deposits in Shiriya, Aomori Prefecture, Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129–0.116Ma; [Watanabe et al. 2018](https://doi.org/10.4202/app.00509.2018)).
+- _Apus_ sp. – material representing a left coracoid (NSMT PV 24548), left carpometacarpus (24549), and proximal phalanx major digit (24550) from fissure-filling deposits in Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129–0.116Ma; [Watanabe et al. 2018](https://doi.org/10.4202/app.00509.2018)).
 
 - _Streptoprocne zonaris_ ([Shaw, 1796](https://archive.org/details/bim_eighteenth-century_cimelia-physica-figures_shaw-george_1796)) – unspecified, possibly uncatalogued specimen from Barra do Antonião, Piauí, Brazil (Late Pleistocene: 0.129–0.0117Ma; [Guérin et al. 1996](https://www.researchgate.net/publication/291774116_A_fauna_pleistocenica_do_Piaui_Nordeste_do_Brasil_Relacoes_paleoecologicas_e_biocronologicas)).
 
@@ -131,7 +131,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
          
 - _Tachymarptis_ sp. – a single humerus, currently undescribed, first reported by Rich ([1980](https://hdl.handle.net/10520/AJA00382353_1817)) from the upper Varswater Formation at Langebaanweg (Early Pliocene 5.33–3.6Ma), Cape Province, South Africa ([Manegold et al. 2013](https://www.researchgate.net/publication/259272396_The_Early_Pliocene_avifauna_of_Langebaanweg_South_Africa_a_review_and_update)).
 
-- _Apus_ sp. – material representing a left coracoid (NSMT PV 24548), left carpometacarpus (24549), and proximal phalanx major digit (24550) from fissure-filling deposits in Shiriya, Aomori Prefecture, Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129–0.116Ma; [Watanabe et al. 2018](https://doi.org/10.4202/app.00509.2018)).
+- _Apus_ sp. – material representing a left coracoid (NSMT PV 24548), left carpometacarpus (24549), and proximal phalanx major digit (24550) from fissure-filling deposits in Shiriya, Aomori Prefecture, Japan; Late Pleistocene (~MIS 5e: 0.129–0.116Ma; [Watanabe et al. 2018](https://doi.org/10.4202/app.00509.2018)).
   
 - _Streptoprocne zonaris_ ([Shaw, 1796](https://archive.org/details/bim_eighteenth-century_cimelia-physica-figures_shaw-george_1796)) – unspecified, possibly uncatalogued specimen from Barra do Antonião, Piauí, Brazil (Late Pleistocene: 0.129–0.0117Ma; [Guérin et al. 1996](https://www.researchgate.net/publication/291774116_A_fauna_pleistocenica_do_Piaui_Nordeste_do_Brasil_Relacoes_paleoecologicas_e_biocronologicas)).
 
@@ -185,7 +185,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 - Unnamed taxon represented by the distal end of right humerus (SMF AV 619) from the Nanjemoy Formation at the Fisher/Sullivan site, Virginia, USA ([Mayr 2016](https://doi.org/10.1007/s12542-016-0330-8)). The bone shows apomorphic features of Charadriiformes ([Mayr 2016](https://doi.org/10.1007/s12542-016-0330-8)) and a cladistic analysis placed it within crown Charadriiformes ([Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929), [Heingård et al. 2021](https://doi.org/10.3390/d13120651)). The Nanjemoy Formation is ~54–53Ma ([Berggren et al. 1995](https://doi.org/10.7916/D8XD1B1H)).
 
-- †_Nupharanassa bulotorum_ [Rasmussen, Olson, & Simons, 1987](http://dx.doi.org/10.5479/si.00810266.62.1) – distal tarsometatarsi (DPC 3848, 5327-8) the Jebel Qatrani Formation at Quarry M (30.2–29.5Ma; [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103)), Fayum Province, Egypt ([Rasmussen et al. 1987](http://dx.doi.org/10.5479/si.00810266.62.1)).
+- †_Nupharanassa bulotorum_ [Rasmussen, Olson, & Simons, 1987](http://dx.doi.org/10.5479/si.00810266.62.1) – distal tarsometatarsi (DPC 3848, 5327-8) from the Jebel Qatrani Formation at Quarry M (30.2–29.5Ma; [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103)), Fayum Province, Egypt ([Rasmussen et al. 1987](http://dx.doi.org/10.5479/si.00810266.62.1)).
 
 - †_Oligonomus milleri_ [De Pietri, Camens, & Worthy 2015](https://doi.org/10.1111/ibi.12215) – left coracoid (SAMA P27976) from member 7 of the Etadunna Formation at Lake Palankarinna (Faunal Zone B, 26–24Ma; [Woodburne et al. 1994](https://doi.org/10.1080/02724634.1994.10011527)), South Australia, Australia. Affinities with Pedionomidae based on combination of similarities ([De Pietri et al. 2015](https://doi.org/10.1111/ibi.12215)).
 
@@ -353,7 +353,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Minimum justification:** The oldest taxon, †_Palaeostruthus_, is from the Barstovian–Hemphillian (Miocene-Pliocene) Ogallala Formation. The deposits at Long Island Quarry E are early Hemphillian (Hh1, late Miocene; [Janis et al. 2008](https://doi.org/10.1017/CBO9780511541438)). This gives an estimated age of 9.0–7.5Ma for the fossil, based on the Hh1 boundaries given by Hilgen et al. ([2012](https://doi.org/10.1016/B978-0-444-59425-9.00029-9)).\
 **Maximum age:** 32.9Ma\
 **Maximum justification:** Based on the 95% quantile of the empirical calibration distribution generated by CladeDate.\
-**Discussion:** Modified from Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)) and Oliveros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)), this fossil has not been included in an explicit phylogenetic analysis, and therefore does not satisfy all criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)). However, expert appraisal (DJF and DTK, _pers. comm._) during the preparation of Oliveiros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)) found numerous apparent synapomorphies supporting referral to at least a broader emberizoid subclade including Passerellidae. As a consequence, we treat it as a provisionally appropriate calibration for this node. The CladeDate calibration function results in a skew-Student function with ξ = 7.917, ω = 3.729, α = 18.566, and ν = 1.421.
+**Discussion:** Modified from Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)) and Oliveros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)), this fossil has not been included in an explicit phylogenetic analysis, and therefore does not satisfy all criteria of Parham et al. ([2012](https://doi.org/10.1093/sysbio/syr107)). However, expert appraisal (DJF and DTK, _pers. comm._) during the preparation of Oliveros et al. ([2019](https://doi.org/10.1073/pnas.1813206116)) found numerous apparent synapomorphies supporting referral to at least a broader emberizoid subclade including Passerellidae. As a consequence, we treat it as a provisionally appropriate calibration for this node. The CladeDate calibration function results in a skew-Student function with ξ = 7.917, ω = 3.729, α = 18.566, and ν = 1.421.
 
 ---
 
