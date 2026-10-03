@@ -61,7 +61,7 @@ plot <- ggplot(ages, aes(x = Time)) +
   labs(
     title = "Published Age Estimates for Deuterostomia",
     x = "Age (Ma)",
-    y = "Density"
+    y = NULL
   ) +
   coord_cartesian(
     xlim = c(480, 1000),
@@ -72,6 +72,7 @@ plot <- ggplot(ages, aes(x = Time)) +
   theme(
     plot.title = element_text(face = "bold"),
     axis.line.x = element_line(color = "black", linewidth = 0.5),
+    axis.line.y = element_blank(),
     axis.text.y = element_blank(),
     axis.ticks.y = element_blank(),
     plot.margin = margin(10, 16, 8, 8)

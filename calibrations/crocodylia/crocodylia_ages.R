@@ -103,11 +103,13 @@ p <- ggplot() +
   scale_x_continuous(breaks = seq(0, 200, 25)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
   coord_cartesian(xlim = c(0, 201.4)) +
-  labs(title = "Age estimates for Crocodylia", x = "Age (Ma)", y = "Density") +
+  labs(title = "Age estimates for Crocodylia", x = "Age (Ma)", y = NULL) +
   guides(color = guide_legend(order = 1), linetype = guide_legend(order = 1),
          shape = guide_legend(order = 2)) +
   theme_classic(base_size = 12) +
-  theme(axis.line = element_line(color = "#777777", linewidth = 0.4),
+  theme(axis.line.y = element_blank(),
+      axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+      axis.line = element_line(color = "#777777", linewidth = 0.4),
         axis.ticks = element_line(color = "#777777", linewidth = 0.4),
         axis.text = element_text(color = "#444444"),
         axis.title = element_text(color = "#444444"),
