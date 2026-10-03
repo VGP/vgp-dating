@@ -143,10 +143,10 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Node calibrated:** Last common ancestor of the clade encompassing _Gobio gobio_ (Gobionidae) and _Phoxinus phoxinus_ (Leuciscidae).\
 **Fossil taxon:** †_Palaeotinca moeddeni_ (BSPG 2003 XVIII 51)\
 **Minimum age:** 27.3Ma\
-**Minimum justification:** The oldest-known crown-group fossil for this taxon, from the Wolfsheim formation (Oligocene: Rupelian), Hesse, Germany, assigned to MP24 by the authors ([Schulz-Mirbach & Reichenberger 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).\
+**Minimum justification:** The oldest-known crown-group fossil for this taxon, from the Rupelian (Oligocene) deposits at Wolfsheim, Mainz Basin, Germany, assigned to MP24 by the authors ([Schulz-Mirbach & Reichenbacher 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).\
 **Maximum age:** 66.0Ma\
 **Maximum justification:** Based on the K-Pg boundary,as no crown cypriniform fossils are known prior to the Paleogene.\
-**Discussion:** A stem-group tincid, known from otoliths and a pharyngeal tooth ([Schulz-Mirbach & Reichenberger 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).
+**Discussion:** A stem-group tincid, known from otoliths and a pharyngeal tooth ([Schulz-Mirbach & Reichenbacher 2006](https://agro.icm.edu.pl/agro/element/bwmeta1.element.agro-article-3b4d529f-7054-47bc-b5c5-f350afae80a7)).
 
 ---
 
