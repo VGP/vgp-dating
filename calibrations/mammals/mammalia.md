@@ -303,6 +303,10 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Maximum justification:** Soft bound based on presence of likely stem Glires and absence of crown Glires in Lower Member of Wanghudun Formation, suggesting that the Rodentia + Lagomorphia split had not yet occurred ([de Vries and Beck, 2023](https://doi.org/10.26879/1249))\
 **Discussion:** The oldest-known crown gliran †_Heomys_ is known from the lower part of the Upper Member of the Wanghudun Formation in Anhui Province, China, and is among the oldest members of Simplicidentata ([Asher et al. 2019](https://doi.org/10.1098/rsos.190387), [Rankin et al. 2020](https://doi.org/10.26879/1049)), a group which includes Rodentia and is characterised by the presence of a single pair of gliriform upper incisors, a synapomorphic feature shared by all rodents ([Li et al. 2016](https://www.vertpala.ac.cn/EN/Y2016/V54/I2/121); [Fostowicz-Frelik, 2017](https://doi.org/10.1007/978-3-319-61569-1_11), [2020](https://doi.org/10.1007/978-3-030-57246-4_5)).
 
+## Likelihood checkpoints
+
+TBD
+
 ## References
 
 Aghová, T., Kimura, Y., Bryja, J., Dobigny, G., Granjon, L. and Kergoat, G.J., 2018. Fossils know it best: using a new set of fossil calibrations to improve the temporal phylogenetic framework of murid rodents (Rodentia: Muridae). Molecular Phylogenetics and Evolution, 128, pp.98-111.
