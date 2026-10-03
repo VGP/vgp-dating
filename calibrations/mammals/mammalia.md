@@ -249,12 +249,12 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **CAL060:** Stem Murinae | 16.0–18.3Ma\
 **Tree mapping:** ROADIES node 896; ASTRAL node 829\
 **Node calibrated:** The most recent common ancestor of Murinae (_Mus musculus_) and Deomyinae (_Acomys russatus_)\
-**Fossil taxa:** †_Potwarmus primitivus_ (YGSP 591) from the lower and middle Siwalik deposits in the Potwar Plateau of Pakistan ([Wessels et al. 1982](https://ubbern.swisscovery.slsp.ch/permalink/41SLSP_UBE/ar3q4e/alma99118009708505511), [Lindsay 1988](https://doi.org/10.18563/pv.18.2.95-154))\
+**Fossil taxa:** †_Potwarmus primitivus_ (locality YGSP 591) from the lower and middle Siwalik deposits in the Potwar Plateau of Pakistan ([Wessels et al. 1982](https://ubbern.swisscovery.slsp.ch/permalink/41SLSP_UBE/ar3q4e/alma99118009708505511), [Lindsay 1988](https://doi.org/10.18563/pv.18.2.95-154))\
 **Minimum age:** Middle Miocene (Langhian), 15.98Ma\
-**Minimum justification:** From the upper age of the locality (Burdigalian Marine stage)\
+**Minimum justification:** From the upper age of the locality (Burdigalian Marine stage), conservatively using 15.98Ma for locality YGSP 591, dated to 16.2Ma ([Baskin 1996](https://doi.org/10.18563/pv.25.1.1-49)).\
 **Maximum age:** Early Miocene (Burdigalian), 18.3Ma\
 **Maximum justification:** The oldest stem gerbils, represented by †_Myocricetodon_, are found in the same Siwalik deposits of the Potwar Plateau as †_Potwarmus_ ([Flynn et al. 2020](https://doi.org/10.1007/978-3-030-49753-8_15)), with the oldest dating as far back as 18.3Ma in the early Miocene ([Flynn et al. 1995](https://doi.org/10.1016/0031-0182(94)00114-N), [Lazzari et al. 2007](https://doi.org/10.1671/0272-4634(2007)27[1062:FOIEOM]2.0.CO;2)). Consequently, Flynn et al. ([2020](https://doi.org/10.1007/978-3-030-49753-8_15)) suggest the murine/gerbil split was complete prior to ~16Ma.\
-**Discussion:** This fossil is the oldest-known stem murine, from a Miocene fluvial horizon in the Chinji Formation of Pakistan ([Jacobs and Flynn 2005](https://doi.org/10.1163/9789047416616_011)). Benton et al. ([2015](https://doi.org/10.26879/424)) considered †_Karnimata darwini_ (YGSP 7720) as a calibration for Murinae (_Mus_ + _Rattus_ split), whereas Aghová et al. ([2018](https://doi.org/10.1016/j.ympev.2018.07.017)) use the same fossil to calibrate Crown Millardini/Otomyini/Arvicanthini and instead advocate †_Antemus chinjiensis_ for crown Murinae. Placement of †_Potwarmus_ varies in total-evidence analyses, sometimes occupying a position on the stem of Murinae + Deomyinae ([López-Antoñanzas et al. 2024](https://doi.org/10.1186/s12915-024-02053-2)), but this topology conflicts with recent genomic estimates ([Upham et al. 2019](https://doi.org/10.1371/journal.pbio.3000494), [Álvarez-Carretero et al. 2022](https://doi.org/10.1038/s41586-021-04341-1)).
+**Discussion:** This fossil is the oldest-known stem murine, from a Miocene fluvial horizon in the Chinji and Kamlial formations of Pakistan ([Jacobs and Flynn 2005](https://doi.org/10.1163/9789047416616_011)). Benton et al. ([2015](https://doi.org/10.26879/424)) considered †_Karnimata darwini_ (YGSP 7720) as a calibration for Murinae (_Mus_ + _Rattus_ split), whereas Aghová et al. ([2018](https://doi.org/10.1016/j.ympev.2018.07.017)) use the same fossil to calibrate Crown Millardini/Otomyini/Arvicanthini and instead advocate †_Antemus chinjiensis_ for crown Murinae. Placement of †_Potwarmus_ varies in total-evidence analyses, sometimes occupying a position on the stem of Murinae + Deomyinae ([López-Antoñanzas et al. 2024](https://doi.org/10.1186/s12915-024-02053-2)), but this topology conflicts with recent genomic estimates ([Upham et al. 2019](https://doi.org/10.1371/journal.pbio.3000494), [Álvarez-Carretero et al. 2022](https://doi.org/10.1038/s41586-021-04341-1)).
 
 ---
 
@@ -322,6 +322,8 @@ Asher, R.J., Meng, J., Wible, J.R., McKenna, M.C., Rougier, G.W., Dashzeveg, D. 
 Asher, R.J., Smith, M.R., Rankin, A. and Emry, R.J., 2019. Congruence, fossils and the evolutionary tree of rodents and lagomorphs. Royal Society Open Science, 6(7), p.190387.
 
 Bajpai, S. and Gingerich, P.D., 1998. A new Eocene archaeocete (Mammalia, Cetacea) from India and the time of origin of whales. Proceedings of the National Academy of Sciences, 95(26), pp.15464-15468.
+
+Baskin, J.A., 1996. Systematic revision of Ctenodactylidae (Mammalia, Rodentia) from the Miocene of Pakistan. PalaeoVertebrata, 25(1), pp.1-49.
 
 Beck, R.M., 2012. An ‘ameridelphian’marsupial from the early Eocene of Australia supports a complex model of Southern Hemisphere marsupial biogeography. Naturwissenschaften, 99(9), pp.715-729.
 
