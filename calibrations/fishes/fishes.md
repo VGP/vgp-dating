@@ -133,7 +133,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Minimum age:** 76.2Ma\
 **Minimum justification:** Based on the oldest-known esocid from the Oldman formation (Cretaceous: Campanian), Alberta, Canada, providing a more specific minimum age within the Campanian ([Wilson et al. 1992](https://doi.org/10.1017/S0022336000020849)).\
 **Maximum age:** 201.5Ma\
-**Maximum justification:** Based on the Triassic-Jurassic boundary, as Eurypterygia are euteleosts, but no crown or total group euteleosts are known before the Jurassic.\
+**Maximum justification:** Based on the Triassic-Jurassic boundary, as esociforms and salmoniforms are euteleosts, but no crown or total group euteleosts are known before the Jurassic.\
 **Discussion:** [Wilson et al. (1992)](https://doi.org/10.1017/S0022336000020849) considered this species to be an esocid. The same deposits also contain †_Estesesox foxi_, but this taxon is apparently less closely related to extant esocids.
 
 ---
@@ -205,7 +205,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Minimum age:** 149.2Ma\
 **Minimum justification:** Based on the oldest-known crown-group elopomorph (see [Arratia & Tischler 2010](https://doi.org/10.1002%2Fmmng.201000005)) from the Torleite formation (Jurassic Kimmeridgian), Bavaria, Germany ([Chellouche et al. 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)).\
 **Maximum age:** 201.5Ma\
-**Maximum justification:** Based on the Triassic-Jurassic boundary, as Eurypterygia are oseanacephalian teleosts, but no crown or total group oseanacephalans are known before the Jurassic.\
+**Maximum justification:** Based on the Triassic-Jurassic boundary, as Elopomorpha are oseanacephalian teleosts, but no crown or total group oseanacephalans are known before the Jurassic.\
 **Discussion:** Though originally described from younger (Tithonian) fossils in Germany, this genus is apparently abundant in nearby Kimmeridgian deposits ([Chellouche et al 2012](https://link.springer.com/article/10.1007/s12549-012-0069-5)). Another crown-group elopomorph †_Elopsomolos_ is approximately contemporary. A detailed morphological description of †_Anaethalion_ was provided by [Arratia (1987b)](https://www.researchgate.net/publication/258820846_Anaethalion_and_similar_teleosts_Actinopterygii_Pisces_from_the_Late_Jurassic_Tithonian_of_southern_Germany_and_their_relationships_Palaeontographica_Abt_A_200_1-44_32).
 
 ---
