@@ -231,7 +231,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 - †_Crossvallia unienwillia_ [Tambussi, Reguero, Marenssi, & Santillana, 2005](https://doi.org/10.1016/j.geobios.2004.02.003) – humerus, femur, partial tibiotarsus, and thoracic vertebra (MLP 00-I-10-1) from the Bahía Pingüino Member of the Cross Valley Formation at Seymour Island (Late Paleocene, 56–55Ma).
 
-- †_Perudyptes devriesi_ [Clarke, Ksepka, Stucchi, Urbina, Giannini, Bertelli, Narváez, & Boyd, 2007](https://doi.org/10.1073/pnas.0611099104) – partial skeleton (MUSM 889) from the Paracas Formation (Middle Eocene, 42–42Ma) at Quebrada Perdida, Peru.
+- †_Perudyptes devriesi_ [Clarke, Ksepka, Stucchi, Urbina, Giannini, Bertelli, Narváez, & Boyd, 2007](https://doi.org/10.1073/pnas.0611099104) – partial skeleton (MUSM 889) from the Paracas Formation (Middle Eocene, ~42Ma) at Quebrada Perdida, Peru.
 
 - †"_Pachydyptes_" _simpsoni_ [Jenkins, 1974](https://palass.org/publications/palaeontology-journal/archive/17/2/article_pp291-310) – partial skeleton (SAMA P14157) from the Blanche Point Formation (Late Eocene: 38.0–36.5Ma; [Park & Fitzgerald 2012](https://doi.org/10.24199/j.mmv.2012.69.06)) Australia. Phylogenetically placed by Ksepka et al. ([2006](https://doi.org/10.1111/j.1096-0031.2006.00116.x)) and Ksepka & Clarke ([2012](http://hdl.handle.net/2246/6065)).
 
