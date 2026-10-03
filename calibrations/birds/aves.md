@@ -388,6 +388,10 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
+## Likelihood checkpoints
+
+TBD
+
 ## References
 
 Agnolin, F.L., Tomassini, R.L. and Contreras, V.H., 2016, January. Oldest record of thinocoridae (aves, Charadriiformes) from south America. In Annales de paleontologie (Vol. 102, No. 1, pp. 1-6). Elsevier Masson.
