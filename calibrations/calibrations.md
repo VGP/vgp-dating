@@ -318,7 +318,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **653:** Accipitrimorphae + Strigiformes | 58.8–74.4Ma\
 – Based on †_Ogygoptynx wetmorei_ from the Paleocene of Colorado, USA.
 
-**603:** stem Psittacopasseres | 54.6–81.0Ma\
+**603:** Psittacopasseres | 54.6–81.0Ma\
 – Based on †_Morsoravis sedilis_ from the Eocene of Denmark.
 
 **605:** Eupasseres | 30.2–45.7Ma\

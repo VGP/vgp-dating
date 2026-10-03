@@ -7,13 +7,13 @@
   "confirmation_valid": true,
   "published_hashes": {
     "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.tre": "2fc9965e5a43b2c143c863d3afd5beecd5746cdd05ffdeed4d4267e5cf55de1d",
-    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.calibrations.csv": "81ad76811fbea9dc497cb9d7ec2e68bc3c35cef67c0f3702a44d3f992ad74f95",
-    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/roadies_v1.1.16b.config": "adb0fe3f0fb3e0e2b4d94a17b79723856046c0812492f8e7e1b95c7516523f50"
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.calibrations.csv": "5ba7fa4092d9656a2cd5355b176b6f63c5fb9ca01768885ef1876a737976bdc3",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/roadies_v1.1.16b.config": "d33e031968d55f018e51901aef16be9b2e809917f10c257eb2c716f6e65a6226"
   },
   "plot_hashes": {
     "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.scientific.treePL.tre": "47c148e7e3f9027b913c9b21959ae8ea99d30fa2d6e4522684fd2ad51ac79e0c",
-    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.dated.pdf": "92726f9ed96554eac81e4b3d08b47ea5d187e9dfc158aa1dd875779ff6f15ea2",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.dated.pdf": "a77ced255fbe208d78daf86ff8ff625c5f61fe712f433ec78c9657f40856759c",
     "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.png": "64e1b6c2d4dfee60b2f167a02b745637c1581d6f4e5f4969369bdfca9ad43b64",
-    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.calibrated_node_ages.tsv": "00e66360f5d696d3fd93fc0bd23481c2b4aba752bf945dc200caff2082765d5e"
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.calibrated_node_ages.tsv": "eae4241608411e82c824b513af5da6e2ecf5acbbf890ac4b3b0ad596bdb544cc"
   }
 }

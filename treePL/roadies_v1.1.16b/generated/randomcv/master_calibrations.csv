@@ -93,7 +93,7 @@ CAL091,PHAETHONTIMORPHAE,690,1041,55.8,62.3,GCA_964289735.1,Phaethon aethereus,G
 CAL092,PROCELLARIIMORPHAE,689,1044,60.5,84.7,GCA_027474245.1,Spheniscus humboldti,GCA_964195595.2,Calonectris borealis,aves,
 CAL093,ACCIPITRIMORPHAE_STRIGIFORMES,653,1067,58.8,74.4,GCA_965140245.1,Athene noctua,GCA_964188355.1,Buteo buteo,aves,
 CAL094,CORACIIMORPHAE,,1077,62.2,91.9,GCF_028858725.1,Colius striatus,GCA_009819595.1,Merops nubicus,aves,ASTRAL-only: Coraciimorphae is not recovered as a clade in ROADIES; omitted from ROADIES. Retained at ASTRAL node 1077.
-CAL095,STEM_PSITTACOPASSERES,603,1090,54.6,81.0,GCA_028858755.1,Ara ararauna,GCF_036417665.1,Passer domesticus,aves,
+CAL095,PSITTACOPASSERES,603,1090,54.6,81.0,GCA_028858755.1,Ara ararauna,GCF_036417665.1,Passer domesticus,aves,
 CAL096,EUPASSERES,605,1098,30.2,45.7,GCA_045364795.1,Willisornis vidua,GCF_036417665.1,Passer domesticus,aves,
 CAL097,PASSERELLIDAE,612,1122,7.5,32.9,GCA_047830755.1,Zonotrichia albicollis,GCA_009764595.1,Geothlypis trichas,aves,
 CAL098,LAMPRIFORMES_GADIFORMES,,641,97.4,145.0,GCF_029633865.1,Lampris incognitus,GCF_902167405.1,Gadus morhua,fishes,ASTRAL-only replacement for CAL015 at node 641; Xenyllion stewarti (FHPR 701); defining pair and bounds from fishes.md: New calibrations for ASTRAL.

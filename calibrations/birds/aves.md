@@ -282,7 +282,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
-**CAL095:** stem Psittacopasseres | 54.6–81.0Ma\
+**CAL095:** Psittacopasseres | 54.6–81.0Ma\
 **Tree mapping:** ROADIES node 603; ASTRAL node 1090\
 **Node calibrated:** Last common ancestor of clade encompassing Psittaciformes (_Ara ararauna_) and Passeriformes (_Passer domesticus_).\
 **Fossil taxa:** We surveyed the following specimens to calibrate this node:
@@ -306,7 +306,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Minimum age:** 54.6Ma\
 **Minimum justification:** Based on the oldest taxon †_Morsoravis sedilis_ from the bottom of the Fur Formation, which was deposited during the recovery phase of the Paleocene-Eocene Thermal Maximum around 55.8Ma ago ([Stokke et al. 2020a](https://doi.org/10.30909/vol.03.02.227250)). Basalts at the top of the Formation correlate with “subphase 2b” of pyroclastic deposition in the Balder Formation suggesting a minimum age of 54.6Ma ([Stokke et al. 2020b](https://doi.org/10.1016/j.epsl.2020.116388)).\
 **Maximum age:** 81.04Ma\
-**Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of stem Psittacopasseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
+**Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Psittacopasseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Discussion:** Derived from Lowi-Merri et al. ([2024](https://doi.org/10.1080/14772019.2024.2356086)). This constraint has raised informal discussion, as the fossil was described originally as an ancient shorebird, but the most recent total-evidence phylogenetic analyses place †_Morsoravis_ on the stem of Passeriformes. The CladeDate calibration function results in a skewStudent distribution with xi=55.151, omega=6.290, alpha=38.217, and nu=2.216.
 
 ---
@@ -335,7 +335,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Minimum age:** 30.2Ma\
 **Minimum justification:** Based on the oldest taxon †_Wieslochia_. Biostratigraphic correlations of calcareous nannofossils and dinoflagellate cysts place the youngest Hochberg Member present in Rauenberg in the intersection of NP23 and Subzone D14a ([Maxwell et al. 2016](https://doi.org/10.1016/j.palaeo.2016.10.002)), indicating an age of 30.2–32.0Ma ([Speijer et al. 2020](https://doi.org/10.1016/B978-0-12-824360-2.00028-0)).\
 **Maximum age:** 45.73Ma\
-**Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of stem Eupasseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
+**Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Eupasseres on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
 **Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in an offset skewStudent distribution with offset=30.233, xi=30.841, omega=4.250, alpha=12.623, and nu=2.737.
 
 ---
