@@ -4,7 +4,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ### Calibrations:
 
-**Node 732:** Testudines | 157.3–252.0Ma\
+**CAL074:** Testudines | 157.3–252.0Ma\
+**Tree mapping:** ROADIES node 732; ASTRAL node 976\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles: Chelidae (_Myuchelys georgesi_) + Cheloniidae (_Lepidochelys kempii_)\
 **Fossil taxa:** †_Notoemys oxfordiensis_ (MNHNCu P 3209)\
 **Minimum age:** 157.3Ma\
@@ -15,7 +16,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ---
 
-**Node 747:** Pleurodira | 125.0–157.3Ma\
+**CAL075:** Pleurodira | 125.0–157.3Ma\
+**Tree mapping:** ROADIES node 747; ASTRAL node 977\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant pleurodirans: Chelidae (_Myuchelys georgesi_) + Podocnemidae (_Podocnemis expansa_)\
 **Fossil taxa:** †_Atolchelys lepida_ (UERJ.MC 2)\
 **Minimum age:** 125.0Ma\
@@ -27,7 +29,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ---
 
-**Node 733:** Cryptodira | 157.3–201.4Ma\
+**CAL076:** Cryptodira | 157.3–201.4Ma\
+**Tree mapping:** ROADIES node 733; ASTRAL node 978\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant cryptodirans: Carettochelyidae (_Carettochelys insculpta_) + Cheloniidae (_Lepidochelys kempii_)\
 **Fossil taxa:** †_Yehguia tatsuensis_ (IVPP-V996)\
 **Minimum age:** 157.3Ma\
@@ -38,7 +41,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ---
 
-**Node 734:** Durocryptodira | 88.6–157.3Ma\
+**CAL077:** Durocryptodira | 88.6–157.3Ma\
+**Tree mapping:** ROADIES node 734; ASTRAL node 979\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant durocryptodirans: Emydidae (_Malaclemys terrapin_) + Cheloniidae (_Lepidochelys kempii_)\
 **Fossil taxa:** †_Lindholmemys elegans_ (CCMGE 34/12175)\
 **Minimum age:** 88.6Ma\
@@ -49,7 +53,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ---
 
-**Node 744:** Testuguria | 50.3–157.3Ma\
+**CAL078:** Testuguria | 50.3–157.3Ma\
+**Tree mapping:** ROADIES node 744; ASTRAL node 982\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant testugurians: Testudinidae (_Gopherus flavomarginatus_) + Geoemydidae (_Pangshura tecta_)\
 **Fossil taxa:** †_Hadrianus majusculus_ (YPM 2793)\
 **Minimum age:** 50.3Ma\
@@ -60,7 +65,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ---
 
-**Node 746:** Emydidae | 32.0–157.3Ma\
+**CAL079:** Emydidae | 32.0–157.3Ma\
+**Tree mapping:** ROADIES node 746; ASTRAL node 981\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant emydids: _Malaclemys terrapin_ + _Emys orbicularis_\
 **Fossil taxa:** †_Chrysemys antiqua_ (SDSM 2754)\
 **Minimum age:** 32.0Ma\
@@ -71,7 +77,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ---
 
-**Node 735:** Americhelydia | 70.0–157.3Ma\
+**CAL080:** Americhelydia | 70.0–157.3Ma\
+**Tree mapping:** ROADIES node 735; ASTRAL node 984\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant americhelyids: Chelydroidea (_Macrochelys suwanniensis_: Chelydridae) + Chelonioidea (_Lepidochelys kempii_: Cheloniidae)\
 **Fossil taxa:** †_Toxochelys latiremys_ (ROM 28563)\
 **Minimum age:** 70.0Ma\
@@ -82,7 +89,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ---
 
-**Node 742:** Chelydroidea | 70.0–157.3Ma\
+**CAL081:** Chelydroidea | 70.0–157.3Ma\
+**Tree mapping:** ROADIES node 742; ASTRAL node 985\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant chelydroids: Chelydridae (_Macrochelys suwanniensis_) + Kinosternidae (_Sternotherus odoratus_)\
 **Fossil taxa:** Chelydridae indet. (SEPCP 9/493)\
 **Minimum age:** 70.0Ma\
@@ -93,7 +101,8 @@ Turtles have a dense and detailed fossil record that has made them particularly 
 
 ---
 
-**Node 736:** Chelonioidea | 48.4–157.3Ma\
+**CAL082:** Chelonioidea | 48.4–157.3Ma\
+**Tree mapping:** ROADIES node 736; ASTRAL node 986\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant chelonioids: Dermochelyidae (_Dermochelys coriacea_) + Cheloniidae (_Lepidochelys kempii_)\
 **Fossil taxa:** †_Eosphargis breineri_ (FM uncat.)\
 **Minimum age:** 48.4Ma\
