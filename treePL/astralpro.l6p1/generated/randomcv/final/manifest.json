@@ -7,13 +7,13 @@
   "confirmation_valid": true,
   "published_hashes": {
     "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.treePL.tre": "64c46618499e0b757288fb3ad18697952398f5e089e262465b266e8d068fb06b",
-    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.calibrations.csv": "f8ed46717df165c29231df1bc637192f0cfb541ec1ac58649a48d636be4a7c79",
-    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/astralpro.l6p1.config": "b2ad2f4f1e9a21ead2f336b880fa069815e2e7e27ed5793fa3b20ab5e099d05f"
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.calibrations.csv": "9efdb4d508b3ad87082fe0ae1724f0131d3b3703f42b4c2389eecc903835f08d",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/astralpro.l6p1.config": "833c391ad6ee56063f07880756aade84e52294804ff3185579b4cc26f878b3cd"
   },
   "plot_hashes": {
     "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.scientific.treePL.tre": "a2f4bc7f2e52fb9d3092cb5ec6a29d059efa8b90c1e1b0238a1fb60aff0625e5",
-    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.dated.pdf": "f2899996ba3d0be1224133ca5dc3ed14e48bf223ad03a552949721c85238d78f",
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.dated.pdf": "babb041d191edcd556c143c64577a47739dc439b777b08a8e1bb1a8bbcf6d2c2",
     "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.treePL.png": "7aeaaeda8b3a50054e5e8bc250a37cb365fa288efc0b638864fcc62bd5284ded",
-    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.calibrated_node_ages.tsv": "1b01dadf744d71f56b43fc506b5f82c1c2c23905aeb08e0ff807427807c4a8f9"
+    "/Users/rapyron/Documents/GitHub/vgp-dating/treePL/astralpro.l6p1/generated/astralpro.l6p1.calibrated_node_ages.tsv": "8a24650084f3426b7acf24ac8e42de937f8fb6d2e6d0afcf82b0ef71c829b3e0"
   }
 }

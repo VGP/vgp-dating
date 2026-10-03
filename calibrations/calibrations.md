@@ -240,7 +240,7 @@ _Controversial Calibrations:_ These fossils are of uncertain phylogenetic placem
 **777:** Pleurodonta | 48.0–120.0Ma\
 – Based on †_Geiseltaliellus_ and †_Babibasiliscus_, the oldest crown pleurodontans from the early Eocene.  
 
-**778:** Chamaeleonidae | 20.0–66.0Ma\
+**778:** Chamaeleoninae | 20.0–66.0Ma\
 – Based on the oldest crown chameleonid †_Calumma benovskyi_, from the early Miocene.
 
 **779:** Anguimorpha | 70.0–150.0Ma\
