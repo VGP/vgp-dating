@@ -117,6 +117,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Maximum age:** Albian–Cenomanian boundary, late Cretaceous, 100.5Ma.\
 **Maximum justification:** We base this maximum age on a broad upper bound for this stem-group age – which has been dated to 85.6Ma ([Burbrink et al. 2020](https://academic.oup.com/sysbio/article/69/3/502/5573126)), 54.3Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)), 70.9Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)), and 70.6Ma ([Title et al. 2024](https://www.science.org/doi/abs/10.1126/science.adh2449)) – relative to the crown group Anguioidea within which it is nested. For comparison, the MRCA of the crown group Anguioidea dates to 90.7Ma ([Pyron 2017](https://academic.oup.com/sysbio/article/66/1/38/2670090)) and 100.0Ma ([Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067)) in recent total-evidence analyses, leaving the early-late Cretaceous boundary as a conservative upper bound.
 
+---
 
 ### Future calibrations for larger tree
 
@@ -128,6 +129,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Maximum age:** Early Cretaceous (Hauterivian), 130Ma\
 **Maximum justification:** The maximum age of crown Serpentes is highly debated, varying between 105–129Ma depending on the study, including phylogenomic and total evidence dating studies ([Burbrink et al. 2020](https://doi.org/10.1093/sysbio/syz062), [Pyron 2017](https://doi.org/10.1093/sysbio/syw068), [Simões et al. 2020](https://doi.org/10.1038/s41467-020-17190-9), [Simões et al. 2026](https://doi.org/10.1093/sysbio/syaf067), [Title et al. 2024](https://doi.org/10.1126/science.adh2449)). Therefore, we provide an additional arbitrary sampling buffer with non-zero probability for ages up to 130Ma in the Hauterivian.
 
+---
 
 ### Likelihood checkpoints
 
