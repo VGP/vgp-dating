@@ -4,18 +4,20 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 ### Calibrations:
 
-**Node 948:** Lissamphibia | 274.4–358.9Ma\
+**CAL032:** Lissamphibia | 274.4–358.9Ma\
+**Tree mappings:** ROADIES node 948; ASTRAL node 745.\
 **Node calibrated:** Last common ancestor of the clade encompassing caecilians (Gymnophiona), frogs (Anura), and salamanders (Urodela). The selected species are _Rhinatrema bivittatum_ (Gymnophiona: Rhinatrematidae) and _Engystomops pustulosus_ (Anura: Leptodactylidae).\
 **Fossil taxon:** †_Gerobatrachus hottoni_ (USNM 489135)\
 **Minimum age:** 274.4Ma\
 **Minimum justification:** From the Leonardian (~270–280Ma) of the early Permian, locality number USNM 40971: ‘Don's Dump Fish Quarry’ in the Clear Fork Group from Baylor County, Texas, USGS Soap Creek 7.5' quad ([Anderson et al. 2008](https://www.nature.com/articles/nature06865)). The age of this formation is roughly contemporaneous with the Kungurian (274.4–283.3Ma; [Lucas et al. 2022](https://www.researchgate.net/publication/357993752_Middle_Kungurian_Early_Permian_seaways_in_the_southwestern_USA)). †_Gerobatrachus_ exhibits a number of features suggesting that it is a stem batrachian ([Anderson et al. 2008](https://www.nature.com/articles/nature06865)), while other recent analyses suggest it is a stem lissamphibian and caution its use to calibrate crown Lissamphibia ([Kligman et al. 2023](https://www.nature.com/articles/s41586-022-05646-5)). However, much of this uncertainty relates to a separate debate over the fossil ancestry of Lissamphibia (e.g., origins in Lepospondyli or Temnospondyli), which does not necessarily affect constraints for the extant lineages. Either way, essentially all recent estimates for Lissamphibia predate this taxon, including those that did not use it as a calibration. The existence of putative synapomorphies allying it with  the stem of Batrachia indicate that these character states, representative of crown lissamphibians, were present by the end of the early Permian ([Pardo et al. 2020](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2020.506749/full)). Consequently, we follow [Anderson et al. (2008)](https://www.nature.com/articles/nature06865) in treating it as a stem batrachian, providing a credible minimum bound for the age of Lissamphibia.\
 **Maximum age:** 358.9Ma.\
 **Maximum justification:** In contrast, we remain more agnostic regarding the maximum bound. Molecular estimates range from the middle Permian to the late Devonian (270.9–367.0Ma; [Kligman et al. 2023](https://www.nature.com/articles/s41586-022-05646-5)). We place a tentative soft maximum age of 358.9Ma on this node, corresponding to the Devonian–Carboniferous boundary.\
-**Discussion:** [Anderson et al. (2008)](https://www.nature.com/articles/nature06865) suggested a minimum age of 328–335Ma for the age of crown Lissamphibia based on the earliest appearance of lepospondyls and temnospondyls together. However, recent molecular estimates such as [Feng et al. (2017)](https://www.pnas.org/doi/10.1073/pnas.1704632114), [Hime et al. (2021)](https://academic.oup.com/sysbio/article/70/1/49/5828236), and [Stewart and Wiens (2025)](https://www.sciencedirect.com/science/article/pii/S1055790324002641) – potentially misreading [Anderson (2008)](https://link.springer.com/article/10.1007/s11692-008-9044-5) – confusingly placed a maximum age of 337Ma on this node. [Kligman et al. (2023)](https://www.nature.com/articles/s41586-022-05646-5) – despite disagreeing with Anderson et al. (2008) regarding the fossil ancestors of Lissamphibia – nevertheless concur in supporting a Mississippian Carboniferous origin (323.4–358.9Ma) of Lissamphibia. We conservatively set a minimum age based on the oldest putative stem batrachian †_Gerobatrachus_, with a maximum that modestly predates the proposed Mississippian origin ([Kligman et al. 2023](https://www.nature.com/articles/s41586-022-05646-5)). This range encompasses essentially all previous molecular divergence-time estimates, regardless of calibration strategy. A more conservative minimum age would be the Permian–Triassic boundary ~250Ma based on the crown batrachian and stem anuran †_Triadobatrachus_ (see node **949** below). Given that †_Triadobatrachus_ exhibits characteristics of anatomically modern frogs by the early Triassic and †_Gerobatrachus_ exhibits putatively batrachian characteristics by the end of the early Permian, using the former as a hard minimum age for Batrachia and the latter as a soft minimum age for Lissamphibia is a conservative approach that is phylogenetically and stratigraphically congruent with the known fossil record (see [Pardo et al. 2020](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2020.506749/full) and references therein).
+**Discussion:** [Anderson et al. (2008)](https://www.nature.com/articles/nature06865) suggested a minimum age of 328–335Ma for the age of crown Lissamphibia based on the earliest appearance of lepospondyls and temnospondyls together. However, recent molecular estimates such as [Feng et al. (2017)](https://www.pnas.org/doi/10.1073/pnas.1704632114), [Hime et al. (2021)](https://academic.oup.com/sysbio/article/70/1/49/5828236), and [Stewart and Wiens (2025)](https://www.sciencedirect.com/science/article/pii/S1055790324002641) – potentially misreading [Anderson (2008)](https://link.springer.com/article/10.1007/s11692-008-9044-5) – confusingly placed a maximum age of 337Ma on this node. [Kligman et al. (2023)](https://www.nature.com/articles/s41586-022-05646-5) – despite disagreeing with Anderson et al. (2008) regarding the fossil ancestors of Lissamphibia – nevertheless concur in supporting a Mississippian Carboniferous origin (323.4–358.9Ma) of Lissamphibia. We conservatively set a minimum age based on the oldest putative stem batrachian †_Gerobatrachus_, with a maximum that modestly predates the proposed Mississippian origin ([Kligman et al. 2023](https://www.nature.com/articles/s41586-022-05646-5)). This range encompasses essentially all previous molecular divergence-time estimates, regardless of calibration strategy. A more conservative minimum age would be the Permian–Triassic boundary ~250Ma based on the crown batrachian and stem anuran †_Triadobatrachus_ (see **CAL033** below). Given that †_Triadobatrachus_ exhibits characteristics of anatomically modern frogs by the early Triassic and †_Gerobatrachus_ exhibits putatively batrachian characteristics by the end of the early Permian, using the former as a hard minimum age for Batrachia and the latter as a soft minimum age for Lissamphibia is a conservative approach that is phylogenetically and stratigraphically congruent with the known fossil record (see [Pardo et al. 2020](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2020.506749/full) and references therein).
 
 ---
 
-**Node 949:** Batrachia | 250.0–272.8Ma\
+**CAL033:** Batrachia | 250.0–272.8Ma\
+**Tree mappings:** ROADIES node 949; Not implemented in the current ASTRAL tree (defining taxa absent).\
 **Node calibrated:** Last common ancestor of the clade encompassing frogs (Anura), and salamanders (Urodela). The selected species are _Ambystoma mexicanum_ (Urodela: Ambystomatidae) and _Engystomops pustulosus_ (Anura: Leptodactylidae).\
 **Fossil taxon:** †_Triadobatrachus massinoti_ (MNHN.F.MAE 126)\
 **Minimum age:** 250.0Ma\
@@ -26,7 +28,8 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 ---
 
-**Node 950:** Anura | 165.3–250.0Ma\
+**CAL034:** Anura | 165.3–250.0Ma\
+**Tree mappings:** ROADIES node 950; ASTRAL node 748.\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant frogs. The selected species are _Ascaphus truei_ (Anura: Ascaphidae) and _Engystomops pustulosus_ (Anura: Leptodactylidae).\
 **Fossil taxon:** †_Eodiscoglossus oxoniensis_ (NHMUK R11700)\
 **Minimum age:** 165.3Ma\
@@ -37,7 +40,8 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 ---
 
-**Node 970:** Dorsipares | 148.1–201.5Ma\
+**CAL035:** Dorsipares | 148.1–201.5Ma\
+**Tree mappings:** ROADIES node 970; ASTRAL node 753.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Rhinophrynus dorsalis_ (Rhinophrynidae) and _Xenopus petersii_ (Pipidae).\
 **Fossil taxon:** †_Rhadinosteus parvus_ (DINO 14693)\
 **Minimum age:** 148.1Ma\
@@ -48,7 +52,8 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 ---
 
-**Node 969:** Pelobatoidea | 85.7–143.1Ma\
+**CAL036:** Pelobatoidea | 85.7–143.1Ma\
+**Tree mappings:** ROADIES node 969; ASTRAL node 756.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Pelobates fuscus_ (Pelobatidae) and _Pelodytes ibericus_ (Pelodytidae).\
 **Fossil taxon:** †_Gobiates spinari_ (ZIN, LU-N 5/137)\
 **Minimum age:** 85.7Ma\
@@ -59,7 +64,8 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 ---
 
-**Node 954:** Aquipares | 113.0–143.1Ma\
+**CAL037:** Aquipares | 113.0–143.1Ma\
+**Tree mappings:** ROADIES node 954; ASTRAL node 757.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Hyla sarda_ (Hyloidea) and _Rana temporaria_ (Ranoidea).\
 **Fossil taxon:** †_Kururubatrachus gondwanicus_ (UFRJ-DG 08 A)\
 **Minimum age:** 113.0Ma\
@@ -70,7 +76,8 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 ---
 
-**Node 973:** Salamandroidea | 62.0–143.1Ma\
+**CAL038:** Salamandroidea | 62.0–143.1Ma\
+**Tree mappings:** ROADIES node 973; Not implemented in the current ASTRAL tree (defining taxa absent).\
 **Node calibrated:** The most recent common ancestor of Ambystomatidae (_Ambystoma mexicanum_) and Salamandridae (_Triturus cristatus_)\
 **Fossil taxon:** †_Dicamptodon antiquus_ (UALVP 32387) from the Paskapoo Formation (Paleocene) of Alberta, Canada ([Naylor and Fox 1993](https://doi.org/10.1139/e93-067))\
 **Minimum age:** Early Paleocene (Danian), 62.0Ma\
@@ -81,7 +88,8 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 ---
 
-**Node 974:** Pleurodelinae | 27.8–66.0Ma\
+**CAL039:** Pleurodelinae | 27.8–66.0Ma\
+**Tree mappings:** ROADIES node 974; Not implemented in the current ASTRAL tree (defining taxa absent).\
 **Node calibrated:** Last common ancestor of the clade encompassing Pleurodelini (_Pleurodeles waltl_) and Molgini (_Lissotriton helveticus_).\
 **Fossil taxon:** Numerous specimens referrable to the extant genera _Lissotriton_ and _Triturus_ from the late Oligocene, and aff. _Tylototriton_, _Triturus_, _Ichthyosaura_, and _Lissotriton_ from the early Miocene, from numerous Palearctic localities ([Macaluso et al. 2022](https://royalsocietypublishing.org/rsos/article/9/11/220935/96437/Biogeographic-history-of-Palearctic-caudates)). In particular, †_Lissotriton rohrsi_ (SMF A 614) and _Triturus_ sp. (SMF A 616) from Oberleichtersbach (Northern Bavaria, Germany), from the MP30 stage of the late Oligocene ([Böhme 2008](https://www.researchgate.net/publication/251832903_Ectotermic_vertebrates_Teleostei_Allocaudata_Urodela_Anura_Testudines_Choristodera_Crocodylia_Squamata_from_the_Upper_Oligocene_of_Oberleichtersbach_Northern_Bavaria_Germany)).\
 **Minimum age:** Late Oligocene (Rupelian–Chattian boundary), 27.82Ma\
