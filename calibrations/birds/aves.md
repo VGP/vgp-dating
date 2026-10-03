@@ -357,7 +357,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
-### New calibrations for ASTRAL v0.1.1
+### ASTRAL-only calibration
 
 **CAL094:** Coraciimorphae | 62.2–91.9Ma\
 **Tree mapping:** ROADIES: not applied; ASTRAL node 1077\
@@ -384,7 +384,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Minimum justification:** The oldest of these taxa, †_Tsidiiyazhi abini_, is from NMMNH locality L-6898, which was located within magnetochron C27N, constraining the absolute age to between 62.221 and 62.517Ma ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)).\
 **Maximum age:** 91.89Ma\
 **Maximum justification:** Based on the 95% quantile of the empirical calibration distribution using first fossil occurrences of Coraciimorphae on each continent and the CladeDate algorithm ([Claramunt 2022](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13977)).\
-**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in an offset skewStudent distribution with offset=62.240, xi=62.334, omega=7.442, alpha=137.954, and nu=2.258. This group does not form a clade in the ROADIES v0.0.0 tree for **Node 600** (instead, it resolves to **Node 599**), but is recovered in the newer analyses such as ASTRAL v0.1.1.
+**Discussion:** Based on Stiller et al. ([2024](https://www.nature.com/articles/s41586-024-07323-1)). The CladeDate calibration function results in an offset skewStudent distribution with offset=62.240, xi=62.334, omega=7.442, alpha=137.954, and nu=2.258. This group does not form a clade in the ROADIES v0.0.0 tree for **Node 600** (instead, it resolves to **Node 599**), but is recovered in the newer analyses such as ASTRAL v0.1.1. This calibration is therefore omitted from ROADIES and applied only to ASTRAL.
 
 ---
 
