@@ -100,7 +100,7 @@ There are relatively few amphibians sampled in our tree, and relatively few amph
 
 ---
 
-### New calibrations for ASTRAL
+### Future calibrations for larger tree
 
 **Node $XXX:** Urodela | 125.0–251.9Ma\
 **Node calibrated:** The most recent common ancestor of Cryptobranchidae (_Cryptobranchus alleganiensis_) and Plethodontidae (_Thorius spilogaster_)\
