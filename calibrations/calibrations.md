@@ -90,7 +90,7 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 
 **CAL018:** Gobionidae + Leuciscidae | 27.3–66.0Ma\
 **Tree mappings:** ROADIES node 1109; ASTRAL node 615\
-– Based on †_Palaeotinca_, from the Wolfsheim formation (Oligocene: Rupelian), Hesse, Germany.
+– Based on †_Palaeotinca_, from the Rupelian (Oligocene) deposits at Wolfsheim, Mainz Basin, Germany.
 
 **CAL019:** Leuciscidae | 23.0–33.9Ma\
 **Tree mappings:** ROADIES node 1110; ASTRAL node 617\
@@ -163,7 +163,7 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 
 **CAL035:** Dorsipares | 148.1–201.5Ma\
 **Tree mappings:** ROADIES node 970; ASTRAL node 753\
-– Based on the crown rhinophrynid †_Rhadinosteus parvus_ from the Kimmeridgian of the late Jurassic.
+– Based on the stem rhinophrynid †_Rhadinosteus parvus_ from the Kimmeridgian of the late Jurassic.
 
 **CAL036:** Pelobatoidea | 85.7–143.1Ma\
 **Tree mappings:** ROADIES node 969; ASTRAL node 756\
@@ -242,7 +242,7 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 
 **CAL054:** Anthropoidea | 33.9–66.0Ma\
 **Tree mappings:** ROADIES node 919; ASTRAL node 799\
-– Based on the oldest-known crown catarrhine †_Catopithecus browni_ from the Priabonian of the late Eocene.
+– Based on the oldest-known crown anthropoid †_Catopithecus browni_ from the Priabonian of the late Eocene.
 
 **CAL055:** Catarrhini | 24.4–34.0Ma\
 **Tree mappings:** ROADIES node 920; ASTRAL node 801\
@@ -266,7 +266,7 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 
 **CAL060:** Stem Murinae | 16.0–18.3Ma\
 **Tree mappings:** ROADIES node 896; ASTRAL node 829\
-– Based on the oldest-known stem murine †_Potwarmus primitivus_ from the Langhian of the middle Miocene.
+– Based on the oldest-known stem murine †_Potwarmus primitivus_ from the Burdigalian of the early Miocene.
 
 **CAL061:** Murinae (part: Murini + Arvicanthini) | 11.1–12.3Ma\
 **Tree mappings:** ROADIES node 898; ASTRAL node 833\
@@ -285,7 +285,7 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 
 **CAL064:** Squamata | 166.0–215.0Ma\
 **Tree mappings:** ROADIES node 748; ASTRAL node 940\
-– Based on the earliest crown squamates †_Eichstaettisaurus_, †_Helioscopus_, and †_Paramacellodus_ sp., from the middle Jurassic.
+– Based on the earliest crown squamates †_Eichstaettisaurus_, †_Helioscopus_, and †_Paramacellodus_ sp., from the middle and late Jurassic.
 
 **CAL065:** Unidentata | 166.0–205.0Ma\
 **Tree mappings:** ROADIES node 749; ASTRAL node 943\
@@ -309,7 +309,7 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 
 **CAL070:** Pleurodonta | 48.0–120.0Ma\
 **Tree mappings:** ROADIES node 777; ASTRAL node 951\
-– Based on †_Geiseltaliellus_ and †_Babibasiliscus_, the oldest crown pleurodontans from the early Eocene.  
+– Based on †_Geiseltaliellus_ and †_Babibasiliscus_, the oldest crown pleurodontans from the early to middle Eocene.
 
 **CAL071:** Chamaeleoninae | 20.0–66.0Ma\
 **Tree mappings:** ROADIES node 778; ASTRAL node 950\
@@ -352,7 +352,7 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 
 **CAL080:** Americhelydia | 70.0–157.3Ma\
 **Tree mappings:** ROADIES node 735; ASTRAL node 984\
-– Based on the oldest crown americhelyid †_Toxochelys latiremys_, likely stem Chelonioidea, from the Campanian of the Cretaceous.
+– Based on the oldest crown americhelyid †_Toxochelys latiremis_, likely stem Chelonioidea, from the Campanian of the Cretaceous.
 
 **CAL081:** Chelydroidea | 70.0–157.3Ma\
 **Tree mappings:** ROADIES node 742; ASTRAL node 985\

@@ -82,7 +82,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **CAL080:** Americhelydia | 70.0–157.3Ma\
 **Tree mapping:** ROADIES node 735; ASTRAL node 984\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant americhelyids: Chelydroidea (_Macrochelys suwanniensis_: Chelydridae) + Chelonioidea (_Lepidochelys kempii_: Cheloniidae)\
-**Fossil taxa:** †_Toxochelys latiremys_ (ROM 28563)\
+**Fossil taxa:** †_Toxochelys latiremis_ (ROM 28563)\
 **Minimum age:** 70.0Ma\
 **Minimum justification:** Based on the oldest crown americhelyid, likely stem Chelonioidea ([Nicholls 1988](https://www.tandfonline.com/doi/abs/10.1080/02724634.1988.10011696)), from the Niobrara Chalk Formation of the Campanian, upper Cretaceous (72.2–83.6Ma) of Kansas.\
 **Maximum age:** 157.3Ma\

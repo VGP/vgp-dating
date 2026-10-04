@@ -182,7 +182,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Minimum justification:** Fayûm Quarry L-41 where †_Catopithecus_ was discovered has been dated to the Priabonian, with an upper bound of 33.9Ma ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))\
 **Maximum age:** Early Paleocene (Danian), 66.0Ma\
 **Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), the Early Paleocene is set as the maximum age, as there are no definitive crown primates from the Danian and the split must predate the potential anthropoid sister-taxon †_Altiatlasius koulchii_ (see **CAL052:** Primates; [Seiffert et al. 2005](https://doi.org/10.1126/science.1116569)) of 56.0Ma.\
-**Discussion:** This fossil is the oldest-known crown catarrhine from the late Eocene (Priabonian) of Fayûm, Egypt ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))
+**Discussion:** This fossil is the oldest-known crown anthropoid from the late Eocene (Priabonian) of Fayûm, Egypt ([Seiffert 2006](https://doi.org/10.1073/pnas.0600689103))
 
 ---
 
