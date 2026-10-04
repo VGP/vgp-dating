@@ -5,3 +5,7 @@ These are adaptations of the [ROADIES v0.0.0](./roadies_v1.1.16b.nwk) and [ASTRA
 Annotation additions for ASTRAL were verified against NCBI: [GCA_000001405.5, Homo sapiens GRCh37.p4](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000001405.5/), [GCA_000001635.9, Mus musculus GRCm39](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000001635.9/), and [GCF_037038585.1, Patagioenas fasciata bPatFas1.hap1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_037038585.1/). Their species-level fields reuse the existing same-species annotation rows; `AssemblyId` records the verified assembly name, while unverified `asmId` and `UCSC_comName` fields are blank. Existing rows are preserved.
 
 The ASTRAL script explicitly maps `kxProAnne1` through the existing `AssemblyId` field to the `GCA_040939525.1` annotation row for _Protopterus annectens_, retaining `kxProAnne1` as the original tip identifier. Human and mouse each have two tips; both members of each duplicate scientific-name pair receive their original accession suffix. These mappings are for labels only and do not substitute defining taxa in calibrations.
+
+## Preliminary dated trees
+
+MD-CAT estimates are available for ROADIES v0.0.0 ([tree](./roadies_v1.1.16b.independent.fast95.tre), [PDF](./roadies_v1.1.16b.independent.fast95.pdf)) and ASTRAL v0.1.1 ([tree](./astralpro.l6p1.independent.fast95.tre), [PDF](./astralpro.l6p1.independent.fast95.pdf)), with a [comparison of node ages](./roadies_vs_astral.independent.fast95.comparison.png).
