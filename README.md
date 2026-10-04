@@ -36,21 +36,21 @@ We are using Bayesian dating methodologies implemented in [mcmctree](https://git
 ![treePL constraints test](treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.png)
 
 The primary outcomes of this effort are:\
-i) A genomic timescale for vertebrate evolution based on the [VGP Phase I](https://github.com/VGP/vgp-trees/tree/main/phase-1) [guide trees](https://github.com/VGP/vgp-dating/blob/main/trees/roadies_v1.1.16b.numbers.scientific.nwk.pdf)\
+i) A genomic timescale for vertebrate evolution based on the [VGP Phase I](https://github.com/VGP/vgp-trees/tree/main/phase-1) [guide trees](./trees/trees.md)\
 ii) A harmonized database of fossil calibrations available to researchers for unlocking the temporal dimension of genome evolution\
 iii) An expanded reach and broader integration of the VGP across biological subfields by merging molecular and paleontological approaches
 
 ## Approach
 
-We used the [VGP Phase I](https://github.com/VGP/vgp-trees/tree/main/phase-1) [guide trees](https://github.com/VGP/vgp-dating/blob/main/trees/roadies_v1.1.16b.numbers.scientific.nwk.pdf) to place nodal constraints on a reference topology. Given the limited taxon sampling and absence of fossil tips, this endeavor was in many ways simplified and reminiscent of earlier eras in the field of divergence-time estimation. Our primary aim was to generate well-constrained ranges for a variety of nodes across the tree, to produce a robustly calibrated timescale for vertebrate evolution. These calibrations are congruent with the most up-to-date discoveries in the fossil record.
+We used the [VGP Phase I](https://github.com/VGP/vgp-trees/tree/main/phase-1) [guide trees](./trees/trees.md) to place nodal constraints on a reference topology. Given the limited taxon sampling and absence of fossil tips, this endeavor was in many ways simplified and reminiscent of earlier eras in the field of divergence-time estimation. Our primary aim was to generate well-constrained ranges for a variety of nodes across the tree, to produce a robustly calibrated timescale for vertebrate evolution. These calibrations are congruent with the most up-to-date discoveries in the fossil record.
 
 This resulted in a harmonized collection of min & max ages scattered and spaced across the tree. Given the increasing prevalence of fossil-tip-dated phylogenies, much of the previous ambiguity and controversy over the placement and applicability of many fossils was partially alleviated. Generally speaking, we sought the earliest-known crown-group fossils for major clades, to place minimum ages on the MRCA of extant taxa within those lineages. For a set of major named nodes, we also compiled existing consensus estimates for the origin of various groups from the literature, to compare congruence and divergence from previous generations of studies.
 
 ## Syntax
 
-Our [reference tree](./trees/roadies_v1.1.16b.numbers.scientific.nwk.pdf) is the VGP Phase I guide phylogeny, based on [roadies_v1.1.16b.nwk](https://github.com/VGP/vgp-trees/blob/main/phase-1/roadies_v1.1.16b.nwk) with APE-style [node numbers](https://github.com/VGP/vgp-trees/blob/main/phase-1/roadies_v1.1.16b.numbers.nwk) from R to facilitate objective reference to [nodes](./trees). Minimal documentation for each constraint is:
+Our reference trees are the VGP Phase I guide phylogenies, [ROADIES v0.0.0](./trees/roadies_v1.1.16b.numbers.scientific.nwk.pdf) and [ASTRAL v0.1.1](./trees/astralpro.l6p1.numbers.scientific.nwk.pdf), each with its own APE-style node numbers from R to facilitate objective reference to [nodes](./trees). CAL identifiers refer to the [master calibration list](./calibrations/master_calibrations.csv). Minimal documentation for each constraint is:
 
-	-Node number and lineage
+	-CAL identifier, lineage, and tree-specific node numbers
 	-Minimum and maximum ages in Ma: e.g., 234.5,456.2
 	-Associated fossil material and rationale
 	-Citations and references
@@ -72,6 +72,6 @@ Finally, the ideal type of calibration will derive from a recent total-evidence 
 
 ## Robustness
 
-For a small number of fossils, controversy and disagreement over their phylogenetic placement precluded unambiguous assignment to crown groups in our analyses. Consequently, we assessed the robustness of our analyses by conducting additional runs with and without these constraints to evaluate their impact on estimated node-ages. Since the primary [mcmctree](https://github.com/dosreislab/mcmctree) analyses use independent clock rates across branches, we hypothesize that the impacts of these controversial calibrations should be locally restricted.
+For a small number of fossils, controversy and disagreement over their phylogenetic placement precluded unambiguous assignment to crown groups in our analyses. Consequently, we will assess the robustness of our analyses by conducting additional runs with and without these constraints to evaluate their impact on estimated node-ages. Since the primary [mcmctree](https://github.com/dosreislab/mcmctree) analyses use independent clock rates across branches, we hypothesize that the impacts of these controversial calibrations should be locally restricted.
 
-Additionally, we derived the empirical distribution of dates and ages for a set of clades (perhaps all Superorders and subtending nodes) from [timetree.org](http://timetree.org) and additional surveys of the recent literature, giving a broadly sampled prior distribution from combined previous studies. This empirical prior was used to generate [likelihood checkpoints](https://pubmed.ncbi.nlm.nih.gov/20525629/), employed as post-hoc probabilistic calibration checks. This allowed us to quantify congruence with and deviation from existing estimates on a per-node basis.
+Additionally, we derived the empirical distribution of dates and ages for a set of clades from [timetree.org](http://timetree.org) and additional surveys of the recent literature, giving a broadly sampled distribution from combined previous studies. This empirical distribution was used to generate [likelihood checkpoints](https://pubmed.ncbi.nlm.nih.gov/20525629/), employed as post-hoc probabilistic calibration checks. This allowed us to quantify congruence with and deviation from existing estimates on a per-node basis.
