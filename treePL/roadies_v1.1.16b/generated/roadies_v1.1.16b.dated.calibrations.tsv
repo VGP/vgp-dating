@@ -1,6 +1,6 @@
 calibration_id	node_name	node_roadies_v1_1_16b	node_astralpro_l6p1	min_ma	max_ma	taxon1_accession	taxon1_name	taxon2_accession	taxon2_name	source_doc	notes	ape_node	node_id	estimated_age_ma	group	position	status
 CAL001	DEUTEROSTOMIA	582	NA	517.3	590.8	GCF_902459465.1	Asterias rubens	GCF_027579445.1	Ammospiza nelsoni	deuterostomia		582	582	590.800004	Other	1.00000005442177	within
-CAL002	AMBULACRIA	1161	NA	515.5	590.8	GCF_902459465.1	Asterias rubens	GCA_040954625.2	Balanoglossus misakiensis	deuterostomia		1161	1161	515.500004	Other	5.31208513092671e-08	within
+CAL002	AMBULACRARIA	1161	NA	515.5	590.8	GCF_902459465.1	Asterias rubens	GCA_040954625.2	Balanoglossus misakiensis	deuterostomia		1161	1161	515.500004	Other	5.31208513092671e-08	within
 CAL003	CHORDATA	583	NA	517.3	590.8	GCA_019207075.1	Branchiostoma belcheri	GCF_027579445.1	Ammospiza nelsoni	deuterostomia		583	583	564.095964	Other	0.636679782312927	within
 CAL004	OLFACTORES	584	NA	517.3	590.8	GCA_965202585.1	Thalia democratica	GCF_027579445.1	Ammospiza nelsoni	deuterostomia		584	584	531.89414	Other	0.198559727891159	within
 CAL005	VERTEBRATA	585	566	497	590.8	GCA_964187855.1	Myxine glutinosa	GCF_027579445.1	Ammospiza nelsoni	vertebrata		585	585	502.027856	Other	0.0536018763326231	within

@@ -2,9 +2,12 @@
 
 We primarily focus here on the well-constrained ages discussed by [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1) and [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161).
 
+CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.numbers.nwk) (`astralpro.l6p1`).
+
 ### Calibrations:
 
-**Node 582:** Crown Deuterostomia | 517.3–590.8Ma\
+**CAL001:** Deuterostomia | 517.3–590.8Ma\
+**Tree mappings:** ROADIES node 582; not implemented in ASTRAL.\
 **Node calibrated:** Last common ancestor of the clade encompassing chordates (_Ammospiza nelsoni_), echinoderms (_Asterias rubens_) and hemichordates (when monophyletic).\
 **Fossil taxon:** Chengjiang fossils such as †_Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China; [Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646)).\
 **Minimum age:** The age of the Chengjiang biota has been determined through CA-ID-TIMS U-Pb dating, yielding an age of 518.03Ma ± 0.69/0.71 Myr and a minimum calibration age of 517.32Ma ([Yang et al. 2018](https://doi.org/10.1144/jgs2017-103)).\
@@ -15,18 +18,20 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 
 ---
 
-**Node 1161:** Crown Ambulacraria | 515.5–590.8Ma\
+**CAL002:** Ambulacraria | 515.5–590.8Ma\
+**Tree mappings:** ROADIES node 1161; not implemented in ASTRAL.\
 **Node calibrated:** Last common ancestor of the clade encompassing Hemichordata (_Balanoglossus misakiensis_) and Echinodermata (_Asterias rubens_).\
 **Fossil taxon:** Isolated pelmatozoan columnals (BMNH EE6828-EE6846, Natural History Museum, London, UK).\
-**Minimum age:** 515.5Ma, from the Micmacca Breccia, which encompasses the upper part of the _Cephalopyge notabilis_ Biozone, the _Ornamentaspis frequens_ Biozone and the lower part of the _Kymataspis arenosa_ Biozone, which has been dated to the latest Atdabanian of 517.0Ma ± 1.5 Myr, or 515.5 ma ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)).\
+**Minimum age:** 515.5Ma, from the Micmacca Breccia, which encompasses the upper part of the _Cephalopyge notabilis_ Biozone, the _Ornamentaspis frequens_ Biozone and the lower part of the _Kymataspis arenosa_ Biozone, which has been dated to the latest Atdabanian of 517.0Ma ± 1.5 Myr, or 515.5Ma ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1)).\
 **Maximum age:** Weng’an Biota, 590.8Ma ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)). Yang et al. date the biota based on Re-Os data to 587.2Ma ±3.6 Myr, yielding a maximum age constraint of 590.8Ma.\
-**Minimum justification:** The isolated pelmatzoan columnals have characteristic morphology and stereom structure of the Echinodermata total group ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1); [Swalla and Smith 2008](https://royalsocietypublishing.org/doi/abs/10.1098/rstb.2007.2246); [Clausen and Smith 2008](https://www.cambridge.org/core/journals/journal-of-paleontology/article/abs/stem-structure-and-evolution-in-the-earliest-pelmatozoan-echinoderms/2F53133C923A5FC745C94E99C98503F4)).\
+**Minimum justification:** The isolated pelmatozoan columnals have characteristic morphology and stereom structure of the Echinodermata total group ([Benton et al. 2015](http://palaeo-electronica.org/content/fc-1); [Swalla and Smith 2008](https://royalsocietypublishing.org/doi/abs/10.1098/rstb.2007.2246); [Clausen and Smith 2008](https://www.cambridge.org/core/journals/journal-of-paleontology/article/abs/stem-structure-and-evolution-in-the-earliest-pelmatozoan-echinoderms/2F53133C923A5FC745C94E99C98503F4)).\
 **Maximum justification:** The Weng’an Biota yields exceptionally preserved macrofossils of algae but nothing that can definitively be placed into crown Metazoa. Embryo-like fossils preserved here have been suggested to be total group metazoans ([Yin et al. 2022](https://doi.org/10.1098/rstb.2021.0032)), but this is still uncertain, and others have suggested they are non-metazoan holozoans ([Huldtgren, et al. 2011](https://www.science.org/doi/abs/10.1126/science.1209537)).\
 **Discussion:** The recent publication of a possible crown bilaterian assemblage from the latest Ediacaran deserves mention ([Li et al. 2026](https://doi.org/10.1126/science.adu2291)), since it includes fossils that appear similar to the cambroernid †_Herpetogaster,_ which may represent a Cambrian stem-ambulacrarian ([Li et al. 2023](https://doi.org/10.1016/j.cub.2023.04.048)). However, owing to (1) uncertainties about the phylogenetic position of †_Cambroernida_ and (2) about whether these latest Ediacaran fossils are indeed of a †_Herpetogaster_-like organism, we conservatively do not use these data to update our fossil calibration.
 
 ---
 
-**Node 583:** Crown Chordata | 517.3–590.8Ma\
+**CAL003:** Chordata | 517.3–590.8Ma\
+**Tree mappings:** ROADIES node 583; not implemented in ASTRAL.\
 **Node calibrated:** Last common ancestor of the clade encompassing vertebrates (_Ammospiza nelsoni_), tunicates, and cephalochordates (_Branchiostoma belcheri_).\
 **Fossil taxon:** Chengjiang fossils such as †_Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China; [Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646)).\
 **Minimum age:** The age of the Chengjiang biota has been determined through CA-ID-TIMS U-Pb dating, yielding an age of 518.03Ma ± 0.69/0.71 Myr and a minimum calibration age of 517.32Ma ([Yang et al. 2018](https://www.lyellcollection.org/doi/abs/10.1144/jgs2017-103)).\
@@ -37,9 +42,10 @@ We primarily focus here on the well-constrained ages discussed by [Benton et al.
 
 ---
 
-**Node 584:** Crown Olfactores | 517.3–590.8Ma\
+**CAL004:** Olfactores | 517.3–590.8Ma\
+**Tree mappings:** ROADIES node 584; not implemented in ASTRAL.\
 **Node calibrated:** Last common ancestor of the clade encompassing tunicates (_Thalia democratica_) and Vertebrata-Craniata (_Ammospiza nelsoni_).\
-**Fossil taxon:** Chengjiang fossils such as †_Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China; [Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646).\
+**Fossil taxon:** Chengjiang fossils such as †_Haikouichthys ercaicunensis_ (HZ-f-12-127, Yunnan Institute of Geological Sciences, Kunming, China; [Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646)).\
 **Minimum age:** The age of the Chengjiang biota has been determined through CA-ID-TIMS U-Pb dating, yielding an age of 518.03Ma ± 0.69/0.71 Myr and a minimum calibration age of 517.32Ma ([Yang et al. 2018](https://www.lyellcollection.org/doi/abs/10.1144/jgs2017-103)).\
 **Minimum justification:** †_Haikouichthys_ is widely accepted as at least a crown-chordate and possibly a crown-vertebrate, on the basis of its branchial structures, myomeres, and a notochord ([Shu et al. 2010](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2009.0646); [Gabbott et al. 2016](https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2016.1151)).\
 **Maximum age:** Weng’an Biota, 590.8Ma ([Yang et al. 2021](https://doi.org/10.1126/sciadv.abi9643)). Yang et al. date the biota based on Re-Os data to 587.2Ma ±3.6 Myr, yielding a maximum age constraint of 590.8Ma.\

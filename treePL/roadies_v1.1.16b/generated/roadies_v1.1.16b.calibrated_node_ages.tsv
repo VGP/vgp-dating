@@ -1,6 +1,6 @@
 clade	tip1	tip2	node	tip1Sci	tip2Sci	estimated_age_Ma
 DEUTEROSTOMIA	GCF_902459465.1	GCF_027579445.1	582	Asterias rubens	Ammospiza nelsoni	590.8
-AMBULACRIA	GCF_902459465.1	GCA_040954625.2	1161	Asterias rubens	Balanoglossus misakiensis	515.5
+AMBULACRARIA	GCF_902459465.1	GCA_040954625.2	1161	Asterias rubens	Balanoglossus misakiensis	515.5
 CHORDATA	GCA_019207075.1	GCF_027579445.1	583	Branchiostoma belcheri	Ammospiza nelsoni	564.09596
 OLFACTORES	GCA_965202585.1	GCF_027579445.1	584	Thalia democratica	Ammospiza nelsoni	531.894136
 VERTEBRATA	GCA_964187855.1	GCF_027579445.1	585	Myxine glutinosa	Ammospiza nelsoni	502.027852
