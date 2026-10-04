@@ -33,7 +33,7 @@ We have assembled a [final set](./calibrations/calibrations.md) of **99** calibr
 
 We are using Bayesian dating methodologies implemented in [mcmctree](https://github.com/dosreislab/mcmctree) to extract the greatest accuracy and precision from our whole-genome data. This fulfills a core aim of the VGP in demonstrating how these data allow superior inference over previous approaches with smaller molecular datasets, less-comprehensive sets of fossil-calibration densities on node ages, and less-sophisticated algorithms.
 
-![treePL constraints test](treePL/roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.png)
+![ROADIES MD-CAT timescale](trees/roadies_v1.1.16b.independent.fast95.png)
 
 The primary outcomes of this effort are:\
 i) A genomic timescale for vertebrate evolution based on the [VGP Phase I](https://github.com/VGP/vgp-trees/tree/main/phase-1) [guide trees](./trees/trees.md)\
