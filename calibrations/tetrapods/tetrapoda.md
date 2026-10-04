@@ -2,9 +2,12 @@
 
 We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161). A secondary source of calibrations is [Title et al. (2024)](https://www.science.org/doi/abs/10.1126/science.adh2449) (their Table S1) and references therein. We adapt those here along with a few other relevant taxa to date early tetrapods.
 
+CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.numbers.nwk) (`astralpro.l6p1`).
+
 ### Calibrations:
 
-**Node 590:** Tetrapoda | 337.0–351.0Ma\
+**CAL028:** Tetrapoda | 337.0–351.0Ma\
+**Tree mappings:** ROADIES node 590; ASTRAL node 744.\
 **Node calibrated:** Last common ancestor of the clade encompassing amphibians (_Rhinatrema bivittatum_), reptiles, birds (_Ammospiza nelsoni_) and mammals.\
 **Fossil taxon:** †_Lethiscus stocki_ (MCZ 2185, Museum of Comparative Zoology, Harvard).\
 **Minimum age:** †_Lethiscus_ has been found in the Wardie Shales of the Wardie shore, near Edinburgh, Scotland. The Wardie Shales have been assigned to the Holkerian regional stage based on fossil fishes and palynomorphs, resulting in an age of 343.5–337Ma ([Gradstein et al. 2012](https://shop.elsevier.com/books/the-geologic-time-scale-2012/gradstein/978-0-444-59425-9)). This gives a minimum age estimate of 337Ma.\
@@ -15,7 +18,8 @@ We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](htt
 
 ---
 
-**Node 591:** Amniota | 315.0–335.0Ma\
+**CAL029:** Amniota | 315.0–335.0Ma\
+**Tree mappings:** ROADIES node 591; ASTRAL node 771.\
 **Node calibrated:** Last common ancestor of the clade encompassing lizards, turtles, birds (_Ammospiza nelsoni_) and mammals (_Ornithorhynchus anatinus_).\
 **Fossil taxon:** †_Hylonomus lyelli_ (NHMUK R4168, Natural History Museum, London).\
 **Minimum age:** Bashkirian, Early Pennsylvanian, Carboniferous, at 315Ma.\
@@ -25,22 +29,24 @@ We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](htt
 
 ---
 
-**Node 592:** Sauria | 255.9–295.9Ma\
+**CAL030:** Sauria | 255.9–295.9Ma\
+**Tree mappings:** ROADIES node 592; ASTRAL node 939.\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant squamates (Squamata: _Dibamus smithi_) and birds (Aves: _Ammospiza nelsoni_).\
-**Fossil taxon:** †_Protorosaurus speneri_ (NMK S 180)\
+**Fossil taxon:** †_Protorosaurus speneri_ (NMK S 180).\
 **Minimum age:** 255.9Ma\
 **Minimum justification:** Based on the oldest stem archosauromorph from the Lopingian (251.9–259.5Ma) of the Permian of Germany and England ([Ezcurra et al. 2014](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089165)).\
 **Maximum age:** 295.9Ma\
 **Maximum justification:** The maximum age calibration is based on a proposed hard upper bound for the crocodile-lizard split constrained by †_Apsisaurus witteri_ from the Archer City Formation of Texas ([Benton and Donoghue 2007](https://doi.org/10.1093/molbev/msl150)), dated to the Asselian (298.9–295.5Ma) of the early Permian.\
-**Discussion:** Placement of †_Protorosaurus speneri_ in total-group Archosauromorpha has been supported by several recent morphological phylogenetic studies. In their revision of the phylogenetic placement of the Permian reptile †_Eunotosaurus,_ Jenkins et al. ([2026](https://doi.org/10.1016/j.cub.2026.04.070)) estimated that †_P. spleneri_ falls outside of crown Archelosauria, on the archosauromorph stem. It has also been estimated in crown-group Archelosauria (turtles + archosaurs) by Simões et al. ([2022](https://doi.org/10.1126/sciadv.abq1898)) and Ezcurra et al. ([2016](https://doi.org/10.7717/peerj.1778)). Finally, we wish to highlight that many other archosauriform archelosaurs, including †_Archosaurus rossicus_ ([Ezcurra et al. 2014](https://doi.org/10.1371/journal.pone.0089165)), †_Vigilosaurus gaochangensis_ ([Chen and Liu 2023](https://doi.org/10.1007/s00114-022-01823-8)), and an indeterminate form from the Rio do Rasto Formation of Brazil ([Martinelli et al. 2017](https://doi.org/10.1080/08912963.2015.1125897)) are known from the end Permian. These fossils are Changhsingian to Wuchiapingian in age, implying at minimum an age of 254.14Ma for Archelosauria ([Gradstein et al., 2020](https://doi.org/10.1016/C2020-1-02369-3)), and by extension, our minimum age for Sauria of 255.9Ma based on †_Protorosaurus_.
+**Discussion:** Placement of †_Protorosaurus speneri_ in total-group Archosauromorpha has been supported by several recent morphological phylogenetic studies. In their revision of the phylogenetic placement of the Permian reptile †_Eunotosaurus,_ Jenkins et al. ([2026](https://doi.org/10.1016/j.cub.2026.04.070)) estimated that †_P. speneri_ falls outside of crown Archelosauria, on the archosauromorph stem. It has also been estimated in crown-group Archelosauria (turtles + archosaurs) by Simões et al. ([2022](https://doi.org/10.1126/sciadv.abq1898)) and Ezcurra ([2016](https://doi.org/10.7717/peerj.1778)). Finally, we wish to highlight that many other archosauriform archelosaurs, including †_Archosaurus rossicus_ ([Ezcurra et al. 2014](https://doi.org/10.1371/journal.pone.0089165)), †_Vigilosaurus gaochangensis_ ([Chen and Liu 2023](https://doi.org/10.1007/s00114-022-01823-8)), and an indeterminate form from the Rio do Rasto Formation of Brazil ([Martinelli et al. 2017](https://doi.org/10.1080/08912963.2015.1125897)) are known from the end Permian. These fossils are Changhsingian to Wuchiapingian in age, implying at minimum an age of 254.14Ma for Archelosauria ([Gradstein et al., 2020](https://doi.org/10.1016/C2020-1-02369-3)), consistent with our minimum age for Sauria of 255.9Ma based on †_Protorosaurus_.
 
 ---
 
-**Node 594:** Archosauria | 247.2–256.0Ma\
+**CAL031:** Archosauria | 247.2–256.0Ma\
+**Tree mappings:** ROADIES node 594; ASTRAL node 992.\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant birds (Aves: _Ammospiza nelsoni_) and crocodilians (Crocodylia: _Alligator mississippiensis_).\
-**Fossil taxon:** †_Xilousuchus sapingensis_ (IVPP V 6026)\
+**Fossil taxon:** †_Xilousuchus sapingensis_ (IVPP V 6026).\
 **Minimum age:** 247.2Ma\
-**Minimum justification:** Based on the stem pseudosuchian from the Triassic Olenekian (246.7–249.9Ma) Heshanggou Formation, Hazhen Commune, Fugu County, northeast Shaanxi Province of China ([Nesbitt 2011](https://www.cambridge.org/core/journals/earth-and-environmental-science-transactions-of-royal-society-of-edinburgh/article/sailbacked-suchian-from-the-heshanggou-formation-early-triassic-olenekian-of-china/E3644E8FF8F923D86FA08813311B49E5), [Parham et al. 2012](https://academic.oup.com/sysbio/article/61/2/346/1647963)).\
+**Minimum justification:** Based on the stem pseudosuchian from the Triassic Olenekian (246.7–249.9Ma) Heshanggou Formation, Hazhen Commune, Fugu County, northeast Shaanxi Province of China ([Nesbitt et al. 2011](https://www.cambridge.org/core/journals/earth-and-environmental-science-transactions-of-royal-society-of-edinburgh/article/sailbacked-suchian-from-the-heshanggou-formation-early-triassic-olenekian-of-china/E3644E8FF8F923D86FA08813311B49E5), [Parham et al. 2012](https://academic.oup.com/sysbio/article/61/2/346/1647963)).\
 **Maximum age:** 256.0Ma\
 **Maximum justification:** The maximum age calibration is based on a proposed soft upper bound for the bird-crocodile split constrained by the oldest putative stem archosauriform †_Archosaurus rossicus_ ([Gower and Sennikov 2000](https://www.cambridge.org/us/universitypress/subjects/earth-and-environmental-science/palaeontology-and-life-history/age-dinosaurs-russia-and-mongolia)) from the late Permian Changhsingian (252.3–256.0Ma) of Russia ([Parham et al. 2012](https://academic.oup.com/sysbio/article/61/2/346/1647963)).
 
@@ -69,9 +75,15 @@ Ezcurra, M.D., 2016. The phylogenetic relationships of basal archosauromorphs, w
 
 Ford, D. P., and R. B. Benson. 2020. The phylogeny of early amniotes and the affinities of Parareptilia and Varanopidae. Nature Ecology & Evolution 4(1):57-65.
 
-Gower DJ, Sennikov AG.Benton MJ, Kurochkin EN, Shishkin MA, Unwin DM., Early archosaurs from Russia, The age of dinosaurs in Russia and Mongolia, 2000Cambridge, UKCambridge University Press(pg. 140-159)
+Gower, D.J. and Sennikov, A.G., 2000. Early archosaurs from Russia. In: Benton, M.J., Shishkin, M.A., Unwin, D.M. and Kurochkin, E.N. (eds.), The Age of Dinosaurs in Russia and Mongolia. Cambridge University Press, Cambridge, pp.140-159.
 
 Gradstein, F., Ogg, J.G., Schmitz, M.D. and Ogg, G.M. eds., 2012. The Geologic Time Scale 2012. Elsevier.
+
+Gradstein, F.M., Ogg, J.G., Schmitz, M.D. and Ogg, G.M. eds., 2020. Geologic Time Scale 2020. Elsevier.
+
+Jenkins, K.M., Meyer, D.L. and Bhullar, B.A.S., 2026. Phylogenetic paradigm shifts in early amniote evolution. Systematic Biology, 75(5), pp.887-910.
+
+Jenkins, X.A., Benson, R.B.J., Ford, D.P., Browning, C., Fernandez, V., Dollman, K., Gomes, T., Griffiths, E., Choiniere, J.N. and Peecook, B.R., 2025. Evolutionary assembly of crown reptile anatomy clarified by late Paleozoic relatives of Neodiapsida. Peer Community Journal, 5, e89.
 
 Jenkins, X.A., Peecook, B.R., Choiniere, J.N., Buffa, V., Benoit, J., Browning, C., Fernandez, V., Dollman, K., Gomes, T.W., McGaughey, G.A. and Marchant, C.J., 2026. The phylogenetic origin of turtles. Current Biology, 36(11), pp.2907-2917.
 
