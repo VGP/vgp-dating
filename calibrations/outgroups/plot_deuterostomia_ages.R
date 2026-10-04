@@ -1,9 +1,21 @@
 ## Deuterostome divergence-time estimates
 library(ggplot2)
 library(rphylopic)
+library(ape)
 
 ## Read the ages. fileEncoding removes the invisible BOM in the first header.
 ages <- read.csv("deuterostomia_ages.csv", fileEncoding = "UTF-8-BOM")
+
+## Use the same released dated tree as the other clade checkpoints.
+master <- read.csv("../master_calibrations.csv", stringsAsFactors = FALSE)
+cal <- subset(master, calibration_id == "CAL001")
+stopifnot(nrow(cal) == 1)
+pair <- c(cal$taxon1_accession, cal$taxon2_accession)
+tree <- read.nexus("../../trees/roadies_v1.1.16b.independent.fast95.tre")
+tree$tip.label <- gsub("'", "", tree$tip.label, fixed = TRUE)
+stopifnot(all(pair %in% tree$tip.label), is.rooted(tree), is.ultrametric(tree))
+depths <- node.depth.edgelength(tree)
+roadies_age <- mean(depths[seq_len(Ntip(tree))]) - depths[getMRCA(tree, pair)]
 
 ## A little headroom leaves the silhouettes clear of the density.
 density_curve <- density(ages$Time, na.rm = TRUE)
@@ -22,7 +34,7 @@ timescale$label_x <- (pmax(timescale$younger, 480) +
 plot <- ggplot(ages, aes(x = Time)) +
   geom_density(
     aes(y = after_stat(density)),
-    fill = "#78B7C5", color = "#245A66", linewidth = 0.55, alpha = 0.55
+    fill = "#ABB6BF", color = "#8A9299", linewidth = 0.5, alpha = 0.35
   ) +
   ## Draw the rug at zero so the timescale can sit beneath it.
   geom_segment(
@@ -36,14 +48,35 @@ plot <- ggplot(ages, aes(x = Time)) +
       x = boundary, xend = boundary,
       y = -density_top * 0.19, yend = density_top * 1.43
     ),
-    color = "grey75", linetype = "dashed", linewidth = 0.7,
+    color = "#8A8A8A", linetype = "dotted", linewidth = 0.7,
     inherit.aes = FALSE
   ) +
   annotate(
-    "text",
-    x = mean(c(517.32, 590.8)), y = density_top * 1.30,
-    label = "Fossil calibration\nlimits",
-    color = "grey50", size = 3
+    "segment", x = roadies_age, xend = roadies_age,
+    y = -density_top * 0.19, yend = density_top * 1.43,
+    color = "#246B83", linewidth = 0.8
+  ) +
+  ## Compact legend in the open area below the silhouettes.
+  annotate(
+    "segment", x = 745, xend = 766,
+    y = density_top * 0.40, yend = density_top * 0.40,
+    color = "#246B83", linewidth = 0.8
+  ) +
+  annotate(
+    "segment", x = 745, xend = 766,
+    y = density_top * 0.31, yend = density_top * 0.31,
+    color = "#8A8A8A", linetype = "dotted", linewidth = 0.7
+  ) +
+  annotate(
+    "segment", x = c(751, 760), xend = c(751, 760),
+    y = density_top * 0.20, yend = density_top * 0.24,
+    color = "#263238", linewidth = 0.7
+  ) +
+  annotate(
+    "text", x = 775, y = density_top * c(0.40, 0.31, 0.22),
+    label = c(sprintf("ROADIES · %.1f Ma", roadies_age),
+              "Calibration bounds", "Published ages"),
+    hjust = 0, size = 3, color = "#263238"
   ) +
   geom_rect(
     data = timescale,
@@ -59,7 +92,7 @@ plot <- ggplot(ages, aes(x = Time)) +
   scale_fill_identity() +
   scale_x_continuous(expand = expansion(mult = 0)) +
   labs(
-    title = "Published Age Estimates for Deuterostomia",
+    title = "Published age estimates for Deuterostomia",
     x = "Age (Ma)",
     y = NULL
   ) +
@@ -70,7 +103,7 @@ plot <- ggplot(ages, aes(x = Time)) +
   ) +
   theme_classic(base_size = 12) +
   theme(
-    plot.title = element_text(face = "bold"),
+    plot.title = element_text(size = 17, face = "plain", margin = margin(b = 14)),
     axis.line.x = element_line(color = "black", linewidth = 0.5),
     axis.line.y = element_blank(),
     axis.text.y = element_blank(),
@@ -84,24 +117,24 @@ plot <- plot +
   add_phylopic(
     uuid = "6dec6424-7511-49b2-aac6-3da79d45c7f2", # Chordata
     x = 715, y = density_top * 1.15, height = density_top * 0.24,
-    fill = "#334E68"
+    fill = "lightgrey"
   ) +
   add_phylopic(
     uuid = "a3dd3044-648c-4e45-93f0-21a156247132", # Echinodermata
     x = 810, y = density_top * 0.73, height = density_top * 0.40,
-    fill = "#334E68"
+    fill = "lightgrey"
   ) +
   add_phylopic(
     uuid = "0871a74c-1dd1-477a-834f-d0318896ad69", # Hemichordata
     x = 915, y = density_top * 1.15, height = density_top * 0.32,
-    fill = "#334E68"
+    fill = "lightgrey"
   ) +
   annotate(
     "text",
     x = c(715, 810, 915),
     y = density_top * c(1.34, 0.98, 1.34),
     label = c("Chordata", "Echinodermata", "Hemichordata"),
-    fontface = "italic", size = 3.5, color = "#334E68"
+    fontface = "italic", size = 3.5, color = "#777777"
   )
 
 ggsave(
