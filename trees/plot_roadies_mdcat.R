@@ -86,7 +86,7 @@ render <- function() {
  stopifnot(max(abs(rr-((1+ah)*h-ci$mean)))<1e-5)
  ux<-pp$xx[ci$node]/rr;uy<-pp$yy[ci$node]/rr
  lo<-(1+ah)*h-ci$upper;hi<-(1+ah)*h-ci$lower
- segments(ux*lo,uy*lo,ux*hi,uy*hi,col='#33383DE0',lwd=.45)
+ segments(ux*lo,uy*lo,ux*hi,uy*hi,col='#9AA1A8',lwd=.65)
  par(mgp=c(2,.4,0))
  ticks<-seq(0,floor(h/100)*100,100)
  axis(1,pos=-.018*h,at=h-ticks+ah*h,labels=ticks,tck=-.009,cex.axis=.90,col="#B7BDC1",col.axis="#656C72",lwd=.6)
@@ -97,7 +97,7 @@ render <- function() {
  text(0,.034*h,"Genomic timescale of\nvertebrate evolution",cex=1.18,font=2,col="#343A40")
  text(0,-.057*h,"ROADIES  ·  MD-CAT",cex=1.0,col="#717980")
  legend(x=.87*h,y=.37*h,xjust=.5,yjust=1,legend=c("Amphibians","Birds","Crocs","Fishes","Mammals","Sharks","Squamates","Turtles"),col=colors[-1],pch=16,pt.cex=1.05,cex=1.00,ncol=2,bty="o",box.lwd=0,box.col=NA,bg=adjustcolor("white",alpha.f=.78),x.intersp=.65,y.intersp=1.1)
- legend(x=.87*h,y=.105*h,xjust=.5,yjust=1,legend=c("Calibrated node","95% age CI"),pch=c(16,NA),lty=c(NA,1),lwd=c(NA,.45),pt.cex=1.05,cex=.91,bty="o",box.col=NA,bg=adjustcolor("white",alpha.f=.78),text.col="#50575D",col="#30363B")
+ legend(x=.87*h,y=.105*h,xjust=.5,yjust=1,legend=c("Calibrated node","95% age CI"),pch=c(16,NA),lty=c(NA,1),lwd=c(NA,.65),pt.cex=1.05,cex=.91,bty="o",box.col=NA,bg=adjustcolor("white",alpha.f=.78),text.col="#50575D",col=c("#30363B","#9AA1A8"))
 
 }
 write_plot <- function() {
