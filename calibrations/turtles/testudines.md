@@ -26,8 +26,8 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Minimum justification:** Based on the oldest crown pleurodiran ([Romano et al. 2014](https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2014.0290)) from the Morro do Chaves Formation, Sergipe-Alagoas Basin, Brazil from the Barremian of the Cretaceous (121.4–125.77Ma).\
 **Maximum age:** 157.3Ma\
 **Maximum justification:** Maximum age based on the oldest pan-pleurodiran †_Notoemys oxfordiensis_ from the Oxfordian of the Jurassic (154.8–161.5Ma).\
-**Discussion:** [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773) assign this fossil to the less-inclusive clade Pelomedusoides, but our taxon sampling is not detailed enough to capture this crown group. As a result, we calibrate its stem age instead, which is equivalent to the crown group Pleurodira.
-**[For a future constraint implemented under expanded taxon sampling, see the Pelomedusoides calibration below.]**
+**Discussion:** [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773) assign this fossil to the less-inclusive clade Pelomedusoides, but our taxon sampling is not detailed enough to capture this crown group. As a result, we calibrate its stem age instead, which is equivalent to the crown group Pleurodira.\
+**Notes:** For a future constraint implemented under expanded taxon sampling, see the Pelomedusoides calibration below.
 
 ---
 
