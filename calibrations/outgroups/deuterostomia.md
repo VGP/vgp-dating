@@ -54,11 +54,10 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ### Likelihood checkpoints
 
-We gathered 15 studies supporting a likelihood checkpoint for the root (Deuterostomia) published between 1998 and 2024 ([deuterostomia_ages.csv](deuterostomia_ages.csv)). As discussed by previous authors ([Cunningham et al. 2017](https://doi.org/10.1002/bies.201600120)), early disagreements between the fossil record and molecular divergence times have narrowed with more recent discoveries, interpretations, and methods. As noted above, we rely primarily on the recent framework of [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1) and [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161) to interpret the Cambrian and Ediacaran fossil record and derive well-constrained ages for the emergence of deuterostomes between 517–591Ma. Of the 15 studies evaluated here, only 5 fall within that interval and the modal estimate is ~600Ma. However, most of the older ages are from older studies, before the recent movement towards reconciliation of fossil and molecular estimates. Consequently, we are confident in the younger and narrower bounds used here.
+We gathered 15 studies supporting a likelihood checkpoint for the root (Deuterostomia) published between 1998 and 2024 ([deuterostomia_ages.csv](deuterostomia_ages.csv)). The figure is generated with the [plotting script](plot_deuterostomia_ages.R). As discussed by previous authors ([Cunningham et al. 2017](https://doi.org/10.1002/bies.201600120)), early disagreements between the fossil record and molecular divergence times have narrowed with more recent discoveries, interpretations, and methods. As noted above, we rely primarily on the recent framework of [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1) and [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161) to interpret the Cambrian and Ediacaran fossil record and derive well-constrained ages for the emergence of deuterostomes between 517–591Ma. Of the 15 studies evaluated here, only 5 fall within that interval and the modal estimate is ~600Ma. However, most of the older ages are from older studies, before the recent movement towards reconciliation of fossil and molecular estimates. Consequently, we are confident in the younger and narrower bounds used here.
 
 ![Deuterostomia ages](deuterostomia_ages_density.png)
 
-The figure is generated with the [plotting script](plot_deuterostomia_ages.R).
 
 ## References
 
