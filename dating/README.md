@@ -2,7 +2,7 @@
 
 The available ROADIES v0.0.0 and ASTRAL v0.1.1 dated trees were inferred using **MD-CAT 1.1.15**, with fossil-calibration ranges assembled by the VGP dating working group. Ages and dated branch lengths are in **millions of years (Ma)**.
 
-[VGP tree-release](https://github.com/VGP/vgp-tree-release) distributes the trees. This repository records their calibration sources, dating commands, node-age tables, and visualizations.
+[VGP tree-release](https://github.com/VGP/vgp-tree-release) distributes the trees. This repository records their calibrations, commands, results, and visualizations.
 
 ## Dated trees
 
