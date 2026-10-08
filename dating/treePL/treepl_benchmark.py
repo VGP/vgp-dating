@@ -340,7 +340,7 @@ def parse_args():
     p.add_argument('--deep-configurations', type=int, default=2, help='maximum configurations for deep searching (2)')
     p.add_argument('--fallback-ceiling', type=float, default=1e12)
     p.add_argument('--outlier-factor', type=float, default=100)
-    p.add_argument('--master', type=Path, default=Path(__file__).resolve().parent.parent/'calibrations/master_calibrations.csv')
+    p.add_argument('--master', type=Path, default=Path(__file__).resolve().parents[2]/'calibrations/master_calibrations.csv')
     p.add_argument('--output', type=Path, help='default: CONFIG_DIRECTORY/generated/randomcv')
     p.add_argument('--keep-work', action='store_true', help='retain per-fit logs/configs/trees')
     p.add_argument('--dry-run', action='store_true', help='validate inputs and print workload; no fits or output deletion')
@@ -466,8 +466,8 @@ class RandomCV:
             self.checked([self.rscript,'-e', 'p<-c("ape","rphylopic","phytools","plotrix","png"); missing<-p[!vapply(p,requireNamespace,logical(1),quietly=TRUE)]; if(length(missing))stop("Missing plotting packages: ",paste(missing,collapse=", "))'],tmp/'plot_dependencies.log')
             (tmp/'plot_inputs.R').write_text(PLOT_INPUTS_R)
             self.checked([self.rscript,str(tmp/'plot_inputs.R'),str(self.tree),
-                          str(self.config.parent/'../../trees/annotations.tsv'),
-                          str(self.config.parent/'../vgp.png'),self.config.stem],tmp/'plot_inputs.log')
+                          str(self.config.parent/'../../../trees/annotations.tsv'),
+                          str(self.config.parent/'../../assets/vgp.png'),self.config.stem],tmp/'plot_inputs.log')
         self.topology_plot = self.config.parent/(self.config.stem+'.treePL.R')
         self.dated_plot = Path(__file__).resolve().parent/'plot_dated_tree.R'
         if not self.topology_plot.is_file() or not self.dated_plot.is_file():

@@ -1,5 +1,5 @@
 # ROADIES MD-CAT overview for the main README.
-# Run: Rscript trees/plot_roadies_mdcat.R
+# Run: Rscript dating/mdcat/plot_roadies_mdcat.R
 # Requires phytools, plotrix, and png; no network access is needed.
 # Dots use the current ROADIES mappings in master_calibrations.csv.
 # Hairlines show the tree's embedded 95% pooled-percentile age intervals.
@@ -14,7 +14,7 @@ path <- function(name) file.path(directory, name)
 
 # Replace internal-node annotations with temporary labels to preserve their
 # association with nodes when ape reads the NEXUS tree.
-source_text <- paste(readLines(path("roadies_v1.1.16b.independent.fast95.tre")), collapse = "\n")
+source_text <- paste(readLines(path("roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.tre")), collapse = "\n")
 locations <- gregexpr("\\)\\[&[^]]+\\]", source_text, perl = TRUE)
 metadata <- regmatches(source_text, locations)[[1]]
 if (!length(metadata)) stop("No internal-node age annotations found.")
@@ -44,7 +44,7 @@ ages <- branching.times(tree)
 stopifnot(all(is.finite(as.matrix(ci))), all(ci$lower <= ci$upper),
           max(abs(ci$mean - ages[as.character(ci$node)])) < 1e-6)
 
-master <- read.csv(path("../calibrations/master_calibrations.csv"), stringsAsFactors = FALSE)
+master <- read.csv(path("../../calibrations/master_calibrations.csv"), stringsAsFactors = FALSE)
 cal <- master[!is.na(master$node_roadies_v1_1_16b), ]
 stopifnot(all(c(cal$taxon1_accession, cal$taxon2_accession) %in% tree$tip.label))
 cal$node <- vapply(seq_len(nrow(cal)), function(i)
@@ -52,7 +52,7 @@ cal$node <- vapply(seq_len(nrow(cal)), function(i)
 stopifnot(all(cal$node == cal$node_roadies_v1_1_16b), !anyDuplicated(cal$node))
 ci <- ci[match(cal$node, ci$node), ]
 
-annotations <- read.delim(path("annotations.tsv"), comment.char = "", stringsAsFactors = FALSE)
+annotations <- read.delim(path("../../trees/annotations.tsv"), comment.char = "", stringsAsFactors = FALSE)
 names(annotations)[1] <- "accession"
 stopifnot(!anyDuplicated(annotations$accession), all(tree$tip.label %in% annotations$accession))
 annotations <- annotations[match(tree$tip.label, annotations$accession), ]
@@ -72,7 +72,7 @@ colors <- c(Root = "#45484B", Amphibians = "#4E79A7", Birds = "#59A14F",
             Sharks = "#76B7B2", Squamates = "#EDC948", Turtles = "#9C755F")
 h <- max(nodeHeights(painted))
 ah <- .40
-vgp <- png::readPNG(path("../treePL/vgp.png"))
+vgp <- png::readPNG(path("../assets/vgp.png"))
 render <- function() {
  par(mar=c(.4,.25,.3,.25),xaxs="i",yaxs="i",family="sans",fg="#44484B")
  lim<-c(-1.415*h,1.415*h); ylim<-c(-.19*h,1.41*h)
@@ -101,7 +101,7 @@ render <- function() {
 
 }
 write_plot <- function() {
-    png(path("roadies_v1.1.16b.independent.fast95.png"), width = 3000,
+    png(path("roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.png"), width = 3000,
         height = 1720, res = 230, type = "cairo")
     on.exit(dev.off())
     render()

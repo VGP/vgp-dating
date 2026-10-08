@@ -47,8 +47,8 @@ master <- read.csv("../master_calibrations.csv", stringsAsFactors = FALSE)
 cal <- subset(master, calibration_id == "CAL083")
 stopifnot(nrow(cal) == 1)
 pair <- c(cal$taxon1_accession, cal$taxon2_accession)
-files <- c(ROADIES = "../../trees/roadies_v1.1.16b.independent.fast95.tre",
-           ASTRAL = "../../trees/astralpro.l6p1.independent.fast95.tre")
+files <- c(ROADIES = "../../dating/mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.tre",
+           ASTRAL = "../../dating/mdcat/astralpro.l6p1/astralpro.l6p1.independent.fast95.tre")
 node_age <- function(path) {
   tree <- read.nexus(path)
   tree$tip.label <- gsub("'", "", tree$tip.label, fixed = TRUE)

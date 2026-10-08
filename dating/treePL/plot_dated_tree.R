@@ -2,7 +2,7 @@
 # One-page dated-tree atlas. Requires only ape; all rendering is offline.
 suppressPackageStartupMessages(library(ape))
 args <- commandArgs(trailingOnly = TRUE)
-usage <- paste('Usage: Rscript treePL/plot_dated_tree.R --tree TREE --output PDF',
+usage <- paste('Usage: Rscript dating/treePL/plot_dated_tree.R --tree TREE --output PDF',
                '[--accession-tree TREE] [--calibrations CSV] [--annotations TSV]',
                '[--title TEXT] [--width INCHES] [--height INCHES]', sep = '\n  ')
 if (!length(args) || '--help' %in% args) { cat(usage, '\n'); quit(status = 0) }
@@ -14,7 +14,7 @@ for (i in seq(1, length(args), by = 2)) {
 }
 if (is.null(opts$tree) || is.null(opts$output)) stop(usage)
 script <- sub('^--file=', '', grep('^--file=', commandArgs(), value = TRUE)[1])
-repo <- dirname(dirname(normalizePath(script)))
+repo <- dirname(dirname(dirname(normalizePath(script))))
 annotation_file <- if (is.null(opts$annotations)) file.path(repo,'trees/annotations.tsv') else opts$annotations
 ann <- read.delim(annotation_file, comment.char = '', stringsAsFactors = FALSE)
 names(ann)[1] <- 'accession'

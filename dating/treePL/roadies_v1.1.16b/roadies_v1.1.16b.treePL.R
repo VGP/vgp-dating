@@ -1,5 +1,5 @@
 #Visualize treePL results
-# Run from treePL/roadies_v1.1.16b/.
+# Run from dating/treePL/roadies_v1.1.16b/.
 library(rphylopic)
 library(phytools)
 library(plotrix)
@@ -36,7 +36,7 @@ mrca_df$node <- apply(
 
 
 # read in data
-annotations <- read.delim("../../trees/annotations.tsv", header = TRUE, comment.char = "", stringsAsFactors = FALSE)
+annotations <- read.delim("../../../trees/annotations.tsv", header = TRUE, comment.char = "", stringsAsFactors = FALSE)
 names(annotations)[1] <- "accession"
 annotations <- annotations[annotations$accession %in% roadies_v1.1.16b.treePL.tre$tip.label, ]
 if (!all(roadies_v1.1.16b.treePL.tre$tip.label %in% annotations$accession)) stop("Missing tip annotations.")
@@ -152,7 +152,7 @@ legend(x = "topright",legend = "Fossil calibrations",pch = 21,
 text(x = 0,y = -0.15 * h,labels = "Genomic timescale of\nvertebrate evolution",cex = 1.2,font = 2)
 
 # graphics
-vgp <- png::readPNG("../vgp.png")
+vgp <- png::readPNG("../../assets/vgp.png")
 
 aspect <- 842 / 352   # ≈ 2.392
 img_height <- 0.3 * h     # size dial (increase/decrease here)

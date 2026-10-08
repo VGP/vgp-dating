@@ -1,5 +1,5 @@
 #Visualize treePL results
-# Run from treePL/astralpro.l6p1/.
+# Run from dating/treePL/astralpro.l6p1/.
 library(rphylopic)
 library(phytools)
 library(plotrix)
@@ -36,7 +36,7 @@ mrca_df$node <- apply(
 
 
 # read in data
-annotations <- read.delim("../../trees/annotations.tsv", header = TRUE, comment.char = "", stringsAsFactors = FALSE)
+annotations <- read.delim("../../../trees/annotations.tsv", header = TRUE, comment.char = "", stringsAsFactors = FALSE)
 names(annotations)[1] <- "accession"
 # Explicit source-tree alias used only for annotations and display names.
 alias <- annotations[annotations$AssemblyId == "kxProAnne1" & !is.na(annotations$AssemblyId), ]
@@ -161,7 +161,7 @@ legend(x = "topright",legend = "Fossil calibrations",pch = 21,
 text(x = 0,y = -0.15 * h,labels = "Genomic timescale of\nvertebrate evolution",cex = 1.2,font = 2)
 
 # graphics
-vgp <- png::readPNG("../vgp.png")
+vgp <- png::readPNG("../../assets/vgp.png")
 
 aspect <- 842 / 352   # ≈ 2.392
 img_height <- 0.3 * h     # size dial (increase/decrease here)

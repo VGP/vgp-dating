@@ -1,10 +1,10 @@
 # Optional read-only audit after intentional calibration/config/tree updates.
-# Run from any directory: Rscript /path/to/treePL/calibration_config.R
+# Run from any directory: Rscript /path/to/dating/treePL/calibration_config.R
 # Optional manual --configs-only TOPOLOGY checks pairs and ages without trees.
 # Launchers perform their config check in treepl_benchmark.py.
 # Neither mode modifies files.
 script <- sub('^--file=', '', grep('^--file=',commandArgs(),value=TRUE)[1])
-root <- dirname(dirname(normalizePath(script)))
+root <- dirname(dirname(dirname(normalizePath(script))))
 args <- commandArgs(trailingOnly=TRUE)
 topologies <- c('roadies_v1.1.16b','astralpro.l6p1')
 configs_only <- length(args)==2 && args[1]=='--configs-only' && args[2] %in% topologies
@@ -33,7 +33,7 @@ for(topology in topologies) {
     }
     # Each topology uses one analysis config.
     for(suffix in '.config') {
-        path <- file.path(root,'treePL',topology,paste0(topology,suffix))
+        path <- file.path(root,'dating','treePL',topology,paste0(topology,suffix))
         lines <- trimws(sub('#.*$','',readLines(path)))
         entries <- lapply(lines[grepl('^(mrca|min|max)\\s*=',lines)],function(x)
             strsplit(gsub('=', ' ',x,fixed=TRUE),'[[:space:]]+')[[1]])

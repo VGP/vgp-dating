@@ -12,8 +12,8 @@ ages <- read.csv('amphibia_calibrations.csv') %>%
                    Age > quantile(Age, .75) + 1.5 * IQR(Age)) %>% ungroup()
 master <- read.csv('../master_calibrations.csv', stringsAsFactors = FALSE)
 cal_ids <- c(Lissamphibia = 'CAL032', Batrachia = 'CAL033', Anura = 'CAL034')
-files <- c(ROADIES = '../../trees/roadies_v1.1.16b.independent.fast95.tre',
-           ASTRAL = '../../trees/astralpro.l6p1.independent.fast95.tre')
+files <- c(ROADIES = '../../dating/mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.tre',
+           ASTRAL = '../../dating/mdcat/astralpro.l6p1/astralpro.l6p1.independent.fast95.tre')
 trees <- lapply(files, function(path) {
   tree <- read.nexus(path)
   tree$tip.label <- gsub("'", '', tree$tip.label, fixed = TRUE)
