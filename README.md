@@ -44,7 +44,7 @@ We used the [VGP Phase I](https://github.com/VGP/vgp-trees/tree/main/phase-1) [g
 
 ## Syntax
 
-Our reference trees are the VGP Phase I guide phylogenies, [ROADIES v0.0.0](./trees/roadies_v1.1.16b.numbers.scientific.nwk.pdf) and [ASTRAL v0.1.1](./trees/astralpro.l6p1.numbers.scientific.nwk.pdf), each with its own APE-style node numbers from R to facilitate objective reference to [nodes](./trees). CAL identifiers refer to the [master calibration list](./calibrations/master_calibrations.csv). Minimal documentation for each constraint is:
+We use the VGP Phase I guide phylogenies, [ROADIES v0.0.0](./trees/roadies_v1.1.16b.numbers.scientific.nwk.pdf) and [ASTRAL v0.1.1](./trees/astralpro.l6p1.numbers.scientific.nwk.pdf), each with its own APE-style node numbers from R to facilitate objective reference to [nodes](./trees). CAL identifiers refer to the [master calibration list](./calibrations/master_calibrations.csv). Minimal documentation for each constraint is:
 
 	-CAL identifier, lineage, and tree-specific node numbers
 	-Minimum and maximum ages in Ma: e.g., 234.5–456.2
