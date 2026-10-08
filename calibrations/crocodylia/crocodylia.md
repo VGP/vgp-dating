@@ -31,11 +31,9 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ### Likelihood checkpoints
 
-TimeTree.org estimates a median age of 87Ma (73–101Ma) from 18 studies between 2004 and 2018. To this, we added 5 additional studies from 2006–2021. Excluding outliers (1.5 * IQR; in red, below), this yields a median of 87Ma with a range from 71–110Ma. These data are given in [crocodylia_timetree.csv](crocodylia_timetree.csv). To this, we can compare 9 estimates from 9 time-calibrated studies with fossil tips from 2017–2026. After excluding two outliers, the median point estimate is 98Ma, and the mean lower and upper reported interval endpoints are 89Ma and 109Ma, respectively; these averages are not a pooled confidence interval. The excluded estimates are the two outlier ages (as triangles, below), one from Godoy et al. ([2019](https://doi.org/10.1186/s12862-019-1466-4)) and the Groh et al. ([2022](https://doi.org/10.1111/pala.12589)) FBD analysis, which reports dramatically different topologies and timescales for Gavialoidea. These data are recorded in [crocodylia_calibrations.csv](crocodylia_calibrations.csv).
+TimeTree.org estimates a median age of 87Ma (73–101Ma) from 18 studies between 2004 and 2018. To this, we added 5 additional studies from 2006–2021. Excluding outliers (1.5 * IQR; in red, below), this yields a median of 87Ma with a range from 71–110Ma. These data are given in [crocodylia_timetree.csv](crocodylia_timetree.csv). To this, we can compare 9 estimates from 9 time-calibrated studies with fossil tips from 2017–2026. After excluding two outliers, the median point estimate is 98Ma, and the mean lower and upper reported interval endpoints are 89Ma and 109Ma, respectively; these averages are not a pooled confidence interval. The excluded estimates are the two outlier ages (as triangles, below), one from Godoy et al. ([2019](https://doi.org/10.1186/s12862-019-1466-4)) and the Groh et al. ([2022](https://doi.org/10.1111/pala.12589)) FBD analysis, which reports dramatically different topologies and timescales for Gavialoidea. These data are recorded in [crocodylia_calibrations.csv](crocodylia_calibrations.csv). The figure is generated with the [plotting script](crocodylia_ages.R).
 
 ![crocodylia likelihood checkpoints](crocodylia_calibrations.png)
-
-The figure is generated with the [plotting script](crocodylia_ages.R).
 
 
 ## References
