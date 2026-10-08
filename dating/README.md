@@ -1,6 +1,6 @@
 # VGP Phase I dated trees
 
-The available ROADIES v0.0.0 and ASTRAL v0.1.1 dated trees were inferred using **MD-CAT 1.1.15**, with fossil-calibration ranges assembled by the VGP dating working group. Ages and dated branch lengths are in **millions of years (Ma)**, with extant tips at zero.
+The available ROADIES v0.0.0 and ASTRAL v0.1.1 dated trees were inferred using **MD-CAT 1.1.15**, with fossil-calibration ranges assembled by the VGP dating working group. Ages and dated branch lengths are in **millions of years (Ma)**.
 
 The [VGP tree-release repository](https://github.com/VGP/vgp-tree-release) distributes the trees. This repository records their calibration sources, dating commands, node-age tables, and visualizations.
 
@@ -17,7 +17,7 @@ See the [MD-CAT methods and file guide](mdcat/README.md) for configuration handl
 
 ## Calibrations and reference trees
 
-The [calibration documentation](../calibrations/calibrations.md) provides the fossil justifications. The [master calibration list](../calibrations/master_calibrations.csv) contains 99 records, with 96 mapped to ROADIES and 91 to ASTRAL. The [reference-tree documentation](../trees/trees.md) describes the undated topologies, annotations, and APE node-numbering files used by contributors.
+The [calibration documentation](../calibrations/calibrations.md) provides the fossil justifications. The [master calibration list](../calibrations/master_calibrations.csv) contains 99 records, with 96 mapped to ROADIES, 91 to ASTRAL, and 88 shared. The [reference-tree documentation](../trees/trees.md) describes the undated topologies, annotations, and APE node-numbering files used by contributors.
 
 ## Contributing dating information
 
