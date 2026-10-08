@@ -20,5 +20,3 @@ The comparison matches 548 clades by their descendant taxa among the 562 taxa sh
 ![ROADIES–ASTRAL node-age comparison](roadies_vs_astral.independent.fast95.comparison.png)
 
 The [comparison table (TSV)](node_age_comparison.tsv) lists the paired node identifiers, number of shared descendant taxa, both age estimates, signed and absolute differences in Ma, relative differences in percent, and representative tips. Rows are ordered by decreasing absolute age difference.
-
-The [dating overview](../README.md) provides the dated trees, figures, and calibration links for both analyses.
