@@ -19,10 +19,6 @@ See the [MD-CAT methods and file guide](mdcat/README.md) for configuration handl
 
 The [calibration documentation](../calibrations/calibrations.md) provides the fossil justifications. The [master calibration list](../calibrations/master_calibrations.csv) contains 99 records, with 96 mapped to ROADIES, 91 to ASTRAL, and 88 shared. The [reference-tree documentation](../trees/trees.md) describes the undated topologies, annotations, and APE node-numbering files used by contributors.
 
-## Contributing dating information
-
-Add analysis-specific methods, execution details, and provenance to the corresponding run record above. Keep original run outputs and their filenames together in that analysis directory. Shared explanations belong in the [MD-CAT guide](mdcat/README.md). External release READMEs can link directly to these two run records, or to this page for the overview.
-
 ## Exploratory analyses
 
 Earlier [treePL tests](treePL/README.md), including their scripts, configs, and generated results, are retained for reference.
