@@ -1,6 +1,6 @@
 # MD-CAT dating
 
-[MD-CAT 1.1.15](https://github.com/smirarab/MD-Cat/blob/deafdab1e657d3e807b5e8203f3ee5189131b0e5/README.md#use-case-4-using-calibration-ranges-with-sampling) analyses use independent calibration sampling with treePL-format configs. The annotated NEXUS trees summarize mean node ages from 100 fitted runs and 95% pooled-percentile intervals from 10,000 CI replicates. Ages and branch durations are in Ma, with extant tips at zero.
+[MD-CAT 1.1.15](https://github.com/smirarab/MD-Cat/blob/deafdab1e657d3e807b5e8203f3ee5189131b0e5/README.md#use-case-4-using-calibration-ranges-with-sampling) uses independent calibration sampling with treePL-format configs. The annotated NEXUS trees summarize mean node ages from 100 fitted runs and 95% pooled-percentile intervals from 10,000 CI replicates. Ages and branch durations are in Ma.
 
 | Analysis | Matching VGP release tree |
 | --- | --- |
