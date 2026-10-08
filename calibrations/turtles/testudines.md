@@ -139,11 +139,10 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ### Likelihood Checkpoints:
 
-In addition, we located 46 age estimates from 28 studies for a likelihood checkpoint on Testudines. They exhibit a very broad range from 77.8–249.8Ma with a median of 207.0Ma and a kernel-density mode of 215.5Ma, excluding outliers (1.5 * IQR). The bulk of published estimates are within our calibration range of 157.3–252.0Ma, and none predate the lower boundary of the Triassic. Most of the post-Oxfordian estimates had highly incomplete taxon sampling or used inaccurate fossil calibrations prior to the reviews of [Joyce et al. (2013)](https://doi.org/10.1666/12-149) and [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), which we highlight for exclusion. The median and mode for the pre-Oxfordian estimates are both 213.7Ma.
+We located 46 age estimates from 28 studies for a likelihood checkpoint on Testudines. They exhibit a very broad range from 77.8–249.8Ma with a median of 207.0Ma and a kernel-density mode of 215.5Ma, excluding outliers (1.5 * IQR). The bulk of published estimates are within our calibration range of 157.3–252.0Ma, and none predate the lower boundary of the Triassic. Most of the post-Oxfordian estimates had highly incomplete taxon sampling or used inaccurate fossil calibrations prior to the reviews of [Joyce et al. (2013)](https://doi.org/10.1666/12-149) and [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), which we highlight for exclusion. The median and mode for the pre-Oxfordian estimates are both 213.7Ma. The figure summarizes the [compiled age estimates](testudines_timetrees.csv) and is generated with the [plotting script](testudines_timetrees.R).
 
 ![testudines likelihood checkpoints](testudines_timetree_estimates.png)
 
-The figure summarizes the [compiled age estimates](testudines_timetrees.csv) and is generated with the [plotting script](testudines_timetrees.R).
 
 ## References
 
