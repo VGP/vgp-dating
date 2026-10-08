@@ -27,37 +27,37 @@ Josefin Stiller (josefin.stiller@bio.ku.dk) – UCPH\
 Nate Upham (nathan.upham@asu.edu) – ASU
 
 
-## [Calibrations](./calibrations/calibrations.md) & [dating](./dating/README.md)
+## [Calibrations](./calibrations/README.md) & [dating](./dating/README.md)
 
-We have assembled an [initial set](./calibrations/calibrations.md) of **99** calibrations matched to the Phase I ROADIES and ASTRAL trees. [Dated trees](./dating/mdcat/README.md) inferred using [MD-CAT](./dating/README.md) are available for ROADIES v0.0.0 and ASTRAL v0.1.1. Future trees will also be dated using Bayesian methods in [mcmctree](https://github.com/dosreislab/mcmctree).
+We have assembled an [initial set](./calibrations/README.md) of **99** calibrations matched to the Phase I ROADIES and ASTRAL trees. [Dated trees](./dating/mdcat/README.md) inferred using [MD-CAT](./dating/README.md) are available for ROADIES v0.0.0 and ASTRAL v0.1.1. Future trees will also be dated using Bayesian methods in [mcmctree](https://github.com/dosreislab/mcmctree).
 
 ![ROADIES MD-CAT timescale](dating/mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.png)
 
 The primary outcomes of this effort are:\
-i) A genomic timescale for vertebrate evolution based on the [VGP Phase I](https://github.com/VGP/vgp-trees/tree/main/phase-1) [guide trees](./trees/trees.md)\
+i) A genomic timescale for vertebrate evolution based on the [VGP Phase I](https://github.com/VGP/vgp-trees/tree/main/phase-1) [guide trees](./trees/README.md)\
 ii) A harmonized database of fossil calibrations available to researchers for unlocking the temporal dimension of genome evolution\
 iii) An expanded reach and broader integration of the VGP across biological subfields by merging molecular and paleontological approaches
 
 ## Approach
 
-We used the [VGP Phase I](https://github.com/VGP/vgp-trees/tree/main/phase-1) [guide trees]([./trees/trees.md](https://github.com/VGP/vgp-tree-release)) to place nodal constraints on a reference topology. Our primary aim was to generate well-constrained ranges for a variety of nodes across the tree, to produce a robustly calibrated timescale for vertebrate evolution. These calibrations are congruent with the most up-to-date discoveries in the fossil record. This resulted in a harmonized collection of min & max ages scattered and spaced across the tree. Given the increasing prevalence of fossil-tip-dated phylogenies, much of the previous ambiguity and controversy over the placement and applicability of many fossils was partially alleviated by reference to recent total-evidence results. Generally speaking, we sought the earliest-known crown-group fossils for major clades, to place minimum ages on the MRCA of extant taxa within those lineages. For a set of major named nodes across the backbone of the tree, we also compiled existing consensus estimates for the origin of various groups from the literature, to compare congruence and divergence from previous generations of studies.
+We used the [VGP Phase I](https://github.com/VGP/vgp-trees/tree/main/phase-1) [guide trees](https://github.com/VGP/vgp-tree-release) to place nodal constraints on a reference topology. Our primary aim was to generate well-constrained ranges for a variety of nodes across the tree, to produce a robustly calibrated timescale for vertebrate evolution. These calibrations are congruent with the most up-to-date discoveries in the fossil record. This resulted in a harmonized collection of min & max ages scattered and spaced across the tree. Given the increasing prevalence of fossil-tip-dated phylogenies, much of the previous ambiguity and controversy over the placement and applicability of many fossils was partially alleviated by reference to recent total-evidence results. Generally speaking, we sought the earliest-known crown-group fossils for major clades, to place minimum ages on the MRCA of extant taxa within those lineages. For a set of major named nodes across the backbone of the tree, we also compiled existing consensus estimates for the origin of various groups from the literature, to compare congruence and divergence from previous generations of studies.
 
 ## Syntax
 
 We use the VGP Phase I guide phylogenies, [ROADIES v0.0.0](./trees/roadies_v1.1.16b.numbers.scientific.nwk.pdf) and [ASTRAL v0.1.1](./trees/astralpro.l6p1.numbers.scientific.nwk.pdf), each with its own APE-style node numbers from R to facilitate objective reference to [nodes](./trees). CAL identifiers refer to the [master calibration list](./calibrations/master_calibrations.csv). Minimal documentation for each constraint is:
 
-	-CAL identifier, lineage, and tree-specific node numbers
-	-Minimum and maximum ages in Ma: e.g., 234.5–456.2
-	-Associated fossil material and rationale
-	-Citations and references
+- CAL identifier, lineage, and tree-specific node numbers
+- Minimum and maximum ages in Ma: e.g., 234.5–456.2
+- Associated fossil material and rationale
+- Citations and references
 
 We explicitly modeled our calibrations to meet [best practices](https://academic.oup.com/sysbio/article/61/2/346/1647963) for justifying constraints with the following minimal information:
 
-	-(1) Museum numbers of specimen(s) that demonstrate all the relevant characters and provenance data should be listed. Referrals of additional specimens to the focal taxon should be justified.
-	-(2) An apomorphy-based diagnosis of the specimen(s) or an explicit, up-to-date, phylogenetic analysis that includes the specimen(s) should be referenced.
-	-(3) Explicit statements on the reconciliation of morphological and molecular data sets should be given.
-	-(4) The locality and stratigraphic level (to the best of current knowledge) from which the calibrating fossil(s) was/were collected should be specified.
-	-(5) Reference to a published radioisotopic age and/or numeric timescale and details of numeric age selection should be given.
+1. Museum numbers of specimen(s) that demonstrate all the relevant characters and provenance data should be listed. Referrals of additional specimens to the focal taxon should be justified.
+2. An apomorphy-based diagnosis of the specimen(s) or an explicit, up-to-date, phylogenetic analysis that includes the specimen(s) should be referenced.
+3. Explicit statements on the reconciliation of morphological and molecular data sets should be given.
+4. The locality and stratigraphic level (to the best of current knowledge) from which the calibrating fossil(s) was/were collected should be specified.
+5. Reference to a published radioisotopic age and/or numeric timescale and details of numeric age selection should be given.
 
 For some nodes such as the root, calibrations will primarily refer to stratigraphic ranges based on initial taxon appearances and expert-assessed consensus for the upper bounds. An example is the root, which [likely dates](https://www.nature.com/articles/nature16150) to the mid-Ediacaran ~570Ma. The impact of fossils is more indirect in these instances. Only a few nodes should receive calibrations like this, mostly towards the root and in the outgroups.
 

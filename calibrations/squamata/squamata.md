@@ -137,6 +137,8 @@ A preliminary literature review yields 34 age estimates for crown-group Squamata
 
 ![squamata likelihood checkpoints](squamata_likelihood_checkpoints.png)
 
+The figure combines [timetree estimates](squamata_timetrees.csv) and [total-evidence estimates](squamate_tip_dates.csv), using the [plotting script](squamata_timetrees.R).
+
 
 ## References
 

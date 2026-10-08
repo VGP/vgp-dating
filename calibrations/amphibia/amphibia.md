@@ -38,7 +38,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Minimum justification:** The earliest unambiguous crown anuran based on a number of synapomorphies ([Evans et al. 1990](https://palass.org/sites/default/files/media/publications/palaeontology/volume_33/vol33_part2_pp299-311.pdf), [Ruta and Coates 2007](https://www.tandfonline.com/doi/abs/10.1017/S1477201906002008)), from the middle Jurassic Forest Marble Formation, upper Bathonian of Oxfordshire, England ([Benton et al. 2015](https://palaeo-electronica.org/content/fc-1)). \
 **Maximum age:** 250.0Ma\
 **Maximum justification:** [Benton et al. (2015)](https://palaeo-electronica.org/content/fc-1) suggested a soft maximum age at the Triassic–Jurassic boundary, given other stem anurans and small tetrapods from numerous deposits at that time without any apparent crown anurans. Given that many estimates have exceeded this range (see below), we place a more conservative soft maximum on this age based on the Permian–Triassic boundary, the minimum age for Batrachia.\
-**Discussion:** The total-evidence analysis of [Chen et al. 2016](https://www.nature.com/articles/srep19209) estimated the putative congener †_Eodiscoglossus santonjae_ in the crown of Anura, corroborated by the morphological re-description by [Baez and Gomez 2016](https://ri.conicet.gov.ar/handle/11336/60180) and re-analysis by [Gao and Chen 2017](https://bioone.org/journals/American-Museum-Novitates/volume-2017/issue-3876/3876.1/A-New-Crown-Group-Frog-Amphibia--Anura-from-the/10.1206/3876.1.short). This taxon dates to the Barremian (121.4–125.8Ma) of the early Cretaceous La Pedrera de Rúbies Formation and El Castellar Formation of Spain. Other putative crown-group anurans are known from similar ages as summarized in [Gómez and Lires 2019](https://www.sciencedirect.com/science/article/pii/S1631068319301320), but these are not as well-documented.
+**Discussion:** The total-evidence analysis of [Chen et al. 2016](https://www.nature.com/articles/srep19209) estimated the putative congener †_Eodiscoglossus santonjae_ in the crown of Anura, corroborated by the morphological re-description by [Baez and Gomez 2016](https://doi.org/10.14446/FI.2016.67) and re-analysis by [Gao and Chen 2017](https://bioone.org/journals/American-Museum-Novitates/volume-2017/issue-3876/3876.1/A-New-Crown-Group-Frog-Amphibia--Anura-from-the/10.1206/3876.1.short). This taxon dates to the Barremian (121.4–125.8Ma) of the early Cretaceous La Pedrera de Rúbies Formation and El Castellar Formation of Spain. Other putative crown-group anurans are known from similar ages as summarized in [Gómez and Lires 2019](https://www.sciencedirect.com/science/article/pii/S1631068319301320), but these are not as well-documented.
 
 ---
 
@@ -137,6 +137,8 @@ There are well-documented times for likelihood checkpoints at the base of Amphib
 
 ![amphibia likelihood checkpoints](amphibia_likelihood_checkpoints.png)
 
+The figure summarizes the [compiled age estimates](amphibia_calibrations.csv) and is generated with the [plotting script](amphibia_ages.R).
+
 ## References
 
 Agnolin, F., de Souza Carvalho, I., Rolando, A.M.A., Novas, F.E., Xavier-Neto, J., Andrade, J.A.F.G. and Freitas, F.I., 2020. Early Cretaceous neobatrachian frog (Anura) from Brazil sheds light on the origin of modern anurans. Journal of South American Earth Sciences, 101, p.102633.
@@ -147,7 +149,7 @@ Anderson, J.S., Reisz, R.R., Scott, D., Fröbisch, N.B. and Sumida, S.S., 2008. 
 
 Báez, A.M., 2013. Anurans from the Early Cretaceous Lagerstätte of Las Hoyas, Spain: new evidence on the Mesozoic diversification of crown-clade Anura. Cretaceous Research, 41, pp.90-106.
 
-Báez, A.M. and Gomez, R.O., 2016. Revision of the skeletal morphology of Eodiscoglossus santonjae, an Early Cretaceous frog from northeastern Spain, with comments on its phylogenetic placement. Acta Musei Nationalis Pragae Series B Historia Naturalis 72(1-2):66-77.
+Báez, A.M. and Gomez, R.O., 2016. Revision of the skeletal morphology of Eodiscoglossus santonjae, an Early Cretaceous frog from northeastern Spain, with comments on its phylogenetic placement. Acta Musei Nationalis Pragae Series B Historia Naturalis 72(1-2):67-77.
 
 Báez, A.M. and Gómez, R.O., 2019. Redescription of the overlooked basal frog Wealdenbatrachus reveals increased diversity among Early Cretaceous anurans. Cretaceous Research, 99, pp.14-29.
 

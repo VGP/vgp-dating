@@ -1,6 +1,6 @@
 # Exploratory treePL analyses
 
-Exploratory [treePL](https://github.com/blackrim/treePL) analyses assess responses to the [fossil constraints](../../calibrations/calibrations.md). Released dated trees are available under [MD-CAT dating](../mdcat/README.md).
+Exploratory [treePL](https://github.com/blackrim/treePL) analyses assess responses to the [fossil constraints](../../calibrations/README.md). Released dated trees are available under [MD-CAT dating](../mdcat/README.md).
 
 ![treePL constraints test](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.png)
 

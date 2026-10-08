@@ -143,6 +143,8 @@ In addition, we located 46 age estimates from 28 studies for a likelihood checkp
 
 ![testudines likelihood checkpoints](testudines_timetree_estimates.png)
 
+The figure summarizes the [compiled age estimates](testudines_timetrees.csv) and is generated with the [plotting script](testudines_timetrees.R).
+
 ## References
 
 Brinkman, D. and de la Rosa, R.R., 2006. Nonmarine turtles from the Cerro del Pueblo Formation (Campanian), Coahuila State, Mexico. New Mexico Museum of Natural History and Science Bulletin, 35, pp.229-233.

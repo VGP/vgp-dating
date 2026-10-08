@@ -58,6 +58,8 @@ We gathered 15 studies supporting a likelihood checkpoint for the root (Deuteros
 
 ![Deuterostomia ages](deuterostomia_ages_density.png)
 
+The figure is generated with the [plotting script](plot_deuterostomia_ages.R).
+
 ## References
 
 Benton, M.J., Donoghue, P.C., Asher, R.J., Friedman, M., Near, T.J. and Vinther, J., 2015. Constraints on the timescale of animal evolutionary history. Palaeontologia Electronica 18.1.1FC; 1-106.
