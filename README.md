@@ -29,7 +29,7 @@ Nate Upham (nathan.upham@asu.edu) – ASU
 
 ## [Calibrations](./calibrations/calibrations.md) & [dating](./dating/README.md)
 
-We have assembled an [initial set](./calibrations/calibrations.md) of **99** calibrations matched to the Phase I ROADIES and ASTRAL trees. [Dated trees](./dating/mdcat/README.md) inferred using [MD-CAT](./dating/README.md) are available for ROADIES v0.0.0 and ASTRAL v0.1.1. Future trees will also be dated using Bayesian dating methodologies implemented in [mcmctree](https://github.com/dosreislab/mcmctree).
+We have assembled an [initial set](./calibrations/calibrations.md) of **99** calibrations matched to the Phase I ROADIES and ASTRAL trees. [Dated trees](./dating/mdcat/README.md) inferred using [MD-CAT](./dating/README.md) are available for ROADIES v0.0.0 and ASTRAL v0.1.1. Future trees will also be dated using Bayesian methods in [mcmctree](https://github.com/dosreislab/mcmctree).
 
 ![ROADIES MD-CAT timescale](dating/mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.png)
 
