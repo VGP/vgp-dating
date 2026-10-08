@@ -51,7 +51,7 @@ We use the VGP Phase I guide phylogenies, [ROADIES v0.0.0](./trees/roadies_v1.1.
 	-Associated fossil material and rationale
 	-Citations and references
 
-We explicitly modeled our calibrations to meet [best practices](https://academic.oup.com/sysbio/article/61/2/346/1647963) for justifying constraints with the following minimal information included for material, rationale, and references:
+We explicitly modeled our calibrations to meet [best practices](https://academic.oup.com/sysbio/article/61/2/346/1647963) for justifying constraints with the following minimal information:
 
 	-(1) Museum numbers of specimen(s) that demonstrate all the relevant characters and provenance data should be listed. Referrals of additional specimens to the focal taxon should be justified.
 	-(2) An apomorphy-based diagnosis of the specimen(s) or an explicit, up-to-date, phylogenetic analysis that includes the specimen(s) should be referenced.
