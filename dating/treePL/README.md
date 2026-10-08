@@ -1,6 +1,6 @@
 # Exploratory treePL analyses
 
-This folder retains exploratory tests using [treePL](https://github.com/blackrim/treePL) to see how the tree responds to different constraints. The released dated trees and their run records are described in [MD-CAT dating](../mdcat/README.md). Here is an example treePL test with the [constraints](../../calibrations/calibrations.md):
+Exploratory [treePL](https://github.com/blackrim/treePL) analyses assess responses to the [fossil constraints](../../calibrations/calibrations.md). Released dated trees are available under [MD-CAT dating](../mdcat/README.md).
 
 ![treePL constraints test](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.png)
 
@@ -10,4 +10,4 @@ The shared [treePL benchmarking script](treepl_benchmark.py) checks the input co
 
 Run the topology-specific `.sh` launchers from any directory; `--dry-run` validates inputs without running fits. The shared read-only calibration audit is `Rscript dating/treePL/calibration_config.R` from the repository root.
 
-Existing generated results, configuration snapshots, logs, and manifests are retained. Paths recorded inside historical generated files refer to the original run locations; the live scripts and top-level configs use the current directory structure. The shared VGP image is in [dating/assets](../assets/vgp.png).
+Generated results, configuration snapshots, and manifests are retained with their original recorded paths. [VGP image](../assets/vgp.png).
