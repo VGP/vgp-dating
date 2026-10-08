@@ -2,7 +2,7 @@
 
 The available ROADIES v0.0.0 and ASTRAL v0.1.1 dated trees were inferred using **MD-CAT 1.1.15**, with fossil-calibration ranges assembled by the VGP dating working group. Ages and dated branch lengths are in **millions of years (Ma)**.
 
-[VGP tree-release](https://github.com/VGP/vgp-tree-release) distributes the trees. This repository records their calibrations, commands, results, and visualizations.
+[VGP tree-release](https://github.com/VGP/vgp-tree-release) distributes the trees. This repository records their calibrations, commands, results, and visualizations. The [calibration documentation](../calibrations/calibrations.md) provides the fossil justifications. The [master calibration list](../calibrations/master_calibrations.csv) contains 99 records, with 96 mapped to ROADIES, 91 to ASTRAL, and 88 shared. The [reference-tree documentation](../trees/trees.md) describes the undated topologies, annotations, and APE node-numbering files used by contributors.
 
 ## Dated trees
 
@@ -14,10 +14,6 @@ The available ROADIES v0.0.0 and ASTRAL v0.1.1 dated trees were inferred using *
 [MD-CAT methods and node-age comparison](mdcat/README.md) · [Comparison table (TSV)](mdcat/node_age_comparison.tsv)
 
 ![ROADIES MD-CAT timescale](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.png)
-
-## Calibrations and reference trees
-
-The [calibration documentation](../calibrations/calibrations.md) provides the fossil justifications. The [master calibration list](../calibrations/master_calibrations.csv) contains 99 records, with 96 mapped to ROADIES, 91 to ASTRAL, and 88 shared. The [reference-tree documentation](../trees/trees.md) describes the undated topologies, annotations, and APE node-numbering files used by contributors.
 
 ## Exploratory analyses
 
