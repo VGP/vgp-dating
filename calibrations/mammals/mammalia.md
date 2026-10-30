@@ -198,6 +198,18 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
+**CAL103:** _Homo_–_Pan_ divergence | 4.631–15.0Ma\
+**Tree mapping:** ROADIES node 924; ASTRAL node 807\
+**Node calibrated:** The most recent common ancestor of _Homo sapiens_ and _Pan troglodytes_ within Hominidae\
+**Fossil taxa:** †_Ardipithecus ramidus_ (GWM5sw/P56), a mandibular ramus and partial dentition (p3–m3) from locality GWM-5sw, Gona, Ethiopia ([Semaw et al. 2005](https://doi.org/10.1038/nature03177), [Simpson et al. 2019](https://doi.org/10.1016/j.jhevol.2018.12.005))\
+**Minimum age:** Early Pliocene (Zanclean), 4.631Ma\
+**Minimum justification:** The oldest Gona localities yielding †_A. ramidus_ are assigned to magnetochron C3n.2r, corresponding to 4.799–4.631Ma. We follow de Vries and Beck ([2023](https://doi.org/10.26879/1249)) in using the youngest age of this interval as the minimum.\
+**Maximum age:** Middle Miocene (Langhian), 15.0Ma\
+**Maximum justification:** Following de Vries and Beck ([2023](https://doi.org/10.26879/1249)), we use a conservative maximum of 15Ma based on the diversity of stem hominoids and apparent absence of crown hominoids in the earlier African record. The poorly sampled African primate record between 15 and 6Ma limits the justification for a tighter maximum.\
+**Discussion:** †_Ardipithecus ramidus_ is consistently recovered on the human lineage in morphological phylogenetic analyses, supporting its use to calibrate the divergence between _Homo_ and _Pan_ ([Mongle et al. 2019](https://doi.org/10.1016/j.jhevol.2019.03.006), [de Vries and Beck 2023](https://doi.org/10.26879/1249)). Older candidates include †_Ardipithecus kadabba_ ([Haile-Selassie et al. 2004](https://doi.org/10.1126/science.1092978)), †_Orrorin tugenensis_ ([Senut et al. 2001](https://doi.org/10.1016/S1251-8050%2801%2901529-4)), and †_Sahelanthropus tchadensis_ ([Brunet et al. 2002](https://doi.org/10.1038/nature00879)), although their suitability as calibrations depends on both phylogenetic placement and the dating of the relevant material ([Wood and Harrison 2011](https://doi.org/10.1038/nature09709), [Almécija et al. 2021](https://doi.org/10.1126/science.abb4363), [de Vries and Beck 2023](https://doi.org/10.26879/1249)).
+
+---
+
 **CAL056:** Lagomorpha | 47.6–66.0Ma\
 **Tree mapping:** ROADIES node 915; ASTRAL node 811\
 **Node calibrated:** The most recent common ancestor of Leporidae (_Oryctolagus cuniculus_) and Ochotonidae (_Ochotona princeps_).\
@@ -323,6 +335,8 @@ TBD
 
 Aghová, T., Kimura, Y., Bryja, J., Dobigny, G., Granjon, L. and Kergoat, G.J., 2018. Fossils know it best: using a new set of fossil calibrations to improve the temporal phylogenetic framework of murid rodents (Rodentia: Muridae). Molecular Phylogenetics and Evolution, 128, pp.98-111.
 
+Almécija, S., Hammond, A.S., Thompson, N.E., Pugh, K.D., Moyà-Solà, S. and Alba, D.M., 2021. Fossil apes and human evolution. Science, 372(6542), eabb4363.
+
 Almeida, F.C., Amador, L.I. and Giannini, N.P., 2021. Explosive radiation at the origin of Old World fruit bats (Chiroptera, Pteropodidae). Organisms Diversity & Evolution, 21(1), pp.231-243.
 
 Álvarez-Carretero, S., Tamuri, A.U., Battini, M., Nascimento, F.F., Carlisle, E., Asher, R.J., Yang, Z., Donoghue, P.C., and Dos Reis, M., 2022. A species-level timeline of mammal evolution integrating phylogenomic data. Nature, 602(7896), pp.263-267.
@@ -356,6 +370,8 @@ Bertrand, O.C., Flynn, J.J., Croft, D.A. and Wyss, A.R., 2012. Two new taxa (Cav
 Bi, S., Zheng, X., Wang, X., Cignetti, N.E., Yang, S. and Wible, J.R., 2018. An Early Cretaceous eutherian and the placental–marsupial dichotomy. Nature, 558(7710), pp.390-395.
 
 Bloch, J.I., Silcox, M.T., Boyer, D.M. and Sargis, E.J., 2007. New Paleocene skeletons and the relationship of plesiadapiforms to crown-clade primates. Proceedings of the National Academy of Sciences, 104(4), pp.1159-1164.
+
+Brunet, M. et al., 2002. A new hominid from the Upper Miocene of Chad, Central Africa. Nature, 418, pp.145–151.
 
 Bryant, H.N., 1992. The Carnivora of the Lac Pelletier Lower Fauna (Eocene: Duchesnean), Cypress Hills Formation, Saskatchewan. Journal of Paleontology, 66(5), pp.847-855.
 
@@ -406,6 +422,8 @@ Godthelp, H., Wroe, S. and Archer, M., 1999. A new marsupial from the early Eoce
 Gunnell, G.F., Jacobs, B.F., Herendeen, P.S., Head, J.J., Kowalski, E., Msuya, C.P., Mizambwa, F.A., Harrison, T., Habersetzer, J. and Storch, G., 2003. Oldest placental mammal from sub-Saharan Africa: Eocene microbat from Tanzania—evidence for early evolution of sophisticated echolocation. Palaeontologia Electronica, 5(2), pp.1-10.
 
 Gunnell, G.F., Simons, E.L. and Seiffert, E.R., 2008. New bats (Mammalia: Chiroptera) from the late Eocene and early Oligocene, Fayum depression, Egypt. Journal of Vertebrate Paleontology, 28(1), pp.1-11.
+
+Haile-Selassie, Y., Suwa, G. and White, T.D., 2004. Late Miocene teeth from Middle Awash, Ethiopia, and early hominid dental evolution. Science, 303(5663), pp.1503–1505.
 
 Hand, S.J., 1997. New Miocene leaf-nosed bats (Microchiroptera: Hipposideridae) from Riversleigh, northwestern Queensland. Memoirs of the Queensland Museum, Nature, 41(2), pp.335-349.
 
@@ -481,6 +499,8 @@ McKenna, M.C. and Bell, S.K., 1997. Classification of mammals: above the species
 
 Meng, J., Hu, Y. and Li, C., 2003. The osteology of Rhombomylus (Mammalia, Glires): implications for phylogeny and evolution of Glires. Bulletin of the American Museum of Natural History, 2003(275), pp.1-247.
 
+Mongle, C.S., Strait, D.S. and Grine, F.E., 2019. Expanded character sampling underscores phylogenetic stability of _Ardipithecus ramidus_ as a basal hominin. Journal of Human Evolution, 131, pp.28–39.
+
 Morgan, G.S., Czaplewski, N.J. and Simmons, N.B., 2019. A new mormoopid bat from the Oligocene (Whitneyan and early Arikareean) of Florida, and phylogenetic relationships of the major clades of Mormoopidae (Mammalia: Chiroptera). Bulletin of the American Museum of Natural History, 2019(434), pp.1-146.
 
 Morse, P.E., Chester, S.G., Boyer, D.M., Smith, T., Smith, R., Gigase, P. and Bloch, J.I., 2019. New fossils, systematics, and biogeography of the oldest known crown primate Teilhardina from the earliest Eocene of Asia, Europe, and North America. Journal of Human Evolution, 128, pp.103-131.
@@ -515,9 +535,15 @@ Seiffert, E.R., Simons, E.L., Clyde, W.C., Rossie, J.B., Attia, Y., Bown, T.M., 
 
 Seiffert, E.R., 2006. Revised age estimates for the later Paleogene mammal faunas of Egypt and Oman. Proceedings of the National Academy of Sciences, 103(13), pp.5000-5005.
 
+Semaw, S., Simpson, S.W., Quade, J., Renne, P.R., Butler, R.F., McIntosh, W.C., Levin, N., Dominguez-Rodrigo, M. and Rogers, M.J., 2005. Early Pliocene hominids from Gona, Ethiopia. Nature, 433, pp.301–305.
+
+Senut, B., Pickford, M., Gommery, D., Mein, P., Cheboi, K. and Coppens, Y., 2001. First hominid from the Miocene (Lukeino Formation, Kenya). Comptes Rendus de l’Académie des Sciences, Series IIA, 332(2), pp.137–144.
+
 Sigé, B., Jaeger, J.J., Sudre, J. and Vianey-Liaud, M., 1990. Altiatlasius koulchii n. gen. et sp., primate omomyidé du Paléocène supérieur du Maroc, et les origines des euprimates. Palaeontographica Abteilung A, pp.31-56.
 
 Simons, E.L., 1989. Description of two genera and species of late Eocene Anthropoidea from Egypt. Proceedings of the National Academy of Sciences, 86(24), pp.9956-9960.
+
+Simpson, S.W., Levin, N.E., Quade, J., Rogers, M.J. and Semaw, S., 2019. _Ardipithecus ramidus_ postcrania from the Gona Project area, Afar Regional State, Ethiopia. Journal of Human Evolution, 129, pp.1–45.
 
 Stevens, N.J., Seiffert, E.R., O'Connor, P.M., Roberts, E.M., Schmitz, M.D., Krause, C., Gorscak, E., Ngasala, S., Hieronymus, T.L. and Temu, J., 2013. Palaeontological evidence for an Oligocene divergence between Old World monkeys and apes. Nature, 497(7451), pp.611-615.
 
@@ -542,6 +568,8 @@ Wessels, W., de Bruijn, H., Hussain, S.T., Leinders, J.J.M. 1982. Fossil rodents
 Williams, B.A., Kay, R.F. and Kirk, E.C., 2010. New perspectives on anthropoid origins. Proceedings of the National Academy of Sciences, 107(11), pp.4797-4804.
 
 Wilson Mantilla, G.P., Chester, S.G., Clemens, W.A., Moore, J.R., Sprain, C.J., Hovatter, B.T., Mitchell, W.S., Mans, W.W., Mundil, R. and Renne, P.R., 2021. Earliest Palaeocene purgatoriids and the initial radiation of stem primates. Royal Society Open Science, 8(2), p.210050.
+
+Wood, B. and Harrison, T., 2011. The evolutionary context of the first hominins. Nature, 470(7334), pp.347–352.
 
 Woodburne, M.O., Rich, T.H. and Springer, M.S., 2003. The evolution of tribospheny and the antiquity of mammalian clades. Molecular phylogenetics and evolution, 28(2), pp.360-385.
 
