@@ -18,6 +18,18 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
+**CAL101:** Stem Gekkota | 150.0–190.0Ma\
+**Tree mappings:** ROADIES node 781; ASTRAL node 941.\
+**Node calibrated:** Last common ancestor of the clade encompassing _Eublepharis macularius_ (Gekkota: Eublepharidae) and _Dibamus smithi_ (Dibamidae).\
+**Fossil taxa:** †_Eichstaettisaurus schroederi_ (BSPG 1937 I 1a,b) and †_Helioscopos dickersonae_ (DINO 15914)\
+**Minimum age:** Late Jurassic, at 150Ma.\
+**Minimum justification:** Based on †_Eichstaettisaurus schroederi_ from the Solnhofen limestones, Bavaria, Germany, dated to 155–150Ma ([Schweigert 2007](https://www.schweizerbart.de/papers/njgpa/detail/245/59141/Ammonite_biostratigraphy_as_a_tool_for_dating_Uppe); [Simões et al. 2017](https://doi.org/10.1111/zoj.12487)). This species and †_Helioscopos dickersonae_ from the Late Jurassic Morrison Formation, Utah, United States, are among the oldest known stem gekkotans ([Meyer et al. 2023](https://doi.org/10.1098/rspb.2023.2284)).\
+**Maximum age:** Early Jurassic, at 190Ma.\
+**Maximum justification:** Previous divergence time estimates for total-group Gekkota include 158.3Ma ([Pyron 2017](https://doi.org/10.1093/sysbio/syw068)) and 154.2Ma ([Simões et al. 2020](https://doi.org/10.1038/s41467-020-17190-9)), only slightly older than the oldest known stem gekkotans. We therefore use a conservative maximum of 190Ma, older than these estimates but younger than the maximum adopted for crown Squamata (**CAL064**).\
+**Discussion:** Placement of these fossils on the gekkotan stem supports a minimum age for the divergence of Gekkota from its extant sister group ([Gauthier et al. 2012](https://doi.org/10.3374/014.053.0101); [Simões et al. 2017](https://doi.org/10.1111/zoj.12487); [Meyer et al. 2023](https://doi.org/10.1098/rspb.2023.2284)). In both VGP trees, this is the split between Gekkota and Dibamidae.
+
+---
+
 **CAL065:** Unidentata | 166.0–205.0Ma\
 **Tree mapping:** ROADIES node 749; ASTRAL node 943\
 **Node calibrated:** Last common ancestor of the clade encompassing Scincoidea (_Tiliqua scincoides_) and Lacertoidea (_Podarcis erhardii_).\
