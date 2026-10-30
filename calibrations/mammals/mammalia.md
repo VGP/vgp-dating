@@ -292,6 +292,18 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Maximum justification:** Following Benton et al. ([2015](https://doi.org/10.26879/424)), we use the lack of Paleocene crown cetartiodactyls to suggest a plausible soft maximum age of 66.04 ± 0.4Ma, thus 66.0Ma\
 **Discussion:** This fossil is the oldest-known stem cetacean from the early Eocene (Ypresian) of India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464), [O’Leary and Uhen 1999](https://doi.org/10.1017/S0094837300020376), [Benton et al. 2015](https://doi.org/10.26879/424))
 
+---
+
+**CAL102:** Crown Cetacea (Neoceti) | 36.4–52.4Ma\
+**Tree mapping:** ROADIES node 795; ASTRAL node 914\
+**Node calibrated:** The most recent common ancestor of Mysticeti (_Balaenoptera musculus_) and Odontoceti (_Tursiops truncatus_)\
+**Fossil taxa:** †_Mystacodon selenensis_ (MUSM 1917), a partial articulated skeleton from the Yumaque Member of the Paracas Formation at Playa Media Luna, Peru ([Lambert et al. 2017](https://doi.org/10.1016/j.cub.2017.04.026), [de Muizon et al. 2019](https://doi.org/10.5252/geodiversitas2019v41a11))\
+**Minimum age:** Late Eocene (Priabonian), 36.4Ma\
+**Minimum justification:** Calcareous nannofossil biochronology and estimated sedimentation rates place the fossil-bearing horizon at approximately 36.4Ma ([Lambert et al. 2017](https://doi.org/10.1016/j.cub.2017.04.026)). We follow [McGowen et al. (2020)](https://doi.org/10.1093/sysbio/syz068) in adopting this estimate as the minimum age for crown Cetacea.\
+**Maximum age:** Early Eocene (Ypresian), 52.4Ma\
+**Maximum justification:** Following the soft maximum used by [McGowen et al. (2020)](https://doi.org/10.1093/sysbio/syz068), based on the early Eocene record of the stem cetacean †_Himalayacetus subathuensis_. This provides a comparative basis for the maximum rather than a direct upper limit on crown Cetacea.\
+**Discussion:** †_Mystacodon selenensis_ is recovered as the earliest-diverging stem mysticete in morphological analyses, supporting its use to calibrate the divergence between Mysticeti and Odontoceti ([Lambert et al. 2017](https://doi.org/10.1016/j.cub.2017.04.026), [de Muizon et al. 2019](https://doi.org/10.5252/geodiversitas2019v41a11)). Other early records include †_Llanocetus denticrenatus_ from the latest Eocene of Antarctica, approximately 34.2Ma ([Fordyce and Marx 2018](https://doi.org/10.1016/j.cub.2018.04.027)), and †_Fucaia humilis_ from the Lincoln Creek Formation of Washington, approximately 34.5Ma ([Tsai et al. 2024](https://doi.org/10.1016/j.cub.2024.03.011)). Fordyce and Marx ([2018](https://doi.org/10.1016/j.cub.2018.04.027)) recovered †_Mystacodon_ and †_Llanocetus_ together within basal Mysticeti in a Bayesian analysis of morphological and molecular data, whereas Tsai et al. ([2024](https://doi.org/10.1016/j.cub.2024.03.011)) placed †_F. humilis_ among aetiocetid stem mysticetes using two morphological datasets. The age assigned to †_F. humilis_ depends on correlation with a nearby magnetostratigraphic section and requires further verification ([Marx and Campbell 2025](https://doi.org/10.4202/app.01271.2025)). Placement of †_Mystacodon_ and †_Llanocetus_ is also sensitive to taxon sampling and analytical treatment, with some analyses recovering them outside crown Cetacea ([Corrie and Fordyce 2022](https://doi.org/10.1093/zoolinnean/zlac019), [Duncan et al. 2025](https://doi.org/10.1093/zoolinnean/zlaf090)). We tentatively accept †_Mystacodon_ as a crown cetacean, along with the similarly aged taxa discussed above, and use their occurrences to establish a minimum age for the group.
+
 ## Considered but not included:
 
 **Node 891:** Glires | 62.3–66.0Ma\
@@ -355,11 +367,17 @@ Carrillo, J.D., Torres Jimenez, M.F., Urrea-Barreto, F.J., Pino, K., Cooper, R.B
 
 Chester, S.G., Bloch, J.I., Boyer, D.M. and Clemens, W.A., 2015. Oldest known euarchontan tarsals and affinities of Paleocene Purgatorius to Primates. Proceedings of the National Academy of Sciences, 112(5), pp.1487-1492.
 
+Corrie, J.E. and Fordyce, R.E., 2022. A redescription and re-evaluation of _Kekenodon onamata_ (Mammalia: Cetacea), a late-surviving archaeocete from the Late Oligocene of New Zealand. Zoological Journal of the Linnean Society, 196(4), pp.1637–1670.
+
 Coster, P., Benammi, M., Mahboubi, M., Tabuce, R., Adaci, M., Marivaux, L., Bensalah, M., Mahboubi, S., Mahboubi, A., Mebrouk, F. and Maameri, C., 2012. Chronology of the Eocene continental deposits of Africa: Magnetostratigraphy and biostratigraphy of the El Kohol and Glib Zegdou Formations, Algeria. Bulletin, 124(9-10), pp.1590-1606.
+
+de Muizon, C., Bianucci, G., Martínez-Cáceres, M. and Lambert, O., 2019. _Mystacodon selenensis_, the earliest known toothed mysticete (Cetacea, Mammalia) from the late Eocene of Peru: anatomy, phylogeny, and feeding adaptations. Geodiversitas, 41(11), pp.401–499.
 
 de Vries, Dorien and Beck, Robin M.D. 2023. Twenty-five well-justified fossil calibrations for primate divergences. Palaeontologia Electronica, 26(1):a8. 
 
 Dragastan, O.N. and Herbig, H.G., 2007. Halimeda (green siphonous algae) from the Paleogene of (Morocco)–taxonomy, phylogeny and paleoenvironment. Micropaleontology, 53(1-2), pp.1-72.
+
+Duncan, R.J., Rule, J.P., Park, T., Evans, A.R., Adams, J.W. and Fitzgerald, E.M.G., 2025. An immature toothed mysticete from the Oligocene of Australia and insights into mammalodontid (Cetacea: Mysticeti) morphology, systematics, and ontogeny. Zoological Journal of the Linnean Society, 204(4), zlaf090.
 
 Dunn, R.E., Madden, R.H., Kohn, M.J., Schmitz, M.D., Strömberg, C.A., Carlini, A.A., Ré, G.H. and Crowley, J., 2013. A new chronology for middle Eocene–early Miocene South American land mammal ages. Bulletin, 125(3-4), pp.539-555.
 
@@ -368,6 +386,8 @@ Flynn, L.J., Barry, J.C., Morgan, M.E., Pilbeam, D., Jacobs, L.L. and Lindsay, E
 Flynn, J.J., Parrish, J.M., Rakotosamimanana, B., Simpson, W.F. and Wyss, A.R., 1999. A middle Jurassic mammal from Madagascar. Nature, 401(6748), pp.57-60.
 
 Flynn, L.J., Kimura, Y., Jacobs, L.L. (2020). The Murine Cradle. In: Prasad, G.V., Patnaik, R. (eds) Biological Consequences of Plate Tectonics. Vertebrate Paleobiology and Paleoanthropology. Springer, Cham.
+
+Fordyce, R.E. and Marx, F.G., 2018. Gigantism precedes filter feeding in baleen whale evolution. Current Biology, 28(10), pp.1670–1676.e2.
 
 Fostowicz-Frelik, Ł., 2017. Convergent and parallel evolution in early Glires (Mammalia). In Evolutionary biology: self/nonself evolution, species and complex traits evolution, methods and concepts (pp. 199-216). Cham: Springer International Publishing.
 
@@ -415,6 +435,8 @@ Kondrashov, P.E. and Lucas, S.G. 2004. Revised distribution of condylarths (Mamm
 
 Korth, W.W., 1984. Earliest Tertiary evolution and radiation of rodents in North America. Bulletin of Carnegie Museum of Natural History, 24, pp.1-71.
 
+Lambert, O., Martínez-Cáceres, M., Bianucci, G., Di Celma, C., Salas-Gismondi, R., Steurbaut, E., Urbina, M. and de Muizon, C., 2017. Earliest mysticete from the Late Eocene of Peru sheds new light on the origin of baleen whales. Current Biology, 27(10), pp.1535–1541.e2.
+
 Lazzari, V., Michaux, J. and Aguilar, J.P., 2007. First occurence in Europe of Myocricetodontinae (Rodentia, Gerbillidae) During the lower middle Miocene in the Karstic Locality of Blanquatère 1 (southern France): implications. Journal of Vertebrate Paleontology, 27(4), pp.1062-1065.
 
 Lenz, O.K., Wilde, V., Mertz, D.F. and Riegel, W., 2015. New palynology-based astronomical and revised 40Ar/39Ar ages for the Eocene maar lake of Messel (Germany). International Journal of Earth Sciences, 104(3), pp.873-889.
@@ -450,6 +472,10 @@ Marivaux, L., Adaci, M., Bensalah, M., Rodrigues, H.G., Hautier, L., Mahboubi, M
 Marivaux, L. and Boivin, M., 2019. Emergence of hystricognathous rodents: Palaeogene fossil record, phylogeny, dental evolution and historical biogeography. Zoological Journal of the Linnean Society, 187(3), pp.929-964.
 
 Martín-Martín, M., Rey, J., Alcala‐Garcia, F.J., Tosquella, J., Deramond, J., Lara‐Corona, E., Duranthon, F. and Antoine, P.O., 2001. Tectonic controls on the deposits of a foreland basin: An example from the Eocene Corbières–Minervois basin, France. Basin Research, 13(4), pp.419-433.
+
+Marx, F.G. and Campbell, H.J., 2025. First record of the Eocene baleen whale _Llanocetus_ outside Antarctica. Acta Palaeontologica Polonica, 70(4), pp.705–708.
+
+McGowen, M.R., Tsagkogeorga, G., Álvarez-Carretero, S., dos Reis, M., Struebig, M., Deaville, R., Jepson, P.D., Jarman, S., Polanowski, A., Morin, P.A. and Rossiter, S.J., 2020. Phylogenomic resolution of the cetacean tree of life using target sequence capture. Systematic Biology, 69(3), pp.479–501.
 
 McKenna, M.C. and Bell, S.K., 1997. Classification of mammals: above the species level. Columbia University Press.
 
@@ -500,6 +526,8 @@ Storch, G., Sigé, B. and Habersetzer, J., 2002. Tachypteron franzeni n. gen., n
 Tabrum, A.R., Prothero, D.R., and Garcia, D. 1996. 14. Magnetostratigraphy and biostratigraphy of the Eocene-Oligocene transition, southwestern Montana. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-Oligocene Transition in North America. Cambridge University Press, pp. 278-311.
 
 Travouillon, K.J., Archer, M., Hand, S.J. and Godthelp, H., 2006. Multivariate analyses of Cenozoic mammalian faunas from Riversleigh, northwestern Queensland. Alcheringa: An Australasian Journal of Palaeontology, 30(S1), pp.323-349.
+
+Tsai, C.-H., Goedert, J.L. and Boessenecker, R.W., 2024. The oldest mysticete in the Northern Hemisphere. Current Biology, 34(8), pp.1794–1800.e3.
 
 Upham, N.S., Esselstyn, J.A. and Jetz, W., 2019. Inferring the mammal tree: species-level sets of phylogenies for questions in ecology, evolution, and conservation. PLoS biology, 17(12), p.e3000494.
 
