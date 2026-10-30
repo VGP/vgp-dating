@@ -246,6 +246,18 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
+**CAL100:** Cetorhinidae + Lamnidae | 39.5–143.1Ma\
+**Tree mappings:** ROADIES node 1141; ASTRAL node 584.\
+**Node calibrated:** Last common ancestor of the clade encompassing _Carcharodon carcharias_ (Lamniformes: Lamnidae) and _Cetorhinus maximus_ (Lamniformes: Cetorhinidae).\
+**Fossil taxon:** †_Keasius taylori_ (holotype NWM 2100)\
+**Minimum age:** 39.5Ma\
+**Minimum justification:** Based on associated teeth, gill rakers, and vertebral centra from the upper part of the middle member of the Keasey Formation, Columbia County, Oregon, United States. An age of 40.4–39.5Ma was reported for these deposits by [Welton (2013)](https://nmdigital.unm.edu/digital/api/collection/bulletins/id/1529/download).\
+**Maximum age:** 143.1Ma\
+**Maximum justification:** Conservatively based on the Jurassic–Cretaceous boundary, allowing an Early Cretaceous divergence of Cetorhinidae and Lamnidae and accommodating uncertainty in the placement of Cretaceous lamniform fossils ([Welton 2013](https://nmdigital.unm.edu/digital/api/collection/bulletins/id/1529/download); [Greenfield 2022](https://pecescriollos.de/wp-content/uploads/2022/11/PI-06-Shimada-Greenfield-2022-Responses-to-Skeletal-material-from-megatooth-sharks.pdf)).\
+**Discussion:** Characteristic dental and gill raker morphology supports placement of †_Keasius taylori_ in Pan-_Cetorhinus_ ([Welton 2013](https://nmdigital.unm.edu/digital/api/collection/bulletins/id/1529/download)). This fossil was also used to calibrate the divergence between _Carcharodon carcharias_ and _Cetorhinus maximus_ by [Brownstein & Near (2026)](https://doi.org/10.64898/2026.02.13.705779).
+
+---
+
 **CAL027:** Batomorpha | 184.2–251.2Ma\
 **Tree mappings:** ROADIES node 1145; ASTRAL node 573.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Raja brachyura_ (Rajiformes: Rajidae) and _Hypanus sabinus_ (Myliobatiformes: Dasyatidae).\
@@ -336,6 +348,8 @@ Brownstein, C.D. and Near, T.J., 2024. Evolutionary origins of the lampriform pe
 
 Brownstein, C.D., Dornburg, A. and Near, T.J., 2025. Cenozoic evolutionary history obscures the Mesozoic origins of acanthopterygian fishes. Evolution, 79(6), pp.922-934.
 
+Brownstein, C.D. and Near, T.J., 2026. Phylogenomics and the origins of sharks. bioRxiv, 2026.02.13.705779.
+
 Cantalice, K.M. and Alvarado-Ortega, J., 2016. Eekaulostomus cuevasae gen. and sp. nov., an ancient armored trumpetfish (Aulostomoidea) from Danian (Paleocene) marine deposits of Belisario Domínguez, Chiapas, southeastern Mexico. Palaeontologia Electronica 19.3.53A: 1-24
 
 Cantalice, K.M., Than‐Marchese, B.A. and Villalobos‐Segura, E., 2021. A new Cenomanian acanthomorph fish from the El Chango quarry (Chiapas, south‐eastern Mexico) and its implications for the early diversification and evolutionary trends of acanthopterygians. Papers in Palaeontology, 7(3), pp.1699-1726.
@@ -383,6 +397,8 @@ Giles, S., Feilich, K., Warnock, R.C., Pierce, S.E. and Friedman, M., 2023. A La
 Ginter M, Hampe O, Duffin CJ. 2010 Chondrichthyes: Paleozoic Elasmobranchii: teeth. In Handbook of paleoichthyology, vol. 3D (ed. Schultze H-P), p. 168, Munchen, Germany: Pfeil.
 
 Grande, T.C., Borden, W.C., Wilson, M.V. and Scarpitta, L., 2018. Phylogenetic relationships among fishes in the order Zeiformes based on molecular and morphological data. Ichthyology & Herpetology, 106(1), pp.20-48.
+
+Greenfield, T., 2022. Additions to “List of skeletal material from megatooth sharks”, with a response to Shimada (2022). Paleoichthys, 6, pp.6-11.
 
 Hughes, L.C., Ortí, G., Huang, Y., Sun, Y., Baldwin, C.C., Thompson, A.W., Arcila, D., Betancur-R, R., Li, C., Becker, L. and Bellora, N., 2018. Comprehensive phylogeny of ray-finned fishes (Actinopterygii) based on transcriptomic and genomic data. Proceedings of the National Academy of Sciences, 115(24), pp.6249-6254.
 
@@ -459,6 +475,8 @@ Tyler, J.C., Bronzi, P. and Ghiandoni, A., 2000. The Cretaceous fishes of Nardò
 Tyler, J.C. and Santini, F., 2005. A phylogeny of the fossil and extant zeiform‐like fishes, Upper Cretaceous to Recent, with comments on the putative zeomorph clade (Acanthomorpha). Zoologica Scripta, 34(2), pp.157-175.
 
 Underwood, C.J. and Ward, D.J., 2004. Neoselachian sharks and rays from the British Bathonian (Middle Jurassic). Palaeontology, 47(3), pp.447-501.
+
+Welton, B.J., 2013. A new archaic basking shark (Lamniformes: Cetorhinidae) from the late Eocene of western Oregon, U.S.A., and description of the dentition, gill rakers and vertebrae of the Recent basking shark Cetorhinus maximus (Gunnerus). New Mexico Museum of Natural History and Science Bulletin, 58, pp.1-48.
 
 Wick, S.L., 2021. New early Campanian characiform fishes (Otophysi: Characiformes) from West Texas support a south American origin for known late cretaceous characiforms from North America. Cretaceous Research, 128, p.104993.
 
