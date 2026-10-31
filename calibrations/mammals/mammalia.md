@@ -294,6 +294,18 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
+**CAL104:** _Vulpes_–_Canis_ divergence | 7.05–23.03Ma\
+**Tree mapping:** ROADIES node 837; ASTRAL node 892\
+**Node calibrated:** The most recent common ancestor of _Vulpes vulpes_ and _Canis lupus familiaris_ within Canidae\
+**Fossil taxa:** †_Vulpes stenognathus_, including cranial and mandibular material of LACM 55211 from CIT locality 63, Thousand Creek Formation, Humboldt County, Nevada, USA ([Tedford et al. 2009](https://doi.org/10.1206/574.1))\
+**Minimum age:** Late Miocene (Messinian), 7.05Ma\
+**Minimum justification:** Radiometric dating and magnetostratigraphy constrain the Thousand Creek sequence to approximately 7.05–8.3Ma ([Prothero and Davis 2008](https://nmdigital.unm.edu/digital/collection/bulletins/id/603), [Davis and McHorse 2013](https://doi.org/10.26879/356)). Individual fossil localities are incompletely resolved within this sequence, so we use its younger limit of 7.05Ma as the minimum.\
+**Maximum age:** Oligocene–Miocene boundary (base Aquitanian), 23.03Ma\
+**Maximum justification:** The North American Oligocene and early Miocene record documents early species of †_Leptocyon_, preceding the later diversification of lineages leading to living foxes and dogs ([Tedford et al. 2009](https://doi.org/10.1206/574.1)). We therefore place a conservative soft maximum at the Oligocene–Miocene boundary, 23.03Ma. This extends the 20Ma soft maximum used for crown Canidae by [Perri et al. (2021)](https://doi.org/10.1038/s41586-020-03082-x).\
+**Discussion:** †_Vulpes stenognathus_ is represented by substantial craniodental material and was placed within Vulpini, sister to the _Metalopex_–_Urocyon_ clade, in the preferred tree of [Tedford et al. (2009)](https://doi.org/10.1206/574.1), although their morphological analyses also recovered it with Canini. Combined morphological and molecular analyses recovered it as sister to Vulpini or Canini, with some alternative analyses placing it outside the _Vulpes_–_Canis_ clade ([Zrzavý et al. 2018](https://doi.org/10.1111/zsc.12293)). The total-evidence dating analyses of [Ogilvie et al. (2022)](https://doi.org/10.1093/sysbio/syab054) recovered it on the _Vulpes_ stem under the multispecies coalescent and on the Canini stem under concatenation, both supporting its use for the _Vulpes_–_Canis_ divergence. These analyses used morphological data from Zrzavý et al. ([2018](https://doi.org/10.1111/zsc.12293)). [Slater et al. (2009)](https://doi.org/10.1016/j.cub.2009.09.018) likewise used †_V. stenognathus_ to calibrate the divergence between _Vulpes_ and the other sampled canids. Alternatives include †_V. kernensis_, known from less complete material ([Tedford et al. 2009](https://doi.org/10.1206/574.1)), and †_V. riffautae_ ([de Bonis et al. 2007](https://doi.org/10.1007/s00114-007-0230-6)), which has been used to calibrate divergence within _Vulpes_ ([Rocha et al. 2026](https://doi.org/10.1038/s41598-026-45528-8)). †_Metalopex macconnelli_ has been used to calibrate crown Canidae ([Perri et al. 2021](https://doi.org/10.1038/s41586-020-03082-x)), but its association with _Urocyon_, whose placement varies between Vulpini and a position outside the _Vulpes_–_Canis_ clade, limits its use for this node ([Tedford et al. 2009](https://doi.org/10.1206/574.1), [Zrzavý et al. 2018](https://doi.org/10.1111/zsc.12293)). We tentatively accept †_V. stenognathus_ within the clade comprising _Vulpes_ and Canini and use its Thousand Creek occurrence to establish a conservative minimum age.
+
+---
+
 **CAL062:** Artiodactyla | 52.4–66.0Ma\
 **Tree mapping:** ROADIES node 791; ASTRAL node 904\
 **Node calibrated:** Last common ancestor of Tylopoda (_Camelus dromedarius_) and Ruminantia (_Muntiacus reevesi_)\
@@ -386,6 +398,10 @@ Chester, S.G., Bloch, J.I., Boyer, D.M. and Clemens, W.A., 2015. Oldest known eu
 Corrie, J.E. and Fordyce, R.E., 2022. A redescription and re-evaluation of _Kekenodon onamata_ (Mammalia: Cetacea), a late-surviving archaeocete from the Late Oligocene of New Zealand. Zoological Journal of the Linnean Society, 196(4), pp.1637–1670.
 
 Coster, P., Benammi, M., Mahboubi, M., Tabuce, R., Adaci, M., Marivaux, L., Bensalah, M., Mahboubi, S., Mahboubi, A., Mebrouk, F. and Maameri, C., 2012. Chronology of the Eocene continental deposits of Africa: Magnetostratigraphy and biostratigraphy of the El Kohol and Glib Zegdou Formations, Algeria. Bulletin, 124(9-10), pp.1590-1606.
+
+Davis, E.B. and McHorse, B.K., 2013. A method for improved identification of postcrania from mammalian fossil assemblages: multivariate discriminant function analysis of camelid astragali. Palaeontologia Electronica, 16(3), 27A.
+
+de Bonis, L., Peigné, S., Likius, A., Mackaye, H.T., Vignaud, P. and Brunet, M., 2007. The oldest African fox (_Vulpes riffautae_ n. sp., Canidae, Carnivora) recovered in late Miocene deposits of the Djurab desert, Chad. Naturwissenschaften, 94, pp.575–580.
 
 de Muizon, C., Bianucci, G., Martínez-Cáceres, M. and Lambert, O., 2019. _Mystacodon selenensis_, the earliest known toothed mysticete (Cetacea, Mammalia) from the late Eocene of Peru: anatomy, phylogeny, and feeding adaptations. Geodiversitas, 41(11), pp.401–499.
 
@@ -507,13 +523,19 @@ Morse, P.E., Chester, S.G., Boyer, D.M., Smith, T., Smith, R., Gigase, P. and Bl
 
 O'Leary, M.A. and Uhen, M.D., 1999. The time of origin of whales and the role of behavioral changes in the terrestrial-aquatic transition. Paleobiology, 25(4), pp.534-556.
 
+Ogilvie, H.A., Mendes, F.K., Vaughan, T.G., Matzke, N.J., Stadler, T., Welch, D. and Drummond, A.J., 2022. Novel integrative modeling of molecules and morphology across evolutionary timescales. Systematic Biology, 71(1), pp.208–220.
+
 Oliveira, É.V. and Bergqvist, L.P., 1998. A new Paleocene armadillo (Mammalia, Dasypodoidea) from the Itaboraí basin, Brazil. Publicación Electrónica de la Asociación Paleontológica Argentina, 5(1): 35–40.
 
 Pattinson, D.J., Thompson, R.S., Piotrowski, A.K. and Asher, R.J., 2015. Phylogeny, paleontology, and primates: do incomplete fossils bias the tree of life?. Systematic Biology, 64(2), pp.169-186.
 
+Perri, A.R., et al., 2021. Dire wolves were the last of an ancient New World canid lineage. Nature, 591, pp.87–91.
+
 Phillips, M.J., Bennett, T.H. and Lee, M.S., 2009. Molecules, morphology, and ecology indicate a recent, amphibious ancestry for echidnas. Proceedings of the National Academy of Sciences, 106(40), pp.17089-17094.
 
 Phillips, M.J. 2015. Four mammal fossil calibrations: balancing competing palaeontological and molecular considerations. Palaeontologia Electronica 18.1.5FC; 1-16.
+
+Prothero, D.R. and Davis, E.B., 2008. Magnetic stratigraphy of the upper Miocene (early Hemphillian) Thousand Creek Formation, northwestern Nevada. New Mexico Museum of Natural History and Science Bulletin, 44, pp.233–237.
 
 Rankin, A.H., Emry, R.J., and Asher, R.J. 2020. Anatomical sciuromorphy in "protrogomorph" rodents. Palaeontologia Electronica, 23(2):a25.
 
@@ -524,6 +546,8 @@ Reis, M.D., Gunnell, G.F., Barba-Montoya, J., Wilkins, A., Yang, Z. and Yoder, A
 Roberts, E.M., O’Connor, P.M., Stevens, N.J., Gottfried, M.D., Jinnah, Z.A., Ngasala, S., Choh, A.M. and Armstrong, R.A., 2010. Sedimentology and depositional environments of the Red Sandstone Group, Rukwa Rift Basin, southwestern Tanzania: New insight into Cretaceous and Paleogene terrestrial ecosystems and tectonics in sub-equatorial Africa. Journal of African Earth Sciences, 57(3), pp.179-212.
 
 Robinson, P., Gunnell, G.F., Walsh, S.L., Clyde, W.C., Storer, J.E., Stucky, R.K., Froehlich, D.J., Ferrusquia-Villafranca, I., McKenna, M.C. and Woodburne, M.O., 2004. Wasatchian through Duchesnean biochronology. Late Cretaceous and Cenozoic Mammals of North America. Columbia University Press, New York, pp.106-155.
+
+Rocha, R.G., Hassan, A.A., Demirtaş, S., Meneses-Ribeiro, M., Rocha, J.L., Gündüz, İ. and Godinho, R., 2026. Multiple introgression events from ghost Rüppell’s fox mitochondrial lineages into red fox. Scientific Reports, 16, 10772.
 
 Rose, K.D., DeLeon, V.B., Missiaen, P., Rana, R.S., Sahni, A., Singh, L. and Smith, T., 2008. Early Eocene lagomorph (Mammalia) from Western India and the early diversification of Lagomorpha. Proceedings of the Royal Society B: Biological Sciences, 275(1639), p.1203.
 
@@ -545,11 +569,15 @@ Simons, E.L., 1989. Description of two genera and species of late Eocene Anthrop
 
 Simpson, S.W., Levin, N.E., Quade, J., Rogers, M.J. and Semaw, S., 2019. _Ardipithecus ramidus_ postcrania from the Gona Project area, Afar Regional State, Ethiopia. Journal of Human Evolution, 129, pp.1–45.
 
+Slater, G.J., Thalmann, O., Leonard, J.A., Schweizer, R.M., Koepfli, K.-P., Pollinger, J.P., Rawlence, N.J., Austin, J.J., Cooper, A. and Wayne, R.K., 2009. Evolutionary history of the Falklands wolf. Current Biology, 19(20), pp.R937–R938.
+
 Stevens, N.J., Seiffert, E.R., O'Connor, P.M., Roberts, E.M., Schmitz, M.D., Krause, C., Gorscak, E., Ngasala, S., Hieronymus, T.L. and Temu, J., 2013. Palaeontological evidence for an Oligocene divergence between Old World monkeys and apes. Nature, 497(7451), pp.611-615.
 
 Storch, G., Sigé, B. and Habersetzer, J., 2002. Tachypteron franzeni n. gen., n. sp., earliest emballonurid bat from the Middle Eocene of Messel (Mammalia, Chiroptera). Paläontologische Zeitschrift, 76(2), pp.189-199.
 
 Tabrum, A.R., Prothero, D.R., and Garcia, D. 1996. 14. Magnetostratigraphy and biostratigraphy of the Eocene-Oligocene transition, southwestern Montana. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-Oligocene Transition in North America. Cambridge University Press, pp. 278-311.
+
+Tedford, R.H., Wang, X. and Taylor, B.E., 2009. Phylogenetic systematics of the North American fossil Caninae (Carnivora: Canidae). Bulletin of the American Museum of Natural History, 325, pp.1–218.
 
 Travouillon, K.J., Archer, M., Hand, S.J. and Godthelp, H., 2006. Multivariate analyses of Cenozoic mammalian faunas from Riversleigh, northwestern Queensland. Alcheringa: An Australasian Journal of Palaeontology, 30(S1), pp.323-349.
 
@@ -580,3 +608,5 @@ Yang, S., He, H., Jin, F., Zhang, F., Wu, Y., Yu, Z., Li, Q., Wang, M., O'Connor
 Zhou, Z., Barrett, P.M. and Hilton, J., 2003. An exceptionally preserved Lower Cretaceous ecosystem. Nature, 421(6925), pp.807-814.
 
 Zhou, Z., 2014. The Jehol Biota, an Early Cretaceous terrestrial Lagerstätte: new discoveries and implications. National Science Review, 1(4), pp.543-559.
+
+Zrzavý, J., Duda, P., Robovský, J., Okřinová, I. and Pavelková Řičánková, V., 2018. Phylogeny of the Caninae (Carnivora): combining morphology, behaviour, genes and fossils. Zoologica Scripta, 47(4), pp.373–389.
