@@ -9,7 +9,7 @@
  #include <math.h>
  #include <fenv.h>
  #include <string.h>
-@@ -39,8 +41,53 @@
+@@ -39,9 +41,54 @@
  #define	LINETERM_MAC	1
  #define	LINETERM_DOS	2
  
@@ -55,14 +55,16 @@
 +
  int main(int argc,char* argv[]) {
 +    if(argc == 2 && string(argv[1]) == "--version") {
-+        cout << "treePL 1.0 vgp-optimizer-fixes-6 (551cbde1a530adad7986c530ca1f254e3ffd42c7)" << endl;
++        cout << "treePL 1.0 vgp-optimizer-fixes-7 (551cbde1a530adad7986c530ca1f254e3ffd42c7)" << endl;
 +        return 0;
 +    }
      int seed = -1;
+-    cout.precision(8);
 +    int cvseed = -1;
-     cout.precision(8);
++    cout.precision(17);
      int retval;
      retval = -1;
+     retval = feraiseexcept( FE_ALL_EXCEPT );
 @@ -66,12 +113,14 @@
      bool checkconstraints = false;
      string outfilen = "";
@@ -121,7 +123,15 @@
              cout << "exited lf converged :" << madeit<< endl;
              initcalc = plp.calc_pl(params);
              cout << "lf calc: " << initcalc << endl;
-@@ -598,6 +674,7 @@
+@@ -588,6 +664,7 @@
+             if(cv == true){
+                 ofstream cvoutFl;
+                 cvoutFl.open(cvoutfile.c_str(),ios::out);
++                cvoutFl << setprecision(17);
+                 cout << "conducting cross validation analysis" << endl;
+                 int cvtype = 0; //0 = LOOCV, 1 = RANDOM
+                 if(randomcv == true){
+@@ -598,6 +675,7 @@
                  bool failed = false;
                  double lowest_smoothing = 1000;
                  double lowest_chi = 100000000;
@@ -129,7 +139,7 @@
                  //get sampling groups
                  vector< vector<int> > samp_groups;
                  if(cvtype == 0){
-@@ -658,14 +735,24 @@
+@@ -658,14 +736,24 @@
                  }
          //        exit(0); // TODO: make sure the groups are broken up correctly
  
@@ -154,7 +164,7 @@
                      if(startopt){
                          freeparams.clear();
                          numparams = generate_param_order_vector(&freeparams, false, NULL, &free);
-@@ -673,12 +760,17 @@
+@@ -673,12 +761,17 @@
                          plp.smoothing = curcv;
                          cout << "smoothing:" << plp.smoothing << endl;
                          plp.set_freeparams(numparams, false, &freeparams, &params);
@@ -174,7 +184,7 @@
                      }
                      double chisq = 0;
                      cout << "curcv: "<< curcv << endl;
-@@ -713,12 +805,22 @@
+@@ -713,12 +806,22 @@
                          //cout << "numparams:" << numparamscv << endl;
                          vector<double> cvplparams;
                          plpcv.set_freeparams(numparamscv, false, &freeparamscv, &cvplparams);
@@ -198,7 +208,7 @@
                          cout << "post opt cv check: " << poc << endl;
                          int fcount = 0;
                          /*for(int j=0;j<plpcv.rates.size();j++){
-@@ -811,6 +913,7 @@
+@@ -811,6 +914,7 @@
                          lowest_smoothing = curcv;
                      }
  
@@ -206,7 +216,7 @@
                      curcv = curcv * cvmultstep;
                      cout << "--------------"<< endl;
                  }
-@@ -832,6 +935,11 @@
+@@ -832,6 +936,11 @@
                  cout << "smoothing:" << plp.smoothing << endl;
                  plp.set_freeparams(numparams, false, &freeparams, &params);
  
@@ -218,7 +228,7 @@
                  //JUST FOR TESTING R8S things
                  if(ind8s.size() > 1 && inr8s.size() > 1){
                      process_ind8s_inr8s(ind8s,inr8s,&params, tree);
-@@ -841,6 +949,7 @@
+@@ -841,6 +950,7 @@
                  cout << plp.calc_pl(params) << endl;
                  optimize_full(plp,&params,&oopt,false);
                  cout << "after opt calc: " << plp.calc_pl(params) << endl;
@@ -377,7 +387,7 @@
 +        }
 +        double after = plp.calc_pl(*params);
 +        cout << "polish cycle: " << before << " -> " << after << endl;
-+        if(!isfinite(after) || before-after <= 1e-6*max(1.0,fabs(before))) break;
++        if(!isfinite(after) || before-after <= (cv ? 1e-8 : min(1e-10,optims->ftol))*max(1.0,fabs(before))) break;
 +    }
 +    return true;
  }

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Select exploratory treePL settings in one fresh run, with a live summary figure.
 
-Requires Python 3.9+, R/ape, and treePL built with treepl-fixes.patch.
+Requires Python 3.9+, R/ape, patched treePL for optimization, and stock treePL for config checks.
 """
 import argparse
 from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
@@ -21,7 +21,7 @@ import tempfile
 import threading
 import time
 
-OBJECTIVE_RTOL = 1e-6
+OBJECTIVE_RTOL = 1e-10
 OPT_KEYS = ('opt', 'optad', 'optcvad')
 DETAIL_KEYS = ('moredetail', 'moredetailad', 'moredetailcvad')
 CONTROL_KEYS = {'prime', 'cv', 'randomcv', 'cvstart', 'cvstop', 'cvmultstep',
@@ -34,7 +34,7 @@ OBJECTIVE = re.compile(r'^after opt calc:\s*(\S+)', re.M)
 
 STAGES = [('01-algorithms','Algorithms'), ('02-effort','Search effort'),
           ('03-cv-algorithms','CV optimizer'), ('04-cv-effort','CV effort'),
-          ('05-smoothing','Adaptive smoothing'), ('06-final-fits','Final polishing')]
+          ('05-smoothing','Adaptive smoothing'), ('06-final-fits','Final fits')]
 
 FINAL_R = r"""
 suppressPackageStartupMessages(library(ape))
@@ -81,7 +81,7 @@ rows <- lapply(setdiff(seq_along(values),reference),function(i)
   data.frame(id=fits$id[i],node=seq_along(r)+Ntip(ref),reference_age_ma=r,difference_ma=values[[i]]-r))
 if(length(rows)) write.table(do.call(rbind,rows),file.path(out,'age_deviations.tsv'),sep='\t',quote=FALSE,row.names=FALSE)
 cat('Final tree satisfies constraints.')
-if(length(values)>1) cat(' Maximum near-best age difference:',max(abs(unlist(values)-rep(r,length(values)))),'Ma')
+if(length(values)>1) cat(' Maximum independent age difference:',max(abs(unlist(values)-rep(r,length(values)))),'Ma')
 cat('\n')
 """
 
@@ -123,17 +123,15 @@ draw <- function() {
     names <- vapply(profiles,function(p)fits$label[match(p,fits$profile)],character(1))
     z <- match(fits$profile,profiles); sm <- sort(unique(fits$smoothing))
     colours <- c(blue,orange,'#709e80')
-    limits <- c(-8,max(-5,log10(max(fits$gap,1e-8))))
-    plot(log10(pmax(fits$gap,1e-8)),z,xlim=limits,ylim=c(.5,length(profiles)+.5),
+    limits <- c(-12,max(-9,log10(max(fits$gap,1e-12))))
+    plot(log10(pmax(fits$gap,1e-12)),z,xlim=limits,ylim=c(.5,length(profiles)+.5),
       yaxt='n',ylab='',xlab='Relative objective gap (log10; lower is better)',pch=16,
       col=adjustcolor(colours[match(fits$smoothing,sm)],.7),cex=.8)
     axis(2,at=seq_along(profiles),labels=names,las=1,cex.axis=.65)
-    abline(v=-6,lty=2,col=orange)
-    polishing <- state$fit_phase[1]=='06-final-fits'
-    title(if(polishing) 'Final polishing' else paste('Optimizer comparison:',state$fit_phase[1]),adj=0,font.main=2,col.main=ink,cex.main=.95,line=3.6)
-    mtext(if(polishing) paste0('Sequence: ',state$polish[1],'; labels: ftol | detail flags') else
-          'Labels: opt/optad | PL iter | anneal | ftol | detail flags',side=3,line=2.2,cex=.57,adj=0)
-    mtext('Reference minimum is specific to smoothing; gaps below 1e-8 shown at left.',side=3,line=1.2,cex=.52,adj=0)
+    abline(v=-10,lty=2,col=orange)
+    title(if(state$fit_phase[1]=='06-final-fits') 'Stock treePL fits' else paste('Optimizer comparison:',state$fit_phase[1]),adj=0,font.main=2,col.main=ink,cex.main=.95,line=3.6)
+    mtext('Labels: opt/optad | PL iter | anneal | ftol | detail flags',side=3,line=2.2,cex=.57,adj=0)
+    mtext('Reference minimum is specific to smoothing; gaps below 1e-12 shown at left.',side=3,line=1.2,cex=.52,adj=0)
     if(length(sm)>1) legend('bottomright',legend=paste('Smoothing',format(sm)),col=colours[seq_along(sm)],pch=16,bty='n',cex=.65)
     par(mar=c(4.8,5.2,5.4,1.6))
   } else empty('Optimizer comparison','Awaiting completed fits','Settings and objective differences will appear here.')
@@ -152,7 +150,7 @@ draw <- function() {
       chosen <- g[tolower(as.character(g$selected))=='true',]
       points(chosen$smoothing,chosen$median_cv,pch=18,col=orange,cex=1.2)
     }
-    legend('topleft',legend=c('Coarse grid','Added values','Current best'),
+    legend('topleft',legend=c('Coarse grid','Added values','Selected'),
            col=c(blue,blue,orange),pch=c(1,16,18),bty='n',cex=.7)
     title('Adaptive smoothing',adj=0,font.main=2,col.main=ink,line=3.6)
     mtext(paste0(state$replicates[1],' paired replicates per value; blue: current median.'),side=3,line=2.2,cex=.65,adj=0)
@@ -163,9 +161,9 @@ draw <- function() {
     plot(deviations$reference_age_ma,delta,pch=16,col=adjustcolor(blue,.3),cex=.5,
          xlab='Node age in best observed fit (Ma)',ylab='Difference from best fit (Ma)',ylim=c(-span,span))
     abline(h=0,col=orange,lty=2)
-    title('Node-age differences',adj=0,font.main=2,col.main=ink,line=3.6)
+    title('Independent corrected fits',adj=0,font.main=2,col.main=ink,line=3.6)
     mtext('Zero is ideal. Positive: older; negative: younger. Reference fit excluded; descriptive comparison.',side=3,line=2.2,cex=.59,adj=0)
-    mtext(paste0(length(unique(deviations$id)),' comparison configurations; maximum absolute difference ',
+    mtext(paste0(length(unique(deviations$id)),' comparison fits; maximum absolute difference ',
                  format(max(abs(delta)),digits=3),' Ma. Axis follows observed variation.'),side=3,line=1.2,cex=.55,adj=0)
     old <- par(no.readonly=TRUE); region <- par('fig'); area <- par('plt')
     inset <- c(area[1]+.58*diff(area[1:2]),area[2]-.02*diff(area[1:2]),
@@ -179,8 +177,8 @@ draw <- function() {
     title('Cumulative |age difference| (Ma)',cex.main=.55,line=.2)
     par(old)
   } else if(state$status[1]=='Complete') {
-    empty('Node-age differences','One near-best configuration','No between-configuration comparison.')
-  } else empty('Node-age differences','Awaiting final configurations','Signed differences and their distribution will appear here.')
+    empty('Node-age differences','One near-best fit','No between-fit comparison.')
+  } else empty('Node-age differences','Awaiting final fits','Signed differences and their distribution will appear here.')
   mtext(paste0(label,' | treePL optimization'),outer=TRUE,side=3,line=1,adj=.02,cex=1.4,font=2,col=ink)
   mtext(paste0(state$status[1],' | ',format(Sys.time(),'%Y-%m-%d %H:%M %Z'),
                ' | ',state$complete[1],' attempts complete'),outer=TRUE,side=1,line=.2,adj=.02,cex=.75,col='#667781')
@@ -201,7 +199,7 @@ def table(path, rows):
         path.unlink(missing_ok=True)
         return
     out = io.StringIO()
-    writer = csv.DictWriter(out, fieldnames=list(rows[0]), delimiter='\t')
+    writer = csv.DictWriter(out, fieldnames=list(rows[0]), delimiter='\t', lineterminator='\n')
     writer.writeheader()
     writer.writerows(rows)
     atomic(path, out.getvalue())
@@ -272,11 +270,12 @@ def parse_args(argv=None):
     p.add_argument('config', type=Path)
     p.add_argument('--output', type=Path, required=True, help='new output directory')
     p.add_argument('--treepl', default='treePL', help='executable built with treepl-fixes.patch')
+    p.add_argument('--stock-treepl', default='treePL', help='unmodified executable for config checks (default: treePL)')
     p.add_argument('--rscript', default='Rscript')
     p.add_argument('--jobs', type=int, default=4, help='concurrent single-threaded processes (default: 4)')
     p.add_argument('--seed', type=int, default=20261031, help='base seed (default: 20261031)')
     p.add_argument('--cv-replicates', type=int, default=8, help='paired CV replicates throughout the search (default: 8)')
-    p.add_argument('--cv-tolerance', type=float, default=.01, help='relative CV tolerance for a flat region (default: .01)')
+    p.add_argument('--cv-tolerance', type=float, default=.01, help='relative CV tolerance; prefer larger smoothing within it (default: .01)')
     p.add_argument('--log-step', type=float, default=.25, help='final log10 smoothing step (default: .25)')
     p.add_argument('--cv-score-ceiling', type=float, default=1e12, help='discard pathological CV scores above this value (default: 1e12)')
     p.add_argument('--smoothing-values', default='1e4,1e2,1,1e-2,1e-4,1e-6,1e-8,1e-10',
@@ -335,15 +334,6 @@ def unique(profiles):
     return list({profile_key(p): p for p in profiles}.values())
 
 
-def polishing_profiles(profiles):
-    """One full-tree polish per effective tolerance/detail combination."""
-    distinct = {}
-    for p in profiles:
-        key = (p['ftol'], p['moredetail'], p['moredetailad'])
-        distinct.setdefault(key, {**p, 'lfsimaniter': 0})
-    return list(distinct.values())
-
-
 def accepted(score, ceiling):
     return score is not None and math.isfinite(score) and 0 <= score <= ceiling
 
@@ -390,14 +380,6 @@ def descending_groups(values):
         yield group
 
 
-def coarse_groups(values):
-    """Start the high, middle and low parts of the grid independently."""
-    values = sorted(set(values), reverse=True)
-    cuts = sorted({0, len(values)//2, len(values)-1, len(values)})
-    for left,right in zip(cuts,cuts[1:]):
-        yield from descending_groups(values[left:right])
-
-
 def polish_methods(profiles, cvopt):
     """Carry distinct screened methods into full and CV fitting."""
     methods = []
@@ -434,8 +416,13 @@ def better_training(new, old):
     """Accept improved training fits even when their prediction score increases."""
     a = [new['objective']] + new['folds']
     b = [old['objective']] + old['folds']
-    return (all(x <= y+max(1e-8,abs(y)*1e-7) for x,y in zip(a,b))
+    return (all(x <= y+max(1e-8,abs(y)*OBJECTIVE_RTOL) for x,y in zip(a,b))
             and any(x < y for x,y in zip(a,b)))
+
+
+def select_smoothing(scores, tolerance):
+    limit = min(scores.values()) * (1+tolerance)
+    return max(x for x,score in scores.items() if score <= limit)
 
 
 class SmoothingSearch:
@@ -464,7 +451,7 @@ class SmoothingSearch:
             requests = []
             for rep in range(self.n):
                 values = [x for x,r in pending if r==rep]
-                groups = coarse_groups(values) if first and coarse else ([x] for x in sorted(values,reverse=True))
+                groups = descending_groups(values) if first and coarse else ([x] for x in sorted(values,reverse=True))
                 for group in groups:
                     attempt = max(self.attempts.get((x,rep),0) for x in group)
                     for x in group:
@@ -492,7 +479,8 @@ class SmoothingSearch:
         return self.medians()
 
     def run(self):
-        self.ensure(self.coarse,coarse=True)
+        for group in descending_groups(self.coarse):
+            self.ensure(group,coarse=True)
         # Reverse the initial continuation once to spread improved fits back up the grid.
         for x in self.coarse:
             self.ensure([x],refresh=True)
@@ -500,7 +488,7 @@ class SmoothingSearch:
             scores = self.medians()
             new = refinement_points(scores,self.resolution,self.tolerance)
             if not new:
-                return 10**min(scores,key=lambda x:(scores[x],-x))
+                return 10**select_smoothing(scores,self.tolerance)
             old = sorted(scores)
             self.round += 1
             self.ensure(new,explore=True)
@@ -520,15 +508,18 @@ class Optimizer:
         options = settings(self.original)
         self.tree = (self.config.parent / str(options['treefile'])).resolve()
         self.root = args.output.resolve()
-        self.binary, self.rscript = shutil.which(args.treepl), shutil.which(args.rscript)
-        if not self.binary or not self.rscript or not self.tree.is_file():
-            raise ValueError('Supply an existing input tree, treePL executable, and Rscript')
+        self.binary, self.stock_binary = shutil.which(args.treepl), shutil.which(args.stock_treepl)
+        self.rscript = shutil.which(args.rscript)
+        if not self.binary or not self.stock_binary or not self.rscript or not self.tree.is_file():
+            raise ValueError('Supply an input tree, patched and stock treePL executables, and Rscript')
+        if os.path.samefile(self.binary,self.stock_binary):
+            raise ValueError('--treepl and --stock-treepl must use separate patched and stock executables')
         if not math.isfinite(float(options.get('numsites', 0))) or float(options.get('numsites', 0)) <= 0:
             raise ValueError('numsites must be positive')
         if any(k in options for k in ('collapse', 'set1', 'ind8s', 'inr8s', 'sample', 'log_pen')):
             raise ValueError('Unsupported tree-transforming or alternative objective option in config')
         version = subprocess.run([self.binary, '--version'], capture_output=True, text=True)
-        if version.returncode or 'vgp-optimizer-fixes-6' not in version.stdout:
+        if version.returncode or 'vgp-optimizer-fixes-7' not in version.stdout:
             raise ValueError('Use treePL built with the documented treepl-fixes.patch')
         check = subprocess.run([self.rscript, '-e', 'library(ape)'], capture_output=True, text=True)
         if check.returncode:
@@ -539,15 +530,6 @@ class Optimizer:
         self.events, self.done = queue.Queue(), set()
         self.plot_dirty, self.plot_enabled = True, True
         self.polish = ()
-
-    def starting_state(self, sm):
-        candidates = [r for r in self.results.values() if r.get('state')
-                      and r['objective'] is not None and math.isfinite(r['objective'])
-                      and r['objective'] < 1e15 and r.get('status','complete')=='complete']
-        if not candidates:
-            return None
-        return min(candidates, key=lambda r:(abs(math.log10(r['job']['smoothing']/sm)),
-                   -r['job']['smoothing'], r['objective']))['state']
 
     def job(self, p, sm, seed, kind='fit', grid=None, cvseed=None, rep=0, starts=(None,None), continuation=False, polish=()):
         grid = tuple(grid or [sm])
@@ -563,8 +545,10 @@ class Optimizer:
         directory.mkdir()
         p,grid = j['profile'],j['grid']
         updates = dict(treefile=str(self.tree),outfile='result.tre',seed=j['seed'],nthreads=1,
-            smooth=format(grid[0],'.17g'),lfiter=3,xtol=-1,stateout='state',
+            smooth=str(grid[0]),lfiter=3,xtol=-1,
             **{k:v for k,v in p.items() if k not in DETAIL_KEYS})
+        if j['kind'] != 'stock':
+            updates['stateout'] = 'state'
         flags = {k:bool(p[k]) for k in DETAIL_KEYS}
         updates.update({k:v for k,v in zip(('startstate','otherstate'),j['starts']) if v})
         if j['polish']:
@@ -586,7 +570,8 @@ class Optimizer:
                 state=str(state) if state.exists() else None,
                 seconds=(time.monotonic()-began)/len(seen)))
         with (directory/'run.log').open('w') as log:
-            proc = subprocess.Popen([self.binary,'fit.config'],cwd=directory,stdout=log,stderr=subprocess.STDOUT,
+            binary = self.stock_binary if j['kind']=='stock' else self.binary
+            proc = subprocess.Popen([binary,'fit.config'],cwd=directory,stdout=log,stderr=subprocess.STDOUT,
                 start_new_session=True,env={**os.environ,'OMP_NUM_THREADS':'1'})
             try:
                 while True:
@@ -627,7 +612,7 @@ class Optimizer:
                         text = (directory/'run.log').read_text(errors='replace')
                         values = OBJECTIVE.findall(text)
                         value = float(values[-1]) if values else math.nan
-                        valid = math.isfinite(value) and (directory/'result.tre').exists()
+                        valid = math.isfinite(value) and value < 1e15 and (directory/'result.tre').exists()
                         emit(0,objective=value if valid else None)
                         break
             finally:
@@ -663,26 +648,20 @@ class Optimizer:
               f'{sum(r["status"]!="complete" for r in done)} discarded',flush=True)
         return [r for r in self.results.values() if r['parent'] in ids]
 
-    def compare(self, name, profiles, grid, seeds, kind='fit', starts=(None,None), polish=()):
-        return self.batch(name,[self.job(p,sm,s,kind,starts=starts,polish=polish)
+    def compare(self, name, profiles, grid, seeds, kind='fit'):
+        return self.batch(name,[self.job(p,sm,s,kind)
             for p in unique(profiles) for sm in grid for s in seeds])
 
     def curve_starts(self, sm, rep):
-        """Combine the best full fit with this replicate's matching CV states."""
+        """Continue each replicate's own full and CV fits."""
         x = math.log10(sm)
         sources = sorted({v for v,r in self.curves},key=lambda v:(abs(v-x),-v))[:2]
         starts = []
-        for index,v in enumerate(sources):
+        for v in sources:
             own = self.curves.get((v,rep))
             if own is None:
                 continue
-            full = min((row for (value,r),row in self.curves.items() if value==v),
-                       key=lambda row:row['objective'])
-            prefix = self.work/f'start-{len(self.jobs):04d}-{rep}-{index}'
-            shutil.copyfile(full['state'],prefix)
-            for fold in range(10):
-                shutil.copyfile(own['state']+f'.cv{fold}',str(prefix)+f'.cv{fold}')
-            starts.append(str(prefix))
+            starts.append(own['state'])
         return tuple((starts+[None,None])[:2])
 
     def smoothing(self, p):
@@ -690,7 +669,7 @@ class Optimizer:
             jobs = []
             for req in requests:
                 grid = [10**x for x in req['xs']]
-                starts = (None,None) if req['coarse'] else self.curve_starts(grid[0],req['rep'])
+                starts = (None,None) if not self.curves else self.curve_starts(grid[0],req['rep'])
                 local = p if req['explore'] else changed(p,lfsimaniter=0)
                 jobs.append(self.job(local,grid[0],req['seed'],'cv',grid,req['cvseed'],req['rep'],
                                      starts,continuation=req['coarse'],polish=self.polish))
@@ -700,13 +679,15 @@ class Optimizer:
             if not scores:
                 return
             best = min(scores,key=lambda x:(scores[x],-x))
+            selected = select_smoothing(scores,search.tolerance)
             table(self.root/'results.tsv',[dict(smoothing=10**x,origin='coarse' if x in search.coarse else 'refined',
-                accepted=search.n,discarded=search.discards.get(x,0),median_cv=score,selected=x==best,
+                accepted=search.n,discarded=search.discards.get(x,0),median_cv=score,selected=x==selected,
                 **{f'cv_{rep+1}':search.samples[x,rep]['score'] for rep in range(search.n)})
                 for x,score in sorted(scores.items(),reverse=True)])
             self.plot_dirty = True
             self.plot()
-            print(f'Smoothing: {len(scores)} values; best median {scores[best]:g} at {10**best:g}',flush=True)
+            print(f'Smoothing: {len(scores)} values; lowest median {scores[best]:g}; '
+                  f'selected {10**selected:g} (median {scores[selected]:g})',flush=True)
         search = SmoothingSearch(evaluate,self.a.grid,self.a.seed,self.a.cv_replicates,
                                  self.a.log_step,self.a.cv_tolerance,report)
         self.curves = search.samples
@@ -726,6 +707,8 @@ class Optimizer:
         fit_phase = next((n for n in ('06-final-fits','02-effort','01-algorithms') if n in self.plans), '')
         ids = list(self.plans.get(fit_phase, {}))
         fits = [self.results[i] for i in ids if i in self.results and self.results[i]['status']=='complete']
+        if fit_phase == '06-final-fits':
+            fits = [r for r in fits if r['job']['kind']=='stock']
         best, rows = {}, []
         for r in fits:
             sm = r['job']['smoothing']
@@ -733,8 +716,6 @@ class Optimizer:
         for r in fits:
             j,p = r['job'],r['job']['profile']
             label = f'{p["opt"]}/{p["optad"]} | {p["pliter"]} | {p["lfsimaniter"]} | {p["ftol"]:g} | {p["moredetail"]}{p["moredetailad"]}'
-            if j['polish']:
-                label = f'{p["ftol"]:g} | {p["moredetail"]}{p["moredetailad"]}'
             rows.append(dict(profile=str(profile_key(p)), label=label, smoothing=j['smoothing'],
                              gap=(r['objective']-best[j['smoothing']])/max(abs(best[j['smoothing']]),1)))
         current = dict(self.curves)
@@ -748,7 +729,6 @@ class Optimizer:
         table(self.work / 'plot-fits.tsv', rows)
         table(self.work / 'plot-cv.tsv', cvs)
         table(self.work / 'plot-state.tsv', [dict(fit_phase=fit_phase,replicates=self.a.cv_replicates,
-            polish=', '.join('/'.join(map(str,m)) for m in self.polish),
             status='Complete' if self.finished else 'Running', complete=len(self.results))])
         try:
             subprocess.run([self.rscript,str(self.work / 'summary.R'),str(self.work),self.config.stem,str(self.root)],
@@ -779,22 +759,25 @@ class Optimizer:
         selected = rank_profiles(r,cv=True)[0]
         self.polish = polish_methods([selected]+survivors+algorithms,selected['optcvad'])
         print('Chained optimizers: '+', '.join('/'.join(map(str,m)) for m in self.polish),flush=True)
-        sm = self.smoothing(selected)
+        sm = self.smoothing(changed(selected,ftol=min(selected['ftol'],1e-10)))
         finalists = [changed(p,optcvad=selected['optcvad'],moredetailcvad=selected['moredetailcvad'],cviter=selected['cviter']) for p in finalists]
         existing = {(p['opt'],p['optad']) for p in finalists}
         finalists += [changed(selected,opt=p['opt'],optad=p['optad']) for p in survivors if (p['opt'],p['optad']) not in existing]
-        r = self.compare('06-final-fits',polishing_profiles(finalists),[sm],[seed+200],
-                         starts=(self.starting_state(sm),None),polish=self.polish)
+        refined = changed(selected,lfsimaniter=0,ftol=min(selected['ftol'],1e-12),
+                          moredetail=0,moredetailad=0,moredetailcvad=0)
+        self.batch('06-final-fits',[self.job(refined,sm,seed+300+rep,
+            starts=(self.curves[round(math.log10(sm),10),rep]['state'],None),polish=self.polish)
+            for rep in range(min(4,self.a.cv_replicates))])
+        r = self.compare('06-final-fits',finalists,[sm],range(seed+200,seed+203),'stock')
         self.export(rank_profiles(r)[0],sm)
 
     def export(self, p, sm):
         final = self.plans['06-final-fits']
         observed = [r for r in self.results.values() if r['status']=='complete' and r['parent'] in final]
-        best = min((r for r in observed if r['job']['profile']==p),key=lambda r:r['objective'])
-        reference = min(observed,key=lambda r:r['objective'])
-        tolerance = max(1e-8,abs(reference['objective'])*OBJECTIVE_RTOL)
-        near = [r for r in observed if r['objective']-reference['objective'] <= tolerance]
-        table(self.work / 'trees.tsv',[dict(id=r['job']['id'],path=str(self.work/r['job']['id']/'result.tre'),objective=r['objective']) for r in near])
+        stock = min((r for r in observed if r['job']['kind']=='stock' and r['job']['profile']==p),key=lambda r:r['objective'])
+        observed = [r for r in observed if r['job']['kind']!='stock']
+        best = min(observed,key=lambda r:r['objective'])
+        table(self.work / 'trees.tsv',[dict(id=r['job']['id'],path=str(self.work/r['job']['id']/'result.tre'),objective=r['objective']) for r in observed])
         src = self.work / best['job']['id']
         check = subprocess.run([self.rscript,str(self.work/'final.R'),str(self.tree),str(src/'result.tre'),
             str(src/'fit.config'),str(self.work/'trees.tsv'),str(self.work)],capture_output=True,text=True)
@@ -802,13 +785,12 @@ class Optimizer:
             raise RuntimeError('Final tree check failed:\n'+check.stderr)
         shutil.copyfile(src/'result.tre',self.root/'dated.tre')
         shutil.copyfile(self.tree,self.root/'input.tre')
-        shutil.copyfile(src/'state',self.root/'starting.state')
-        (self.root/'recommended.config').write_text(render_config((src/'fit.config').read_text(),
-            dict(treefile='input.tre',outfile='replayed.tre',startstate='starting.state',
-                 polish=','.join('/'.join(map(str,m)) for m in self.polish)),{}))
+        (self.root/'recommended.config').write_text(render_config((self.work/stock['job']['id']/'fit.config').read_text(),
+            dict(treefile='input.tre',outfile='replayed.tre'),{}))
         self.finished = True
         self.plot(force=True)
         print(f'Finished: smoothing={sm:g}; objective={best["objective"]:g}; settings={p}',flush=True)
+        print(f'Stock config checked: objective={stock["objective"]:g}',flush=True)
         print(check.stdout.strip(),flush=True)
 
     def run(self):

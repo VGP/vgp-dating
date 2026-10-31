@@ -212,7 +212,7 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 **Tree mappings:** ROADIES node 931; ASTRAL node 788\
 – Based on the oldest-known stem proboscidean and crown afrotherian †_Ocepeia daouiensis_ from the Selandian of the middle Paleocene.
 
-**CAL105:** Crown Proboscidea | 5.05–23.03Ma\
+**CAL105:** Proboscidea | 5.05–23.03Ma\
 **Tree mappings:** ROADIES node 934; ASTRAL node 792\
 – Based on †_Loxodonta cookei_ from the Pelletal Phosphate Member of the Varswater Formation (Pliocene: Zanclean), Langebaanweg, South Africa.
 
@@ -288,7 +288,7 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 **Tree mappings:** ROADIES node 791; ASTRAL node 904\
 – Based on the oldest-known stem cetacean and crown artiodactyl †_Himalayacetus subathuensis_ from the Ypresian of the early Eocene.
 
-**CAL102:** Crown Cetacea (Neoceti) | 36.4–52.4Ma\
+**CAL102:** Cetacea (Neoceti) | 36.4–52.4Ma\
 **Tree mappings:** ROADIES node 795; ASTRAL node 914\
 – Based on †_Mystacodon selenensis_ from the Yumaque Member of the Paracas Formation (Eocene: Priabonian), Peru.
 

@@ -91,25 +91,30 @@ class Optimization(unittest.TestCase):
         # A flat tail does not require ever-smaller steps or an arbitrary lower bound.
         self.assertEqual(mod.refinement_points({-10:10.,-8:10.01,-6:10.02}),[])
 
-    def test_coarse_grid_has_independent_starts_across_its_range(self):
+    def test_coarse_grid_continues_from_high_to_low_smoothing(self):
         grid = [4,2,0,-2,-4,-6,-8,-10]
-        groups = list(mod.coarse_groups(grid))
+        groups = list(mod.descending_groups(grid))
         self.assertEqual([x for group in groups for x in group],grid)
-        self.assertEqual([group[0] for group in groups],[4,-4,-10])
+        self.assertEqual([group[0] for group in groups],[4])
         for group in groups:
             if len(group)>2:
                 self.assertEqual(len({x-y for x,y in zip(group,group[1:])}),1)
 
+    def test_largest_smoothing_within_cv_tolerance_wins(self):
+        scores = {-10:24208.612, -8:24437.127, -6:26327.878}
+        self.assertEqual(mod.select_smoothing(scores,.01),-8)
+        self.assertEqual(mod.select_smoothing(scores,0),-10)
+        self.assertEqual(mod.select_smoothing({-10:100.,-8:100.},0),-8)
+
+    def test_continuation_preserves_independent_replicates(self):
+        optimizer = object.__new__(mod.Optimizer)
+        optimizer.curves = {(-4,0):dict(state='own.state',objective=20.),
+                            (-4,1):dict(state='other.state',objective=10.)}
+        self.assertEqual(optimizer.curve_starts(1e-6,0),('own.state',None))
+
     def test_polishing_keeps_complementary_screened_methods(self):
         candidates = [mod.profile(opt=i,optad=j) for i,j in [(0,1),(0,2),(2,3),(1,2),(3,4)]]
         self.assertEqual(mod.polish_methods(candidates,4),((0,1,4),(0,2,4),(2,3,4)))
-        candidates += [mod.changed(candidates[-1],ftol=1e-10),
-                       mod.changed(candidates[-1],moredetailad=1)]
-        finalists = mod.polishing_profiles(candidates)
-        self.assertEqual(len(finalists),3)
-        self.assertEqual([p['ftol'] for p in finalists],[1e-8,1e-10,1e-8])
-        self.assertEqual([p['moredetailad'] for p in finalists],[0,0,1])
-        self.assertTrue(all(p['lfsimaniter']==0 for p in finalists))
 
     def test_better_training_updates_scores_even_when_cv_increases(self):
         generation = 0
@@ -132,20 +137,20 @@ class Optimization(unittest.TestCase):
         self.assertEqual(mod.rank_profiles(rows)[0]['opt'], 2)
         # Training fit and prediction score serve different selection steps.
         self.assertEqual(mod.rank_profiles(rows,cv=True)[0]['opt'], 2)
+        rows = [dict(job=dict(profile=mod.profile(opt=i),smoothing=1e-11),status='complete',
+                     objective=value,seconds=seconds) for i,value,seconds in
+                [(1,5236.9605,10.),(2,5236.961,1.)]]
+        self.assertEqual(mod.rank_profiles(rows)[0]['opt'],1)
 
-    def test_final_start_uses_nearest_smoothing_and_training_objective(self):
-        optimizer = object.__new__(mod.Optimizer)
-        optimizer.results = {
-            'own': dict(job=dict(kind='cv',cvseed=12,smoothing=.01),
-                        objective=20.,score=1.,state='own.state'),
-            'shared': dict(job=dict(kind='cv',cvseed=13,smoothing=.01),
-                           objective=10.,score=100.,state='shared.state'),
-            'distant': dict(job=dict(kind='cv',cvseed=12,smoothing=1e-8),
-                            objective=1.,score=1.,state='distant.state')}
-        self.assertEqual(optimizer.starting_state(.001),'shared.state')
-        replay = mod.render_config('startstate = /tmp/old\notherstate = /tmp/other\nstateout = state\npolish = 0/1/3\n',
-                                   dict(startstate='starting.state',polish='0/1/3,2/3/3'),{})
-        self.assertEqual(replay.strip(),'startstate = starting.state\npolish = 0/1/3,2/3/3')
+    def test_export_preserves_constraints_and_removes_custom_controls(self):
+        original = ('startstate = /tmp/old\notherstate = /tmp/other\nstateout = state\n'
+                    'polish = 0/1/3\ncvseed = 12\ncvlocal\nopt = 2\nsmooth = 9.9999999999999994e-12\n'
+                    'mrca = ROOT a b\nmin = ROOT 10\nmax = ROOT 20\n')
+        exported = mod.render_config(original,dict(treefile='input.tre',outfile='dated.tre',smooth='1e-11'),{})
+        self.assertFalse(mod.CONTROL_KEYS.intersection(mod.settings(exported)))
+        self.assertEqual(mod.settings(exported)['opt'],'2')
+        self.assertEqual(float(mod.settings(exported)['smooth']),1e-11)
+        self.assertIn('mrca = ROOT a b\nmin = ROOT 10\nmax = ROOT 20',exported)
 
 
 if __name__ == '__main__':

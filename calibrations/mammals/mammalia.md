@@ -78,7 +78,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
-**CAL105:** Crown Proboscidea | 5.05–23.03Ma\
+**CAL105:** Proboscidea | 5.05–23.03Ma\
 **Tree mapping:** ROADIES node 934; ASTRAL node 792\
 **Node calibrated:** The most recent common ancestor of _Loxodonta africana_ and _Elephas maximus indicus_ within Elephantidae\
 **Fossil taxa:** †_Loxodonta cookei_, including the holotype SAM-PQ-L 45627, a right M2 from the Pelletal Phosphate Member of the Varswater Formation, E Quarry, Langebaanweg, South Africa ([Sanders 2007](https://doi.org/10.1080/00359190709519192))\
@@ -330,7 +330,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
-**CAL102:** Crown Cetacea (Neoceti) | 36.4–52.4Ma\
+**CAL102:** Cetacea (Neoceti) | 36.4–52.4Ma\
 **Tree mapping:** ROADIES node 795; ASTRAL node 914\
 **Node calibrated:** The most recent common ancestor of Mysticeti (_Balaenoptera musculus_) and Odontoceti (_Tursiops truncatus_)\
 **Fossil taxa:** †_Mystacodon selenensis_ (MUSM 1917), a partial articulated skeleton from the Yumaque Member of the Paracas Formation at Playa Media Luna, Peru ([Lambert et al. 2017](https://doi.org/10.1016/j.cub.2017.04.026), [de Muizon et al. 2019](https://doi.org/10.5252/geodiversitas2019v41a11))\
