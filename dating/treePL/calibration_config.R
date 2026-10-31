@@ -30,33 +30,30 @@ for(topology in topologies) {
             report(r$calibration_id,'master node',r[[column]],'but pair MRCA',node,
                    if(!is.na(r$notes) && nzchar(r$notes)) paste('| Existing note:',r$notes) else '')
     }
-    # Each topology uses one analysis config.
-    for(suffix in '.config') {
-        path <- file.path(root,'dating','treePL',topology,paste0(topology,suffix))
-        lines <- trimws(sub('#.*$','',readLines(path)))
-        entries <- lapply(lines[grepl('^(mrca|min|max)\\s*=',lines)],function(x)
-            strsplit(gsub('=', ' ',x,fixed=TRUE),'[[:space:]]+')[[1]])
-        expected <- selected$node_name
-        for(key in c('mrca','min','max')) {
-            part <- Filter(function(x) x[1]==key,entries)
-            names <- vapply(part,function(x) if(length(x)>=2) x[2] else '',character(1))
-            if(anyDuplicated(names)) report(basename(path),key,'duplicate entries')
-            if(!setequal(names,expected)) report(basename(path),key,
-                'missing:',paste(setdiff(expected,names),collapse=','),
-                'extra:',paste(setdiff(names,expected),collapse=','))
-            for(i in seq_len(nrow(selected))) {
-                r <- selected[i,];j<-which(names==r$node_name)
-                if(length(j)!=1) next
-                values <- part[[j]][-(1:2)]
-                valid <- if(key=='mrca') length(values)==2 &&
-                    setequal(values,c(r$taxon1_accession,r$taxon2_accession)) else
-                    length(values)==1 && isTRUE(suppressWarnings(as.numeric(values))==
-                        as.numeric(r[[if(key=='min') 'min_ma' else 'max_ma']]))
-                if(!valid) report(basename(path),r$calibration_id,key,'differs from master')
-            }
+    path <- file.path(root,'dating','treePL',topology,paste0(topology,'.config'))
+    lines <- trimws(sub('#.*$','',readLines(path)))
+    entries <- lapply(lines[grepl('^(mrca|min|max)\\s*=',lines)],function(x)
+        strsplit(gsub('=', ' ',x,fixed=TRUE),'[[:space:]]+')[[1]])
+    expected <- selected$node_name
+    for(key in c('mrca','min','max')) {
+        part <- Filter(function(x) x[1]==key,entries)
+        names <- vapply(part,function(x) if(length(x)>=2) x[2] else '',character(1))
+        if(anyDuplicated(names)) report(basename(path),key,'duplicate entries')
+        if(!setequal(names,expected)) report(basename(path),key,
+            'missing:',paste(setdiff(expected,names),collapse=','),
+            'extra:',paste(setdiff(names,expected),collapse=','))
+        for(i in seq_len(nrow(selected))) {
+            r <- selected[i,];j<-which(names==r$node_name)
+            if(length(j)!=1) next
+            values <- part[[j]][-(1:2)]
+            valid <- if(key=='mrca') length(values)==2 &&
+                setequal(values,c(r$taxon1_accession,r$taxon2_accession)) else
+                length(values)==1 && isTRUE(suppressWarnings(as.numeric(values))==
+                    as.numeric(r[[if(key=='min') 'min_ma' else 'max_ma']]))
+            if(!valid) report(basename(path),r$calibration_id,key,'differs from master')
         }
-        cat('  Scanned',basename(path),'\n')
     }
+    cat('  Scanned',basename(path),'\n')
 }
 cat(issues,'item(s) for review. No files changed.\n')
 if(issues) quit(status=1)

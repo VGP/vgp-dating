@@ -34,7 +34,7 @@ OBJECTIVE = re.compile(r'^after opt calc:\s*(\S+)', re.M)
 
 STAGES = [('01-algorithms','Algorithms'), ('02-effort','Search effort'),
           ('03-cv-algorithms','CV optimizer'), ('04-cv-effort','CV effort'),
-          ('05-smoothing','Adaptive smoothing'), ('06-final-fits','Final settings')]
+          ('05-smoothing','Adaptive smoothing'), ('06-final-fits','Final polishing')]
 
 FINAL_R = r"""
 suppressPackageStartupMessages(library(ape))
@@ -52,8 +52,9 @@ entries <- lapply(trimws(sub('#.*$','',readLines(a[3]))),function(x)
   strsplit(trimws(gsub('=',' ',x,fixed=TRUE)),'[[:space:]]+')[[1]])
 pairs <- Filter(function(x)length(x)>0 && x[1]=='mrca',entries)
 if(!length(pairs)) stop('No calibrations in config.')
+node_ages <- ages(t)
 for(p in pairs) {
-  node <- getMRCA(t,p[-(1:2)]); age <- ages(t)[node]
+  node <- getMRCA(t,p[-(1:2)]); age <- node_ages[node]
   for(k in c('min','max')) {
     v <- Filter(function(x)length(x)>1 && x[1]==k && x[2]==p[2],entries)
     if(!length(v)) next
@@ -79,7 +80,9 @@ r <- values[[reference]]
 rows <- lapply(setdiff(seq_along(values),reference),function(i)
   data.frame(id=fits$id[i],node=seq_along(r)+Ntip(ref),reference_age_ma=r,difference_ma=values[[i]]-r))
 if(length(rows)) write.table(do.call(rbind,rows),file.path(out,'age_deviations.tsv'),sep='\t',quote=FALSE,row.names=FALSE)
-cat('Final tree satisfies constraints. Maximum near-best age difference:',max(abs(unlist(values)-rep(r,length(values)))),'Ma\n')
+cat('Final tree satisfies constraints.')
+if(length(values)>1) cat(' Maximum near-best age difference:',max(abs(unlist(values)-rep(r,length(values)))),'Ma')
+cat('\n')
 """
 
 
@@ -126,8 +129,10 @@ draw <- function() {
       col=adjustcolor(colours[match(fits$smoothing,sm)],.7),cex=.8)
     axis(2,at=seq_along(profiles),labels=names,las=1,cex.axis=.65)
     abline(v=-6,lty=2,col=orange)
-    title(paste('Optimizer comparison:',state$fit_phase[1]),adj=0,font.main=2,col.main=ink,cex.main=.95,line=3.6)
-    mtext('Labels: opt/optad | PL iter | anneal | ftol | detail flags',side=3,line=2.2,cex=.57,adj=0)
+    polishing <- state$fit_phase[1]=='06-final-fits'
+    title(if(polishing) 'Final polishing' else paste('Optimizer comparison:',state$fit_phase[1]),adj=0,font.main=2,col.main=ink,cex.main=.95,line=3.6)
+    mtext(if(polishing) paste0('Sequence: ',state$polish[1],'; labels: ftol | detail flags') else
+          'Labels: opt/optad | PL iter | anneal | ftol | detail flags',side=3,line=2.2,cex=.57,adj=0)
     mtext('Reference minimum is specific to smoothing; gaps below 1e-8 shown at left.',side=3,line=1.2,cex=.52,adj=0)
     if(length(sm)>1) legend('bottomright',legend=paste('Smoothing',format(sm)),col=colours[seq_along(sm)],pch=16,bty='n',cex=.65)
     par(mar=c(4.8,5.2,5.4,1.6))
@@ -160,7 +165,7 @@ draw <- function() {
     abline(h=0,col=orange,lty=2)
     title('Node-age differences',adj=0,font.main=2,col.main=ink,line=3.6)
     mtext('Zero is ideal. Positive: older; negative: younger. Reference fit excluded; descriptive comparison.',side=3,line=2.2,cex=.59,adj=0)
-    mtext(paste0(length(unique(deviations$id)),' comparison fits; maximum absolute difference ',
+    mtext(paste0(length(unique(deviations$id)),' comparison configurations; maximum absolute difference ',
                  format(max(abs(delta)),digits=3),' Ma. Axis follows observed variation.'),side=3,line=1.2,cex=.55,adj=0)
     old <- par(no.readonly=TRUE); region <- par('fig'); area <- par('plt')
     inset <- c(area[1]+.58*diff(area[1:2]),area[2]-.02*diff(area[1:2]),
@@ -173,7 +178,9 @@ draw <- function() {
     axis(2,at=c(0,1),labels=c('0%','100%'),las=1,cex.axis=.5);box()
     title('Cumulative |age difference| (Ma)',cex.main=.55,line=.2)
     par(old)
-  } else empty('Node-age differences','Awaiting replicated near-best fits','Signed differences and their distribution will appear here.')
+  } else if(state$status[1]=='Complete') {
+    empty('Node-age differences','One near-best configuration','No between-configuration comparison.')
+  } else empty('Node-age differences','Awaiting final configurations','Signed differences and their distribution will appear here.')
   mtext(paste0(label,' | treePL optimization'),outer=TRUE,side=3,line=1,adj=.02,cex=1.4,font=2,col=ink)
   mtext(paste0(state$status[1],' | ',format(Sys.time(),'%Y-%m-%d %H:%M %Z'),
                ' | ',state$complete[1],' attempts complete'),outer=TRUE,side=1,line=.2,adj=.02,cex=.75,col='#667781')
@@ -326,6 +333,15 @@ def profile_key(p):
 
 def unique(profiles):
     return list({profile_key(p): p for p in profiles}.values())
+
+
+def polishing_profiles(profiles):
+    """One full-tree polish per effective tolerance/detail combination."""
+    distinct = {}
+    for p in profiles:
+        key = (p['ftol'], p['moredetail'], p['moredetailad'])
+        distinct.setdefault(key, {**p, 'lfsimaniter': 0})
+    return list(distinct.values())
 
 
 def accepted(score, ceiling):
@@ -521,24 +537,17 @@ class Optimizer:
         self.jobs, self.results, self.plans, self.curves = {}, {}, {}, {}
         self.last_plot, self.finished = 0, False
         self.events, self.done = queue.Queue(), set()
-        self.chaining = False
+        self.plot_dirty, self.plot_enabled = True, True
         self.polish = ()
 
-    def starting_states(self, sm, cvseed=None):
+    def starting_state(self, sm):
         candidates = [r for r in self.results.values() if r.get('state')
                       and r['objective'] is not None and math.isfinite(r['objective'])
                       and r['objective'] < 1e15 and r.get('status','complete')=='complete']
-        def nearest(rows):
-            if not rows:
-                return None
-            value = min({r['job']['smoothing'] for r in rows},
-                        key=lambda x:(abs(math.log10(x/sm)),-x))
-            return min((r for r in rows if r['job']['smoothing']==value),
-                       key=lambda r:r['objective'])['state']
-        own = nearest([r for r in candidates if r['job']['kind']=='cv'
-                       and r['job']['cvseed']==cvseed]) if cvseed is not None else None
-        shared = nearest(candidates)
-        return own or shared, shared if own and shared != own else None
+        if not candidates:
+            return None
+        return min(candidates, key=lambda r:(abs(math.log10(r['job']['smoothing']/sm)),
+                   -r['job']['smoothing'], r['objective']))['state']
 
     def job(self, p, sm, seed, kind='fit', grid=None, cvseed=None, rep=0, starts=(None,None), continuation=False, polish=()):
         grid = tuple(grid or [sm])
@@ -584,21 +593,23 @@ class Optimizer:
                     if self.stop.wait(.1):
                         raise InterruptedError('Interrupted')
                     ended = proc.poll() is not None
-                    text = (directory/'run.log').read_text(errors='replace')
                     if ended and proc.returncode:
+                        text = (directory/'run.log').read_text(errors='replace')
                         raise RuntimeError(f'treePL exited {proc.returncode}:\n'+text[-2000:])
                     if j['kind']=='cv':
                         cvfile = directory/'cv.out'
                         saved = cvfile.read_text() if cvfile.exists() else ''
-                        # The score file is flushed after the log; read the log second.
-                        text = (directory/'run.log').read_text(errors='replace')
                         available = [float(sm) for sm,_ in SCORE.findall(saved)]
-                        for i,sm in enumerate(grid):
-                            if i in seen or not any(math.isclose(sm,v,rel_tol=1e-5) for v in available):
-                                continue
+                        ready = [i for i,sm in enumerate(grid) if i not in seen
+                                 and any(math.isclose(sm,v,rel_tol=1e-5) for v in available)]
+                        if ready or ended:
+                            # Scores are flushed after the log; read it only for new scores or exit.
+                            text = (directory/'run.log').read_text(errors='replace')
+                            printed = list(SCORE.finditer(text))
+                        for i in ready:
+                            sm = grid[i]
                             try:
                                 score,folds,masks = parse_cv(text,saved,sm)
-                                printed = list(SCORE.finditer(text))
                                 at = next(k for k,m in enumerate(printed) if math.isclose(float(m[1]),sm,rel_tol=1e-5))
                                 full = OBJECTIVE.findall(text[printed[at-1].end() if at else 0:printed[at].start()])
                                 emit(i,score,folds,masks,objective=float(full[-1]) if full else None)
@@ -613,6 +624,7 @@ class Optimizer:
                                 emit(i)  # A failed sweep is retried with a new optimization seed.
                             break
                     elif ended:
+                        text = (directory/'run.log').read_text(errors='replace')
                         values = OBJECTIVE.findall(text)
                         value = float(values[-1]) if values else math.nan
                         valid = math.isfinite(value) and (directory/'result.tre').exists()
@@ -622,10 +634,12 @@ class Optimizer:
                 terminate(proc)
 
     def batch(self, name, jobs):
+        new_stage = name not in self.plans
         plan = self.plans.setdefault(name,{})
         plan.update({j['id']:j for j in jobs})
         pending = [j for j in jobs if j['id'] not in self.done]
-        self.plot(force=True)
+        self.plot_dirty |= new_stage or bool(pending)
+        self.plot(force=new_stage)
         with ThreadPoolExecutor(max_workers=self.a.jobs) as pool:
             futures = {pool.submit(self.fit,j):j for j in pending}
             try:
@@ -637,21 +651,20 @@ class Optimizer:
                     while not self.events.empty():
                         r = self.events.get_nowait()
                         self.results[r['job']['id']] = r
+                        self.plot_dirty = True
                     self.plot()
             except BaseException:
                 self.stop.set()
                 raise
-        self.plot(force=True)
+        self.plot()
         ids = {j['id'] for j in jobs}
         done = [r for r in self.results.values() if r['parent'] in plan]
         print(f'{name}: {sum(r["status"]=="complete" for r in done)} accepted, '
               f'{sum(r["status"]!="complete" for r in done)} discarded',flush=True)
         return [r for r in self.results.values() if r['parent'] in ids]
 
-    def compare(self, name, profiles, grid, seeds, kind='fit'):
-        return self.batch(name,[self.job(p,sm,s,kind,
-            starts=self.starting_states(sm) if self.chaining else (None,None),
-            polish=self.polish if self.chaining else ())
+    def compare(self, name, profiles, grid, seeds, kind='fit', starts=(None,None), polish=()):
+        return self.batch(name,[self.job(p,sm,s,kind,starts=starts,polish=polish)
             for p in unique(profiles) for sm in grid for s in seeds])
 
     def curve_starts(self, sm, rep):
@@ -673,7 +686,6 @@ class Optimizer:
         return tuple((starts+[None,None])[:2])
 
     def smoothing(self, p):
-        self.chaining = True
         def evaluate(requests):
             jobs = []
             for req in requests:
@@ -692,7 +704,8 @@ class Optimizer:
                 accepted=search.n,discarded=search.discards.get(x,0),median_cv=score,selected=x==best,
                 **{f'cv_{rep+1}':search.samples[x,rep]['score'] for rep in range(search.n)})
                 for x,score in sorted(scores.items(),reverse=True)])
-            self.plot(force=True)
+            self.plot_dirty = True
+            self.plot()
             print(f'Smoothing: {len(scores)} values; best median {scores[best]:g} at {10**best:g}',flush=True)
         search = SmoothingSearch(evaluate,self.a.grid,self.a.seed,self.a.cv_replicates,
                                  self.a.log_step,self.a.cv_tolerance,report)
@@ -700,9 +713,10 @@ class Optimizer:
         return search.run()
 
     def plot(self, force=False):
-        if not force and time.monotonic()-self.last_plot < 2:
+        if not self.plot_enabled or (not force and (not self.plot_dirty or time.monotonic()-self.last_plot < 5)):
             return
         self.last_plot = time.monotonic()
+        self.plot_dirty = False
         progress = []
         for name,label in STAGES:
             jobs = self.plans.get(name, {})
@@ -719,6 +733,8 @@ class Optimizer:
         for r in fits:
             j,p = r['job'],r['job']['profile']
             label = f'{p["opt"]}/{p["optad"]} | {p["pliter"]} | {p["lfsimaniter"]} | {p["ftol"]:g} | {p["moredetail"]}{p["moredetailad"]}'
+            if j['polish']:
+                label = f'{p["ftol"]:g} | {p["moredetail"]}{p["moredetailad"]}'
             rows.append(dict(profile=str(profile_key(p)), label=label, smoothing=j['smoothing'],
                              gap=(r['objective']-best[j['smoothing']])/max(abs(best[j['smoothing']]),1)))
         current = dict(self.curves)
@@ -732,11 +748,14 @@ class Optimizer:
         table(self.work / 'plot-fits.tsv', rows)
         table(self.work / 'plot-cv.tsv', cvs)
         table(self.work / 'plot-state.tsv', [dict(fit_phase=fit_phase,replicates=self.a.cv_replicates,
+            polish=', '.join('/'.join(map(str,m)) for m in self.polish),
             status='Complete' if self.finished else 'Running', complete=len(self.results))])
-        drawn = subprocess.run([self.rscript,str(self.work / 'summary.R'),str(self.work),self.config.stem,str(self.root)],
-                               capture_output=True,text=True)
-        if drawn.returncode:
-            raise RuntimeError('Summary figure failed:\n'+drawn.stderr)
+        try:
+            subprocess.run([self.rscript,str(self.work / 'summary.R'),str(self.work),self.config.stem,str(self.root)],
+                           capture_output=True,text=True,check=True)
+        except (OSError, subprocess.CalledProcessError) as error:
+            self.plot_enabled = False
+            print('Warning: live figures disabled; fitting continues.\n'+(getattr(error,'stderr',None) or str(error)),file=sys.stderr)
 
     def workflow(self):
         seed,grid = self.a.seed,self.a.grid
@@ -764,11 +783,13 @@ class Optimizer:
         finalists = [changed(p,optcvad=selected['optcvad'],moredetailcvad=selected['moredetailcvad'],cviter=selected['cviter']) for p in finalists]
         existing = {(p['opt'],p['optad']) for p in finalists}
         finalists += [changed(selected,opt=p['opt'],optad=p['optad']) for p in survivors if (p['opt'],p['optad']) not in existing]
-        r = self.compare('06-final-fits',[changed(p,lfsimaniter=0) for p in finalists],[sm],range(seed+200,seed+203))
+        r = self.compare('06-final-fits',polishing_profiles(finalists),[sm],[seed+200],
+                         starts=(self.starting_state(sm),None),polish=self.polish)
         self.export(rank_profiles(r)[0],sm)
 
     def export(self, p, sm):
-        observed = [r for r in self.results.values() if r['status']=='complete' and r['job']['kind']=='fit' and r['job']['smoothing']==sm]
+        final = self.plans['06-final-fits']
+        observed = [r for r in self.results.values() if r['status']=='complete' and r['parent'] in final]
         best = min((r for r in observed if r['job']['profile']==p),key=lambda r:r['objective'])
         reference = min(observed,key=lambda r:r['objective'])
         tolerance = max(1e-8,abs(reference['objective'])*OBJECTIVE_RTOL)

@@ -103,6 +103,13 @@ class Optimization(unittest.TestCase):
     def test_polishing_keeps_complementary_screened_methods(self):
         candidates = [mod.profile(opt=i,optad=j) for i,j in [(0,1),(0,2),(2,3),(1,2),(3,4)]]
         self.assertEqual(mod.polish_methods(candidates,4),((0,1,4),(0,2,4),(2,3,4)))
+        candidates += [mod.changed(candidates[-1],ftol=1e-10),
+                       mod.changed(candidates[-1],moredetailad=1)]
+        finalists = mod.polishing_profiles(candidates)
+        self.assertEqual(len(finalists),3)
+        self.assertEqual([p['ftol'] for p in finalists],[1e-8,1e-10,1e-8])
+        self.assertEqual([p['moredetailad'] for p in finalists],[0,0,1])
+        self.assertTrue(all(p['lfsimaniter']==0 for p in finalists))
 
     def test_better_training_updates_scores_even_when_cv_increases(self):
         generation = 0
@@ -126,7 +133,7 @@ class Optimization(unittest.TestCase):
         # Training fit and prediction score serve different selection steps.
         self.assertEqual(mod.rank_profiles(rows,cv=True)[0]['opt'], 2)
 
-    def test_chain_starts_use_matching_samples_and_training_objective(self):
+    def test_final_start_uses_nearest_smoothing_and_training_objective(self):
         optimizer = object.__new__(mod.Optimizer)
         optimizer.results = {
             'own': dict(job=dict(kind='cv',cvseed=12,smoothing=.01),
@@ -135,8 +142,7 @@ class Optimization(unittest.TestCase):
                            objective=10.,score=100.,state='shared.state'),
             'distant': dict(job=dict(kind='cv',cvseed=12,smoothing=1e-8),
                             objective=1.,score=1.,state='distant.state')}
-        self.assertEqual(optimizer.starting_states(.001,12),('own.state','shared.state'))
-        self.assertEqual(optimizer.starting_states(.001,99),('shared.state',None))
+        self.assertEqual(optimizer.starting_state(.001),'shared.state')
         replay = mod.render_config('startstate = /tmp/old\notherstate = /tmp/other\nstateout = state\npolish = 0/1/3\n',
                                    dict(startstate='starting.state',polish='0/1/3,2/3/3'),{})
         self.assertEqual(replay.strip(),'startstate = starting.state\npolish = 0/1/3,2/3/3')

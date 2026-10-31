@@ -190,7 +190,6 @@ text(height*.007,y[seq_len(n)],label_tip,adj=c(0,.5),cex=.70,font=4,col=tip_colo
 for(i in seq_len(n)) add_box(height*.004,y[i]-.35,height*.30,y[i]+.35)
 # Place compact ID / age labels without overlap. Leader lines mark displaced labels.
 label_boxes <- matrix(numeric(),ncol=4)
-label_positions <- matrix(NA_real_,nrow=length(nodes),ncol=2)
 for(k in order(ages[nodes],y[nodes])) {
     node<-nodes[k]; lab<-sprintf('%s | %.1f',node_id[node],ages[node])
     w<-strwidth(lab,cex=.62)+height*.004; h<-strheight(lab,cex=.62)*1.25
@@ -207,7 +206,7 @@ for(k in order(ages[nodes],y[nodes])) {
     if(found) break
     }
     if(!found) stop('Cannot place node label ',node_id[node],'; increase --width or --height.')
-    label_boxes<-rbind(label_boxes,b);label_positions[k,]<-c(xx,yy)
+    label_boxes<-rbind(label_boxes,b)
     segments(x[node],y[node],xx,yy,col='#A7ADB1',lwd=.65)
     # Conservatively reserve the connector's bounding box for inset placement.
     add_box(min(x[node],xx),min(y[node],yy),max(x[node],xx),max(y[node],yy))
@@ -234,9 +233,8 @@ for(base in c(par('usr')[4]+.40*strip_units,par('usr')[3]-1.0*strip_units)) for(
 }
 par(xpd=FALSE)
 # Find empty rectangles inside the tree's time span. Never cover a tree element.
-main_fig<-par('fig');main_plt<-par('plt');main_usr<-par('usr');main_pin<-par('pin')
+main_plt<-par('plt');main_usr<-par('usr');main_pin<-par('pin')
 uy_per_inch<-diff(main_usr[3:4])/main_pin[2]
-panel_locations<-list()
 find_panel <- function(name,inches) {
     ph<-inches*uy_per_inch
     for(frac in if(small_tree) c(.75,.70,.65) else c(.48,.44,.40,.36)) {
@@ -247,14 +245,14 @@ find_panel <- function(name,inches) {
                 b<-c(left,top-ph,left+pw,top)
                 padded<-b+c(-height*.012,-.10*uy_per_inch,height*.012,.10*uy_per_inch)
                 if(b[3]>-height*.12 || hits(padded)) next
-                add_box(padded[1],padded[2],padded[3],padded[4]);panel_locations[[name]]<<-b;return(b)
+                return(b)
             }
         }
     }
     stop('No clear space for ',name,' panel. Increase --height or use a less dense tree.')
 }
 # Place the diagnostics and their shared legend as one aligned block.
-# Reserve the entire block against the tree before dividing it into panels.
+# Find clear space for the entire block before dividing it into panels.
 panel_heights<-c(calibrations=max(3,1.4+nrow(cal)*.12),ltt=4.3,terminal=5.6,legend=2)
 panel_gap<-.25
 block<-find_panel('diagnostics',sum(panel_heights)+panel_gap*(length(panel_heights)-1))

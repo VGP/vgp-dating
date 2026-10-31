@@ -30,7 +30,7 @@ bash dating/treePL/roadies_v1.1.16b/roadies_v1.1.16b.sh --output roadies-results
 bash dating/treePL/astralpro.l6p1/astralpro.l6p1.sh --output astral-results --treepl /path/to/treePL
 ```
 
-The search screens optimizer algorithms and effort, compares smoothing on an adaptive grid, and rechecks settings at the selected value. Three screened optimizers polish each fit in sequence, retaining improvements in the training objective. Competitive minima are refined to 0.25 log10 units; flat regions within 1% stop refining. Held-out taxa remain paired across smoothing values. Nonfinite, negative, or extreme CV scores above `1e12` are discarded and retried. There are no runtime cutoffs. The recorded runs took approximately 20 minutes for ASTRAL and 28 minutes for ROADIES with four concurrent fits each.
+The search screens optimizer algorithms and effort, compares smoothing on an adaptive grid, and rechecks each distinct tolerance/detail configuration once at the selected value. Three screened optimizers polish each fit in sequence, retaining improvements in the training objective. Competitive minima are refined to 0.25 log10 units; flat regions within 1% stop refining. Held-out taxa remain paired across smoothing values. Nonfinite, negative, or extreme CV scores above `1e12` are discarded and retried. There are no runtime cutoffs. The recorded runs took approximately 20 minutes for ASTRAL and 28 minutes for ROADIES with four concurrent fits each.
 
 Only six files are saved: `recommended.config`, `dated.tre`, `input.tre`, `starting.state`, `results.tsv`, and the live `summary.png`. Working files are temporary. Replay with `treePL recommended.config` from the output directory. The repository configs instead reference the existing trees and their saved `generated/starting.state`; run them from their analysis directories. Saved states apply only to the matching tree and constraints.
 
@@ -60,10 +60,10 @@ The version must include `vgp-optimizer-fixes-6`. Use this executable with `--tr
 
 ## Figures and checks
 
-The overview scripts require `phytools`, `plotrix`, and `png`. From an analysis directory, regenerate its scientific-name tree, calibration-age table, overview, and full-tree PDF; for example:
+The [overview script](plot_treepl.R) requires `phytools`, `plotrix`, and `png`. From an analysis directory, regenerate its scientific-name tree, calibration-age table, overview, and full-tree PDF; for example:
 
 ```sh
-Rscript astralpro.l6p1.treePL.R
+Rscript ../plot_treepl.R astralpro.l6p1
 Rscript ../plot_dated_tree.R --tree generated/astralpro.l6p1.scientific.treePL.tre --accession-tree generated/astralpro.l6p1.treePL.tre --calibrations generated/astralpro.l6p1.calibrated_node_ages.tsv --output generated/astralpro.l6p1.dated.pdf --title 'ASTRAL treePL'
 ```
 
