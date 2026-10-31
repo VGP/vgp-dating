@@ -1,6 +1,5 @@
 #Visualize treePL results
 # Run from dating/treePL/astralpro.l6p1/.
-library(rphylopic)
 library(phytools)
 library(plotrix)
 library(png)
@@ -9,31 +8,12 @@ library(png)
 astralpro.l6p1.treePL.tre<-read.tree(file="generated/astralpro.l6p1.treePL.tre")
 astralpro.l6p1.treePL.tre$node.label <- (Ntip(astralpro.l6p1.treePL.tre) + 1):(Ntip(astralpro.l6p1.treePL.tre) + astralpro.l6p1.treePL.tre$Nnode)
 
-# read in constraints
-cfg <- readLines("astralpro.l6p1.config")
-
-mrca_df <- do.call(
-  rbind,
-  lapply(
-    grep("^mrca\\s*=", cfg, value = TRUE),
-    function(x) {
-      parts <- strsplit(x, "\\s+")[[1]]
-      data.frame(
-        clade = parts[3],
-        tip1  = parts[4],
-        tip2  = parts[5],
-        stringsAsFactors = FALSE
-      )
-    }
-  )
-)
-
-mrca_df$node <- apply(
-  mrca_df[, c("tip1", "tip2")],
-  1,
-  function(x) getMRCA(astralpro.l6p1.treePL.tre, x)
-)
-
+# Calibration nodes and bounds from the master list.
+master <- read.csv("../../../calibrations/master_calibrations.csv", stringsAsFactors = FALSE)
+mrca_df <- master[!is.na(master$node_astralpro_l6p1), c("calibration_id", "node_name",
+  "taxon1_accession", "taxon1_name", "taxon2_accession", "taxon2_name", "min_ma", "max_ma")]
+mrca_df$node <- vapply(seq_len(nrow(mrca_df)), function(i)
+  getMRCA(astralpro.l6p1.treePL.tre, c(mrca_df$taxon1_accession[i], mrca_df$taxon2_accession[i])), integer(1))
 
 # read in data
 annotations <- read.delim("../../../trees/annotations.tsv", header = TRUE, comment.char = "", stringsAsFactors = FALSE)
@@ -54,11 +34,6 @@ annotations$TAXON[which(annotations$Superorder=="Testudines (Cryptodira)")] <- "
 annotations$TAXON[which(annotations$Superorder=="Testudines (Pleurodira)")] <- "turtles"
 annotations$TAXON[which(annotations$Superorder=="Crocodylia")] <- "crocs"
 annotations$TAXON[which(annotations$Superorder=="Squamata")] <- "squamates"
-
-# add taxon names
-mrca_df$tip1Sci <- annotations$ScientificName[match(mrca_df$tip1,annotations$accession)]
-mrca_df$tip2Sci <- annotations$ScientificName[match(mrca_df$tip2,annotations$accession)]
-mrca_df
 
 # write scientific dates
 astralpro.l6p1.scientific.treePL.tre <- astralpro.l6p1.treePL.tre
@@ -132,7 +107,7 @@ h<-max(nodeHeights(painted))
 bt <- branching.times(astralpro.l6p1.treePL.tre)
 
 # match MRCA nodes to ages
-mrca_df$estimated_age_Ma <- bt[as.character(mrca_df$node)]
+mrca_df$estimated_age_ma <- bt[as.character(mrca_df$node)]
 
 # plot tree
 plotTree(astralpro.l6p1.treePL.tre,color="white",type="arc",lwd=2,ftype="off",
@@ -176,69 +151,9 @@ rasterImage(
   ytop    =  y_bottom + img_height
 )
 
-# Online silhouettes are decorative; network failure must not discard the dated-tree outputs.
-tryCatch({
-# dunkleosteus
-dunkleosteus <- get_phylopic("ac582db2-b8b7-45c1-a266-e33f0480addc")
-add_phylopic_base(
-  img    = dunkleosteus,
-  x      = -725,
-  y      = 1.05 * h,
-  height = 0.15 * h,   # (preferred in newer versions)
-  col    = "lightgrey",
-  fill   = "lightgrey"
-)
-
-# tiktaalik
-tiktaalik <- get_phylopic("10a9bdee-2c86-4f13-a8ae-5ff92dbed2a9")
-add_phylopic_base(
-  img    = tiktaalik,
-  x      = -475,
-  y      = 1.35 * h,
-  height = 0.085 * h,   # (preferred in newer versions)
-  col    = "lightgrey",
-  fill   = "lightgrey"
-)
-
-# dimetrodon
-dimetrodon <- get_phylopic("b9b73c89-7609-4524-b068-7c7c7f566979")
-add_phylopic_base(
-  img    = dimetrodon,
-  x      = -0,
-  y      = 1.575 * h,
-  height = 0.265 * h,   # (preferred in newer versions)
-  col    = "lightgrey",
-  fill   = "lightgrey"
-)
-
-# proganochelys
-proganochelys <- get_phylopic("f41ef99b-c2b8-49ca-be59-8b2b5a47e57f")
-add_phylopic_base(
-  img    = proganochelys,
-  x      = 500,
-  y      = 1.365 * h,
-  height = 0.2 * h,   # (preferred in newer versions)
-  col    = "lightgrey",
-  fill   = "lightgrey"
-)
-
-# archaeopteryx
-archaeopteryx <- get_phylopic("045279d5-24e5-4838-bec9-0bea86812e35")
-add_phylopic_base(
-  img    = archaeopteryx,
-  x      = 760,
-  y      = 0.95 * h,
-  height = 0.235 * h,   # (preferred in newer versions)
-  col    = "lightgrey",
-  fill   = "lightgrey"
-  )
-
-}, error = function(e) message("Optional silhouettes unavailable: ", conditionMessage(e)))
-
 dev.off()
 
 # Estimated ages for calibration nodes:
-print(mrca_df)
 
 write.table(
   mrca_df,

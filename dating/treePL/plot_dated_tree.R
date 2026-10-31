@@ -3,7 +3,7 @@
 suppressPackageStartupMessages(library(ape))
 args <- commandArgs(trailingOnly = TRUE)
 usage <- paste('Usage: Rscript dating/treePL/plot_dated_tree.R --tree TREE --output PDF',
-               '[--accession-tree TREE] [--calibrations CSV] [--annotations TSV]',
+               '[--accession-tree TREE] [--calibrations CSV_OR_TSV] [--annotations TSV]',
                '[--title TEXT] [--width INCHES] [--height INCHES]', sep = '\n  ')
 if (!length(args) || '--help' %in% args) { cat(usage, '\n'); quit(status = 0) }
 opts <- list()
@@ -105,7 +105,9 @@ for (node in nodes) {
 }
 cal <- data.frame()
 if (!is.null(opts$calibrations)) {
-    cal <- read.csv(opts$calibrations,stringsAsFactors=FALSE,check.names=FALSE)
+    cal <- read.table(opts$calibrations,header=TRUE,
+        sep=if(grepl('\\.tsv$',opts$calibrations)) '\t' else ',',
+        stringsAsFactors=FALSE,check.names=FALSE)
     required <- c('calibration_id','node_name','min_ma','max_ma','taxon1_accession','taxon2_accession')
     if (!all(required %in% names(cal))) stop('Calibration CSV lacks required master columns.')
     if (anyDuplicated(cal$calibration_id) || any(!is.finite(cal$min_ma)) || any(!is.finite(cal$max_ma)) || any(cal$min_ma>cal$max_ma)) stop('Invalid calibration IDs or ranges.')
@@ -314,9 +316,4 @@ start_panel(legend_box,mar=c(0,0,1,0));plot.new()
 legend('topleft',legend=groups,col=palette[groups],lwd=2,bty='n',ncol=3,cex=.85,title='Clade colors')
 invisible(dev.off())
 if (!file.rename(pdf_temp,out)) stop('Could not save final PDF: ',out)
-prefix<-sub('\\.pdf$','',out,ignore.case=TRUE)
-write.table(data.frame(ape_node=nodes,node_id=node_id[nodes],age_ma=ages[nodes],group=group[nodes],
-                      label_x=label_positions[,1],label_y=label_positions[,2]),paste0(prefix,'.nodes.tsv'),sep='\t',row.names=FALSE,quote=FALSE)
-if(nrow(cal)) write.table(cal,paste0(prefix,'.calibrations.tsv'),sep='\t',row.names=FALSE,quote=FALSE)
-write.table(do.call(rbind,lapply(names(panel_locations),function(k) data.frame(panel=k,t(panel_locations[[k]])))),paste0(prefix,'.panels.tsv'),sep='\t',row.names=FALSE,quote=FALSE)
 message('Created ',out,'; ',n,' tips, ',length(nodes),' node labels, ',nrow(cal),' calibration ranges. All panels occupy checked clear space.')

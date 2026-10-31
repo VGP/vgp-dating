@@ -9,7 +9,7 @@ The 581-tip ROADIES tree was dated with MD-CAT 1.1.15.
 | Item | File |
 | --- | --- |
 | Input tree | [roadies_v1.1.16b.nwk](../../../trees/roadies_v1.1.16b.nwk) |
-| Current repository config (96 calibrations) | [roadies_v1.1.16b.config](../../treePL/roadies_v1.1.16b/roadies_v1.1.16b.config) |
+| Baseline repository config (96 calibrations) | [roadies_v1.1.16b.config](https://github.com/VGP/vgp-dating/blob/a1b6da9ae9496c8fcea1554930d8f7b88611f921/dating/treePL/roadies_v1.1.16b/roadies_v1.1.16b.config) |
 | Dated tree (NEXUS) | [roadies_v1.1.16b.independent.fast95.tre](roadies_v1.1.16b.independent.fast95.tre) |
 | Node-age table (TSV) | [roadies_v1.1.16b.independent.fast95.tre.tsv](roadies_v1.1.16b.independent.fast95.tre.tsv) |
 | Figures | [PDF](roadies_v1.1.16b.independent.fast95.pdf), [PNG](roadies_v1.1.16b.independent.fast95.png) |

@@ -1,19 +1,17 @@
 #!/usr/bin/env python3
-"""Replicated randomCV, optimizer screening, deep searching, and final publication."""
+"""Select exploratory treePL settings in one fresh run, with a live summary figure.
+
+Requires Python 3.9+, R/ape, and treePL built with treepl-fixes.patch.
+"""
 import argparse
-import concurrent.futures as futures
+from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
 import csv
-import fcntl
-import gzip
-import hashlib
 import io
-import itertools
-import json
 import math
 import os
 from pathlib import Path
-import random
 import re
+import queue
 import shutil
 import signal
 import statistics
@@ -23,288 +21,215 @@ import tempfile
 import threading
 import time
 
-ENGINE = 'vgp-randomcv-v1'
-CANDIDATES = ((1, 3, 0, 0), (2, 3, 1, 1), (2, 3, 0, 0))
-SCORE = re.compile(r'^chisq: \(([^)]+)\)\s*(\S+)')
-OBJECTIVE = re.compile(r'^after opt calc:\s*(\S+)')
-PARTIAL = re.compile(r'^\(chisq\):\s*([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?|[+-]?(?:inf(?:inity)?|nan))\s*$', re.I)
+OBJECTIVE_RTOL = 1e-6
+OPT_KEYS = ('opt', 'optad', 'optcvad')
+DETAIL_KEYS = ('moredetail', 'moredetailad', 'moredetailcvad')
+CONTROL_KEYS = {'prime', 'cv', 'randomcv', 'cvstart', 'cvstop', 'cvmultstep',
+                'cvoutfile', 'thorough', 'randomcviter', 'randomcvsamp', 'cvseed',
+                'plsimaniter', 'cvsimaniter', 'calcgrad', 'siman', 'maxoptimiters',
+                'paramverbose', 'mapspace', 'startstate', 'otherstate', 'stateout', 'cvlocal', 'polish'}
+SCORE = re.compile(r'^chisq: \(([^)]+)\)\s*(\S+)', re.M)
+OBJECTIVE = re.compile(r'^after opt calc:\s*(\S+)', re.M)
 
-# Embedded R helpers for validation and plotting.
-PLOT_INPUTS_R = r'''
+
+STAGES = [('01-algorithms','Algorithms'), ('02-effort','Search effort'),
+          ('03-cv-algorithms','CV optimizer'), ('04-cv-effort','CV effort'),
+          ('05-smoothing','Adaptive smoothing'), ('06-final-fits','Final settings')]
+
+FINAL_R = r"""
 suppressPackageStartupMessages(library(ape))
 a <- commandArgs(TRUE)
-t <- read.tree(a[1])
-ann <- read.delim(a[2],comment.char='',stringsAsFactors=FALSE)
-names(ann)[1] <- 'accession'
-required <- c('accession','ScientificName','VGPLineage','Lineage','Superorder','AssemblyId')
-missing <- setdiff(required,names(ann))
-if(length(missing)) stop('Missing annotation columns: ',paste(missing,collapse=', '))
-if(anyDuplicated(ann$accession)) stop('Duplicate annotation accessions.')
-lookup <- match(t$tip.label,ann$accession)
-if(a[4]=='astralpro.l6p1') {
-  row <- which(!is.na(ann$AssemblyId) & ann$AssemblyId=='kxProAnne1')
-  if(length(row)!=1L || ann$accession[row]!='GCA_040939525.1') stop('Ambiguous kxProAnne1 alias.')
-  lookup[t$tip.label=='kxProAnne1'] <- row
-}
-if(anyNA(lookup)) stop('Missing tip annotations: ',paste(t$tip.label[is.na(lookup)],collapse=', '))
-labels <- ann$ScientificName[lookup]
-if(anyNA(labels) || any(!nzchar(trimws(labels)))) stop('Missing scientific names.')
-labels <- gsub(' ','_',labels)
-repeated <- duplicated(labels) | duplicated(labels,fromLast=TRUE)
-labels[repeated] <- paste(labels[repeated],t$tip.label[repeated],sep='_')
-if(anyDuplicated(labels)) stop('Scientific tip labels are not unique.')
-invisible(png::readPNG(a[3]))
-'''
-
-
-VALIDATE_R = r'''
-suppressPackageStartupMessages(library(ape))
-a <- commandArgs(TRUE)
-age_tolerance <- 0.001
-check <- function(t) {
-  if(!inherits(t,'phylo') || !is.rooted(t) || anyDuplicated(t$tip.label) ||
-     is.null(t$edge.length) || any(!is.finite(t$edge.length)) || any(t$edge.length<0))
-    stop('Expected one rooted tree, unique taxa, and finite nonnegative lengths.')
-}
-ref <- read.tree(a[1]); check(ref)
-entries <- lapply(trimws(sub('#.*$','',readLines(a[2]))),function(x)
-  strsplit(trimws(gsub('=',' ',x,fixed=TRUE)),'[[:space:]]+')[[1]])
-pairs <- Filter(function(x) length(x)>0 && x[1]=='mrca',entries)
-if(!length(pairs)) stop('No calibrations.')
-n <- Ntip(ref)+ref$Nnode
-lo <- rep(0,n); hi <- rep(Inf,n); hi[seq_len(Ntip(ref))] <- 0
-for(p in pairs) {
-  if(length(p)!=4 || !all(p[3:4] %in% ref$tip.label) || p[3]==p[4]) stop('Invalid defining taxa.')
-  node <- getMRCA(ref,p[3:4])
-  bounds <- vapply(c('min','max'),function(k) {
-    v <- Filter(function(x) length(x)>1 && x[1]==k && x[2]==p[2],entries)
-    if(length(v)!=1 || length(v[[1]])!=3) stop('Missing or duplicate bound.')
-    as.numeric(v[[1]][3])
-  },numeric(1))
-  if(any(!is.finite(bounds)) || bounds[1]<0 || bounds[1]>bounds[2]) stop('Invalid bounds.')
-  lo[node] <- max(lo[node],bounds[1]); hi[node] <- min(hi[node],bounds[2])
-}
-e <- reorder.phylo(ref,'postorder')$edge
-for(i in seq_len(nrow(e))) lo[e[i,1]] <- max(lo[e[i,1]],lo[e[i,2]])
-if(any(lo>hi)) stop('Calibration bounds are incompatible on this topology.')
-if(a[3]=='-') {cat('Input valid:',Ntip(ref),'tips;',length(pairs),'calibrations\n'); quit()}
-t <- read.tree(a[3]); check(t)
+ref <- read.tree(a[1]); t <- read.tree(a[2]); out <- a[5]
+if(!inherits(t,'phylo') || is.null(t$edge.length) || any(!is.finite(t$edge.length)) || any(t$edge.length<0))
+  stop('Expected finite nonnegative branch lengths.')
 if(!isTRUE(all.equal.phylo(ref,t,use.edge.length=FALSE,use.tip.label=TRUE))) stop('Topology or taxa changed.')
-d <- node.depth.edgelength(t); h <- max(d[seq_len(Ntip(t))]); ages <- h-d
-if(h<=0 || diff(range(d[seq_len(Ntip(t))]))>age_tolerance) stop('Non-ultrametric dated tree.')
+ages <- function(t) {
+  d <- node.depth.edgelength(t); max(d[seq_len(Ntip(t))])-d
+}
+d <- node.depth.edgelength(t)
+if(diff(range(d[seq_len(Ntip(t))]))>.001) stop('Dated tree is not ultrametric.')
+entries <- lapply(trimws(sub('#.*$','',readLines(a[3]))),function(x)
+  strsplit(trimws(gsub('=',' ',x,fixed=TRUE)),'[[:space:]]+')[[1]])
+pairs <- Filter(function(x)length(x)>0 && x[1]=='mrca',entries)
+if(!length(pairs)) stop('No calibrations in config.')
 for(p in pairs) {
-  node <- getMRCA(t,p[3:4])
+  node <- getMRCA(t,p[-(1:2)]); age <- ages(t)[node]
   for(k in c('min','max')) {
-    v <- Filter(function(x) length(x)>1 && x[1]==k && x[2]==p[2],entries)
+    v <- Filter(function(x)length(x)>1 && x[1]==k && x[2]==p[2],entries)
+    if(!length(v)) next
     b <- as.numeric(v[[1]][3])
-    if((k=='min' && ages[node]<b-age_tolerance) || (k=='max' && ages[node]>b+age_tolerance)) stop('Calibration violation.')
+    if((k=='min' && age<b-.001) || (k=='max' && age>b+.001)) stop('Calibration violation: ',p[2])
   }
 }
-cat('Dated tree valid: topology, ages, and calibration bounds.\n')
-if(length(a)>=4) {
-  keys<-function(t) {
-    ch<-split(t$edge[,2],t$edge[,1]);memo<-vector('list',Ntip(t)+t$Nnode)
-    descend<-function(n) {
-      if(length(memo[[n]]))return(memo[[n]])
-      memo[[n]]<<-if(n<=Ntip(t))t$tip.label[n] else sort(unlist(lapply(ch[[as.character(n)]],descend)))
-      memo[[n]]
-    }
-    vapply(seq.int(Ntip(t)+1,Ntip(t)+t$Nnode),function(n)paste(descend(n),collapse='|'),character(1))
+keys <- function(t) {
+  ch <- split(t$edge[,2],t$edge[,1]); memo <- vector('list',Ntip(t)+t$Nnode)
+  descend <- function(n) {
+    if(length(memo[[n]])) return(memo[[n]])
+    memo[[n]] <<- if(n<=Ntip(t))t$tip.label[n] else sort(unlist(lapply(ch[[as.character(n)]],descend)))
+    memo[[n]]
   }
-  idx<-match(keys(ref),keys(t));if(anyNA(idx))stop('Node mapping failed.')
-  write.table(data.frame(node=seq.int(Ntip(ref)+1,Ntip(ref)+ref$Nnode),age_ma=ages[Ntip(t)+idx]),a[4],sep='\t',quote=FALSE,row.names=FALSE)
+  vapply(seq.int(Ntip(t)+1,Ntip(t)+t$Nnode),function(n)paste(descend(n),collapse='|'),character(1))
 }
-'''
+reference_keys <- keys(ref)
+aligned <- function(t) ages(t)[Ntip(t)+match(reference_keys,keys(t))]
+fits <- read.delim(a[4],stringsAsFactors=FALSE)
+reference <- which.min(fits$objective)
+values <- lapply(fits$path,function(p)aligned(read.tree(p)))
+r <- values[[reference]]
+rows <- lapply(setdiff(seq_along(values),reference),function(i)
+  data.frame(id=fits$id[i],node=seq_along(r)+Ntip(ref),reference_age_ma=r,difference_ma=values[[i]]-r))
+if(length(rows)) write.table(do.call(rbind,rows),file.path(out,'age_deviations.tsv'),sep='\t',quote=FALSE,row.names=FALSE)
+cat('Final tree satisfies constraints. Maximum near-best age difference:',max(abs(unlist(values)-rep(r,length(values)))),'Ma\n')
+"""
+
 
 PLOT_R = r'''
-a <- commandArgs(TRUE); root <- a[1]; title <- a[2]; target <- as.integer(a[3])
-read <- function(n) {p<-file.path(root,n);if(file.exists(p)) read.delim(p,check.names=FALSE) else NULL}
-s<-read('cv_summary.tsv');v<-read('cv_attempts.tsv');o<-read('optimizer_summary.tsv');comparison<-read('cv_comparison.tsv')
-ink<-'#243746';blue<-'#227C9D';gold<-'#D59A35';red<-'#BA594A'
-empty<-function(label){plot.new();text(.5,.5,label,col=ink)}
-xx<-log10(s$smoothing); xr<-rev(range(xx))+c(.5,-.5)
-boxwidth<-if(length(xx)>1) min(.55,.55*min(diff(sort(xx)))) else .55
-ticks<-pretty(range(xx),n=8)
-for(ext in c('png','pdf')) {
- dest<-file.path(root,paste0('progress.',ext));tmp<-paste0(dest,'.tmp')
- if(ext=='png') png(tmp,width=1800,height=1300,res=150) else pdf(tmp,width=12,height=8.67,useDingbats=FALSE)
- par(mfrow=c(2,2),oma=c(1,0,4,0),mar=c(5.5,6,2.5,1),mgp=c(4,.8,0),cex.axis=.85,cex.main=1.05,col=ink,col.axis=ink,col.lab=ink,fg=ink,las=1,bty='l')
- good<-if(!is.null(v)) v[v$status=='accepted' & is.finite(v$score) & v$score>0,,drop=FALSE] else NULL
- if(!is.null(good) && nrow(good)) {
-  yr<-range(good$score);if(diff(yr)==0)yr<-yr*c(.9,1.1)
-  plot(NA,log='y',xlim=xr,ylim=yr*c(.9,1.25),xaxt='n',xlab='Smoothing (log10)',ylab='Random-CV score (log scale)',main='CV medians and seed variation')
-  set.seed(20260923)
-  for(sm in sort(unique(good$smoothing),decreasing=TRUE)) {
-   values<-sort(good$score[good$smoothing==sm]); bs<-boxplot.stats(values)
-   # Suppress misleading, inverted notches in tiny or highly skewed samples.
-   notch<-length(values)>=5 && bs$conf[1]>=bs$stats[2] && bs$conf[2]<=bs$stats[4]
-   boxplot(values,at=log10(sm),add=TRUE,axes=FALSE,outline=FALSE,notch=notch,
-           boxwex=boxwidth,col=adjustcolor(blue,.16),border=blue,lwd=1.3)
-   points(log10(sm)+runif(length(values),-boxwidth*.32,boxwidth*.32),values,pch=16,col=adjustcolor(blue,.45),cex=.55)
-  }
-  axis(1,at=ticks);z<-s[is.finite(s$median)&s$median>0,,drop=FALSE]
-  lines(log10(z$smoothing),z$median,col=ink,lwd=1.4);points(log10(z$smoothing),z$median,pch=18,col=ink,cex=.8)
-  if(!is.null(comparison)) {
-   chosen<-comparison[tolower(comparison$selected)=='true',,drop=FALSE]
-   if(nrow(chosen))points(log10(chosen$smoothing),chosen$median,pch=21,bg=gold,col=ink,cex=1.5,lwd=1.3)
-  }
-  legend('topleft',c('Accepted seed','Median','Selected smoothing'),pch=c(16,18,21),col=c(blue,ink,ink),pt.bg=c(NA,NA,gold),bty='n',cex=.7)
- } else empty('Waiting for accepted CV scores')
- barplot(rbind(s$accepted,s$rejected),ylim=c(0,max(1,s$attempts)*1.3),names.arg=format(s$smoothing,scientific=TRUE,trim=TRUE),col=c(blue,red),border=NA,las=2,cex.names=.75,ylab='Evaluations',main='Accepted and rejected / failed attempts')
- legend('topleft',c('Accepted','Rejected / failed'),fill=c(blue,red),bty='n',cex=.85)
- if(!is.null(o) && any(is.finite(o$median))) {
-  o$gap<-NA_real_
-  for(sm in unique(o$smoothing)){ii<-o$smoothing==sm & is.finite(o$median);if(any(ii)){best<-min(o$median[ii]);o$gap[ii]<-100*(o$median[ii]-best)/max(abs(best),1e-12)}}
-  yr<-range(c(0,o$gap),na.rm=TRUE);if(diff(yr)==0)yr<-c(0,.01)
-  plot(NA,xlim=xr,ylim=yr,xaxt='n',xlab='Smoothing (log10)',ylab='Median objective above best (%)',main='Short optimizer screen');axis(1,at=ticks)
-  cand<-unique(o$candidate);cols<-c(blue,gold,red)
-  for(j in seq_along(cand)){z<-o[o$candidate==cand[j],];lines(log10(z$smoothing),z$gap,type='b',pch=15+j,col=cols[j],lwd=1.8)}
-  legend('topleft',cand,col=cols,pch=seq_along(cand)+15,bty='n',cex=.85)
- } else empty('Optimizer screen pending')
- if(!is.null(v) && nrow(v)) {
-  plot(log10(v$smoothing),v$seconds,xlim=xr,pch=16,col=ifelse(v$status=='accepted',blue,red),xaxt='n',xlab='Smoothing (log10)',ylab='Seconds per attempt',main='Runtime, including terminated attempts');axis(1,at=ticks)
- } else empty('Waiting for completed attempts')
- mtext(paste(title,'| Replicated randomCV'),outer=TRUE,line=2,font=2,cex=1.45,col=ink)
- mtext(paste(target,'accepted seeds per value | Updated',format(Sys.time(),'%Y-%m-%d %H:%M:%S')),outer=TRUE,line=.4,cex=.85,col=ink)
- dev.off();if(!file.rename(tmp,dest))stop('Cannot publish graphic')
+a <- commandArgs(TRUE); root <- a[1]; label <- a[2]; output <- a[3]
+read <- function(name) {
+  p <- file.path(root,name)
+  if(file.exists(p)) read.delim(p,stringsAsFactors=FALSE) else data.frame()
 }
+progress <- read('plot-progress.tsv'); fits <- read('plot-fits.tsv')
+cv <- read('plot-cv.tsv'); state <- read('plot-state.tsv')
+deviations <- read('age_deviations.tsv')
+blue <- '#166b83'; orange <- '#bd6836'; grey <- '#84909a'; ink <- '#142b36'
+empty <- function(heading, message, note) {
+  plot.new(); title(heading,adj=0,font.main=2,col.main=ink)
+  text(.5,.56,message,cex=1.05,col='#667781')
+  text(.5,.42,note,cex=.8,col=grey)
+}
+draw <- function() {
+  par(mfrow=c(2,2),mar=c(4.8,5.2,5.4,1.6),oma=c(2,0,3,0),family='sans',
+      col.axis='#374151',col.lab='#374151',fg='#374151')
+  plot.new(); title('Progress',adj=0,font.main=2,col.main=ink)
+  y <- seq(.87,.1,length.out=nrow(progress))
+  for(i in seq_len(nrow(progress))) {
+    text(0,y[i],progress$label[i],adj=0,cex=.9)
+    rect(.48,y[i]-.014,.8,y[i]+.014,col='#e7edef',border=NA)
+    n <- progress$planned[i]; good <- progress$complete[i]; bad <- progress$failed[i]
+    if(n>0) {
+      rect(.48,y[i]-.014,.48+.32*good/n,y[i]+.014,col=blue,border=NA)
+      if(bad>0) rect(.48+.32*good/n,y[i]-.014,.48+.32*(good+bad)/n,y[i]+.014,col=orange,border=NA)
+      text(.86,y[i],paste0(good,'/',n),adj=0,cex=.85)
+    } else text(.86,y[i],'Waiting',adj=0,cex=.8,col=grey)
+  }
+  if(any(progress$failed>0)) text(0,-.02,'Orange: discarded attempts',adj=0,cex=.75,col=orange)
+  if(nrow(fits)) {
+    par(mar=c(4.8,12,5.4,1.6))
+    profiles <- unique(fits$profile)
+    names <- vapply(profiles,function(p)fits$label[match(p,fits$profile)],character(1))
+    z <- match(fits$profile,profiles); sm <- sort(unique(fits$smoothing))
+    colours <- c(blue,orange,'#709e80')
+    limits <- c(-8,max(-5,log10(max(fits$gap,1e-8))))
+    plot(log10(pmax(fits$gap,1e-8)),z,xlim=limits,ylim=c(.5,length(profiles)+.5),
+      yaxt='n',ylab='',xlab='Relative objective gap (log10; lower is better)',pch=16,
+      col=adjustcolor(colours[match(fits$smoothing,sm)],.7),cex=.8)
+    axis(2,at=seq_along(profiles),labels=names,las=1,cex.axis=.65)
+    abline(v=-6,lty=2,col=orange)
+    title(paste('Optimizer comparison:',state$fit_phase[1]),adj=0,font.main=2,col.main=ink,cex.main=.95,line=3.6)
+    mtext('Labels: opt/optad | PL iter | anneal | ftol | detail flags',side=3,line=2.2,cex=.57,adj=0)
+    mtext('Reference minimum is specific to smoothing; gaps below 1e-8 shown at left.',side=3,line=1.2,cex=.52,adj=0)
+    if(length(sm)>1) legend('bottomright',legend=paste('Smoothing',format(sm)),col=colours[seq_along(sm)],pch=16,bty='n',cex=.65)
+    par(mar=c(4.8,5.2,5.4,1.6))
+  } else empty('Optimizer comparison','Awaiting completed fits','Settings and objective differences will appear here.')
+  saved <- file.path(output,'results.tsv')
+  saved <- if(file.exists(saved)) read.delim(saved,stringsAsFactors=FALSE) else data.frame()
+  if(nrow(cv)) {
+    plot(cv$smoothing,pmax(cv$score,1e-300),log='xy',type='n',xlab='Smoothing',ylab='CV score')
+    for(rep in unique(cv$replicate)) {
+      g <- cv[cv$replicate==rep,]; g <- g[order(g$smoothing),]
+      lines(g$smoothing,pmax(g$score,1e-300),type='b',pch=16,cex=.35,col=adjustcolor(grey,.3))
+    }
+    if(nrow(saved)) {
+      g <- saved[order(saved$smoothing),]
+      lines(g$smoothing,pmax(g$median_cv,1e-300),lwd=2,col=blue)
+      points(g$smoothing,pmax(g$median_cv,1e-300),pch=ifelse(g$origin=='coarse',1,16),col=blue)
+      chosen <- g[tolower(as.character(g$selected))=='true',]
+      points(chosen$smoothing,chosen$median_cv,pch=18,col=orange,cex=1.2)
+    }
+    legend('topleft',legend=c('Coarse grid','Added values','Current best'),
+           col=c(blue,blue,orange),pch=c(1,16,18),bty='n',cex=.7)
+    title('Adaptive smoothing',adj=0,font.main=2,col.main=ink,line=3.6)
+    mtext(paste0(state$replicates[1],' paired replicates per value; blue: current median.'),side=3,line=2.2,cex=.65,adj=0)
+    mtext('Stored scores update when training fits improve.',side=3,line=1.2,cex=.6,adj=0)
+  } else empty('Adaptive smoothing','Awaiting CV scores','')
+  if(nrow(deviations)) {
+    delta <- deviations$difference_ma; span <- max(abs(delta),1e-6)*1.1
+    plot(deviations$reference_age_ma,delta,pch=16,col=adjustcolor(blue,.3),cex=.5,
+         xlab='Node age in best observed fit (Ma)',ylab='Difference from best fit (Ma)',ylim=c(-span,span))
+    abline(h=0,col=orange,lty=2)
+    title('Node-age differences',adj=0,font.main=2,col.main=ink,line=3.6)
+    mtext('Zero is ideal. Positive: older; negative: younger. Reference fit excluded; descriptive comparison.',side=3,line=2.2,cex=.59,adj=0)
+    mtext(paste0(length(unique(deviations$id)),' comparison fits; maximum absolute difference ',
+                 format(max(abs(delta)),digits=3),' Ma. Axis follows observed variation.'),side=3,line=1.2,cex=.55,adj=0)
+    old <- par(no.readonly=TRUE); region <- par('fig'); area <- par('plt')
+    inset <- c(area[1]+.58*diff(area[1:2]),area[2]-.02*diff(area[1:2]),
+               area[3]+.55*diff(area[3:4]),area[4]-.02*diff(area[3:4]))
+    par(fig=c(region[1]+inset[1:2]*diff(region[1:2]),region[3]+inset[3:4]*diff(region[3:4])),
+        mar=c(1.8,1.8,.8,.4),new=TRUE,cex.axis=.55,cex.lab=.55)
+    plot(ecdf(abs(delta)),xlim=c(0,max(abs(delta),1e-6)),ylim=c(0,1),verticals=TRUE,
+         do.points=FALSE,col=blue,lwd=1.5,main='',axes=FALSE,ann=FALSE)
+    axis(1,at=pretty(c(0,max(abs(delta),1e-6)),n=3),cex.axis=.5)
+    axis(2,at=c(0,1),labels=c('0%','100%'),las=1,cex.axis=.5);box()
+    title('Cumulative |age difference| (Ma)',cex.main=.55,line=.2)
+    par(old)
+  } else empty('Node-age differences','Awaiting replicated near-best fits','Signed differences and their distribution will appear here.')
+  mtext(paste0(label,' | treePL optimization'),outer=TRUE,side=3,line=1,adj=.02,cex=1.4,font=2,col=ink)
+  mtext(paste0(state$status[1],' | ',format(Sys.time(),'%Y-%m-%d %H:%M %Z'),
+               ' | ',state$complete[1],' attempts complete'),outer=TRUE,side=1,line=.2,adj=.02,cex=.75,col='#667781')
+}
+png(file.path(output,'summary.tmp.png'),width=1800,height=1300,res=160);draw();dev.off()
+if(!file.rename(file.path(output,'summary.tmp.png'),file.path(output,'summary.png'))) stop('Cannot replace summary.png')
 '''
 
 
 def atomic(path, text):
-    path = Path(path)
-    tmp = path.with_name(path.name + '.tmp')
-    tmp.write_text(text)
-    os.replace(tmp, path)
-
-
-def save(path, data):
-    atomic(path, json.dumps(data, indent=2, allow_nan=False) + '\n')
-
-
-def write_evaluations(path, records):
-    """Atomically publish a lossless, compressed evaluation archive."""
-    path = Path(path)
-    tmp = path.with_name(path.name + '.tmp')
-    try:
-        with gzip.open(tmp, 'wt', encoding='utf-8', compresslevel=6) as handle:
-            for record in records:
-                handle.write(json.dumps(record, allow_nan=False) + '\n')
-        os.replace(tmp, path)
-    finally:
-        tmp.unlink(missing_ok=True)
-
-
-def read_evaluations(path):
-    """Read a compressed archive, falling back to its legacy .jsonl file."""
-    path = Path(path)
-    if not path.exists() and path.suffix == '.gz':
-        path = path.with_suffix('')
-    opener = gzip.open if path.suffix == '.gz' else open
-    with opener(path, 'rt', encoding='utf-8') as handle:
-        for line in handle:
-            yield json.loads(line)
+    temporary = path.with_name(path.name + '.tmp')
+    temporary.write_text(text)
+    temporary.replace(path)
 
 
 def table(path, rows):
-    if rows:
-        out = io.StringIO()
-        writer = csv.DictWriter(out, fieldnames=list(rows[0]), delimiter='\t')
-        writer.writeheader()
-        writer.writerows(rows)
-        atomic(path, out.getvalue())
+    if not rows:
+        path.unlink(missing_ok=True)
+        return
+    out = io.StringIO()
+    writer = csv.DictWriter(out, fieldnames=list(rows[0]), delimiter='\t')
+    writer.writeheader()
+    writer.writerows(rows)
+    atomic(path, out.getvalue())
 
 
-def digest(path):
-    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+def entries(text):
+    for raw in text.splitlines():
+        line = raw.split('#', 1)[0].strip()
+        if not line or not line[0].isalpha():
+            continue
+        key, sep, value = line.partition('=')
+        yield key.strip(), value.strip() if sep else True
 
 
 def settings(text):
     result = {}
-    for raw in text.splitlines():
-        line = raw.split('#', 1)[0].strip()
-        if not line:
-            continue
-        key, sep, value = line.partition('=')
-        key = key.strip()
+    for key, value in entries(text):
         if key in ('mrca', 'min', 'max'):
             continue
         if key in result:
-            raise ValueError(f'Duplicate config setting: {key}')
-        result[key] = value.strip() if sep else True
+            raise ValueError(f'Duplicate setting: {key}')
+        result[key] = value
     return result
 
 
-def calibration_check(text, master, topology):
-    column = 'node_' + topology.replace('.', '_')
-    with master.open() as handle:
-        reader = csv.DictReader(handle)
-        if column not in reader.fieldnames:
-            raise ValueError(f'Master lacks {column}')
-        rows = list(reader)
-    if len({r['calibration_id'] for r in rows}) != len(rows):
-        raise ValueError('Duplicate master calibration IDs')
-    expected = {r['node_name']: r for r in rows if r[column].strip()}
-    if not expected or len(expected) != sum(bool(r[column].strip()) for r in rows):
-        raise ValueError('Empty or duplicate calibration names in master')
-    actual = {key: {} for key in ('mrca', 'min', 'max')}
-    for raw in text.splitlines():
-        parts = raw.split('#', 1)[0].replace('=', ' ').split()
-        if not parts or parts[0] not in actual:
-            continue
-        key = parts[0]
-        if len(parts) < 3 or parts[1] in actual[key]:
-            raise ValueError('Malformed or duplicate calibration')
-        actual[key][parts[1]] = parts[2:]
-    for key, values in actual.items():
-        if set(values) != set(expected):
-            raise ValueError(f'{key} calibration names differ from master')
-        for name, row in expected.items():
-            v = values[name]
-            if key == 'mrca':
-                valid = len(v) == 2 and set(v) == {row['taxon1_accession'], row['taxon2_accession']}
-            else:
-                valid = len(v) == 1 and math.isfinite(float(v[0])) and float(v[0]) == float(row[key + '_ma'])
-            if not valid:
-                raise ValueError(f'{name} {key} differs from master')
-
-
-def smoothing_text(value):
-    """Readable smoothing values, retaining 12 significant digits for custom grids."""
-    mantissa, separator, exponent = format(value, '.12g').partition('e')
-    return f'{mantissa}e{int(exponent)}' if separator else mantissa
-
-
-def config_text(original, updates, flags):
-    removed = {
-        'prime', 'thorough', 'cv', 'randomcv', 'cvstart', 'cvstop', 'cvmultstep',
-        'cvoutfile', 'randomcviter', 'randomcvsamp',
-    }
-    replacements = {key: f'{key} = {value}' for key,value in updates.items()}
-    replacements.update({key: key if enabled else '#'+key for key,enabled in flags.items()})
-    replacements.update(prime='#prime', thorough='#thorough')
-    lines, seen = [], set()
+def render_config(original, updates, flags):
+    replaced = CONTROL_KEYS | set(updates) | set(flags)
+    lines = []
     for raw in original.splitlines():
-        key = raw.lstrip().lstrip('#').split('#', 1)[0].split('=', 1)[0].strip()
-        if key in replacements:
-            if key not in seen:
-                suffix = ''
-                if not raw.lstrip().startswith('#') and '#' in raw:
-                    suffix = ' #' + raw.split('#',1)[1]
-                lines.append(replacements[key]+suffix)
-                seen.add(key)
-        elif key not in removed:
+        key = raw.lstrip().lstrip('#').split('#', 1)[0].partition('=')[0].strip()
+        if key not in replaced:
             lines.append(raw)
-    # New controls belong above the calibration block, never after its ages.
-    for key,value in replacements.items():
-        if key in seen:
-            continue
-        heading = '# Optimizers' if key not in flags and key not in ('prime','thorough') else '# Optional modes'
-        position = next((i for i,line in enumerate(lines) if line.strip()==heading), None)
-        if position is None:
-            position = next((i for i,line in enumerate(lines) if line.strip() in ('# Calibrations','# BEGIN MASTER CALIBRATIONS') or line.lstrip().startswith('mrca')),len(lines))
-        lines.insert(position,value)
-    return '\n'.join(lines) + '\n'
+    controls = [f'{k} = {v}' for k, v in updates.items()]
+    controls += [k for k, enabled in flags.items() if enabled]
+    return '\n'.join(controls + [''] + lines) + '\n'
 
 
 def terminate(proc):
@@ -320,1037 +245,581 @@ def terminate(proc):
         proc.wait()
 
 
-def parse_args():
+def profile(opt=0, optad=0, optcvad=3, moredetail=0, moredetailad=0,
+            moredetailcvad=0, pliter=50, cviter=3, lfsimaniter=1500, ftol=1e-8):
+    p = dict(opt=opt, optad=optad, optcvad=optcvad, moredetail=moredetail,
+             moredetailad=moredetailad, moredetailcvad=moredetailcvad,
+             pliter=pliter, cviter=cviter, lfsimaniter=lfsimaniter, ftol=ftol)
+    for k, d in zip(OPT_KEYS, DETAIL_KEYS):
+        if p[k] == 0:  # TNC does not use the NLopt detail flag.
+            p[d] = 0
+    return p
+
+
+def changed(p, **kwargs):
+    return profile(**{**p, **kwargs})
+
+
+def parse_args(argv=None):
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('config', type=Path)
-    grid = p.add_mutually_exclusive_group()
-    grid.add_argument('--smoothing-values', help='comma-separated positive values')
-    grid.add_argument('--smoothing-range', nargs=3, metavar=('HIGH', 'LOW', 'COUNT'))
-    p.add_argument('--seed-count', type=int, default=64, help='accepted CV seeds per value (64)')
-    p.add_argument('--screen-seeds', type=int, default=3, help='shared seeds per optimizer screen (3)')
-    p.add_argument('--seed', type=int, default=20260922, help='recorded seed-generator seed')
-    p.add_argument('--jobs', type=int, default=8)
-    p.add_argument('--threads', type=int, default=2)
-    p.add_argument('--pliter', type=int, default=50)
-    p.add_argument('--cviter', type=int, default=3)
-    p.add_argument('--optimizer-seeds', type=int, default=3, help='shared seeds for the post-CV 144-configuration screen (3)')
-    p.add_argument('--optimizer-pliter', type=int, default=200, help='post-CV optimizer screening budget (200)')
-    p.add_argument('--deep-seeds', type=int, default=50, help='shared seed attempts per retained configuration (50)')
-    p.add_argument('--deep-pliter', type=int, default=2500, help='iteration budget for deep seed fits (2500)')
-    p.add_argument('--deep-configurations', type=int, default=2, help='maximum configurations for deep searching (2)')
-    p.add_argument('--fallback-ceiling', type=float, default=1e12)
-    p.add_argument('--outlier-factor', type=float, default=100)
-    p.add_argument('--master', type=Path, default=Path(__file__).resolve().parents[2]/'calibrations/master_calibrations.csv')
-    p.add_argument('--output', type=Path, help='default: CONFIG_DIRECTORY/generated/randomcv')
-    p.add_argument('--keep-work', action='store_true', help='retain per-fit logs/configs/trees')
-    p.add_argument('--dry-run', action='store_true', help='validate inputs and print workload; no fits or output deletion')
-    a = p.parse_args()
-    for name in ('seed_count', 'screen_seeds', 'jobs', 'threads', 'pliter', 'cviter', 'optimizer_seeds', 'optimizer_pliter', 'deep_seeds', 'deep_pliter', 'deep_configurations'):
-        if getattr(a, name) < 1:
-            p.error(f'{name.replace("_", "-")} must be positive')
+    p.add_argument('--output', type=Path, required=True, help='new output directory')
+    p.add_argument('--treepl', default='treePL', help='executable built with treepl-fixes.patch')
+    p.add_argument('--rscript', default='Rscript')
+    p.add_argument('--jobs', type=int, default=4, help='concurrent single-threaded processes (default: 4)')
+    p.add_argument('--seed', type=int, default=20261031, help='base seed (default: 20261031)')
+    p.add_argument('--cv-replicates', type=int, default=8, help='paired CV replicates throughout the search (default: 8)')
+    p.add_argument('--cv-tolerance', type=float, default=.01, help='relative CV tolerance for a flat region (default: .01)')
+    p.add_argument('--log-step', type=float, default=.25, help='final log10 smoothing step (default: .25)')
+    p.add_argument('--cv-score-ceiling', type=float, default=1e12, help='discard pathological CV scores above this value (default: 1e12)')
+    p.add_argument('--smoothing-values', default='1e4,1e2,1,1e-2,1e-4,1e-6,1e-8,1e-10',
+                   help='positive coarse grid; refined around competitive minima')
+    a = p.parse_args(argv)
+    if a.jobs < 1 or not 1 <= a.seed <= 2147000000:
+        p.error('jobs must be positive; seed must be between 1 and 2147000000')
+    if a.cv_replicates < 3:
+        p.error('use at least three paired CV replicates')
+    if not math.isfinite(a.cv_tolerance) or not 0 <= a.cv_tolerance < 1:
+        p.error('cv-tolerance must be between zero and one')
+    if not math.isfinite(a.log_step) or a.log_step <= 0:
+        p.error('log-step must be finite and positive')
+    if not math.isfinite(a.cv_score_ceiling) or a.cv_score_ceiling <= 0:
+        p.error('CV score ceiling must be finite and positive')
     try:
-        if a.smoothing_values:
-            values = [float(x) for x in a.smoothing_values.split(',')]
-        else:
-            high, low, count = a.smoothing_range or ('1e4', '1e-10', '15')
-            high, low, count = float(high), float(low), int(count)
-            if not (math.isfinite(high) and math.isfinite(low) and high > low > 0 and count >= 2):
-                raise ValueError('Range needs finite HIGH > LOW > 0 and COUNT >= 2')
-            values = [10 ** (math.log10(high) + i*(math.log10(low)-math.log10(high))/(count-1)) for i in range(count)]
-        if not values or any(not math.isfinite(v) or v <= 0 for v in values) or len(set(values)) != len(values):
-            raise ValueError('Smoothing values must be finite, positive, and unique')
-        a.smoothing = sorted(values, reverse=True)
-    except (ValueError, OverflowError) as error:
-        p.error(str(error))
-    if not math.isfinite(a.fallback_ceiling) or a.fallback_ceiling <= 0 or not math.isfinite(a.outlier_factor) or a.outlier_factor <= 1:
-        p.error('Invalid outlier thresholds')
+        a.grid = sorted({float(s) for s in a.smoothing_values.split(',')}, reverse=True)
+        if len(a.grid) < 3 or any(not math.isfinite(s) or s <= 0 for s in a.grid):
+            raise ValueError()
+    except ValueError:
+        p.error('provide at least three distinct, finite, positive smoothing values')
     return a
 
 
-def choose_smoothing(points, attempts):
-    """Select the lowest median; retain boxplot summaries only as diagnostics."""
-    eligible = [p for p in points if p['status']=='complete']
-    if not eligible:
-        return None, []
-    minimum = min(eligible,key=lambda p:(p['median'],-p['smoothing']))
-    samples = {p['smoothing']: sorted(r['score'] for r in attempts
-               if r['status']=='accepted' and r['smoothing']==p['smoothing']) for p in eligible}
-    comparisons = []
-    for p in sorted(eligible,key=lambda p:p['smoothing'],reverse=True):
-        values = samples[p['smoothing']]; n = len(values)
-        # Tukey hinges match R boxplot.stats/fivenum, including odd sample sizes.
-        q1 = statistics.median(values[:(n+1)//2])
-        q3 = statistics.median(values[n//2:])
-        halfwidth = 1.58*(q3-q1)/math.sqrt(n)
-        comparisons.append(dict(smoothing=p['smoothing'],accepted=n,median=p['median'],
-                                q1=q1,q3=q3,notch_low=p['median']-halfwidth,notch_high=p['median']+halfwidth,
-                                raw_minimum=p is minimum,selected=p is minimum))
-    return minimum, comparisons
 
 
-class RandomCV:
-    """One independent pipeline module; run() returns a smoothing selection."""
+def parse_cv(log, saved, smoothing):
+    printed = list(SCORE.finditer(log))
+    matches = [(i,m) for i,m in enumerate(printed) if math.isclose(float(m[1]),smoothing,rel_tol=1e-5)]
+    written = [(float(sm),float(score)) for sm,score in SCORE.findall(saved)
+               if math.isclose(float(sm),smoothing,rel_tol=1e-5)]
+    if len(matches)!=1 or len(written)!=1 or 'conducting RANDOM SUBSAMPLE' not in log:
+        raise ValueError('Missing or unexpected randomCV output')
+    i,m = matches[0]
+    score,wscore = float(m[2]),written[0][1]
+    if not all(math.isfinite(v) and v >= 0 for v in (score,wscore)) or not math.isclose(score,wscore,rel_tol=5e-6):
+        raise ValueError('Nonfinite, negative, or inconsistent CV score')
+    start = printed[i-1].end() if i else 0
+    folds = [float(x) for x in re.findall(r'^post opt cv check:\s*(\S+)',log[start:m.start()],re.M)]
+    samples = re.findall(r'^cv sample (\d+):([^\n]*)', log, re.M)
+    if len(folds) != 10 or not all(math.isfinite(x) for x in folds):
+        raise ValueError('Expected ten finite CV training objectives')
+    if [int(i) for i, _ in samples] != list(range(10)):
+        raise ValueError('Missing or unordered CV sample records')
+    masks = [sorted(taxa.split()) for _, taxa in samples]
+    if any(not m or len(set(m)) != len(m) for m in masks):
+        raise ValueError('Empty or duplicate CV sample')
+    return score, folds, masks
 
+
+def profile_key(p):
+    return tuple(sorted(p.items()))
+
+
+def unique(profiles):
+    return list({profile_key(p): p for p in profiles}.values())
+
+
+def accepted(score, ceiling):
+    return score is not None and math.isfinite(score) and 0 <= score <= ceiling
+
+
+def rank_profiles(results, cv=False):
+    """Compare training objectives at matched smoothing values and CV folds."""
+    groups, best = {}, {}
+    for r in results:
+        if r['status'] != 'complete':
+            continue
+        j = r['job']
+        groups.setdefault(profile_key(j['profile']), []).append(r)
+        for i, value in enumerate(r['folds'] if cv else [r['objective']]):
+            key = (j['smoothing'], j['seed'], i) if cv else (j['smoothing'],)
+            best[key] = min(value, best.get(key, math.inf))
+    ranked = []
+    for group in groups.values():
+        gaps = []
+        for r in group:
+            j = r['job']
+            for i, value in enumerate(r['folds'] if cv else [r['objective']]):
+                key = (j['smoothing'], j['seed'], i) if cv else (j['smoothing'],)
+                gaps.append((value-best[key])/max(abs(best[key]), 1))
+        gap = statistics.median(gaps)
+        seconds = statistics.median(r['seconds'] for r in group)
+        ranked.append((gap, seconds, group[0]['job']['profile']))
+    if not ranked:
+        raise ValueError('No successful fits in optimizer comparison')
+    return [p for gap, seconds, p in sorted(ranked, key=lambda r: (
+        0 if r[0] <= OBJECTIVE_RTOL else 1,
+        r[1] if r[0] <= OBJECTIVE_RTOL else r[0], profile_key(r[2])))]
+
+
+def descending_groups(values):
+    """Partition log-smoothing values into native geometric sweeps."""
+    values = sorted(set(values), reverse=True)
+    while values:
+        group = values[:2]
+        values = values[len(group):]
+        if len(group) == 2:
+            step = group[0]-group[1]
+            while values and math.isclose(group[-1]-values[0], step, abs_tol=1e-9):
+                group.append(values.pop(0))
+        yield group
+
+
+def coarse_groups(values):
+    """Start the high, middle and low parts of the grid independently."""
+    values = sorted(set(values), reverse=True)
+    cuts = sorted({0, len(values)//2, len(values)-1, len(values)})
+    for left,right in zip(cuts,cuts[1:]):
+        yield from descending_groups(values[left:right])
+
+
+def polish_methods(profiles, cvopt):
+    """Carry distinct screened methods into full and CV fitting."""
+    methods = []
+    for p in profiles:
+        if (p['opt'],p['optad']) not in [m[:2] for m in methods]:
+            methods.append((p['opt'],p['optad'],cvopt))
+        if len(methods)==3:
+            break
+    return tuple(methods)
+
+
+def refinement_points(scores, resolution=.25, tolerance=.01):
+    """Bisect around competitive minima; extend improving domain edges."""
+    xs = sorted(scores)
+    best = min(scores.values())
+    proposed = set()
+    for i,x in enumerate(xs):
+        neighbors = xs[max(0,i-1):i] + xs[i+1:i+2]
+        if scores[x] > best*1.2 or any(scores[y] < scores[x] for y in neighbors):
+            continue
+        # A flat region already has a representative; finer spacing adds little.
+        if all(scores[y]-scores[x] <= tolerance*max(abs(scores[x]),1) for y in neighbors):
+            continue
+        for y in neighbors:
+            if abs(y-x) > resolution+1e-9:
+                proposed.add(round((x+y)/2,10))
+        if i == 0 or i == len(xs)-1:
+            direction = -1 if i == 0 else 1
+            proposed.add(round(x+direction*min(abs(neighbors[0]-x),1),10))
+    return sorted(proposed-set(xs))
+
+
+def better_training(new, old):
+    """Accept improved training fits even when their prediction score increases."""
+    a = [new['objective']] + new['folds']
+    b = [old['objective']] + old['folds']
+    return (all(x <= y+max(1e-8,abs(y)*1e-7) for x,y in zip(a,b))
+            and any(x < y for x,y in zip(a,b)))
+
+
+class SmoothingSearch:
+    """One adaptive grid, with fixed paired replicates and replaceable fitted states."""
+    def __init__(self, evaluate, grid, seed, replicates=8, resolution=.25,
+                 tolerance=.01, report=None):
+        self.evaluate, self.report = evaluate, report or (lambda search: None)
+        self.coarse = sorted(round(math.log10(x),10) for x in grid)
+        self.seed, self.n, self.resolution, self.tolerance = seed,replicates,resolution,tolerance
+        self.samples, self.attempts, self.discards = {}, {}, {}
+        self.round = 0
+
+    def medians(self):
+        xs = sorted({x for x,rep in self.samples})
+        return {x:statistics.median(self.samples[x,r]['score'] for r in range(self.n))
+                for x in xs if all((x,r) in self.samples for r in range(self.n))}
+
+    def ensure(self, xs, refresh=False, coarse=False, explore=False):
+        xs = sorted({round(x,10) for x in xs})
+        if any(not -300 < x < 300 for x in xs):
+            raise ValueError('Smoothing search exceeded floating-point range')
+        pending = {(x,r) for x in xs for r in range(self.n)
+                   if refresh or (x,r) not in self.samples}
+        first = True
+        while pending:
+            requests = []
+            for rep in range(self.n):
+                values = [x for x,r in pending if r==rep]
+                groups = coarse_groups(values) if first and coarse else ([x] for x in sorted(values,reverse=True))
+                for group in groups:
+                    attempt = max(self.attempts.get((x,rep),0) for x in group)
+                    for x in group:
+                        self.attempts[x,rep] = attempt+1
+                    requests.append(dict(xs=group,rep=rep,
+                        cvseed=(self.seed+100000+rep)%2147483000+1,
+                        seed=(self.seed+100030+rep+1009*attempt)%2147483000+1,
+                        coarse=first and coarse,
+                        explore=(first and coarse) or (explore and rep==self.round%self.n) or not first))
+            for row in self.evaluate(requests):
+                key = (round(math.log10(row['job']['smoothing']),10),row['job']['rep'])
+                if key not in pending:
+                    continue
+                old = self.samples.get(key)
+                if row['status']=='complete':
+                    if old is None or better_training(row,old):
+                        self.samples[key] = row
+                    pending.remove(key)
+                else:
+                    self.discards[key[0]] = self.discards.get(key[0],0)+1
+                    if old is not None:
+                        pending.remove(key)  # Keep the earlier valid fit during an unsuccessful polish.
+            first = False
+        self.report(self)
+        return self.medians()
+
+    def run(self):
+        self.ensure(self.coarse,coarse=True)
+        # Reverse the initial continuation once to spread improved fits back up the grid.
+        for x in self.coarse:
+            self.ensure([x],refresh=True)
+        while True:
+            scores = self.medians()
+            new = refinement_points(scores,self.resolution,self.tolerance)
+            if not new:
+                return 10**min(scores,key=lambda x:(scores[x],-x))
+            old = sorted(scores)
+            self.round += 1
+            self.ensure(new,explore=True)
+            adjacent = set()
+            for x in new:
+                left,right = [y for y in old if y<x],[y for y in old if y>x]
+                adjacent.update(left[-1:]+right[:1])
+            for x in sorted(adjacent):
+                self.ensure([x],refresh=True)
+
+
+class Optimizer:
     def __init__(self, args):
         self.a = args
         self.config = args.config.resolve()
-        self.master = args.master.resolve()
         self.original = self.config.read_text()
-        self.options = settings(self.original)
-        self.tree = (self.config.parent / self.options['treefile']).resolve()
-        output = args.output or self.config.parent/'generated/randomcv'
-        if output.is_symlink():
-            raise ValueError('Output directory must not itself be a symlink')
-        self.root = output.resolve()
-        self.binary = shutil.which('treePL')
-        self.rscript = shutil.which('Rscript')
-        if not self.binary or not self.rscript:
-            raise RuntimeError('treePL and Rscript (with ape) are required')
+        options = settings(self.original)
+        self.tree = (self.config.parent / str(options['treefile'])).resolve()
+        self.root = args.output.resolve()
+        self.binary, self.rscript = shutil.which(args.treepl), shutil.which(args.rscript)
+        if not self.binary or not self.rscript or not self.tree.is_file():
+            raise ValueError('Supply an existing input tree, treePL executable, and Rscript')
+        if not math.isfinite(float(options.get('numsites', 0))) or float(options.get('numsites', 0)) <= 0:
+            raise ValueError('numsites must be positive')
+        if any(k in options for k in ('collapse', 'set1', 'ind8s', 'inr8s', 'sample', 'log_pen')):
+            raise ValueError('Unsupported tree-transforming or alternative objective option in config')
+        version = subprocess.run([self.binary, '--version'], capture_output=True, text=True)
+        if version.returncode or 'vgp-optimizer-fixes-6' not in version.stdout:
+            raise ValueError('Use treePL built with the documented treepl-fixes.patch')
+        check = subprocess.run([self.rscript, '-e', 'library(ape)'], capture_output=True, text=True)
+        if check.returncode:
+            raise ValueError('R package ape is required')
         self.stop = threading.Event()
-        self.print_lock = threading.Lock()
-        self.log_path = None
-        self.rng = random.Random(args.seed)
-        self.used_seeds = set()
-        self.attempts, self.optimizer_fits, self.optimizer_summaries = [], [], []
-        self.points = [dict(smoothing=sm, accepted=0, attempts=0, rejected=0,
-                            median=None, minimum=None, maximum=None, status='pending', candidate='')
-                       for sm in args.smoothing]
-        self.started = time.monotonic()
+        self.jobs, self.results, self.plans, self.curves = {}, {}, {}, {}
+        self.last_plot, self.finished = 0, False
+        self.events, self.done = queue.Queue(), set()
+        self.chaining = False
+        self.polish = ()
 
-    def log(self, message):
-        with self.print_lock:
-            line = time.strftime('[%Y-%m-%d %H:%M:%S] ') + message
-            print(line, flush=True)
-            if self.log_path:
-                with self.log_path.open('a') as handle:
-                    handle.write(line + '\n')
+    def starting_states(self, sm, cvseed=None):
+        candidates = [r for r in self.results.values() if r.get('state')
+                      and r['objective'] is not None and math.isfinite(r['objective'])
+                      and r['objective'] < 1e15 and r.get('status','complete')=='complete']
+        def nearest(rows):
+            if not rows:
+                return None
+            value = min({r['job']['smoothing'] for r in rows},
+                        key=lambda x:(abs(math.log10(x/sm)),-x))
+            return min((r for r in rows if r['job']['smoothing']==value),
+                       key=lambda r:r['objective'])['state']
+        own = nearest([r for r in candidates if r['job']['kind']=='cv'
+                       and r['job']['cvseed']==cvseed]) if cvseed is not None else None
+        shared = nearest(candidates)
+        return own or shared, shared if own and shared != own else None
 
-    def next_seed(self):
-        while True:
-            seed = self.rng.randrange(1, 2147483648)
-            if seed not in self.used_seeds:
-                self.used_seeds.add(seed)
-                return seed
+    def job(self, p, sm, seed, kind='fit', grid=None, cvseed=None, rep=0, starts=(None,None), continuation=False, polish=()):
+        grid = tuple(grid or [sm])
+        cvseed = cvseed if cvseed is not None else seed+100000
+        key = (kind,profile_key(p),grid,seed,cvseed,starts,continuation,polish)
+        if key not in self.jobs:
+            self.jobs[key] = dict(id=f'{kind}-{len(self.jobs)+1:04d}',profile=p,smoothing=sm,
+                                 grid=grid,seed=seed,cvseed=cvseed,rep=rep,kind=kind,starts=starts,continuation=continuation,polish=polish)
+        return self.jobs[key]
 
-    def write_status(self, status, stage, published=False):
-        generated = self.config.parent/'generated'
-        generated.mkdir(parents=True,exist_ok=True)
-        atomic(generated/'final_run_status.txt',f'status={status}\nstage={stage}\nconfig={self.config.name}\npublished={str(published).lower()}\n')
-
-    def checked(self, command, logfile, cwd=None):
-        with logfile.open('w') as out:
-            proc = subprocess.Popen(command, cwd=cwd, stdout=out, stderr=subprocess.STDOUT, start_new_session=True)
+    def fit(self, j):
+        directory = self.work/j['id']
+        directory.mkdir()
+        p,grid = j['profile'],j['grid']
+        updates = dict(treefile=str(self.tree),outfile='result.tre',seed=j['seed'],nthreads=1,
+            smooth=format(grid[0],'.17g'),lfiter=3,xtol=-1,stateout='state',
+            **{k:v for k,v in p.items() if k not in DETAIL_KEYS})
+        flags = {k:bool(p[k]) for k in DETAIL_KEYS}
+        updates.update({k:v for k,v in zip(('startstate','otherstate'),j['starts']) if v})
+        if j['polish']:
+            updates['polish'] = ','.join('/'.join(map(str,m)) for m in j['polish'])
+        if j['kind'] == 'cv':
+            flags.update(cv=True,randomcv=True,cvlocal=j["continuation"])
+            updates.update(cvseed=j['cvseed'],cvstart=format(grid[0],'.17g'),
+                cvstop=format(grid[-1]*(1-1e-9),'.17g'),
+                cvmultstep=format(grid[1]/grid[0] if len(grid)>1 else .1,'.17g'),cvoutfile='cv.out')
+        (directory/'fit.config').write_text(render_config(self.original,updates,flags))
+        began,seen = time.monotonic(),set()
+        def emit(index,score=None,folds=None,masks=None,objective=None):
+            seen.add(index)
+            good = accepted(score,self.a.cv_score_ceiling) if j['kind']=='cv' else objective is not None
+            item = dict(j,id=f'{j["id"]}:{index}' if j['kind']=='cv' else j['id'],smoothing=grid[index])
+            state = directory/(f'state.{index}' if j['kind']=='cv' else 'state')
+            self.events.put(dict(job=item,parent=j['id'],status='complete' if good else 'discarded',
+                objective=objective,score=score,folds=folds or [],masks=masks or [],
+                state=str(state) if state.exists() else None,
+                seconds=(time.monotonic()-began)/len(seen)))
+        with (directory/'run.log').open('w') as log:
+            proc = subprocess.Popen([self.binary,'fit.config'],cwd=directory,stdout=log,stderr=subprocess.STDOUT,
+                start_new_session=True,env={**os.environ,'OMP_NUM_THREADS':'1'})
             try:
-                while proc.poll() is None:
-                    if self.stop.wait(.2):
+                while True:
+                    if self.stop.wait(.1):
                         raise InterruptedError('Interrupted')
+                    ended = proc.poll() is not None
+                    text = (directory/'run.log').read_text(errors='replace')
+                    if ended and proc.returncode:
+                        raise RuntimeError(f'treePL exited {proc.returncode}:\n'+text[-2000:])
+                    if j['kind']=='cv':
+                        cvfile = directory/'cv.out'
+                        saved = cvfile.read_text() if cvfile.exists() else ''
+                        # The score file is flushed after the log; read the log second.
+                        text = (directory/'run.log').read_text(errors='replace')
+                        available = [float(sm) for sm,_ in SCORE.findall(saved)]
+                        for i,sm in enumerate(grid):
+                            if i in seen or not any(math.isclose(sm,v,rel_tol=1e-5) for v in available):
+                                continue
+                            try:
+                                score,folds,masks = parse_cv(text,saved,sm)
+                                printed = list(SCORE.finditer(text))
+                                at = next(k for k,m in enumerate(printed) if math.isclose(float(m[1]),sm,rel_tol=1e-5))
+                                full = OBJECTIVE.findall(text[printed[at-1].end() if at else 0:printed[at].start()])
+                                emit(i,score,folds,masks,objective=float(full[-1]) if full else None)
+                            except ValueError:
+                                emit(i)
+                        if len(seen)==len(grid):
+                            break  # Omit treePL's redundant post-CV full-tree fit.
+                        if ended:
+                            if not seen:
+                                raise RuntimeError('treePL exited without a CV score:\n'+text[-2000:])
+                            for i in set(range(len(grid)))-seen:
+                                emit(i)  # A failed sweep is retried with a new optimization seed.
+                            break
+                    elif ended:
+                        values = OBJECTIVE.findall(text)
+                        value = float(values[-1]) if values else math.nan
+                        valid = math.isfinite(value) and (directory/'result.tre').exists()
+                        emit(0,objective=value if valid else None)
+                        break
             finally:
                 terminate(proc)
-        if proc.returncode:
-            raise RuntimeError(f'Command failed: {logfile.read_text(errors="replace")[-2000:]}')
 
-    def preflight(self):
-        calibration_check(self.original, self.master, self.config.stem)
-        n = float(self.options.get('numsites', 0))
-        if not math.isfinite(n) or n <= 0 or n != int(n):
-            raise ValueError('numsites must be a positive integer')
-        if 'log_pen' in self.options:
-            raise ValueError('log_pen is not supported: the installed build has an objective/gradient mismatch')
-        self.hashes = {str(p): digest(p) for p in (self.config, self.tree, self.master, Path(self.binary))}
-        with tempfile.TemporaryDirectory(prefix='vgp-cv-preflight-') as tmp:
-            tmp = Path(tmp)
-            (tmp/'validate.R').write_text(VALIDATE_R)
-            (tmp/'input.config').write_text(self.original)
-            self.checked([self.rscript, str(tmp/'validate.R'), str(self.tree), str(tmp/'input.config'), '-'], tmp/'validation.log')
-            self.validation = (tmp/'validation.log').read_text()
-            self.checked([self.rscript,'-e', 'p<-c("ape","rphylopic","phytools","plotrix","png"); missing<-p[!vapply(p,requireNamespace,logical(1),quietly=TRUE)]; if(length(missing))stop("Missing plotting packages: ",paste(missing,collapse=", "))'],tmp/'plot_dependencies.log')
-            (tmp/'plot_inputs.R').write_text(PLOT_INPUTS_R)
-            self.checked([self.rscript,str(tmp/'plot_inputs.R'),str(self.tree),
-                          str(self.config.parent/'../../../trees/annotations.tsv'),
-                          str(self.config.parent/'../../assets/vgp.png'),self.config.stem],tmp/'plot_inputs.log')
-        self.topology_plot = self.config.parent/(self.config.stem+'.treePL.R')
-        self.dated_plot = Path(__file__).resolve().parent/'plot_dated_tree.R'
-        if not self.topology_plot.is_file() or not self.dated_plot.is_file():
-            raise ValueError('Missing topology-specific or shared dated-tree plotting script')
-        generated = self.config.parent/'generated'
-        if generated.is_symlink():
-            raise ValueError('Production generated directory must not be a symlink')
-        self.log(self.validation.strip())
-        self.log(f'Plan: {len(self.points)} smoothing values; {len(CANDIDATES)*self.a.screen_seeds} optimizer fits/value; '
-                 f'{self.a.seed_count} accepted CV seeds/value; {self.a.jobs} jobs x {self.a.threads} threads; '
-                 f'pliter={self.a.pliter}, cviter={self.a.cviter}, thorough=off')
-        self.log('Grid: ' + ', '.join(f'{p["smoothing"]:g}' for p in self.points))
-        self.log(f'After complete CV: 144 configurations x {self.a.optimizer_seeds} shared seeds '
-                 f'= {144*self.a.optimizer_seeds} full-tree fits at the selected smoothing; '
-                 f'pliter={self.a.optimizer_pliter}, thorough=off')
-        self.log(f'Deep search: up to {self.a.deep_configurations} configurations x {self.a.deep_seeds} shared seeds '
-                 f'= at most {self.a.deep_configurations*self.a.deep_seeds} fits; pliter={self.a.deep_pliter}, thorough=off')
-        self.log('Final stage: one standalone confirmation, publish the better validated tree/config, then generate dated-tree graphics')
-        self.log(f'Output: {self.root}; only this benchmark\'s previous output is replaced')
-        if self.a.jobs*self.a.threads > (os.cpu_count() or 1):
-            self.log(f'Note: requested {self.a.jobs*self.a.threads} threads exceeds {os.cpu_count()} logical CPUs; keeping explicit allocation')
-
-    def prepare(self):
-        if self.root == self.config.parent or self.root in self.config.parents or any(self.root == Path(p) or self.root in Path(p).parents for p in (*self.hashes, str(Path(__file__).resolve()))):
-            raise ValueError('Unsafe output path contains an input')
-        if self.root.exists():
-            marker = self.root/'manifest.json'
-            if not marker.is_file() or json.loads(marker.read_text()).get('engine') != ENGINE:
-                raise ValueError(f'Refusing to delete an unrelated directory: {self.root}')
-            shutil.rmtree(self.root)
-        self.root.mkdir(parents=True)
-        self.log_path = self.root/'progress.log'
-        (self.root/'input.config').write_text(self.original)
-        (self.root/'input.tre').write_bytes(self.tree.read_bytes())
-        shutil.copyfile(self.master, self.root/'master_calibrations.csv')
-        shutil.copyfile(Path(__file__), self.root/'benchmark.py')
-        (self.root/'validate.R').write_text(VALIDATE_R)
-        (self.root/'plot.R').write_text(PLOT_R)
-        (self.root/'input_validation.log').write_text(self.validation)
-        self.manifest = dict(engine=ENGINE, status='running', stage='cv', config=str(self.config), input_hashes=self.hashes,
-                             script_sha256=digest(Path(__file__)), options={k:str(v) if isinstance(v,Path) else v for k,v in vars(self.a).items()},
-                             candidates=CANDIDATES, cpu_count=os.cpu_count(),
-                             randomcv='Installed treePL uses 10 groups of 10% tips. Scores are not on the full-CV scale.',
-                             caveats=['Rejection is heuristic and cannot detect a bad majority; replacements condition the sampled distribution.',
-                                      'Thread scheduling can affect random draws even with recorded seeds.'])
-        save(self.root/'manifest.json', self.manifest)
-        self.write_status('running','cv')
-        self.log('Starting replicated randomCV from input snapshots; the final stage updates the production config')
-        self.reports()
-
-    def fit(self, index, candidate, seed, stage, ceiling=None, pliter=None):
-        if self.stop.is_set():
-            raise InterruptedError('Interrupted')
-        sm = self.a.smoothing[index]
-        tag = '-'.join(map(str, candidate))
-        fit_id = f'{stage}/s{index:02d}/{tag}_seed-{seed}'
-        directory = self.root/'.work'/fit_id
-        directory.mkdir(parents=True)
-        pliter = self.a.pliter if pliter is None else pliter
-        updates = dict(treefile=str(self.root/'input.tre'), outfile='result.tre', seed=seed,
-                       smooth=smoothing_text(sm), pliter=pliter, cviter=self.a.cviter,
-                       nthreads=self.a.threads, opt=candidate[0], optad=candidate[1])
-        flags = dict(moredetail=bool(candidate[2]), moredetailad=bool(candidate[3]))
-        cv = stage == 'cv'
-        if cv:
-            updates.update(cvstart=smoothing_text(sm), cvstop=smoothing_text(sm), cvmultstep=.1, cvoutfile='cv.out')
-            flags.update(cv=True, randomcv=True)
-        config = config_text(self.original, updates, flags)
-        (directory/'fit.config').write_text(config)
-        row = dict(smoothing=sm, seed=seed, candidate=tag, stage=stage, status='failed',
-                   pliter=pliter, threads=self.a.threads, thorough=False,
-                   objective=None, score=None, seconds=None, groups=0, threshold=ceiling,
-                   max_partial_score=None, reason='', fit_id=fit_id)
-        began = time.monotonic()
-        self.log(f'{stage} smooth={sm:g} {tag} seed={seed}: starting')
-        scores, objective, groups, negative_returns = [], None, 0, 0
-        random_mode, post_cv, rejected, tail = False, False, '', ''
-        next_report = began + 30
-        try:
-            with (directory/'run.log').open('w') as out, (directory/'run.log').open(errors='replace') as incoming:
-                proc = subprocess.Popen([self.binary, 'fit.config'], cwd=directory, stdout=out,
-                                        stderr=subprocess.STDOUT, start_new_session=True)
-                pending = ''
-                try:
-                    while True:
-                        ended = proc.poll() is not None
-                        chunk = incoming.read()
-                        tail = (tail + chunk)[-4000:]
-                        pending += chunk
-                        lines = pending.split('\n'); pending = lines.pop()
-                        if ended and pending:
-                            lines.append(pending); pending = ''
-                        for line in lines:
-                            if 'conducting RANDOM SUBSAMPLE' in line:
-                                random_mode = True
-                            # OpenMP workers interleave stdout. Progress is approximate;
-                            # only the serial final score/file establishes completion.
-                            groups += len(re.findall(r'(?<![\w])cv:\s*', line))
-                            if re.match(r'^result:\s*-\d+', line):
-                                negative_returns += 1
-                            match = OBJECTIVE.match(line)
-                            if match:
-                                objective = float(match[1])
-                            match = SCORE.match(line)
-                            if match:
-                                scores.append((float(match[1]), float(match[2])))
-                            if scores and line.startswith('smoothing:'):
-                                post_cv = True
-                            match = PARTIAL.match(line) or SCORE.match(line)
-                            if cv and match:
-                                value = float(match[len(match.groups())])
-                                if not math.isfinite(value) or value < 0:
-                                    rejected = 'nonfinite_or_negative_score'
-                                else:
-                                    row['max_partial_score'] = max(row['max_partial_score'] or 0, value)
-                                    if value > ceiling:
-                                        rejected = 'score_above_threshold'
-                        if cv and rejected:
-                            row.update(status='rejected', reason=rejected)
-                            break
-                        if cv and scores and (post_cv or ended):
-                            saved = [SCORE.match(line) for line in (directory/'cv.out').read_text().splitlines()] if (directory/'cv.out').exists() else []
-                            saved = [(float(m[1]), float(m[2])) for m in saved if m]
-                            if len(scores)!=1 or len(saved)!=1 or not random_mode:
-                                raise ValueError('Unexpected randomCV mode or score count')
-                            if any(not math.isclose(x,sm,rel_tol=1e-5) for x,y in scores+saved) or not math.isfinite(saved[0][1]) or not math.isclose(scores[0][1],saved[0][1],rel_tol=5e-6,abs_tol=1e-12):
-                                raise ValueError('CV log and saved score mismatch')
-                            if ended and proc.returncode:
-                                raise ValueError(f'treePL exited {proc.returncode}')
-                            row.update(status='accepted', score=scores[0][1])
-                            break
-                        if ended:
-                            if proc.returncode:
-                                raise ValueError(f'treePL exited {proc.returncode}')
-                            if cv:
-                                raise ValueError('Exited without a complete CV score')
-                            if objective is None or not math.isfinite(objective) or objective < 0 or not (directory/'result.tre').is_file():
-                                raise ValueError('Missing valid objective or dated tree')
-                            command = [self.rscript, str(self.root/'validate.R'), str(self.root/'input.tre'),
-                                       str(directory/'fit.config'), str(directory/'result.tre')]
-                            if stage in ('deep_seed_search','final_confirmation'):
-                                command.append(str(directory/'ages.tsv'))
-                            self.checked(command, directory/'validation.log')
-                            row.update(status='complete', objective=objective)
-                            break
-                        if self.stop.wait(.25):
-                            raise InterruptedError('Interrupted')
-                        if time.monotonic() >= next_report:
-                            activity = f', approximately {groups}/10 groups reported' if cv else ''
-                            self.log(f'{stage} smooth={sm:g} seed={seed}: running {time.monotonic()-began:.0f}s{activity}')
-                            next_report = time.monotonic()+30
-                finally:
-                    terminate(proc)
-        except OSError:
-            # Infrastructure failures and interruptions must not become replacement seeds.
-            self.stop.set()
-            raise
-        except (ValueError, RuntimeError) as error:
-            row.update(status='failed', reason=str(error))
-        row.update(seconds=round(time.monotonic()-began,3), groups=groups)
-        record = dict(row, config=config, negative_returns=negative_returns,
-                      raw_scores=[(str(x),str(y)) for x,y in scores], log_tail=tail if row['status'] not in ('accepted','complete') else '')
-        validation = directory/'validation.log'
-        if validation.exists():
-            record['validation'] = validation.read_text()
-        if row['status']=='complete':
-            record['dated_tree'] = (directory/'result.tre').read_text()
-        if stage in ('deep_seed_search','final_confirmation') and row['status']=='complete':
-            with (directory/'ages.tsv').open() as handle:
-                record['node_ages'] = {r['node']:float(r['age_ma']) for r in csv.DictReader(handle,delimiter='\t')}
-        save(directory/'result.json', record)
-        self.log(f'{stage} smooth={sm:g} seed={seed}: {row["status"]}; '
-                 f'{"score" if cv else "objective"}={row["score"] if cv else row["objective"]}; {row["seconds"]:.1f}s {row["reason"]}')
-        return row
-
-    def batch(self, pool, jobs):
-        pending = {pool.submit(self.fit, *job) for job in jobs}
-        results = []
-        try:
-            while pending:
-                done, pending = futures.wait(pending, timeout=1, return_when=futures.FIRST_COMPLETED)
-                if self.stop.is_set():
-                    raise InterruptedError('Interrupted')
-                for future in done:
-                    row = future.result()
-                    results.append(row)
-                    target = self.attempts if row['stage']=='cv' else self.optimizer_fits
-                    target.append(row)
-                    table(self.root/('cv_attempts.tsv' if row['stage']=='cv' else 'optimizer_fits.tsv'), target)
-        except BaseException:
-            self.stop.set()
-            for future in pending:
-                future.cancel()
-            raise
-        return results
-
-    def reports(self):
-        table(self.root/'cv_attempts.tsv', self.attempts)
-        table(self.root/'optimizer_summary.tsv', self.optimizer_summaries)
-        table(self.root/'cv_summary.tsv', self.points)
-        try:
-            self.checked([self.rscript, str(self.root/'plot.R'), str(self.root), self.config.stem, str(self.a.seed_count)], self.root/'plotting.log')
-        except (RuntimeError, OSError) as error:
-            self.log(f'Plot warning: {error}')
-
-    def optimizer_screen(self, pool, index):
-        seeds = [self.next_seed() for _ in range(self.a.screen_seeds)]
-        rows = self.batch(pool, [(index,c,s,'optimizer') for c in CANDIDATES for s in seeds])
-        summaries = []
-        for c in CANDIDATES:
-            tag = '-'.join(map(str,c))
-            fits = [r for r in rows if r['candidate']==tag and r['status']=='complete']
-            values = [r['objective'] for r in fits]
-            summaries.append(dict(smoothing=self.a.smoothing[index], candidate=tag, usable=len(values)==len(seeds),
-                                  median=statistics.median(values) if values else None, worst=max(values) if values else None,
-                                  seconds=sum(r['seconds'] for r in fits), selected=False))
-        eligible = [r for r in summaries if r['usable']]
-        # Treat objectives within tolerance as tied, then prefer the faster configuration.
-        for field in ('median','worst'):
-            if eligible:
-                best = min(r[field] for r in eligible)
-                eligible = [r for r in eligible if r[field]-best <= max(abs(best)*1e-6,1e-8)]
-        chosen = min(eligible,key=lambda r:(r['seconds'],r['candidate'])) if eligible else None
-        if chosen:
-            chosen['selected'] = True
-            self.log(f'Optimizer winner smooth={self.a.smoothing[index]:g}: {chosen["candidate"]}; median objective={chosen["median"]}')
-        self.optimizer_summaries.extend(summaries)
-        return tuple(map(int,chosen['candidate'].split('-'))) if chosen else None
-
-    def sample_value(self, pool, index, candidate):
-        point = self.points[index]
-        point.update(status='running', candidate='-'.join(map(str,candidate)))
-        rows = []
-        self.reports()
-        pending = set()
-
-        def refill():
-            kept = [r for r in rows if r['status']=='accepted']
-            ceiling = statistics.median(r['score'] for r in kept)*self.a.outlier_factor if len(kept)>=3 else self.a.fallback_ceiling
-            if not math.isfinite(ceiling):
-                ceiling = sys.float_info.max
-            # Reserve one target slot for each in-flight attempt: never oversample.
-            available = min(self.a.jobs-len(pending),self.a.seed_count-len(kept)-len(pending))
-            for _ in range(available):
-                pending.add(pool.submit(self.fit,index,candidate,self.next_seed(),'cv',ceiling))
-
-        try:
-            refill()
-            while pending:
-                completed, pending = futures.wait(pending,timeout=1,return_when=futures.FIRST_COMPLETED)
-                if self.stop.is_set():
-                    raise InterruptedError('Interrupted')
-                if not completed:
-                    continue
-                for future in completed:
-                    row = future.result()
-                    rows.append(row)
-                    self.attempts.append(row)
-                kept = [r for r in rows if r['status']=='accepted']
-                if len(kept)>=3:
-                    threshold = statistics.median(r['score'] for r in kept)*self.a.outlier_factor
-                    for r in kept:
-                        if r['score']>threshold:
-                            r.update(status='rejected', reason='completed_score_above_updated_threshold', threshold=threshold)
-                            path = self.root/'.work'/r['fit_id']/'result.json'
-                            record = json.loads(path.read_text())
-                            record.update(r)
-                            save(path,record)
-                values = [r['score'] for r in rows if r['status']=='accepted']
-                point.update(accepted=len(values), attempts=len(rows), rejected=len(rows)-len(values),
-                             median=statistics.median(values) if values else None,
-                             minimum=min(values) if values else None, maximum=max(values) if values else None)
-                # Launch replacements before plotting/reporting so free workers stay busy.
-                refill()
-                done = sum(p['accepted'] for p in self.points)
-                total = len(self.points)*self.a.seed_count
-                elapsed = time.monotonic()-self.started
-                eta = f'{elapsed*(total-done)/done/60:.0f} min' if done else 'estimating'
-                self.log(f'CV smooth={point["smoothing"]:g}: {len(values)}/{self.a.seed_count} accepted; '
-                         f'{point["rejected"]} rejected/failed; {len(pending)} in flight; '
-                         f'total={done}/{total}; provisional ETA={eta}')
-                self.reports()
-        except BaseException:
-            self.stop.set()
-            for future in pending:
-                future.cancel()
-            raise
-        point['status'] = 'complete'
-        self.reports()
-
-    def consolidate(self, rows=None, destination=None):
-        def records():
-            for row in (self.optimizer_fits+self.attempts if rows is None else rows):
-                directory = self.root/'.work'/row['fit_id']
-                record = json.loads((directory/'result.json').read_text())
-                record.update(row)  # Includes retrospective outlier decisions.
-                yield record
-        write_evaluations(destination or self.root/'evaluations.jsonl.gz', records())
-        if not self.a.keep_work and (self.root/'.work').exists():
-            shutil.rmtree(self.root/'.work')
-
-    def run(self):
-        with futures.ThreadPoolExecutor(max_workers=self.a.jobs) as pool:
-            for index, point in enumerate(self.points):
-                candidate = self.optimizer_screen(pool,index)
-                if candidate is None:
-                    point['status'] = 'optimizer_failed'
-                    self.reports()
-                    continue
-                self.sample_value(pool,index,candidate)
-        if any(digest(Path(p))!=h for p,h in self.hashes.items()):
-            raise RuntimeError('Source input or executable changed during the run; results not selected')
-        eligible = [p for p in self.points if p['status']=='complete']
-        chosen, comparisons = choose_smoothing(self.points,self.attempts)
-        complete = len(eligible)==len(self.points)
-        selection = dict(status='complete' if complete else 'incomplete',
-                         smoothing=chosen['smoothing'] if chosen else None,
-                         median_cv=chosen['median'] if chosen else None,
-                         candidate=chosen['candidate'] if chosen else None,
-                         boundary=bool(chosen and chosen['smoothing'] in (self.a.smoothing[0],self.a.smoothing[-1])),
-                         raw_minimum_smoothing=chosen['smoothing'] if chosen else None,
-                         raw_minimum_median=chosen['median'] if chosen else None,
-                         rule='Lowest median accepted CV score; exact ties favor higher smoothing.',
-                         notch_rule='median +/- 1.58 IQR/sqrt(n), using Tukey hinges',
-                         statistical_caveat='Notches are visual diagnostics only and do not affect selection.',
-                         provisional=not complete, production_config_updated=False)
-        table(self.root/'cv_comparison.tsv',comparisons)
-        save(self.root/'selection.json',selection)
-        self.reports()
-        self.consolidate()
-        self.manifest.update(status=selection['status'], seconds=round(time.monotonic()-self.started,2), production_unchanged=True)
-        save(self.root/'manifest.json',self.manifest)
-        self.log(f'CV finished: {selection["status"]}; smoothing={selection["smoothing"]}; median CV={selection["median_cv"]}'
-                 + ('; boundary winner (flag only)' if selection['boundary'] else ''))
-        self.log(f'Observed minimum: smoothing={selection["raw_minimum_smoothing"]}; median CV={selection["raw_minimum_median"]}; selection rule: {selection["rule"]}')
-        return selection
-
-
-OPTIMIZER_PLOT_R = r'''
-a<-commandArgs(TRUE);root<-a[1];title<-a[2]
-s<-read.delim(file.path(root,'summary.tsv'),check.names=FALSE)
-s$usable<-tolower(s$usable)=='true';s$selected_for_deep<-tolower(s$selected_for_deep)=='true'
-parts<-strsplit(s$candidate,'-',fixed=TRUE)
-s$opt<-vapply(parts,function(x)as.integer(x[1]),integer(1))
-s$optad<-vapply(parts,function(x)as.integer(x[2]),integer(1))
-s$detail<-vapply(parts,function(x)paste0(x[3],x[4]),character(1))
-good<-s$usable & is.finite(s$median)
-best<-if(any(good)) min(s$median[good]) else NA_real_
-gap<-rep(NA_real_,nrow(s));if(is.finite(best)) gap[good]<-100*pmax(0,s$median[good]-best)/max(abs(best),1e-12)
-colors<-colorRampPalette(c('#EFF5F2','#75AFAD','#227C9D','#23394B'))(100)
-hi<-max(c(0,log10(1+gap)),na.rm=TRUE);if(hi==0) hi<-1
-ink<-'#243746'
-for(ext in c('png','pdf')) {
- dest<-file.path(root,paste0('optimizer_screen.',ext));tmp<-paste0(dest,'.tmp')
- if(ext=='png')png(tmp,width=1800,height=1450,res=150) else pdf(tmp,width=12,height=9.67,useDingbats=FALSE)
- par(mfrow=c(2,2),mar=c(4.5,4.5,3,1),mgp=c(2.5,.7,0),oma=c(2,0,4,0),las=1,col=ink,col.axis=ink,col.lab=ink)
- for(bits in c('00','01','10','11')) {
-  z<-which(s$detail==bits)
-  plot(NA,xlim=c(-.5,5.5),ylim=c(-.5,5.5),xaxs='i',yaxs='i',axes=FALSE,xlab='opt',ylab='optad',main=paste('Detail flags',bits))
-  axis(1,at=0:5);axis(2,at=0:5)
-  for(i in z) {
-   shade<-if(is.finite(gap[i])) colors[1+min(99,floor(99*log10(1+gap[i])/hi))] else if(s$completed[i]==s$requested[i]) '#EBCAC3' else '#E7EAEC'
-   rect(s$opt[i]-.5,s$optad[i]-.5,s$opt[i]+.5,s$optad[i]+.5,col=shade,border='white',lwd=2)
-   label<-if(is.finite(gap[i])) paste0(format(signif(gap[i],3),trim=TRUE),'%') else paste0(s$valid[i],'/',s$requested[i])
-   if(s$selected_for_deep[i])label<-paste0(label,' *')
-   text(s$opt[i],s$optad[i],label,cex=.8,col=if(is.finite(gap[i]) && log10(1+gap[i])/hi>.55)'white' else ink)
-  }
- }
- mtext(paste(title,'| Optimizer screen'),outer=TRUE,line=2,font=2,cex=1.5,col=ink)
- mtext(paste('Smoothing',format(s$smoothing[1],scientific=TRUE),'|',sum(s$completed),'/',sum(s$requested),'fits completed'),outer=TRUE,line=.5,col=ink)
- mtext('Cells: median objective above best (%) | * deep candidate (provisional while running) | gray: pending; pink: unusable',outer=TRUE,side=1,line=.4,cex=.8,col=ink)
- dev.off();if(!file.rename(tmp,dest))stop('Cannot publish optimizer graphic')
-}
-'''
-
-
-def rank_optimizers(rows, candidates, seeds, smoothing):
-    """Rank every candidate that completed all shared seeds."""
-    summaries = []
-    for candidate in candidates:
-        tag = '-'.join(map(str,candidate))
-        fits = [r for r in rows if r['candidate']==tag]
-        valid = [r for r in fits if r['status']=='complete']
-        values = [r['objective'] for r in valid]
-        summaries.append(dict(candidate=tag, smoothing=smoothing, requested=len(seeds), completed=len(fits),
-                              valid=len(valid), failed=len(fits)-len(valid),
-                              usable=len(valid)==len(seeds) and {r['seed'] for r in valid}==set(seeds),
-                              median=statistics.median(values) if values else None,
-                              worst=max(values) if values else None, best=min(values) if values else None,
-                              seconds=sum(r['seconds'] for r in fits), rank=None, selected_for_deep=False))
-    ranked = sorted((r for r in summaries if r['usable']),
-                    key=lambda r:(r['median'],r['worst'],r['best'],r['seconds'],r['candidate']))
-    for index,row in enumerate(ranked):
-        row['rank'] = index+1
-    return summaries
-
-
-class OptimizerScreen:
-    """Module 2: full optimizer combinations at a completed CV selection."""
-
-    def __init__(self, benchmark, selection):
-        if selection['status']!='complete' or selection['provisional']:
-            raise ValueError('Optimizer screening requires a complete CV selection')
-        self.b = benchmark
-        self.index = benchmark.a.smoothing.index(selection['smoothing'])
-        self.smoothing = selection['smoothing']
-        self.root = benchmark.root/'optimizer_screen'
-        self.candidates = list(itertools.product(range(6),range(6),range(2),range(2)))
-        # Independent of how many replacement seeds CV consumed.
-        rng = random.Random(f'{benchmark.a.seed}:optimizer-screen')
-        self.seeds = []
-        while len(self.seeds)<benchmark.a.optimizer_seeds:
-            seed = rng.randrange(1,2147483648)
-            if seed not in self.seeds:
-                self.seeds.append(seed)
-        self.rows = []
-
-    def reports(self):
-        summary = rank_optimizers(self.rows,self.candidates,self.seeds,self.smoothing)
-        selected = {r["candidate"] for r in trim_optimizers(summary,self.b.a.deep_configurations)}
-        for row in summary:
-            row["selected_for_deep"] = row["candidate"] in selected
-        table(self.root/'summary.tsv',summary)
-        try:
-            self.b.checked([self.b.rscript,str(self.root/'plot.R'),str(self.root),self.b.config.stem],self.root/'plotting.log')
-        except (RuntimeError,OSError) as error:
-            self.b.log(f'Optimizer plot warning: {error}')
-        return summary
-
-    def update_reports(self, rows):
-        self.rows = rows
-        return self.reports()
-
-    def run(self):
-        b = self.b
-        self.root.mkdir()
-        (self.root/'plot.R').write_text(OPTIMIZER_PLOT_R)
-        manifest = dict(status='running', smoothing=self.smoothing, seeds=self.seeds,
-                        candidates=self.candidates, pliter=b.a.optimizer_pliter, thorough=False,
-                        jobs=b.a.jobs, threads=b.a.threads, requested_fits=len(self.candidates)*len(self.seeds))
-        save(self.root/'manifest.json',manifest)
-        b.manifest.update(status='running', stage='optimizer_screen', cv_status='complete')
-        save(b.root/'manifest.json',b.manifest)
-        b.write_status('running','optimizer_screen')
-        started = time.monotonic()
-        total = manifest['requested_fits']
-        b.log(f'Optimizer screen: {len(self.candidates)} configurations x {len(self.seeds)} shared seeds; '
-              f'smooth={self.smoothing:g}, pliter={b.a.optimizer_pliter}, thorough=off')
-        self.reports()
-        try:
-            self.rows = run_fit_stage(b,self.index,self.candidates,self.seeds,'optimizer_search',b.a.optimizer_pliter,self.root,self.update_reports)
-            if any(digest(Path(p))!=h for p,h in b.hashes.items()):
-                raise RuntimeError('Source input or executable changed during optimizer screening')
-            summary = self.reports()
-            retained = trim_optimizers(summary,b.a.deep_configurations)
-            selection = dict(status='complete' if retained else 'incomplete', smoothing=self.smoothing,
-                             seeds=self.seeds, pliter=b.a.optimizer_pliter, thorough=False,
-                             requested_fits=total, completed_fits=len(self.rows),
-                             valid_fits=sum(r['status']=='complete' for r in self.rows),
-                             eligible_configurations=sum(r['usable'] for r in summary),
-                             deep_candidates=retained,
-                             rule='Require all shared seeds to yield valid trees; rank median, worst, best objective, then runtime and identifier. '
-                                  'Select the best-ranked and lowest-individual-objective configurations, then fill in rank order up to the deep-search cap.',
-                             production_config_updated=False)
-            save(self.root/'selection.json',selection)
-            b.consolidate(self.rows,self.root/'evaluations.jsonl.gz')
-            manifest.update(status=selection['status'],seconds=round(time.monotonic()-started,2),retained=len(retained))
-            save(self.root/'manifest.json',manifest)
-            b.manifest.update(status=selection['status'],stage='optimizer_screen',
-                              seconds=round(time.monotonic()-b.started,2),production_unchanged=True)
-            save(b.root/'manifest.json',b.manifest)
-            b.log(f'Optimizer screen finished: {selection["eligible_configurations"]} eligible configurations; '
-                  f'{len(selection["deep_candidates"])} selected for deep searching')
-            return selection
-        except BaseException as error:
-            b.stop.set()
-            manifest.update(status='interrupted' if isinstance(error,(KeyboardInterrupt,InterruptedError)) else 'failed',reason=str(error) or 'Interrupted')
-            save(self.root/'manifest.json',manifest)
-            raise
-
-
-def trim_optimizers(summary, limit):
-    """Keep the typical winner, individual-fit winner, then fill in rank order."""
-    ranked = sorted((r for r in summary if r['usable']),key=lambda r:r['rank'])
-    if not ranked:
-        return []
-    retained = []
-    def add(row, reason):
-        if len(retained)<limit and not any(r['candidate']==row['candidate'] for r in retained):
-            retained.append(dict(row,selected_for=reason))
-    add(ranked[0],'best median/worst ranking')
-    add(min(ranked,key=lambda r:(r['best'],r['rank'])),'lowest individual objective')
-    for row in ranked:
-        add(row,'next-ranked configuration')
-    return retained
-
-
-def run_fit_stage(b, index, candidates, seeds, stage, pliter, root, report):
-    """Shared scheduling/progress for the two post-CV modules."""
-    rows = []
-    started = time.monotonic()
-    total = len(candidates)*len(seeds)
-    with futures.ThreadPoolExecutor(max_workers=b.a.jobs) as pool:
-        # Interleave configurations so shared seeds advance together.
-        pending = {pool.submit(b.fit,index,c,seed,stage,None,pliter)
-                   for seed in seeds for c in candidates}
-        next_report = next_plot = time.monotonic()+30
-        try:
-            while pending:
-                done,pending = futures.wait(pending,timeout=1,return_when=futures.FIRST_COMPLETED)
-                if b.stop.is_set():
-                    raise InterruptedError('Interrupted')
-                for future in done:
-                    rows.append(future.result())
-                if done:
-                    table(root/'fits.tsv',rows)
-                now = time.monotonic()
-                if done or now>=next_report:
-                    eta = f'{(now-started)*(total-len(rows))/len(rows)/60:.0f} min' if rows else 'estimating'
-                    b.log(f'{stage}: {len(rows)}/{total} complete; '
-                          f'{sum(r["status"]!="complete" for r in rows)} failed; provisional ETA={eta}')
-                    next_report = now+30
-                if now>=next_plot:
-                    report(rows)
-                    next_plot = time.monotonic()+30
-        except BaseException:
-            b.stop.set()
-            for future in pending:
-                future.cancel()
-            raise
-    return rows
-
-
-DEEP_PLOT_R = r'''
-a<-commandArgs(TRUE);root<-a[1];title<-a[2]
-x<-read.delim(file.path(root,'age_comparison.tsv'),check.names=FALSE)
-colors<-c('#227C9D','#D59A35','#BA594A','#6B9080');cand<-unique(x$candidate)
-ink<-'#243746';best<-min(x$objective)
-for(ext in c('png','pdf')) {
- dest<-file.path(root,paste0('deep_search.',ext));tmp<-paste0(dest,'.tmp')
- if(ext=='png')png(tmp,width=1800,height=850,res=150) else pdf(tmp,width=12,height=5.67,useDingbats=FALSE)
- par(mfrow=c(1,2),mar=c(5,6,3,1),mgp=c(3.5,.8,0),oma=c(1,0,4,0),las=1,bty='l',col=ink,col.axis=ink,col.lab=ink)
- curves<-lapply(cand,function(c){z<-x[x$candidate==c,];z<-z[order(z$seed_index),];z$gap<-cummin(z$objective)-best;z})
- yr<-range(unlist(lapply(curves,function(z)z$gap)));if(diff(yr)==0)yr<-c(0,1e-6)
-xr<-range(c(0,1,x$seed_index))
-plot(NA,xlim=xr,ylim=yr,xlab='Shared seed index (0 = earlier best)',ylab='Best objective found minus current best',main='Improvement as seeds accumulate')
- for(i in seq_along(curves))lines(curves[[i]]$seed_index,curves[[i]]$gap,type='o',pch=16,cex=.45,lwd=2,col=colors[1+(i-1)%%length(colors)])
- legend('topright',cand,col=rep(colors,length.out=length(cand)),lwd=2,bty='n',cex=.8)
- plot(x$objective-best,x$max_age_difference_ma,pch=16,col=adjustcolor(colors[1+(match(x$candidate,cand)-1)%%length(colors)],.6),xlab='Objective minus current best',ylab='Largest node-age difference from best (Ma)',main='Objective and node-age agreement')
- mtext(paste(title,'| Deep seed search'),outer=TRUE,line=2,font=2,cex=1.5,col=ink)
- mtext(paste(nrow(x),'valid fits | Updated',format(Sys.time(),'%Y-%m-%d %H:%M:%S')),outer=TRUE,line=.5,col=ink)
- dev.off();if(!file.rename(tmp,dest))stop('Cannot publish deep-search graphic')
-}
-'''
-
-
-class DeepSeedSearch:
-    """Module 3: a fixed deep seed budget, without early stopping or retries."""
-
-    def __init__(self, benchmark, screen):
-        if screen['status']!='complete' or not screen['deep_candidates']:
-            raise ValueError('Deep searching requires eligible optimizer configurations')
-        self.b = benchmark
-        self.screen = screen
-        self.root = benchmark.root/'deep_seed_search'
-        self.index = benchmark.a.smoothing.index(screen['smoothing'])
-        self.candidates = [tuple(map(int,r['candidate'].split('-'))) for r in screen['deep_candidates']]
-        rng = random.Random(f'{benchmark.a.seed}:deep-seed-search')
-        self.seeds = []
-        # Use fresh seeds, shared across all deep configurations.
-        while len(self.seeds)<benchmark.a.deep_seeds:
-            seed = rng.randrange(1,2147483648)
-            if seed not in self.seeds and seed not in screen['seeds']:
-                self.seeds.append(seed)
-        self.rows = []
-        self.records = {}
-        self.baseline = None
-
-    def load_baseline(self):
-        """Carry the best validated full-tree fit at this smoothing across stages."""
-        b = self.b
-        best = None
-        for path in (b.root/'evaluations.jsonl.gz', b.root/'optimizer_screen/evaluations.jsonl.gz'):
-            for record in read_evaluations(path):
-                if record['status']!='complete' or record['smoothing']!=self.screen['smoothing']:
-                    continue
-                key = lambda r: (r['objective'],r['candidate'],r['seed'],r['fit_id'])
-                if best is None or key(record)<key(best):
-                    best = record
-        if best is None:
-            raise RuntimeError('No validated screening fit available at the selected smoothing')
-        (self.root/'earlier_best.tre').write_text(best['dated_tree'])
-        (self.root/'earlier_best.config').write_text(best['config'])
-        ages = self.root/'earlier_best_node_ages.tsv'
-        b.checked([b.rscript,str(b.root/'validate.R'),str(b.root/'input.tre'),
-                   str(self.root/'earlier_best.config'),str(self.root/'earlier_best.tre'),str(ages)],
-                  self.root/'earlier_best_validation.log')
-        with ages.open() as handle:
-            best['node_ages'] = {r['node']:float(r['age_ma']) for r in csv.DictReader(handle,delimiter='\t')}
-        self.records[best['fit_id']] = best
-        self.baseline = {k:v for k,v in best.items() if k not in ('config','dated_tree','node_ages','validation','raw_scores','log_tail')}
-        save(self.root/'earlier_best.json',best)
-        b.log(f'Earlier best retained: {best["stage"]}, {best["candidate"]}, seed={best["seed"]}; objective={best["objective"]}')
-
-    def reports(self, rows):
-        self.rows = rows
-        b = self.b
-        valid = [r for r in rows if r['status']=='complete']
-        if self.baseline is not None:
-            valid = [self.baseline] + valid
-        summaries = []
-        for c in self.candidates:
-            tag = '-'.join(map(str,c));rr = [r for r in rows if r['candidate']==tag]
-            values = [r['objective'] for r in rr if r['status']=='complete']
-            summaries.append(dict(candidate=tag,attempted=len(rr),requested=len(self.seeds),valid=len(values),failed=len(rr)-len(values),
-                                  best=min(values) if values else None,median=statistics.median(values) if values else None,worst=max(values) if values else None))
-        table(self.root/'summary.tsv',summaries)
-        if not valid:
-            return None
-        best = min(valid,key=lambda r:(r['objective'],r['candidate'],r['seed']))
-        for row in valid:
-            if row['fit_id'] not in self.records:
-                self.records[row['fit_id']] = json.loads((b.root/'.work'/row['fit_id']/'result.json').read_text())
-        reference = self.records[best['fit_id']]['node_ages']
-        comparison = []
-        for row in valid:
-            ages = self.records[row['fit_id']]['node_ages']
-            if ages.keys()!=reference.keys():
-                raise RuntimeError('Deep fits have inconsistent node mappings')
-            delta = [abs(ages[n]-reference[n]) for n in reference]
-            comparison.append(dict(candidate=row['candidate'],seed=row['seed'],seed_index=0 if row is self.baseline else self.seeds.index(row['seed'])+1,
-                                   objective=row['objective'],objective_gap=row['objective']-best['objective'],
-                                   median_age_difference_ma=statistics.median(delta),max_age_difference_ma=max(delta),
-                                   nodes_over_1ma=sum(d>1 for d in delta),fit_id=row['fit_id']))
-        table(self.root/'age_comparison.tsv',comparison)
-        save(self.root/'best_so_far.json',best)
-        try:
-            b.checked([b.rscript,str(self.root/'plot.R'),str(self.root),b.config.stem],self.root/'plotting.log')
-        except (RuntimeError,OSError) as error:
-            b.log(f'Deep-search plot warning: {error}')
-        return best
-
-    def run(self):
-        b = self.b
-        self.root.mkdir()
-        (self.root/'plot.R').write_text(DEEP_PLOT_R)
-        manifest = dict(status='running',smoothing=self.screen['smoothing'],seeds=self.seeds,
-                        candidates=self.screen['deep_candidates'],pliter=b.a.deep_pliter,thorough=False,
-                        jobs=b.a.jobs,threads=b.a.threads,requested_fits=len(self.seeds)*len(self.candidates),
-                        selection_rule='Lowest valid objective across earlier fits at this smoothing and deep fits; exact printed ties use candidate identifier then seed. No early stopping or seed replacement.')
-        save(self.root/'manifest.json',manifest)
-        b.manifest.update(status='running',stage='deep_seed_search',optimizer_screen_status='complete')
-        save(b.root/'manifest.json',b.manifest)
-        b.write_status('running','deep_seed_search')
-        started = time.monotonic()
-        b.log(f'Deep seed search: {len(self.candidates)} configurations x {len(self.seeds)} shared seeds; '
-              f'smooth={self.screen["smoothing"]:g}, pliter={b.a.deep_pliter}, thorough=off')
-        try:
-            self.load_baseline()
-            self.reports([])
-            self.rows = run_fit_stage(b,self.index,self.candidates,self.seeds,'deep_seed_search',b.a.deep_pliter,self.root,self.reports)
-            if any(digest(Path(p))!=h for p,h in b.hashes.items()):
-                raise RuntimeError('Source input or executable changed during deep searching')
-            best = self.reports(self.rows)
-            selection = dict(status='complete' if best else 'incomplete',smoothing=self.screen['smoothing'],best_fit=best,
-                             attempted_fits=len(self.rows),valid_fits=sum(r['status']=='complete' for r in self.rows),
-                             winning_fit_stage=best['stage'] if best else None,
-                             production_config_updated=False,standalone_validation_pending=True)
-            if best:
-                record = self.records[best['fit_id']]
-                (self.root/'best.tre').write_text(record['dated_tree'])
-                best_config = config_text(record['config'],dict(treefile='../input.tre',outfile='best_standalone.tre'),{})
-                (self.root/'best.config').write_text(best_config)
-                table(self.root/'best_node_ages.tsv',[dict(node=n,age_ma=v) for n,v in record['node_ages'].items()])
-                save(self.root/'best.json',record)
-            save(self.root/'selection.json',selection)
-            b.consolidate(self.rows,self.root/'evaluations.jsonl.gz')
-            manifest.update(status=selection['status'],seconds=round(time.monotonic()-started,2),valid_fits=selection['valid_fits'])
-            save(self.root/'manifest.json',manifest)
-            b.manifest.update(status=selection['status'],stage='deep_seed_search',seconds=round(time.monotonic()-b.started,2),production_unchanged=True)
-            save(b.root/'manifest.json',b.manifest)
-            b.log(f'Deep search finished: {selection["valid_fits"]}/{len(self.rows)} valid fits; '
-                  f'best objective={best["objective"] if best else None} from {best["stage"] if best else None}; standalone confirmation and publication remain pending')
-            return selection
-        except BaseException as error:
-            b.stop.set()
-            manifest.update(status='interrupted' if isinstance(error,(KeyboardInterrupt,InterruptedError)) else 'failed',reason=str(error) or 'Interrupted')
-            save(self.root/'manifest.json',manifest)
-            raise
-
-
-def publish_files(files, backup_dir):
-    """Replace the small publication set; roll it back if a write is interrupted."""
-    backup_dir.mkdir()
-    previous = {}
-    for path in files:
-        if path.is_symlink():
-            raise ValueError(f'Refusing to replace a symlinked publication file: {path}')
-        previous[path] = path.read_text() if path.exists() else None
-        if previous[path] is not None:
-            (backup_dir/path.name).write_text(previous[path])
-    replaced = []
-    try:
-        for path,text in files.items():
-            path.parent.mkdir(parents=True,exist_ok=True)
-            replaced.append(path)
-            atomic(path,text)
-    except BaseException:
-        for path in reversed(replaced):
+    def batch(self, name, jobs):
+        plan = self.plans.setdefault(name,{})
+        plan.update({j['id']:j for j in jobs})
+        pending = [j for j in jobs if j['id'] not in self.done]
+        self.plot(force=True)
+        with ThreadPoolExecutor(max_workers=self.a.jobs) as pool:
+            futures = {pool.submit(self.fit,j):j for j in pending}
             try:
-                if previous[path] is None:
-                    path.unlink(missing_ok=True)
-                else:
-                    atomic(path,previous[path])
-            except BaseException as rollback_error:
-                # Keep restoring the other files and preserve the original failure.
-                print(f'Rollback failed for {path}: {rollback_error}; backup: {backup_dir}',file=sys.stderr)
-        raise
+                while futures:
+                    done,_ = wait(futures,timeout=2,return_when=FIRST_COMPLETED)
+                    for future in done:
+                        future.result()
+                        self.done.add(futures.pop(future)['id'])
+                    while not self.events.empty():
+                        r = self.events.get_nowait()
+                        self.results[r['job']['id']] = r
+                    self.plot()
+            except BaseException:
+                self.stop.set()
+                raise
+        self.plot(force=True)
+        ids = {j['id'] for j in jobs}
+        done = [r for r in self.results.values() if r['parent'] in plan]
+        print(f'{name}: {sum(r["status"]=="complete" for r in done)} accepted, '
+              f'{sum(r["status"]!="complete" for r in done)} discarded',flush=True)
+        return [r for r in self.results.values() if r['parent'] in ids]
 
+    def compare(self, name, profiles, grid, seeds, kind='fit'):
+        return self.batch(name,[self.job(p,sm,s,kind,
+            starts=self.starting_states(sm) if self.chaining else (None,None),
+            polish=self.polish if self.chaining else ())
+            for p in unique(profiles) for sm in grid for s in seeds])
 
-class FinalPublication:
-    """Confirm once, publish the better validated fit, and render existing plots."""
+    def curve_starts(self, sm, rep):
+        """Combine the best full fit with this replicate's matching CV states."""
+        x = math.log10(sm)
+        sources = sorted({v for v,r in self.curves},key=lambda v:(abs(v-x),-v))[:2]
+        starts = []
+        for index,v in enumerate(sources):
+            own = self.curves.get((v,rep))
+            if own is None:
+                continue
+            full = min((row for (value,r),row in self.curves.items() if value==v),
+                       key=lambda row:row['objective'])
+            prefix = self.work/f'start-{len(self.jobs):04d}-{rep}-{index}'
+            shutil.copyfile(full['state'],prefix)
+            for fold in range(10):
+                shutil.copyfile(own['state']+f'.cv{fold}',str(prefix)+f'.cv{fold}')
+            starts.append(str(prefix))
+        return tuple((starts+[None,None])[:2])
 
-    def __init__(self, benchmark, deep):
-        if deep['status']!='complete' or not deep['best_fit']:
-            raise ValueError('Final publication requires a valid deep-search winner')
-        self.b = benchmark
-        self.deep = deep
-        self.root = benchmark.root/'final'
-        self.generated = benchmark.config.parent/'generated'
-        self.output = self.generated/(benchmark.config.stem+'.treePL.tre')
-        self.calibrations = self.generated/(benchmark.config.stem+'.calibrations.csv')
-        self.published = False
+    def smoothing(self, p):
+        self.chaining = True
+        def evaluate(requests):
+            jobs = []
+            for req in requests:
+                grid = [10**x for x in req['xs']]
+                starts = (None,None) if req['coarse'] else self.curve_starts(grid[0],req['rep'])
+                local = p if req['explore'] else changed(p,lfsimaniter=0)
+                jobs.append(self.job(local,grid[0],req['seed'],'cv',grid,req['cvseed'],req['rep'],
+                                     starts,continuation=req['coarse'],polish=self.polish))
+            return self.batch('05-smoothing',jobs)
+        def report(search):
+            scores = search.medians()
+            if not scores:
+                return
+            best = min(scores,key=lambda x:(scores[x],-x))
+            table(self.root/'results.tsv',[dict(smoothing=10**x,origin='coarse' if x in search.coarse else 'refined',
+                accepted=search.n,discarded=search.discards.get(x,0),median_cv=score,selected=x==best,
+                **{f'cv_{rep+1}':search.samples[x,rep]['score'] for rep in range(search.n)})
+                for x,score in sorted(scores.items(),reverse=True)])
+            self.plot(force=True)
+            print(f'Smoothing: {len(scores)} values; best median {scores[best]:g} at {10**best:g}',flush=True)
+        search = SmoothingSearch(evaluate,self.a.grid,self.a.seed,self.a.cv_replicates,
+                                 self.a.log_step,self.a.cv_tolerance,report)
+        self.curves = search.samples
+        return search.run()
 
-    def status(self, status, stage):
-        b = self.b
-        self.manifest.update(status=status,stage=stage,published=self.published)
-        save(self.root/'manifest.json',self.manifest)
-        b.manifest.update(status=status,stage=stage,published=self.published,production_unchanged=not self.published)
-        save(b.root/'manifest.json',b.manifest)
-        b.write_status(status,stage,self.published)
+    def plot(self, force=False):
+        if not force and time.monotonic()-self.last_plot < 2:
+            return
+        self.last_plot = time.monotonic()
+        progress = []
+        for name,label in STAGES:
+            jobs = self.plans.get(name, {})
+            done = [r for r in self.results.values() if r['parent'] in jobs]
+            progress.append(dict(label=label, planned=sum(len(j['grid']) for j in jobs.values()), complete=sum(r['status']=='complete' for r in done),
+                                 failed=sum(r['status']!='complete' for r in done)))
+        fit_phase = next((n for n in ('06-final-fits','02-effort','01-algorithms') if n in self.plans), '')
+        ids = list(self.plans.get(fit_phase, {}))
+        fits = [self.results[i] for i in ids if i in self.results and self.results[i]['status']=='complete']
+        best, rows = {}, []
+        for r in fits:
+            sm = r['job']['smoothing']
+            best[sm] = min(r['objective'], best.get(sm, math.inf))
+        for r in fits:
+            j,p = r['job'],r['job']['profile']
+            label = f'{p["opt"]}/{p["optad"]} | {p["pliter"]} | {p["lfsimaniter"]} | {p["ftol"]:g} | {p["moredetail"]}{p["moredetailad"]}'
+            rows.append(dict(profile=str(profile_key(p)), label=label, smoothing=j['smoothing'],
+                             gap=(r['objective']-best[j['smoothing']])/max(abs(best[j['smoothing']]),1)))
+        current = dict(self.curves)
+        for r in self.results.values():
+            if r['parent'] in self.plans.get('05-smoothing',{}) and r['status']=='complete':
+                key = (round(math.log10(r['job']['smoothing']),10),r['job']['rep'])
+                current.setdefault(key,r)
+        cvs = [dict(smoothing=r['job']['smoothing'],replicate=r['job']['rep']+1,score=r['score'])
+               for r in current.values()]
+        table(self.work / 'plot-progress.tsv', progress)
+        table(self.work / 'plot-fits.tsv', rows)
+        table(self.work / 'plot-cv.tsv', cvs)
+        table(self.work / 'plot-state.tsv', [dict(fit_phase=fit_phase,replicates=self.a.cv_replicates,
+            status='Complete' if self.finished else 'Running', complete=len(self.results))])
+        drawn = subprocess.run([self.rscript,str(self.work / 'summary.R'),str(self.work),self.config.stem,str(self.root)],
+                               capture_output=True,text=True)
+        if drawn.returncode:
+            raise RuntimeError('Summary figure failed:\n'+drawn.stderr)
 
-    def plot(self):
-        b = self.b
-        self.status('published','tree_plotting')
-        b.checked([b.rscript,str(b.topology_plot)],self.generated/'tree_plotting.log',cwd=b.config.parent)
-        scientific = self.generated/(b.config.stem+'.scientific.treePL.tre')
-        self.status('published','dated_plotting')
-        title = {'astralpro.l6p1':'ASTRAL-Pro l6p1','roadies_v1.1.16b':'ROADIES v1.1.16b'}.get(b.config.stem,b.config.stem)
-        dated = self.generated/(b.config.stem+'.dated.pdf')
-        b.checked([b.rscript,str(b.dated_plot),'--tree',str(scientific),'--accession-tree',str(self.output),
-                   '--calibrations',str(self.calibrations),'--output',str(dated),'--title',title],
-                  self.generated/'dated_plotting.log',cwd=b.config.parent)
-        outputs = [scientific,dated,self.generated/(b.config.stem+'.treePL.png'),
-                   self.generated/(b.config.stem+'.calibrated_node_ages.tsv')]
-        if any(not p.is_file() or p.stat().st_size==0 for p in outputs):
-            raise RuntimeError('Plotting returned without all expected tree/graphic/age-table outputs')
-        return {str(p):digest(p) for p in outputs}
+    def workflow(self):
+        seed,grid = self.a.seed,self.a.grid
+        anchors = sorted({min(grid,key=lambda sm:abs(math.log10(sm)-x)) for x in (0,-4)},reverse=True)
+        screen = unique([profile(opt=i,optad=j,pliter=5,lfsimaniter=500,ftol=1e-6) for i in range(6) for j in (i,(i+1)%6)])
+        r = self.compare('01-algorithms',screen,anchors,range(seed,seed+2))
+        algorithms = rank_profiles(r)
+        survivors = unique([rank_profiles(r)[0]] + [rank_profiles([v for v in r if v['job']['smoothing']==sm])[0] for sm in anchors])
+        effort = []
+        for p in survivors:
+            base = changed(p,pliter=50,lfsimaniter=1500,ftol=1e-8)
+            effort += [base,changed(base,ftol=1e-10),changed(base,moredetail=1),changed(base,moredetailad=1),
+                       changed(base,moredetail=1,moredetailad=1),changed(base,pliter=100,lfsimaniter=5000)]
+        r = self.compare('02-effort',effort,anchors[:1],range(seed+10,seed+12))
+        finalists = rank_profiles(r)[:2]
+        cv_profiles = [changed(finalists[0],optcvad=i,moredetailcvad=0) for i in range(6)]
+        r = self.compare('03-cv-algorithms',cv_profiles,anchors[:1],range(seed+20,seed+22),'cv')
+        cvbest = rank_profiles(r,cv=True)[0]
+        r = self.compare('04-cv-effort',[cvbest,changed(cvbest,moredetailcvad=1),changed(cvbest,cviter=6),
+                         changed(cvbest,moredetailcvad=1,cviter=6)],anchors[:1],range(seed+20,seed+22),'cv')
+        selected = rank_profiles(r,cv=True)[0]
+        self.polish = polish_methods([selected]+survivors+algorithms,selected['optcvad'])
+        print('Chained optimizers: '+', '.join('/'.join(map(str,m)) for m in self.polish),flush=True)
+        sm = self.smoothing(selected)
+        finalists = [changed(p,optcvad=selected['optcvad'],moredetailcvad=selected['moredetailcvad'],cviter=selected['cviter']) for p in finalists]
+        existing = {(p['opt'],p['optad']) for p in finalists}
+        finalists += [changed(selected,opt=p['opt'],optad=p['optad']) for p in survivors if (p['opt'],p['optad']) not in existing]
+        r = self.compare('06-final-fits',[changed(p,lfsimaniter=0) for p in finalists],[sm],range(seed+200,seed+203))
+        self.export(rank_profiles(r)[0],sm)
+
+    def export(self, p, sm):
+        observed = [r for r in self.results.values() if r['status']=='complete' and r['job']['kind']=='fit' and r['job']['smoothing']==sm]
+        best = min((r for r in observed if r['job']['profile']==p),key=lambda r:r['objective'])
+        reference = min(observed,key=lambda r:r['objective'])
+        tolerance = max(1e-8,abs(reference['objective'])*OBJECTIVE_RTOL)
+        near = [r for r in observed if r['objective']-reference['objective'] <= tolerance]
+        table(self.work / 'trees.tsv',[dict(id=r['job']['id'],path=str(self.work/r['job']['id']/'result.tre'),objective=r['objective']) for r in near])
+        src = self.work / best['job']['id']
+        check = subprocess.run([self.rscript,str(self.work/'final.R'),str(self.tree),str(src/'result.tre'),
+            str(src/'fit.config'),str(self.work/'trees.tsv'),str(self.work)],capture_output=True,text=True)
+        if check.returncode:
+            raise RuntimeError('Final tree check failed:\n'+check.stderr)
+        shutil.copyfile(src/'result.tre',self.root/'dated.tre')
+        shutil.copyfile(self.tree,self.root/'input.tre')
+        shutil.copyfile(src/'state',self.root/'starting.state')
+        (self.root/'recommended.config').write_text(render_config((src/'fit.config').read_text(),
+            dict(treefile='input.tre',outfile='replayed.tre',startstate='starting.state',
+                 polish=','.join('/'.join(map(str,m)) for m in self.polish)),{}))
+        self.finished = True
+        self.plot(force=True)
+        print(f'Finished: smoothing={sm:g}; objective={best["objective"]:g}; settings={p}',flush=True)
+        print(check.stdout.strip(),flush=True)
 
     def run(self):
-        b = self.b
-        self.root.mkdir()
-        self.manifest = dict(status='running',published=False)
-        self.status('running','final_confirmation')
-        try:
-            original = json.loads((b.root/'deep_seed_search/best.json').read_text())
-            candidate = tuple(map(int,original['candidate'].split('-')))
-            index = b.a.smoothing.index(original['smoothing'])
-            b.log('Final confirmation: repeating the winning smoothing, optimizers, seed, iteration budget, and thread count; thorough off')
-            if original['threads']!=b.a.threads or original['thorough']:
-                raise ValueError('Winning thread/thorough settings do not match confirmation controls')
-            repeat = b.fit(index,candidate,original['seed'],'final_confirmation',None,original['pliter'])
-            repeat_record = json.loads((b.root/'.work'/repeat['fit_id']/'result.json').read_text())
-            comparison = dict(original_objective=original['objective'],confirmation_status=repeat['status'],
-                              confirmation_objective=repeat['objective'],objective_change=None,
-                              median_age_difference_ma=None,max_age_difference_ma=None,
-                              selected_source=original['stage'],same_printed_objective=False)
-            selected = original
-            if repeat['status']=='complete':
-                if original['node_ages'].keys()!=repeat_record['node_ages'].keys():
-                    raise RuntimeError('Confirmation node mappings differ')
-                delta = [abs(v-repeat_record['node_ages'][n]) for n,v in original['node_ages'].items()]
-                comparison.update(objective_change=repeat['objective']-original['objective'],
-                                  median_age_difference_ma=statistics.median(delta),max_age_difference_ma=max(delta),
-                                  same_printed_objective=repeat['objective']==original['objective'])
-                if repeat['objective']<original['objective']:
-                    selected = repeat_record
-                    comparison['selected_source'] = 'final_confirmation'
-            save(self.root/'confirmation.json',comparison)
-            b.log(f'Confirmation: {repeat["status"]}; original={original["objective"]}, repeat={repeat["objective"]}; '
-                  f'keeping {comparison["selected_source"]}')
-            self.status('running','final_validation')
-            selected_tree = self.root/'selected.tre'
-            selected_tree.write_text(selected['dated_tree'])
-            c = tuple(map(int,selected['candidate'].split('-')))
-            updates = dict(treefile=b.options['treefile'],outfile='generated/'+self.output.name,
-                           smooth=smoothing_text(selected['smoothing']),seed=selected['seed'],pliter=selected['pliter'],
-                           nthreads=selected['threads'],opt=c[0],optad=c[1],cviter=b.a.cviter)
-            final_config = config_text(b.original,updates,dict(moredetail=bool(c[2]),moredetailad=bool(c[3]),thorough=False))
-            calibration_check(final_config,b.master,b.config.stem)
-            (self.root/'published.config').write_text(final_config)
-            b.checked([b.rscript,str(b.root/'validate.R'),str(b.root/'input.tre'),str(self.root/'published.config'),
-                       str(selected_tree),str(self.root/'selected_node_ages.tsv')],self.root/'selected_validation.log')
-            with (b.root/'master_calibrations.csv').open() as handle:
-                reader = csv.DictReader(handle)
-                fields = reader.fieldnames
-                subset = [r for r in reader if r['node_'+b.config.stem.replace('.','_')].strip()]
-            out = io.StringIO();writer = csv.DictWriter(out,fieldnames=fields)
-            writer.writeheader();writer.writerows(subset)
-            if any(digest(Path(p))!=h for p,h in b.hashes.items()):
-                raise RuntimeError('Source input or executable changed before publication')
-            # Save confirmation records before removing their working files.
-            b.consolidate([repeat],self.root/'evaluations.jsonl.gz')
-            save(self.root/'selection.json',dict(source=comparison['selected_source'],candidate=selected['candidate'],
-                                               smoothing=selected['smoothing'],seed=selected['seed'],pliter=selected['pliter'],
-                                               threads=selected['threads'],thorough=False,objective=selected['objective'],
-                                               winning_fit_stage=selected['stage'],
-                                               confirmation_valid=repeat['status']=='complete',tree_sha256=digest(selected_tree)))
-            self.status('running','publication')
-            publish_files({self.output:selected['dated_tree'],self.calibrations:out.getvalue(),b.config:final_config},
-                          self.root/'before_publication')
-            self.published = True
-            self.manifest.update(selected_source=comparison['selected_source'],objective=selected['objective'],
-                                 confirmation_valid=repeat['status']=='complete',
-                                 published_hashes={str(p):digest(p) for p in (self.output,self.calibrations,b.config)})
-            self.status('published','publication')
-            self.manifest['plot_hashes'] = self.plot()
-            b.manifest.update(seconds=round(time.monotonic()-b.started,2),final_selection=str(self.root/'selection.json'))
-            self.status('complete','complete')
-            b.log(f'COMPLETE: selected tree, optimized config, scientific-name tree, PNG, calibration ages, and dated-tree PDF published in {self.generated}')
-            return dict(status='complete',published=True)
-        except BaseException as error:
-            self.manifest['reason'] = str(error) or 'Interrupted'
-            state = 'published_plot_failed' if self.published else 'failed'
-            if isinstance(error,(KeyboardInterrupt,InterruptedError)):
-                state = 'published_interrupted' if self.published else 'interrupted'
-            self.status(state,self.manifest.get('stage','final_confirmation'))
-            raise
-
-
-def main():
-    args = parse_args()
-    benchmark = RandomCV(args)
-    def stop(signum, frame):
-        benchmark.stop.set()
-        raise KeyboardInterrupt
-    signal.signal(signal.SIGTERM,stop)
-    signal.signal(signal.SIGINT,stop)
-    if args.dry_run:
-        benchmark.preflight()
+        self.root.mkdir(parents=True,exist_ok=False)
+        began = time.monotonic()
+        with tempfile.TemporaryDirectory(prefix='treepl-') as tmp:
+            self.work = Path(tmp)
+            (self.work/'summary.R').write_text(PLOT_R)
+            (self.work/'final.R').write_text(FINAL_R)
+            try:
+                self.workflow()
+            except BaseException:
+                self.stop.set()
+                raise
+            finally:
+                print(f'Elapsed: {(time.monotonic()-began)/60:.1f} min',flush=True)
         return 0
-    with (benchmark.config.parent/'.treepl.lock').open('a') as lock:
-        try:
-            fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
-        except BlockingIOError:
-            raise RuntimeError('Another run for this topology is active; no outputs changed')
-        benchmark.preflight()
-        try:
-            benchmark.prepare()
-            selection = benchmark.run()
-            if selection['status']=='complete':
-                selection = OptimizerScreen(benchmark,selection).run()
-            if selection['status']=='complete':
-                selection = DeepSeedSearch(benchmark,selection).run()
-            if selection['status']=='complete':
-                selection = FinalPublication(benchmark,selection).run()
-        except BaseException as error:
-            benchmark.stop.set()
-            if hasattr(benchmark,'manifest'):
-                state = ('published_interrupted' if isinstance(error,(KeyboardInterrupt,InterruptedError)) else 'published_plot_failed') if benchmark.manifest.get('published') else ('interrupted' if isinstance(error,(KeyboardInterrupt,InterruptedError)) else 'failed')
-                benchmark.manifest.update(status=state, reason=str(error) or 'Interrupted')
-                save(benchmark.root/'manifest.json',benchmark.manifest)
-                benchmark.write_status(state,benchmark.manifest.get('stage','preparation'),benchmark.manifest.get('published',False))
-            raise
-        if selection['status']!='complete':
-            benchmark.write_status('incomplete',benchmark.manifest.get('stage','cv'))
-        return 0 if selection['status']=='complete' else 1
+
+
+def main(argv=None):
+    def interrupted(signum, frame):
+        raise KeyboardInterrupt
+    signal.signal(signal.SIGTERM,interrupted)
+    try:
+        return Optimizer(parse_args(argv)).run()
+    except KeyboardInterrupt:
+        print('Interrupted.',file=sys.stderr)
+        return 130
+    except (ValueError,RuntimeError,OSError,KeyError) as error:
+        print(f'Error: {error}',file=sys.stderr)
+        return 1
 
 
 if __name__ == '__main__':
-    try:
-        sys.exit(main())
-    except (ValueError,RuntimeError,OSError,KeyError) as error:
-        sys.exit(f'Error: {error}')
-    except KeyboardInterrupt:
-        sys.exit(130)
+    sys.exit(main())
