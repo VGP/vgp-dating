@@ -198,7 +198,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
-**CAL103:** _Homo_–_Pan_ divergence | 4.631–15.0Ma\
+**CAL103:** Hominini (_Homo_ + _Pan_) | 4.631–15.0Ma\
 **Tree mapping:** ROADIES node 924; ASTRAL node 807\
 **Node calibrated:** The most recent common ancestor of _Homo sapiens_ and _Pan troglodytes_ within Hominidae\
 **Fossil taxa:** †_Ardipithecus ramidus_ (GWM5sw/P56), a mandibular ramus and partial dentition (p3–m3) from locality GWM-5sw, Gona, Ethiopia ([Semaw et al. 2005](https://doi.org/10.1038/nature03177), [Simpson et al. 2019](https://doi.org/10.1016/j.jhevol.2018.12.005))\
@@ -294,7 +294,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
-**CAL104:** _Vulpes_–_Canis_ divergence | 7.05–23.03Ma\
+**CAL104:** Vulpini + Canini | 7.05–23.03Ma\
 **Tree mapping:** ROADIES node 837; ASTRAL node 892\
 **Node calibrated:** The most recent common ancestor of _Vulpes vulpes_ and _Canis lupus familiaris_ within Canidae\
 **Fossil taxa:** †_Vulpes stenognathus_, including cranial and mandibular material of LACM 55211 from CIT locality 63, Thousand Creek Formation, Humboldt County, Nevada, USA ([Tedford et al. 2009](https://doi.org/10.1206/574.1))\
