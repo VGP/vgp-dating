@@ -362,9 +362,13 @@ def rank_profiles(results, cv=False):
         ranked.append((gap, seconds, group[0]['job']['profile']))
     if not ranked:
         raise ValueError('No successful fits in optimizer comparison')
-    return [p for gap, seconds, p in sorted(ranked, key=lambda r: (
-        0 if r[0] <= OBJECTIVE_RTOL else 1,
-        r[1] if r[0] <= OBJECTIVE_RTOL else r[0], profile_key(r[2])))]
+    def order(row):
+        gap, seconds, p = row
+        if gap > OBJECTIVE_RTOL:
+            return (1, gap, profile_key(p))
+        effort = (p['moredetailcvad'], p['cviter']) if cv else ()
+        return (0, *effort, seconds, profile_key(p))
+    return [p for gap, seconds, p in sorted(ranked, key=order)]
 
 
 def descending_groups(values):
@@ -400,15 +404,16 @@ def refinement_points(scores, resolution=.25, tolerance=.01):
         neighbors = xs[max(0,i-1):i] + xs[i+1:i+2]
         if scores[x] > best*1.2 or any(scores[y] < scores[x] for y in neighbors):
             continue
+        if (i == 0 or i == len(xs)-1) and not math.isclose(
+                scores[x],scores[neighbors[0]],rel_tol=1e-10,abs_tol=1e-8):
+            direction = -1 if i == 0 else 1
+            proposed.add(round(x+direction*min(abs(neighbors[0]-x),1),10))
         # A flat region already has a representative; finer spacing adds little.
         if all(scores[y]-scores[x] <= tolerance*max(abs(scores[x]),1) for y in neighbors):
             continue
         for y in neighbors:
             if abs(y-x) > resolution+1e-9:
                 proposed.add(round((x+y)/2,10))
-        if i == 0 or i == len(xs)-1:
-            direction = -1 if i == 0 else 1
-            proposed.add(round(x+direction*min(abs(neighbors[0]-x),1),10))
     return sorted(proposed-set(xs))
 
 

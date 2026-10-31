@@ -88,8 +88,13 @@ class Optimization(unittest.TestCase):
         self.assertEqual(len({seed for _,_,seed in seen}),8)
         for x in search.medians():
             self.assertEqual({r for y,r in search.samples if y==x},set(range(8)))
-        # A flat tail does not require ever-smaller steps or an arbitrary lower bound.
-        self.assertEqual(mod.refinement_points({-10:10.,-8:10.01,-6:10.02}),[])
+
+    def test_near_tied_boundaries_extend_until_upturn_or_numeric_plateau(self):
+        self.assertEqual(mod.refinement_points({-10:10.,-8:10.01,-6:10.02}),[-11])
+        self.assertEqual(mod.refinement_points({-4:10.02,-2:10.01,0:10.}),[1])
+        self.assertEqual(mod.refinement_points({-11:10.001,-10:10.,-8:10.01}),[])
+        self.assertEqual(mod.refinement_points({-10:10.,-8:10.+1e-10,-6:10.02}),[])
+        self.assertEqual(mod.refinement_points({-10:10.,-8:10.,-6:10.02}),[])
 
     def test_coarse_grid_continues_from_high_to_low_smoothing(self):
         grid = [4,2,0,-2,-4,-6,-8,-10]
@@ -141,6 +146,17 @@ class Optimization(unittest.TestCase):
                      objective=value,seconds=seconds) for i,value,seconds in
                 [(1,5236.9605,10.),(2,5236.961,1.)]]
         self.assertEqual(mod.rank_profiles(rows)[0]['opt'],1)
+
+    def test_cv_ties_prefer_less_effort_before_runtime(self):
+        rows = [dict(job=dict(profile=mod.profile(moredetailcvad=detail,cviter=iterations),
+                             smoothing=1.,seed=1),status='complete',folds=[value]*10,seconds=seconds)
+                for detail,iterations,value,seconds in
+                [(0,3,100.+1e-12,10.),(1,3,100.,1.),(0,6,100.,2.),(1,6,100.,.5)]]
+        ranked = mod.rank_profiles(rows,cv=True)
+        self.assertEqual([(p['moredetailcvad'],p['cviter']) for p in ranked],
+                         [(0,3),(0,6),(1,3),(1,6)])
+        rows[-1]['folds'] = [99.]*10
+        self.assertEqual(mod.rank_profiles(rows,cv=True)[0],rows[-1]['job']['profile'])
 
     def test_export_preserves_constraints_and_removes_custom_controls(self):
         original = ('startstate = /tmp/old\notherstate = /tmp/other\nstateout = state\n'
