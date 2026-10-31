@@ -78,6 +78,18 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
+**CAL105:** Crown Proboscidea | 5.05–23.03Ma\
+**Tree mapping:** ROADIES node 934; ASTRAL node 792\
+**Node calibrated:** The most recent common ancestor of _Loxodonta africana_ and _Elephas maximus indicus_ within Elephantidae\
+**Fossil taxa:** †_Loxodonta cookei_, including the holotype SAM-PQ-L 45627, a right M2 from the Pelletal Phosphate Member of the Varswater Formation, E Quarry, Langebaanweg, South Africa ([Sanders 2007](https://doi.org/10.1080/00359190709519192))\
+**Minimum age:** Early Pliocene (Zanclean), 5.05Ma\
+**Minimum justification:** Palaeomagnetic evidence and correlation with global sea-level reconstructions place the Langebaanweg fauna at approximately 5.15 ± 0.1Ma ([Roberts et al. 2011](https://doi.org/10.1016/j.earscirev.2011.02.002)), giving a minimum age of 5.05Ma.\
+**Maximum age:** Oligocene–Miocene boundary (base Aquitanian), 23.03Ma\
+**Maximum justification:** Following [Benton et al. (2015)](https://doi.org/10.26879/424), we use the Oligocene–Miocene boundary as a soft maximum, based on the abundant Paleogene record of stem proboscideans and absence of crown elephants.\
+**Discussion:** †_Loxodonta cookei_ shares diagnostic dental characters with †_L. exoptata_ and living African elephants, supporting its placement on the _Loxodonta_ lineage ([Sanders 2007](https://doi.org/10.1080/00359190709519192), [Saarinen and Lister 2023](https://doi.org/10.1038/s41559-023-02151-4)), although the species was not sampled in the total-evidence analysis of [Baleka et al. (2022)](https://doi.org/10.1016/j.isci.2021.103559). We therefore use †_L. cookei_ from Langebaanweg to set the minimum age of crown Proboscidea. Older teeth assigned to _Loxodonta_ from the Lukeino Formation of Kenya and Toros-Menalla, Chad, have been used to calibrate crown Proboscidea ([Benton et al. 2015](https://doi.org/10.26879/424)). However, the stratigraphic provenance of the putative Lukeino specimen of †_L. cookei_, KNM-LU 67, is uncertain ([Sanders 2007](https://doi.org/10.1080/00359190709519192)), and the assignment of some Toros-Menalla material to _Loxodonta_ has been questioned ([Sanders et al. 2021](https://doi.org/10.18563/pv.44.2.e3)).
+
+---
+
 **CAL046:** Xenarthra | 47.6–125.8Ma\
 **Tree mapping:** ROADIES node 936; ASTRAL node 786\
 **Node calibrated:** The most recent common ancestor of Cingulata (_Dasypus novemcinctus_) and Folivora (_Choloepus didactylus_)\
@@ -365,6 +377,8 @@ Asher, R.J., Smith, M.R., Rankin, A. and Emry, R.J., 2019. Congruence, fossils a
 
 Bajpai, S. and Gingerich, P.D., 1998. A new Eocene archaeocete (Mammalia, Cetacea) from India and the time of origin of whales. Proceedings of the National Academy of Sciences, 95(26), pp.15464-15468.
 
+Baleka, S., Varela, L., Tambusso, P.S., Paijmans, J.L.A., Mothé, D., Stafford, T.W., Jr., Fariña, R.A. and Hofreiter, M., 2022. Revisiting proboscidean phylogeny and evolution through total evidence and palaeogenetic analyses including _Notiomastodon_ ancient DNA. iScience, 25(1), 103559.
+
 Baskin, J.A., 1996. Systematic revision of Ctenodactylidae (Mammalia, Rodentia) from the Miocene of Pakistan. PalaeoVertebrata, 25(1), pp.1-49.
 
 Beck, R.M., 2012. An ‘ameridelphian’marsupial from the early Eocene of Australia supports a complex model of Southern Hemisphere marsupial biogeography. Naturwissenschaften, 99(9), pp.715-729.
@@ -543,6 +557,8 @@ Ravel, A., Marivaux, L., Tabuce, R., Adaci, M., Mahboubi, M., Mebrouk, F. and Be
 
 Reis, M.D., Gunnell, G.F., Barba-Montoya, J., Wilkins, A., Yang, Z. and Yoder, A.D., 2018. Using phylogenomic data to explore the effects of relaxed clocks and calibration strategies on divergence time estimation: primates as a test case. Systematic biology, 67(4), pp.594-615.
 
+Roberts, D.L., Matthews, T., Herries, A.I.R., Boulter, C., Scott, L., Dondo, C., Mtembi, P., Browning, C., Smith, R.M.H., Haarhoff, P. and Bateman, M.D., 2011. Regional and global context of the Late Cenozoic Langebaanweg (LBW) palaeontological site: West Coast of South Africa. Earth-Science Reviews, 106, pp.191–214.
+
 Roberts, E.M., O’Connor, P.M., Stevens, N.J., Gottfried, M.D., Jinnah, Z.A., Ngasala, S., Choh, A.M. and Armstrong, R.A., 2010. Sedimentology and depositional environments of the Red Sandstone Group, Rukwa Rift Basin, southwestern Tanzania: New insight into Cretaceous and Paleogene terrestrial ecosystems and tectonics in sub-equatorial Africa. Journal of African Earth Sciences, 57(3), pp.179-212.
 
 Robinson, P., Gunnell, G.F., Walsh, S.L., Clyde, W.C., Storer, J.E., Stucky, R.K., Froehlich, D.J., Ferrusquia-Villafranca, I., McKenna, M.C. and Woodburne, M.O., 2004. Wasatchian through Duchesnean biochronology. Late Cretaceous and Cenozoic Mammals of North America. Columbia University Press, New York, pp.106-155.
@@ -552,6 +568,12 @@ Rocha, R.G., Hassan, A.A., Demirtaş, S., Meneses-Ribeiro, M., Rocha, J.L., Gün
 Rose, K.D., DeLeon, V.B., Missiaen, P., Rana, R.S., Sahni, A., Singh, L. and Smith, T., 2008. Early Eocene lagomorph (Mammalia) from Western India and the early diversification of Lagomorpha. Proceedings of the Royal Society B: Biological Sciences, 275(1639), p.1203.
 
 Rose, K.D., Chester, S.G., Dunn, R.H., Boyer, D.M. and Bloch, J.I., 2011. New fossils of the oldest North American euprimate Teilhardina brandti (Omomyidae) from the Paleocene–Eocene thermal maximum. American Journal of Physical Anthropology, 146(2), pp.281-305.
+
+Saarinen, J. and Lister, A.M., 2023. Fluctuating climate and dietary innovation drove ratcheted evolution of proboscidean dental traits. Nature Ecology & Evolution, 7, pp.1490–1502.
+
+Sanders, W.J., 2007. Taxonomic review of fossil Proboscidea (Mammalia) from Langebaanweg, South Africa. Transactions of the Royal Society of South Africa, 62(1), pp.1–16.
+
+Sanders, W.J., Leakey, M.G., Leakey, L.N., Feibel, C.S., Ibui, T.G., Nyete, C., Mbete, M.P. and Brown, F.H., 2021. Morphological description and identification of an extraordinary new elephant cranium from the early Pliocene of Ileret, Kenya. Palaeovertebrata, 44(2), e3.
 
 Seiffert, E.R., Simons, E.L. and Attia, Y., 2003. Fossil evidence for an ancient divergence of lorises and galagos. Nature, 422(6930), pp.421-424.
 
