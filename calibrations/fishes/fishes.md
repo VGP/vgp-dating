@@ -138,6 +138,18 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
+**CAL106:** Salmonidae | 51.43–113.9Ma\
+**Tree mappings:** ROADIES node 1100; ASTRAL node 627.\
+**Node calibrated:** Last common ancestor of the clade encompassing _Coregonus lavaretus_ (Salmonidae: Coregoninae) and _Salvelinus alpinus_ (Salmonidae: Salmoninae).\
+**Fossil taxon:** †_Eosalmo driftwoodensis_ (holotype ROM 11178 A and B)\
+**Minimum age:** 51.43Ma\
+**Minimum justification:** Based on †_Eosalmo driftwoodensis_ from the Driftwood Creek beds (Eocene: Ypresian), Driftwood Canyon, near Smithers, British Columbia, Canada ([Wilson 1977](https://archive.org/details/middleeocenefres00wils)). A U–Pb zircon age of 51.77 ± 0.34Ma was reported for these deposits by [Moss et al. (2005)](https://doi.org/10.1139/e04-095), giving a minimum of 51.43Ma.\
+**Maximum age:** 113.9Ma\
+**Maximum justification:** Based on the upper 95% age bound estimated for total-group Salmoninae in the [Fish Tree of Life](https://fishtreeoflife.org/fossils/eosalmo-driftwoodensis/), using a sequence of older outgroup fossils and a modified implementation of the [Hedman method](https://fishtreeoflife.org/methods/).\
+**Discussion:** Diagnostic cranial and postcranial characters support placement of †_Eosalmo_ on the salmonine stem ([Wilson & Li 1999](https://doi.org/10.1111/j.1096-3642.1999.tb00594.x)), a position also recovered in the combined molecular–morphological and total-evidence analyses of [Alexandrou et al. (2013)](https://doi.org/10.1016/j.ympev.2013.07.026). Although relationships among the three living salmonid subfamilies vary among studies, this placement supports a conservative minimum for the _Coregonus–Salvelinus_ divergence in both VGP trees, which lack _Thymallus_. The fossil has been widely used to calibrate salmonid divergences, including by Near et al. ([2012](https://doi.org/10.1073/pnas.1206625109), [2013](https://doi.org/10.1073/pnas.1304661110)), [Campbell et al. (2013)](https://doi.org/10.1016/j.gene.2013.07.068), and [Lecaudey et al. (2018)](https://doi.org/10.1016/j.ympev.2018.02.022), with minimum ages of 50–51.8Ma.
+
+---
+
 **CAL018:** Gobionidae + Leuciscidae | 27.3–66.0Ma\
 **Tree mappings:** ROADIES node 1109; ASTRAL node 615.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Gobio gobio_ (Gobionidae) and _Phoxinus phoxinus_ (Leuciscidae).\
@@ -306,6 +318,8 @@ TBD
 
 ## References
 
+Alexandrou, M.A., Swartz, B.A., Matzke, N.J. and Oakley, T.H., 2013. Genome duplication and multiple evolutionary origins of complex migratory behavior in Salmonidae. Molecular Phylogenetics and Evolution, 69(3), pp.514-523.
+
 Andreev, P.S., Sansom, I.J., Li, Q., Zhao, W., Wang, J., Wang, C.C., Peng, L., Jia, L., Qiao, T. and Zhu, M., 2022a. The oldest gnathostome teeth. Nature, 609(7929), pp.964-968.
 
 Andreev, P.S., Sansom, I.J., Li, Q., Zhao, W., Wang, J., Wang, C.C., Peng, L., Jia, L., Qiao, T. and Zhu, M., 2022b. Spiny chondrichthyan from the lower Silurian of South China. Nature, 609(7929), pp.969-974.
@@ -349,6 +363,8 @@ Brownstein, C.D. and Near, T.J., 2024. Evolutionary origins of the lampriform pe
 Brownstein, C.D., Dornburg, A. and Near, T.J., 2025. Cenozoic evolutionary history obscures the Mesozoic origins of acanthopterygian fishes. Evolution, 79(6), pp.922-934.
 
 Brownstein, C.D. and Near, T.J., 2026. Phylogenomics and the origins of sharks. bioRxiv, 2026.02.13.705779.
+
+Campbell, M.A., López, J.A., Sado, T. and Miya, M., 2013. Pike and salmon as sister taxa: detailed intraclade resolution and divergence time estimation of Esociformes + Salmoniformes based on whole mitochondrial genome sequences. Gene, 530(1), pp.57-65.
 
 Cantalice, K.M. and Alvarado-Ortega, J., 2016. Eekaulostomus cuevasae gen. and sp. nov., an ancient armored trumpetfish (Aulostomoidea) from Danian (Paleocene) marine deposits of Belisario Domínguez, Chiapas, southeastern Mexico. Palaeontologia Electronica 19.3.53A: 1-24
 
@@ -410,6 +426,8 @@ Kappas, I., Vittas, S., Pantzartzi, C.N., Drosopoulou, E. and Scouras, Z.G., 201
 
 Latimer, A.E. and Giles, S., 2018. A giant dapediid from the Late Triassic of Switzerland and insights into neopterygian phylogeny. Royal Society open science, 5(8).
 
+Lecaudey, L.A., Schliewen, U.K., Osinov, A.G., Taylor, E.B., Bernatchez, L. and Weiss, S.J., 2018. Inferring phylogenetic structure, hybridization and divergence times within Salmoninae (Teleostei: Salmonidae) using RAD-sequencing. Molecular Phylogenetics and Evolution, 124, pp.82-99.
+
 Lund, R., 2000. The new actinopterygian order Guildayichthyiformes from the Lower Carboniferous of Montana (USA). Geodiversitas, 22(2) 171-206.
 
 Marramà, G., Bannikov, A.F. and Carnevale, G., 2020. An Eocene scorpionfish from Monte Postale (Bolca Lagerstätte, northeastern Italy). Bollettino della Società Paleontologica Italiana, 59(2), pp.105–112.
@@ -419,6 +437,8 @@ Melendez-Vazquez, F., Lucaci, A.G., Selberg, A., Clavel, J., Rincon-Sandoval, M.
 Miller, E.C., Faucher, R., Hart, P.B., Rincón-Sandoval, M., Santaquiteria, A., White, W.T., Baldwin, C.C., Miya, M., Betancur-R, R., Tornabene, L. and Evans, K., 2025. Reduced evolutionary constraint accompanies ongoing radiation in deep-sea anglerfishes. Nature Ecology & Evolution, 9(3), pp.474-490.
 
 Monsch, K.A. and Bannikov, A.F., 2012. New taxonomic synopses and revision of the scombroid fishes (Scombroidei, Perciformes), including billfishes, from the Cenozoic of territories of the former USSR. Earth and Environmental Science Transactions of the Royal Society of Edinburgh, 102(4), pp.253-300.
+
+Moss, P.T., Greenwood, D.R. and Archibald, S.B., 2005. Regional and local vegetation community dynamics of the Eocene Okanagan Highlands (British Columbia–Washington State) from palynology. Canadian Journal of Earth Sciences, 42(2), pp.187-204.
 
 Murray, A.M. and Cumbaa, S.L., 2013. Early Turonian acanthomorphs from Lac des Bois, Northwest Territories, Canada. Journal of Vertebrate Paleontology, 33(2), pp.293-300.
 
@@ -480,7 +500,11 @@ Welton, B.J., 2013. A new archaic basking shark (Lamniformes: Cetorhinidae) from
 
 Wick, S.L., 2021. New early Campanian characiform fishes (Otophysi: Characiformes) from West Texas support a south American origin for known late cretaceous characiforms from North America. Cretaceous Research, 128, p.104993.
 
+Wilson, M.V.H., 1977. Middle Eocene freshwater fishes from British Columbia. Life Sciences Contributions, Royal Ontario Museum, 113, pp.1-61.
+
 Wilson, M.V., Brinkman, D.B. and Neuman, A.G., 1992. Cretaceous Esocoidei (Teleostei): early radiation of the pikes in North American fresh waters. Journal of Paleontology, 66(5), pp.839-846.
+
+Wilson, M.V.H. and Li, G.-Q., 1999. Osteology and systematic position of the Eocene salmonid †Eosalmo driftwoodensis Wilson from western North America. Zoological Journal of the Linnean Society, 125(3), pp.279-311.
 
 Wilson, C.D., Mansky, C.F. & Anderson, J.S. 2021. A platysomid occurrence from the Tournaisian of Nova Scotia. Sci Rep 11, 8375.
 

@@ -1,6 +1,6 @@
 # Calibration Set
 
-This is the final set of **105** calibrations, of which **102** apply to the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/blob/master/v0.0.0/roadies_v1.1.16b.nwk) tree, **97** apply to the [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/blob/master/v0.1.1/astralpro.l6p1.tre) tree, and **94** are shared. Detailed justifications following the best practices of [Parham et al. (2012)](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963) are given on the linked page for each set. As our terminal sampling consists entirely of extant species, we are almost universally addressing and calibrating the ages of crown groups (i.e., the MRCA of extant species) in all instances unless otherwise noted as the stem or total-group age.
+This is the final set of **106** calibrations, of which **103** apply to the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/blob/master/v0.0.0/roadies_v1.1.16b.nwk) tree, **98** apply to the [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/blob/master/v0.1.1/astralpro.l6p1.tre) tree, and **95** are shared. Detailed justifications following the best practices of [Parham et al. (2012)](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963) are given on the linked page for each set. As our terminal sampling consists entirely of extant species, we are almost universally addressing and calibrating the ages of crown groups (i.e., the MRCA of extant species) in all instances unless otherwise noted as the stem or total-group age.
 
 CAL identifiers refer to records in the [master calibration list](./master_calibrations.csv).
 
@@ -87,6 +87,10 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 **CAL017:** Esociformes + Salmoniformes | 76.2–201.5Ma\
 **Tree mappings:** ROADIES node 1099; ASTRAL node 626\
 – Based on †_Oldmanesox_, from the Oldman formation (Cretaceous: Campanian), Alberta, Canada.
+
+**CAL106:** Salmonidae | 51.43–113.9Ma\
+**Tree mappings:** ROADIES node 1100; ASTRAL node 627\
+– Based on †_Eosalmo_, from the Driftwood Creek beds (Eocene: Ypresian), British Columbia, Canada.
 
 **CAL018:** Gobionidae + Leuciscidae | 27.3–66.0Ma\
 **Tree mappings:** ROADIES node 1109; ASTRAL node 615\

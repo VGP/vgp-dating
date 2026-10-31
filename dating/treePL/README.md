@@ -1,19 +1,19 @@
 # Exploratory treePL analyses
 
-[treePL](https://github.com/blackrim/treePL) provides exploratory dates under the current [fossil constraints](../../calibrations/README.md), including CAL100–CAL105. Released dated trees are documented under [MD-CAT](../mdcat/README.md).
+[treePL](https://github.com/blackrim/treePL) provides exploratory dates using [fossil constraints](../../calibrations/README.md). Released dated trees are documented under [MD-CAT](../mdcat/README.md).
 
 ## Results
 
-Runs completed 31 October 2026 using corrected treePL, with eight paired CV replicates and independent final fits.
+Runs completed 31 October 2026 using corrected treePL, with eight paired CV replicates and independent final fits. These results predate CAL106 (†_Eosalmo_). The linked configs now contain 103 ROADIES and 98 ASTRAL constraints; the optimization and dating runs have not yet been repeated with CAL106.
 
-| Analysis | Calibrations | Smoothing | Config | Dated tree | Calibrated ages | Figures |
+| Analysis | Calibrations used | Smoothing | Current config | Dated tree | Calibrated ages | Figures |
 | --- | ---: | ---: | --- | --- | --- | --- |
 | ROADIES | 102 | 1.77828 | [Config](roadies_v1.1.16b/roadies_v1.1.16b.config) | [Accessions](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.tre), [names](roadies_v1.1.16b/generated/roadies_v1.1.16b.scientific.treePL.tre) | [TSV](roadies_v1.1.16b/generated/roadies_v1.1.16b.calibrated_node_ages.tsv) | [Tree](roadies_v1.1.16b/generated/roadies_v1.1.16b.dated.pdf), [optimization](roadies_v1.1.16b/generated/optimization.png) |
 | ASTRAL | 97 | 1e-8 | [Config](astralpro.l6p1/astralpro.l6p1.config) | [Accessions](astralpro.l6p1/generated/astralpro.l6p1.treePL.tre), [names](astralpro.l6p1/generated/astralpro.l6p1.scientific.treePL.tre) | [TSV](astralpro.l6p1/generated/astralpro.l6p1.calibrated_node_ages.tsv) | [Tree](astralpro.l6p1/generated/astralpro.l6p1.dated.pdf), [optimization](astralpro.l6p1/generated/optimization.png) |
 
 CV scores: [ROADIES](roadies_v1.1.16b/generated/optimization.tsv), [ASTRAL](astralpro.l6p1/generated/optimization.tsv). Ages and branch lengths are in Ma. Calibration bounds are hard limits in treePL. Final-fit age differences describe numerical stability, not dating uncertainty.
 
-The result configs run with stock treePL from their analysis directories. The dated trees use the corrected optimizer; stock runs can give different ages.
+The configs run with stock treePL from their analysis directories. The dated trees use the corrected optimizer; stock runs can give different ages.
 
 ![ROADIES treePL timescale](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.png)
 
