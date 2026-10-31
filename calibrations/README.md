@@ -1,6 +1,6 @@
 # Calibration Set
 
-This is the final set of **99** calibrations, of which **96** apply to the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/blob/master/v0.0.0/roadies_v1.1.16b.nwk) tree, **91** apply to the [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/blob/master/v0.1.1/astralpro.l6p1.tre) tree, and **88** are shared. Detailed justifications following the best practices of [Parham et al. (2012)](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963) are given on the linked page for each set. As our terminal sampling consists entirely of extant species, we are almost universally addressing and calibrating the ages of crown groups (i.e., the MRCA of extant species) in all instances unless otherwise noted as the stem or total-group age.
+This is the final set of **105** calibrations, of which **102** apply to the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/blob/master/v0.0.0/roadies_v1.1.16b.nwk) tree, **97** apply to the [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/blob/master/v0.1.1/astralpro.l6p1.tre) tree, and **94** are shared. Detailed justifications following the best practices of [Parham et al. (2012)](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963) are given on the linked page for each set. As our terminal sampling consists entirely of extant species, we are almost universally addressing and calibrating the ages of crown groups (i.e., the MRCA of extant species) in all instances unless otherwise noted as the stem or total-group age.
 
 CAL identifiers refer to records in the [master calibration list](./master_calibrations.csv).
 
@@ -124,6 +124,10 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 **Tree mappings:** ROADIES node 1140; ASTRAL node 582\
 – Based on †_Palaeoscyllium_, from the Forest Marble formation (Jurassic: Bathonian), England, United Kingdom.
 
+**CAL100:** Cetorhinidae + Lamnidae | 39.5–143.1Ma\
+**Tree mappings:** ROADIES node 1141; ASTRAL node 584\
+– Based on †_Keasius taylori_ from the middle member of the Keasey Formation (Eocene), Oregon, United States.
+
 **CAL027:** Batomorpha | 184.2–251.2Ma\
 **Tree mappings:** ROADIES node 1145; ASTRAL node 573\
 – Based on †_Antiquaobatis_, from the Komorowo formation (Jurassic: Pliensbachian), Mecklenburg-Vorpommern, Germany.
@@ -208,6 +212,10 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 **Tree mappings:** ROADIES node 931; ASTRAL node 788\
 – Based on the oldest-known stem proboscidean and crown afrotherian †_Ocepeia daouiensis_ from the Selandian of the middle Paleocene.
 
+**CAL105:** Crown Proboscidea | 5.05–23.03Ma\
+**Tree mappings:** ROADIES node 934; ASTRAL node 792\
+– Based on †_Loxodonta cookei_ from the Pelletal Phosphate Member of the Varswater Formation (Pliocene: Zanclean), Langebaanweg, South Africa.
+
 **CAL046:** Xenarthra | 47.6–125.8Ma\
 **Tree mappings:** ROADIES node 936; ASTRAL node 786\
 – Based on the oldest-known stem cingulate and crown xenarthran †_Riostegotherium yanei_ from the Ypresian of the early Eocene.
@@ -248,6 +256,10 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 **Tree mappings:** ROADIES node 920; ASTRAL node 801\
 – Based on the oldest-known stem hominoid and crown catarrhine †_Rukwapithecus fleaglei_ from the Chattian of the late Oligocene.
 
+**CAL103:** Hominini (_Homo_ + _Pan_) | 4.631–15.0Ma\
+**Tree mappings:** ROADIES node 924; ASTRAL node 807\
+– Based on †_Ardipithecus ramidus_ from Gona (Pliocene: Zanclean), Ethiopia.
+
 **CAL056:** Lagomorpha | 47.6–66.0Ma\
 **Tree mappings:** ROADIES node 915; ASTRAL node 811\
 – Based on the oldest-known stem leporid and crown lagomorph fossils (GU/RSR/VAS 711) from the Ypresian of the early Eocene.
@@ -276,9 +288,17 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 **Tree mappings:** ROADIES node 791; ASTRAL node 904\
 – Based on the oldest-known stem cetacean and crown artiodactyl †_Himalayacetus subathuensis_ from the Ypresian of the early Eocene.
 
+**CAL102:** Crown Cetacea (Neoceti) | 36.4–52.4Ma\
+**Tree mappings:** ROADIES node 795; ASTRAL node 914\
+– Based on †_Mystacodon selenensis_ from the Yumaque Member of the Paracas Formation (Eocene: Priabonian), Peru.
+
 **CAL063:** Carnivora | 37.3–66.0Ma\
 **Tree mappings:** ROADIES node 827; ASTRAL node 888\
 – Based on the oldest-known stem caniform and crown carnivoran †_Hesperocyon gregarius_ from the Bartonian of the middle Eocene.
+
+**CAL104:** Vulpini + Canini | 7.05–23.03Ma\
+**Tree mappings:** ROADIES node 837; ASTRAL node 892\
+– Based on †_Vulpes stenognathus_ from the Thousand Creek Formation (late Miocene), Nevada, United States.
 
 
 ## [Squamates](./squamata/squamata.md):
@@ -286,6 +306,10 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 **CAL064:** Squamata | 166.0–215.0Ma\
 **Tree mappings:** ROADIES node 748; ASTRAL node 940\
 – Based on the earliest crown squamates †_Eichstaettisaurus_, †_Helioscopus_, and †_Paramacellodus_ sp., from the middle and late Jurassic.
+
+**CAL101:** Stem Gekkota | 150.0–190.0Ma\
+**Tree mappings:** ROADIES node 781; ASTRAL node 941\
+– Based on the stem gekkotans †_Eichstaettisaurus schroederi_ and †_Helioscopos dickersonae_ from the Late Jurassic of Germany and the United States.
 
 **CAL065:** Unidentata | 166.0–205.0Ma\
 **Tree mappings:** ROADIES node 749; ASTRAL node 943\

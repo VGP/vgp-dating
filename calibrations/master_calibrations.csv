@@ -98,3 +98,9 @@ CAL096,EUPASSERES,605,1098,30.2,45.7,GCA_045364795.1,Willisornis vidua,GCF_03641
 CAL097,PASSERELLIDAE,612,1122,7.5,32.9,GCA_047830755.1,Zonotrichia albicollis,GCA_009764595.1,Geothlypis trichas,aves,
 CAL098,LAMPRIFORMES_GADIFORMES,,641,97.4,145.0,GCF_029633865.1,Lampris incognitus,GCF_902167405.1,Gadus morhua,fishes,ASTRAL-only replacement for CAL015 at node 641; Xenyllion stewarti (FHPR 701); defining pair and bounds from fishes.md: CAL098.
 CAL099,POLYMIXIIFORMES_GADIFORMES,,642,89.8,145.0,GCA_047511565.1,Polymixia lowei,GCF_902167405.1,Gadus morhua,fishes,ASTRAL-only additional calibration at node 642; Boreiohydrias dayi (UALVP 54046); defining pair and bounds from fishes.md: CAL099.
+CAL100,CETORHINIDAE_LAMNIDAE,1141,584,39.5,143.1,GCF_017639515.1,Carcharodon carcharias,GCA_964194155.1,Cetorhinus maximus,fishes,
+CAL101,STEM_GEKKOTA,781,941,150.0,190.0,GCF_028583425.1,Eublepharis macularius,GCA_046126795.1,Dibamus smithi,squamata,
+CAL102,CETACEA,795,914,36.4,52.4,GCF_009873245.2,Balaenoptera musculus,GCF_011762595.1,Tursiops truncatus,mammalia,
+CAL103,HOMININI,924,807,4.631,15.0,GCA_009914755.4,Homo sapiens,GCF_028858775.2,Pan troglodytes,mammalia,
+CAL104,VULPINI_CANINI,837,892,7.05,23.03,GCA_964106825.2,Vulpes vulpes,GCF_011100685.1,Canis lupus familiaris,mammalia,
+CAL105,PROBOSCIDEA,934,792,5.05,23.03,GCF_030014295.1,Loxodonta africana,GCF_024166365.1,Elephas maximus indicus,mammalia,
