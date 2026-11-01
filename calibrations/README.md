@@ -220,7 +220,7 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 **Tree mappings:** ROADIES node 934; ASTRAL node 792\
 – Based on †_Loxodonta cookei_ from the Pelletal Phosphate Member of the Varswater Formation (Pliocene: Zanclean), Langebaanweg, South Africa.
 
-**CAL107:** Sirenia | 29.17–48.07Ma\
+**CAL107:** Sirenia | 29.17–66.0Ma\
 **Tree mappings:** ROADIES node 935; ASTRAL node 790\
 – Based on †_Priscosiren atlantica_ from the San Sebastián Formation (Oligocene: Rupelian), Puerto Rico.
 
