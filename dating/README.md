@@ -2,7 +2,7 @@
 
 We dated the ROADIES v0.0.0 and ASTRAL v0.1.1 trees using [MD-CAT 1.1.15](mdcat/README.md). Branch lengths are given in **millions of years (Ma)**. 
 
-The trees are distributed in [VGP tree-release](https://github.com/VGP/vgp-tree-release). This repository records their calibrations, commands, results, and visualizations. The [calibration documentation](../calibrations/README.md) provides the fossil justifications. The [main list](../calibrations/master_calibrations.csv) contains 108 constraints, with 105 mapped to ROADIES, 100 to ASTRAL, and 97 shared. The released MD-CAT results predate CAL100–CAL108. The exploratory treePL configs and results include CAL100–CAL106; CAL107–CAL108 await the next optimization. The [reference-tree documentation](../trees/README.md) describes the undated topologies, annotations, and APE node-numbering files.
+The trees are distributed in [VGP tree-release](https://github.com/VGP/vgp-tree-release). This repository records their calibrations, commands, results, and visualizations. The [calibration documentation](../calibrations/README.md) provides the fossil justifications. The [main list](../calibrations/master_calibrations.csv) contains 108 constraints, with 105 mapped to ROADIES, 100 to ASTRAL, and 97 shared. The [reference-tree documentation](../trees/README.md) describes the undated topologies, annotations, and APE node-numbering files.
 
 ## Dated trees
 
@@ -15,4 +15,4 @@ The trees are distributed in [VGP tree-release](https://github.com/VGP/vgp-tree-
 
 ## Exploratory analyses
 
-[treePL analyses](treePL/README.md) provide exploratory dates, with a standalone optimizer and configs for the current fossil constraints.
+[treePL analyses](treePL/README.md) provide exploratory dates, with a standalone optimizer and configs.
