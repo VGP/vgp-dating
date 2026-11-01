@@ -308,7 +308,7 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 **Tree mappings:** ROADIES node 837; ASTRAL node 892\
 – Based on †_Vulpes stenognathus_ from the Thousand Creek Formation (late Miocene), Nevada, United States.
 
-**CAL108:** Pinnipedia | 20.45–27.29Ma\
+**CAL108:** Pinnipedia | 20.45–33.9Ma\
 **Tree mappings:** ROADIES node 836; ASTRAL node 897\
 – Based on †_Desmatophoca brachycephala_ from the lower Astoria Formation (Miocene: Aquitanian), Washington, United States.
 
