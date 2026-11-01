@@ -321,7 +321,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **CAL104:** Vulpini + Canini | 7.05–23.03Ma\
 **Tree mapping:** ROADIES node 837; ASTRAL node 892\
 **Node calibrated:** The most recent common ancestor of _Vulpes vulpes_ and _Canis lupus familiaris_ within Canidae\
-**Fossil taxa:** †_Vulpes stenognathus_, including cranial and mandibular material of LACM 55211 from CIT locality 63, Thousand Creek Formation, Humboldt County, Nevada, USA ([Tedford et al. 2009](https://doi.org/10.1206/574.1))\
+**Fossil taxa:** †_Vulpes stenognathus_ (LACM 55211) from CIT locality 63, Thousand Creek Formation, Humboldt County, Nevada, USA ([Tedford et al. 2009](https://doi.org/10.1206/574.1))\
 **Minimum age:** Late Miocene (Messinian), 7.05Ma\
 **Minimum justification:** Radiometric dating and magnetostratigraphy constrain the Thousand Creek sequence to approximately 7.05–8.3Ma ([Prothero and Davis 2008](https://nmdigital.unm.edu/digital/collection/bulletins/id/603), [Davis and McHorse 2013](https://doi.org/10.26879/356)). Individual fossil localities are incompletely resolved within this sequence, so we use the younger limit of 7.05Ma as the minimum.\
 **Maximum age:** Oligocene–Miocene boundary (base Aquitanian), 23.03Ma\
@@ -333,9 +333,9 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **CAL108:** Pinnipedia | 20.45–27.29Ma\
 **Tree mapping:** ROADIES node 836; ASTRAL node 897\
 **Node calibrated:** The most recent common ancestor of Otariidae (_Zalophus californianus_) and Phocidae (_Halichoerus grypus_)\
-**Fossil taxa:** †_Desmatophoca brachycephala_, including the holotype LACM 120199, an incomplete cranium from the lower Astoria Formation near Knappton, Washington, USA ([Barnes 1987](https://doi.org/10.5962/p.208126))\
+**Fossil taxa:** †_Desmatophoca brachycephala_ (LACM 120199) from the lower Astoria Formation near Knappton, Washington, USA ([Barnes 1987](https://doi.org/10.5962/p.208126))\
 **Minimum age:** Early Miocene (Aquitanian), 20.45Ma\
-**Minimum justification:** The occurrence is assigned to the Aquitanian on biostratigraphic evidence ([Deméré et al. 2003](https://doi.org/10.1206/0003-0090%282003%29279%3C0032%3AC%3E2.0.CO%3B2)). Following Álvarez-Carretero et al. ([2022](https://doi.org/10.1038/s41586-021-04341-1)), the end of the Aquitanian gives a minimum age of 20.45Ma.\
+**Minimum justification:** The lower Astoria Formation is assigned to the Aquitanian on biostratigraphic evidence ([Deméré et al. 2003](https://doi.org/10.1206/0003-0090%282003%29279%3C0032%3AC%3E2.0.CO%3B2)). Following Álvarez-Carretero et al. ([2022](https://doi.org/10.1038/s41586-021-04341-1)), the end of the Aquitanian gives a minimum age of 20.45Ma.\
 **Maximum age:** Early–Late Oligocene boundary (base Chattian), 27.29Ma\
 **Maximum justification:** Following Álvarez-Carretero et al. ([2022](https://doi.org/10.1038/s41586-021-04341-1)), we place the soft maximum at the base of the Chattian, based on the late Oligocene record of stem pinnipeds such as †_Enaliarctos tedfordi_.\
 **Discussion:** The morphological analysis of Deméré and Berta ([2002](https://repository.si.edu/bitstream/handle/10088/22502/SCtP-0093.pdf)) included both †_Desmatophoca brachycephala_ and †_D. oregonensis_, recovering _Desmatophoca_ and _Allodesmus_ within Desmatophocidae, sister to Phocidae. The more recent metatree of Park et al. ([2024](https://doi.org/10.1093/evolut/qpae061)) also placed desmatophocids as sister to Phocidae. In contrast, the total-evidence analysis of Paterson et al. ([2020](https://doi.org/10.3389/fevo.2019.00457)), which sampled _Desmatophoca_ at the genus level, placed desmatophocids as sister to Otariidae + Odobenidae. Both arrangements place desmatophocids within crown Pinnipedia, so this uncertainty does not change the node calibrated in our trees. †_D. brachycephala_ was also used to calibrate this divergence in the mammal timescale of Álvarez-Carretero et al. ([2022](https://doi.org/10.1038/s41586-021-04341-1)).
