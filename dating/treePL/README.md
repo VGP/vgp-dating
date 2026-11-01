@@ -4,7 +4,7 @@
 
 ## Results
 
-Runs completed 31 October 2026 using corrected treePL, with eight paired CV replicates and independent final fits. Both analyses include CAL106 (†_Eosalmo_).
+Runs completed 31 October 2026 using corrected treePL, with eight paired CV replicates and independent final fits. Both analyses include CAL106 (†_Eosalmo_). CAL107 (Sirenia) and CAL108 (Pinnipedia) await the next optimization and are not yet included in these configs or results.
 
 | Analysis | Calibrations | Smoothing | Config | Dated tree | Calibrated ages | Figures |
 | --- | ---: | ---: | --- | --- | --- | --- |

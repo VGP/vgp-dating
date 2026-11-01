@@ -9,7 +9,7 @@ Analyses used [MD-CAT 1.1.15](https://github.com/smirarab/MD-Cat/blob/deafdab1e6
 | [ROADIES v0.0.0](roadies_v1.1.16b/README.md) | 581 | [96](https://github.com/VGP/vgp-dating/blob/a1b6da9ae9496c8fcea1554930d8f7b88611f921/dating/treePL/roadies_v1.1.16b/roadies_v1.1.16b.config) | [TSV](roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.tre.tsv) | [PDF](roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.pdf) | [NEXUS](https://github.com/VGP/vgp-tree-release/blob/0eb651ea1a87467788370d1e72b115447c724207/v0.0.0/roadies_v1.1.16b.dated.nexus) |
 | [ASTRAL v0.1.1](astralpro.l6p1/README.md) | 565 | [91](https://github.com/VGP/vgp-dating/blob/a1b6da9ae9496c8fcea1554930d8f7b88611f921/dating/treePL/astralpro.l6p1/astralpro.l6p1.config) | [TSV](astralpro.l6p1/astralpro.l6p1.independent.fast95.tre.tsv) | [PDF](astralpro.l6p1/astralpro.l6p1.independent.fast95.pdf) | [NEXUS](https://github.com/VGP/vgp-tree-release/blob/0eb651ea1a87467788370d1e72b115447c724207/v0.1.1/astralpro.l6p1.dated.nexus) |
 
-Config links preserve the repository versions preceding CAL100–CAL106.
+Config links preserve the repository versions preceding CAL100–CAL108.
 
 ## Node-age tables
 

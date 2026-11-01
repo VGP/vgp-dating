@@ -1,6 +1,6 @@
 # Calibration Set
 
-This is the final set of **106** calibrations, of which **103** apply to the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/blob/master/v0.0.0/roadies_v1.1.16b.nwk) tree, **98** apply to the [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/blob/master/v0.1.1/astralpro.l6p1.tre) tree, and **95** are shared. Detailed justifications following the best practices of [Parham et al. (2012)](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963) are given on the linked page for each set. As our terminal sampling consists entirely of extant species, we are almost universally addressing and calibrating the ages of crown groups (i.e., the MRCA of extant species) in all instances unless otherwise noted as the stem or total-group age.
+This is the current set of **108** calibrations, of which **105** apply to the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/blob/master/v0.0.0/roadies_v1.1.16b.nwk) tree, **100** apply to the [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/blob/master/v0.1.1/astralpro.l6p1.tre) tree, and **97** are shared. Detailed justifications following the best practices of [Parham et al. (2012)](https://academic.oup.com/sysbio/article-abstract/61/2/346/1647963) are given on the linked page for each set. As our terminal sampling consists entirely of extant species, we are almost universally addressing and calibrating the ages of crown groups (i.e., the MRCA of extant species) in all instances unless otherwise noted as the stem or total-group age.
 
 CAL identifiers refer to records in the [master calibration list](./master_calibrations.csv).
 
@@ -220,6 +220,10 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 **Tree mappings:** ROADIES node 934; ASTRAL node 792\
 – Based on †_Loxodonta cookei_ from the Pelletal Phosphate Member of the Varswater Formation (Pliocene: Zanclean), Langebaanweg, South Africa.
 
+**CAL107:** Sirenia | 29.17–48.07Ma\
+**Tree mappings:** ROADIES node 935; ASTRAL node 790\
+– Based on †_Priscosiren atlantica_ from the San Sebastián Formation (Oligocene: Rupelian), Puerto Rico.
+
 **CAL046:** Xenarthra | 47.6–125.8Ma\
 **Tree mappings:** ROADIES node 936; ASTRAL node 786\
 – Based on the oldest-known stem cingulate and crown xenarthran †_Riostegotherium yanei_ from the Ypresian of the early Eocene.
@@ -303,6 +307,10 @@ CAL identifiers refer to records in the [master calibration list](./master_calib
 **CAL104:** Vulpini + Canini | 7.05–23.03Ma\
 **Tree mappings:** ROADIES node 837; ASTRAL node 892\
 – Based on †_Vulpes stenognathus_ from the Thousand Creek Formation (late Miocene), Nevada, United States.
+
+**CAL108:** Pinnipedia | 20.45–27.29Ma\
+**Tree mappings:** ROADIES node 836; ASTRAL node 897\
+– Based on †_Desmatophoca brachycephala_ from the lower Astoria Formation (Miocene: Aquitanian), Washington, United States.
 
 
 ## [Squamates](./squamata/squamata.md):

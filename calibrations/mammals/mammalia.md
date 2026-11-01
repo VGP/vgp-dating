@@ -90,6 +90,18 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
+**CAL107:** Sirenia | 29.17–48.07Ma\
+**Tree mapping:** ROADIES node 935; ASTRAL node 790\
+**Node calibrated:** The most recent common ancestor of Dugongidae (_Dugong dugon_) and Trichechidae (_Trichechus inunguis_)\
+**Fossil taxa:** †_Priscosiren atlantica_, including the holotype USNM 542417 from the San Sebastián Formation, Puerto Rico ([Vélez-Juarbe and Domning 2014](https://doi.org/10.1080/02724634.2013.815192))\
+**Minimum age:** Early Oligocene (Rupelian), 29.17Ma\
+**Minimum justification:** The Puerto Rican occurrence is dated to 29.17–29.78Ma, giving a minimum age of 29.17Ma ([Heritage and Seiffert 2022, table S2](https://dfzljdn9uc3pi.cloudfront.net/2022/13886/1/Table.S2_v1.pdf)).\
+**Maximum age:** Early–Middle Eocene boundary (base Lutetian), 48.07Ma\
+**Maximum justification:** Middle Eocene sirenians, including †_Prorastomus_, †_Protosiren_, and †_Eotheroides_, fall outside the crown in the total-evidence analysis of [Heritage and Seiffert (2022)](https://doi.org/10.7717/peerj.13886). We place the soft maximum at the base of the Lutetian, allowing the divergence to extend back to this early record of the group.\
+**Discussion:** †_Priscosiren_ is placed on the dugong lineage in the morphological analysis of [Vélez-Juarbe and Wood (2018)](https://doi.org/10.1080/02724634.2018.1511799) and the total-evidence analysis of [Heritage and Seiffert (2022)](https://doi.org/10.7717/peerj.13886). The latter recovered †_Priscosiren_ and †_Caribosiren_ as early stem dugongids with strong support, placing both within crown Sirenia. [Heritage et al. (2021)](https://portals.iucn.org/library/sites/library/files/documents/ASGNL_no17.pdf) recommended these fossils for calibrating the dugong–manatee divergence, and Heritage and Seiffert (2022) used †_Priscosiren_ in their molecular dating analysis. Older calibrations based on †_Eotheroides aegyptiacum_, including that of [Álvarez-Carretero et al. (2022)](https://doi.org/10.1038/s41586-021-04341-1), depend on a crown placement that was not recovered by either Vélez-Juarbe and Wood (2018) or Heritage and Seiffert (2022). We therefore prefer †_Priscosiren_ for the minimum.
+
+---
+
 **CAL046:** Xenarthra | 47.6–125.8Ma\
 **Tree mapping:** ROADIES node 936; ASTRAL node 786\
 **Node calibrated:** The most recent common ancestor of Cingulata (_Dasypus novemcinctus_) and Folivora (_Choloepus didactylus_)\
@@ -318,6 +330,18 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
+**CAL108:** Pinnipedia | 20.45–27.29Ma\
+**Tree mapping:** ROADIES node 836; ASTRAL node 897\
+**Node calibrated:** The most recent common ancestor of Otariidae (_Zalophus californianus_) and Phocidae (_Halichoerus grypus_)\
+**Fossil taxa:** †_Desmatophoca brachycephala_, including the holotype LACM 120199, an incomplete cranium from the lower Astoria Formation near Knappton, Washington, USA ([Barnes 1987](https://doi.org/10.5962/p.208126))\
+**Minimum age:** Early Miocene (Aquitanian), 20.45Ma\
+**Minimum justification:** The occurrence is assigned to the Aquitanian on biostratigraphic evidence ([Deméré et al. 2003](https://doi.org/10.1206/0003-0090%282003%29279%3C0032%3AC%3E2.0.CO%3B2)). Following [Álvarez-Carretero et al. (2022)](https://doi.org/10.1038/s41586-021-04341-1), the end of the Aquitanian gives a minimum age of 20.45Ma.\
+**Maximum age:** Early–Late Oligocene boundary (base Chattian), 27.29Ma\
+**Maximum justification:** Following [Álvarez-Carretero et al. (2022)](https://doi.org/10.1038/s41586-021-04341-1), we place the soft maximum at the base of the Chattian, based on the late Oligocene record of stem pinnipeds such as †_Enaliarctos tedfordi_.\
+**Discussion:** The morphological analysis of [Deméré and Berta (2002)](https://repository.si.edu/bitstream/handle/10088/22502/SCtP-0093.pdf) included both †_Desmatophoca brachycephala_ and †_D. oregonensis_, recovering _Desmatophoca_ and _Allodesmus_ within Desmatophocidae, sister to Phocidae. The more recent metatree of [Park et al. (2024)](https://doi.org/10.1093/evolut/qpae061) also placed desmatophocids as sister to Phocidae. In contrast, the total-evidence analysis of [Paterson et al. (2020)](https://doi.org/10.3389/fevo.2019.00457), which sampled _Desmatophoca_ at the genus level, placed desmatophocids as sister to Otariidae + Odobenidae. Both arrangements place desmatophocids within crown Pinnipedia, so this uncertainty does not change the node calibrated in our trees. †_D. brachycephala_ was also used to calibrate this divergence in the mammal timescale of [Álvarez-Carretero et al. (2022)](https://doi.org/10.1038/s41586-021-04341-1).
+
+---
+
 **CAL062:** Artiodactyla | 52.4–66.0Ma\
 **Tree mapping:** ROADIES node 791; ASTRAL node 904\
 **Node calibrated:** Last common ancestor of Tylopoda (_Camelus dromedarius_) and Ruminantia (_Muntiacus reevesi_)\
@@ -379,6 +403,8 @@ Bajpai, S. and Gingerich, P.D., 1998. A new Eocene archaeocete (Mammalia, Cetace
 
 Baleka, S., Varela, L., Tambusso, P.S., Paijmans, J.L.A., Mothé, D., Stafford, T.W., Jr., Fariña, R.A. and Hofreiter, M., 2022. Revisiting proboscidean phylogeny and evolution through total evidence and palaeogenetic analyses including _Notiomastodon_ ancient DNA. iScience, 25(1), 103559.
 
+Barnes, L.G., 1987. An early Miocene pinniped of the genus _Desmatophoca_ (Mammalia: Otariidae) from Washington. Contributions in Science, 382, pp.1–20.
+
 Baskin, J.A., 1996. Systematic revision of Ctenodactylidae (Mammalia, Rodentia) from the Miocene of Pakistan. PalaeoVertebrata, 25(1), pp.1-49.
 
 Beck, R.M., 2012. An ‘ameridelphian’marsupial from the early Eocene of Australia supports a complex model of Southern Hemisphere marsupial biogeography. Naturwissenschaften, 99(9), pp.715-729.
@@ -416,6 +442,10 @@ Coster, P., Benammi, M., Mahboubi, M., Tabuce, R., Adaci, M., Marivaux, L., Bens
 Davis, E.B. and McHorse, B.K., 2013. A method for improved identification of postcrania from mammalian fossil assemblages: multivariate discriminant function analysis of camelid astragali. Palaeontologia Electronica, 16(3), 27A.
 
 de Bonis, L., Peigné, S., Likius, A., Mackaye, H.T., Vignaud, P. and Brunet, M., 2007. The oldest African fox (_Vulpes riffautae_ n. sp., Canidae, Carnivora) recovered in late Miocene deposits of the Djurab desert, Chad. Naturwissenschaften, 94, pp.575–580.
+
+Deméré, T.A. and Berta, A., 2002. The Miocene pinniped _Desmatophoca oregonensis_ Condon, 1906 (Mammalia: Carnivora), from the Astoria Formation, Oregon. Smithsonian Contributions to Paleobiology, 93, pp.113–147.
+
+Deméré, T.A., Berta, A., and Adam, P.J., 2003. Pinnipedimorph evolutionary biogeography. Bulletin of the American Museum of Natural History, 279, pp.32–76.
 
 de Muizon, C., Bianucci, G., Martínez-Cáceres, M. and Lambert, O., 2019. _Mystacodon selenensis_, the earliest known toothed mysticete (Cetacea, Mammalia) from the late Eocene of Peru: anatomy, phylogeny, and feeding adaptations. Geodiversitas, 41(11), pp.401–499.
 
@@ -464,6 +494,10 @@ Harrison, T., Msuya, C.P., Murray, A.M., Jacobs, B.F., Báez, A.M., Mundil, R. a
 Hayes, F.G., 2000. The Brooksville 2 Local Fauna (Arikareean, latest Oligocene): Hernando County, Florida (Vol. 43, No. 1). University of Florida.
 
 Heaton, T.H. 1996. 18. Ischyromyidae. In: Prothero DR, Emry RJ, eds. The Terrestrial Eocene-Oligocene Transition in North America. Cambridge University Press, pp. 373-398.
+
+Heritage, S., Seiffert, E.R., and Borths, M.R., 2021. Recommended fossil calibrators for time-scaled molecular phylogenies of Afrotheria. Afrotherian Conservation, 17, pp.9–13.
+
+Heritage, S. and Seiffert, E.R., 2022. Total evidence time-scaled phylogenetic and biogeographic models for the evolution of sea cows (Sirenia, Afrotheria). PeerJ, 10, e13886.
 
 Ivy, L.D., 1990. Systematics of late Paleocene and early Eocene Rodentia (Mammalia) from the Clarks Fork Basin, Wyoming. Contributions from the Museum of Paleontology, The University of Michigan, 28(2):1–70.
 
@@ -541,6 +575,10 @@ Ogilvie, H.A., Mendes, F.K., Vaughan, T.G., Matzke, N.J., Stadler, T., Welch, D.
 
 Oliveira, É.V. and Bergqvist, L.P., 1998. A new Paleocene armadillo (Mammalia, Dasypodoidea) from the Itaboraí basin, Brazil. Publicación Electrónica de la Asociación Paleontológica Argentina, 5(1): 35–40.
 
+Park, T., Burin, G., Lazo-Cancino, D., Rees, J.P.G., Rule, J.P., Slater, G.J., and Cooper, N., 2024. Charting the course of pinniped evolution: insights from molecular phylogeny and fossil record integration. Evolution, 78(7), pp.1212–1226.
+
+Paterson, R.S., Rybczynski, N., Kohno, N., and Maddin, H.C., 2020. A total evidence phylogenetic analysis of pinniped phylogeny and the possibility of parallel evolution within a monophyletic framework. Frontiers in Ecology and Evolution, 7, 457.
+
 Pattinson, D.J., Thompson, R.S., Piotrowski, A.K. and Asher, R.J., 2015. Phylogeny, paleontology, and primates: do incomplete fossils bias the tree of life?. Systematic Biology, 64(2), pp.169-186.
 
 Perri, A.R., et al., 2021. Dire wolves were the last of an ancient New World canid lineage. Nature, 591, pp.87–91.
@@ -606,6 +644,10 @@ Travouillon, K.J., Archer, M., Hand, S.J. and Godthelp, H., 2006. Multivariate a
 Tsai, C.-H., Goedert, J.L. and Boessenecker, R.W., 2024. The oldest mysticete in the Northern Hemisphere. Current Biology, 34(8), pp.1794–1800.e3.
 
 Upham, N.S., Esselstyn, J.A. and Jetz, W., 2019. Inferring the mammal tree: species-level sets of phylogenies for questions in ecology, evolution, and conservation. PLoS biology, 17(12), p.e3000494.
+
+Vélez-Juarbe, J. and Domning, D.P., 2014. Fossil Sirenia of the West Atlantic and Caribbean region: X. _Priscosiren atlantica_, gen. et sp. nov. Journal of Vertebrate Paleontology, 34(4), pp.951–964.
+
+Vélez-Juarbe, J. and Wood, A.R., 2018. An early Miocene dugongine (Sirenia: Dugongidae) from Panama. Journal of Vertebrate Paleontology, 38(5), e1511799.
 
 Vianey-Liaud, M. and Marivaux, L., 2021. The beginning of the adaptive radiation of Theridomorpha (Rodentia) in Western Europe: morphological and phylogenetic analyses of early and middle Eocene taxa; implications for systematics. Palaeovertebrata, 44, pp.2-e2.
 
