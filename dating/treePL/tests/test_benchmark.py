@@ -70,12 +70,14 @@ class Optimization(unittest.TestCase):
         self.assertEqual(len([r for r in calls if r[0]==0]),4)
 
     def test_both_minima_and_improving_boundaries_are_refined(self):
-        seen = []
+        seen,transfers = [],[]
         def evaluate(requests):
             rows = []
             for req in requests:
                 for x in req['xs']:
                     seen.append((x,req['rep'],req['cvseed']))
+                    if req['donor'] is not None:
+                        transfers.append((req['donor'],x))
                     score = min(1+(x+1.2)**2,1.1+(x-5.3)**2) + .001*req['rep']
                     rows.append(self.row(req,x,score))
             return rows
@@ -86,6 +88,9 @@ class Optimization(unittest.TestCase):
         self.assertTrue(any(x<-1 for x,_,_ in seen))
         self.assertTrue(any(abs(x-5.3)<.25 for x,_,_ in seen))
         self.assertEqual(len({seed for _,_,seed in seen}),8)
+        self.assertTrue(any(a < b and abs(a-b)>2 for a,b in transfers))
+        self.assertTrue(any(a > b for a,b in transfers))
+        self.assertTrue(all(any(b==x for a,b in transfers) for x in (0,2,4)))
         for x in search.medians():
             self.assertEqual({r for y,r in search.samples if y==x},set(range(8)))
 
@@ -116,6 +121,14 @@ class Optimization(unittest.TestCase):
         optimizer.curves = {(-4,0):dict(state='own.state',objective=20.),
                             (-4,1):dict(state='other.state',objective=10.)}
         self.assertEqual(optimizer.curve_starts(1e-6,0),('own.state',None))
+        optimizer.curves.update({(-8,0):dict(state='target.state'),
+                                 (-6,0):dict(state='near.state'),
+                                 (-16,0):dict(state='donor.state')})
+        self.assertEqual(optimizer.curve_starts(1e-8,0,donor=-16),('target.state','donor.state'))
+
+    def test_final_candidates_retain_distant_minima(self):
+        scores = {-16:10.,-12:12.,-8:15.,-4:20.,-2:14.,0:19.,2:25.}
+        self.assertEqual(mod.smoothing_candidates(scores,[-8,0,2],.01),[-16,-8,-2,0,2])
 
     def test_polishing_keeps_complementary_screened_methods(self):
         candidates = [mod.profile(opt=i,optad=j) for i,j in [(0,1),(0,2),(2,3),(1,2),(3,4)]]

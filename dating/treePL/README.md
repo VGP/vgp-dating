@@ -4,12 +4,12 @@
 
 ## Results
 
-Runs completed 31 October 2026 using corrected treePL, with eight paired CV replicates and independent final fits.
+Runs completed 1 November 2026 using corrected treePL, with eight paired CV replicates and independent final fits.
 
 | Analysis | Calibrations | Smoothing | Config | Dated tree | Calibrated ages | Figures |
 | --- | ---: | ---: | --- | --- | --- | --- |
-| ROADIES | 103 | 1.77828 | [Config](roadies_v1.1.16b/roadies_v1.1.16b.config) | [Accessions](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.tre), [names](roadies_v1.1.16b/generated/roadies_v1.1.16b.scientific.treePL.tre) | [TSV](roadies_v1.1.16b/generated/roadies_v1.1.16b.calibrated_node_ages.tsv) | [Tree](roadies_v1.1.16b/generated/roadies_v1.1.16b.dated.pdf), [optimization](roadies_v1.1.16b/generated/optimization.png) |
-| ASTRAL | 98 | 1e-8 | [Config](astralpro.l6p1/astralpro.l6p1.config) | [Accessions](astralpro.l6p1/generated/astralpro.l6p1.treePL.tre), [names](astralpro.l6p1/generated/astralpro.l6p1.scientific.treePL.tre) | [TSV](astralpro.l6p1/generated/astralpro.l6p1.calibrated_node_ages.tsv) | [Tree](astralpro.l6p1/generated/astralpro.l6p1.dated.pdf), [optimization](astralpro.l6p1/generated/optimization.png) |
+| ROADIES | 105 | 1.77828 | [Config](roadies_v1.1.16b/roadies_v1.1.16b.config) | [Accessions](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.tre), [names](roadies_v1.1.16b/generated/roadies_v1.1.16b.scientific.treePL.tre) | [TSV](roadies_v1.1.16b/generated/roadies_v1.1.16b.calibrated_node_ages.tsv) | [Tree](roadies_v1.1.16b/generated/roadies_v1.1.16b.dated.pdf), [optimization](roadies_v1.1.16b/generated/optimization.png) |
+| ASTRAL | 100 | 5.62341e-16 | [Config](astralpro.l6p1/astralpro.l6p1.config) | [Accessions](astralpro.l6p1/generated/astralpro.l6p1.treePL.tre), [names](astralpro.l6p1/generated/astralpro.l6p1.scientific.treePL.tre) | [TSV](astralpro.l6p1/generated/astralpro.l6p1.calibrated_node_ages.tsv) | [Tree](astralpro.l6p1/generated/astralpro.l6p1.dated.pdf), [optimization](astralpro.l6p1/generated/optimization.png) |
 
 CV scores: [ROADIES](roadies_v1.1.16b/generated/optimization.tsv), [ASTRAL](astralpro.l6p1/generated/optimization.tsv). Ages and branch lengths are in Ma. Calibration bounds are hard limits in treePL. Final-fit age differences describe numerical stability, not dating uncertainty.
 
@@ -32,7 +32,7 @@ bash dating/treePL/roadies_v1.1.16b/roadies_v1.1.16b.sh --output roadies-results
 bash dating/treePL/astralpro.l6p1/astralpro.l6p1.sh --output astral-results --treepl /path/to/corrected/treePL
 ```
 
-The optimizer screens algorithms and effort, favoring ordinary CV settings and fewer iterations for numerically equivalent fits. It then searches smoothing from high to low with independent fitted states for each replicate. Three screened optimizers refine each fit. Competitive minima are refined to 0.25 log10 units; interior regions within 1% stop refining. Competitive boundaries extend until CV increases or is numerically unchanged. The largest tested smoothing value within 1% of the lowest median CV score is selected. Held-out taxa remain paired across smoothing values. Nonfinite, negative, or extreme CV scores above `1e12` are discarded and retried. Four independent final fits receive tighter refinement; shortlisted stock settings are checked with three fresh seeds each. There are no runtime cutoffs.
+The optimizer screens algorithms and effort, then searches smoothing from high to low. Three screened optimizers refine each fit. Competitive minima are refined to 0.25 log10 units; boundaries extend until CV increases or is numerically unchanged. Final candidates recheck the CV optimizer and share improved fits in both directions until median scores change by less than 1% and the selection is stable. The largest tested smoothing value within 1% of the best median is selected. Eight replicates keep held-out taxa paired across smoothing values; nonfinite, negative, or extreme scores above `1e12` are retried. Four final fits receive tighter refinement, and stock settings are checked with three fresh seeds each. There are no runtime cutoffs.
 
 Five files are saved: `recommended.config`, `dated.tre`, `input.tre`, `results.tsv`, and the live `summary.png`. Working files are temporary. Run `treePL recommended.config` from the output directory using stock treePL. Rerun the optimizer to reproduce the full workflow.
 
@@ -58,7 +58,7 @@ make all -j2 CPPFLAGS="$TREEPL_CPPFLAGS" CFLAGS="$TREEPL_CPPFLAGS" LDFLAGS="$TRE
 ./treePL --version
 ```
 
-The version must include `vgp-optimizer-fixes-7`. Use this executable with `--treepl`; no installation step is needed. Rebuild from clean objects after changing the patch.
+The version must include `vgp-optimizer-fixes-8`. Use this executable with `--treepl`; no installation step is needed. Rebuild from clean objects after changing the patch.
 
 ## Figures and checks
 

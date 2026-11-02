@@ -34,7 +34,8 @@ OBJECTIVE = re.compile(r'^after opt calc:\s*(\S+)', re.M)
 
 STAGES = [('01-algorithms','Algorithms'), ('02-effort','Search effort'),
           ('03-cv-algorithms','CV optimizer'), ('04-cv-effort','CV effort'),
-          ('05-smoothing','Adaptive smoothing'), ('06-final-fits','Final fits')]
+          ('05-smoothing','Adaptive smoothing'), ('05b-cv-recheck','CV recheck'),
+          ('06-final-fits','Final fits')]
 
 FINAL_R = r"""
 suppressPackageStartupMessages(library(ape))
@@ -138,7 +139,7 @@ draw <- function() {
   saved <- file.path(output,'results.tsv')
   saved <- if(file.exists(saved)) read.delim(saved,stringsAsFactors=FALSE) else data.frame()
   if(nrow(cv)) {
-    plot(cv$smoothing,pmax(cv$score,1e-300),log='xy',type='n',xlab='Smoothing',ylab='CV score')
+    plot(cv$smoothing,pmax(cv$score,1e-300),log='xy',type='n',xlab='Smoothing',ylab='CV score (log scale)')
     for(rep in unique(cv$replicate)) {
       g <- cv[cv$replicate==rep,]; g <- g[order(g$smoothing),]
       lines(g$smoothing,pmax(g$score,1e-300),type='b',pch=16,cex=.35,col=adjustcolor(grey,.3))
@@ -153,8 +154,9 @@ draw <- function() {
     legend('topleft',legend=c('Coarse grid','Added values','Selected'),
            col=c(blue,blue,orange),pch=c(1,16,18),bty='n',cex=.7)
     title('Adaptive smoothing',adj=0,font.main=2,col.main=ink,line=3.6)
-    mtext(paste0(state$replicates[1],' paired replicates per value; blue: current median.'),side=3,line=2.2,cex=.65,adj=0)
-    mtext('Stored scores update when training fits improve.',side=3,line=1.2,cex=.6,adj=0)
+    mtext(paste0('Blue: median; grey: ',state$replicates[1],' paired replicates. Prefer larger smoothing within ',
+                 100*state$tolerance[1],'%.'),side=3,line=2.2,cex=.6,adj=0)
+    cvregion <- par('fig'); cvarea <- par('plt')
   } else empty('Adaptive smoothing','Awaiting CV scores','')
   if(nrow(deviations)) {
     delta <- deviations$difference_ma; span <- max(abs(delta),1e-6)*1.1
@@ -179,6 +181,21 @@ draw <- function() {
   } else if(state$status[1]=='Complete') {
     empty('Node-age differences','One near-best fit','No between-fit comparison.')
   } else empty('Node-age differences','Awaiting final fits','Signed differences and their distribution will appear here.')
+    if(nrow(cv) && nrow(saved)>1) {
+      old <- par(no.readonly=TRUE); region <- cvregion; area <- cvarea
+      inset <- c(area[1]+.55*diff(area[1:2]),area[2]-.02*diff(area[1:2]),
+                 area[3]+.59*diff(area[3:4]),area[4]-.02*diff(area[3:4]))
+      par(fig=c(region[1]+inset[1:2]*diff(region[1:2]),region[3]+inset[3:4]*diff(region[3:4])),
+          mar=c(1.8,1.8,.8,.4),new=TRUE,cex.axis=.5)
+      gap <- 100*(g$median_cv/min(g$median_cv)-1)
+      plot(g$smoothing,gap,log='x',type='n',ylim=c(0,max(5,200*state$tolerance[1])),
+           main='',xlab='',ylab='')
+      u <- par('usr'); rect(10^u[1],u[3],10^u[2],u[4],col='white',border=NA)
+      abline(h=100*state$tolerance[1],col=orange,lty=2)
+      lines(g$smoothing,gap,type='b',pch=16,cex=.3,col=blue); box()
+      title('Above best median (%)',cex.main=.55,line=.2)
+      par(old)
+    }
   mtext(paste0(label,' | treePL optimization'),outer=TRUE,side=3,line=1,adj=.02,cex=1.4,font=2,col=ink)
   mtext(paste0(state$status[1],' | ',format(Sys.time(),'%Y-%m-%d %H:%M %Z'),
                ' | ',state$complete[1],' attempts complete'),outer=TRUE,side=1,line=.2,adj=.02,cex=.75,col='#667781')
@@ -430,11 +447,22 @@ def select_smoothing(scores, tolerance):
     return max(x for x,score in scores.items() if score <= limit)
 
 
+def smoothing_candidates(scores, coarse, tolerance):
+    """Revisit the coarse grid and every local minimum, including distant alternatives."""
+    xs = sorted(scores)
+    minima = [x for i,x in enumerate(xs)
+              if scores[x] <= (scores[xs[i-1]] if i else math.inf)
+              and scores[x] < (scores[xs[i+1]] if i+1 < len(xs) else math.inf)]
+    return sorted(set(coarse).intersection(scores) | set(minima)
+                  | {select_smoothing(scores,tolerance)})
+
+
 class SmoothingSearch:
     """One adaptive grid, with fixed paired replicates and replaceable fitted states."""
     def __init__(self, evaluate, grid, seed, replicates=8, resolution=.25,
-                 tolerance=.01, report=None):
+                 tolerance=.01, report=None, recheck=None):
         self.evaluate, self.report = evaluate, report or (lambda search: None)
+        self.recheck = recheck or (lambda search: None)
         self.coarse = sorted(round(math.log10(x),10) for x in grid)
         self.seed, self.n, self.resolution, self.tolerance = seed,replicates,resolution,tolerance
         self.samples, self.attempts, self.discards = {}, {}, {}
@@ -445,7 +473,7 @@ class SmoothingSearch:
         return {x:statistics.median(self.samples[x,r]['score'] for r in range(self.n))
                 for x in xs if all((x,r) in self.samples for r in range(self.n))}
 
-    def ensure(self, xs, refresh=False, coarse=False, explore=False):
+    def ensure(self, xs, refresh=False, coarse=False, explore=False, donor=None):
         xs = sorted({round(x,10) for x in xs})
         if any(not -300 < x < 300 for x in xs):
             raise ValueError('Smoothing search exceeded floating-point range')
@@ -461,7 +489,7 @@ class SmoothingSearch:
                     attempt = max(self.attempts.get((x,rep),0) for x in group)
                     for x in group:
                         self.attempts[x,rep] = attempt+1
-                    requests.append(dict(xs=group,rep=rep,
+                    requests.append(dict(xs=group,rep=rep,donor=donor,
                         cvseed=(self.seed+100000+rep)%2147483000+1,
                         seed=(self.seed+100030+rep+1009*attempt)%2147483000+1,
                         coarse=first and coarse,
@@ -489,11 +517,30 @@ class SmoothingSearch:
         # Reverse the initial continuation once to spread improved fits back up the grid.
         for x in self.coarse:
             self.ensure([x],refresh=True)
+        self.refine()
+        while True:
+            before = self.medians()
+            self.recheck(self)
+            candidates = smoothing_candidates(self.medians(),self.coarse,self.tolerance)
+            donor = candidates[0]
+            for sweep in (list(reversed(candidates)),candidates):
+                for x in sweep:
+                    self.ensure([x],refresh=True,donor=donor)
+                    donor = x
+            self.refine()
+            after = self.medians()
+            shift = max(abs(after[x]-before[x])/max(abs(before[x]),1) for x in before)
+            print(f'Final smoothing comparison: maximum median change {100*shift:.3g}%',flush=True)
+            if (before.keys()==after.keys() and shift <= max(self.tolerance,1e-10)
+                    and select_smoothing(before,self.tolerance)==select_smoothing(after,self.tolerance)):
+                return 10**select_smoothing(after,self.tolerance)
+
+    def refine(self):
         while True:
             scores = self.medians()
             new = refinement_points(scores,self.resolution,self.tolerance)
             if not new:
-                return 10**select_smoothing(scores,self.tolerance)
+                return
             old = sorted(scores)
             self.round += 1
             self.ensure(new,explore=True)
@@ -524,7 +571,7 @@ class Optimizer:
         if any(k in options for k in ('collapse', 'set1', 'ind8s', 'inr8s', 'sample', 'log_pen')):
             raise ValueError('Unsupported tree-transforming or alternative objective option in config')
         version = subprocess.run([self.binary, '--version'], capture_output=True, text=True)
-        if version.returncode or 'vgp-optimizer-fixes-7' not in version.stdout:
+        if version.returncode or 'vgp-optimizer-fixes-8' not in version.stdout:
             raise ValueError('Use treePL built with the documented treepl-fixes.patch')
         check = subprocess.run([self.rscript, '-e', 'library(ape)'], capture_output=True, text=True)
         if check.returncode:
@@ -657,10 +704,12 @@ class Optimizer:
         return self.batch(name,[self.job(p,sm,s,kind)
             for p in unique(profiles) for sm in grid for s in seeds])
 
-    def curve_starts(self, sm, rep):
+    def curve_starts(self, sm, rep, donor=None):
         """Continue each replicate's own full and CV fits."""
         x = math.log10(sm)
-        sources = sorted({v for v,r in self.curves},key=lambda v:(abs(v-x),-v))[:2]
+        sources = sorted({v for v,r in self.curves if r==rep},key=lambda v:(abs(v-x),-v))
+        if donor is not None:
+            sources = list(dict.fromkeys([round(x,10),donor]+sources))
         starts = []
         for v in sources:
             own = self.curves.get((v,rep))
@@ -670,15 +719,44 @@ class Optimizer:
         return tuple((starts+[None,None])[:2])
 
     def smoothing(self, p):
+        rechecked = set()
         def evaluate(requests):
             jobs = []
             for req in requests:
                 grid = [10**x for x in req['xs']]
-                starts = (None,None) if not self.curves else self.curve_starts(grid[0],req['rep'])
+                starts = (None,None) if not self.curves else self.curve_starts(grid[0],req['rep'],req['donor'])
                 local = p if req['explore'] else changed(p,lfsimaniter=0)
                 jobs.append(self.job(local,grid[0],req['seed'],'cv',grid,req['cvseed'],req['rep'],
                                      starts,continuation=req['coarse'],polish=self.polish))
             return self.batch('05-smoothing',jobs)
+        def recheck(search):
+            nonlocal p
+            scores = search.medians()
+            chosen = select_smoothing(scores,search.tolerance)
+            anchors = {chosen,min(search.coarse,key=lambda x:scores[x])}
+            alternatives = [x for x in smoothing_candidates(scores,search.coarse,search.tolerance)
+                            if all(abs(x-a)>=2 for a in anchors)]
+            if alternatives:
+                anchors.add(min(alternatives,key=lambda x:scores[x]))
+            new = anchors-rechecked
+            if not new:
+                return
+            jobs = [self.job(changed(p,optcvad=i,lfsimaniter=0),10**x,search.seed+500+rep,'cv',
+                        cvseed=(search.seed+100000+rep)%2147483000+1,rep=rep,
+                        starts=self.curve_starts(10**x,rep),
+                        polish=tuple((a,b,i) for a,b,_ in self.polish))
+                    for x in sorted(new) for i in range(6) for rep in range(2)]
+            rows = self.batch('05b-cv-recheck',jobs)
+            winner = rank_profiles(rows,cv=True)[0]['optcvad']
+            p = changed(p,optcvad=winner)
+            self.polish = tuple((a,b,winner) for a,b,_ in self.polish)
+            for row in rows:
+                key = (round(math.log10(row['job']['smoothing']),10),row['job']['rep'])
+                if row['status']=='complete' and better_training(row,search.samples[key]):
+                    search.samples[key] = row
+            rechecked.update(new)
+            print(f'CV recheck: optimizer {winner}; smoothing '+', '.join(f'{10**x:g}' for x in sorted(new)),flush=True)
+            report(search)
         def report(search):
             scores = search.medians()
             if not scores:
@@ -694,9 +772,9 @@ class Optimizer:
             print(f'Smoothing: {len(scores)} values; lowest median {scores[best]:g}; '
                   f'selected {10**selected:g} (median {scores[selected]:g})',flush=True)
         search = SmoothingSearch(evaluate,self.a.grid,self.a.seed,self.a.cv_replicates,
-                                 self.a.log_step,self.a.cv_tolerance,report)
+                                 self.a.log_step,self.a.cv_tolerance,report,recheck)
         self.curves = search.samples
-        return search.run()
+        return search.run(),p
 
     def plot(self, force=False):
         if not self.plot_enabled or (not force and (not self.plot_dirty or time.monotonic()-self.last_plot < 5)):
@@ -733,7 +811,7 @@ class Optimizer:
         table(self.work / 'plot-progress.tsv', progress)
         table(self.work / 'plot-fits.tsv', rows)
         table(self.work / 'plot-cv.tsv', cvs)
-        table(self.work / 'plot-state.tsv', [dict(fit_phase=fit_phase,replicates=self.a.cv_replicates,
+        table(self.work / 'plot-state.tsv', [dict(fit_phase=fit_phase,replicates=self.a.cv_replicates,tolerance=self.a.cv_tolerance,
             status='Complete' if self.finished else 'Running', complete=len(self.results))])
         try:
             subprocess.run([self.rscript,str(self.work / 'summary.R'),str(self.work),self.config.stem,str(self.root)],
@@ -764,7 +842,8 @@ class Optimizer:
         selected = rank_profiles(r,cv=True)[0]
         self.polish = polish_methods([selected]+survivors+algorithms,selected['optcvad'])
         print('Chained optimizers: '+', '.join('/'.join(map(str,m)) for m in self.polish),flush=True)
-        sm = self.smoothing(changed(selected,ftol=min(selected['ftol'],1e-10)))
+        sm,checked = self.smoothing(changed(selected,ftol=min(selected['ftol'],1e-10)))
+        selected = changed(selected,optcvad=checked['optcvad'])
         finalists = [changed(p,optcvad=selected['optcvad'],moredetailcvad=selected['moredetailcvad'],cviter=selected['cviter']) for p in finalists]
         existing = {(p['opt'],p['optad']) for p in finalists}
         finalists += [changed(selected,opt=p['opt'],optad=p['optad']) for p in survivors if (p['opt'],p['optad']) not in existing]

@@ -55,7 +55,7 @@
 +
  int main(int argc,char* argv[]) {
 +    if(argc == 2 && string(argv[1]) == "--version") {
-+        cout << "treePL 1.0 vgp-optimizer-fixes-7 (551cbde1a530adad7986c530ca1f254e3ffd42c7)" << endl;
++        cout << "treePL 1.0 vgp-optimizer-fixes-8 (551cbde1a530adad7986c530ca1f254e3ffd42c7)" << endl;
 +        return 0;
 +    }
      int seed = -1;
@@ -387,7 +387,7 @@
 +        }
 +        double after = plp.calc_pl(*params);
 +        cout << "polish cycle: " << before << " -> " << after << endl;
-+        if(!isfinite(after) || before-after <= (cv ? 1e-8 : min(1e-10,optims->ftol))*max(1.0,fabs(before))) break;
++        if(!isfinite(after) || before-after <= min(1e-10,optims->ftol)*max(1.0,fabs(before))) break;
 +    }
 +    return true;
  }
