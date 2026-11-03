@@ -1,8 +1,5 @@
-# ROADIES MD-CAT overview for the main README.
-# Run: Rscript dating/mdcat/plot_roadies_mdcat.R
-# Requires phytools, plotrix, and png; no network access is needed.
-# Dots use the current ROADIES mappings in master_calibrations.csv.
-# Hairlines show the tree's embedded 95% pooled-percentile age intervals.
+# MD-CAT overview. Run: Rscript dating/mdcat/plot_mdcat.R [roadies_v1.1.16b|astralpro.l6p1] [output.png]
+# Dots use current master calibration mappings; hairlines show embedded 95% intervals.
 suppressPackageStartupMessages({
     library(phytools)
     library(plotrix)
@@ -11,10 +8,17 @@ suppressPackageStartupMessages({
 script <- grep("^--file=", commandArgs(), value = TRUE)
 directory <- if (length(script)) dirname(normalizePath(sub("^--file=", "", script[1]))) else "."
 path <- function(name) file.path(directory, name)
+args <- commandArgs(trailingOnly=TRUE)
+if (length(args)>2L) stop('Usage: plot_mdcat.R [roadies_v1.1.16b|astralpro.l6p1] [output.png]')
+analysis <- if (length(args)) args[1] else 'roadies_v1.1.16b'
+if (!analysis %in% c('roadies_v1.1.16b','astralpro.l6p1')) stop('Unknown MD-CAT tree: ',analysis)
+label <- if (analysis=='astralpro.l6p1') 'ASTRAL' else 'ROADIES'
+column <- if (analysis=='astralpro.l6p1') 'node_astralpro_l6p1' else 'node_roadies_v1_1_16b'
+output <- if(length(args)==2L) args[2] else path(file.path(analysis,paste0(analysis,'.independent.fast95.png')))
 
 # Replace internal-node annotations with temporary labels to preserve their
 # association with nodes when ape reads the NEXUS tree.
-source_text <- paste(readLines(path("roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.tre")), collapse = "\n")
+source_text <- paste(readLines(path(file.path(analysis,paste0(analysis,".independent.fast95.tre")))), collapse = "\n")
 locations <- gregexpr("\\)\\[&[^]]+\\]", source_text, perl = TRUE)
 metadata <- regmatches(source_text, locations)[[1]]
 if (!length(metadata)) stop("No internal-node age annotations found.")
@@ -45,15 +49,21 @@ stopifnot(all(is.finite(as.matrix(ci))), all(ci$lower <= ci$upper),
           max(abs(ci$mean - ages[as.character(ci$node)])) < 1e-6)
 
 master <- read.csv(path("../../calibrations/master_calibrations.csv"), stringsAsFactors = FALSE)
-cal <- master[!is.na(master$node_roadies_v1_1_16b), ]
+cal <- master[!is.na(master[[column]]), ]
 stopifnot(all(c(cal$taxon1_accession, cal$taxon2_accession) %in% tree$tip.label))
 cal$node <- vapply(seq_len(nrow(cal)), function(i)
     getMRCA(tree, c(cal$taxon1_accession[i], cal$taxon2_accession[i])), integer(1))
-stopifnot(all(cal$node == cal$node_roadies_v1_1_16b), !anyDuplicated(cal$node))
+stopifnot(all(cal$node == cal[[column]]), !anyDuplicated(cal$node))
 ci <- ci[match(cal$node, ci$node), ]
 
 annotations <- read.delim(path("../../trees/annotations.tsv"), comment.char = "", stringsAsFactors = FALSE)
 names(annotations)[1] <- "accession"
+if (analysis == 'astralpro.l6p1' && 'kxProAnne1' %in% tree$tip.label) {
+    alias <- annotations[!is.na(annotations$AssemblyId) & annotations$AssemblyId=='kxProAnne1', ,drop=FALSE]
+    if (nrow(alias)!=1L || alias$accession!='GCA_040939525.1') stop('Ambiguous kxProAnne1 alias.')
+    alias$accession <- 'kxProAnne1'
+    annotations <- rbind(annotations,alias)
+}
 stopifnot(!anyDuplicated(annotations$accession), all(tree$tip.label %in% annotations$accession))
 annotations <- annotations[match(tree$tip.label, annotations$accession), ]
 annotations$TAXON <- annotations$VGPLineage
@@ -62,6 +72,8 @@ annotations$TAXON[annotations$Superorder == "Actinopterygii (Ray-finned Fishes)"
 annotations$TAXON[annotations$Superorder %in% c("Testudines (Cryptodira)", "Testudines (Pleurodira)")] <- "turtles"
 annotations$TAXON[annotations$Superorder == "Crocodylia"] <- "crocs"
 annotations$TAXON[annotations$Superorder == "Squamata"] <- "squamates"
+# Orient ASTRAL like the treePL overview while preserving node identities.
+if (analysis == 'astralpro.l6p1') tree <- ladderize(tree, right=TRUE)
 painted <- paintSubTree(tree, Ntip(tree) + 1L, "Root", "0")
 for (group in c("Birds", "Crocs", "Turtles", "Squamates", "Mammals", "Amphibians", "Fishes", "Sharks")) {
     tips <- annotations$accession[annotations$TAXON == tolower(group)]
@@ -72,7 +84,7 @@ colors <- c(Root = "#45484B", Amphibians = "#4E79A7", Birds = "#59A14F",
             Sharks = "#76B7B2", Squamates = "#EDC948", Turtles = "#9C755F")
 h <- max(nodeHeights(painted))
 ah <- .40
-vgp <- png::readPNG(path("../assets/vgp.png"))
+vgp <- png::readPNG(path("../vgp.png"))
 render <- function() {
  par(mar=c(.4,.25,.3,.25),xaxs="i",yaxs="i",family="sans",fg="#44484B")
  lim<-c(-1.415*h,1.415*h); ylim<-c(-.19*h,1.41*h)
@@ -95,16 +107,16 @@ render <- function() {
  # Compact identity block inside the arc.
  rasterImage(vgp,-.34*h,.110*h,.34*h,.394*h)
  text(0,.034*h,"Genomic timescale of\nvertebrate evolution",cex=1.18,font=2,col="#343A40")
- text(0,-.057*h,"ROADIES  ·  MD-CAT",cex=1.0,col="#717980")
+ text(0,-.057*h,paste0(label, "  ·  MD-CAT"),cex=1.0,col="#717980")
  legend(x=.87*h,y=.37*h,xjust=.5,yjust=1,legend=c("Amphibians","Birds","Crocs","Fishes","Mammals","Sharks","Squamates","Turtles"),col=colors[-1],pch=16,pt.cex=1.05,cex=1.00,ncol=2,bty="o",box.lwd=0,box.col=NA,bg=adjustcolor("white",alpha.f=.78),x.intersp=.65,y.intersp=1.1)
- legend(x=.87*h,y=.105*h,xjust=.5,yjust=1,legend=c("Calibrated node","95% age CI"),pch=c(16,NA),lty=c(NA,1),lwd=c(NA,.65),pt.cex=1.05,cex=.91,bty="o",box.col=NA,bg=adjustcolor("white",alpha.f=.78),text.col="#50575D",col=c("#30363B","#9AA1A8"))
+ legend(x=.87*h,y=.105*h,xjust=.5,yjust=1,legend=c("Current calibration node","95% age CI"),pch=c(16,NA),lty=c(NA,1),lwd=c(NA,.65),pt.cex=1.05,cex=.91,bty="o",box.col=NA,bg=adjustcolor("white",alpha.f=.78),text.col="#50575D",col=c("#30363B","#9AA1A8"))
 
 }
 write_plot <- function() {
-    png(path("roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.png"), width = 3000,
+    png(output, width = 3000,
         height = 1720, res = 230, type = "cairo")
     on.exit(dev.off())
     render()
 }
 write_plot()
-message("Created ROADIES MD-CAT overview: ", nrow(cal), " calibration mappings with 95% age CIs.")
+message("Created ",label," MD-CAT overview: ", nrow(cal), " current calibration mappings with 95% age CIs: ",output)

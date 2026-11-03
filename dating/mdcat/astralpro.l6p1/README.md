@@ -12,7 +12,7 @@ The 565-tip ASTRAL-Pro tree was dated with MD-CAT 1.1.15.
 | Baseline repository config (91 calibrations) | [astralpro.l6p1.config](https://github.com/VGP/vgp-dating/blob/a1b6da9ae9496c8fcea1554930d8f7b88611f921/dating/treePL/astralpro.l6p1/astralpro.l6p1.config) |
 | Dated tree (NEXUS) | [astralpro.l6p1.independent.fast95.tre](astralpro.l6p1.independent.fast95.tre) |
 | Node-age table (TSV) | [astralpro.l6p1.independent.fast95.tre.tsv](astralpro.l6p1.independent.fast95.tre.tsv) |
-| Figure | [PDF](astralpro.l6p1.independent.fast95.pdf) |
+| Figures | [PDF](astralpro.l6p1.independent.fast95.pdf), [PNG](astralpro.l6p1.independent.fast95.png) |
 
 The command names the output `fastcorrect`; the available tree and table use `fast95`.
 
