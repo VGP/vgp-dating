@@ -114,7 +114,7 @@ def main():
     if a.workers < 1: p.error('workers must be positive')
     treepl = a.treepl.resolve()
     if not treepl.is_file(): p.error('corrected treePL executable not found')
-    run('Rscript', BASE / 'calibration_config.R')
+    run('Rscript', BASE / 'calibration_config.R', '--update')
     root = a.results_root.resolve() if a.results_root else REPO / '.cache' / ('treepl-' + datetime.now().strftime('%Y%m%d-%H%M%S'))
     if not a.results_root:
         for name, tree in TREES.items():

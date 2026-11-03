@@ -22,7 +22,7 @@ The configs and benchmark use a patched version of treePL. The [patch](treepl.pa
 The workflow requires Python 3.9+, R with `ape`, `ggplot2`, `jsonlite`,
 `phytools`, `plotrix`, and `png`, and [patched treePL](#build-treepl).
 
-To run both trees and update their configs, dated trees, and figures:
+The launcher first updates both configs from the master calibration list and checks the mappings. It then runs both trees and updates their configs, dated trees, and figures:
 
 ```sh
 python3 dating/treePL/run_all.py --treepl /path/to/patched/treePL
@@ -79,4 +79,4 @@ Rscript dating/treePL/plot_treepl.R                 # ROADIES
 Rscript dating/treePL/plot_treepl.R astralpro.l6p1  # ASTRAL
 ```
 
-From the repository root, `Rscript dating/treePL/calibration_config.R` checks calibration mappings and bounds.
+From the repository root, `Rscript dating/treePL/calibration_config.R --update` updates both configs from the master list and checks the mappings. Omit `--update` to check without changing files.
