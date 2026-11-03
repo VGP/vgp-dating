@@ -75,7 +75,8 @@ tree, calibration-age table, and full-tree PDF. It requires `ape`, `phytools`,
 set of plots manually:
 
 ```sh
-Rscript dating/treePL/plot_treepl.R astralpro.l6p1
+Rscript dating/treePL/plot_treepl.R                 # ROADIES
+Rscript dating/treePL/plot_treepl.R astralpro.l6p1  # ASTRAL
 ```
 
 From the repository root, `Rscript dating/treePL/calibration_config.R` checks calibration mappings and bounds.
