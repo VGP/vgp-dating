@@ -68,81 +68,39 @@ for (clade in c("Birds", "Crocs", "Turtles", "Squamates", "Mammals", "Amphibians
     painted <- paintSubTree(painted, getMRCA(tree, tips), clade)
 }
 
-# clade colors
-colors <- c(
-  "#000000",  # black
-  "#4E79A7",  # muted blue
-  "#59A14F",  # muted green
-  "#E15759",  # muted red
-  "#F28E2B",  # muted orange
-  "#B07AA1",  # muted purple
-  "#76B7B2",  # muted teal
-  "#EDC948",  # muted yellow
-  "#9C755F"   # muted brown
-)
-names(colors) <- c("Root","Amphibians","Birds","Crocs","Fishes","Mammals","Sharks","Squamates","Turtles")
-
-# save as PNG
-png(
-  filename = output(".treePL.png"),
-  width = 12,
-  height = 8,
-  units = "in",
-  res = 300
-)
-
-# plot tree as arc
-arc_height<-0.4
-h<-max(nodeHeights(painted))
-
-# internal node ages (Ma), indexed by node number
-bt <- branching.times(tree)
-
-# match MRCA nodes to ages
-mrca_df$estimated_age_ma <- bt[as.character(mrca_df$node)]
-
-# plot tree
-plotTree(tree,color="white",type="arc",lwd=2,ftype="off",
-         arc_height=arc_height,ylim=c(-0.1*h,1.1*(1+arc_height)*h))
-
-op <- par(mgp = c(3, 0.5, 0))  # 2nd value = tick-label distance
-labs<-seq(0,h,by=50)
-a1<-axis(1,pos=-0.02*h,at=h-labs+arc_height*h,
-         labels=labs,cex.axis=0.8,lwd=2,lend=2)
-text(mean(a1),-0.15*h,"Millions of years (Ma)",font=3)
-a2<-axis(1,pos=-0.02*h,at=-h+labs-arc_height*h,
-         labels=labs,cex.axis=0.8,lwd=2,lend=2)
-text(mean(a2),-0.15*h,"Millions of years (Ma)",font=3)
-par(op)
-
-draw.arc(0,0,radius=h-labs[2:length(labs)]+arc_height*h,
-         angle1=,angle2=pi,col=make.transparent("black",0.4),
-         lty="dotted")
-plot(painted,colors,type="arc",lwd=2,ftype="off",
-     arc_height=arc_height,ylim=c(-0.1*h,1.1*(1+arc_height)*h),add=T)
-nodelabels(node = mrca_df$node,pch = 21,bg  = "black",col = "black",cex = 0.6)
-legend(x="topleft",legend=names(colors)[-1],
-       pch=21,pt.cex=2.0,pt.bg=colors[-1],bty="n")
-legend(x = "topright",legend = "Fossil calibrations",pch = 21,
-       pt.bg = "black",col = "black",pt.cex = 1.2,bty = "n")
-text(x = 0,y = -0.15 * h,labels = "Genomic timescale of\nvertebrate evolution",cex = 1.2,font = 2)
-
-# graphics
+# Match the MD-CAT overview styling; treePL has no age intervals to plot.
+colors <- c(Root="#45484B", Amphibians="#4E79A7", Birds="#59A14F",
+            Crocs="#E15759", Fishes="#F28E2B", Mammals="#B07AA1",
+            Sharks="#76B7B2", Squamates="#EDC948", Turtles="#9C755F")
+h <- max(nodeHeights(painted))
+ah <- .40
+mrca_df$estimated_age_ma <- branching.times(tree)[as.character(mrca_df$node)]
 vgp <- png::readPNG(file.path(dirname(base), "vgp.png"))
+label <- if (analysis == "astralpro.l6p1") "ASTRAL" else "ROADIES"
 
-aspect <- 842 / 352   # ≈ 2.392
-img_height <- 0.3 * h     # size dial (increase/decrease here)
-img_width  <- img_height * aspect
-y_bottom <- -0.06 * h      # push below axes
-
-rasterImage(
-  vgp,
-  xleft   = -img_width / 2,
-  xright  =  img_width / 2,
-  ybottom =  y_bottom,
-  ytop    =  y_bottom + img_height
-)
-
+png(output(".treePL.png"), width=3000, height=1720, res=230, type="cairo")
+par(mar=c(.4,.25,.3,.25), xaxs="i", yaxs="i", family="sans", fg="#44484B")
+lim <- c(-1.415*h, 1.415*h); ylim <- c(-.19*h, 1.41*h)
+plotTree(tree, color="white", type="arc", lwd=1, ftype="off", arc_height=ah, xlim=lim, ylim=ylim)
+labs <- seq(100, floor(h/100)*100, 100)
+for (age in labs) draw.arc(0, 0, radius=h-age+ah*h, angle1=0, angle2=pi, col="#E2E5E7", lwd=.65)
+plot(painted, colors, type="arc", lwd=1.15, ftype="off", arc_height=ah, xlim=lim, ylim=ylim, add=TRUE)
+nodelabels(node=mrca_df$node, pch=16, col="#30363B", cex=.70)
+par(mgp=c(2,.4,0))
+ticks <- seq(0, floor(h/100)*100, 100)
+axis(1, pos=-.018*h, at=h-ticks+ah*h, labels=ticks, tck=-.009, cex.axis=.90, col="#B7BDC1", col.axis="#656C72", lwd=.6)
+axis(1, pos=-.018*h, at=-h+ticks-ah*h, labels=ticks, tck=-.009, cex.axis=.90, col="#B7BDC1", col.axis="#656C72", lwd=.6)
+text(0, -.150*h, "Age (Ma)", cex=1.12, col="#656C72")
+rasterImage(vgp, -.34*h, .110*h, .34*h, .394*h)
+text(0, .034*h, "Genomic timescale of\nvertebrate evolution", cex=1.18, font=2, col="#343A40")
+text(0, -.057*h, paste0(label, "  ·  treePL"), cex=1.0, col="#717980")
+legend(x=.87*h, y=.37*h, xjust=.5, yjust=1,
+       legend=c("Amphibians","Birds","Crocs","Fishes","Mammals","Sharks","Squamates","Turtles"),
+       col=colors[-1], pch=16, pt.cex=1.05, cex=1.00, ncol=2, bty="o", box.lwd=0,
+       box.col=NA, bg=adjustcolor("white",alpha.f=.78), x.intersp=.65, y.intersp=1.1)
+legend(x=.87*h, y=.105*h, xjust=.5, yjust=1, legend="Current calibration node",
+       pch=16, pt.cex=1.05, cex=.91, bty="o", box.col=NA,
+       bg=adjustcolor("white",alpha.f=.78), text.col="#50575D", col="#30363B")
 dev.off()
 
 # Estimated ages for calibration nodes:
