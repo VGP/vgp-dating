@@ -4,64 +4,48 @@
 
 ## Results
 
-Runs completed 3 November 2026 using corrected treePL, with 12 paired CV replicates and independent final fits.
+Runs completed 3 November 2026 using patched treePL.
 
 | Analysis | Calibrations | Smoothing | Config | Dated tree | Calibrated ages | Figures |
 | --- | ---: | ---: | --- | --- | --- | --- |
 | ROADIES | 105 | 1 | [Config](roadies_v1.1.16b/roadies_v1.1.16b.config) | [Accessions](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.tre), [names](roadies_v1.1.16b/generated/roadies_v1.1.16b.scientific.treePL.tre) | [TSV](roadies_v1.1.16b/generated/roadies_v1.1.16b.calibrated_node_ages.tsv) | [Tree](roadies_v1.1.16b/generated/roadies_v1.1.16b.dated.pdf), [optimization](roadies_v1.1.16b/generated/optimization.png) |
 | ASTRAL | 100 | 0.01 | [Config](astralpro.l6p1/astralpro.l6p1.config) | [Accessions](astralpro.l6p1/generated/astralpro.l6p1.treePL.tre), [names](astralpro.l6p1/generated/astralpro.l6p1.scientific.treePL.tre) | [TSV](astralpro.l6p1/generated/astralpro.l6p1.calibrated_node_ages.tsv) | [Tree](astralpro.l6p1/generated/astralpro.l6p1.dated.pdf), [optimization](astralpro.l6p1/generated/optimization.png) |
 
-CV scores: [ROADIES](roadies_v1.1.16b/generated/optimization.tsv), [ASTRAL](astralpro.l6p1/generated/optimization.tsv). Ages and branch lengths are in Ma. Calibration bounds are hard limits in treePL. Final-fit age differences describe numerical stability, not dating uncertainty.
+CV scores: [ROADIES](roadies_v1.1.16b/generated/optimization.tsv), [ASTRAL](astralpro.l6p1/generated/optimization.tsv). Ages and branch lengths are in Ma. Calibration bounds are hard limits in treePL.
 
-The configs and benchmark use corrected treePL. A config starts a fresh fit; the saved tree may have benefited from an internally carried state and may not be reproduced exactly by running the config alone.
+The configs and benchmark use a patched version of treePL. The [patch](treepl.patch) fixes cross-validation sampling, optimizer selection, and numerical issues in treePL. It also allows the benchmark to carry useful fits between smoothing values. [Build instructions](#build-treepl) are below.
 
 ![ROADIES treePL timescale](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.png)
 
 ## Run the optimizer
 
-The standalone [script](treepl_benchmark.py) requires Python 3.9+, R with
-`ape`, `ggplot2`, and `jsonlite`, and a corrected treePL build. First [build the corrected treePL](#build-treepl); the launcher does not apply the patch automatically.
+The workflow requires Python 3.9+, R with `ape`, `ggplot2`, `jsonlite`,
+`phytools`, `plotrix`, and `png`, and [patched treePL](#build-treepl).
 
-Run both trees, update their configs, and regenerate all plots and tables:
-
-```sh
-python3 dating/treePL/run_all.py --treepl /path/to/corrected/treePL
-```
-
-The launcher audits calibration mappings, runs each benchmark, checks each
-final tree, and stages both sets of outputs before updating the tree folders.
-Use `--workers` to set concurrent workers per tree. Complete matching benchmark
-results can be reused with `--results-root PATH` together with `--treepl`; the
-launcher checks their input config, tree, and executable hashes.
-
-For one arbitrary input tree, the benchmark can also be run directly:
+To run both trees and update their configs, dated trees, and figures:
 
 ```sh
-python3 dating/treePL/treepl_benchmark.py analysis.config --output results --treepl /path/to/corrected/treePL
+python3 dating/treePL/run_all.py --treepl /path/to/patched/treePL
 ```
-Tree paths are relative to the input config. Each invocation starts fresh in a
-new output directory. `--workers` defaults to available logical CPUs minus one;
-`--replicates` defaults to 12; `--seed` controls numerical and CV seeds. The combined launcher updates both configured VGP trees.
 
-Six optimizer profiles receive four matched CV starts at smoothing 1. The
-fastest profile with a training objective comparable to the best is selected.
-The 11 smoothing values from 1e4 to 1e-6 are evaluated high to low with paired
-held-out groups; failed or invalid CV fits are retried with the next ranked
-optimizer and a new numerical seed. The smallest median CV score is selected.
-At the winning value, six full-tree optimizer profiles are compared from the
-same saved state, applicable full-tree detail flags are checked, and eight
-independent full-tree fits are run. The best fit is saved as `dated.tre`.
-The live figure and intermediate results are saved in the output directory.
+The benchmark tests optimizer settings and uses cross-validation to compare
+11 smoothing values from `1e4` to `1e-6`. It then improves the final fit at the
+best smoothing value. The CV figure updates as results become available.
 
-`recommended.config` uses the adjacent `input.tre` and requires corrected
-treePL. The config is for a fresh start; reproducing a state-carried fit exactly
-would require retaining its starting state. The benchmark alone does not modify
-the input config; the combined launcher updates each tree config and its
-generated outputs. A successful fit is not proof of convergence.
+To benchmark another tree, provide its treePL config and a new output folder:
+
+```sh
+python3 dating/treePL/treepl_benchmark.py analysis.config --output results --treepl /path/to/patched/treePL
+```
+
+Tree paths in the config are relative to the config file. Use `--workers` to
+set how many fits run at once; by default, the script uses all available logical
+CPUs except one. The benchmark writes its results to the output folder without
+changing the input config.
 
 ## Build treePL
 
-The [source patch](treepl.patch) corrects CV sampling, CV optimizer selection, gradient clipping, and annealing acceptance, and adds separate CV seeds and best-fit carryover. Build it separately from any installed treePL:
+Download the specified treePL version and apply the [patch](treepl.patch). This builds a separate executable and does not change an existing treePL installation:
 
 ```sh
 curl -L https://github.com/blackrim/treePL/archive/551cbde1a530adad7986c530ca1f254e3ffd42c7.tar.gz -o treePL.tar.gz
