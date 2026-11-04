@@ -381,6 +381,12 @@ The figure compares TimeTree estimates for the calibrated taxon pair with the re
 
 ![Mammalia likelihood checkpoint](mammalia_likelihood_checkpoints.png)
 
+Additional checkpoint estimates are available in the [shared table](../checkpoint_estimates.csv).
+
+![Theria likelihood checkpoint](theria_likelihood_checkpoints.png)
+
+![Placentalia likelihood checkpoint](placentalia_likelihood_checkpoints.png)
+
 ## References
 
 Aghová, T., Kimura, Y., Bryja, J., Dobigny, G., Granjon, L. and Kergoat, G.J., 2018. Fossils know it best: using a new set of fossil calibrations to improve the temporal phylogenetic framework of murid rodents (Rodentia: Muridae). Molecular Phylogenetics and Evolution, 128, pp.98-111.

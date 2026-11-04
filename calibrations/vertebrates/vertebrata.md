@@ -57,6 +57,14 @@ The figure compares TimeTree estimates for the calibrated taxon pair with the re
 
 ![Vertebrata likelihood checkpoint](vertebrata_likelihood_checkpoints.png)
 
+Additional checkpoint estimates are available in the [shared table](../checkpoint_estimates.csv).
+
+![Cyclostomata likelihood checkpoint](cyclostomata_likelihood_checkpoints.png)
+
+![Gnathostomata likelihood checkpoint](gnathostomata_likelihood_checkpoints.png)
+
+![Osteichthyes likelihood checkpoint](osteichthyes_likelihood_checkpoints.png)
+
 ## References
 
 Becker R.T., J.E.A. Marshall, A.-C. Da Silva, F.P. Agterberg, F.M. Gradstein, J.G. Ogg, 2020. Chapter 22 - The Devonian Period, in Editor(s): Felix M. Gradstein, James G. Ogg, Mark D. Schmitz, Gabi M. Ogg, Geologic Time Scale 2020, Elsevier, 2020, Pages 733-810, ISBN 9780128243602.

@@ -14,3 +14,5 @@ The silhouettes in the vertebrate, teleost, tetrapod and mammal checkpoint figur
 - [Platypus](https://www.phylopic.org/images/3ca524e8-74c5-45ad-a267-9f599ab7d751/ornithorhynchus-anatinus), Margot Michaud.
 - [Virginia opossum](https://www.phylopic.org/images/0e1fe113-feb7-46db-8a10-12f22f80332c/didelphis-virginiana), Margot Michaud.
 - [Nine-banded armadillo](https://www.phylopic.org/images/5d59b5ce-c1dd-40f6-b295-8d2629b9775e/dasypus-novemcinctus), Steven Traver.
+
+- [Common ostrich](https://www.phylopic.org/images/df5979fc-7cdd-41c7-ac47-7107ba3f7e1a), Ferran Sayol, CC0 1.0.

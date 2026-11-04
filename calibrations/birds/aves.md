@@ -388,7 +388,9 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ## Likelihood checkpoints
 
-TBD
+Published estimates for Aves and Palaeognathae are compared with the released ROADIES and ASTRAL trees. Aves is represented by *Struthio camelus* and *Gallus gallus*, and Palaeognathae by *Struthio camelus* and *Eudromia elegans*. The points are from the [shared checkpoint table](../checkpoint_estimates.csv); the [plotting script](bird_checkpoints.R) excludes points beyond 1.5 times the interquartile range from the density and marks them in red. Multiple estimates from a study may come from alternative trees or analyses.
+
+![Bird likelihood checkpoints](aves_likelihood_checkpoints.png)
 
 ## References
 

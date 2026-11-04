@@ -57,6 +57,14 @@ The figure compares TimeTree estimates for the calibrated taxon pair with the re
 ![Tetrapoda likelihood checkpoint](tetrapoda_likelihood_checkpoints.png)
 
 
+Additional checkpoint estimates are available in the [shared table](../checkpoint_estimates.csv).
+
+![Amniota likelihood checkpoint](amniota_likelihood_checkpoints.png)
+
+![Sauria likelihood checkpoint](sauria_likelihood_checkpoints.png)
+
+![Archosauria likelihood checkpoint](archosauria_likelihood_checkpoints.png)
+
 ## References
 
 Benton MJ, Donoghue PCJ (2007) Paleontological evidence to date the tree of life. Mol Biol Evol 24: 26–53.

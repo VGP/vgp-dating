@@ -8,11 +8,19 @@ estimates <- read.csv(file.path(root, 'calibrations/checkpoint_estimates.csv'))
 ids <- c(Deuterostomia = 'CAL001', Vertebrata = 'CAL005', Teleostei = 'CAL009',
          Tetrapoda = 'CAL028', Lissamphibia = 'CAL032', Batrachia = 'CAL033',
          Anura = 'CAL034', Gymnophiona = NA, Squamata = 'CAL064',
-         Testudines = 'CAL074', Crocodylia = 'CAL083', Mammalia = 'CAL040')
+         Testudines = 'CAL074', Crocodylia = 'CAL083', Mammalia = 'CAL040',
+         Aves = NA, Palaeognathae = NA,
+         Cyclostomata = 'CAL006', Gnathostomata = 'CAL007', Osteichthyes = 'CAL008',
+         Chondrichthyes = 'CAL025', Amniota = 'CAL029', Sauria = 'CAL030', Archosauria = 'CAL031',
+         Theria = 'CAL041', Placentalia = 'CAL044')
 windows <- list(Deuterostomia = c(480, 1050), Vertebrata = c(400, 850), Teleostei = c(0, 400),
                 Tetrapoda = c(200, 500), Lissamphibia = c(200, 400), Batrachia = c(150, 400),
                 Anura = c(100, 350), Gymnophiona = c(0, 400), Squamata = c(100, 320),
-                Testudines = c(50, 300), Crocodylia = c(0, 200), Mammalia = c(50, 300))
+                Testudines = c(50, 300), Crocodylia = c(0, 200), Mammalia = c(50, 300),
+                Aves = c(0, 260), Palaeognathae = c(0, 130),
+                Cyclostomata = c(200, 750), Gnathostomata = c(300, 700), Osteichthyes = c(200, 600),
+                Chondrichthyes = c(250, 550), Amniota = c(100, 500), Sauria = c(150, 400),
+                Archosauria = c(150, 400), Theria = c(50, 300), Placentalia = c(0, 200))
 tree_files <- c(ROADIES = 'roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.tre',
                 ASTRAL = 'astralpro.l6p1/astralpro.l6p1.independent.fast95.tre')
 trees <- lapply(file.path(root, 'dating/mdcat', tree_files), function(path) {
@@ -26,6 +34,10 @@ panels <- lapply(names(ids), function(clade) {
   cal <- if (clade == 'Gymnophiona') {
     data.frame(taxon1_accession = 'GCF_901001135.1', taxon2_accession = 'GCA_901765095.2',
                min_ma = NA_real_, max_ma = NA_real_)
+  } else if (clade %in% c('Aves', 'Palaeognathae')) {
+    data.frame(taxon1_accession = 'GCF_040807025.1',
+      taxon2_accession = if (clade == 'Aves') 'GCF_016700215.2' else 'GCA_047922985.1',
+      min_ma = NA_real_, max_ma = NA_real_)
   } else master[master$calibration_id == ids[[clade]], ]
   values <- estimates[estimates$clade == clade & is.finite(estimates$age_ma), ]
   stopifnot(nrow(cal) == 1, nrow(values) > 1)
@@ -59,9 +71,15 @@ panels <- lapply(names(ids), function(clade) {
     theme(axis.line.y = element_blank(), axis.text.y = element_blank(), axis.ticks.y = element_blank(),
           plot.title = element_text(size = 11), legend.position = 'bottom',
           legend.text = element_text(size = 8), plot.margin = margin(6, 8, 4, 4))
-  if (clade %in% c('Deuterostomia', 'Batrachia', 'Gymnophiona')) p <- p + theme(legend.position = 'none')
+  if (!clade %in% c('Vertebrata', 'Gymnophiona')) p <- p + theme(legend.position = 'none')
   p
 })
-overview <- wrap_plots(panels, ncol = 3, guides = 'collect') & theme(legend.position = 'bottom')
-ggsave(file.path(root, 'calibrations/checkpoints_summary.png'), overview,
-       width = 12, height = 10, dpi = 250, bg = 'white')
+names(panels) <- names(ids)
+bounded <- names(ids)[!is.na(ids)]
+unbounded <- names(ids)[is.na(ids)]
+overview <- function(group) wrap_plots(panels[group], ncol = min(4, length(group)), guides = 'collect') +
+  plot_annotation(theme = theme(legend.position = 'bottom'))
+ggsave(file.path(root, 'calibrations/checkpoints_summary.png'), overview(bounded),
+       width = 15, height = 14.5, dpi = 250, bg = 'white')
+ggsave(file.path(root, 'calibrations/checkpoints_unbounded.png'), overview(unbounded),
+       width = 11.25, height = 3.2, dpi = 250, bg = 'white')
