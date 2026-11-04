@@ -24,17 +24,8 @@ testudines <- testudines %>%
 testudines_ox <- testudines %>%
   filter(!outlier, Time >= 157.3)
 
-# ----------------------------
-# IQR-based outlier detection (Oxfordian only)
-# ----------------------------
-qO <- quantile(testudines_ox$Time, probs = c(0.25, 0.75), na.rm = TRUE)
-iqrO <- qO[2] - qO[1]
-
-lowerO <- qO[1] - 1.5 * iqrO
-upperO <- qO[2] + 1.5 * iqrO
-
-testudines_ox <- testudines_ox %>%
-  mutate(outlier_O = Time < lowerO | Time > upperO)
+# Use the same clade-wide outlier classification for both densities.
+testudines_ox <- testudines_ox %>% mutate(outlier_O = FALSE)
 
 # ----------------------------
 # Median & density mode
@@ -157,6 +148,6 @@ cat("OXFORDIAN ONLY (≥157.3 Ma; IQR-based)\n")
 cat("Total estimates:     ", nrow(testudines_ox), "\n")
 cat("Non-outliers:        ", sum(!testudines_ox$outlier_O), "\n")
 cat("Outliers:            ", sum(testudines_ox$outlier_O), "\n")
-cat(sprintf("IQR bounds:          %.1f – %.1f Ma\n", lowerO, upperO))
+cat(sprintf("Clade-wide IQR bounds: %.1f – %.1f Ma\n", lower, upper))
 cat(sprintf("Median age:          %.1f Ma\n", median_time_ox))
 cat(sprintf("Density mode:        %.1f Ma\n", mode_time_ox))

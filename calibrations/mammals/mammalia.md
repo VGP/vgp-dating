@@ -377,15 +377,9 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ## Likelihood checkpoints
 
-The figure compares TimeTree estimates for the calibrated taxon pair with the released ROADIES and ASTRAL MD-CAT ages and current fossil bounds. Each tick is an estimate; the shaded curve summarizes their distribution. The MD-CAT results used an earlier set of calibrations. The [source data and plotting script](../checkpoints.md) include all estimates from the supplied export.
+The figure compares TimeTree estimates for the calibrated taxon pair with the released ROADIES and ASTRAL MD-CAT ages and current fossil bounds. Each tick is an estimate; red ticks are statistical outliers omitted from the shaded density. The MD-CAT results used an earlier set of calibrations. The Marsupialia TimeTree export includes some apparently unrelated study titles, so that checkpoint is provisional pending a source check. The [source data and plotting script](../checkpoints.md) include all estimates from the supplied export.
 
-![Mammalia likelihood checkpoint](mammalia_likelihood_checkpoints.png)
-
-Additional checkpoint estimates are available in the [shared table](../checkpoint_estimates.csv).
-
-![Theria likelihood checkpoint](theria_likelihood_checkpoints.png)
-
-![Placentalia likelihood checkpoint](placentalia_likelihood_checkpoints.png)
+![Mammal likelihood checkpoints](mammals_likelihood_checkpoints.png)
 
 ## References
 

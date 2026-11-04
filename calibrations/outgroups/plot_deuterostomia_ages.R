@@ -2,10 +2,12 @@
 library(ggplot2)
 library(rphylopic)
 library(ape)
+source('../plot_checkpoints.R')
 
 ## Read the ages. fileEncoding removes the invisible BOM in the first header.
 all_ages <- read.csv("../checkpoint_estimates.csv")
 ages <- transform(subset(all_ages, clade == "Deuterostomia"), Time = age_ma)
+ages$outlier <- checkpoint_outlier(ages$Time)
 
 ## Use the same released dated tree as the other clade checkpoints.
 master <- read.csv("../master_calibrations.csv", stringsAsFactors = FALSE)
@@ -19,28 +21,29 @@ depths <- node.depth.edgelength(tree)
 roadies_age <- mean(depths[seq_len(Ntip(tree))]) - depths[getMRCA(tree, pair)]
 
 ## A little headroom leaves the silhouettes clear of the density.
-density_curve <- density(ages$Time, na.rm = TRUE)
+density_curve <- density(ages$Time[!ages$outlier], na.rm = TRUE)
 density_top <- max(density_curve$y)
 
 ## Geological periods visible in the plotting window (ICS 2026/06).
 timescale <- data.frame(
-  period = c("Cambrian", "Ediacaran", "Cryogenian", "Tonian"),
-  younger = c(486.85, 538.8, 635, 720),
-  older = c(538.8, 635, 720, 1000),
-  colour = c("#7FA056", "#FED96A", "#85C5A6", "#9BC6C7")
+  period = c("Silurian", "Ordovician", "Cambrian", "Ediacaran", "Cryogenian", "Tonian"),
+  younger = c(419.2, 443.8, 486.85, 538.8, 635, 720),
+  older = c(443.8, 486.85, 538.8, 635, 720, 1000),
+  colour = c("#C9DFCD", "#B4D1C8", "#7FA056", "#FED96A", "#85C5A6", "#9BC6C7")
 )
-timescale$label_x <- (pmax(timescale$younger, 480) +
+timescale$label_x <- (pmax(timescale$younger, 400) +
                       pmin(timescale$older, 1000)) / 2
 
 plot <- ggplot(ages, aes(x = Time)) +
   geom_density(
+    data = subset(ages, !outlier),
     aes(y = after_stat(density)),
     fill = "#ABB6BF", color = "#8A9299", linewidth = 0.5, alpha = 0.35
   ) +
   ## Draw the rug at zero so the timescale can sit beneath it.
   geom_segment(
     aes(xend = Time, y = 0, yend = density_top * 0.035),
-    color = "#263238", linewidth = 0.7, alpha = 0.75
+    color = ifelse(ages$outlier, "#B76A61", "#263238"), linewidth = 0.7, alpha = 0.75
   ) +
   ## Stop the boundary lines at the bottom of the timescale.
   geom_segment(
@@ -98,7 +101,7 @@ plot <- ggplot(ages, aes(x = Time)) +
     y = NULL
   ) +
   coord_cartesian(
-    xlim = c(480, 1000),
+    xlim = c(400, 1050),
     ylim = c(-density_top * 0.21, density_top * 1.43),
     clip = "off"
   ) +

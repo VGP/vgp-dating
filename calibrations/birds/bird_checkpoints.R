@@ -2,10 +2,13 @@
 suppressPackageStartupMessages({library(ape); library(ggplot2); library(patchwork); library(rphylopic)})
 script <- sub('^--file=', '', grep('^--file=', commandArgs(), value = TRUE)[1])
 root <- dirname(dirname(dirname(normalizePath(script))))
+source(file.path(root, 'calibrations/plot_checkpoints.R'), local = TRUE)
 data <- read.csv(file.path(root, 'calibrations/checkpoint_estimates.csv'))
+icons <- readRDS(file.path(root, 'calibrations/checkpoint_phylopics.rds'))
 pairs <- list(Aves = c('GCF_040807025.1', 'GCF_016700215.2'),
-              Neoaves = c('GCA_009819775.1', 'GCF_027579445.1'),
-              Palaeognathae = c('GCF_040807025.1', 'GCA_047922985.1'))
+              Palaeognathae = c('GCF_040807025.1', 'GCA_047922985.1'),
+              Neognathae = c('GCF_016700215.2', 'GCF_027579445.1'),
+              Neoaves = c('GCA_009819775.1', 'GCF_027579445.1'))
 files <- c(ROADIES = 'roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.tre',
            ASTRAL = 'astralpro.l6p1/astralpro.l6p1.independent.fast95.tre')
 trees <- lapply(file.path(root, 'dating/mdcat', files), function(path) {
@@ -23,9 +26,8 @@ plots <- lapply(names(pairs), function(clade) {
     depth <- node.depth.edgelength(t)
     data.frame(method = method, age = mean(depth[seq_len(Ntip(t))]) - depth[getMRCA(t, pairs[[clade]])])
   }))
-  width <- if (clade == 'Aves') 260 else 150
-  iqr <- IQR(values$age_ma); qs <- quantile(values$age_ma, c(.25, .75))
-  values$outlier <- values$age_ma < qs[1] - 1.5 * iqr | values$age_ma > qs[2] + 1.5 * iqr
+  width <- 260
+  values$outlier <- checkpoint_outlier(values$age_ma)
   d <- density(values$age_ma[!values$outlier], from = 0, to = width, n = 512)
   curve <- data.frame(age = d$x, density = d$y); ymax <- max(d$y)
   p <- ggplot(curve, aes(age, density)) +
@@ -55,9 +57,17 @@ plots <- lapply(names(pairs), function(clade) {
           plot.margin = margin(12, 14, 10, 10))
   if (clade == 'Palaeognathae') p <- p + add_phylopic(img = ostrich, x = width * .84, y = ymax * 1.1,
                    width = width * .13, fill = '#858D89', alpha = .8)
+  if (clade %in% c('Neognathae', 'Neoaves')) {
+    icon <- if (clade == 'Neognathae') 'chicken' else 'falcon'
+    p <- p + add_phylopic(img = icons[[icon]], x = width * .82, y = ymax * .85,
+                          width = width * .14, fill = '#858D89', alpha = .7) +
+      annotate('text', x = width * .82, y = ymax * 1.13,
+               label = if (clade == 'Neognathae') 'Chicken' else 'Falcon',
+               fontface = 'italic', size = 3, color = '#777777')
+  }
   p
 })
-figure <- wrap_plots(plots, ncol = 3)
+figure <- wrap_plots(plots, ncol = 2)
 ggsave(file.path(root, 'calibrations/birds/aves_likelihood_checkpoints.png'), figure,
-       width = 15, height = 4.2, dpi = 300, bg = 'white')
+       width = 10, height = 8.4, dpi = 300, bg = 'white')
 if (!interactive()) invisible(grDevices::dev.off())

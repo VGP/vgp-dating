@@ -315,16 +315,7 @@ Even though earlier papers found a significant effect of †_Plectocretacicus_ o
 
 The figure compares TimeTree estimates for the calibrated taxon pair with the released ROADIES and ASTRAL MD-CAT ages and current fossil bounds. Each tick is an estimate; the shaded curve summarizes their distribution. The MD-CAT results used an earlier set of calibrations. The [source data and plotting script](../checkpoints.md) include all estimates from the supplied export.
 
-![Teleostei likelihood checkpoint](teleostei_likelihood_checkpoints.png)
-
-
-Additional checkpoint estimates are available in the [shared table](../checkpoint_estimates.csv).
-
-![Chondrichthyes likelihood checkpoint](chondrichthyes_likelihood_checkpoints.png)
-
-![Actinopterygii likelihood checkpoint](actinopterygii_likelihood_checkpoints.png)
-
-![Neopterygii likelihood checkpoint](neopterygii_likelihood_checkpoints.png)
+![Fish likelihood checkpoints](fishes_likelihood_checkpoints.png)
 
 ## References
 
