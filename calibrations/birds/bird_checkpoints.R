@@ -4,6 +4,7 @@ script <- sub('^--file=', '', grep('^--file=', commandArgs(), value = TRUE)[1])
 root <- dirname(dirname(dirname(normalizePath(script))))
 data <- read.csv(file.path(root, 'calibrations/checkpoint_estimates.csv'))
 pairs <- list(Aves = c('GCF_040807025.1', 'GCF_016700215.2'),
+              Neoaves = c('GCA_009819775.1', 'GCF_027579445.1'),
               Palaeognathae = c('GCF_040807025.1', 'GCA_047922985.1'))
 files <- c(ROADIES = 'roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.tre',
            ASTRAL = 'astralpro.l6p1/astralpro.l6p1.independent.fast95.tre')
@@ -22,7 +23,7 @@ plots <- lapply(names(pairs), function(clade) {
     depth <- node.depth.edgelength(t)
     data.frame(method = method, age = mean(depth[seq_len(Ntip(t))]) - depth[getMRCA(t, pairs[[clade]])])
   }))
-  width <- if (clade == 'Aves') 260 else 130
+  width <- if (clade == 'Aves') 260 else 150
   iqr <- IQR(values$age_ma); qs <- quantile(values$age_ma, c(.25, .75))
   values$outlier <- values$age_ma < qs[1] - 1.5 * iqr | values$age_ma > qs[2] + 1.5 * iqr
   d <- density(values$age_ma[!values$outlier], from = 0, to = width, n = 512)
@@ -36,22 +37,27 @@ plots <- lapply(names(pairs), function(clade) {
              color = '#B76A61', linewidth = .6, length = unit(.025, 'npc')) +
     geom_segment(data = ages, aes(x = age, xend = age, y = 0, yend = 1.15 * ymax,
                                   color = method, linetype = method), inherit.aes = FALSE, linewidth = .8) +
-    scale_color_manual(values = c(ROADIES = '#246B83', ASTRAL = '#B7653D')) +
-    scale_linetype_manual(values = c(ROADIES = 'solid', ASTRAL = 'longdash')) +
+    scale_color_manual(values = c(ROADIES = '#246B83', ASTRAL = '#B7653D'),
+                       breaks = ages$method, labels = sprintf('%s · %.1f Ma', ages$method, ages$age)) +
+    scale_linetype_manual(values = c(ROADIES = 'solid', ASTRAL = 'dashed'),
+                          breaks = ages$method, labels = sprintf('%s · %.1f Ma', ages$method, ages$age)) +
     coord_cartesian(xlim = c(0, width), ylim = c(0, 1.55 * ymax), expand = FALSE) +
     annotate('text', x = width * .04, y = ymax * 1.45, label = clade, hjust = 0, size = 5, color = '#333333') +
-    annotate('text', x = width * .04, y = ymax * 1.30,
-             label = paste(sprintf('%s %.1f Ma', ages$method, ages$age), collapse = '   ·   '),
-             hjust = 0, size = 3, color = '#666666') +
     labs(x = 'Age (Ma)', y = NULL, color = NULL, linetype = NULL) +
     theme_classic(base_size = 11) +
     theme(axis.line.y = element_blank(), axis.text.y = element_blank(), axis.ticks.y = element_blank(),
           axis.line = element_line(color = '#777777', linewidth = .4),
-          legend.position = 'none', plot.margin = margin(12, 14, 10, 10))
-  p + add_phylopic(img = ostrich, x = width * .84, y = ymax * 1.1,
+          legend.position = 'inside', legend.position.inside = c(.04, .86),
+          legend.justification = c(0, 1), legend.direction = 'vertical',
+          legend.background = element_blank(), legend.key = element_blank(),
+          legend.key.width = unit(20, 'pt'), legend.key.height = unit(12, 'pt'),
+          legend.text = element_text(size = 8, color = '#555555'),
+          plot.margin = margin(12, 14, 10, 10))
+  if (clade == 'Palaeognathae') p <- p + add_phylopic(img = ostrich, x = width * .84, y = ymax * 1.1,
                    width = width * .13, fill = '#858D89', alpha = .8)
+  p
 })
-figure <- wrap_plots(plots, ncol = 2)
+figure <- wrap_plots(plots, ncol = 3)
 ggsave(file.path(root, 'calibrations/birds/aves_likelihood_checkpoints.png'), figure,
-       width = 11, height = 4.2, dpi = 300, bg = 'white')
+       width = 15, height = 4.2, dpi = 300, bg = 'white')
 if (!interactive()) invisible(grDevices::dev.off())

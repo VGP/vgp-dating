@@ -58,6 +58,12 @@ We gathered 15 studies supporting a likelihood checkpoint for the root (Deuteros
 
 ![Deuterostomia ages](deuterostomia_ages_density.png)
 
+The Ambulacraria and Chordata checkpoints below compare published estimates with ROADIES; the released ASTRAL tree does not include these outgroups.
+
+![Ambulacraria likelihood checkpoint](ambulacraria_likelihood_checkpoints.png)
+
+![Chordata likelihood checkpoint](chordata_likelihood_checkpoints.png)
+
 
 ## References
 

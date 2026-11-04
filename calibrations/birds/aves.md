@@ -388,9 +388,17 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ## Likelihood checkpoints
 
-Published estimates for Aves and Palaeognathae are compared with the released ROADIES and ASTRAL trees. Aves is represented by *Struthio camelus* and *Gallus gallus*, and Palaeognathae by *Struthio camelus* and *Eudromia elegans*. The points are from the [shared checkpoint table](../checkpoint_estimates.csv); the [plotting script](bird_checkpoints.R) excludes points beyond 1.5 times the interquartile range from the density and marks them in red. Multiple estimates from a study may come from alternative trees or analyses.
+Published estimates for Aves, Neoaves and Palaeognathae are compared with the released ROADIES and ASTRAL trees. Aves is represented by *Struthio camelus* and *Gallus gallus*, Neoaves by *Phoenicopterus ruber* and *Ammospiza nelsoni*, and Palaeognathae by *Struthio camelus* and *Eudromia elegans*. The points are from the [shared checkpoint table](../checkpoint_estimates.csv); the [plotting script](bird_checkpoints.R) excludes points beyond 1.5 times the interquartile range from the density and marks them in red. Multiple estimates from a study may come from alternative trees or analyses.
+
+For Neoaves, some studies contribute estimates from two different published analyses: Jetz et al. used the Ericson and Hackett backbones; Kimball et al. presented trees with and without a root constraint; Prum et al. analyzed alternative fossil constraints; and Claramunt and Cracraft analyzed two molecular datasets. Their node ages were obtained from the input trees compiled by [McTavish et al. (2025)](https://doi.org/10.1073/pnas.2409658122); their synthesis is a summary of published ages, so it is not counted as an additional estimate. Older estimates include values compiled by [van Tuinen (2009)](https://timetree.org/public/data/pdf/vanTuinen2009Chap60.pdf). Studies differ in the relationships they recover at the base of Neoaves, so a particular pair of birds does not always represent the crown node.
+
+The comparison also includes eight estimates from alternative analyses in [Brown et al. (2008)](https://doi.org/10.1186/1741-7007-6-6), seven from [Zhao et al. (2025)](https://doi.org/10.1093/sysbio/syaf080), and six from [Tabatabaee et al. (2026)](https://doi.org/10.1093/sysbio/syag038), the last using the dataset of Stiller et al. Each estimate contributes separately to the plotted density, so these alternatives are not independent studies. The estimate for Kuhl et al. was transcribed from a [published bird taxonomy compilation](https://www.jboyd.net/Taxo/List2a.html).
+
+The two estimates from [Pacheco et al. (2011)](https://doi.org/10.1093/molbev/msr014) are approximate crown ages read from their Figure 2: 88 Ma for MDT and 92 Ma for BEAST.
 
 ![Bird likelihood checkpoints](aves_likelihood_checkpoints.png)
+
+![Neognathae likelihood checkpoint](neognathae_likelihood_checkpoints.png)
 
 ## References
 

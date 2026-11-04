@@ -56,6 +56,8 @@ The figure compares TimeTree estimates for the calibrated taxon pair with the re
 
 ![Tetrapoda likelihood checkpoint](tetrapoda_likelihood_checkpoints.png)
 
+![Sarcopterygii likelihood checkpoint](sarcopterygii_likelihood_checkpoints.png)
+
 
 Additional checkpoint estimates are available in the [shared table](../checkpoint_estimates.csv).
 

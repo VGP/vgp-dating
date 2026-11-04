@@ -59,7 +59,7 @@ if (!interactive()) grDevices::pdf(NULL)
 icons <- lapply(uuids, function(id) get_phylopic(uuid = id))
 colors <- c(ROADIES = '#246B83', ASTRAL = '#B7653D', Constraint = '#898989',
             Published = '#555555')
-line_types <- c(ROADIES = 'solid', ASTRAL = 'longdash', Constraint = 'dotted',
+line_types <- c(ROADIES = 'solid', ASTRAL = 'dashed', Constraint = 'dotted',
                 Published = 'solid')
 labels <- c(ROADIES = 'ROADIES', ASTRAL = 'ASTRAL', Constraint = 'Calibration bounds',
             Published = 'Published ages; IQR outliers')
@@ -76,6 +76,10 @@ panels <- lapply(clades, function(clade) {
   d <- density(retained, from = 0, to = 450)
   dd <- data.frame(x = d$x, y = d$y); ymax <- max(d$y)
   est <- filter(estimates, Clade == clade)
+  key_breaks <- c(est$method, if (clade %in% names(cal_ids)) 'Constraint',
+                  if (clade == 'Lissamphibia') 'Published')
+  key_labels <- labels
+  key_labels[est$method] <- sprintf('%s · %.1f Ma', est$method, est$age)
   p <- ggplot(dd, aes(x, y)) +
     geom_area(fill = fill_colors[[clade]], alpha = .38) +
     geom_line(color = fill_colors[[clade]], linewidth = .8)
@@ -94,8 +98,8 @@ panels <- lapply(clades, function(clade) {
     geom_segment(data = est,
       aes(x = age, xend = age, y = -.11 * ymax, yend = 1.15 * ymax,
           color = method, linetype = method), inherit.aes = FALSE, linewidth = .85) +
-    scale_color_manual(NULL, values = colors, breaks = names(labels), labels = labels) +
-    scale_linetype_manual(NULL, values = line_types, breaks = names(labels), labels = labels) +
+    scale_color_manual(NULL, values = colors, breaks = key_breaks, labels = key_labels[key_breaks]) +
+    scale_linetype_manual(NULL, values = line_types, breaks = key_breaks, labels = key_labels[key_breaks]) +
     scale_x_continuous(breaks = seq(0, 400, 100)) +
     scale_y_continuous(breaks = scales::breaks_pretty(3),
       labels = function(x) ifelse(x < 0, '', format(x, trim = TRUE))) +
@@ -104,9 +108,6 @@ panels <- lapply(clades, function(clade) {
       hjust = 0, size = 5, fontface = 'bold', color = '#333333') +
     annotate('text', x = 33, y = 1.59 * ymax, label = clade,
       hjust = 0, size = 5, color = '#333333') +
-    annotate('text', x = 33, y = 1.42 * ymax,
-      label = paste(sprintf('%s %.1f Ma', est$method, est$age), collapse = '   ·   '),
-      hjust = 0, size = 3.2, color = '#666666') +
     labs(x = 'Age (Ma)', y = NULL) +
     theme_classic(base_size = 12) +
     theme(axis.line.y = element_blank(),
@@ -114,12 +115,11 @@ panels <- lapply(clades, function(clade) {
       axis.line = element_line(color = '#777777', linewidth = .4),
       axis.ticks = element_line(color = '#777777', linewidth = .4),
       axis.text = element_text(color = '#444444'), axis.title = element_text(color = '#444444'),
-      plot.margin = margin(12, 14, 10, 10), legend.position = 'none')
-  # One shared key, inside the first panel's plotting surface.
-  if (clade == 'Lissamphibia') p <- p + theme(legend.position = 'inside',
-    legend.position.inside = c(.025, .76), legend.justification = c(0, 1),
-    legend.background = element_blank(), legend.text = element_text(size = 8),
-    legend.key.height = unit(12, 'pt'), legend.key.width = unit(20, 'pt'))
+      plot.margin = margin(12, 14, 10, 10), legend.position = 'inside',
+      legend.position.inside = c(.025, .86), legend.justification = c(0, 1),
+      legend.direction = 'vertical', legend.background = element_blank(),
+      legend.key = element_blank(), legend.text = element_text(size = 8),
+      legend.key.height = unit(12, 'pt'), legend.key.width = unit(20, 'pt'))
   subjects <- switch(clade, Lissamphibia = c('frog', 'salamander', 'caecilian'),
     Batrachia = c('frog', 'salamander'), Anura = 'frog', Gymnophiona = 'caecilian')
   xs <- switch(clade, Lissamphibia = c(48, 118, 185), Batrachia = c(65, 145),

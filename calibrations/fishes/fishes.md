@@ -322,6 +322,10 @@ Additional checkpoint estimates are available in the [shared table](../checkpoin
 
 ![Chondrichthyes likelihood checkpoint](chondrichthyes_likelihood_checkpoints.png)
 
+![Actinopterygii likelihood checkpoint](actinopterygii_likelihood_checkpoints.png)
+
+![Neopterygii likelihood checkpoint](neopterygii_likelihood_checkpoints.png)
+
 ## References
 
 Alexandrou, M.A., Swartz, B.A., Matzke, N.J. and Oakley, T.H., 2013. Genome duplication and multiple evolutionary origins of complex migratory behavior in Salmonidae. Molecular Phylogenetics and Evolution, 69(3), pp.514-523.

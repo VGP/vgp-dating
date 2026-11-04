@@ -18,13 +18,27 @@ plots <- list(
   CAL030 = c('Sauria', 'tetrapods/sauria_likelihood_checkpoints.png'),
   CAL031 = c('Archosauria', 'tetrapods/archosauria_likelihood_checkpoints.png'),
   CAL041 = c('Theria', 'mammals/theria_likelihood_checkpoints.png'),
-  CAL044 = c('Placentalia', 'mammals/placentalia_likelihood_checkpoints.png')
+  CAL044 = c('Placentalia', 'mammals/placentalia_likelihood_checkpoints.png'),
+  CAL002 = c('Ambulacraria', 'outgroups/ambulacraria_likelihood_checkpoints.png'),
+  CAL003 = c('Chordata', 'outgroups/chordata_likelihood_checkpoints.png'),
+  Neognathae = c('Neognathae', 'birds/neognathae_likelihood_checkpoints.png'),
+  Actinopterygii = c('Actinopterygii', 'fishes/actinopterygii_likelihood_checkpoints.png'),
+  Neopterygii = c('Neopterygii', 'fishes/neopterygii_likelihood_checkpoints.png'),
+  Sarcopterygii = c('Sarcopterygii', 'tetrapods/sarcopterygii_likelihood_checkpoints.png')
 )
 windows <- list(CAL005 = c(400, 850), CAL009 = c(0, 400),
                 CAL028 = c(200, 500), CAL040 = c(50, 300),
                 CAL006 = c(200, 750), CAL007 = c(300, 700), CAL008 = c(200, 600), CAL025 = c(250, 550),
                 CAL029 = c(100, 500), CAL030 = c(150, 400), CAL031 = c(150, 400),
-                CAL041 = c(50, 300), CAL044 = c(0, 200))
+                CAL041 = c(50, 300), CAL044 = c(0, 200),
+                CAL002 = c(400, 950), CAL003 = c(400, 950),
+                Neognathae = c(0, 230), Actinopterygii = c(200, 500),
+                Neopterygii = c(100, 450), Sarcopterygii = c(250, 500))
+unbounded_pairs <- list(
+  Neognathae = c('GCF_016700215.2', 'GCF_027579445.1'),
+  Actinopterygii = c('GCF_900747795.2', 'GCF_901000725.2'),
+  Neopterygii = c('GCF_036373705.1', 'GCF_901000725.2'),
+  Sarcopterygii = c('GCF_037176945.1', 'GCF_027579445.1'))
 # Approximate geological-period boundaries (Ma), for context rather than dating.
 periods <- data.frame(
   period = c('Quaternary', 'Neogene', 'Paleogene', 'Cretaceous', 'Jurassic', 'Triassic',
@@ -47,17 +61,22 @@ trees <- lapply(file.path(root, 'dating/mdcat', tree_files), function(path) {
 names(trees) <- names(tree_files)
 requested <- commandArgs(trailingOnly = TRUE)
 for (id in if (length(requested)) intersect(names(plots), requested) else names(plots)) {
-  cal <- master[master$calibration_id == id, ]
-  data <- estimates[estimates$calibration_id == id, ]
+  cal <- if (id %in% names(unbounded_pairs))
+    data.frame(taxon1_accession = unbounded_pairs[[id]][1], taxon2_accession = unbounded_pairs[[id]][2],
+               min_ma = NA_real_, max_ma = NA_real_) else master[master$calibration_id == id, ]
+  data <- estimates[estimates$clade == plots[[id]][1], ]
   stopifnot(nrow(cal) == 1, nrow(data) > 1, all(is.finite(data$age_ma)))
   pair <- c(cal$taxon1_accession, cal$taxon2_accession)
-  ages <- data.frame(method = names(trees), age = vapply(trees, function(tree) {
-    stopifnot(all(pair %in% tree$tip.label))
+  ages <- do.call(rbind, lapply(names(trees), function(method) {
+    tree <- trees[[method]]
+    if (!all(pair %in% tree$tip.label)) return(NULL)
     depth <- node.depth.edgelength(tree)
-    mean(depth[seq_len(Ntip(tree))]) - depth[getMRCA(tree, pair)]
-  }, numeric(1)))
+    data.frame(method = method, age = mean(depth[seq_len(Ntip(tree))]) - depth[getMRCA(tree, pair)])
+  }))
+  stopifnot(nrow(ages) > 0)
   labels <- setNames(sprintf('%s · %.1f Ma', ages$method, ages$age), ages$method)
-  labels <- c(labels, Bounds = sprintf('Current bounds · %g–%g Ma', cal$min_ma, cal$max_ma))
+  bounds <- c(cal$min_ma, cal$max_ma)
+  if (all(is.finite(bounds))) labels <- c(labels, Bounds = sprintf('Current bounds · %g–%g Ma', bounds[1], bounds[2]))
   window <- range(c(windows[[id]], data$age_ma, ages$age, cal$min_ma, cal$max_ma), na.rm = TRUE)
   d <- density(data$age_ma, from = window[1], to = window[2], n = 512)
   curve <- data.frame(age_ma = d$x, density = d$y)
@@ -70,9 +89,9 @@ for (id in if (length(requested)) intersect(names(plots), requested) else names(
     geom_line(data = curve, aes(x = age_ma, y = density), color = '#8A9299', linewidth = .5) +
     geom_segment(data = data, aes(x = age_ma, xend = age_ma, y = 0, yend = .035 * ymax),
                  color = '#555555', alpha = .65, linewidth = .45) +
-    geom_vline(data = data.frame(age = c(cal$min_ma, cal$max_ma)),
-               aes(xintercept = age, color = 'Bounds', linetype = 'Bounds'), linewidth = .6) +
-    geom_vline(data = ages, aes(xintercept = age, color = method, linetype = method), linewidth = .8) +
+    geom_vline(data = data.frame(age = bounds[is.finite(bounds)]),
+               aes(xintercept = age, color = 'Bounds', linetype = 'Bounds'), linewidth = .6, key_glyph = 'path') +
+    geom_vline(data = ages, aes(xintercept = age, color = method, linetype = method), linewidth = .8, key_glyph = 'path') +
     geom_rect(data = band, aes(xmin = xmin, xmax = xmax, fill = colour),
               ymin = -.18 * ymax, ymax = -.05 * ymax, color = 'white', linewidth = .3) +
     geom_text(data = band, aes(x = (xmin + xmax) / 2, y = -.115 * ymax, label = label),
@@ -80,7 +99,7 @@ for (id in if (length(requested)) intersect(names(plots), requested) else names(
     scale_fill_identity() +
     scale_color_manual(values = c(ROADIES = '#246B83', ASTRAL = '#B7653D', Bounds = '#8A8A8A'),
                        breaks = names(labels), labels = labels) +
-    scale_linetype_manual(values = c(ROADIES = 'solid', ASTRAL = 'longdash', Bounds = 'dotted'),
+    scale_linetype_manual(values = c(ROADIES = 'solid', ASTRAL = 'dashed', Bounds = 'dotted'),
                           breaks = names(labels), labels = labels) +
     labs(title = plots[[id]][1], x = 'Age (Ma)', y = NULL, color = NULL, linetype = NULL) +
     coord_cartesian(xlim = window, ylim = c(-.2 * ymax, ymax * 1.55), clip = 'off') +
@@ -91,7 +110,7 @@ for (id in if (length(requested)) intersect(names(plots), requested) else names(
           legend.position.inside = if (id == 'CAL028') c(.03, .55) else c(.03, .97),
           legend.justification = c(0, 1), legend.background = element_blank(),
           legend.direction = 'vertical', legend.text = element_text(size = 8),
-          legend.key.height = unit(13, 'pt'),
+          legend.key.height = unit(13, 'pt'), legend.key.width = unit(20, 'pt'),
           plot.margin = margin(16, 18, 8, 12))
   ggsave(file.path(root, 'calibrations', plots[[id]][2]), p, width = 8, height = 5, dpi = 300, bg = 'white')
   cat(id, nrow(data), 'estimates;', paste(sprintf('%s %.1f', ages$method, ages$age), collapse = ', '), '\n')
