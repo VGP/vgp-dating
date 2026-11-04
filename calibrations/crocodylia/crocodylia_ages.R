@@ -5,8 +5,9 @@ library(ggplot2)
 library(dplyr)
 
 ## Read in data
-ages <- read.csv("crocodylia_calibrations.csv",header=T)
-times <- read.csv("crocodylia_timetree.csv",header=T)
+all_ages <- read.csv("../checkpoint_estimates.csv")
+ages <- transform(subset(all_ages, clade == "Crocodylia" & !is.na(lower_ma) & !is.na(upper_ma)), Point = age_ma, Min = lower_ma, Max = upper_ma)
+times <- transform(subset(all_ages, clade == "Crocodylia" & is.na(lower_ma) & is.na(upper_ma)), Time = age_ma)
 
 ## --- Time outlier bounds (IQR) ---
 bounds <- times %>%
@@ -103,7 +104,7 @@ p <- ggplot() +
   scale_x_continuous(breaks = seq(0, 200, 25)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
   coord_cartesian(xlim = c(0, 201.4)) +
-  labs(title = "Age estimates for Crocodylia", x = "Age (Ma)", y = NULL) +
+  labs(title = "Crocodylia", x = "Age (Ma)", y = NULL) +
   guides(color = guide_legend(order = 1), linetype = guide_legend(order = 1),
          shape = guide_legend(order = 2)) +
   theme_classic(base_size = 12) +

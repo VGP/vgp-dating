@@ -4,7 +4,8 @@ library(rphylopic)
 library(ape)
 
 ## Read the ages. fileEncoding removes the invisible BOM in the first header.
-ages <- read.csv("deuterostomia_ages.csv", fileEncoding = "UTF-8-BOM")
+all_ages <- read.csv("../checkpoint_estimates.csv")
+ages <- transform(subset(all_ages, clade == "Deuterostomia"), Time = age_ma)
 
 ## Use the same released dated tree as the other clade checkpoints.
 master <- read.csv("../master_calibrations.csv", stringsAsFactors = FALSE)
@@ -92,7 +93,7 @@ plot <- ggplot(ages, aes(x = Time)) +
   scale_fill_identity() +
   scale_x_continuous(expand = expansion(mult = 0)) +
   labs(
-    title = "Published age estimates for Deuterostomia",
+    title = "Deuterostomia",
     x = "Age (Ma)",
     y = NULL
   ) +

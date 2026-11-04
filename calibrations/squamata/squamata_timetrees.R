@@ -5,10 +5,11 @@ library(dplyr)
 library(ggplot2)
 
 # Read the CSV file
-squamata <- read.csv("squamata_timetrees.csv", header = TRUE)
+all_ages <- read.csv("../checkpoint_estimates.csv")
+squamata <- transform(subset(all_ages, clade == "Squamata" & is.na(lower_ma) & is.na(upper_ma)), Age = age_ma)
 
 # Read the tip dates
-squamate_tips <- read.csv("squamate_tip_dates.csv", header = TRUE)
+squamate_tips <- transform(subset(all_ages, clade == "Squamata" & !is.na(lower_ma) & !is.na(upper_ma)), Point = age_ma, Min = lower_ma, Max = upper_ma)
 
 # Add a y position slightly above the x-axis
 squamate_tips <- squamate_tips %>%
@@ -95,7 +96,7 @@ p <- ggplot() +
   scale_x_continuous(limits = c(0, 359), breaks = seq(0, 350, 50)) +
   scale_y_continuous(expand = expansion(mult = c(0.05, 0.05))) +
   coord_cartesian(xlim = c(0, 359)) +
-  labs(title = "Published age estimates for Squamata", x = "Age (Ma)", y = NULL) +
+  labs(title = "Squamata", x = "Age (Ma)", y = NULL) +
   guides(color = guide_legend(order = 1), linetype = guide_legend(order = 1),
          shape = guide_legend(order = 2)) +
   theme_classic(base_size = 12) +

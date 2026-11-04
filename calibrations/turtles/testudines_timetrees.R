@@ -5,7 +5,8 @@ library(ggplot2)
 library(dplyr)
 
 # Read in ages
-testudines <- read.csv("testudines_timetrees.csv", header = TRUE)
+all_ages <- read.csv("../checkpoint_estimates.csv")
+testudines <- transform(subset(all_ages, clade == "Testudines"), Time = age_ma, Year = year)
 
 # ----------------------------
 # IQR-based outlier detection
@@ -107,7 +108,7 @@ p <- ggplot() +
                         breaks = names(line_labels), labels = line_labels) +
   scale_x_continuous(limits = c(0, 300), breaks = seq(0, 300, by = 50)) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.05))) +
-  labs(title = "Age estimates for Testudines", x = "Age (Ma)", y = NULL) +
+  labs(title = "Testudines", x = "Age (Ma)", y = NULL) +
   guides(color = guide_legend(order = 1), linetype = guide_legend(order = 1),
          fill = guide_legend(order = 2)) +
   theme_classic(base_size = 12) +

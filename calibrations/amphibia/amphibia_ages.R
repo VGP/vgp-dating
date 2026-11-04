@@ -6,7 +6,9 @@ library(patchwork)
 library(rphylopic)
 
 # Preserve the existing within-clade 1.5-IQR outlier rule.
-ages <- read.csv('amphibia_calibrations.csv') %>%
+ages <- read.csv('../checkpoint_estimates.csv') %>%
+  filter(clade %in% c('Anura', 'Batrachia', 'Gymnophiona', 'Lissamphibia')) %>%
+  transmute(Clade = clade, Age = age_ma, Reference = authors) %>%
   group_by(Clade) %>%
   mutate(outlier = Age < quantile(Age, .25) - 1.5 * IQR(Age) |
                    Age > quantile(Age, .75) + 1.5 * IQR(Age)) %>% ungroup()
@@ -127,7 +129,7 @@ panels <- lapply(clades, function(clade) {
     width = if (length(subjects) == 1) 80 else 58, fill = '#858D89', alpha = .8)
   p
 })
-p <- wrap_plots(panels, ncol = 2) + plot_annotation(title = 'Published amphibian ages',
+p <- wrap_plots(panels, ncol = 2) + plot_annotation(title = 'Amphibia',
   theme = theme(plot.title = element_text(size = 23, color = '#333333'),
     plot.margin = margin(12, 12, 8, 12)))
 ggsave('amphibia_likelihood_checkpoints.png', p, width = 12, height = 8.5,
