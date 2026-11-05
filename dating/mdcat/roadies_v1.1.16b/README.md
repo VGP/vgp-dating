@@ -1,17 +1,14 @@
 # ROADIES v0.0.0 MD-CAT dating
 
-```bash
-python ~/workspace/MD-Cat/md_cat_sample.py -i ~/workspace/vgp-tree-release/v0.0.0/roadies_v1.1.16b.nwk -t roadies_v1.1.16b.config --strategy independent -o roadies_v1.1.16b.independent.fast95.tre --jobs 100 --threads 1 --CI "100 0.025 0.975" --max-draws 1000000000 1> roadies_v1.1.16b.independent.fast95.log 2> roadies_v1.1.16b.independent.fast95.err
-```
-
-The 581-tip ROADIES tree was dated with MD-CAT 1.1.15.
+The updated 581-tip tree uses independent calibration sampling. This is the primary tree used in the overview and checkpoint figures. A bottom-up analysis is retained as an alternative.
 
 | Item | File |
 | --- | --- |
 | Input tree | [roadies_v1.1.16b.nwk](../../../trees/roadies_v1.1.16b.nwk) |
-| Baseline repository config (96 calibrations) | [roadies_v1.1.16b.config](https://github.com/VGP/vgp-dating/blob/a1b6da9ae9496c8fcea1554930d8f7b88611f921/dating/treePL/roadies_v1.1.16b/roadies_v1.1.16b.config) |
-| Dated tree (NEXUS) | [roadies_v1.1.16b.independent.fast95.tre](roadies_v1.1.16b.independent.fast95.tre) |
-| Node-age table (TSV) | [roadies_v1.1.16b.independent.fast95.tre.tsv](roadies_v1.1.16b.independent.fast95.tre.tsv) |
-| Figures | [PDF](roadies_v1.1.16b.independent.fast95.pdf), [PNG](roadies_v1.1.16b.independent.fast95.png) |
+| Calibration config | [roadies_v1.1.16b.config](../../treePL/roadies_v1.1.16b/roadies_v1.1.16b.config) |
+| Independent dated tree (NEXUS) | [Tree](roadies_v1.1.16b.independent.k200.round2.tre) |
+| Node ages and 95% intervals | [TSV](roadies_v1.1.16b.independent.k200.round2.tre.tsv) |
+| Independent figures | [Full tree (PDF)](roadies_v1.1.16b.independent.k200.round2.pdf), [overview (PNG)](roadies_v1.1.16b.independent.k200.round2.png) |
+| Bottom-up alternative | [Tree](roadies_v1.1.16b.bottom-up.k200.round2.tre), [full tree (PDF)](roadies_v1.1.16b.bottom-up.k200.round2.pdf) |
 
-[MD-CAT methods](../README.md) · [Dating overview](../../README.md) · [VGP release v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0)
+[MD-CAT results](../README.md) · [Dating overview](../../README.md) · [VGP topology v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0)

@@ -54,15 +54,15 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ### Likelihood checkpoints
 
-We gathered 15 studies supporting a likelihood checkpoint for the root (Deuterostomia), published between 1998 and 2024 ([checkpoint estimates](../../checkpoints/checkpoint_estimates.csv)). As discussed by previous authors ([Cunningham et al. 2017](https://doi.org/10.1002/bies.201600120)), early disagreements between the fossil record and molecular divergence times have narrowed with more recent discoveries, interpretations, and methods. As noted above, we rely primarily on the recent framework of [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1) and [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161) to interpret the Cambrian and Ediacaran fossil record and derive well-constrained ages for the emergence of deuterostomes between 517–591 Ma. Of the 15 estimates evaluated here, five fall within that interval, and the median after excluding outliers is 599.8 Ma. Many of the older ages are from older studies, before the recent movement towards reconciliation of fossil and molecular estimates. Consequently, we are confident in the younger and narrower bounds used here.
+We gathered 143 published age estimates supporting a likelihood checkpoint for the root (Deuterostomia), published between 1998 and 2026 ([checkpoint estimates](../../checkpoints/checkpoint_estimates.csv)). As discussed by previous authors ([Cunningham et al. 2017](https://doi.org/10.1002/bies.201600120)), early disagreements between the fossil record and molecular divergence times have narrowed with more recent discoveries, interpretations, and methods. As noted above, we rely primarily on the recent framework of [Benton et al. (2015)](http://palaeo-electronica.org/content/fc-1) and [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161) to interpret the Cambrian and Ediacaran fossil record and derive well-constrained ages for the emergence of deuterostomes between 517–591 Ma. Of the 143 estimates evaluated here, 45 fall within those bounds, and the study-weighted median after excluding outliers is 599.1 Ma. Published ages remain widely dispersed, so we retain the younger and narrower bounds justified by the fossil evidence.
 
 | Clade | Estimates | Publication years | Median (Ma) |
 | --- | ---: | --- | ---: |
-| Deuterostomia | 15 | 1998–2024 | 599.8 |
-| Ambulacraria | 9 | 2004–2024 | 538.6 |
-| Chordata | 11 | 1997–2024 | 578.2 |
+| Deuterostomia | 143 | 1998–2026 | 599.1 |
+| Ambulacraria | 101 | 2004–2026 | 551.4 |
+| Chordata | 100 | 1997–2026 | 577.7 |
 
-The counts include all estimates. Values beyond 1.5 times the interquartile range are shown in red and excluded from the density and median. The Ambulacraria and Chordata panels compare published estimates with [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0); the released [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) tree does not include these outgroups. The figure is generated with the [plotting script](../../checkpoints/plot_checkpoints.R).
+The counts include all estimates. Each study has equal total weight in the densities and summaries, divided among its retained estimates. Values beyond 1.5 times the study-weighted interquartile range are shown in red and excluded from the density and median. The Ambulacraria and Chordata panels compare published estimates with [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0); the released [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) tree does not include these outgroups. The figure is generated with the [plotting script](../../checkpoints/plot_checkpoints.R).
 
 ![Outgroup likelihood checkpoints](outgroups_likelihood_checkpoints.png)
 

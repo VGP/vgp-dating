@@ -381,12 +381,12 @@ The mammal checkpoints compare the origins of Mammalia, Theria, and the two majo
 
 | Clade | Estimates | Publication years | Median (Ma) |
 | --- | ---: | --- | ---: |
-| Mammalia | 36 | 1989–2025 | 183.4 |
-| Theria | 42 | 1989–2025 | 159.4 |
-| Marsupialia | 32 | 1989–2025 | 72.0 |
-| Placentalia | 24 | 1997–2025 | 98.7 |
+| Mammalia | 90 | 1989–2026 | 184.7 |
+| Theria | 56 | 1989–2026 | 157.8 |
+| Marsupialia | 37 | 1989–2025 | 72.5 |
+| Placentalia | 29 | 1997–2025 | 98.7 |
 
-Each tick represents a published estimate. Red ticks lie beyond 1.5 times the interquartile range and are excluded from the density and median; the counts above include them. Lines mark the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) and [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) MD-CAT ages and current fossil bounds, where available. These dated trees used an earlier calibration set. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
+Each tick represents a published estimate. Each study has equal total weight in the densities and summaries, divided among its retained estimates. Red ticks lie beyond 1.5 times the study-weighted interquartile range and are excluded from the density and median; the counts above include them. Lines mark the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) and [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) independent MD-CAT ages and current fossil bounds, where available. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
 
 ![Mammal likelihood checkpoints](mammals_likelihood_checkpoints.png)
 

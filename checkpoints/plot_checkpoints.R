@@ -1,9 +1,37 @@
-# Plot published estimates against the released MD-CAT trees and current bounds.
+# Plot published estimates against the independent MD-CAT trees and current bounds.
 # Run from any directory: Rscript checkpoints/plot_checkpoints.R
-checkpoint_outlier <- function(ages) {
-  q <- quantile(ages, c(.25, .75), na.rm = TRUE)
+checkpoint_weights <- function(studies) {
+  studies <- tolower(trimws(studies))
+  stopifnot(length(studies) > 0, !anyNA(studies), all(nzchar(studies)))
+  w <- 1 / as.numeric(table(studies)[studies])
+  w / sum(w)
+}
+checkpoint_quantile <- function(ages, studies, probs) {
+  stopifnot(length(ages) == length(studies), all(is.finite(ages)))
+  o <- order(ages)
+  cumulative <- cumsum(checkpoint_weights(studies)[o])
+  # Inverse weighted empirical distribution, as in the weighting comparison.
+  vapply(probs, function(p) ages[o][which(cumulative >= p - 1e-12)[1]], numeric(1))
+}
+checkpoint_outlier <- function(ages, studies) {
+  q <- checkpoint_quantile(ages, studies, c(.25, .75))
   spread <- q[2] - q[1]
   ages < q[1] - 1.5 * spread | ages > q[2] + 1.5 * spread
+}
+checkpoint_bandwidth <- function(ages, studies) {
+  w <- checkpoint_weights(studies)
+  n <- length(unique(tolower(trimws(studies))))
+  # Silverman's rule with study-weighted spread and studies as the sample size.
+  # Repeating a study's alternatives must not narrow the smoothing bandwidth.
+  s <- sqrt(sum(w * (ages - sum(w * ages))^2) * n / max(1, n - 1))
+  q <- checkpoint_quantile(ages, studies, c(.25, .75))
+  scale <- min(s, diff(q) / 1.34)
+  if (scale <= 0) scale <- if (s > 0) s else if (abs(ages[1]) > 0) abs(ages[1]) else 1
+  .9 * scale * n^(-.2)
+}
+checkpoint_density <- function(ages, studies, ...) {
+  density(ages, weights = checkpoint_weights(studies),
+          bw = checkpoint_bandwidth(ages, studies), ...)
 }
 unbounded_pairs <- list(
   Neognathae = c('GCF_016700215.2', 'GCF_027579445.1'),
@@ -87,8 +115,8 @@ periods <- data.frame(
              '#DABEB4', '#C4D1BF', '#E0CFB2', '#C9DFCD', '#B4D1C8',
              '#C4D1AD', '#E8DBA9', '#BFD8C9', '#BED4D3')
 )
-tree_files <- c(ROADIES = 'roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.tre',
-                ASTRAL = 'astralpro.l6p1/astralpro.l6p1.independent.fast95.tre')
+tree_files <- c(ROADIES = 'roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.tre',
+                ASTRAL = 'astralpro.l6p1/astralpro.l6p1.independent.k200.round2.tre')
 trees <- lapply(file.path(root, 'dating/mdcat', tree_files), function(path) {
   tree <- read.nexus(path)
   tree$tip.label <- gsub("'", '', tree$tip.label, fixed = TRUE)
@@ -122,7 +150,9 @@ for (group in panel_groups) {
   }))
   shared_window <- range(c(group_bounds, group_ages, unlist(group_cals), tree_ages), na.rm = TRUE)
   padding <- max(vapply(clades, function(clade) {
-    v <- estimates$age_ma[estimates$clade == clade]; 3 * bw.nrd0(v[!checkpoint_outlier(v)])
+    v <- estimates[estimates$clade == clade, ]
+    v <- v[!checkpoint_outlier(v$age_ma, v$doi), ]
+    3 * checkpoint_bandwidth(v$age_ma, v$doi)
   }, numeric(1)), na.rm = TRUE)
   shared_window <- c(max(0, shared_window[1] - padding), shared_window[2] + padding)
   for (id in group) windows[[id]] <- shared_window
@@ -135,7 +165,7 @@ for (id in if (length(requested)) intersect(names(plots), requested) else names(
                min_ma = NA_real_, max_ma = NA_real_) else master[master$calibration_id == id, ]
   data <- estimates[estimates$clade == plots[[id]][1], ]
   stopifnot(nrow(cal) == 1, nrow(data) > 1, all(is.finite(data$age_ma)))
-  data$outlier <- checkpoint_outlier(data$age_ma)
+  data$outlier <- checkpoint_outlier(data$age_ma, data$doi)
   pair <- c(cal$taxon1_accession, cal$taxon2_accession)
   ages <- do.call(rbind, lapply(names(trees), function(method) {
     tree <- trees[[method]]
@@ -148,16 +178,16 @@ for (id in if (length(requested)) intersect(names(plots), requested) else names(
   bounds <- c(cal$min_ma, cal$max_ma)
   if (all(is.finite(bounds))) labels <- c(labels, Bounds = sprintf('Bounds · %g–%g Ma', bounds[1], bounds[2]))
   retained <- data$age_ma[!data$outlier]
-  tails <- range(retained) + c(-3, 3) * bw.nrd0(retained)
+  tails <- range(retained) + c(-3, 3) * checkpoint_bandwidth(retained, data$doi[!data$outlier])
   window <- range(c(windows[[id]], data$age_ma, ages$age, cal$min_ma, cal$max_ma, tails), na.rm = TRUE)
-  d <- density(data$age_ma[!data$outlier], from = window[1], to = window[2], n = 512)
+  d <- checkpoint_density(retained, data$doi[!data$outlier], from = window[1], to = window[2], n = 512)
   curve <- data.frame(age_ma = d$x, density = d$y)
   ymax <- max(d$y)
   oxfordian <- NULL
   if (id == 'CAL074') {
-    older <- retained[retained >= 157.3]
-    older <- older[!checkpoint_outlier(older)]
-    od <- density(older, from = window[1], to = window[2], n = 512)
+    older <- data[!data$outlier & data$age_ma >= 157.3, ]
+    older <- older[!checkpoint_outlier(older$age_ma, older$doi), ]
+    od <- checkpoint_density(older$age_ma, older$doi, from = window[1], to = window[2], n = 512)
     oxfordian <- data.frame(age_ma = od$x, density = od$y)
     ymax <- max(ymax, od$y)
     labels <- c(labels, Published = 'All estimates', Oxfordian = 'Oxfordian or older (≥157.3 Ma)')
@@ -253,8 +283,8 @@ ids <- c(Deuterostomia = 'CAL001', Ambulacraria = 'CAL002', Chordata = 'CAL003',
          Chondrichthyes = 'CAL025', Amniota = 'CAL029', Sauria = 'CAL030', Archosauria = 'CAL031',
          Theria = 'CAL041', Marsupialia = 'CAL043', Placentalia = 'CAL044',
          Actinopteri = NA, Holostei = NA, Elasmobranchii = NA, Archelosauria = NA)
-tree_files <- c(ROADIES = 'roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.tre',
-                ASTRAL = 'astralpro.l6p1/astralpro.l6p1.independent.fast95.tre')
+tree_files <- c(ROADIES = 'roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.tre',
+                ASTRAL = 'astralpro.l6p1/astralpro.l6p1.independent.k200.round2.tre')
 trees <- lapply(file.path(root, 'dating/mdcat', tree_files), function(path) {
   tree <- read.nexus(path)
   tree$tip.label <- gsub("'", '', tree$tip.label, fixed = TRUE)
@@ -279,11 +309,11 @@ panels <- lapply(names(ids), function(clade) {
   } else master[master$calibration_id == ids[[clade]], ]
   values <- estimates[estimates$clade == clade & is.finite(estimates$age_ma), ]
   stopifnot(nrow(cal) == 1, nrow(values) > 1)
-  values$outlier <- checkpoint_outlier(values$age_ma)
+  values$outlier <- checkpoint_outlier(values$age_ma, values$doi)
   if (clade == 'Testudines') {
     values$outlier <- values$outlier | values$age_ma < 157.3
     older <- which(!values$outlier)
-    values$outlier[older] <- checkpoint_outlier(values$age_ma[older])
+    values$outlier[older] <- checkpoint_outlier(values$age_ma[older], values$doi[older])
   }
   pair <- c(cal$taxon1_accession, cal$taxon2_accession)
   node_ages <- lapply(names(trees), function(method) {
@@ -296,16 +326,18 @@ panels <- lapply(names(ids), function(clade) {
   # The first panel lacks the ASTRAL outgroups, but its shared key still needs both trees.
   if (clade == 'Deuterostomia') node_ages <- rbind(node_ages, data.frame(method = 'ASTRAL', age = NA_real_))
   window <- range(c(values$age_ma[!values$outlier], cal$min_ma, cal$max_ma, node_ages$age), na.rm = TRUE)
-  padding <- max(.12 * diff(window), 2 * bw.nrd0(values$age_ma[!values$outlier]))
+  padding <- max(.12 * diff(window), 2 * checkpoint_bandwidth(
+    values$age_ma[!values$outlier], values$doi[!values$outlier]))
   window <- window + c(-1, 1) * padding
   window[1] <- max(0, window[1])
   ticks <- pretty(window, n = 4)
   ticks <- ticks[ticks >= window[1] & ticks <= window[2]]
   if (length(ticks) < 2) ticks <- signif(window, 3)
-  d <- density(values$age_ma[!values$outlier], from = window[1], to = window[2], n = 512)
+  d <- checkpoint_density(values$age_ma[!values$outlier], values$doi[!values$outlier],
+                          from = window[1], to = window[2], n = 512)
   curve <- data.frame(age = d$x, density = d$y)
   ymax <- max(d$y)
-  panel_top <- if (clade == 'Deuterostomia') 2.1 else 1.3
+  panel_top <- 1.3
   key_breaks <- if (is.finite(cal$min_ma) || is.finite(cal$max_ma)) c('ROADIES', 'ASTRAL', 'Bounds') else c('ROADIES', 'ASTRAL')
   p <- ggplot() +
     geom_area(data = curve, aes(x = age, y = density), fill = '#ABB6BF', alpha = .35) +
@@ -332,8 +364,9 @@ panels <- lapply(names(ids), function(clade) {
           legend.position = 'none',
           axis.ticks.length = unit(2, 'pt'), plot.margin = margin(3, 4, 3, 3))
   if (clade == 'Deuterostomia') p <- p + theme(
-    legend.position = 'inside', legend.position.inside = c(.44, .84),
-    legend.justification = c(0, 1), legend.direction = 'vertical',
+    legend.position = 'inside', legend.position.inside = c(.98, .78),
+    legend.justification = c(1, 1), legend.direction = 'vertical',
+    legend.margin = margin(0, 0, 0, 0),
     legend.background = element_blank(), legend.key = element_blank(),
     legend.text = element_text(size = 5), legend.key.width = unit(12, 'pt'),
     legend.key.height = unit(7, 'pt'))

@@ -1,6 +1,6 @@
 # Exploratory treePL analyses
 
-[treePL](https://github.com/blackrim/treePL) provides exploratory dates using [fossil constraints](../../calibrations/README.md). Released dated trees are documented under [MD-CAT](../mdcat/README.md).
+[treePL](https://github.com/blackrim/treePL) provides exploratory dates using [fossil constraints](../../calibrations/README.md). Updated dated trees are documented under [MD-CAT](../mdcat/README.md).
 
 ## Results
 

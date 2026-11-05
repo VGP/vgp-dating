@@ -1,5 +1,6 @@
 #!/usr/bin/env Rscript
 # Run from any directory: Rscript plot_treepl.R <roadies_v1.1.16b|astralpro.l6p1>
+if (sys.nframe() == 0L) {
 args <- commandArgs(trailingOnly = TRUE)
 if (length(args) < 1L || length(args) > 2L || !args[1] %in% c("astralpro.l6p1", "roadies_v1.1.16b"))
     stop("Usage: Rscript plot_treepl.R <roadies_v1.1.16b|astralpro.l6p1> [output-directory]")
@@ -114,6 +115,8 @@ write.table(
 )
 
 # Full labeled tree and calibration atlas.
+}
+# Also used by the MD-CAT plotter; sourcing this file does not run treePL plotting.
 make_atlas <- function(opts) {
 script <- sub('^--file=', '', grep('^--file=', commandArgs(), value = TRUE)[1])
 repo <- dirname(dirname(dirname(normalizePath(script))))
@@ -419,7 +422,7 @@ if (!file.rename(pdf_temp,out)) stop('Could not save final PDF: ',out)
 message('Created ',out,'; ',n,' tips, ',length(nodes),' node labels, ',nrow(cal),' calibration ranges. All panels occupy checked clear space.')
 
 }
-make_atlas(list(tree=output('.scientific.treePL.tre'),
+if (sys.nframe() == 0L) make_atlas(list(tree=output('.scientific.treePL.tre'),
                 `accession-tree`=output('.treePL.tre'),
                 calibrations=output('.calibrated_node_ages.tsv'),
                 output=output('.dated.pdf'),

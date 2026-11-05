@@ -1,4 +1,4 @@
-# Run: Rscript dating/mdcat/plot_mdcat.R [roadies_v1.1.16b|astralpro.l6p1|comparison] [output.png]
+# Run: Rscript dating/mdcat/plot_mdcat.R <roadies_v1.1.16b|astralpro.l6p1|comparison> [output.png] [--strategy bottom-up]
 # Dots use current master calibration mappings; hairlines show embedded 95% intervals.
 suppressPackageStartupMessages({
     library(phytools)
@@ -9,12 +9,20 @@ script <- grep("^--file=", commandArgs(), value = TRUE)
 directory <- if (length(script)) dirname(normalizePath(sub("^--file=", "", script[1]))) else "."
 path <- function(name) file.path(directory, name)
 args <- commandArgs(trailingOnly=TRUE)
-if (length(args)>2L) stop('Usage: plot_mdcat.R [roadies_v1.1.16b|astralpro.l6p1|comparison] [output.png]')
-analysis <- if (length(args)) args[1] else 'roadies_v1.1.16b'
+strategy <- 'independent'
+if ('--strategy' %in% args) {
+    i <- match('--strategy', args)
+    if (i == length(args)) stop('Missing strategy.')
+    strategy <- args[i+1L]; args <- args[-c(i,i+1L)]
+}
+if (!strategy %in% c('independent','bottom-up')) stop('Unknown strategy: ',strategy)
+if (length(args)<1L || length(args)>2L) stop('Usage: plot_mdcat.R <roadies_v1.1.16b|astralpro.l6p1|comparison> [output.png] [--strategy bottom-up]')
+analysis <- args[1]
 if (analysis == 'comparison') {
+    if (strategy != 'independent') stop('The main comparison uses independent trees.')
     compare <- function(output) {
         read_tree <- function(name) {
-            tree <- read.nexus(path(file.path(name, paste0(name, '.independent.fast95.tre'))))
+            tree <- read.nexus(path(file.path(name, paste0(name, '.independent.k200.round2.tre'))))
             tree$tip.label <- sub("^'(.*)'$", "\\1", tree$tip.label)
             tree$tip.label[tree$tip.label == 'kxProAnne1'] <- 'GCA_040939525.1'
             stopifnot(is.rooted(tree), is.ultrametric(tree), !anyDuplicated(tree$tip.label))
@@ -47,7 +55,7 @@ if (analysis == 'comparison') {
         stopifnot(all(is.finite(as.matrix(result))), all(result$mean_age_ma > 0))
         result$relative_difference_percent <- 100 * result$difference_ma / result$mean_age_ma
         annotations <- read.delim(path('../../trees/annotations.tsv'), comment.char = '', stringsAsFactors = FALSE)
-        labels <- setNames(annotations$ScientificName, annotations[[1]])
+        labels <- setNames(trimws(annotations$ScientificName), annotations[[1]])
         stopifnot(all(shared %in% names(labels)))
         result$representative_tips <- vapply(r$tips[i], function(tips)
             paste(labels[tips[c(1L, length(tips))]], collapse = ' / '), character(1))
@@ -77,21 +85,22 @@ if (analysis == 'comparison') {
         abline(h = 0, col = '#8793A3', lty = 2)
         points(result$mean_age_ma[highlight], result$relative_difference_percent[highlight],
             pch = 16, col = '#E5864A', cex = .9)
-        mtext('ROADIES versus ASTRAL-Pro | independent.fast95', outer = TRUE, font = 2)
+        mtext('ROADIES versus ASTRAL-Pro | independent.k200.round2', outer = TRUE, font = 2)
         message(sprintf('Created %s and %s: %d clades, %d shared taxa; median absolute difference %.6f Ma.',
             output, table, nrow(result), length(shared), median(result$absolute_difference_ma)))
     }
-    compare(if (length(args) == 2L) args[2] else path('roadies_vs_astral.independent.fast95.comparison.png'))
+    compare(if (length(args) == 2L) args[2] else path('roadies_vs_astral.independent.k200.round2.comparison.png'))
     quit(save = 'no')
 }
 if (!analysis %in% c('roadies_v1.1.16b','astralpro.l6p1')) stop('Unknown MD-CAT tree: ',analysis)
 label <- if (analysis=='astralpro.l6p1') 'ASTRAL' else 'ROADIES'
 column <- if (analysis=='astralpro.l6p1') 'node_astralpro_l6p1' else 'node_roadies_v1_1_16b'
-output <- if(length(args)==2L) args[2] else path(file.path(analysis,paste0(analysis,'.independent.fast95.png')))
+stem <- path(file.path(analysis,paste0(analysis,'.',strategy,'.k200.round2')))
+output <- if(length(args)==2L) args[2] else paste0(stem,'.png')
 
 # Replace internal-node annotations with temporary labels to preserve their
 # association with nodes when ape reads the NEXUS tree.
-source_text <- paste(readLines(path(file.path(analysis,paste0(analysis,".independent.fast95.tre")))), collapse = "\n")
+source_text <- paste(readLines(paste0(stem,'.tre')), collapse = "\n")
 locations <- gregexpr("\\)\\[&[^]]+\\]", source_text, perl = TRUE)
 metadata <- regmatches(source_text, locations)[[1]]
 if (!length(metadata)) stop("No internal-node age annotations found.")
@@ -120,6 +129,20 @@ tree$node.label <- as.character(ci$node)
 ages <- branching.times(tree)
 stopifnot(all(is.finite(as.matrix(ci))), all(ci$lower <= ci$upper),
           max(abs(ci$mean - ages[as.character(ci$node)])) < 1e-6)
+if (strategy == 'independent') {
+    nodes <- seq_len(Ntip(tree)+tree$Nnode)
+    descendants <- lapply(nodes, function(node) {
+        if (node <= Ntip(tree)) return(tree$tip.label[node])
+        d <- getDescendants(tree,node)
+        sort(tree$tip.label[d[d <= Ntip(tree)]])
+    })
+    result <- data.frame(node_id=nodes, label=c(tree$tip.label,tree$node.label),
+        n_tips=lengths(descendants), age=c(rep(0,Ntip(tree)),ci$mean),
+        t_lower=c(rep(0,Ntip(tree)),ci$lower), t_upper=c(rep(0,Ntip(tree)),ci$upper),
+        n_runs=unique(field('n')), n_ci=unique(field('n_ci')),
+        descendant_tips=vapply(descendants,paste,character(1),collapse='|'))
+    write.table(result,paste0(stem,'.tre.tsv'),sep='\t',quote=FALSE,row.names=FALSE)
+}
 
 master <- read.csv(path("../../calibrations/master_calibrations.csv"), stringsAsFactors = FALSE)
 cal <- master[!is.na(master[[column]]), ]
@@ -191,5 +214,24 @@ write_plot <- function() {
     on.exit(dev.off())
     render()
 }
-write_plot()
-message("Created ",label," MD-CAT overview: ", nrow(cal), " current calibration mappings with 95% age CIs: ",output)
+if (strategy == 'independent') {
+    write_plot()
+    message("Created ",label," MD-CAT overview: ", nrow(cal), " current calibration mappings with 95% age CIs: ",output)
+}
+
+# Reuse the full-tree atlas rather than maintain a second renderer.
+source(path('../treePL/plot_treepl.R'), local=TRUE)
+write_atlas <- function() {
+    scientific <- tree
+    scientific$tip.label <- gsub(' ','_',annotations$ScientificName)
+    duplicate <- duplicated(scientific$tip.label) | duplicated(scientific$tip.label,fromLast=TRUE)
+    scientific$tip.label[duplicate] <- paste(scientific$tip.label[duplicate],tree$tip.label[duplicate],sep='_')
+    files <- replicate(3,tempfile())
+    on.exit(unlink(files))
+    write.tree(scientific,files[1],digits=17)
+    write.tree(tree,files[2],digits=17)
+    write.csv(cal,files[3],row.names=FALSE)
+    make_atlas(list(tree=files[1],`accession-tree`=files[2],calibrations=files[3],
+        output=paste0(stem,'.pdf'),title=paste(label,'MD-CAT |',strategy,'| k200 round 2')))
+}
+write_atlas()

@@ -1,19 +1,14 @@
 # ASTRAL v0.1.1 MD-CAT dating
 
-```bash
-python ~/workspace/MD-Cat/md_cat_sample.py -i ~/workspace/vgp-tree-release/v0.1.1/astralpro.l6p1.tre -t astralpro.l6p1.config --strategy independent -o astralpro.l6p1.independent.fastcorrect.tre --jobs 100 --threads 1 --CI "100 0.025 0.975" --max-draws 1000000000 --resume --workdir astralpro.l6p1.independent.fast.tre.runs/
-```
-
-The 565-tip ASTRAL-Pro tree was dated with MD-CAT 1.1.15.
+The updated 565-tip tree uses independent calibration sampling. This is the primary tree used in the overview and checkpoint figures. A bottom-up analysis is retained as an alternative.
 
 | Item | File |
 | --- | --- |
 | Input tree | [astralpro.l6p1.tre](../../../trees/astralpro.l6p1.tre) |
-| Baseline repository config (91 calibrations) | [astralpro.l6p1.config](https://github.com/VGP/vgp-dating/blob/a1b6da9ae9496c8fcea1554930d8f7b88611f921/dating/treePL/astralpro.l6p1/astralpro.l6p1.config) |
-| Dated tree (NEXUS) | [astralpro.l6p1.independent.fast95.tre](astralpro.l6p1.independent.fast95.tre) |
-| Node-age table (TSV) | [astralpro.l6p1.independent.fast95.tre.tsv](astralpro.l6p1.independent.fast95.tre.tsv) |
-| Figures | [PDF](astralpro.l6p1.independent.fast95.pdf), [PNG](astralpro.l6p1.independent.fast95.png) |
+| Calibration config | [astralpro.l6p1.config](../../treePL/astralpro.l6p1/astralpro.l6p1.config) |
+| Independent dated tree (NEXUS) | [Tree](astralpro.l6p1.independent.k200.round2.tre) |
+| Node ages and 95% intervals | [TSV](astralpro.l6p1.independent.k200.round2.tre.tsv) |
+| Independent figures | [Full tree (PDF)](astralpro.l6p1.independent.k200.round2.pdf), [overview (PNG)](astralpro.l6p1.independent.k200.round2.png) |
+| Bottom-up alternative | [Tree](astralpro.l6p1.bottom-up.k200.round2.tre), [full tree (PDF)](astralpro.l6p1.bottom-up.k200.round2.pdf) |
 
-The command names the output `fastcorrect`; the available tree and table use `fast95`.
-
-[MD-CAT methods](../README.md) · [Dating overview](../../README.md) · [VGP release v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1)
+[MD-CAT results](../README.md) · [Dating overview](../../README.md) · [VGP topology v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1)

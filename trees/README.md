@@ -14,4 +14,4 @@ The ASTRAL script maps `kxProAnne1` through the existing `AssemblyId` field to t
 
 ## Dated trees
 
-MD-CAT dated trees, node-age tables, figures, and run records for ROADIES v0.0.0 and ASTRAL v0.1.1 are available in [dating](../dating/README.md). This folder retains the reference topologies, tip annotations, and node-numbering files used to assign calibrations.
+MD-CAT dated trees, node-age tables, and figures for ROADIES v0.0.0 and ASTRAL v0.1.1 are available in [dating](../dating/README.md). This folder retains the reference topologies, tip annotations, and node-numbering files used to assign calibrations.

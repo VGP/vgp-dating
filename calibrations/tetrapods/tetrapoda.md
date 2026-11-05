@@ -56,14 +56,14 @@ These checkpoints follow the major divergences leading to and within tetrapods.
 
 | Clade | Estimates | Publication years | Median (Ma) |
 | --- | ---: | --- | ---: |
-| Sarcopterygii | 22 | 2002–2025 | 415.0 |
-| Tetrapoda | 38 | 1998–2025 | 351.8 |
-| Amniota | 37 | 2005–2025 | 318.9 |
-| Sauria | 37 | 1998–2025 | 281.7 |
-| Archelosauria | 36 | 1999–2025 | 261.4 |
-| Archosauria | 41 | 1997–2025 | 245.0 |
+| Sarcopterygii | 39 | 2002–2026 | 415.0 |
+| Tetrapoda | 139 | 1998–2026 | 349.9 |
+| Amniota | 118 | 2005–2026 | 319.0 |
+| Sauria | 46 | 1998–2026 | 281.7 |
+| Archelosauria | 42 | 1999–2026 | 261.4 |
+| Archosauria | 49 | 1997–2026 | 245.0 |
 
-Each tick represents a published estimate. Red ticks lie beyond 1.5 times the interquartile range and are excluded from the density and median; the counts above include them. Lines mark the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) and [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) MD-CAT ages and current fossil bounds, where available. These dated trees used an earlier calibration set. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
+Each tick represents a published estimate. Each study has equal total weight in the densities and summaries, divided among its retained estimates. Red ticks lie beyond 1.5 times the study-weighted interquartile range and are excluded from the density and median; the counts above include them. Lines mark the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) and [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) independent MD-CAT ages and current fossil bounds, where available. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
 
 ![Tetrapod likelihood checkpoints](tetrapods_likelihood_checkpoints.png)
 

@@ -31,7 +31,7 @@ Nate Upham (nathan.upham@asu.edu) – ASU
 
 We have assembled an [initial set](./calibrations/README.md) of **108** calibrations matched to the Phase I ROADIES and ASTRAL trees. [Dated trees](./dating/mdcat/README.md) inferred using [MD-CAT](./dating/README.md) are available for ROADIES v0.0.0 and ASTRAL v0.1.1. Future trees will also be dated using Bayesian methods in [mcmctree](https://github.com/dosreislab/mcmctree).
 
-![ROADIES MD-CAT timescale](dating/mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.png)
+![ROADIES MD-CAT timescale](dating/mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.png)
 
 The primary outcomes of this effort are:\
 i) A genomic timescale for vertebrate evolution based on the [VGP Phase I](https://github.com/VGP/vgp-trees/tree/main/phase-1) [guide trees](./trees/README.md)\
