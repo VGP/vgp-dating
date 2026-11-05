@@ -128,12 +128,12 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ### Likelihood checkpoints:
 
-There are well-documented times for likelihood checkpoints at the base of Amphibia based on 107 published age estimates from 47 studies. The figure summarizes the [compiled age estimates](../../checkpoints/checkpoint_estimates.csv) and is generated with the [plotting script](amphibia_ages.R). Previous estimates for Lissamphibia (Gymnophiona + Batrachia) with and without †_Gerobatrachus_ (depending on its placement as a stem batrachian) were previously compiled by [Kligman et al. (2023)](https://www.nature.com/articles/s41586-022-05646-5). We summarize those here using the central 95% interval of published age estimates after excluding outliers beyond 1.5 times the IQR. Those authors also summarized the published evidence for Batrachia (Salientia + Urodela) and Gymnophiona (Rhinatrematidae + Stegokrotaphia, which is Plesiophiona + Pseudophiona in the nomenclature of [Dubois et al. 2021](https://www.mapress.com/mt/article/view/38637)), to which we added Anura and analyzed in the same manner:
+There are well-documented times for likelihood checkpoints at the base of Amphibia, based on 109 published age estimates from 46 studies published between 2002 and 2025. Previous estimates for Lissamphibia (Gymnophiona + Batrachia), with and without †_Gerobatrachus_ depending on its placement as a stem batrachian, were compiled by [Kligman et al. (2023)](https://www.nature.com/articles/s41586-022-05646-5). Those authors also summarized the evidence for Batrachia (Salientia + Urodela) and Gymnophiona (Rhinatrematidae + Stegokrotaphia, which is Plesiophiona + Pseudophiona in the nomenclature of [Dubois et al. 2021](https://www.mapress.com/mt/article/view/38637)); we added Anura and further published estimates. The figure summarizes the [compiled estimates](../../checkpoints/checkpoint_estimates.csv) using the [plotting script](../../checkpoints/plot_checkpoints.R). Outliers beyond 1.5 times the interquartile range are shown in red and excluded from the density and the summaries below, which give the central 95% of the remaining estimates:
 
-**Lissamphibia:** (29): 279.0–360.0Ma (Median 318Ma)\
-**Batrachia:** (32): 244.0–347.0Ma (Median 292Ma)\
-**Anura:** (26): 175.0–278.0Ma (Median 218Ma)\
-**Gymnophiona:** (19): 92.0–258.0Ma (Median 213Ma)
+**Lissamphibia:** (29 estimates): 278.7–359.9 Ma (median 318.1 Ma)\
+**Batrachia:** (33 estimates): 244.1–347.2 Ma (median 292.3 Ma)\
+**Anura:** (26 estimates): 175.5–277.9 Ma (median 218.0 Ma)\
+**Gymnophiona:** (21 estimates): 92.9–256.8 Ma (median 201.7 Ma)
 
 ![amphibia likelihood checkpoints](amphibia_likelihood_checkpoints.png)
 

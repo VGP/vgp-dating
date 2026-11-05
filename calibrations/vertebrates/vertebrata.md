@@ -53,7 +53,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ### Likelihood checkpoints:
 
-The figure compares TimeTree estimates for the calibrated taxon pair with the released ROADIES and ASTRAL MD-CAT ages and current fossil bounds. Each tick is an estimate; the shaded curve summarizes their distribution. The MD-CAT results used an earlier set of calibrations. The [source data and plotting script](../../checkpoints/checkpoints.md) include all estimates from the supplied export.
+The figure compares published estimates for four early vertebrate nodes. The compilation includes 13 estimates for Vertebrata from studies published between 1996 and 2024, seven for Cyclostomata (2001–2018), 20 for Gnathostomata (2003–2025), and 37 for Osteichthyes (2002–2025). After excluding outliers, their median ages are 527.8, 455.0, 462.3, and 432.5 Ma, respectively. Each tick is a published estimate; ticks beyond 1.5 times the interquartile range are shown in red and excluded from the shaded density. Multiple estimates from the same paper are retained. The vertical lines show the released ROADIES and ASTRAL MD-CAT ages and, where present, the current fossil bounds. The MD-CAT trees used an earlier set of calibrations. The [compiled estimates](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
 
 ![Early vertebrate likelihood checkpoints](vertebrates_likelihood_checkpoints.png)
 

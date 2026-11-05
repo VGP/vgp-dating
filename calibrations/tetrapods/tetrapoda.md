@@ -52,7 +52,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ### Likelihood checkpoints:
 
-The figure compares TimeTree estimates for the calibrated taxon pair with the released ROADIES and ASTRAL MD-CAT ages and current fossil bounds. Each tick is an estimate; the shaded curve summarizes their distribution. The MD-CAT results used an earlier set of calibrations. The [source data and plotting script](../../checkpoints/checkpoints.md) include all estimates from the supplied export.
+The figure compares published age estimates for six major nodes leading to and within tetrapods. The compilation includes 22 estimates for Sarcopterygii (2002–2025), 38 for Tetrapoda (1998–2025), 37 for Amniota (2005–2025), 37 for Sauria (1998–2025), 36 for Archelosauria (1999–2025), and 41 for Archosauria (1997–2025). After excluding outliers, their medians are 415.0, 351.8, 318.9, 281.7, 261.4, and 245.0 Ma, respectively. Each tick is a published estimate; ticks beyond 1.5 times the interquartile range are shown in red and excluded from the shaded density. Multiple estimates from the same paper are retained. The vertical lines show the released ROADIES and ASTRAL MD-CAT ages and, where present, the current fossil bounds. The MD-CAT trees used an earlier set of calibrations. The [compiled estimates](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
 
 ![Tetrapod likelihood checkpoints](tetrapods_likelihood_checkpoints.png)
 

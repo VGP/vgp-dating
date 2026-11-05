@@ -313,7 +313,7 @@ Even though earlier papers found a significant effect of †_Plectocretacicus_ o
 
 ### Likelihood checkpoints
 
-The figure compares TimeTree estimates for the calibrated taxon pair with the released ROADIES and ASTRAL MD-CAT ages and current fossil bounds. Each tick is an estimate; the shaded curve summarizes their distribution. The MD-CAT results used an earlier set of calibrations. The [source data and plotting script](../../checkpoints/checkpoints.md) include all estimates from the supplied export.
+The figure compares published age estimates for seven major fish nodes. The compilation includes seven estimates for Chondrichthyes (2009–2018), 11 for Elasmobranchii (2009–2024), 20 for Actinopterygii (2005–2025), 23 for Actinopteri (1994–2025), 27 for Neopterygii (2008–2025), 16 for Holostei (2005–2018), and 30 for Teleostei (2005–2025). After excluding outliers, their medians are 413.1, 270.4, 404.8, 350.1, 313.5, 297.3, and 252.6 Ma, respectively. Each tick is a published estimate; ticks beyond 1.5 times the interquartile range are shown in red and excluded from the shaded density. Multiple estimates from the same paper are retained. The vertical lines show the released ROADIES and ASTRAL MD-CAT ages and, where present, the current fossil bounds. The MD-CAT trees used an earlier set of calibrations. The [compiled estimates](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
 
 ![Fish likelihood checkpoints](fishes_likelihood_checkpoints.png)
 

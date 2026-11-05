@@ -377,7 +377,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ## Likelihood checkpoints
 
-The figure compares TimeTree estimates for the calibrated taxon pair with the released ROADIES and ASTRAL MD-CAT ages and current fossil bounds. Each tick is an estimate; red ticks are statistical outliers omitted from the shaded density. The MD-CAT results used an earlier set of calibrations. The Marsupialia TimeTree export includes some apparently unrelated study titles, so that checkpoint is provisional pending a source check. The [source data and plotting script](../../checkpoints/checkpoints.md) include all estimates from the supplied export.
+The figure compares published age estimates for Mammalia, Theria, Marsupialia, and Placentalia. The compilation contains 36 estimates for Mammalia from studies published between 1989 and 2025, 42 for Theria (1989–2025), 32 for Marsupialia (1989–2025), and 24 for Placentalia (1997–2025). After excluding outliers, their median ages are 183.4, 159.4, 72.0, and 98.7 Ma, respectively. Each tick is a published estimate; ticks beyond 1.5 times the interquartile range are shown in red and excluded from the shaded density. Multiple estimates from the same paper are retained. The vertical lines show the released ROADIES and ASTRAL MD-CAT ages and, where present, the current fossil bounds. The MD-CAT trees used an earlier set of calibrations. The [compiled estimates](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
 
 ![Mammal likelihood checkpoints](mammals_likelihood_checkpoints.png)
 
