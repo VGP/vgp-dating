@@ -4,7 +4,7 @@ This is the current set of **108** calibrations, of which **105** apply to the [
 
 CAL identifiers refer to records in the [master calibration list](./master_calibrations.csv). After updating the list, run `Rscript dating/treePL/calibration_config.R --update` from the repository root to update both treePL configs. The treePL launcher also does this automatically before running analyses.
 
-Published divergence-time comparisons are collected in the [likelihood checkpoints](../checkpoints/checkpoints.md).
+Published divergence-time comparisons are collected in the [likelihood checkpoints](../checkpoints/README.md).
 
 ## [Outgroups & root](./outgroups/deuterostomia.md):
 

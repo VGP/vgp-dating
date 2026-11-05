@@ -199,7 +199,7 @@ for (id in if (length(requested)) intersect(names(plots), requested) else names(
           legend.key.height = unit(10, 'pt'), legend.key.width = unit(17, 'pt'),
           plot.margin = margin(16, 18, 8, 12))
   })
-  if (!id %in% c('CAL032', 'CAL033', 'CAL034', 'Gymnophiona', 'Aves', 'Palaeognathae', 'CAL084', 'Neoaves'))
+  if (length(requested) || id %in% c('CAL064', 'CAL074', 'CAL083'))
     ggsave(file.path(root, 'calibrations', plots[[id]][2]), p, width = 8, height = 5, dpi = 300, bg = 'white')
   panel_cache[[id]] <- p + theme(plot.title = element_text(size = 11, margin = margin(b = 8)),
                                  legend.text = element_text(size = 7),
@@ -329,9 +329,11 @@ order <- c('Deuterostomia', 'Ambulacraria', 'Chordata', 'Vertebrata', 'Cyclostom
            'Crocodylia', 'Aves', 'Palaeognathae', 'Neognathae', 'Galloanserae', 'Neoaves')
 stopifnot(length(order) == length(ids), setequal(order, names(ids)))
 figure <- wrap_plots(panels[order], ncol = 6)
+pdf(NULL)
 figure <- grid::grobTree(patchwork::patchworkGrob(figure),
                          grid::textGrob('Age (Ma)', x = .5, y = grid::unit(1, 'mm'),
                                         just = c('centre', 'bottom'), gp = grid::gpar(fontsize = 5)))
+dev.off()
 ggsave(file.path(root, 'checkpoints/checkpoints_summary.png'), figure,
        width = 180, height = 170, units = 'mm', dpi = 600, bg = 'white')
 ggsave(file.path(root, 'checkpoints/checkpoints_summary.pdf'), figure,
