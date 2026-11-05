@@ -55,9 +55,7 @@
 +    cout.precision(17);
 @@ -68,0 +116 @@
 +    string startstate, otherstate, stateout;
-@@ -74,0 +123 @@
-+    bool cvlocal = false;
-@@ -263,0 +313,27 @@
+@@ -263,0 +312,25 @@
 +                }else if(!strcmp(tokens[0].c_str(), "startstate")){
 +                    startstate = tokens[1];
 +                }else if(!strcmp(tokens[0].c_str(), "otherstate")){
@@ -81,42 +79,35 @@
 +                        }
 +                        oopt.polish.push_back(codes);
 +                    }
-+                }else if(!strcmp(tokens[0].c_str(), "cvlocal")){
-+                    cvlocal = true;
 +                }else if(!strcmp(tokens[0].c_str(), "cvseed")){
 +                    cvseed = atoi(tokens[1].c_str());
-@@ -575 +651 @@
+@@ -575 +648 @@
 -            bool madeit = optimize_full(plp,&params,&oopt,false);
 +            bool madeit = startstate.empty() ? optimize_full(plp,&params,&oopt,false) : true;
-@@ -590,0 +667 @@
+@@ -590,0 +664 @@
 +                cvoutFl << setprecision(17);
-@@ -600,0 +678 @@
+@@ -600,0 +675 @@
 +                if(cvseed >= 0) srand(cvseed);
-@@ -660,0 +739,6 @@
+@@ -660,0 +736,6 @@
 +                for(unsigned int i=0;i<samp_groups.size();i++) {
 +                    cout << "cv sample " << i << ":";
 +                    for(int node:samp_groups[i]) cout << " " << tree->getNodeByNodeNumber(node)->getName();
 +                    cout << endl;
 +                }
 +                if(cvseed >= 0 && seed >= 0) srand(seed);
-@@ -666,0 +751,2 @@
+@@ -666,0 +748,2 @@
 +                int stateindex = 0;
 +                vector< vector<double> > foldstates(samp_groups.size());
-@@ -668,0 +755,2 @@
-+                    OptimOptions cvopt(oopt);
-+                    if(cvlocal && stateindex > 0) cvopt.lfsimaniter = 0;
-@@ -676,2 +764,6 @@
+@@ -676 +759,5 @@
 -                        cout << plp.calc_pl(params) << endl;
--                        optimize_full(plp,&params,&oopt,false);
 +                        if(stateindex == 0) {
 +                            consider_state(startstate,plp,params,vector<int>(),true);
 +                            consider_state(otherstate,plp,params,vector<int>());
 +                        }
 +                        cout << "start full objective: " << plp.calc_pl(params) << endl;
-+                        optimize_full(plp,&params,&cvopt,false);
-@@ -681,0 +774 @@
+@@ -681,0 +769 @@
 +                        if(!stateout.empty()) write_state(stateout+"."+to_string(stateindex),params,vector<int>());
-@@ -715,0 +809,8 @@
+@@ -715,0 +804,8 @@
 +                        if(stateindex == 0) {
 +                            if(!startstate.empty()) consider_state(startstate+".cv"+to_string(i),plpcv,cvplparams,cvnodes);
 +                            if(!otherstate.empty()) consider_state(otherstate+".cv"+to_string(i),plpcv,cvplparams,cvnodes);
@@ -125,23 +116,20 @@
 +                            double previous = plpcv.calc_pl(foldstates[i]);
 +                            if(isfinite(previous) && previous < initial) cvplparams = foldstates[i];
 +                        }
-@@ -720 +821 @@
--                        optimize_full(plpcv,&cvplparams,&oopt,true);
-+                        optimize_full(plpcv,&cvplparams,&cvopt,true);
-@@ -721,0 +823,2 @@
+@@ -721,0 +818,2 @@
 +                        foldstates[i] = cvplparams;
 +                        if(!stateout.empty()) write_state(stateout+"."+to_string(stateindex)+".cv"+to_string(i),cvplparams,cvnodes);
-@@ -794,0 +898 @@
+@@ -794,0 +893 @@
 +                            cout << "cv prediction: " << i << " " << tchisq/(float)samp_groups[i].size() << endl;
-@@ -813,0 +918 @@
+@@ -813,0 +913 @@
 +                    stateindex++;
-@@ -834,0 +940,5 @@
+@@ -834,0 +935,5 @@
 +                if(!cv) {
 +                    consider_state(startstate,plp,params,vector<int>(),true);
 +                    consider_state(otherstate,plp,params,vector<int>());
 +                }
 +                cout << "start full objective: " << plp.calc_pl(params) << endl;
-@@ -843,0 +954 @@
+@@ -843,0 +949 @@
 +                if(!stateout.empty()) write_state(stateout,params,vector<int>());
 --- a/src/utils.cpp
 +++ b/src/utils.cpp
