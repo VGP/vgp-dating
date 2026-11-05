@@ -1,5 +1,5 @@
 # Plot TimeTree estimates against the released MD-CAT trees and current bounds.
-# Run from any directory: Rscript calibrations/plot_checkpoints.R
+# Run from any directory: Rscript checkpoints/plot_checkpoints.R
 checkpoint_outlier <- function(ages) {
   q <- quantile(ages, c(.25, .75), na.rm = TRUE)
   spread <- q[2] - q[1]
@@ -9,6 +9,10 @@ unbounded_pairs <- list(
   Neognathae = c('GCF_016700215.2', 'GCF_027579445.1'),
   Actinopterygii = c('GCF_900747795.2', 'GCF_901000725.2'),
   Neopterygii = c('GCF_036373705.1', 'GCF_901000725.2'),
+  Actinopteri = c('GCF_902713425.1', 'GCF_901000725.2'),
+  Holostei = c('GCF_036373705.1', 'GCF_040954835.1'),
+  Elasmobranchii = c('GCF_017639515.1', 'GCA_963514005.1'),
+  Archelosauria = c('GCF_030867095.1', 'GCA_965140285.1'),
   Sarcopterygii = c('GCF_037176945.1', 'GCF_027579445.1'))
 
 # Sourcing this file provides the shared pairs without generating individual plots.
@@ -17,8 +21,8 @@ suppressPackageStartupMessages({ library(ape); library(ggplot2); library(patchwo
 script <- sub('^--file=', '', grep('^--file=', commandArgs(), value = TRUE)[1])
 root <- dirname(dirname(normalizePath(script)))
 master <- read.csv(file.path(root, 'calibrations/master_calibrations.csv'))
-estimates <- read.csv(file.path(root, 'calibrations/checkpoint_estimates.csv'))
-icons <- readRDS(file.path(root, 'calibrations/checkpoint_phylopics.rds'))
+estimates <- read.csv(file.path(root, 'checkpoints/checkpoint_estimates.csv'))
+icons <- readRDS(file.path(root, 'checkpoints/checkpoint_phylopics.rds'))
 panel_icons <- list(
   CAL006 = c('lamprey', 'Lamprey', .79),
   CAL025 = c('shark', 'Shark', .18),
@@ -50,6 +54,10 @@ plots <- list(
   Neognathae = c('Neognathae', 'birds/neognathae_likelihood_checkpoints.png'),
   Actinopterygii = c('Actinopterygii', 'fishes/actinopterygii_likelihood_checkpoints.png'),
   Neopterygii = c('Neopterygii', 'fishes/neopterygii_likelihood_checkpoints.png'),
+  Actinopteri = c('Actinopteri', 'fishes/actinopteri_likelihood_checkpoints.png'),
+  Holostei = c('Holostei', 'fishes/holostei_likelihood_checkpoints.png'),
+  Elasmobranchii = c('Elasmobranchii', 'fishes/elasmobranchii_likelihood_checkpoints.png'),
+  Archelosauria = c('Archelosauria', 'tetrapods/archelosauria_likelihood_checkpoints.png'),
   Sarcopterygii = c('Sarcopterygii', 'tetrapods/sarcopterygii_likelihood_checkpoints.png')
 )
 windows <- list(CAL005 = c(400, 850), CAL009 = c(0, 400),
@@ -59,7 +67,8 @@ windows <- list(CAL005 = c(400, 850), CAL009 = c(0, 400),
                 CAL041 = c(50, 300), CAL043 = c(0, 300), CAL044 = c(0, 200),
                 CAL002 = c(400, 1050), CAL003 = c(400, 1050),
                 Neognathae = c(0, 230), Actinopterygii = c(200, 500),
-                Neopterygii = c(100, 450), Sarcopterygii = c(250, 500))
+                Neopterygii = c(100, 450), Actinopteri = c(100, 450), Holostei = c(100, 450),
+                Elasmobranchii = c(100, 450), Archelosauria = c(150, 400), Sarcopterygii = c(250, 500))
 # Approximate geological-period boundaries (Ma), for context rather than dating.
 periods <- data.frame(
   period = c('Quaternary', 'Neogene', 'Paleogene', 'Cretaceous', 'Jurassic', 'Triassic',
@@ -82,8 +91,8 @@ trees <- lapply(file.path(root, 'dating/mdcat', tree_files), function(path) {
 names(trees) <- names(tree_files)
 panel_groups <- list(
   c('CAL005', 'CAL006', 'CAL007', 'CAL008'),
-  c('CAL025', 'Actinopterygii', 'Neopterygii', 'CAL009'),
-  c('Sarcopterygii', 'CAL028', 'CAL029', 'CAL030', 'CAL031'),
+  c('CAL025', 'Elasmobranchii', 'Actinopterygii', 'Actinopteri', 'Neopterygii', 'Holostei', 'CAL009'),
+  c('Sarcopterygii', 'CAL028', 'CAL029', 'CAL030', 'Archelosauria', 'CAL031'),
   c('CAL040', 'CAL041', 'CAL043', 'CAL044'),
   c('CAL002', 'CAL003'))
 for (group in panel_groups) {
@@ -187,12 +196,12 @@ if (!length(requested)) {
   groups <- list(
     'outgroups/outgroups_likelihood_checkpoints.png' = c('CAL001', 'CAL002', 'CAL003'),
     'vertebrates/vertebrates_likelihood_checkpoints.png' = c('CAL005', 'CAL006', 'CAL007', 'CAL008'),
-    'fishes/fishes_likelihood_checkpoints.png' = c('CAL025', 'Actinopterygii', 'Neopterygii', 'CAL009'),
-    'tetrapods/tetrapods_likelihood_checkpoints.png' = c('Sarcopterygii', 'CAL028', 'CAL029', 'CAL030', 'CAL031'),
+    'fishes/fishes_likelihood_checkpoints.png' = c('CAL025', 'Elasmobranchii', 'Actinopterygii', 'Actinopteri', 'Neopterygii', 'Holostei', 'CAL009'),
+    'tetrapods/tetrapods_likelihood_checkpoints.png' = c('Sarcopterygii', 'CAL028', 'CAL029', 'CAL030', 'Archelosauria', 'CAL031'),
     'mammals/mammals_likelihood_checkpoints.png' = c('CAL040', 'CAL041', 'CAL043', 'CAL044'))
   for (path in names(groups)) {
     ids <- groups[[path]]; stopifnot(all(ids %in% names(panel_cache)))
-    ncol <- if (length(ids) == 3) 3 else if (length(ids) == 4) 2 else 3
+    ncol <- if (length(ids) == 4) 2 else 3
     figure <- if (length(ids) == 5) {
       wrap_plots(panel_cache[ids[1:3]], ncol = 3) /
         (plot_spacer() + panel_cache[[ids[4]]] + panel_cache[[ids[5]]] + plot_spacer() +

@@ -1,21 +1,22 @@
 # Compact overview of the published checkpoint estimates and released trees.
-# Run from any directory: Rscript calibrations/plot_checkpoint_summary.R
+# Run from any directory: Rscript checkpoints/plot_checkpoint_summary.R
 suppressPackageStartupMessages({ library(ape); library(ggplot2); library(patchwork) })
 script <- sub('^--file=', '', grep('^--file=', commandArgs(), value = TRUE)[1])
 root <- dirname(dirname(normalizePath(script)))
-source(file.path(root, 'calibrations/plot_checkpoints.R'), local = TRUE)
+source(file.path(root, 'checkpoints/plot_checkpoints.R'), local = TRUE)
 master <- read.csv(file.path(root, 'calibrations/master_calibrations.csv'))
-estimates <- read.csv(file.path(root, 'calibrations/checkpoint_estimates.csv'))
+estimates <- read.csv(file.path(root, 'checkpoints/checkpoint_estimates.csv'))
 ids <- c(Deuterostomia = 'CAL001', Ambulacraria = 'CAL002', Chordata = 'CAL003',
          Vertebrata = 'CAL005', Teleostei = 'CAL009',
          Tetrapoda = 'CAL028', Lissamphibia = 'CAL032', Batrachia = 'CAL033',
          Anura = 'CAL034', Gymnophiona = NA, Squamata = 'CAL064',
          Testudines = 'CAL074', Crocodylia = 'CAL083', Mammalia = 'CAL040',
-         Aves = NA, Neoaves = NA, Palaeognathae = NA, Neognathae = NA,
+         Aves = NA, Neoaves = NA, Palaeognathae = NA, Neognathae = NA, Galloanserae = 'CAL084',
          Actinopterygii = NA, Neopterygii = NA, Sarcopterygii = NA,
          Cyclostomata = 'CAL006', Gnathostomata = 'CAL007', Osteichthyes = 'CAL008',
          Chondrichthyes = 'CAL025', Amniota = 'CAL029', Sauria = 'CAL030', Archosauria = 'CAL031',
-         Theria = 'CAL041', Marsupialia = 'CAL043', Placentalia = 'CAL044')
+         Theria = 'CAL041', Marsupialia = 'CAL043', Placentalia = 'CAL044',
+         Actinopteri = NA, Holostei = NA, Elasmobranchii = NA, Archelosauria = NA)
 tree_files <- c(ROADIES = 'roadies_v1.1.16b/roadies_v1.1.16b.independent.fast95.tre',
                 ASTRAL = 'astralpro.l6p1/astralpro.l6p1.independent.fast95.tre')
 trees <- lapply(file.path(root, 'dating/mdcat', tree_files), function(path) {
@@ -89,7 +90,7 @@ panels <- lapply(names(ids), function(clade) {
           legend.position = 'none',
           axis.ticks.length = unit(2, 'pt'), plot.margin = margin(3, 4, 3, 3))
   if (clade == 'Deuterostomia') p <- p + theme(
-    legend.position = 'inside', legend.position.inside = c(.53, .98),
+    legend.position = 'inside', legend.position.inside = c(.59, .84),
     legend.justification = c(0, 1), legend.direction = 'vertical',
     legend.background = element_blank(), legend.key = element_blank(),
     legend.text = element_text(size = 5), legend.key.width = unit(12, 'pt'),
@@ -98,17 +99,16 @@ panels <- lapply(names(ids), function(clade) {
 })
 names(panels) <- names(ids)
 # Read left-to-right, top-to-bottom: deep splits followed by related vertebrate groups.
-order <- c('Deuterostomia', 'Ambulacraria', 'Chordata', 'Vertebrata', 'Cyclostomata',
-           'Gnathostomata', 'Chondrichthyes', 'Osteichthyes', 'Actinopterygii', 'Neopterygii',
-           'Teleostei', 'Sarcopterygii', 'Tetrapoda', 'Lissamphibia', 'Gymnophiona',
-           'Batrachia', 'Anura', 'Amniota', 'Mammalia', 'Theria', 'Marsupialia', 'Placentalia',
-           'Sauria', 'Squamata', 'Testudines', 'Archosauria', 'Crocodylia',
-           'Aves', 'Palaeognathae', 'Neognathae', 'Neoaves')
+order <- c('Deuterostomia', 'Ambulacraria', 'Chordata', 'Vertebrata', 'Cyclostomata', 'Gnathostomata',
+           'Chondrichthyes', 'Elasmobranchii', 'Osteichthyes', 'Actinopterygii', 'Actinopteri', 'Neopterygii',
+           'Holostei', 'Teleostei', 'Sarcopterygii', 'Tetrapoda', 'Lissamphibia', 'Gymnophiona',
+           'Batrachia', 'Anura', 'Amniota', 'Mammalia', 'Theria', 'Marsupialia',
+           'Placentalia', 'Sauria', 'Squamata', 'Archelosauria', 'Testudines', 'Archosauria',
+           'Crocodylia', 'Aves', 'Palaeognathae', 'Neognathae', 'Galloanserae', 'Neoaves')
 stopifnot(length(order) == length(ids), setequal(order, names(ids)))
-figure <- (wrap_plots(panels[order[1:25]], ncol = 5) /
-           wrap_plots(panels[order[26:31]], ncol = 6) + plot_layout(heights = c(5, 1))) +
+figure <- wrap_plots(panels[order], ncol = 6) +
   plot_annotation(caption = 'Age (Ma)', theme = theme(plot.caption = element_text(size = 6, hjust = .5)))
-ggsave(file.path(root, 'calibrations/checkpoints_summary.png'), figure,
+ggsave(file.path(root, 'checkpoints/checkpoints_summary.png'), figure,
        width = 180, height = 170, units = 'mm', dpi = 600, bg = 'white')
-ggsave(file.path(root, 'calibrations/checkpoints_summary.pdf'), figure,
+ggsave(file.path(root, 'checkpoints/checkpoints_summary.pdf'), figure,
        width = 180, height = 170, units = 'mm', device = cairo_pdf, bg = 'white')

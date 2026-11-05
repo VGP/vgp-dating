@@ -5,7 +5,7 @@ library(ggplot2)
 library(dplyr)
 
 ## Read in data
-all_ages <- read.csv("../checkpoint_estimates.csv")
+all_ages <- read.csv("../../checkpoints/checkpoint_estimates.csv")
 ages <- transform(subset(all_ages, clade == "Crocodylia" & !is.na(lower_ma) & !is.na(upper_ma)), Point = age_ma, Min = lower_ma, Max = upper_ma)
 times <- transform(subset(all_ages, clade == "Crocodylia" & is.na(lower_ma) & is.na(upper_ma)), Time = age_ma)
 

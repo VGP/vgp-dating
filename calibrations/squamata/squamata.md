@@ -145,7 +145,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ### Likelihood checkpoints
 
-The figure combines published [timetree estimates](../checkpoint_estimates.csv) and [total-evidence estimates](../checkpoint_estimates.csv), using the [plotting script](squamata_timetrees.R). A preliminary literature review yields 34 age estimates for crown-group Squamata from 27 studies, yielding a median of 193.6Ma and a kernel-density mode of 192.5Ma excluding outliers (1.5 * IQR). Ten total-evidence analyses from 5 studies range from 186.5–214.6Ma with a median of 199.9Ma, showing close concordance with molecular time-tree estimates. These data are strongly congruent with our nodal calibration of 166–215Ma:
+The figure combines published [timetree estimates](../../checkpoints/checkpoint_estimates.csv) and [total-evidence estimates](../../checkpoints/checkpoint_estimates.csv), using the [plotting script](squamata_timetrees.R). A preliminary literature review yields 34 age estimates for crown-group Squamata from 27 studies, yielding a median of 193.6Ma and a kernel-density mode of 192.5Ma excluding outliers (1.5 * IQR). Ten total-evidence analyses from 5 studies range from 186.5–214.6Ma with a median of 199.9Ma, showing close concordance with molecular time-tree estimates. These data are strongly congruent with our nodal calibration of 166–215Ma:
 
 ![squamata likelihood checkpoints](squamata_likelihood_checkpoints.png)
 

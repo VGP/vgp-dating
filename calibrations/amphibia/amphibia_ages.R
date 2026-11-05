@@ -6,7 +6,7 @@ library(patchwork)
 library(rphylopic)
 
 # Preserve the existing within-clade 1.5-IQR outlier rule.
-ages <- read.csv('../checkpoint_estimates.csv') %>%
+ages <- read.csv('../../checkpoints/checkpoint_estimates.csv') %>%
   filter(clade %in% c('Anura', 'Batrachia', 'Gymnophiona', 'Lissamphibia')) %>%
   transmute(Clade = clade, Age = age_ma, Reference = authors) %>%
   group_by(Clade) %>%

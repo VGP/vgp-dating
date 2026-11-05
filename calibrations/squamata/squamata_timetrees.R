@@ -5,7 +5,7 @@ library(dplyr)
 library(ggplot2)
 
 # Read the CSV file
-all_ages <- read.csv("../checkpoint_estimates.csv")
+all_ages <- read.csv("../../checkpoints/checkpoint_estimates.csv")
 squamata <- transform(subset(all_ages, clade == "Squamata" & is.na(lower_ma) & is.na(upper_ma)), Age = age_ma)
 
 # Read the tip dates

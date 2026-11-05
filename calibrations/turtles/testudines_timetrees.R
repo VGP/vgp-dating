@@ -5,7 +5,7 @@ library(ggplot2)
 library(dplyr)
 
 # Read in ages
-all_ages <- read.csv("../checkpoint_estimates.csv")
+all_ages <- read.csv("../../checkpoints/checkpoint_estimates.csv")
 testudines <- transform(subset(all_ages, clade == "Testudines"), Time = age_ma, Year = year)
 
 # ----------------------------

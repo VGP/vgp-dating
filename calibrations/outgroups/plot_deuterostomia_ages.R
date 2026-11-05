@@ -2,10 +2,10 @@
 library(ggplot2)
 library(rphylopic)
 library(ape)
-source('../plot_checkpoints.R')
+source('../../checkpoints/plot_checkpoints.R')
 
 ## Read the ages. fileEncoding removes the invisible BOM in the first header.
-all_ages <- read.csv("../checkpoint_estimates.csv")
+all_ages <- read.csv("../../checkpoints/checkpoint_estimates.csv")
 ages <- transform(subset(all_ages, clade == "Deuterostomia"), Time = age_ma)
 ages$outlier <- checkpoint_outlier(ages$Time)
 
