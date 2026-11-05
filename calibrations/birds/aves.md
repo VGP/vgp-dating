@@ -388,13 +388,19 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ## Likelihood checkpoints
 
-Published estimates for Aves, Palaeognathae, Neognathae, Galloanserae and Neoaves are compared with the released ROADIES and ASTRAL trees and current calibration bounds. The compilation contains 37, 23, 48, 47 and 40 estimates for these nodes, respectively, from papers published between 1996 and 2026. After excluding outliers, their median ages are 105.6, 69.0, 92.0, 76.9 and 71.5 Ma, respectively. The points are from the [shared checkpoint table](../../checkpoints/checkpoint_estimates.csv); the [plotting script](../../checkpoints/plot_checkpoints.R) excludes points beyond 1.5 times the interquartile range from the density and marks them in red. Multiple estimates from a study may come from alternative trees or analyses.
+The bird checkpoints cover crown Aves and its major living lineages.
 
-For Neoaves, some studies contribute estimates from two different published analyses: Jetz et al. used the Ericson and Hackett backbones; Kimball et al. presented trees with and without a root constraint; Prum et al. analyzed alternative fossil constraints; and Claramunt and Cracraft analyzed two molecular datasets. Their node ages were obtained from the input trees compiled by [McTavish et al. (2025)](https://doi.org/10.1073/pnas.2409658122); their synthesis is a summary of published ages, so it is not counted as an additional estimate. Older estimates include values compiled by [van Tuinen (2009)](https://timetree.org/public/data/pdf/vanTuinen2009Chap60.pdf). Studies differ in the relationships they recover at the base of Neoaves, so a particular pair of birds does not always represent the crown node.
+| Clade | Studies | Estimates | Publication years | Median (Ma) |
+| --- | ---: | ---: | --- | ---: |
+| Aves | 37 | 37 | 1996–2025 | 105.6 |
+| Palaeognathae | 23 | 23 | 1998–2025 | 69.0 |
+| Neognathae | 48 | 48 | 2001–2025 | 92.0 |
+| Galloanserae | 47 | 47 | 1998–2025 | 76.9 |
+| Neoaves | 17 | 40 | 2001–2026 | 71.5 |
 
-The comparison also includes eight estimates from alternative analyses in [Brown et al. (2008)](https://doi.org/10.1186/1741-7007-6-6), seven from [Zhao et al. (2025)](https://doi.org/10.1093/sysbio/syaf080), and six from [Tabatabaee et al. (2026)](https://doi.org/10.1093/sysbio/syag038), the last using the dataset of Stiller et al. Each estimate contributes separately to the plotted density, so these alternatives are not independent studies. The estimate for Kuhl et al. was transcribed from a [published bird taxonomy compilation](https://www.jboyd.net/Taxo/List2a.html).
+Each tick represents a published estimate. Red ticks lie beyond 1.5 times the interquartile range and are excluded from the density and median; the counts above include them. Lines mark the ROADIES and ASTRAL MD-CAT ages and current fossil bounds, where available. These dated trees used an earlier calibration set. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
 
-The two estimates from [Pacheco et al. (2011)](https://doi.org/10.1093/molbev/msr014) are approximate crown ages read from their Figure 2: 88 Ma for MDT and 92 Ma for BEAST.
+Neoaves includes 40 estimates from 17 studies, with alternative analyses retained separately. Its density therefore describes the published estimates rather than 40 independent studies. The two estimates from [Pacheco et al. (2011)](https://doi.org/10.1093/molbev/msr014), 88 and 92 Ma, were read approximately from Figure 2.
 
 ![Bird likelihood checkpoints](aves_likelihood_checkpoints.png)
 

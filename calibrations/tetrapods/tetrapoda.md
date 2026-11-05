@@ -52,7 +52,18 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ### Likelihood checkpoints:
 
-The figure compares published age estimates for six major nodes leading to and within tetrapods. The compilation includes 22 estimates for Sarcopterygii (2002–2025), 38 for Tetrapoda (1998–2025), 37 for Amniota (2005–2025), 37 for Sauria (1998–2025), 36 for Archelosauria (1999–2025), and 41 for Archosauria (1997–2025). After excluding outliers, their medians are 415.0, 351.8, 318.9, 281.7, 261.4, and 245.0 Ma, respectively. Each tick is a published estimate; ticks beyond 1.5 times the interquartile range are shown in red and excluded from the shaded density. Multiple estimates from the same paper are retained. The vertical lines show the released ROADIES and ASTRAL MD-CAT ages and, where present, the current fossil bounds. The MD-CAT trees used an earlier set of calibrations. The [compiled estimates](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
+These checkpoints follow the major divergences leading to and within tetrapods.
+
+| Clade | Studies | Estimates | Publication years | Median (Ma) |
+| --- | ---: | ---: | --- | ---: |
+| Sarcopterygii | 22 | 22 | 2002–2025 | 415.0 |
+| Tetrapoda | 38 | 38 | 1998–2025 | 351.8 |
+| Amniota | 37 | 37 | 2005–2025 | 318.9 |
+| Sauria | 37 | 37 | 1998–2025 | 281.7 |
+| Archelosauria | 36 | 36 | 1999–2025 | 261.4 |
+| Archosauria | 41 | 41 | 1997–2025 | 245.0 |
+
+Each tick represents a published estimate. Red ticks lie beyond 1.5 times the interquartile range and are excluded from the density and median; the counts above include them. Lines mark the ROADIES and ASTRAL MD-CAT ages and current fossil bounds, where available. These dated trees used an earlier calibration set. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
 
 ![Tetrapod likelihood checkpoints](tetrapods_likelihood_checkpoints.png)
 

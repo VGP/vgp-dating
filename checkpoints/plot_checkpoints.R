@@ -153,6 +153,15 @@ for (id in if (length(requested)) intersect(names(plots), requested) else names(
   d <- density(data$age_ma[!data$outlier], from = window[1], to = window[2], n = 512)
   curve <- data.frame(age_ma = d$x, density = d$y)
   ymax <- max(d$y)
+  oxfordian <- NULL
+  if (id == 'CAL074') {
+    older <- retained[retained >= 157.3]
+    older <- older[!checkpoint_outlier(older)]
+    od <- density(older, from = window[1], to = window[2], n = 512)
+    oxfordian <- data.frame(age_ma = od$x, density = od$y)
+    ymax <- max(ymax, od$y)
+    labels <- c(labels, Published = 'All estimates', Oxfordian = 'Estimates ≥157.3 Ma')
+  }
   # Choose the side with the fewest vertical markers and the lowest density.
   # Both the curve and markers must remain visible behind the in-panel key.
   key_score <- vapply(c('left', 'right'), function(side) {
@@ -165,13 +174,18 @@ for (id in if (length(requested)) intersect(names(plots), requested) else names(
   band <- subset(periods, older > window[1] & younger < window[2])
   band$xmin <- pmax(band$younger, window[1]); band$xmax <- pmin(band$older, window[2])
   band$label <- ifelse((band$xmax - band$xmin) / diff(window) >= .095, band$period, '')
+  band$label[band$label == 'Carboniferous'] <- 'Carbonif.'
   p <- local({
     ymax <- ymax
     ggplot() +
     geom_area(data = curve, aes(x = age_ma, y = density), fill = '#ABB6BF', alpha = .35) +
-    geom_line(data = curve, aes(x = age_ma, y = density), color = '#8A9299', linewidth = .5) +
+    {if (is.null(oxfordian)) geom_line(data = curve, aes(x = age_ma, y = density), color = '#8A9299', linewidth = .5)
+     else list(
+       geom_line(data = curve, aes(x = age_ma, y = density, color = 'Published', linetype = 'Published'), linewidth = .5),
+       geom_area(data = oxfordian, aes(x = age_ma, y = density), fill = '#C4C3AF', alpha = .4),
+       geom_line(data = oxfordian, aes(x = age_ma, y = density, color = 'Oxfordian', linetype = 'Oxfordian'), linewidth = .6))} +
     geom_segment(data = data, aes(x = age_ma, xend = age_ma, y = 0, yend = .035 * ymax),
-                 color = ifelse(data$outlier, '#B76A61', '#555555'), alpha = .65, linewidth = .45) +
+                 color = ifelse(data$outlier | (id == 'CAL074' & data$age_ma < 157.3), '#B76A61', '#555555'), alpha = .65, linewidth = .45) +
     geom_segment(data = data.frame(age = bounds[is.finite(bounds)]),
                  aes(x = age, xend = age, color = 'Bounds', linetype = 'Bounds'),
                  y = -.2 * ymax, yend = 1.12 * ymax, linewidth = .6, key_glyph = 'path') +
@@ -182,9 +196,9 @@ for (id in if (length(requested)) intersect(names(plots), requested) else names(
     geom_text(data = band, aes(x = (xmin + xmax) / 2, y = -.115 * ymax, label = label),
               size = 2.1, color = '#4C5550') +
     scale_fill_identity() +
-    scale_color_manual(values = c(ROADIES = '#246B83', ASTRAL = '#B7653D', Bounds = '#8A8A8A'),
+    scale_color_manual(values = c(ROADIES = '#246B83', ASTRAL = '#B7653D', Bounds = '#8A8A8A', Published = '#8A9299', Oxfordian = '#77786D'),
                        breaks = names(labels), labels = labels) +
-    scale_linetype_manual(values = c(ROADIES = 'solid', ASTRAL = 'dashed', Bounds = 'dotted'),
+    scale_linetype_manual(values = c(ROADIES = 'solid', ASTRAL = 'dashed', Bounds = 'dotted', Published = 'solid', Oxfordian = 'solid'),
                           breaks = names(labels), labels = labels) +
     labs(title = plots[[id]][1], x = 'Age (Ma)', y = NULL, color = NULL, linetype = NULL) +
     coord_cartesian(xlim = window, ylim = c(-.2 * ymax, ymax * 1.5), expand = FALSE, clip = 'off') +
@@ -195,14 +209,14 @@ for (id in if (length(requested)) intersect(names(plots), requested) else names(
           legend.position.inside = if (key_right) c(.97, .86) else c(.03, .86),
           legend.justification = if (key_right) c(1, 1) else c(0, 1),
           legend.background = element_blank(),
-          legend.direction = 'vertical', legend.text = element_text(size = 8),
+          legend.direction = 'vertical', legend.text = element_text(size = 9),
           legend.key.height = unit(10, 'pt'), legend.key.width = unit(17, 'pt'),
           plot.margin = margin(16, 18, 8, 12))
   })
   if (length(requested) || id %in% c('CAL064', 'CAL074', 'CAL083'))
     ggsave(file.path(root, 'calibrations', plots[[id]][2]), p, width = 8, height = 5, dpi = 300, bg = 'white')
   panel_cache[[id]] <- p + theme(plot.title = element_text(size = 11, margin = margin(b = 8)),
-                                 legend.text = element_text(size = 7),
+                                 legend.text = element_text(size = 8),
                                  axis.text.x = element_text(size = 8), axis.title.x = element_text(size = 9))
   cat(id, nrow(data), 'estimates;', paste(sprintf('%s %.1f', ages$method, ages$age), collapse = ', '), '\n')
 }
@@ -217,7 +231,7 @@ if (!length(requested)) {
     'birds/aves_likelihood_checkpoints.png' = c('Aves', 'Palaeognathae', 'Neognathae', 'CAL084', 'Neoaves'))
   for (path in names(groups)) {
     ids <- groups[[path]]; stopifnot(all(ids %in% names(panel_cache)))
-    ncol <- if (length(ids) == 4) 2 else if (length(ids) == 7) 4 else 3
+    ncol <- 2
     panels <- panel_cache[ids]
     empty_slots <- (ncol - length(panels) %% ncol) %% ncol
     if (empty_slots) panels <- c(panels, replicate(empty_slots, plot_spacer(), simplify = FALSE))
@@ -266,6 +280,11 @@ panels <- lapply(names(ids), function(clade) {
   values <- estimates[estimates$clade == clade & is.finite(estimates$age_ma), ]
   stopifnot(nrow(cal) == 1, nrow(values) > 1)
   values$outlier <- checkpoint_outlier(values$age_ma)
+  if (clade == 'Testudines') {
+    values$outlier <- values$outlier | values$age_ma < 157.3
+    older <- which(!values$outlier)
+    values$outlier[older] <- checkpoint_outlier(values$age_ma[older])
+  }
   pair <- c(cal$taxon1_accession, cal$taxon2_accession)
   node_ages <- lapply(names(trees), function(method) {
     tree <- trees[[method]]
@@ -286,7 +305,7 @@ panels <- lapply(names(ids), function(clade) {
   d <- density(values$age_ma[!values$outlier], from = window[1], to = window[2], n = 512)
   curve <- data.frame(age = d$x, density = d$y)
   ymax <- max(d$y)
-  panel_top <- if (clade == 'Deuterostomia') 1.65 else 1.3
+  panel_top <- if (clade == 'Deuterostomia') 2.1 else 1.3
   key_breaks <- if (is.finite(cal$min_ma) || is.finite(cal$max_ma)) c('ROADIES', 'ASTRAL', 'Bounds') else c('ROADIES', 'ASTRAL')
   p <- ggplot() +
     geom_area(data = curve, aes(x = age, y = density), fill = '#ABB6BF', alpha = .35) +
@@ -309,6 +328,7 @@ panels <- lapply(names(ids), function(clade) {
     labs(x = NULL, y = NULL, color = NULL, linetype = NULL) +
     theme_classic(base_size = 5.5) +
     theme(axis.line.y = element_blank(), axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+          axis.text.x = element_text(size = 5),
           legend.position = 'none',
           axis.ticks.length = unit(2, 'pt'), plot.margin = margin(3, 4, 3, 3))
   if (clade == 'Deuterostomia') p <- p + theme(
