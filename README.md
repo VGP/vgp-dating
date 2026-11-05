@@ -27,7 +27,7 @@ Josefin Stiller (josefin.stiller@bio.ku.dk) – UCPH\
 Nate Upham (nathan.upham@asu.edu) – ASU
 
 
-## [Calibrations](./calibrations/README.md) & [dating](./dating/README.md)
+## [Calibrations](./calibrations/README.md), [dating](./dating/README.md), and [checkpoints](./checkpoints/README.md)
 
 We have assembled an [initial set](./calibrations/README.md) of **108** calibrations matched to the Phase I ROADIES and ASTRAL trees. [Dated trees](./dating/mdcat/README.md) inferred using [MD-CAT](./dating/README.md) are available for ROADIES v0.0.0 and ASTRAL v0.1.1. Future trees will also be dated using Bayesian methods in [mcmctree](https://github.com/dosreislab/mcmctree).
 
