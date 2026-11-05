@@ -201,21 +201,21 @@ for (id in if (length(requested)) intersect(names(plots), requested) else names(
     scale_linetype_manual(values = c(ROADIES = 'solid', ASTRAL = 'dashed', Bounds = 'dotted', Published = 'solid', Oxfordian = 'solid'),
                           breaks = names(labels), labels = labels) +
     labs(title = plots[[id]][1], x = 'Age (Ma)', y = NULL, color = NULL, linetype = NULL) +
-    coord_cartesian(xlim = window, ylim = c(-.2 * ymax, ymax * 1.5), expand = FALSE, clip = 'off') +
+    coord_cartesian(xlim = window, ylim = c(-.2 * ymax, ymax * 1.2), expand = FALSE, clip = 'off') +
     theme_classic(base_size = 11) +
     theme(axis.line.y = element_blank(), axis.text.y = element_blank(), axis.ticks.y = element_blank(),
-          plot.title = element_text(size = 17, margin = margin(b = 14)),
+          plot.title = element_text(size = 17, margin = margin(b = 4)),
           legend.position = 'inside',
-          legend.position.inside = if (key_right) c(.97, .86) else c(.03, .86),
+          legend.position.inside = if (key_right) c(.97, .97) else c(.03, .97),
           legend.justification = if (key_right) c(1, 1) else c(0, 1),
           legend.background = element_blank(),
           legend.direction = 'vertical', legend.text = element_text(size = 9),
           legend.key.height = unit(10, 'pt'), legend.key.width = unit(17, 'pt'),
-          plot.margin = margin(16, 18, 8, 12))
+          plot.margin = margin(8, 18, 8, 12))
   })
   if (length(requested) || id %in% c('CAL064', 'CAL074', 'CAL083'))
     ggsave(file.path(root, 'calibrations', plots[[id]][2]), p, width = 8, height = 5, dpi = 300, bg = 'white')
-  panel_cache[[id]] <- p + theme(plot.title = element_text(size = 11, margin = margin(b = 8)),
+  panel_cache[[id]] <- p + theme(plot.title = element_text(size = 11, margin = margin(b = 4)),
                                  legend.text = element_text(size = 8),
                                  axis.text.x = element_text(size = 8), axis.title.x = element_text(size = 9))
   cat(id, nrow(data), 'estimates;', paste(sprintf('%s %.1f', ages$method, ages$age), collapse = ', '), '\n')
