@@ -4,8 +4,6 @@
 
 ## Results
 
-Runs completed 3 November 2026 using patched treePL.
-
 | Analysis | Calibrations | Smoothing | Config | Dated tree | Calibrated ages | Figures |
 | --- | ---: | ---: | --- | --- | --- | --- |
 | ROADIES | 105 | 1 | [Config](roadies_v1.1.16b/roadies_v1.1.16b.config) | [Accessions](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.tre), [names](roadies_v1.1.16b/generated/roadies_v1.1.16b.scientific.treePL.tre) | [TSV](roadies_v1.1.16b/generated/roadies_v1.1.16b.calibrated_node_ages.tsv) | [Tree](roadies_v1.1.16b/generated/roadies_v1.1.16b.dated.pdf), [optimization](roadies_v1.1.16b/generated/optimization.png) |
@@ -29,18 +27,16 @@ python3 dating/treePL/run_all.py --treepl /path/to/patched/treePL
 ```
 
 The benchmark tests optimizer settings and uses cross-validation to compare
-11 smoothing values from `1e4` to `1e-6`. It then improves the final fit at the
+11 smoothing values from `1e4` to `1e-6`, using 15 CV replicates per value in
+batches of up to five. Failed attempts are retried without reducing the replicate
+count. It then improves the final fit at the
 best smoothing value. The CV figure updates as results become available.
 
-To benchmark another tree, provide its treePL config and a new output folder:
-
-```sh
-python3 dating/treePL/treepl_benchmark.py analysis.config --output results --treepl /path/to/patched/treePL
-```
-
 Tree paths in the config are relative to the config file. Use `--workers` to
-set how many fits run at once; by default, the script uses all available logical
-CPUs except one. The benchmark writes its results to the output folder without
+set the worker limit; by default, the script uses all available logical
+CPUs except one, with at most five CV fits at a time. Use `--replicates` when
+calling the benchmark directly to change the number of CV replicates.
+The benchmark writes its results to the output folder without
 changing the input config.
 
 ## Build treePL
@@ -75,8 +71,8 @@ tree, calibration-age table, and full-tree PDF. It requires `ape`, `phytools`,
 set of plots manually:
 
 ```sh
-Rscript dating/treePL/plot_treepl.R                 # ROADIES
-Rscript dating/treePL/plot_treepl.R astralpro.l6p1  # ASTRAL
+Rscript dating/treePL/plot_treepl.R roadies_v1.1.16b  # ROADIES
+Rscript dating/treePL/plot_treepl.R astralpro.l6p1    # ASTRAL
 ```
 
 From the repository root, `Rscript dating/treePL/calibration_config.R --update` updates both configs from the master list and checks the mappings. Omit `--update` to check without changing files.

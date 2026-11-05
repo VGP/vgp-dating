@@ -42,22 +42,26 @@ def format_config(text, name):
             key = match.group(1)
             if key in controls: raise ValueError(f'Duplicate setting: {key}')
             controls[key] = line.strip()
-        elif line.strip() != '# Run from this directory.' and not line.startswith('# treePL defaults:') and not line.startswith('# Detail flags off:') and not re.match(r'^# (ASTRAL|ROADIES) treePL —', line):
-            body.append(line)
+        elif line.strip() != '# Run from this directory.' and not line.startswith(('# treePL defaults:', '# Detail flags off:', '# Fitting flags off:')) and not re.match(r'^# (ASTRAL|ROADIES) treePL —', line):
+            body.append(line.rstrip())
     order = ['treefile', 'outfile', 'seed', 'nthreads', 'numsites', 'smooth',
              'opt', 'optad', 'optcvad', 'moredetail', 'moredetailad', 'moredetailcvad',
              'lfiter', 'pliter', 'cviter', 'lfsimaniter', 'ftol', 'xtol']
+    for key, default in (('lfiter', '3'), ('xtol', '-1')):
+        if key in controls and option(controls[key], key) == default:
+            del controls[key]
     lines = [f'# {name} treePL — run from this directory']
     for key in order + sorted(set(controls) - set(order)):
         if key in controls: lines.append(controls[key])
-    defaults = {'pliter':'5', 'cviter':'3', 'lfsimaniter':'15000', 'ftol':'1e-10'}
-    omitted = [f'{k}={v}' for k,v in defaults.items() if k not in controls]
-    if omitted: lines.append('# treePL defaults: ' + ', '.join(omitted))
-    flags = ('moredetail', 'moredetailad', 'moredetailcvad')
-    off = [f for f in flags if f not in controls]
-    if off: lines.append('# Detail flags off: ' + ', '.join(off))
+    for label, flags in (
+        ('Detail', ('moredetail', 'moredetailad', 'moredetailcvad')),
+        ('Fitting', ('thorough', 'calcgrad', 'log_pen', 'collapse', 'set1')),
+    ):
+        off = [f for f in flags if f not in controls]
+        if off: lines.append(f'# {label} flags off: ' + ', '.join(off))
     while body and not body[0].strip(): body.pop(0)
-    return '\n'.join(lines + [''] + body).rstrip() + '\n'
+    text = '\n'.join(lines + [''] + body).rstrip() + '\n'
+    return re.sub(r'(?m)^(##[^\n]*)\n\n*', r'\1\n\n', text)
 
 
 def digest(path):

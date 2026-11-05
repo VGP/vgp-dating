@@ -1,9 +1,9 @@
 #!/usr/bin/env Rscript
-# Run from any directory: Rscript plot_treepl.R [roadies_v1.1.16b|astralpro.l6p1]
+# Run from any directory: Rscript plot_treepl.R <roadies_v1.1.16b|astralpro.l6p1>
 args <- commandArgs(trailingOnly = TRUE)
-if (length(args) > 2L || (length(args) && !args[1] %in% c("astralpro.l6p1", "roadies_v1.1.16b")))
-    stop("Usage: Rscript plot_treepl.R [roadies_v1.1.16b|astralpro.l6p1] [output-directory]")
-analysis <- if (length(args)) args[1] else "roadies_v1.1.16b"
+if (length(args) < 1L || length(args) > 2L || !args[1] %in% c("astralpro.l6p1", "roadies_v1.1.16b"))
+    stop("Usage: Rscript plot_treepl.R <roadies_v1.1.16b|astralpro.l6p1> [output-directory]")
+analysis <- args[1]
 script <- sub("^--file=", "", grep("^--file=", commandArgs(), value = TRUE)[1])
 base <- dirname(normalizePath(script))
 repo <- dirname(dirname(base))

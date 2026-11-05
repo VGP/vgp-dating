@@ -258,7 +258,7 @@ class Sweep:
         self.points[x]={'median':None}; self.phase=f'CV: {10**x:g}'; self.write()
         pending=set(range(self.a.replicates)); retries={r:0 for r in pending}; accepted={}
         while pending:
-            jobs={r:self.job(x,r,retries[r],self.ranking[retries[r] % len(self.ranking)],'cv') for r in pending}
+            jobs={r:self.job(x,r,retries[r],self.ranking[retries[r] % len(self.ranking)],'cv') for r in sorted(pending)[:5]}
             pool=ThreadPoolExecutor(max_workers=self.a.workers)
             try:
                 futures={pool.submit(fit,j):r for r,j in jobs.items()}
@@ -277,7 +277,7 @@ class Sweep:
         self.points[x]['median']=statistics.median(accepted.values()); self.write()
 
     def run(self):
-        atomic_json(self.root/'settings.json',dict(replicates=self.a.replicates,workers=self.a.workers,seed=self.a.seed,
+        atomic_json(self.root/'settings.json',dict(replicates=self.a.replicates,cv_batch_size=5,workers=self.a.workers,seed=self.a.seed,
             first_sweep=list(range(4,-7,-1)),detail_flags='off during sweep; test at selected minimum', optimizer_selection='six profiles, four matched CV starts at smoothing 1; fastest tied training fit; ranked fallback',
             treepl_fitting_parameters='native defaults', retry_policy='no fixed limit',
             config_sha256=hashlib.sha256(self.a.config.resolve().read_bytes()).hexdigest(),
@@ -296,7 +296,7 @@ def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('config',type=Path)
     p.add_argument('--treepl',type=Path,required=True);p.add_argument('--output',type=Path,required=True)
     p.add_argument('--workers',type=int,default=max(1,(os.cpu_count() or 1)-1));p.add_argument('--seed',type=int,default=20261102)
-    p.add_argument('--replicates',type=int,default=12)
+    p.add_argument('--replicates',type=int,default=15)
     a=p.parse_args()
     if a.workers<1 or a.replicates<1:p.error('workers and replicates must be positive')
     version=subprocess.run([str(a.treepl.resolve()),'--version'],capture_output=True,text=True)
