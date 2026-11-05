@@ -23,3 +23,5 @@ logs/
 tmp/
 temp/
 .cache/
+# Locally compiled treePL executable
+/dating/treePL/treePL

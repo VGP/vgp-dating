@@ -221,11 +221,18 @@ class Sweep:
         self.phase='Optimizer speed screen at smoothing 1'; self.write()
         profiles=[dict(opt=i,optad=i,optcvad=i,moredetail=0,moredetailad=0,moredetailcvad=0) for i in range(6)]
         jobs=[self.job(0.,rep,0,p,'screen') for p in profiles for rep in range(4)]
-        with ThreadPoolExecutor(max_workers=self.a.workers) as pool:
+        pool=ThreadPoolExecutor(max_workers=self.a.workers)
+        try:
             futures=[pool.submit(fit,j) for j in jobs]
             for future in as_completed(futures):
                 row=future.result(); self.races.append(row); self.write()
                 print(f"screen optimizer={row['profile']['opt']} replicate={row['replicate']+1} {row['status']} {row['seconds']:.1f}s",flush=True)
+        except BaseException:
+            pool.shutdown(wait=False,cancel_futures=True)
+            with LOCK:
+                for proc in list(ACTIVE): proc.terminate()
+            raise
+        finally: pool.shutdown(wait=True,cancel_futures=True)
         valid={i:sorted((r for r in self.races if r['profile']['opt']==i and r['status']=='complete'),key=lambda r:r['replicate']) for i in range(6)}
         complete=[i for i in range(6) if len(valid[i])==4]
         if not complete: raise RuntimeError('No optimizer completed all four screening fits')
@@ -357,11 +364,18 @@ def run_final(run, config, treepl, workers, on_start=lambda:None):
     jobs=[dict(x=x,profile=p,config=text,tree=tree,binary=binary,seed=seed,start=start,
                folder=str(out/f'optimizer-{p["opt"]}')) for p in profiles]
     screened=[]
-    with ThreadPoolExecutor(max_workers=workers) as pool:
+    pool=ThreadPoolExecutor(max_workers=workers)
+    try:
         futures=[pool.submit(run_job,job) for job in jobs]
         for future in as_completed(futures):
             row=future.result();screened.append(row);atomic_json(out/'optimizer-results.json',screened)
             print(f"final optimizer={row['profile']['opt']} {row['status']} objective={row['objective']} {row['seconds']:.1f}s",flush=True)
+    except BaseException:
+        pool.shutdown(wait=False,cancel_futures=True)
+        with LOCK:
+            for proc in list(ACTIVE): proc.terminate()
+        raise
+    finally: pool.shutdown(wait=True,cancel_futures=True)
     valid_screen=[r for r in screened if r['status']=='complete']
     if not valid_screen: raise RuntimeError('All final optimizer fits failed')
     best=min(valid_screen,key=lambda r:(r['objective'],r['profile']['opt']!=baseline['opt'],r['profile']['opt'])); flag_rows=[]

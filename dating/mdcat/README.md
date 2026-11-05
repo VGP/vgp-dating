@@ -29,6 +29,12 @@ The [ROADIES node-age table](roadies_v1.1.16b/roadies_v1.1.16b.independent.fast9
 
 ## Node-age comparison
 
+Regenerate the comparison figure and table from both dated trees:
+
+```sh
+Rscript dating/mdcat/plot_mdcat.R comparison
+```
+
 The comparison matches 548 clades by their descendant taxa among the 562 taxa shared by ROADIES and ASTRAL. The left panel compares their mean node ages against a line of equality. The right panel shows the relative age difference, calculated as `100 × (ASTRAL − ROADIES) / mean age`, where the denominator is the average of the two estimates. Positive values indicate older ASTRAL estimates. Orange points mark the ten largest absolute age differences; the median absolute difference is 1.73 Ma.
 
 ![ROADIES–ASTRAL node-age comparison](roadies_vs_astral.independent.fast95.comparison.png)

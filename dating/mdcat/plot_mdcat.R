@@ -1,4 +1,4 @@
-# MD-CAT overview. Run: Rscript dating/mdcat/plot_mdcat.R [roadies_v1.1.16b|astralpro.l6p1] [output.png]
+# Run: Rscript dating/mdcat/plot_mdcat.R [roadies_v1.1.16b|astralpro.l6p1|comparison] [output.png]
 # Dots use current master calibration mappings; hairlines show embedded 95% intervals.
 suppressPackageStartupMessages({
     library(phytools)
@@ -9,8 +9,81 @@ script <- grep("^--file=", commandArgs(), value = TRUE)
 directory <- if (length(script)) dirname(normalizePath(sub("^--file=", "", script[1]))) else "."
 path <- function(name) file.path(directory, name)
 args <- commandArgs(trailingOnly=TRUE)
-if (length(args)>2L) stop('Usage: plot_mdcat.R [roadies_v1.1.16b|astralpro.l6p1] [output.png]')
+if (length(args)>2L) stop('Usage: plot_mdcat.R [roadies_v1.1.16b|astralpro.l6p1|comparison] [output.png]')
 analysis <- if (length(args)) args[1] else 'roadies_v1.1.16b'
+if (analysis == 'comparison') {
+    compare <- function(output) {
+        read_tree <- function(name) {
+            tree <- read.nexus(path(file.path(name, paste0(name, '.independent.fast95.tre'))))
+            tree$tip.label <- sub("^'(.*)'$", "\\1", tree$tip.label)
+            tree$tip.label[tree$tip.label == 'kxProAnne1'] <- 'GCA_040939525.1'
+            stopifnot(is.rooted(tree), is.ultrametric(tree), !anyDuplicated(tree$tip.label))
+            tree
+        }
+        roadies <- read_tree('roadies_v1.1.16b')
+        astral <- read_tree('astralpro.l6p1')
+        shared <- intersect(roadies$tip.label, astral$tip.label)
+        clades <- function(tree) {
+            nodes <- Ntip(tree) + seq_len(tree$Nnode)
+            tips <- lapply(nodes, function(node) {
+                d <- getDescendants(tree, node)
+                sort(intersect(tree$tip.label[d[d <= Ntip(tree)]], shared))
+            })
+            keys <- vapply(tips, paste, character(1), collapse = '|')
+            ages <- unname(branching.times(tree)[as.character(nodes)])
+            # Removing unshared tips can collapse branches: retain their shared-taxon MRCA.
+            keep <- order(ages)
+            keep <- keep[!duplicated(keys[keep]) & lengths(tips)[keep] >= 2L]
+            list(nodes = nodes[keep], tips = tips[keep], keys = keys[keep], ages = ages[keep])
+        }
+        r <- clades(roadies); a <- clades(astral)
+        j <- match(r$keys, a$keys); i <- which(!is.na(j)); j <- j[i]
+        stopifnot(length(i) > 0L)
+        result <- data.frame(roadies_node = r$nodes[i], astral_node = a$nodes[j],
+            shared_taxa = lengths(r$tips)[i], roadies_ma = r$ages[i], astral_ma = a$ages[j])
+        result$mean_age_ma <- (result$roadies_ma + result$astral_ma) / 2
+        result$difference_ma <- result$astral_ma - result$roadies_ma
+        result$absolute_difference_ma <- abs(result$difference_ma)
+        stopifnot(all(is.finite(as.matrix(result))), all(result$mean_age_ma > 0))
+        result$relative_difference_percent <- 100 * result$difference_ma / result$mean_age_ma
+        annotations <- read.delim(path('../../trees/annotations.tsv'), comment.char = '', stringsAsFactors = FALSE)
+        labels <- setNames(annotations$ScientificName, annotations[[1]])
+        stopifnot(all(shared %in% names(labels)))
+        result$representative_tips <- vapply(r$tips[i], function(tips)
+            paste(labels[tips[c(1L, length(tips))]], collapse = ' / '), character(1))
+        result <- result[order(-result$absolute_difference_ma, result$roadies_node), ]
+        table <- file.path(dirname(output), 'node_age_comparison.tsv')
+        write.table(result, table, sep = '\t', quote = FALSE, row.names = FALSE)
+        png(output, width = 2600, height = 1250, res = 200, type = 'cairo')
+        on.exit(dev.off())
+        par(mfrow = c(1, 2), mar = c(4.8, 4.8, 3.5, 1.2), oma = c(0, 0, 2.2, 0),
+            family = 'sans', fg = '#26364C', col.axis = '#48576B', col.lab = '#26364C')
+        highlight <- seq_len(min(10L, nrow(result)))
+        plot(result$roadies_ma, result$astral_ma, pch = 16, cex = .65,
+            col = adjustcolor('#568F9E', alpha.f = .5), asp = 1, xaxt = 'n',
+            xlab = 'ROADIES node age (Ma)', ylab = 'ASTRAL node age (Ma)',
+            main = 'Equivalent clades on shared taxa')
+        ticks <- pretty(range(result$roadies_ma))
+        axis(1, at = ticks[ticks >= 0])
+        abline(0, 1, col = '#8793A3', lty = 2)
+        points(result$roadies_ma[highlight], result$astral_ma[highlight], pch = 16, col = '#E5864A', cex = .9)
+        legend('topleft', bty = 'n', cex = .75, legend = c(
+            sprintf('%d matched clades; %d shared taxa', nrow(result), length(shared)),
+            sprintf('Median absolute difference: %.2f Ma', median(result$absolute_difference_ma)),
+            'Orange: ten largest absolute differences'))
+        plot(result$mean_age_ma, result$relative_difference_percent, pch = 16, cex = .65,
+            col = adjustcolor('#568F9E', alpha.f = .5), xlab = 'Mean node age across trees (Ma)',
+            ylab = '100 × (ASTRAL − ROADIES) / mean age', main = 'Relative age differences (%)')
+        abline(h = 0, col = '#8793A3', lty = 2)
+        points(result$mean_age_ma[highlight], result$relative_difference_percent[highlight],
+            pch = 16, col = '#E5864A', cex = .9)
+        mtext('ROADIES versus ASTRAL-Pro | independent.fast95', outer = TRUE, font = 2)
+        message(sprintf('Created %s and %s: %d clades, %d shared taxa; median absolute difference %.6f Ma.',
+            output, table, nrow(result), length(shared), median(result$absolute_difference_ma)))
+    }
+    compare(if (length(args) == 2L) args[2] else path('roadies_vs_astral.independent.fast95.comparison.png'))
+    quit(save = 'no')
+}
 if (!analysis %in% c('roadies_v1.1.16b','astralpro.l6p1')) stop('Unknown MD-CAT tree: ',analysis)
 label <- if (analysis=='astralpro.l6p1') 'ASTRAL' else 'ROADIES'
 column <- if (analysis=='astralpro.l6p1') 'node_astralpro_l6p1' else 'node_roadies_v1_1_16b'
