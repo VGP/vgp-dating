@@ -315,17 +315,17 @@ Even though earlier papers found a significant effect of †_Plectocretacicus_ o
 
 The fish checkpoints cover the major splits within cartilaginous and ray-finned fishes.
 
-| Clade | Studies | Estimates | Publication years | Median (Ma) |
-| --- | ---: | ---: | --- | ---: |
-| Chondrichthyes | 7 | 7 | 2009–2018 | 413.1 |
-| Elasmobranchii | 11 | 11 | 2009–2024 | 270.4 |
-| Actinopterygii | 20 | 20 | 2005–2025 | 404.8 |
-| Actinopteri | 23 | 23 | 1994–2025 | 350.1 |
-| Neopterygii | 27 | 27 | 2008–2025 | 313.5 |
-| Holostei | 16 | 16 | 2005–2018 | 297.3 |
-| Teleostei | 30 | 30 | 2005–2025 | 252.6 |
+| Clade | Estimates | Publication years | Median (Ma) |
+| --- | ---: | --- | ---: |
+| Chondrichthyes | 7 | 2009–2018 | 413.1 |
+| Elasmobranchii | 11 | 2009–2024 | 270.4 |
+| Actinopterygii | 20 | 2005–2025 | 404.8 |
+| Actinopteri | 23 | 1994–2025 | 350.1 |
+| Neopterygii | 27 | 2008–2025 | 313.5 |
+| Holostei | 16 | 2005–2018 | 297.3 |
+| Teleostei | 30 | 2005–2025 | 252.6 |
 
-Each tick represents a published estimate. Red ticks lie beyond 1.5 times the interquartile range and are excluded from the density and median; the counts above include them. Lines mark the ROADIES and ASTRAL MD-CAT ages and current fossil bounds, where available. These dated trees used an earlier calibration set. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
+Each tick represents a published estimate. Red ticks lie beyond 1.5 times the interquartile range and are excluded from the density and median; the counts above include them. Lines mark the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) and [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) MD-CAT ages and current fossil bounds, where available. These dated trees used an earlier calibration set. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
 
 ![Fish likelihood checkpoints](fishes_likelihood_checkpoints.png)
 

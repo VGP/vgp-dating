@@ -390,17 +390,15 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 The bird checkpoints cover crown Aves and its major living lineages.
 
-| Clade | Studies | Estimates | Publication years | Median (Ma) |
-| --- | ---: | ---: | --- | ---: |
-| Aves | 37 | 37 | 1996–2025 | 105.6 |
-| Palaeognathae | 23 | 23 | 1998–2025 | 69.0 |
-| Neognathae | 48 | 48 | 2001–2025 | 92.0 |
-| Galloanserae | 47 | 47 | 1998–2025 | 76.9 |
-| Neoaves | 17 | 40 | 2001–2026 | 71.5 |
+| Clade | Estimates | Publication years | Median (Ma) |
+| --- | ---: | --- | ---: |
+| Aves | 37 | 1996–2025 | 105.6 |
+| Palaeognathae | 23 | 1998–2025 | 69.0 |
+| Neognathae | 48 | 2001–2025 | 92.0 |
+| Galloanserae | 47 | 1998–2025 | 76.9 |
+| Neoaves | 40 | 2001–2026 | 71.5 |
 
-Each tick represents a published estimate. Red ticks lie beyond 1.5 times the interquartile range and are excluded from the density and median; the counts above include them. Lines mark the ROADIES and ASTRAL MD-CAT ages and current fossil bounds, where available. These dated trees used an earlier calibration set. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
-
-Neoaves includes 40 estimates from 17 studies, with alternative analyses retained separately. Its density therefore describes the published estimates rather than 40 independent studies. The two estimates from [Pacheco et al. (2011)](https://doi.org/10.1093/molbev/msr014), 88 and 92 Ma, were read approximately from Figure 2.
+Each tick represents a published estimate. Red ticks lie beyond 1.5 times the interquartile range and are excluded from the density and median; the counts above include them. Lines mark the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) and [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) MD-CAT ages and current fossil bounds, where available. These dated trees used an earlier calibration set. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
 
 ![Bird likelihood checkpoints](aves_likelihood_checkpoints.png)
 

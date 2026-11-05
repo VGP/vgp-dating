@@ -55,14 +55,14 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 Published estimates for four early vertebrate divergences are summarized below.
 
-| Clade | Studies | Estimates | Publication years | Median (Ma) |
-| --- | ---: | ---: | --- | ---: |
-| Vertebrata | 13 | 13 | 1996–2024 | 527.8 |
-| Cyclostomata | 7 | 7 | 2001–2018 | 455.0 |
-| Gnathostomata | 20 | 20 | 2003–2025 | 462.3 |
-| Osteichthyes | 37 | 37 | 2002–2025 | 432.6 |
+| Clade | Estimates | Publication years | Median (Ma) |
+| --- | ---: | --- | ---: |
+| Vertebrata | 13 | 1996–2024 | 527.8 |
+| Cyclostomata | 7 | 2001–2018 | 455.0 |
+| Gnathostomata | 20 | 2003–2025 | 462.3 |
+| Osteichthyes | 37 | 2002–2025 | 432.6 |
 
-Each tick represents a published estimate. Red ticks lie beyond 1.5 times the interquartile range and are excluded from the density and median; the counts above include them. Lines mark the ROADIES and ASTRAL MD-CAT ages and current fossil bounds, where available. These dated trees used an earlier calibration set. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
+Each tick represents a published estimate. Red ticks lie beyond 1.5 times the interquartile range and are excluded from the density and median; the counts above include them. Lines mark the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) and [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) MD-CAT ages and current fossil bounds, where available. These dated trees used an earlier calibration set. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
 
 ![Early vertebrate likelihood checkpoints](vertebrates_likelihood_checkpoints.png)
 

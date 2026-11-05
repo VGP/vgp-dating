@@ -160,7 +160,7 @@ for (id in if (length(requested)) intersect(names(plots), requested) else names(
     od <- density(older, from = window[1], to = window[2], n = 512)
     oxfordian <- data.frame(age_ma = od$x, density = od$y)
     ymax <- max(ymax, od$y)
-    labels <- c(labels, Published = 'All estimates', Oxfordian = 'Estimates ≥157.3 Ma')
+    labels <- c(labels, Published = 'All estimates', Oxfordian = 'Oxfordian or older (≥157.3 Ma)')
   }
   # Choose the side with the fewest vertical markers and the lowest density.
   # Both the curve and markers must remain visible behind the in-panel key.
