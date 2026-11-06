@@ -1,6 +1,6 @@
 # Likelihood checkpoints
 
-These figures compare published divergence times with the updated independent [MD-CAT trees](../dating/mdcat/README.md) and fossil calibration bounds. Each study, identified by its DOI, has equal total weight, divided among its estimates. Outliers beyond 1.5 times the study-weighted interquartile range are marked in red and omitted from the curves and summaries; each remaining study contributes equal total weight to those summaries.
+These figures compare published divergence times with the updated independent [MD-CAT trees](../dating/README.md) and fossil calibration bounds. Each study, identified by its DOI, has equal total weight, divided among its estimates. Outliers beyond 1.5 times the study-weighted interquartile range are marked in red and omitted from the curves and summaries; each remaining study contributes equal total weight to those summaries.
 
 Density smoothing uses Silverman's rule adapted to the study-weighted spread and the number of studies.
 
