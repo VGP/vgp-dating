@@ -12,4 +12,4 @@ The [estimates and citations](checkpoint_estimates.csv) are drawn from [TimeTree
 
 ## References
 
-Pyron, R. A. (2010). A likelihood method for assessing molecular divergence time estimates and the placement of fossil calibrations. *Systematic Biology*, 59(2), 185–194. https://doi.org/10.1093/sysbio/syp090
+Pyron, R. A. (2010). A likelihood method for assessing molecular divergence time estimates and the placement of fossil calibrations. *Systematic Biology*, 59(2), 185–194.
