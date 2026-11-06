@@ -416,7 +416,7 @@ axis(2,at=seq_along(groups),labels=paste0(groups,' (',lengths(series),')'),las=1
 for(j in seq_along(groups)) points(series[[j]],rep(j,length(series[[j]]))+seq(-.18,.18,length.out=length(series[[j]])),pch=16,cex=.6,col=adjustcolor(palette[groups[j]],.5))
 mtext('03  /  Terminal-branch durations',3,line=2.3,adj=0,cex=1.3,font=2)
 start_panel(legend_box,mar=c(0,0,1,0));plot.new()
-legend('topleft',legend=groups,col=palette[groups],lwd=2,bty='n',ncol=3,cex=.85,title='Clade colors')
+legend('topleft',legend=groups,col=palette[groups],lwd=3,bty='n',ncol=3,cex=1.25,title='Clade colors')
 invisible(dev.off())
 if (!file.rename(pdf_temp,out)) stop('Could not save final PDF: ',out)
 message('Created ',out,'; ',n,' tips, ',length(nodes),' node labels, ',nrow(cal),' calibration ranges. All panels occupy checked clear space.')

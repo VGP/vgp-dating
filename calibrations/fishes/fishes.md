@@ -317,13 +317,13 @@ The fish checkpoints cover the major splits within cartilaginous and ray-finned 
 
 | Clade | Estimates | Publication years | Median (Ma) |
 | --- | ---: | --- | ---: |
-| Chondrichthyes | 15 | 2009–2026 | 389.3 |
-| Elasmobranchii | 18 | 2009–2026 | 263.8 |
-| Actinopterygii | 24 | 2005–2025 | 396.4 |
-| Actinopteri | 28 | 1994–2025 | 350.1 |
-| Neopterygii | 34 | 2008–2025 | 315.2 |
-| Holostei | 20 | 2005–2021 | 284.0 |
-| Teleostei | 30 | 2005–2025 | 252.2 |
+| Chondrichthyes | 33 | 2009–2026 | 389.3 |
+| Elasmobranchii | 24 | 2009–2026 | 263.8 |
+| Actinopterygii | 71 | 2005–2026 | 390.0 |
+| Actinopteri | 76 | 1994–2025 | 351.6 |
+| Neopterygii | 87 | 2008–2026 | 311.5 |
+| Holostei | 68 | 2005–2024 | 272.0 |
+| Teleostei | 101 | 2005–2026 | 252.2 |
 
 Each tick represents a published estimate. Each study has equal total weight in the densities and summaries, divided among its retained estimates. Red ticks lie beyond 1.5 times the study-weighted interquartile range and are excluded from the density and median; the counts above include them. Lines mark the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) and [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) independent MD-CAT ages and current fossil bounds, where available. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
 

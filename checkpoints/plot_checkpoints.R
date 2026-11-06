@@ -368,8 +368,8 @@ panels <- lapply(names(ids), function(clade) {
     legend.justification = c(1, 1), legend.direction = 'vertical',
     legend.margin = margin(0, 0, 0, 0),
     legend.background = element_blank(), legend.key = element_blank(),
-    legend.text = element_text(size = 5), legend.key.width = unit(12, 'pt'),
-    legend.key.height = unit(7, 'pt'))
+    legend.text = element_text(size = 4.5), legend.key.width = unit(10.5, 'pt'),
+    legend.key.height = unit(6.3, 'pt'))
   p
 })
 names(panels) <- names(ids)

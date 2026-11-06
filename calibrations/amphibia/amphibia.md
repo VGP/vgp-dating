@@ -128,14 +128,14 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ### Likelihood checkpoints:
 
-There are well-documented times for likelihood checkpoints at the base of Amphibia, based on 122 published age estimates from 2002–2026. Previous estimates for Lissamphibia (Gymnophiona + Batrachia), with and without †_Gerobatrachus_ depending on its placement as a stem batrachian, were compiled by [Kligman et al. (2023)](https://www.nature.com/articles/s41586-022-05646-5). Those authors also summarized the evidence for Batrachia (Salientia + Urodela) and Gymnophiona (Rhinatrematidae + Stegokrotaphia, which is Plesiophiona + Pseudophiona in the nomenclature of [Dubois et al. 2021](https://www.mapress.com/mt/article/view/38637)); we added Anura and further published estimates. The figure compares the published estimates with the updated [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) and [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) independent MD-CAT ages and current fossil bounds. It summarizes the [compiled estimates](../../checkpoints/checkpoint_estimates.csv) using the [plotting script](../../checkpoints/plot_checkpoints.R). Outliers beyond 1.5 times the study-weighted interquartile range are shown in red and excluded from the density and the summaries below, which give the central 95% of the remaining estimates:
+There are well-documented times for likelihood checkpoints at the base of Amphibia, based on 203 published age estimates from 2002–2026. Previous estimates for Lissamphibia (Gymnophiona + Batrachia), with and without †_Gerobatrachus_ depending on its placement as a stem batrachian, were compiled by [Kligman et al. (2023)](https://www.nature.com/articles/s41586-022-05646-5). Those authors also summarized the evidence for Batrachia (Salientia + Urodela) and Gymnophiona (Rhinatrematidae + Stegokrotaphia, which is Plesiophiona + Pseudophiona in the nomenclature of [Dubois et al. 2021](https://www.mapress.com/mt/article/view/38637)); we added Anura and further published estimates. The figure compares the published estimates with the updated [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) and [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) independent MD-CAT ages and current fossil bounds. It summarizes the [compiled estimates](../../checkpoints/checkpoint_estimates.csv) using the [plotting script](../../checkpoints/plot_checkpoints.R). Outliers beyond 1.5 times the study-weighted interquartile range are shown in red and excluded from the density and the summaries below, which give the central 95% of the remaining estimates:
 
 | Clade | Estimates | Publication years | Median (Ma) | Central 95% (Ma) |
 | --- | ---: | --- | ---: | --- |
-| Lissamphibia | 33 | 2005–2025 | 319.7 | 270.9–367.0 |
-| Batrachia | 38 | 2002–2026 | 292.0 | 232.8–357.0 |
-| Anura | 26 | 2005–2025 | 217.2 | 172.4–290.5 |
-| Gymnophiona | 25 | 2005–2025 | 212.7 | 87.9–267.0 |
+| Lissamphibia | 57 | 2005–2026 | 318.1 | 270.9–366.0 |
+| Batrachia | 63 | 2002–2026 | 292.5 | 247.4–358.4 |
+| Anura | 39 | 2005–2026 | 216.4 | 172.4–270.4 |
+| Gymnophiona | 44 | 2005–2025 | 188.4 | 87.9–267.0 |
 
 The counts include all estimates; the medians and central 95% ranges exclude outliers. Each study has equal total weight in the densities and summaries, divided among its retained estimates.
 

@@ -392,11 +392,11 @@ The bird checkpoints cover crown Aves and its major living lineages.
 
 | Clade | Estimates | Publication years | Median (Ma) |
 | --- | ---: | --- | ---: |
-| Aves | 41 | 1996–2025 | 106.2 |
-| Palaeognathae | 27 | 1998–2025 | 69.0 |
-| Neognathae | 54 | 2001–2026 | 92.5 |
-| Galloanserae | 74 | 1998–2025 | 77.0 |
-| Neoaves | 40 | 2001–2026 | 73.0 |
+| Aves | 101 | 1996–2025 | 105.0 |
+| Palaeognathae | 89 | 1998–2025 | 70.0 |
+| Neognathae | 108 | 2001–2026 | 92.5 |
+| Galloanserae | 126 | 1998–2025 | 76.6 |
+| Neoaves | 51 | 2001–2026 | 72.2 |
 
 Each tick represents a published estimate. Each study has equal total weight in the densities and summaries, divided among its retained estimates. Red ticks lie beyond 1.5 times the study-weighted interquartile range and are excluded from the density and median; the counts above include them. Lines mark the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) and [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) independent MD-CAT ages and current fossil bounds, where available. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
 

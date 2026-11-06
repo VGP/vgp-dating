@@ -57,10 +57,10 @@ Published estimates for four early vertebrate divergences are summarized below.
 
 | Clade | Estimates | Publication years | Median (Ma) |
 | --- | ---: | --- | ---: |
-| Vertebrata | 113 | 1996–2026 | 510.0 |
+| Vertebrata | 119 | 1996–2026 | 506.0 |
 | Cyclostomata | 126 | 2001–2025 | 457.5 |
-| Gnathostomata | 139 | 2003–2026 | 451.6 |
-| Osteichthyes | 159 | 2002–2026 | 432.4 |
+| Gnathostomata | 162 | 2003–2026 | 457.0 |
+| Osteichthyes | 254 | 2002–2026 | 432.7 |
 
 Each tick represents a published estimate. Each study has equal total weight in the densities and summaries, divided among its retained estimates. Red ticks lie beyond 1.5 times the study-weighted interquartile range and are excluded from the density and median; the counts above include them. Lines mark the [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) and [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) independent MD-CAT ages and current fossil bounds, where available. The [estimates and citations](../../checkpoints/checkpoint_estimates.csv) and [plotting script](../../checkpoints/plot_checkpoints.R) are available here.
 
