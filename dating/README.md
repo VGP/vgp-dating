@@ -17,7 +17,7 @@ Black dots mark the calibration nodes, and whiskers show the 95% age intervals. 
 
 ## Node-age comparison
 
-There are 548 clades matched among the 562 taxa shared by ROADIES and ASTRAL. Left compares their mean node ages against a line of equality. Right shows `100 × (ASTRAL − ROADIES) / mean age`; positive values indicate older ASTRAL estimates. Orange points mark the ten largest absolute differences.
+There are 548 clades matched among the 562 taxa shared by ROADIES and ASTRAL. Left compares their mean node ages against a line of equality. Right shows `100 × (ASTRAL − ROADIES) / mean age`; positive values indicate older ASTRAL estimates and vice versa. Orange points mark the ten largest absolute differences.
 
 ![ROADIES–ASTRAL node-age comparison](mdcat/roadies_vs_astral.independent.k200.round2.comparison.png)
 
