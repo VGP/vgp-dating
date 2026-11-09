@@ -13,7 +13,7 @@ The [calibration documentation](../calibrations/README.md) provides the fossil j
 
 ![ROADIES MD-CAT timescale](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.png)
 
-Overview dots mark the calibration nodes, and hairlines show the 95% age intervals. Full-tree PDFs label species and internal nodes, with calibration bounds and age summaries. Node-age tables contain one row per tip or internal node, using APE node numbers. Columns give the mean age (`age`), 95% bounds (`t_lower`, `t_upper`), numbers of fitted runs and confidence-interval replicates, and descendant accessions (`descendant_tips`).
+Black dots mark the calibration nodes, and whiskers show the 95% age intervals. Full-tree PDFs label species and internal nodes, with calibration bounds and age summaries. Node-age tables contain one row per tip or node, using APE numbers. Columns give the mean age (`age`), 95% bounds (`t_lower`, `t_upper`), numbers of fitted runs and confidence-interval replicates, and descendant accessions (`descendant_tips`).
 
 ## Node-age comparison
 
