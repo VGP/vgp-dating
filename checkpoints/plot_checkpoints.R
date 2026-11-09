@@ -116,7 +116,7 @@ periods <- data.frame(
              '#C4D1AD', '#E8DBA9', '#BFD8C9', '#BED4D3')
 )
 tree_files <- c(ROADIES = 'roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.tre',
-                ASTRAL = 'astralpro.l6p1/astralpro.l6p1.independent.k200.round2.tre')
+                ASTRAL = 'astralpro.l6p1/astralpro.l6p1.independent.k200.round2.perspecies.tre')
 trees <- lapply(file.path(root, 'dating/mdcat', tree_files), function(path) {
   tree <- read.nexus(path)
   tree$tip.label <- gsub("'", '', tree$tip.label, fixed = TRUE)
@@ -284,7 +284,7 @@ ids <- c(Deuterostomia = 'CAL001', Ambulacraria = 'CAL002', Chordata = 'CAL003',
          Theria = 'CAL041', Marsupialia = 'CAL043', Placentalia = 'CAL044',
          Actinopteri = NA, Holostei = NA, Elasmobranchii = NA, Archelosauria = NA)
 tree_files <- c(ROADIES = 'roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.tre',
-                ASTRAL = 'astralpro.l6p1/astralpro.l6p1.independent.k200.round2.tre')
+                ASTRAL = 'astralpro.l6p1/astralpro.l6p1.independent.k200.round2.perspecies.tre')
 trees <- lapply(file.path(root, 'dating/mdcat', tree_files), function(path) {
   tree <- read.nexus(path)
   tree$tip.label <- gsub("'", '', tree$tip.label, fixed = TRUE)

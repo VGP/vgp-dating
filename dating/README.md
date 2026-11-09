@@ -1,6 +1,6 @@
 # VGP Phase I dated trees
 
-We dated the ROADIES v0.0.0 and ASTRAL v0.1.1 trees with [MD-CAT](https://github.com/smirarab/MD-Cat), repeating the analysis with ages sampled from the fossil calibration distributions. Independent sampling draws each calibration age separately, redrawing incompatible ages. Bottom-up sampling starts with descendant nodes and raises the minimum age for an ancestral calibration when necessary to accommodate its descendants. This can shift ages older, particularly where several calibrations are nested. We use the independent trees for the main results and checkpoint comparisons, and provide the bottom-up trees as alternatives. Reported node ages are means across 100 fitted runs, with 95% pooled-percentile intervals calculated from 10,000 confidence-interval replicates. Ages and branch lengths are in **millions of years (Ma)**.
+We dated the ROADIES v0.0.0 and per-species ASTRAL v0.1.1 trees with [MD-CAT](https://github.com/smirarab/MD-Cat), repeating the analysis with ages sampled from the fossil calibration distributions. Independent sampling draws each calibration age separately, redrawing incompatible ages. Reported node ages are means across 100 fitted runs, with 95% pooled-percentile intervals calculated from 10,000 confidence-interval replicates. Ages and branch lengths are in **millions of years (Ma)**.
 
 The [calibration documentation](../calibrations/README.md) provides the fossil justifications. The [master list](../calibrations/master_calibrations.csv) contains 108 constraints, with 105 mapped to ROADIES, 100 to ASTRAL, and 97 shared. The [reference-tree documentation](../trees/README.md) describes the undated topologies, annotations, and APE node-numbering files.
 
@@ -8,12 +8,10 @@ The [calibration documentation](../calibrations/README.md) provides the fossil j
 
 `round2` denotes the final revision of the 108 fossil calibrations. Earlier configurations were not retained; this repository provides the final version.
 
-The reference ASTRAL input now has 563 tips, with one human and one mouse. The ASTRAL dated outputs and checkpoint figures below still describe the previous 565-tip analysis and will be replaced together.
-
-| Reference tree | Tips | Inputs | Independent | Node ages | Bottom-up |
-| --- | ---: | --- | --- | --- | --- |
-| [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) | 581 | [Tree](../trees/roadies_v1.1.16b.nwk), [calibrations](mdcat/roadies_v1.1.16b/calibrations.config) | [NEXUS](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.tre), [PDF](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.pdf), [PNG](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.png) | [TSV](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.tre.tsv) | [NEXUS](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.bottom-up.k200.round2.tre), [PDF](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.bottom-up.k200.round2.pdf) |
-| [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) | 565 | [Tree](../trees/astralpro.l6p1.perspecies.tre), [calibrations](mdcat/astralpro.l6p1/calibrations.config) | [NEXUS](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.tre), [PDF](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.pdf), [PNG](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.png) | [TSV](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.tre.tsv) | [NEXUS](mdcat/astralpro.l6p1/astralpro.l6p1.bottom-up.k200.round2.tre), [PDF](mdcat/astralpro.l6p1/astralpro.l6p1.bottom-up.k200.round2.pdf) |
+| Reference tree | Tips | Inputs | Independent | Node ages |
+| --- | ---: | --- | --- | --- |
+| [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) | 581 | [Tree](../trees/roadies_v1.1.16b.nwk), [calibrations](mdcat/roadies_v1.1.16b/calibrations.config) | [NEXUS](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.tre), [PDF](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.pdf), [PNG](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.png) | [TSV](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.tre.tsv) |
+| [ASTRAL v0.1.1 per-species](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) | 563 | [Tree](../trees/astralpro.l6p1.perspecies.tre), [calibrations](mdcat/astralpro.l6p1/calibrations.config) | [NEXUS](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.perspecies.tre), [PDF](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.perspecies.pdf), [PNG](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.perspecies.png) | [TSV](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.perspecies.tre.tsv) |
 
 ![ROADIES MD-CAT timescale](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.png)
 
@@ -27,9 +25,33 @@ The comparison matches 548 clades among the 562 taxa shared by ROADIES and ASTRA
 
 The [comparison table](mdcat/node_age_comparison.tsv) lists the paired nodes, ages, differences, and representative tips.
 
-## Analysis records
+## Analysis commands
 
 Siavash's original calibration configs and run manifests are retained for [ROADIES](mdcat/roadies_v1.1.16b/manifest.json) and the [per-species ASTRAL analysis](mdcat/astralpro.l6p1/manifest.json). The manifests record the input and config hashes, settings, seeds, and commands. Both analyses use the full gene counts: 123,141 for ROADIES and 162,228 for ASTRAL. The original configs retain their treePL paths; the MD-CAT commands explicitly specify the input trees.
+
+The manifests report MD-CAT version 1.1.15, with 100 independently sampled calibration sets, 200 rate categories, 100 optimization starts per set, and at most 100 iterations per fit. Each fit contributes 100 confidence-interval replicates.
+
+These commands reconstruct the recorded settings using paths relative to the repository root. They require MD-CAT in the Python environment; `--jobs` controls how many fits run concurrently. Outputs go to `results/mdcat` so the released files are preserved.
+
+```sh
+python -m emd.sample \
+  -i trees/astralpro.l6p1.perspecies.tre \
+  -t dating/mdcat/astralpro.l6p1/calibrations.config \
+  -o results/mdcat/astralpro.l6p1.independent.k200.round2.perspecies.tre \
+  -l 162228 -k 200 -p 100 -S 100 --maxIter 100 \
+  --strategy independent --distribution exponential --max-draws 1000000000 \
+  --randSeed 20461102 --min-branch 0.001 --annotate 2 \
+  --CI "100 0.025 0.975" --summary mean --format nexus --jobs 10 --threads 1
+
+python -m emd.sample \
+  -i trees/roadies_v1.1.16b.nwk \
+  -t dating/mdcat/roadies_v1.1.16b/calibrations.config \
+  -o results/mdcat/roadies_v1.1.16b.independent.k200.round2.tre \
+  -l 123141 -k 200 -p 100 -S 100 --maxIter 100 \
+  --strategy independent --distribution exponential --max-draws 1000000000 \
+  --randSeed 20461102 --min-branch 0.001 --annotate 2 \
+  --CI "100 0.025 0.975" --summary mean --format nexus --jobs 10 --threads 1
+```
 
 ## Regenerate figures and tables
 
@@ -40,8 +62,6 @@ Rscript dating/mdcat/plot_mdcat.R roadies_v1.1.16b
 Rscript dating/mdcat/plot_mdcat.R astralpro.l6p1
 Rscript dating/mdcat/plot_mdcat.R comparison
 ```
-
-Add `--strategy bottom-up` to either tree command to produce its alternative full-tree PDF.
 
 ## Exploratory analyses
 
