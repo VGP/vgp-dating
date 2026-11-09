@@ -1,12 +1,12 @@
 # Number the ASTRAL-Pro tree without changing its rooting, topology, or lengths.
-# Run with Rscript trees/astralpro.l6p1.numbers.R, or source from trees/.
+# Run with Rscript trees/astralpro.l6p1.perspecies.numbers.R, or source from trees/.
 library(ape)
 args <- commandArgs(trailingOnly = FALSE)
 script <- grep("^--file=", args, value = TRUE)
 directory <- if (length(script)) dirname(normalizePath(sub("^--file=", "", script[1]))) else "."
 path <- function(name) file.path(directory, name)
 
-original <- read.tree(path("astralpro.l6p1.tre"))
+original <- read.tree(path("astralpro.l6p1.perspecies.tre"))
 annotations <- read.delim(path("annotations.tsv"), header = TRUE,
                           comment.char = "", stringsAsFactors = FALSE)
 names(annotations)[1] <- "accession"
@@ -36,8 +36,8 @@ numbered$node.label <- as.character(seq.int(Ntip(numbered) + 1L, Ntip(numbered) 
 named <- numbered
 named$tip.label <- scientific
 # digits=17 retains the source branch-length precision in the derived files.
-write.tree(numbered, path("astralpro.l6p1.numbers.nwk"), digits = 17)
-write.tree(named, path("astralpro.l6p1.numbers.scientific.nwk"), digits = 17)
+write.tree(numbered, path("astralpro.l6p1.perspecies.numbers.nwk"), digits = 17)
+write.tree(named, path("astralpro.l6p1.perspecies.numbers.scientific.nwk"), digits = 17)
 
 reference_plot <- function(tree, filename, title) {
     # Tall vector page for inspecting every tip and internal-node number at zoom.
@@ -51,8 +51,8 @@ reference_plot <- function(tree, filename, title) {
                adj = c(1.1, -0.25), col = "#245A81")
     mtext("Cladogram for node reference; branch lengths retained in Newick files.", side = 3, line = 0.3, cex = 0.8)
 }
-reference_plot(numbered, "astralpro.l6p1.numbers.nwk.pdf", "ASTRAL-Pro l6p1 - tip identifiers and node numbers")
-reference_plot(named, "astralpro.l6p1.numbers.scientific.nwk.pdf", "ASTRAL-Pro l6p1 - scientific names and node numbers")
+reference_plot(numbered, "astralpro.l6p1.perspecies.numbers.nwk.pdf", "ASTRAL-Pro l6p1 - tip identifiers and node numbers")
+reference_plot(named, "astralpro.l6p1.perspecies.numbers.scientific.nwk.pdf", "ASTRAL-Pro l6p1 - scientific names and node numbers")
 message(Ntip(original), " tips mapped: ", length(lookup) - length(alias),
         " exact accessions and ", length(alias), " explicit AssemblyId alias; ",
         numbered$Nnode, " internal nodes numbered.")

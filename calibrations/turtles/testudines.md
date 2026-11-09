@@ -2,12 +2,12 @@
 
 Turtles have a dense and detailed fossil record that has made them particularly amenable to time-calibrated phylogenetic analyses using taxonomically-justified fossil constraints, which were reviewed in detail for the group by [Joyce et al. (2013)](https://doi.org/10.1666/12-149). That study provided 22 well-constrained node ages to date the turtle tree, which were corroborated and partially updated by [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773). Given our modest sampling of turtles, only 9 of the 22 constraints are applicable here, which we list below as our primary calibrations. For all ages, material, and taxa referenced below, the synapomorphies, stratigraphy, and material are summarized by [Joyce et al. (2013)](https://doi.org/10.1666/12-149) and [Selvatti et al. (2023)](https://doi.org/10.1016/j.ympev.2023.107773), from which all data are derived unless otherwise stated. [Joyce et al. (2013)](https://doi.org/10.1666/12-149) note the presence of a great deal of additional material that may be better characterized phylogenetically and stratigraphically in the future, yielding older and more precise estimates for many nodes.
 
-CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.numbers.nwk) (`astralpro.l6p1`).
+CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.perspecies.numbers.nwk) (`astralpro.l6p1`).
 
 ### Calibrations:
 
 **CAL074:** Testudines | 157.3–252.0Ma\
-**Tree mapping:** ROADIES node 732; ASTRAL node 976\
+**Tree mapping:** ROADIES node 732; ASTRAL node 972\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant turtles: Chelidae (_Myuchelys georgesi_) + Cheloniidae (_Lepidochelys kempii_)\
 **Fossil taxa:** †_Notoemys oxfordiensis_ (MNHNCu P 3209)\
 **Minimum age:** 157.3Ma\
@@ -19,7 +19,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL075:** Pleurodira | 125.0–157.3Ma\
-**Tree mapping:** ROADIES node 747; ASTRAL node 977\
+**Tree mapping:** ROADIES node 747; ASTRAL node 973\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant pleurodirans: Chelidae (_Myuchelys georgesi_) + Podocnemidae (_Podocnemis expansa_)\
 **Fossil taxa:** †_Atolchelys lepida_ (UERJ.MC 2)\
 **Minimum age:** 125.0Ma\
@@ -32,7 +32,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL076:** Cryptodira | 157.3–201.4Ma\
-**Tree mapping:** ROADIES node 733; ASTRAL node 978\
+**Tree mapping:** ROADIES node 733; ASTRAL node 974\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant cryptodirans: Carettochelyidae (_Carettochelys insculpta_) + Cheloniidae (_Lepidochelys kempii_)\
 **Fossil taxa:** †_Yehguia tatsuensis_ (IVPP-V996)\
 **Minimum age:** 157.3Ma\
@@ -44,7 +44,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL077:** Durocryptodira | 88.6–157.3Ma\
-**Tree mapping:** ROADIES node 734; ASTRAL node 979\
+**Tree mapping:** ROADIES node 734; ASTRAL node 975\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant durocryptodirans: Emydidae (_Malaclemys terrapin_) + Cheloniidae (_Lepidochelys kempii_)\
 **Fossil taxa:** †_Lindholmemys elegans_ (CCMGE 34/12175)\
 **Minimum age:** 88.6Ma\
@@ -56,7 +56,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL078:** Testuguria | 50.3–157.3Ma\
-**Tree mapping:** ROADIES node 744; ASTRAL node 982\
+**Tree mapping:** ROADIES node 744; ASTRAL node 978\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant testugurians: Testudinidae (_Gopherus flavomarginatus_) + Geoemydidae (_Pangshura tecta_)\
 **Fossil taxa:** †_Hadrianus majusculus_ (YPM 2793)\
 **Minimum age:** 50.3Ma\
@@ -68,7 +68,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL079:** Emydidae | 32.0–157.3Ma\
-**Tree mapping:** ROADIES node 746; ASTRAL node 981\
+**Tree mapping:** ROADIES node 746; ASTRAL node 977\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant emydids: _Malaclemys terrapin_ + _Emys orbicularis_\
 **Fossil taxa:** †_Chrysemys antiqua_ (SDSM 2754)\
 **Minimum age:** 32.0Ma\
@@ -80,7 +80,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL080:** Americhelydia | 70.0–157.3Ma\
-**Tree mapping:** ROADIES node 735; ASTRAL node 984\
+**Tree mapping:** ROADIES node 735; ASTRAL node 980\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant americhelyids: Chelydroidea (_Macrochelys suwanniensis_: Chelydridae) + Chelonioidea (_Lepidochelys kempii_: Cheloniidae)\
 **Fossil taxa:** †_Toxochelys latiremis_ (ROM 28563)\
 **Minimum age:** 70.0Ma\
@@ -92,7 +92,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL081:** Chelydroidea | 70.0–157.3Ma\
-**Tree mapping:** ROADIES node 742; ASTRAL node 985\
+**Tree mapping:** ROADIES node 742; ASTRAL node 981\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant chelydroids: Chelydridae (_Macrochelys suwanniensis_) + Kinosternidae (_Sternotherus odoratus_)\
 **Fossil taxa:** Chelydridae indet. (SEPCP 9/493)\
 **Minimum age:** 70.0Ma\
@@ -104,7 +104,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL082:** Chelonioidea | 48.4–157.3Ma\
-**Tree mapping:** ROADIES node 736; ASTRAL node 986\
+**Tree mapping:** ROADIES node 736; ASTRAL node 982\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant chelonioids: Dermochelyidae (_Dermochelys coriacea_) + Cheloniidae (_Lepidochelys kempii_)\
 **Fossil taxa:** †_Eosphargis breineri_ (FM uncat.)\
 **Minimum age:** 48.4Ma\

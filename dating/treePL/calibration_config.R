@@ -4,6 +4,8 @@ script <- sub('^--file=', '', grep('^--file=',commandArgs(),value=TRUE)[1])
 root <- dirname(dirname(dirname(normalizePath(script))))
 args <- commandArgs(trailingOnly=TRUE)
 topologies <- c('roadies_v1.1.16b','astralpro.l6p1')
+input_name <- function(topology) paste0(topology, if(topology=='astralpro.l6p1') '.perspecies.tre' else '.nwk')
+config_name <- function(topology) paste0(topology, if(topology=='astralpro.l6p1') '.perspecies' else '', '.round2.config')
 configs_only <- length(args)==2 && args[1]=='--configs-only' && args[2] %in% topologies
 update <- length(args)==1 && args[1]=='--update'
 if(length(args) && !configs_only && !update) stop('Usage: calibration_config.R [--update | --configs-only TOPOLOGY]')
@@ -23,7 +25,7 @@ if(update) {
     for(topology in topologies) {
         astral <- topology=='astralpro.l6p1'
         column <- if(astral) 'node_astralpro_l6p1' else 'node_roadies_v1_1_16b'
-        tree <- read.tree(file.path(root,'trees',paste0(topology,if(astral) '.tre' else '.nwk')))
+        tree <- read.tree(file.path(root,'trees',input_name(topology)))
         selected <- m[!is.na(m[[column]]) & nzchar(trimws(m[[column]])),,drop=FALSE]
         for(i in seq_len(nrow(selected))) {
             r <- selected[i,]; pair <- c(r$taxon1_accession,r$taxon2_accession)
@@ -33,7 +35,7 @@ if(update) {
             if(is.null(node) || as.character(node)!=r[[column]])
                 stop(topology, ': node mapping differs from tree for ',r$calibration_id)
         }
-        path <- file.path(root,'dating','treePL',topology,paste0(topology,'.config'))
+        path <- file.path(root,'dating','treePL',topology,config_name(topology))
         original <- readLines(path,warn=FALSE)
         result <- character(); seen <- character()
         for(line in original) {
@@ -83,7 +85,7 @@ for(topology in topologies) {
     astral <- topology=='astralpro.l6p1'
     column <- if(astral) 'node_astralpro_l6p1' else 'node_roadies_v1_1_16b'
     if(!column %in% names(m)) stop('Missing topology column: ',column)
-    if(!configs_only) tree <- read.tree(file.path(root,'trees',paste0(topology,if(astral) '.tre' else '.nwk')))
+    if(!configs_only) tree <- read.tree(file.path(root,'trees',input_name(topology)))
     selected <- m[!is.na(m[[column]]) & nzchar(trimws(m[[column]])),]
     cat(topology,':',nrow(selected),'calibrations recorded in master\n')
     if(!configs_only) for(i in seq_len(nrow(selected))) {
@@ -96,7 +98,7 @@ for(topology in topologies) {
             report(r$calibration_id,'master node',r[[column]],'but pair MRCA',node,
                    if(!is.na(r$notes) && nzchar(r$notes)) paste('| Existing note:',r$notes) else '')
     }
-    path <- file.path(root,'dating','treePL',topology,paste0(topology,'.config'))
+    path <- file.path(root,'dating','treePL',topology,config_name(topology))
     lines <- trimws(sub('#.*$','',readLines(path)))
     entries <- lapply(lines[grepl('^(mrca|min|max)\\s*=',lines)],function(x)
         strsplit(gsub('=', ' ',x,fixed=TRUE),'[[:space:]]+')[[1]])

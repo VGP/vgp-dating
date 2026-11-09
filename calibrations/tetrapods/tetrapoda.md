@@ -2,12 +2,12 @@
 
 We primarily focus on the calibrations discussed by [Carlisle et al. (2024)](https://doi.org/10.1126/sciadv.adp7161). A secondary source of calibrations is [Title et al. (2024; their Table S1)](https://www.science.org/doi/abs/10.1126/science.adh2449) and references therein. We adapt those here along with a few other relevant taxa to date early tetrapods.
 
-CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.numbers.nwk) (`astralpro.l6p1`).
+CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.perspecies.numbers.nwk) (`astralpro.l6p1`).
 
 ### Calibrations:
 
 **CAL028:** Tetrapoda | 337.0–351.0Ma\
-**Tree mappings:** ROADIES node 590; ASTRAL node 744.\
+**Tree mappings:** ROADIES node 590; ASTRAL node 742.\
 **Node calibrated:** Last common ancestor of the clade encompassing amphibians (_Rhinatrema bivittatum_), reptiles, birds (_Ammospiza nelsoni_) and mammals.\
 **Fossil taxon:** †_Lethiscus stocki_ (MCZ 2185, Museum of Comparative Zoology, Harvard).\
 **Minimum age:** †_Lethiscus_ has been found in the Wardie Shales of the Wardie shore, near Edinburgh, Scotland. The Wardie Shales have been assigned to the Holkerian regional stage based on fossil fishes and palynomorphs, resulting in an age of 337–343.5Ma ([Gradstein et al. 2012](https://shop.elsevier.com/books/the-geologic-time-scale-2012/gradstein/978-0-444-59425-9)). This gives a minimum age estimate of 337Ma.\
@@ -19,7 +19,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL029:** Amniota | 315.0–335.0Ma\
-**Tree mappings:** ROADIES node 591; ASTRAL node 771.\
+**Tree mappings:** ROADIES node 591; ASTRAL node 769.\
 **Node calibrated:** Last common ancestor of the clade encompassing lizards, turtles, birds (_Ammospiza nelsoni_) and mammals (_Ornithorhynchus anatinus_).\
 **Fossil taxon:** †_Hylonomus lyelli_ (NHMUK R4168, Natural History Museum, London).\
 **Minimum age:** Bashkirian, Early Pennsylvanian, Carboniferous, at 315Ma.\
@@ -30,7 +30,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL030:** Sauria | 255.9–295.9Ma\
-**Tree mappings:** ROADIES node 592; ASTRAL node 939.\
+**Tree mappings:** ROADIES node 592; ASTRAL node 935.\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant squamates (Squamata: _Dibamus smithi_) and birds (Aves: _Ammospiza nelsoni_).\
 **Fossil taxon:** †_Protorosaurus speneri_ (NMK S 180).\
 **Minimum age:** 255.9Ma\
@@ -42,7 +42,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL031:** Archosauria | 247.2–256.0Ma\
-**Tree mappings:** ROADIES node 594; ASTRAL node 992.\
+**Tree mappings:** ROADIES node 594; ASTRAL node 988.\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant birds (Aves: _Ammospiza nelsoni_) and crocodilians (Crocodylia: _Alligator mississippiensis_).\
 **Fossil taxon:** †_Xilousuchus sapingensis_ (IVPP V 6026).\
 **Minimum age:** 247.2Ma\

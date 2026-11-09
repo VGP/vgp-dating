@@ -6,10 +6,14 @@ The [calibration documentation](../calibrations/README.md) provides the fossil j
 
 ## Dated trees
 
+`round2` denotes the final revision of the 108 fossil calibrations. Earlier configurations were not retained; this repository provides the final version.
+
+The reference ASTRAL input now has 563 tips, with one human and one mouse. The ASTRAL dated outputs and checkpoint figures below still describe the previous 565-tip analysis and will be replaced together.
+
 | Reference tree | Tips | Inputs | Independent | Node ages | Bottom-up |
 | --- | ---: | --- | --- | --- | --- |
-| [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) | 581 | [Tree](../trees/roadies_v1.1.16b.nwk), [calibrations](treePL/roadies_v1.1.16b/roadies_v1.1.16b.config) | [NEXUS](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.tre), [PDF](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.pdf), [PNG](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.png) | [TSV](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.tre.tsv) | [NEXUS](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.bottom-up.k200.round2.tre), [PDF](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.bottom-up.k200.round2.pdf) |
-| [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) | 565 | [Tree](../trees/astralpro.l6p1.tre), [calibrations](treePL/astralpro.l6p1/astralpro.l6p1.config) | [NEXUS](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.tre), [PDF](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.pdf), [PNG](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.png) | [TSV](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.tre.tsv) | [NEXUS](mdcat/astralpro.l6p1/astralpro.l6p1.bottom-up.k200.round2.tre), [PDF](mdcat/astralpro.l6p1/astralpro.l6p1.bottom-up.k200.round2.pdf) |
+| [ROADIES v0.0.0](https://github.com/VGP/vgp-tree-release/tree/master/v0.0.0) | 581 | [Tree](../trees/roadies_v1.1.16b.nwk), [calibrations](mdcat/roadies_v1.1.16b/calibrations.config) | [NEXUS](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.tre), [PDF](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.pdf), [PNG](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.png) | [TSV](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.tre.tsv) | [NEXUS](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.bottom-up.k200.round2.tre), [PDF](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.bottom-up.k200.round2.pdf) |
+| [ASTRAL v0.1.1](https://github.com/VGP/vgp-tree-release/tree/master/v0.1.1) | 565 | [Tree](../trees/astralpro.l6p1.perspecies.tre), [calibrations](mdcat/astralpro.l6p1/calibrations.config) | [NEXUS](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.tre), [PDF](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.pdf), [PNG](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.png) | [TSV](mdcat/astralpro.l6p1/astralpro.l6p1.independent.k200.round2.tre.tsv) | [NEXUS](mdcat/astralpro.l6p1/astralpro.l6p1.bottom-up.k200.round2.tre), [PDF](mdcat/astralpro.l6p1/astralpro.l6p1.bottom-up.k200.round2.pdf) |
 
 ![ROADIES MD-CAT timescale](mdcat/roadies_v1.1.16b/roadies_v1.1.16b.independent.k200.round2.png)
 
@@ -22,6 +26,10 @@ The comparison matches 548 clades among the 562 taxa shared by ROADIES and ASTRA
 ![ROADIES–ASTRAL node-age comparison](mdcat/roadies_vs_astral.independent.k200.round2.comparison.png)
 
 The [comparison table](mdcat/node_age_comparison.tsv) lists the paired nodes, ages, differences, and representative tips.
+
+## Analysis records
+
+Siavash's original calibration configs and run manifests are retained for [ROADIES](mdcat/roadies_v1.1.16b/manifest.json) and the [per-species ASTRAL analysis](mdcat/astralpro.l6p1/manifest.json). The manifests record the input and config hashes, settings, seeds, and commands. Both analyses use the full gene counts: 123,141 for ROADIES and 162,228 for ASTRAL. The original configs retain their treePL paths; the MD-CAT commands explicitly specify the input trees.
 
 ## Regenerate figures and tables
 

@@ -2,12 +2,12 @@
 
 There are relatively few amphibians sampled in our tree, and relatively few amphibian fossils that have been robustly estimated in total-evidence analyses. Consequently, we rely primarily on a few well-constrained fossil taxa that appear to share robustly diagnostic synapomorphies with major crown groups. Reassuringly, molecular divergence-time estimates for lissamphibians have been relatively consistent across most recent studies, such that variability in estimated ages is not a major area of uncertainty for this group. In particular, we refer to the results of [Feng et al. (2017)](https://www.pnas.org/doi/abs/10.1073/pnas.1704632114) for frogs, [Hime et al. (2021)](https://academic.oup.com/sysbio/article/70/1/49/5828236) for all amphibians, and [Stewart and Wiens (2025)](https://www.sciencedirect.com/science/article/pii/S1055790324002641) for salamanders as the most recent comprehensive studies with detailed discussion of fossil calibrations and age estimates. While some groups such as salamanders have a rich Cenozoic record ([Holman 2006](https://iupress.org/9780253347329/fossil-salamanders-of-north-america/)), many of these are not applicable at the phylogenetic scale analyzed here. Note that we follow the revised nomenclature of [Dubois et al. (2021)](https://www.mapress.com/mt/article/view/38637), which may differ from some of the more familiar names known to many readers from recent publications.
 
-CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.numbers.nwk) (`astralpro.l6p1`).
+CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.perspecies.numbers.nwk) (`astralpro.l6p1`).
 
 ### Calibrations:
 
 **CAL032:** Lissamphibia | 274.4–358.9Ma\
-**Tree mappings:** ROADIES node 948; ASTRAL node 745.\
+**Tree mappings:** ROADIES node 948; ASTRAL node 743.\
 **Node calibrated:** Last common ancestor of the clade encompassing caecilians (Gymnophiona), frogs (Anura), and salamanders (Urodela). The selected species are _Rhinatrema bivittatum_ (Gymnophiona: Rhinatrematidae) and _Engystomops pustulosus_ (Anura: Leptodactylidae).\
 **Fossil taxon:** †_Gerobatrachus hottoni_ (USNM 489135)\
 **Minimum age:** 274.4Ma\
@@ -31,7 +31,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL034:** Anura | 165.3–250.0Ma\
-**Tree mappings:** ROADIES node 950; ASTRAL node 748.\
+**Tree mappings:** ROADIES node 950; ASTRAL node 746.\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant frogs. The selected species are _Ascaphus truei_ (Anura: Ascaphidae) and _Engystomops pustulosus_ (Anura: Leptodactylidae).\
 **Fossil taxon:** †_Eodiscoglossus oxoniensis_ (NHMUK R11700)\
 **Minimum age:** 165.3Ma\
@@ -43,7 +43,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL035:** Dorsipares | 148.1–201.5Ma\
-**Tree mappings:** ROADIES node 970; ASTRAL node 753.\
+**Tree mappings:** ROADIES node 970; ASTRAL node 751.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Rhinophrynus dorsalis_ (Rhinophrynidae) and _Xenopus petersii_ (Pipidae).\
 **Fossil taxon:** †_Rhadinosteus parvus_ (DINO 14693)\
 **Minimum age:** 148.1Ma\
@@ -55,7 +55,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL036:** Pelobatoidea | 85.7–143.1Ma\
-**Tree mappings:** ROADIES node 969; ASTRAL node 756.\
+**Tree mappings:** ROADIES node 969; ASTRAL node 754.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Pelobates fuscus_ (Pelobatidae) and _Pelodytes ibericus_ (Pelodytidae).\
 **Fossil taxon:** †_Gobiates spinari_ (ZIN, LU-N 5/137)\
 **Minimum age:** 85.7Ma\
@@ -67,7 +67,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL037:** Aquipares | 113.0–143.1Ma\
-**Tree mappings:** ROADIES node 954; ASTRAL node 757.\
+**Tree mappings:** ROADIES node 954; ASTRAL node 755.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Hyla sarda_ (Hyloidea) and _Rana temporaria_ (Ranoidea).\
 **Fossil taxon:** †_Kururubatrachus gondwanicus_ (UFRJ-DG 08 A)\
 **Minimum age:** 113.0Ma\

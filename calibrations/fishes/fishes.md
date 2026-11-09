@@ -2,12 +2,12 @@
 
 Here, we summarize existing calibrations and previous timescales from several recent studies ([Near et al. 2012](https://www.pnas.org/doi/abs/10.1073/pnas.1206625109); [Near et al. 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1304661110); [Betancur-R et al. 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3644299/); [Betancur-R et al. 2017](https://link.springer.com/article/10.1186/s12862-017-0958-3); [Musilova et al. 2019](https://www.science.org/doi/abs/10.1126/science.aav4632); [Hughes et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719358115); [Ghezelayagh et al. 2022](https://www.nature.com/articles/s41559-022-01801-3)). Our primary references for phylogenetic classification, taxonomy, and nomenclature for clades are [Betancur-R et al. (2017)](https://link.springer.com/article/10.1186/s12862-017-0958-3) and [Near and Thacker (2024)](https://bioone.org/journals/bulletin-of-the-peabody-museum-of-natural-history/volume-65/issue-1/014.065.0101/Phylogenetic-Classification-of-Living-and-Fossil-Ray-Finned-Fishes-Actinopterygii/10.3374/014.065.0101.pdf). These references do not always agree on clade names, so we provide notes for resolving discordance when necessary.
 
-CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.numbers.nwk) (`astralpro.l6p1`).
+CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.perspecies.numbers.nwk) (`astralpro.l6p1`).
 
 ### Calibrations:
 
 **CAL009:** Teleostei | 145.5–298.9Ma\
-**Tree mappings:** ROADIES node 982; ASTRAL node 590.\
+**Tree mappings:** ROADIES node 982; ASTRAL node 588.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Conger conger_ (Anguilliformes: Congridae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
 **Fossil taxon:** †_Orthogonikleithrus leichi_ (Eichstӓtt 2301)\
 **Minimum age:** 145.5Ma\
@@ -19,7 +19,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL010:** Eurypterygia | 121.4–201.5Ma\
-**Tree mappings:** ROADIES node 987; ASTRAL node 633.\
+**Tree mappings:** ROADIES node 987; ASTRAL node 631.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Notolepis coatsi_ (Aulopiformes: Paralepididae) and _Takifugu rubripes_ (Tetraodontiformes: Tetraodontidae).\
 **Fossil taxon:** †_Atolvorator longipectoralis_ (Pz. UERJ 486–487; 496a,e,b; 508a,e,b; 509–510)\
 **Minimum age:** 121.4Ma\
@@ -31,7 +31,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL011:** Labridae | 48.7–83.6Ma\
-**Tree mappings:** ROADIES node 1015; ASTRAL node 725.\
+**Tree mappings:** ROADIES node 1015; ASTRAL node 723.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Choerodon schoenleinii_ (Labridae: Hypsigenyinae) and _Labrus mixtus_ (Labridae: Labrinae).\
 **Fossil taxon:** †_Phyllopharyngodon longipinnis_ (T.149–150; Museo Civico de Storia Naturale di Verona)\
 **Minimum age:** 48.7Ma\
@@ -43,7 +43,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL012:** Scorpaenidae + Triglidae + Cottoidea + Gasterosteidae + Zoarcoidea | 48.7–83.6Ma\
-**Tree mappings:** ROADIES node 1025; ASTRAL node 708.\
+**Tree mappings:** ROADIES node 1025; ASTRAL node 706.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Sebastes fasciatus_ (Scorpaenidae) and _Pholis gunnellus_ (Pholidae).\
 **Fossil taxon:** †"Monte Bolca scorpaenoid" (MCSNV IG.VR.66957)\
 **Minimum age:** 48.7Ma\
@@ -55,7 +55,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL013:** Scombriformes | 54.2–83.6Ma\
-**Tree mappings:** ROADIES node 1071; ASTRAL node 663.\
+**Tree mappings:** ROADIES node 1071; ASTRAL node 661.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Arripis georgiana_ (Arripidae) and _Scomber scombrus_ (Scombridae).\
 **Fossil taxon:** †_Eocoelopoma portentosum_ (PIN 1762/85)\
 **Minimum age:** 54.2Ma\
@@ -67,7 +67,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL014:** Syngnathiformes | 72.2–100.5Ma\
-**Tree mappings:** ROADIES node 1076; ASTRAL node 659.\
+**Tree mappings:** ROADIES node 1076; ASTRAL node 657.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Aulostomus maculatus_ (Aulostomidae) and _Syngnathus acus_ (Syngnathidae).\
 **Fossil taxon:** †_Gasterorhamphosus zuppichini_ (MCSNV 877)\
 **Minimum age:** 72.2Ma\
@@ -91,7 +91,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL098:** Lampriformes + Polymixiiformes + Percopsiformes + Zeiformes + Stylephoriformes + Gadiformes | 97.4–145.0Ma\
-**Tree mappings:** ASTRAL node 641; not implemented in ROADIES.\
+**Tree mappings:** ASTRAL node 639; not implemented in ROADIES.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Lampris incognitus_ (Lampriformes: Lampridae) and _Gadus morhua_ (Gadiformes: Gadidae).\
 **Fossil taxon:** †_Xenyllion stewarti_ (FHPR 701) from the Mowry Formation (Cretaceous: Cenomanian), Utah, United States ([Newbrey et al. 2013](https://www.pfeil-verlag.de/wp-content/uploads/2015/05/4_59d14.pdf)).\
 **Minimum age:** 97.4Ma\
@@ -103,7 +103,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL099:** Polymixiiformes + Percopsiformes + Zeiformes + Stylephoriformes + Gadiformes | 89.8–145.0Ma\
-**Tree mappings:** ASTRAL node 642; not implemented in ROADIES.\
+**Tree mappings:** ASTRAL node 640; not implemented in ROADIES.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Polymixia lowei_ (Polymixiiformes: Polymixiidae) and _Gadus morhua_ (Gadiformes: Gadidae).\
 **Fossil taxon:** †_Boreiohydrias dayi_ (UALVP 54046) from the Lac des Bois locality (Cretaceous: Turonian), Northwest Territories, Canada ([Murray & Cumbaa 2013](https://doi.org/10.1080/02724634.2013.722574)).\
 **Minimum age:** 89.8Ma\
@@ -115,7 +115,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL016:** Zeogadaria | 72.2–145.0Ma\
-**Tree mappings:** ROADIES node 1087; ASTRAL node 645.\
+**Tree mappings:** ROADIES node 1087; ASTRAL node 643.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Zeus faber_ (Zeiformes: Zeidae) and _Gadus morhua_ (Gadiformes: Gadidae).\
 **Fossil taxon:** †_Cretazeus rinaldii_ (CCN 6659C)\
 **Minimum age:** 72.2Ma\
@@ -127,7 +127,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL017:** Esociformes + Salmoniformes | 76.2–201.5Ma\
-**Tree mappings:** ROADIES node 1099; ASTRAL node 626.\
+**Tree mappings:** ROADIES node 1099; ASTRAL node 624.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Esox lucius_ (Esociformes: Esocidae) and _Salmo trutta_ (Salmoniformes: Salmonidae).\
 **Fossil taxon:** †_Oldmanesox canadensis_ (TMP 86.23.51)\
 **Minimum age:** 76.2Ma\
@@ -139,7 +139,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL106:** Salmonidae | 51.43–113.9Ma\
-**Tree mappings:** ROADIES node 1100; ASTRAL node 627.\
+**Tree mappings:** ROADIES node 1100; ASTRAL node 625.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Coregonus lavaretus_ (Salmonidae: Coregoninae) and _Salvelinus alpinus_ (Salmonidae: Salmoninae).\
 **Fossil taxon:** †_Eosalmo driftwoodensis_ (holotype ROM 11178 A and B)\
 **Minimum age:** 51.43Ma\
@@ -151,7 +151,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL018:** Gobionidae + Leuciscidae | 27.3–66.0Ma\
-**Tree mappings:** ROADIES node 1109; ASTRAL node 615.\
+**Tree mappings:** ROADIES node 1109; ASTRAL node 613.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Gobio gobio_ (Gobionidae) and _Phoxinus phoxinus_ (Leuciscidae).\
 **Fossil taxon:** †_Palaeotinca moeddeni_ (BSPG 2003 XVIII 51)\
 **Minimum age:** 27.3Ma\
@@ -163,7 +163,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL019:** Leuciscidae | 23.0–33.9Ma\
-**Tree mappings:** ROADIES node 1110; ASTRAL node 617.\
+**Tree mappings:** ROADIES node 1110; ASTRAL node 615.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Cyprinella venusta_ (Pogonichthyinae) and _Phoxinus phoxinus_ (Phoxininae).\
 **Fossil taxon:** †_Palaeorutilus papyraceus_ (University of Leipzig Ro-6)\
 **Minimum age:** 23.0Ma\
@@ -175,7 +175,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL020:** Barbinae + Cyprininae | 38.0–66.0Ma\
-**Tree mappings:** ROADIES node 1117; ASTRAL node 614.\
+**Tree mappings:** ROADIES node 1117; ASTRAL node 612.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Barbus barbus_ (Barbinae) and _Carassius carassius_ (Cyprininae).\
 **Fossil taxon:** †_Eoprocypris maomingensis_ (IVPP V.855)\
 **Minimum age:** 38.0Ma\
@@ -187,7 +187,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL021:** Ariidae + Pangasiidae | 33.9–125.0Ma\
-**Tree mappings:** ROADIES node 1123; ASTRAL node 610.\
+**Tree mappings:** ROADIES node 1123; ASTRAL node 608.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Pangasianodon hypophthalmus_ (Pangasiidae) and _Neoarius graeffei_ (Ariidae).\
 **Fossil taxon:** †_Qarmoutus hitanensis_ (MUVP 58)\
 **Minimum age:** 33.9Ma\
@@ -199,7 +199,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL022:** Bryconidae + Characidae + Erythrinidae + Serrasalmidae | 72.2–125.0Ma\
-**Tree mappings:** ROADIES node 1124; ASTRAL node 604.\
+**Tree mappings:** ROADIES node 1124; ASTRAL node 602.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Pygocentrus nattereri_ (Serrasalmidae) and _Astyanax mexicanus_ (Acestrorhamphidae).\
 **Fossil taxon:** †_Eotexachara malateres_ (TMM 45947-640)\
 **Minimum age:** 72.2Ma\
@@ -211,7 +211,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL023:** Elopomorpha | 149.2–201.5Ma\
-**Tree mappings:** ROADIES node 1132; ASTRAL node 592.\
+**Tree mappings:** ROADIES node 1132; ASTRAL node 590.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Megalops cyprinoides_ (Megalopidae) and _Anguilla anguilla_ (Anguillidae).\
 **Fossil taxon:** †_Anaethalion knorri_ (Eichstӓtt 2267)\
 **Minimum age:** 149.2Ma\
@@ -223,7 +223,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL024:** Holostei | 251.2–298.9Ma\
-**Tree mappings:** ROADIES node 1134; ASTRAL node 589.\
+**Tree mappings:** ROADIES node 1134; ASTRAL node 587.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Amia calva_ (Amiiformes: Amiidae) and _Lepisosteus oculatus_ (Lepisosteiformes: Lepisosteidae).\
 **Fossil taxon:** †_Watsonulus eugnathoides_ (MCZ 13871–13878)\
 **Minimum age:** 251.2Ma\
@@ -235,7 +235,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL025:** Chondrichthyes | 382.3–443.1Ma\
-**Tree mappings:** ROADIES node 1135; ASTRAL node 570.\
+**Tree mappings:** ROADIES node 1135; ASTRAL node 568.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Hydrolagus colliei_ (Chimaeriformes: Chimaeridae) and _Mustelus asterias_ (Carcharhiniformes: Triakidae).\
 **Fossil taxon:** †_Phoebodus sophiae_ (DMF 5296)\
 **Minimum age:** 382.3Ma\
@@ -247,7 +247,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL026:** Carcharhiniformes + Lamniformes | 165.3–251.2Ma\
-**Tree mappings:** ROADIES node 1140; ASTRAL node 582.\
+**Tree mappings:** ROADIES node 1140; ASTRAL node 580.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Carcharodon carcharias_ (Lamniformes: Lamnidae) and _Mustelus asterias_ (Carcharhiniformes: Triakidae).\
 **Fossil taxon:** †_Palaeoscyllium tenuidens_ (BMNH P. 66045)\
 **Minimum age:** 165.3Ma\
@@ -259,7 +259,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL100:** Cetorhinidae + Lamnidae | 39.5–143.1Ma\
-**Tree mappings:** ROADIES node 1141; ASTRAL node 584.\
+**Tree mappings:** ROADIES node 1141; ASTRAL node 582.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Carcharodon carcharias_ (Lamniformes: Lamnidae) and _Cetorhinus maximus_ (Lamniformes: Cetorhinidae).\
 **Fossil taxon:** †_Keasius taylori_ (holotype NWM 2100)\
 **Minimum age:** 39.5Ma\
@@ -271,7 +271,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL027:** Batomorpha | 184.2–251.2Ma\
-**Tree mappings:** ROADIES node 1145; ASTRAL node 573.\
+**Tree mappings:** ROADIES node 1145; ASTRAL node 571.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Raja brachyura_ (Rajiformes: Rajidae) and _Hypanus sabinus_ (Myliobatiformes: Dasyatidae).\
 **Fossil taxon:** †_Antiquaobatis grimmenensis_ (GG 438/57)\
 **Minimum age:** 184.2Ma\

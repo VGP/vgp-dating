@@ -2,12 +2,12 @@
 
 Squamates have a high density of well-preserved fossils, reviewed by [Simões and Pyron (2021)](https://bioone.org/journals/bulletin-of-the-museum-of-comparative-zoology/volume-163/issue-2/0027-4100-163.2.47/THE-SQUAMATE-TREE-OF-LIFE/10.3099/0027-4100-163.2.47.short). Results from phylogenomic and total-evidence analyses have been relatively consistent across most recent studies, providing a plethora of potential calibrations. In contrast, our limited sampling of squamates limits this applicability somewhat. Here, we primarily rely on the most recent phylogenomic analyses of [Burbrink et al. (2020)](https://academic.oup.com/sysbio/article/69/3/502/5573126) and [Title et al. (2024)](https://www.science.org/doi/10.1126/science.adh2449) and the total-evidence analyses of [Pyron (2017)](https://academic.oup.com/sysbio/article/66/1/38/2670090) and [Simões et al. (2026)](https://doi.org/10.1093/sysbio/syaf067) and references therein, using the nomenclature of [Burbrink et al. (2020)](https://academic.oup.com/sysbio/article/69/3/502/5573126) for node names. References to [Pyron (2017)](https://academic.oup.com/sysbio/article/66/1/38/2670090) generally refer to Fig. 3d, the GEA combined, calibrated model. All nodes are referred to as crown groups unless otherwise specified.
 
-CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.numbers.nwk) (`astralpro.l6p1`).
+CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.perspecies.numbers.nwk) (`astralpro.l6p1`).
 
 ### Calibrations:
 
 **CAL064:** Squamata | 166.0–215.0Ma\
-**Tree mapping:** ROADIES node 748; ASTRAL node 940\
+**Tree mapping:** ROADIES node 748; ASTRAL node 936\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant squamates (_Dibamus smithi_ and _Podarcis erhardii_).\
 **Fossil taxa:** †_Eichstaettisaurus schroederi_ (BSPG 1937), †_Helioscopus dickersonae_ (DINO 15914), †_Eoscincus ornatus_ (DINO 14864), and †_Paramacellodus_ sp. (DINO 13861)\
 **Minimum age:** Middle Jurassic, at 166Ma.\
@@ -19,7 +19,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL101:** Stem Gekkota | 150.0–190.0Ma\
-**Tree mappings:** ROADIES node 781; ASTRAL node 941.\
+**Tree mappings:** ROADIES node 781; ASTRAL node 937.\
 **Node calibrated:** Last common ancestor of the clade encompassing _Eublepharis macularius_ (Gekkota: Eublepharidae) and _Dibamus smithi_ (Dibamidae).\
 **Fossil taxa:** †_Eichstaettisaurus schroederi_ (BSPG 1937 I 1a,b) and †_Helioscopos dickersonae_ (DINO 15914)\
 **Minimum age:** Late Jurassic, at 150Ma.\
@@ -31,7 +31,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL065:** Unidentata | 166.0–205.0Ma\
-**Tree mapping:** ROADIES node 749; ASTRAL node 943\
+**Tree mapping:** ROADIES node 749; ASTRAL node 939\
 **Node calibrated:** Last common ancestor of the clade encompassing Scincoidea (_Tiliqua scincoides_) and Lacertoidea (_Podarcis erhardii_).\
 **Fossil taxon:** †_Paramacellodus_ sp. (e.g., DINO 13861; [Evans 1998](https://doi.org/10.1127/pala/250/1998/123))\
 **Minimum age:** Middle Jurassic, at 166Ma.\
@@ -42,7 +42,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL066:** Toxicofera | 166.0–190.0Ma\
-**Tree mapping:** ROADIES node 767; ASTRAL node 945\
+**Tree mapping:** ROADIES node 767; ASTRAL node 941\
 **Node calibrated:** Last common ancestor of the clade encompassing Serpentes (_Natrix helvetica_), Iguania, and Anguimorpha (_Shinisaurus crocodilurus_).\
 **Fossil taxa:** †_Eophis underwoodi_ (NHMUK PV R 12355), †_Breugnathair elgolensis_ (NMS G.2023.7.1)\
 **Minimum age:** Bathonian, Middle Jurassic, at 166Ma.\
@@ -53,7 +53,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL067:** Endoglyptodonta | 20.0–66.0Ma\
-**Tree mapping:** ROADIES node 769; ASTRAL node 954\
+**Tree mapping:** ROADIES node 769; ASTRAL node 950\
 **Node calibrated:** Last common ancestor of the clade encompassing Viperidae (_Vipera berus_) and Colubroides (_Erythrolamprus reginae_).\
 **Fossil taxon:** _Vipera_ cf. _aspis_ (MNHN SG 13732–3)\
 **Minimum age:** 20.0Ma\
@@ -64,7 +64,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL068:** Natricidae | 13.8–33.9Ma\
-**Tree mapping:** ROADIES node 771; ASTRAL node 958\
+**Tree mapping:** ROADIES node 771; ASTRAL node 954\
 **Node calibrated:** Last common ancestor of the clade encompassing _Natrix helvetica_ and _Thamnophis elegans_.\
 **Fossil taxon:** _Natrix_ aff. _longivertebrata_ (UCBL 285075–6, 285452, 285077, 285078–285451, 285453)\
 **Minimum age:** 13.8Ma\
@@ -75,7 +75,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL069:** Constrictores | 48.0–100.5Ma\
-**Tree mapping:** ROADIES node 774; ASTRAL node 953\
+**Tree mapping:** ROADIES node 774; ASTRAL node 949\
 **Node calibrated:** Last common ancestor of the clade encompassing Pythonidae (_Liasis olivaceus_) and Boidae (_Candoia aspera_).\
 **Fossil taxon:** †_Eoconstrictor fischeri_ (SMF-ME 929) and †_Rageryx schmidi_ (HLMD-Me 9723)\
 **Minimum age:** Middle Eocene, Palaeogene, at 48Ma.\
@@ -86,7 +86,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL070:** Pleurodonta | 48.0–120.0Ma\
-**Tree mapping:** ROADIES node 777; ASTRAL node 951\
+**Tree mapping:** ROADIES node 777; ASTRAL node 947\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant pleurodontan iguanians, here represented by Iguanidae (_Cyclura pinguis_) and Dactyloidae (_Anolis sagrei_).\
 **Fossil taxa:** †_Geiseltaliellus_ (various material; see [Smith 2009](https://doi.org/10.3374/014.050.0201)) and †_Babibasiliscus alxi_ (UWBM 89090)\
 **Minimum age:** Early Eocene, Paleogene, at 48Ma.\
@@ -98,7 +98,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL071:** Chamaeleoninae | 20.0–66.0Ma\
-**Tree mapping:** ROADIES node 778; ASTRAL node 950\
+**Tree mapping:** ROADIES node 778; ASTRAL node 946\
 **Node calibrated:** Last common ancestor of the clade encompassing _Bradypodion pumilum_ and _Furcifer pardalis_, which is within the crown group Chamaeleoninae.\
 **Fossil taxon:** †_Calumma benovskyi_ (KNM-RU 18340)\
 **Minimum age:** 20.0Ma\
@@ -109,7 +109,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL072:** Anguimorpha | 70.0–150.0Ma\
-**Tree mapping:** ROADIES node 779; ASTRAL node 947\
+**Tree mapping:** ROADIES node 779; ASTRAL node 943\
 **Node calibrated:** Last common ancestor of the clade encompassing Shinisauridae (_Shinisaurus crocodilurus_) and Anniellidae (_Anniella stebbinsi_).\
 **Fossil taxon:** †_Aiolosaurus oriens_ (IGM 3/171; MAE 283/93-108)\
 **Minimum age:** Maastrichtian, Late Cretaceous, at 70Ma.\
@@ -121,7 +121,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL073:** Stem Anguidae | 33.9–100.5Ma\
-**Tree mapping:** ROADIES node 780; ASTRAL node 948\
+**Tree mapping:** ROADIES node 780; ASTRAL node 944\
 **Node calibrated:** Last common ancestor of the clade encompassing Anniellidae (_Anniella stebbinsi_) and Anguidae (_Elgaria multicarinata_).\
 **Fossil taxon:** _Ophisaurus_ sp. (IWCMS.2006.35)\
 **Minimum age:** Eocene-Oligocene boundary, 33.9Ma\

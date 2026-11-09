@@ -20,6 +20,11 @@ REPO = BASE.parent.parent
 TREES = {'ASTRAL': 'astralpro.l6p1', 'ROADIES': 'roadies_v1.1.16b'}
 
 
+def config_path(tree):
+    stem = tree + ('.perspecies' if tree == 'astralpro.l6p1' else '')
+    return BASE / tree / (stem + '.round2.config')
+
+
 def run(*args):
     display = ['<validation code>' if isinstance(x, str) and '\n' in x else str(x) for x in args]
     print('+', ' '.join(display), flush=True)
@@ -69,7 +74,7 @@ def digest(path):
 
 
 def prepare(name, tree, results, stage, treepl):
-    source = BASE / tree / (tree + '.config')
+    source = config_path(tree)
     original = source.read_text()
     settings = json.loads((results / 'settings.json').read_text())
     status = json.loads((results / 'status.json').read_text())
@@ -90,7 +95,7 @@ def prepare(name, tree, results, stage, treepl):
     dest = stage / tree
     dest.mkdir(parents=True)
     run('Rscript', '-e', VALIDATE_R, treepath, results / 'dated.tre', source)
-    (dest / (tree + '.config')).write_text(recommended)
+    (dest / source.name).write_text(recommended)
     shutil.copyfile(results / 'dated.tre', dest / (tree + '.treePL.tre'))
     shutil.copyfile(results / 'summary.png', dest / 'optimization.png')
     points = list(csv.DictReader((results / 'points.csv').open()))
@@ -122,7 +127,7 @@ def main():
     root = a.results_root.resolve() if a.results_root else REPO / '.cache' / ('treepl-' + datetime.now().strftime('%Y%m%d-%H%M%S'))
     if not a.results_root:
         for name, tree in TREES.items():
-            run(sys.executable, BASE / 'treepl_benchmark.py', BASE / tree / (tree + '.config'),
+            run(sys.executable, BASE / 'treepl_benchmark.py', config_path(tree),
                 '--treepl', treepl, '--output', root / name, '--workers', a.workers)
     (REPO / '.cache').mkdir(exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='treepl-update-', dir=REPO / '.cache') as tmp:

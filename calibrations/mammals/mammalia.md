@@ -2,12 +2,12 @@
 
 Our calibrations derive primarily from Upham et al. ([2019](https://doi.org/10.1371/journal.pbio.3000494)) and Álvarez-Carretero et al. ([2022](https://doi.org/10.1038/s41586-021-04341-1)), with recent updates and revisions therein. Many of the calibrations were originally derived from Benton et al. ([2015](https://doi.org/10.26879/424)) and Phillips ([2015](https://doi.org/10.26879/490)), which we indicate when appropriate. Minimum ages are hard cutoffs, while maximum ages are ‘soft maxima’ where the upper 95% of the age distribution is younger than the given age and the remaining 5% tapers off in accordance with the prior’s shape (e.g., skew–_t_; [Álvarez-Carretero et al. 2022](https://doi.org/10.1038/s41586-021-04341-1)).
 
-CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.numbers.nwk) (`astralpro.l6p1`).
+CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.perspecies.numbers.nwk) (`astralpro.l6p1`).
 
 ## Calibrations:
 
 **CAL040:** Mammalia | 164.9–201.5Ma\
-**Tree mapping:** ROADIES node 783; ASTRAL node 772\
+**Tree mapping:** ROADIES node 783; ASTRAL node 770\
 **Node calibrated:** Most recent common ancestor of monotremes (_Ornithorhynchus anatinus_), marsupials (_Monodelphis domestica_), and placentals (_Dasypus novemcinctus_)\
 **Fossil taxa:** †_Ambondro mahabo_ (UA 10602) from the Isalo III Formation of the Mahajanga Basin in northwestern Madagascar ([Flynn et al. 1999](https://doi.org/10.1038/43420))\
 **Minimum age:** Middle Jurassic (Bathonian), 164.9Ma\
@@ -19,7 +19,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL041:** Theria | 156.3–169.6Ma\
-**Tree mapping:** ROADIES node 784; ASTRAL node 774\
+**Tree mapping:** ROADIES node 784; ASTRAL node 772\
 **Node calibrated:** The most recent common ancestor of marsupials (_Monodelphis domestica_) and placentals (_Dasypus novemcinctus_)\
 **Fossil taxa:** †_Juramaia sinensis_ (PM1143) from the Daxigou site in the Middle–Late Jurassic Tiaojishan formation, Jianchang County, Liaoning Province, China ([Luo et al. 2011](https://doi.org/10.1038/nature10291))\
 **Minimum age:** Late Jurassic (Oxfordian), 156.3Ma\
@@ -31,7 +31,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL042:** Monotremata | 16.0–113.0Ma\
-**Tree mapping:** ROADIES node 947; ASTRAL node 773\
+**Tree mapping:** ROADIES node 947; ASTRAL node 771\
 **Node calibrated:** Most recent common ancestor of Tachyglossidae (_Tachyglossus aculeatus_) and Ornithorhynchidae (_Ornithorhynchus anatinus_)\
 **Fossil taxa:** †_Obdurodon dicksoni_ (QMF20568) from the Riversleigh World Heritage Area in Queensland, Australia ([Archer et al. 1992](https://catalogue.nla.gov.au/catalog/608888))\
 **Minimum age:** Early Miocene, 15.97Ma\
@@ -43,7 +43,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL043:** Marsupialia | 47.6–131.3Ma\
-**Tree mapping:** ROADIES node 938; ASTRAL node 775\
+**Tree mapping:** ROADIES node 938; ASTRAL node 773\
 **Node calibrated:** Most recent common ancestor of Paucituberculata (_Lestoros inca_), Didelphimorphia (_Monodelphis domestica_) and Australidelphia (_Dromiciops gliroides_)\
 **Fossil taxa:** †_Djarthia murgonensis_ (QMF52748) from the Eocene Tingamarra Local Fauna at the Murgon fossil site in southeastern Queensland, Australia ([Godthelp et al. 1999](https://doi.org/10.1023%2FA%3A1020517808869))\
 **Minimum age:** Early Eocene (Ypresian), 47.6Ma\
@@ -55,7 +55,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL044:** Placentalia | 61.6–125.8Ma\
-**Tree mapping:** ROADIES node 785; ASTRAL node 784\
+**Tree mapping:** ROADIES node 785; ASTRAL node 782\
 **Node calibrated:** The most recent common ancestor of Atlantogenata (_Dasypus novemcinctus_) and Boroeutheria (_Tupaia tana_)\
 **Fossil taxa:** †_Ravenictis krausei_ (UALVP 31175) from the Ravenscrag Formation of the early Puercan of Saskatchewan, Canada ([Fox and Youzwyshyn 1994](https://doi.org/10.1080/02724634.1994.10011566))\
 **Minimum age:** Early Paleocene (Danian), 61.6Ma\
@@ -67,7 +67,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL045:** Afrotheria | 59.2–125.8Ma\
-**Tree mapping:** ROADIES node 931; ASTRAL node 788\
+**Tree mapping:** ROADIES node 931; ASTRAL node 786\
 **Node calibrated:** The most recent common ancestor of Paenungulata (_Dugong dugon_) and Afroinsectiphilia (_Rhynchocyon petersi_)\
 **Fossil taxa:** †_Ocepeia daouiensis_ (CPSGM MA1) from the Ouled Abdoun Basin (Paleocene), Morocco ([Gheerbrant et al. 2014](https://doi.org/10.1371/journal.pone.0089739))\
 **Minimum age:** Middle Paleocene (Selandian), 59.24Ma\
@@ -79,7 +79,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL105:** Proboscidea | 5.05–23.03Ma\
-**Tree mapping:** ROADIES node 934; ASTRAL node 792\
+**Tree mapping:** ROADIES node 934; ASTRAL node 790\
 **Node calibrated:** The most recent common ancestor of _Loxodonta africana_ and _Elephas maximus indicus_ within Elephantidae\
 **Fossil taxa:** †_Loxodonta cookei_, including the holotype SAM-PQ-L 45627, a right M2 from the Pelletal Phosphate Member of the Varswater Formation, E Quarry, Langebaanweg, South Africa ([Sanders 2007](https://doi.org/10.1080/00359190709519192))\
 **Minimum age:** Early Pliocene (Zanclean), 5.05Ma\
@@ -91,7 +91,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL107:** Sirenia | 29.17–66.0Ma\
-**Tree mapping:** ROADIES node 935; ASTRAL node 790\
+**Tree mapping:** ROADIES node 935; ASTRAL node 788\
 **Node calibrated:** The most recent common ancestor of Dugongidae (_Dugong dugon_) and Trichechidae (_Trichechus inunguis_)\
 **Fossil taxa:** †_Priscosiren atlantica_ (USNM 542417) from the San Sebastián Formation, Puerto Rico ([Vélez-Juarbe and Domning 2014](https://doi.org/10.1080/02724634.2013.815192))\
 **Minimum age:** Early Oligocene (Rupelian), 29.17Ma\
@@ -103,7 +103,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL046:** Xenarthra | 47.6–125.8Ma\
-**Tree mapping:** ROADIES node 936; ASTRAL node 786\
+**Tree mapping:** ROADIES node 936; ASTRAL node 784\
 **Node calibrated:** The most recent common ancestor of Cingulata (_Dasypus novemcinctus_) and Folivora (_Choloepus didactylus_)\
 **Fossil taxa:** †_Riostegotherium yanei_ (MCN-PV 1774) from the Itaboraí Formation of the Itaboraian land-mammal age (middle Paleocene to early Eocene) of Rio de Janeiro, Brazil ([Oliveira and Bergqvist 1998](https://peapaleontologica.org.ar/index.php/peapa/article/view/174))\
 **Minimum age:** Early Eocene (Ypresian), 47.6Ma\
@@ -115,7 +115,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL047:** Chiroptera | 47.9–66.0Ma\
-**Tree mapping:** ROADIES node 845; ASTRAL node 841\
+**Tree mapping:** ROADIES node 845; ASTRAL node 837\
 **Node calibrated:** The most recent common ancestor of Yinpterochiroptera (_Rousettus aegyptiacus_) and Yangochiroptera (_Rhynchonycteris naso_)\
 **Fossil taxa:** †_Tachypteron franzeni_ (Institut Royal des Sciences Naturelles de Belgique, Bruxelles, specimen BE 4-119a+b) from the Grube Messel oil shale, near Darmstadt, Germany ([Storch et al. 2002](https://doi.org/10.1007/BF02989856))\
 **Minimum age:** Middle Eocene (Lutetian: MP11), 47.9Ma\
@@ -127,7 +127,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL048:** Yinpterochiroptera | 33.9–58.9Ma\
-**Tree mapping:** ROADIES node 876; ASTRAL node 842\
+**Tree mapping:** ROADIES node 876; ASTRAL node 838\
 **Node calibrated:** The most recent common ancestor of Pteropodidae (_Rousettus aegyptiacus_) and Rhinolophidae (_Rhinolophus trifoliatus_)\
 **Fossil taxa:** †_Saharaderma pseudovampyrus_ (CGM 83672) from quarry L-41, lower sequence of the Jebel Qatrani formation, Fayûm depression, Egypt ([Gunnell et al. 2008](https://doi.org/10.1671/0272-4634(2008)28[1:NBMCFT]2.0.CO;2))\
 **Minimum age:** Latest Eocene (Priabonian), 33.9Ma\
@@ -139,7 +139,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL049:** Vespertilionoidea | 37.8–58.9Ma\
-**Tree mapping:** ROADIES node 847; ASTRAL node 861\
+**Tree mapping:** ROADIES node 847; ASTRAL node 857\
 **Node calibrated:** The most recent common ancestor of Molossidae (_Molossus nigricans_) and Miniopteridae (_Miniopterus schreibersii_)\
 **Fossil taxa:** †_Cuvierimops parisiensis_ (LEB1_CupprA.1.7, left M1/ [Plate 2f], from the collections of UM2) from the late Eocene Quercy phosphorites France ([Maitre 2014](https://doi.org/10.1007/s13358-014-0069-3))\
 **Minimum age:** Late Eocene (Priabonian), 37.8Ma\
@@ -151,7 +151,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL050:** Stem Noctilionoidea | 26.0–58.9Ma\
-**Tree mapping:** ROADIES node 869; ASTRAL node 854\
+**Tree mapping:** ROADIES node 869; ASTRAL node 850\
 **Node calibrated:** The most recent common ancestor of Emballonuroidea (_Rhynchonycteris naso_: Emballonuridae) and Noctilionoidea (_Phyllostomus discolor_: Phyllostomidae)\
 **Fossil taxa:** †_Koopmanycteris palaeomormoops_ (UF 157765) from Brooksville 2 LF, early Arikareean NALMA, Hernando County, Florida, USA ([Morgan et al. 2019](https://doi.org/10.1206/0003-0090.434.1.1))\
 **Minimum age:** Late Oligocene (Chattian stage: Arikareean NALMA), 26Ma\
@@ -163,7 +163,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL051:** Euarchonta | 65.8–125.8Ma\
-**Tree mapping:** ROADIES node 916; ASTRAL node 795\
+**Tree mapping:** ROADIES node 916; ASTRAL node 793\
 **Node calibrated:** The most recent common ancestor of Primates (_Homo sapiens_), Dermoptera (_Cynocephalus volans_), and Scandentia (_Tupaia tana_)\
 **Fossil taxa:** †_Purgatorius mckeeveri_ (UCMP 150021) from the Harley’s Point locality in the Tullock Member of the Fort Union Formation in Montana, USA ([Wilson Mantilla et al. 2021](https://doi.org/10.1098/rsos.210050))\
 **Minimum age:** Early Paleocene (Danian), 65.79Ma\
@@ -175,7 +175,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL052:** Primates | 56.0–66.0Ma\
-**Tree mapping:** ROADIES node 918; ASTRAL node 797\
+**Tree mapping:** ROADIES node 918; ASTRAL node 795\
 **Node calibrated:** The most recent common ancestor of Strepsirrhini (_Lemur catta_) and Haplorhini (_Homo sapiens_)\
 **Fossil taxa:** †_Altiatlasius koulchii_ (THR 141) from the Adrar Mgorn 1 locality in the Jbel Guersif Formation of the Ouarzazate Basin, Morocco ([Sigé et al. 1990](https://www.schweizerbart.de/papers/pala/detail/A214/71382/iAltiatlasius_koulchii_i_n_gen_et_sp_primate_omomyide_du_Paleocene_superieur_du_Maroc_et_les_origines_des_euprimates))\
 **Minimum age:** Late Paleocene (Thanetian), 56.0Ma\
@@ -187,7 +187,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL053:** Strepsirrhini | 33.9–56.0Ma\
-**Tree mapping:** ROADIES node 929; ASTRAL node 798\
+**Tree mapping:** ROADIES node 929; ASTRAL node 796\
 **Node calibrated:** The most recent common ancestor of Lorisoidea (_Nycticebus coucang_) and Lemuroidea (_Lemur catta_)\
 **Fossil taxa:** †_Karanisia clarki_ (CGM40265) from the Birket Qarun Formation (Eocene: Priabonian) of Fayûm, Egypt ([Seiffert et al. 2003](https://doi.org/10.1038/nature01489))\
 **Minimum age:** Late Eocene (Priabonian), 33.9Ma\
@@ -199,7 +199,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL054:** Anthropoidea | 33.9–66.0Ma\
-**Tree mapping:** ROADIES node 919; ASTRAL node 799\
+**Tree mapping:** ROADIES node 919; ASTRAL node 797\
 **Node calibrated:** The most recent common ancestor of Catarrhini (_Homo sapiens_) and Platyrrhini (_Callithrix jacchus_)\
 **Fossil taxa:** †_Catopithecus browni_ (DPC 8701) from the Fayum Depression of Egypt ([Simons 1989](https://doi.org/10.1073/pnas.86.24.9956))\
 **Minimum age:** Late Eocene (Priabonian), 33.9Ma\
@@ -211,7 +211,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL055:** Catarrhini | 24.4–34.0Ma\
-**Tree mapping:** ROADIES node 920; ASTRAL node 801\
+**Tree mapping:** ROADIES node 920; ASTRAL node 799\
 **Node calibrated:** The most recent common ancestor of Cercopithecoidea (_Macaca fascicularis_) and Hominoidea (_Homo sapiens_)\
 **Fossil taxa:** †_Rukwapithecus fleaglei_ (RRBP 12444A, Ohio University USA) from the Nsungwe Formation, Rukwa Rift Basin, Tanzania ([Stevens et al. 2013](https://doi.org/10.1038/nature12161))\
 **Minimum age:** Late Oligocene (Chattian), 24.44Ma\
@@ -223,7 +223,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL103:** Hominini (_Homo_ + _Pan_) | 4.631–15.0Ma\
-**Tree mapping:** ROADIES node 924; ASTRAL node 807\
+**Tree mapping:** ROADIES node 924; ASTRAL node 805\
 **Node calibrated:** The most recent common ancestor of _Homo sapiens_ and _Pan troglodytes_ within Hominidae\
 **Fossil taxa:** †_Ardipithecus ramidus_ (GWM5sw/P56), a mandibular ramus and partial dentition (p3–m3) from locality GWM-5sw, Gona, Ethiopia ([Semaw et al. 2005](https://doi.org/10.1038/nature03177), [Simpson et al. 2019](https://doi.org/10.1016/j.jhevol.2018.12.005))\
 **Minimum age:** Early Pliocene (Zanclean), 4.631Ma\
@@ -235,7 +235,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL056:** Lagomorpha | 47.6–66.0Ma\
-**Tree mapping:** ROADIES node 915; ASTRAL node 811\
+**Tree mapping:** ROADIES node 915; ASTRAL node 808\
 **Node calibrated:** The most recent common ancestor of Leporidae (_Oryctolagus cuniculus_) and Ochotonidae (_Ochotona princeps_).\
 **Fossil taxa:** Unnamed leporid fossils (GU/RSR/VAS 711) from the early Eocene Cambay Shales at the Vastan lignite mine, Gujarat, India ([Rose et al. 2008](https://doi.org/10.1098/rspb.2007.1661))\
 **Minimum age:** Early Eocene (Ypresian), 47.6Ma\
@@ -247,7 +247,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL057:** Rodentia | 41.0–66.0Ma\
-**Tree mapping:** ROADIES node 892; ASTRAL node 812\
+**Tree mapping:** ROADIES node 892; ASTRAL node 809\
 **Node calibrated:** The most recent common ancestor of Muroidea (_Mus musculus_), Sciuromorpha (_Sciurus vulgaris_), and Hystricomorpha (_Erethizon dorsatum_)\
 **Fossil taxa:** †_Ischyromys_ sp. (USNM PAL 617532) from West Canyon Creek, Wyoming, USA ([Heaton 1996](https://doi.org/10.1017/CBO9780511665431.019))\
 **Minimum age:** Middle Eocene (Lutetian), 41.03Ma\
@@ -259,7 +259,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL058:** Hystricomorpha | 31.6–56.0Ma\
-**Tree mapping:** ROADIES node 914; ASTRAL node 814\
+**Tree mapping:** ROADIES node 914; ASTRAL node 811\
 **Node calibrated:** The most recent common ancestor of Ctenodactylomorphi (_Ctenodactylus gundi_) and Hystricognathi (_Erethizon dorsatum_)\
 **Fossil taxa:** †_Eoviscaccia frassinetti_ (SGOPV 2935) from the Tinguiririca River valley, Termas del Flaco, Chile ([Bertrand et al. 2012](https://doi.org/10.1206/3750.2))\
 **Minimum age:** Early Oligocene (Tinguirican) 31.6Ma\
@@ -271,7 +271,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL059:** Castorimorpha | 37.7–66.0Ma\
-**Tree mapping:** ROADIES node 906; ASTRAL node 822\
+**Tree mapping:** ROADIES node 906; ASTRAL node 819\
 **Node calibrated:** The most recent common ancestor of Geomyoidea (_Thomomys bottae_) and Castoroidea (_Castor canadensis_)\
 **Fossil taxa:** †_Heliscomys walshi_ (LACM 153717) from the Sespe Formation of California, USA ([Kelly 2009](https://rivp-paludicola.org/wp-content/uploads/2018/05/7-3-kelly-2009.pdf))\
 **Minimum age:** Middle Eocene (Bartonian), 37.71Ma\
@@ -283,7 +283,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL060:** Stem Murinae | 16.0–18.3Ma\
-**Tree mapping:** ROADIES node 896; ASTRAL node 829\
+**Tree mapping:** ROADIES node 896; ASTRAL node 826\
 **Node calibrated:** The most recent common ancestor of Murinae (_Mus musculus_) and Deomyinae (_Acomys russatus_)\
 **Fossil taxa:** †_Potwarmus primitivus_ (YGSP 19577, right m2 from locality YGSP 592; [Lindsay 1988, plate 10d](https://doi.org/10.18563/pv.18.2.95-154)) from the lower and middle Siwalik deposits in the Potwar Plateau of Pakistan ([Wessels et al. 1982](https://ubbern.swisscovery.slsp.ch/permalink/41SLSP_UBE/ar3q4e/alma99118009708505511), [Lindsay 1988](https://doi.org/10.18563/pv.18.2.95-154))\
 **Minimum age:** Middle Miocene (Langhian), 15.98Ma\
@@ -295,7 +295,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL061:** Murinae (part: Murini + Arvicanthini) | 11.1–12.3Ma\
-**Tree mapping:** ROADIES node 898; ASTRAL node 833\
+**Tree mapping:** ROADIES node 898; ASTRAL node 830\
 **Node calibrated:** The most recent common ancestor of Murini (_Mus musculus_) and Arvicanthini (_Arvicanthis niloticus_)\
 **Fossil taxa:** †_Karnimata_ sp., M1 specimens from YGSP localities Y791 and Y797, Pakistan ([Kimura et al. 2015](https://doi.org/10.1038/srep14444))\
 **Minimum age:** Late Miocene (Tortonian), 11.1Ma\
@@ -307,7 +307,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL063:** Carnivora | 37.3–66.0Ma\
-**Tree mapping:** ROADIES node 827; ASTRAL node 888\
+**Tree mapping:** ROADIES node 827; ASTRAL node 884\
 **Node calibrated:** The most recent common ancestor of Caniformia (_Vulpes vulpes_) and Feliformia (_Lynx canadensis_)\
 **Fossil taxa:** †_Hesperocyon gregarius_ (SMNH P1899.6) from the Lac Pelletier local fauna of the Cypress Hills Formation (Duchesnean NALMA), Saskatchewan, Canada ([Bryant 1992](https://doi.org/10.1017/S0022336000020850))\
 **Minimum age:** Middle Eocene (Bartonian), 37.3Ma\
@@ -319,7 +319,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL104:** Vulpini + Canini | 7.05–23.03Ma\
-**Tree mapping:** ROADIES node 837; ASTRAL node 892\
+**Tree mapping:** ROADIES node 837; ASTRAL node 888\
 **Node calibrated:** The most recent common ancestor of _Vulpes vulpes_ and _Canis lupus familiaris_ within Canidae\
 **Fossil taxa:** †_Vulpes stenognathus_ (LACM 55211) from CIT locality 63, Thousand Creek Formation, Humboldt County, Nevada, USA ([Tedford et al. 2009](https://doi.org/10.1206/574.1))\
 **Minimum age:** Late Miocene (Messinian), 7.05Ma\
@@ -331,7 +331,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL108:** Pinnipedia | 20.45–33.9Ma\
-**Tree mapping:** ROADIES node 836; ASTRAL node 897\
+**Tree mapping:** ROADIES node 836; ASTRAL node 893\
 **Node calibrated:** The most recent common ancestor of Otariidae (_Zalophus californianus_) and Phocidae (_Halichoerus grypus_)\
 **Fossil taxa:** †_Desmatophoca brachycephala_ (LACM 120199) from the lower Astoria Formation near Knappton, Washington, USA ([Barnes 1987](https://doi.org/10.5962/p.208126))\
 **Minimum age:** Early Miocene (Aquitanian), 20.45Ma\
@@ -343,7 +343,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL062:** Artiodactyla | 52.4–66.0Ma\
-**Tree mapping:** ROADIES node 791; ASTRAL node 904\
+**Tree mapping:** ROADIES node 791; ASTRAL node 900\
 **Node calibrated:** Last common ancestor of Tylopoda (_Camelus dromedarius_) and Ruminantia (_Muntiacus reevesi_)\
 **Fossil taxa:** †_Himalayacetus subathuensis_ (RUSB 2003) from the Subathu Formation (zone IIIc), India ([Bajpai and Gingerich 1998](https://doi.org/10.1073/pnas.95.26.15464))\
 **Minimum age:** Early Eocene (Ypresian), 52.4Ma\
@@ -355,7 +355,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 ---
 
 **CAL102:** Cetacea (Neoceti) | 36.4–52.4Ma\
-**Tree mapping:** ROADIES node 795; ASTRAL node 914\
+**Tree mapping:** ROADIES node 795; ASTRAL node 910\
 **Node calibrated:** The most recent common ancestor of Mysticeti (_Balaenoptera musculus_) and Odontoceti (_Tursiops truncatus_)\
 **Fossil taxa:** †_Mystacodon selenensis_ (MUSM 1917), a partial articulated skeleton from the Yumaque Member of the Paracas Formation at Playa Media Luna, Peru ([Lambert et al. 2017](https://doi.org/10.1016/j.cub.2017.04.026), [de Muizon et al. 2019](https://doi.org/10.5252/geodiversitas2019v41a11))\
 **Minimum age:** Late Eocene (Priabonian), 36.4Ma\
