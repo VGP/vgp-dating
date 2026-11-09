@@ -1,6 +1,6 @@
 # Exploratory treePL analyses
 
-[treePL](https://github.com/blackrim/treePL) provides exploratory dates using [fossil constraints](../../calibrations/README.md). Updated dated trees are documented under [MD-CAT](../README.md).
+[treePL](https://github.com/blackrim/treePL) provides exploratory dates using the [fossil constraints](../../calibrations/README.md). The released dated trees use [MD-CAT](../README.md).
 
 ## Results
 
@@ -14,8 +14,6 @@ ASTRAL uses the 563-tip per-species input and 162,228 genes. ROADIES uses 123,14
 CV scores: [ROADIES](roadies_v1.1.16b/generated/optimization.round2.tsv), [ASTRAL](astralpro.l6p1/generated/optimization.round2.tsv). Ages and branch lengths are in Ma. Calibration bounds are hard limits in treePL.
 
 The configs and benchmark use a patched version of treePL. The [patch](treepl.patch) fixes cross-validation sampling, optimizer selection, and numerical issues in treePL. It also allows the benchmark to carry useful fits between smoothing values. [Build instructions](#build-treepl) are below.
-
-![ROADIES treePL timescale](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.round2.png)
 
 ## Run the optimizer
 

@@ -27,11 +27,11 @@ The [comparison table](mdcat/node_age_comparison.tsv) lists the paired nodes, ag
 
 ## Analysis commands
 
-Siavash's original calibration configs and run manifests are retained for [ROADIES](mdcat/roadies_v1.1.16b/manifest.json) and the [per-species ASTRAL analysis](mdcat/astralpro.l6p1/manifest.json). The manifests record the input and config hashes, settings, seeds, and commands. Both analyses use the full gene counts: 123,141 for ROADIES and 162,228 for ASTRAL. The original configs retain their treePL paths; the MD-CAT commands explicitly specify the input trees.
+Both analyses used MD-CAT 1.1.15 with the full gene counts: 123,141 for ROADIES and 162,228 for ASTRAL. Each analysis used 100 independently sampled calibration sets, 200 rate categories, 100 optimization starts per set, and a maximum of 100 iterations per fit. Each fit contributed 100 confidence-interval replicates.
 
-The manifests report MD-CAT version 1.1.15, with 100 independently sampled calibration sets, 200 rate categories, 100 optimization starts per set, and at most 100 iterations per fit. Each fit contributes 100 confidence-interval replicates.
+The calibration configs used for these analyses are provided alongside run manifests for [ROADIES](mdcat/roadies_v1.1.16b/manifest.json) and [ASTRAL](mdcat/astralpro.l6p1/manifest.json). The manifests record input and config hashes, settings, random seeds, and commands. The configs retain their original treePL paths; MD-CAT receives the input tree explicitly through `-i` and reads the calibration constraints from the config specified by `-t`.
 
-These commands reconstruct the recorded settings using paths relative to the repository root. They require MD-CAT in the Python environment; `--jobs` controls how many fits run concurrently. Outputs go to `results/mdcat` so the released files are preserved.
+The commands below reproduce the recorded analysis settings with paths adapted to the repository root. They require MD-CAT in the Python environment and write results to `results/mdcat`, leaving the released files unchanged. Adjust `--jobs` to control the number of concurrent fits.
 
 ```sh
 python -m emd.sample \
