@@ -156,7 +156,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 - †_Messelornis nearctica_ [Hesse, 1992](https://www.biodiversitylibrary.org/item/348547#page/213/mode/1up) – several skeletons (BHI 1283, 1292, 1294; FMNH A 716; SMF Av 406; SMNK-PAL 3810; USNM 336269, 336277, 776273, 776275) from the Fossil Butte Member of the Green River Formation (51.97±0.16Ma), Wyoming, USA ([Weidig 2010](https://journals.australian.museum/weidig-2010-rec-aust-mus-621-2944/)). See Musser et al. ([2019](https://doi.org/10.3390/d11070102)) for phylogenetic analysis.
 
-- Rallidae indet. – distal end of left tarsometatarsus (DPC 3858) from the upper sequence of Quarry M in the Jebel Qatrani Formation (early Oligocene, 28.4–33.9Ma) at Fayum, Egypt ([Rasmussen et al. 1987](http://dx.doi.org/10.5479/si.00810266.62.1)).
+- Rallidae indet. – distal end of left tarsometatarsus (DPC 3858) from the upper sequence of Quarry M in the Jebel Qatrani Formation (early Oligocene, 28.4–33.9Ma) at Fayum, Egypt ([Rasmussen et al. 1987](https://doi.org/10.5479/si.00810266.62.1)).
 
 - †_Australlus disneyi_ ([Boles, 2005](https://journals.australian.museum/boles-2005-rec-aust-mus-572-179190/)), specimens (QM F20906, 23723, 31469–76) from the White Hunter Site (Faunal Zone A, late Oligocene, 23.04–26Ma), Riversleigh, Queensland, Australia. Phylogenetic position determined by cladistic analysis ([Worthy & Boles 2011](https://doi.org/10.3853/j.0067-1975.63.2011.1563)).
 
@@ -185,7 +185,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 - Unnamed taxon represented by the distal end of right humerus (SMF AV 619) from the Nanjemoy Formation at the Fisher/Sullivan site, Virginia, USA ([Mayr 2016](https://doi.org/10.1007/s12542-016-0330-8)). The bone shows apomorphic features of Charadriiformes ([Mayr 2016](https://doi.org/10.1007/s12542-016-0330-8)) and a cladistic analysis placed it within crown Charadriiformes ([Musser & Clarke 2020](https://doi.org/10.3389/fevo.2020.559929), [Heingård et al. 2021](https://doi.org/10.3390/d13120651)). The Nanjemoy Formation is ~53–54Ma ([Berggren et al. 1995](https://doi.org/10.7916/D8XD1B1H)).
 
-- †_Nupharanassa bulotorum_ [Rasmussen, Olson, & Simons, 1987](http://dx.doi.org/10.5479/si.00810266.62.1) – distal tarsometatarsi (DPC 3848, 5327–8) from the Jebel Qatrani Formation at Quarry M (29.5–30.2Ma; [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103)), Fayum Province, Egypt ([Rasmussen et al. 1987](http://dx.doi.org/10.5479/si.00810266.62.1)).
+- †_Nupharanassa bulotorum_ [Rasmussen, Olson, & Simons, 1987](https://doi.org/10.5479/si.00810266.62.1) – distal tarsometatarsi (DPC 3848, 5327–8) from the Jebel Qatrani Formation at Quarry M (29.5–30.2Ma; [Seiffert 2006](https://doi.org/10.1073/pnas.0600689103)), Fayum Province, Egypt ([Rasmussen et al. 1987](https://doi.org/10.5479/si.00810266.62.1)).
 
 - †_Oligonomus milleri_ [De Pietri, Camens, & Worthy 2015](https://doi.org/10.1111/ibi.12215) – left coracoid (SAMA P27976) from member 7 of the Etadunna Formation at Lake Palankarinna (Faunal Zone B, 24–26Ma; [Woodburne et al. 1994](https://doi.org/10.1080/02724634.1994.10011527)), South Australia, Australia. Affinities with Pedionomidae based on combination of similarities ([De Pietri et al. 2015](https://doi.org/10.1111/ibi.12215)).
 
@@ -243,7 +243,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 - _Phoebastria_ cf. _albatrus_ ([Pallas, 1769](https://doi.org/10.5962/bhl.title.39832)) – right humeral shaft (KUGM FA 2018.007) from the Hirayama Formation (early Pleistocene, 1.7Ma), Japan ([Watanabe et al. 2019](https://doi.org/10.1080/02724634.2019.1697277)).
 
-- _Puffinus pacificus_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/66/mode/1up)) – at least two individuals (MHNR MHN-RUN-FE-O 1833–7, 1919) from Holocene deposits (~300–1700AD) in Marais de l'Ermitage, Reunión Island, Mascarene Islands ([Mourer-Chauviré et al. 1999](http://dx.doi.org/10.5479/si.00810266.89.1)). 
+- _Puffinus pacificus_ ([Gmelin, 1789](https://www.biodiversitylibrary.org/item/83107#page/66/mode/1up)) – at least two individuals (MHNR MHN-RUN-FE-O 1833–7, 1919) from Holocene deposits (~300–1700AD) in Marais de l'Ermitage, Reunión Island, Mascarene Islands ([Mourer-Chauviré et al. 1999](https://doi.org/10.5479/si.00810266.89.1)).
 
 **Minimum age:** 60.5Ma\
 **Minimum justification:** Dated by nannofossil biostratigraphy of the oldest taxon, †_Waimanu_. The matrix of the holotype CM zfa35 contained the coccolithophores _Chiasmolithus bidens_ and _Hornibrookina teurensis_ which indicate an age between 61.6 and 60.5Ma ([Slack et al. 2006](https://doi.org/10.1093/molbev/msj124)). †_W. manneringi_ is nearly coeval with several other fossil penguins but its age is better constrained, and its minimum possible age, in particular, is older than the others ([Blokland et al. 2019](https://doi.org/10.26879/1009)).\
@@ -301,7 +301,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 - _Leptosomus discolor_ ([Hermann, 1783](https://www.biodiversitylibrary.org/item/120418#page/206/mode/1up)) – remains (DLC 18042) from Ankilitelo Cave (0.005–0.013Ma), Madagascar ([Goodman et al. 2013](https://doi.org/10.11646/zootaxa.3750.5.6)).
 
-- _Halcyon sancta_ [Vigors & Horsfield, 1827](https://www.biodiversitylibrary.org/item/13694#page/212/mode/1up) – two right humeri (accessions not specified) from the Holocene of Gilles Cave (0.0032–0.0036Ma), New Caledonia ([Balouet & Olson 1989](http://dx.doi.org/10.5479/si.00810282.469))
+- _Halcyon sancta_ [Vigors & Horsfield, 1827](https://www.biodiversitylibrary.org/item/13694#page/212/mode/1up) – two right humeri (accessions not specified) from the Holocene of Gilles Cave (0.0032–0.0036Ma), New Caledonia ([Balouet & Olson 1989](https://doi.org/10.5479/si.00810282.469))
 
 **Minimum age:** 62.2Ma\
 **Minimum justification:** The oldest of these taxa, †_Tsidiiyazhi abini_, is from NMMNH locality L-6898, which was located within magnetochron C27N, constraining the absolute age to between 62.221 and 62.517Ma ([Ksepka et al. 2017](https://doi.org/10.1073/pnas.1700188114)).\

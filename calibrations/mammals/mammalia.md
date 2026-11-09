@@ -14,7 +14,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Minimum justification:** Specimen locality dated to Bathonian, top of which is 166.1Ma, ± 1.2 Myr = 164.9Ma ([Benton et al. 2015](https://doi.org/10.26879/424))\
 **Maximum age:** Jurassic-Triassic Boundary, 201.5Ma\
 **Maximum justification:** The closest known relative of crown mammals, †_Hadrocodium_, dates to early Jurassic Sinemurian ([Luo et al. 2001](https://doi.org/10.1126/science.1058476)), and other closely related mammaliaformes are known from the Late Triassic ([Benton et al. 2015](https://doi.org/10.26879/424))\
-**Discussion:** This fossil is the oldest-known member of the monotreme clade Australosphenida from the middle Jurassic (Bathonian) of Madagascar ([Benton et al. 2015](https://doi.org/10.26879/424), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Luo et al. 2002](https://www.app.pan.pl/article/pdf/41/item/app47-001.html), [Luo et al. 2011](https://doi.org/10.1038/nature10291)), and the oldest-known credible crown mammalian.
+**Discussion:** This fossil is the oldest-known member of the monotreme clade Australosphenida from the middle Jurassic (Bathonian) of Madagascar ([Benton et al. 2015](https://doi.org/10.26879/424), [Flynn et al. 1999](https://doi.org/10.1038/43420), [Luo et al. 2002](https://www.app.pan.pl/article/item/app47-001.html), [Luo et al. 2011](https://doi.org/10.1038/nature10291)), and the oldest-known credible crown mammalian.
 
 ---
 

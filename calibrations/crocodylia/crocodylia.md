@@ -1,6 +1,6 @@
 # Crocodylia calibrations
 
-The root node (**CAL083:** Crocodylia), separating _Alligator_ and _Gavialis_, generally dates to the Late/Upper Cretaceous, ~90Ma, based on fossil and molecular estimates (see below). While there is an extensive crocodilian fossil record – both stem and crown – dating back to the Triassic ([Stockdale and Benton 2021](https://doi.org/10.1038/s42003-020-01561-5), [Payne et al. 2024](https://doi.org/10.1038/s41559-023-02244-0)), there are only a few well-constrained fossils in the vicinity of crown Crocodylia based on recent total-evidence phylogenetic analyses ([Lee and Yates 2018](https://doi.org/10.1098/rspb.2018.1071), [Darlim et al. 2022](https://doi.org/10.1098/rsbl.2021.0603), [Zamora-Vega et al. 2025](https://doi.org/10.1098/rsbl.2025.0238)). With expanded future taxon sampling, we can also calibrate **CAL $X:** Longirostres based on consensus between these different phylogenetic estimates regarding the oldest-known crown longirostran †_Kentisuchus_, which is confidently placed on the stem of Gavialidae to the exclusion of Crocodylidae.
+The root node (**CAL083:** Crocodylia), separating _Alligator_ and _Gavialis_, generally dates to the Late/Upper Cretaceous, ~90Ma, based on fossil and molecular estimates (see below). While there is an extensive crocodilian fossil record – both stem and crown – dating back to the Triassic ([Stockdale and Benton 2021](https://doi.org/10.1038/s42003-020-01561-5), [Payne et al. 2024](https://doi.org/10.1038/s41559-023-02244-0)), there are only a few well-constrained fossils in the vicinity of crown Crocodylia based on recent total-evidence phylogenetic analyses ([Lee and Yates 2018](https://doi.org/10.1098/rspb.2018.1071), [Darlim et al. 2022](https://doi.org/10.1098/rsbl.2021.0603), [Zamora-Vega et al. 2025](https://doi.org/10.1098/rsbl.2025.0238)). Expanded taxon sampling would also allow calibration of Longirostres based on consensus among these phylogenetic estimates regarding the oldest-known crown longirostran †_Kentisuchus_, which is confidently placed on the stem of Gavialidae to the exclusion of Crocodylidae.
 
 CAL identifiers refer to records in the [master calibration list](../master_calibrations.csv). Tree mappings give the corresponding node numbers in [ROADIES v0.0.0](../../trees/roadies_v1.1.16b.numbers.nwk) (`roadies_v1.1.16b`) and [ASTRAL v0.1.1](../../trees/astralpro.l6p1.perspecies.numbers.nwk) (`astralpro.l6p1`).
 
@@ -17,9 +17,9 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Discussion:** Other time-scaled parsimony analyses such as [Salas-Gismondi et al. 2019](https://www.tandfonline.com/doi/full/10.1080/14772019.2018.1495275) also support a Late Cretaceous origin for Crocodylia and a crown placement of †_Leidyosuchus_, but do not report their exact age estimates and were therefore not considered
 
 
-### Future calibrations for larger tree
+### Calibrations for expanded taxon sampling
 
-**CAL $X:** Longirostres | 51.5–113.2Ma\
+**Longirostres** | 51.5–113.2Ma\
 **Node calibrated:** The most recent common ancestor of Gavialidae (_Gavialis gangeticus_) and Crocodylidae (_Crocodylus niloticus_)\
 **Fossil taxa:** †_Kentisuchus spenceri_ (NHM 19633) from the London Clay, Isle of Sheppey, England ([Buckland 1836](https://doi.org/10.5962/bhl.title.125523))\
 **Minimum age:** Early Eocene (Ypresian), 51.5Ma\

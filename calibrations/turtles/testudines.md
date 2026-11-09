@@ -114,9 +114,9 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 **Discussion:** A range of material likely assignable to the stem of Dermochelyidae exists from the Paleocene and Eocene along with a number of other †_Eosphargis_ specimens (summarized by [Joyce et al. 2013](https://doi.org/10.1666/12-149)), but they remain to be properly characterized phylogenetically and stratigraphically.
 
 
-### Future calibrations for larger tree
+### Calibrations for expanded taxon sampling
 
-**CAL $X:** Pelomedusoides | 125.0–157.3Ma\
+**Pelomedusoides** | 125.0–157.3Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant pelomedusoids: Podocnemidae (_Podocnemis expansa_) + Pelomedusidae (_Pelomedusa somalica_)\
 **Fossil taxa:** †_Atolchelys lepida_ (UERJ.MC 2)\
 **Minimum age:** 125.0Ma\
@@ -127,7 +127,7 @@ CAL identifiers refer to records in the [master calibration list](../master_cali
 
 ---
 
-**CAL $X:** Trionychia | 124.0–177.6Ma\
+**Trionychia** | 124.0–177.6Ma\
 **Node calibrated:** Last common ancestor of the clade encompassing all extant trionychians: Carettochelyidae (_Carettochelys insculpta_) + Trionychidae (_Chitra chitra_)\
 **Fossil taxa:** Pan-Trionychidae indet. (FPDM V-127)\
 **Minimum age:** 124.0Ma\
