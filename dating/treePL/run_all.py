@@ -96,12 +96,12 @@ def prepare(name, tree, results, stage, treepl):
     dest.mkdir(parents=True)
     run('Rscript', '-e', VALIDATE_R, treepath, results / 'dated.tre', source)
     (dest / source.name).write_text(recommended)
-    shutil.copyfile(results / 'dated.tre', dest / (tree + '.treePL.tre'))
-    shutil.copyfile(results / 'summary.png', dest / 'optimization.png')
+    shutil.copyfile(results / 'dated.tre', dest / Path(option(original, 'outfile')).name)
+    shutil.copyfile(results / 'summary.png', dest / 'optimization.round2.png')
     points = list(csv.DictReader((results / 'points.csv').open()))
     attempts = json.loads((results / 'attempts.json').read_text())
     n = settings['replicates']
-    with (dest / 'optimization.tsv').open('w', newline='') as f:
+    with (dest / 'optimization.round2.tsv').open('w', newline='') as f:
         writer = csv.writer(f, delimiter='\t', lineterminator='\n')
         writer.writerow(['smoothing', 'accepted', 'discarded', 'median_cv', 'selected'] + [f'cv_{i+1}' for i in range(n)])
         for point in sorted(points, key=lambda p: float(p['x']), reverse=True):

@@ -4,18 +4,18 @@
 
 ## Results
 
-The ASTRAL config now uses the 563-tip per-species input and 162,228 genes. Its displayed results are from the previous 565-tip analysis, pending the new optimization. ROADIES retains 123,141 genes and its existing results.
+ASTRAL uses the 563-tip per-species input and 162,228 genes. ROADIES uses 123,141 genes.
 
 | Analysis | Calibrations | Smoothing | Config | Dated tree | Calibrated ages | Figures |
 | --- | ---: | ---: | --- | --- | --- | --- |
-| ROADIES | 105 | 1 | [Config](roadies_v1.1.16b/roadies_v1.1.16b.round2.config) | [Accessions](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.tre), [names](roadies_v1.1.16b/generated/roadies_v1.1.16b.scientific.treePL.tre) | [TSV](roadies_v1.1.16b/generated/roadies_v1.1.16b.calibrated_node_ages.tsv) | [Tree](roadies_v1.1.16b/generated/roadies_v1.1.16b.dated.pdf), [optimization](roadies_v1.1.16b/generated/optimization.png) |
-| ASTRAL | 100 | 0.01 | [Config](astralpro.l6p1/astralpro.l6p1.perspecies.round2.config) | [Accessions](astralpro.l6p1/generated/astralpro.l6p1.treePL.tre), [names](astralpro.l6p1/generated/astralpro.l6p1.scientific.treePL.tre) | [TSV](astralpro.l6p1/generated/astralpro.l6p1.calibrated_node_ages.tsv) | [Tree](astralpro.l6p1/generated/astralpro.l6p1.dated.pdf), [optimization](astralpro.l6p1/generated/optimization.png) |
+| ROADIES | 105 | 1 | [Config](roadies_v1.1.16b/roadies_v1.1.16b.round2.config) | [Accessions](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.round2.tre), [names](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.round2.scientific.tre) | [TSV](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.round2.calibrated_node_ages.tsv) | [Tree](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.round2.pdf), [optimization](roadies_v1.1.16b/generated/optimization.round2.png) |
+| ASTRAL | 100 | 0.01 | [Config](astralpro.l6p1/astralpro.l6p1.perspecies.round2.config) | [Accessions](astralpro.l6p1/generated/astralpro.l6p1.perspecies.treePL.round2.tre), [names](astralpro.l6p1/generated/astralpro.l6p1.perspecies.treePL.round2.scientific.tre) | [TSV](astralpro.l6p1/generated/astralpro.l6p1.perspecies.treePL.round2.calibrated_node_ages.tsv) | [Tree](astralpro.l6p1/generated/astralpro.l6p1.perspecies.treePL.round2.pdf), [optimization](astralpro.l6p1/generated/optimization.round2.png) |
 
-CV scores: [ROADIES](roadies_v1.1.16b/generated/optimization.tsv), [ASTRAL](astralpro.l6p1/generated/optimization.tsv). Ages and branch lengths are in Ma. Calibration bounds are hard limits in treePL.
+CV scores: [ROADIES](roadies_v1.1.16b/generated/optimization.round2.tsv), [ASTRAL](astralpro.l6p1/generated/optimization.round2.tsv). Ages and branch lengths are in Ma. Calibration bounds are hard limits in treePL.
 
 The configs and benchmark use a patched version of treePL. The [patch](treepl.patch) fixes cross-validation sampling, optimizer selection, and numerical issues in treePL. It also allows the benchmark to carry useful fits between smoothing values. [Build instructions](#build-treepl) are below.
 
-![ROADIES treePL timescale](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.png)
+![ROADIES treePL timescale](roadies_v1.1.16b/generated/roadies_v1.1.16b.treePL.round2.png)
 
 ## Run the optimizer
 

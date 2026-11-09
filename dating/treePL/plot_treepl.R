@@ -9,13 +9,14 @@ script <- sub("^--file=", "", grep("^--file=", commandArgs(), value = TRUE)[1])
 base <- dirname(normalizePath(script))
 repo <- dirname(dirname(base))
 output_dir <- if (length(args) == 2L) args[2] else file.path(base, analysis, "generated")
-output <- function(suffix) file.path(output_dir, paste0(analysis, suffix))
+output_stem <- paste0(analysis, if (analysis == "astralpro.l6p1") ".perspecies" else "", ".treePL.round2")
+output <- function(suffix) file.path(output_dir, paste0(output_stem, suffix))
 library(phytools)
 library(plotrix)
 library(png)
 
 # read in tree
-tree<-read.tree(output(".treePL.tre"))
+tree<-read.tree(output(".tre"))
 tree$node.label <- (Ntip(tree) + 1):(Ntip(tree) + tree$Nnode)
 
 # Calibration nodes and bounds from the master list.
@@ -56,7 +57,7 @@ duplicated_names <- duplicated(scientific_tree$tip.label) |
 scientific_tree$tip.label[duplicated_names] <- paste(
     scientific_tree$tip.label[duplicated_names],
     tree$tip.label[duplicated_names], sep = "_")
-write.tree(scientific_tree, output(".scientific.treePL.tre"), digits = 17)
+write.tree(scientific_tree, output(".scientific.tre"), digits = 17)
 
 # Display the arc with fishes on the left and birds on the right.
 # Reorder only the plotting copy, after writing the scientific-name tree.
@@ -79,7 +80,7 @@ mrca_df$estimated_age_ma <- branching.times(tree)[as.character(mrca_df$node)]
 vgp <- png::readPNG(file.path(dirname(base), "vgp.png"))
 label <- if (analysis == "astralpro.l6p1") "ASTRAL" else "ROADIES"
 
-png(output(".treePL.png"), width=3000, height=1720, res=230, type="cairo")
+png(output(".png"), width=3000, height=1720, res=230, type="cairo")
 par(mar=c(.4,.25,.3,.25), xaxs="i", yaxs="i", family="sans", fg="#44484B")
 lim <- c(-1.415*h, 1.415*h); ylim <- c(-.19*h, 1.41*h)
 plotTree(tree, color="white", type="arc", lwd=1, ftype="off", arc_height=ah, xlim=lim, ylim=ylim)
@@ -241,7 +242,7 @@ minimum_panel_height <- max(3,1.4+nrow(cal)*.12)+4.3+5.6+2+.75+4
 page_height <- if(is.null(opts$height)) max(20,n*0.15+4,minimum_panel_height) else as.numeric(opts$height)
 if (any(!is.finite(c(width,page_height))) || width<12 || page_height<12) stop('PDF dimensions must be at least 12 inches.')
 tree_name <- sub('\\.(nwk|tre|tree)$','',basename(opts$tree),ignore.case=TRUE)
-tree_name <- sub('(\\.scientific)?\\.treePL$','',tree_name,ignore.case=TRUE)
+tree_name <- sub('\\.treePL\\.round2(\\.scientific)?$','',tree_name,ignore.case=TRUE)
 title <- if(is.null(opts$title)) tree_name else opts$title
 out <- opts$output;dir.create(dirname(out),recursive=TRUE,showWarnings=FALSE)
 pdf(NULL)
@@ -422,8 +423,8 @@ if (!file.rename(pdf_temp,out)) stop('Could not save final PDF: ',out)
 message('Created ',out,'; ',n,' tips, ',length(nodes),' node labels, ',nrow(cal),' calibration ranges. All panels occupy checked clear space.')
 
 }
-if (sys.nframe() == 0L) make_atlas(list(tree=output('.scientific.treePL.tre'),
-                `accession-tree`=output('.treePL.tre'),
+if (sys.nframe() == 0L) make_atlas(list(tree=output('.scientific.tre'),
+                `accession-tree`=output('.tre'),
                 calibrations=output('.calibrated_node_ages.tsv'),
-                output=output('.dated.pdf'),
+                output=output('.pdf'),
                 title=paste(if (analysis == 'astralpro.l6p1') 'ASTRAL' else 'ROADIES', 'treePL')))
