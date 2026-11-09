@@ -155,8 +155,32 @@ def fit(job):
         status='complete' if good else 'discarded',score=score if score is not None and math.isfinite(score) else None,
         objective=objective if objective is not None and math.isfinite(objective) else None,
         folds=[v if math.isfinite(v) else None for v in folds], masks=masks,
+        initial_folds=[v if math.isfinite(v) else None for v in
+            map(float,re.findall(r'^cv check: (\S+)',text,re.M))],
         optimizer_evaluation_limits=len(re.findall(r'^result:\s*5\s*$',text,re.M)),
         state=str(folder/'state.0'), seconds=time.monotonic()-started, folder=str(folder))
+
+
+def fit_cv(job, next_cv):
+    primary = fit(job)
+    attempts = [primary]
+    if (primary['status'] != 'complete' or next_cv == job['profile']['optcvad']
+            or not any(a == b for a,b in zip(primary['initial_folds'],primary['folds']))):
+        return primary, attempts
+    # Resume the completed full-tree and fold states; treePL retains better training fits.
+    fallback = dict(job, profile=dict(job['profile'],optcvad=next_cv),
+        start=primary['state'], folder=job['folder']+'-cv-fallback')
+    alternative = fit(fallback)
+    attempts.append(alternative)
+    if alternative['status'] == 'complete':
+        if alternative['masks'] != primary['masks']:
+            raise RuntimeError('CV fallback used different held-out groups')
+        pairs = list(zip(primary['folds'],alternative['folds']))
+        if all(b <= a for a,b in pairs) and any(b < a for a,b in pairs):
+            primary['status'] = 'superseded'
+            return alternative, attempts
+        alternative['status'] = 'not_selected'
+    return primary, attempts
 
 
 def dips(points):
@@ -187,7 +211,7 @@ class Sweep:
             atomic_json(self.root/'races.json',self.races)
         atomic_json(self.root/'status.json',dict(phase=self.phase,elapsed_seconds=time.monotonic()-self.started,
             completed_values=sum(p['median'] is not None for p in self.points.values()),
-            treepl_calls=self.calls,replicates=self.a.replicates,current_profile=self.current,
+            treepl_calls=self.calls,replicates=self.a.replicates,workers=self.a.workers,current_profile=self.current,
             optimizer_evaluation_limits=sum(r.get('optimizer_evaluation_limits',0) for r in
                 {r['folder']:r for r in self.rows+self.races}.values())))
         if status_only: return
@@ -256,30 +280,41 @@ class Sweep:
 
     def evaluate(self,x,index):
         self.points[x]={'median':None}; self.phase=f'CV: {10**x:g}'; self.write()
-        pending=set(range(self.a.replicates)); retries={r:0 for r in pending}; accepted={}
-        while pending:
-            jobs={r:self.job(x,r,retries[r],self.ranking[retries[r] % len(self.ranking)],'cv') for r in sorted(pending)[:5]}
-            pool=ThreadPoolExecutor(max_workers=self.a.workers)
-            try:
-                futures={pool.submit(fit,j):r for r,j in jobs.items()}
-                for f in as_completed(futures):
-                    rep=futures[f]; row=f.result(); self.rows.append(row)
-                    if row['status']=='complete':
-                        accepted[rep]=row['score']; self.states[rep].append((x,row['state']));pending.remove(rep)
-                    else: retries[rep]+=1
-                    print(f"x={x:g} replicate={rep+1} optimizer={row['profile']['opt']} {row['status']} score={row['score']} {row['seconds']:.1f}s",flush=True)
-                    self.write()
-            except BaseException:
-                with LOCK:
-                    for proc in list(ACTIVE): proc.terminate()
-                raise
-            finally: pool.shutdown(wait=True,cancel_futures=True)
+        accepted={r['replicate']:r['score'] for r in self.rows if r['x']==x and r['status']=='complete'}
+        pending=set(range(self.a.replicates))-accepted.keys()
+        retries={r:sum(z['x']==x and z['replicate']==r and z['status']=='discarded'
+            and not z['folder'].endswith('-cv-fallback') for z in self.rows) for r in pending}
+        pool=ThreadPoolExecutor(max_workers=self.a.workers)
+        def submit(rep):
+            job=self.job(x,rep,retries[rep],self.ranking[retries[rep] % len(self.ranking)],'cv')
+            return pool.submit(fit_cv,job,self.ranking[(retries[rep]+1) % len(self.ranking)]['optcvad'])
+        try:
+            futures={submit(r):r for r in sorted(pending)}
+            while futures:
+                f=next(as_completed(futures)); rep=futures.pop(f)
+                row,attempts=f.result(); self.rows.extend(attempts)
+                self.calls += len(attempts)-1
+                if row['status']=='complete':
+                    accepted[rep]=row['score']; self.states[rep].append((x,row['state']))
+                else:
+                    retries[rep]+=1; futures[submit(rep)]=rep
+                print(f"x={x:g} replicate={rep+1} optimizer={row['profile']['opt']} cv_optimizer={row['profile']['optcvad']} "
+                    f"{row['status']} score={row['score']} {sum(r['seconds'] for r in attempts):.1f}s",flush=True)
+                self.write()
+        except BaseException:
+            pool.shutdown(wait=False,cancel_futures=True)
+            with LOCK:
+                for proc in list(ACTIVE): proc.terminate()
+            raise
+        finally: pool.shutdown(wait=True,cancel_futures=True)
         self.points[x]['median']=statistics.median(accepted.values()); self.write()
 
     def run(self):
-        atomic_json(self.root/'settings.json',dict(replicates=self.a.replicates,cv_batch_size=5,workers=self.a.workers,seed=self.a.seed,
+        atomic_json(self.root/'settings.json',dict(replicates=self.a.replicates,workers=self.a.workers,seed=self.a.seed,
+            cv_scheduling='continuous worker pool within each smoothing value',
             first_sweep=list(range(4,-7,-1)),detail_flags='off during sweep; test at selected minimum', optimizer_selection='six profiles, four matched CV starts at smoothing 1; fastest tied training fit; ranked fallback',
             treepl_fitting_parameters='native defaults', retry_policy='no fixed limit',
+            cv_fallback='unchanged training fit: try next ranked CV optimizer from saved states; retain better training objectives',
             config_sha256=hashlib.sha256(self.a.config.resolve().read_bytes()).hexdigest(),
             tree_sha256=hashlib.sha256(Path(self.tree).read_bytes()).hexdigest(),
             binary_sha256=hashlib.sha256(Path(self.binary).read_bytes()).hexdigest()))

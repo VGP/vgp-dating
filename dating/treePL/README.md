@@ -27,14 +27,16 @@ python3 dating/treePL/run_all.py --treepl /path/to/patched/treePL
 ```
 
 The benchmark tests optimizer settings and uses cross-validation to compare
-11 smoothing values from `1e4` to `1e-6`, using 15 CV replicates per value in
-batches of up to five. Failed attempts are retried without reducing the replicate
-count. It then improves the final fit at the
+11 smoothing values from `1e4` to `1e-6`, using 15 CV replicates per value.
+Workers start another replicate as soon as they finish. Failed attempts are retried without reducing the replicate
+count. When a CV training fit is unchanged, the next ranked CV optimizer is
+checked from the saved fits, retaining improvements to the training objectives.
+It then improves the final fit at the
 best smoothing value. The CV figure updates as results become available.
 
 Tree paths in the config are relative to the config file. Use `--workers` to
 set the worker limit; by default, the script uses all available logical
-CPUs except one, with at most five CV fits at a time. Use `--replicates` when
+CPUs except one. Use `--replicates` when
 calling the benchmark directly to change the number of CV replicates.
 The benchmark writes its results to the output folder without
 changing the input config.
