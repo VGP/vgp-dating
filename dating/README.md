@@ -1,8 +1,8 @@
 # VGP Phase I dated trees
 
-We dated the ROADIES v0.0.0 and per-species ASTRAL v0.1.1 trees with [MD-CAT](https://github.com/smirarab/MD-Cat), repeating the analysis with ages sampled from the fossil calibration distributions. Independent sampling draws each calibration age separately, redrawing incompatible ages. Reported node ages are means across 100 fitted runs, with 95% pooled-percentile intervals calculated from 10,000 confidence-interval replicates. Ages and branch lengths are in **millions of years (Ma)**. `round2` denotes the final revision of the 108 fossil calibrations. Earlier configurations were not retained; this repository provides the final version.
+We dated the ROADIES v0.0.0 and per-species ASTRAL v0.1.1 trees with [MD-CAT](https://github.com/smirarab/MD-Cat), repeating the analysis with ages sampled from the fossil calibration distributions. Independent sampling draws each calibration age separately, redrawing incompatible ages. Reported node ages are means across 100 fitted runs, with 95% pooled-percentile intervals calculated from 10,000 confidence-interval replicates. Ages and branch lengths are in **millions of years (Ma)**.
 
-The [calibration documentation](../calibrations/README.md) provides the fossil justifications. The [master list](../calibrations/master_calibrations.csv) contains 108 constraints, with 105 mapped to ROADIES, 100 to ASTRAL, and 97 shared. The [reference-tree documentation](../trees/README.md) describes the topologies, annotations, and APE node-numbering.
+The [calibration documentation](../calibrations/README.md) provides the fossil justifications. The [master list](../calibrations/master_calibrations.csv) contains 108 constraints, with 105 mapped to ROADIES, 100 to ASTRAL, and 97 shared. The [reference-tree documentation](../trees/README.md) describes the topologies, annotations, and APE node-numbering. `round2` denotes the final revision of the 108 fossil calibrations. Earlier configurations were not retained; this repository provides the final version.
 
 ## Dated trees
 
